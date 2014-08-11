@@ -1,0 +1,17 @@
+/INSTALL
+/Makefile
+/Makefile.in
+/aclocal.m4
+/apertium-fao.pc
+/autom4te.cache
+/config.log
+/config.status
+/configure
+/fao.autogen.att.gz
+/fao.autogen.bin
+/fao.automorf.att.gz
+/fao.automorf.bin
+/fao.rlx.bin
+/install-sh
+/missing
+/modes
