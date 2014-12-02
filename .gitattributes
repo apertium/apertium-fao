@@ -10,5 +10,6 @@
 /apertium-fao.pc.in -text
 /autogen.sh -text
 /configure.ac -text
-dev/n.wiktionary-infl.speling -text
+dev/n.wiktionary-infl.1.speling -text
+dev/n.wiktionary-infl.2.speling -text
 /modes.xml -text
