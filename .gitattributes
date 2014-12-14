@@ -14,4 +14,6 @@ dev/adj.wiktionary-infl.1.speling -text
 dev/n.wiktionary-infl.1.speling -text
 dev/n.wiktionary-infl.2.speling -text
 dev/scrapers/extract_faroese_adjectives.py -text
+dev/scrapers/extract_faroese_verbs.py -text
+dev/vblex.wiktionary-infl.1.speling -text
 /modes.xml -text
