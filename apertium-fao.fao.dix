@@ -518,6 +518,24 @@
   <e>       <p><l>unum</l>      <r>a<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
   <e>       <p><l>nanna</l>     <r>a<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/><s n="def"/></r></p></e>
 </pardef>
+<pardef n="sýr/a__n_f">
+  <e>       <p><l>a</l>         <r>a<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+  <e>       <p><l>u</l>         <r>a<s n="n"/><s n="f"/><s n="sg"/><s n="acc"/><s n="ind"/></r></p></e>
+  <e>       <p><l>u</l>         <r>a<s n="n"/><s n="f"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+  <e>       <p><l>u</l>         <r>a<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ur</l>        <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ur</l>        <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/><s n="ind"/></r></p></e>
+  <e>       <p><l>um</l>        <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+  <e>       <p><l>a</l>         <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/><s n="ind"/></r></p></e>
+  <e>       <p><l>an</l>        <r>a<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+  <e>       <p><l>una</l>        <r>a<s n="n"/><s n="f"/><s n="sg"/><s n="acc"/><s n="def"/></r></p></e>
+  <e>       <p><l>uni</l>      <r>a<s n="n"/><s n="f"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+  <e>       <p><l>unnar</l>       <r>a<s n="n"/><s n="f"/><s n="sg"/><s n="gen"/><s n="def"/></r></p></e>
+  <e>       <p><l>urnar</l>       <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
+  <e>       <p><l>urnar</l>       <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="acc"/><s n="def"/></r></p></e>
+  <e>       <p><l>unum</l>      <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
+  <e>       <p><l>anna</l>     <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/><s n="def"/></r></p></e>
+</pardef>
 <pardef n="jól__n_nt">
   <e>       <p><l></l>          <r><s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
   <e>       <p><l></l>          <r><s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/><s n="ind"/></r></p></e>
@@ -5661,6 +5679,8 @@
 <e lm="bræv">            <i>bræv</i><par n="ok__n_nt"/></e>
 <e lm="ætt">             <i>ætt</i><par n="ál__n_f"/></e>
 <e lm="nýra">            <i>nýr</i><par n="nýr/a__n_nt"/></e>
+<e lm="sýra">            <i>sýr</i><par n="sýr/a__n_f"/></e>
+<e lm="aminosýra">       <i>aminosýr</i><par n="sýr/a__n_f"/></e>
 <e lm="norður">          <i>norð</i><par n="eit/ur__n_nt"/></e>
 <e lm="samfelag">        <i>samfel</i><par n="sl/ag__n_nt"/></e>
 <e lm="stormur">         <i>storm</i><par n="eld/ur__n_m"/></e>
