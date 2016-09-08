@@ -18,3 +18,4 @@ dev/scrapers/extract_faroese_verbs.py -text
 dev/vblex.wiktionary-infl.1.speling -text
 /fao.prob -text svneol=unset#unset
 /modes.xml -text
+texts/wikipedia.vislcg.txt -text
