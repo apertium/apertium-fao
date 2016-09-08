@@ -1,25 +1,25 @@
 "<Føroyar>"
-	"Føroyar" N Prop Fem Pl Nom Indef @nsubj:cop #1->1
+	"Føroyar" N Prop Fem Pl Nom Indef @nsubj:cop #1->4
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->2
+	"vera" V Ind Prs Pl @cop #2->4
 "<ikki>"
-	"ikki" Adv @advmod #3->3
+	"ikki" Adv @advmod #3->4
 "<limur>"
 	"limur" N Msc Sg Nom Indef @root #4->0
 "<í>"
 	"í" Pr @case #5->6
 "<ES>"
-	"ES" N ACR Dat @nmod #6->6
+	"ES" N ACR Dat @nmod #6->4
 "<,>"
-	"," CLB @punct #7->7
+	"," CLB @punct #7->4
 "<hóast>"
-	"hóast" CS @mark #8->8
+	"hóast" CS @mark #8->10
 "<Danmark>"
-	"Danmark" N Prop Fem Sg Nom Indef @nsubj:cop #9->9
+	"Danmark" N Prop Fem Sg Nom Indef @nsubj:cop #9->10
 "<er>"
-	"vera" V Ind Prs 3Sg @conj #10->10
+	"vera" V Ind Prs 3Sg @conj #10->4
 "<.>"
-	"." CLB @punct #11->11
+	"." CLB @punct #11->4
 
 "<Avhaldsrørslan>"
 	"avhald#rørsla" N Fem Sg Nom Def @nsubj #1->2
