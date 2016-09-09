@@ -25875,117 +25875,117 @@
 "<kappingin>"
 	"kapping" N Fem Sg Nom Def @dep #4->3
 "<í>"
-	"í" Pr @case #5->5
+	"í" Pr @case #5->7
 "<tríggjar>"
 	"trý" Num Fem Sg Acc @nummod #6->7
 "<vikur>"
 	"vika" N Fem Pl Acc Indef @nmod #7->7
 "<.>"
-	"." CLB @punct #8->8
+	"." CLB @punct #8->3
 
 "<Kappingin>"
-	"kapping" N Fem Sg Nom Def @dep #1->1
+	"kapping" N Fem Sg Nom Def @nsubj #1->2
 "<byrjaði>"
-	"byrja" V Ind Prt Sg @dep #2->2
+	"byrja" V Ind Prt Sg @root #2->0
 "<í>"
 	"í" Pr @case #3->4
 "<Napoli>"
-	"Napoli" N Prop Sem/Plc Sg Dat @nmod #4->4
+	"Napoli" N Prop Sem/Plc Sg Dat @nmod #4->2
 "<og>"
-	"og" CC @cc #5->5
+	"og" CC @cc #5->2
 "<endaði>"
-	"enda" V Ind Prt Sg @dep #6->6
+	"enda" V Ind Prt Sg @conj #6->2
 "<í>"
 	"í" Pr @case #7->8
 "<Brescia>"
-	"Brescia" N Prop Sg Nom @nmod #8->8
+	"Brescia" N Prop Sg Nom @nmod #8->6
 "<.>"
-	"." CLB @punct #9->9
+	"." CLB @punct #9->2
 
 "<Sigrar>"
 	"sigra" V Ind Prs Sg3 @root #1->0
 "<eftir>"
 	"eftir" Pr @case #2->3
 "<landi>"
-	"land" N Neu Sg Dat Indef @nmod #3->3
+	"land" N Neu Sg Dat Indef @nmod #3->1
 "<.>"
-	"." CLB @punct #4->4
+	"." CLB @punct #4->1
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj:cop #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->2
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<eisini>"
-	"eisini" Adv @dep #3->3
+	"eisini" Adv @dep #3->4
 "<ríkisborgari>"
-	"ríkisborgari" N Msc Sg Nom Indef @dep #4->4
+	"ríkisborgari" N Msc Sg Nom Indef @root #4->0
 "<í>"
 	"í" Pr @case #5->6
 "<Liechtenstein>"
-	"Liechtenstein" N Prop Sem/Plc Sg Acc @nmod #6->6
+	"Liechtenstein" N Prop Sem/Plc Sg Acc @nmod #6->4
 "<.>"
-	"." CLB @punct #7->7
+	"." CLB @punct #7->4
 
 "<Franska>"
 	"franskur" A Neu Sg Nom Def @amod #1->2
 "<fótbóltslandsliðið>"
-	"fótbóltur#landslið" N Neu Sg Nom Def @dep #2->2
+	"fótbóltur#landslið" N Neu Sg Nom Def @root #2->0
 "<:>"
-	":" CLB @punct #3->3
+	":" CLB @punct #3->2
 "<Franska>"
 	"franskur" A Neu Sg Nom Def @amod #4->5
 "<fótbóltslandsliðið>"
-	"fótbóltur#landslið" N Neu Sg Nom Def @dep #5->5
+	"fótbóltur#landslið" N Neu Sg Nom Def @nsubj:cop #5->7
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #6->6
+	"vera" V Ind Prs Sg3 @cop #6->7
 "<fótbóltslandslið>"
-	"fótbóltur#landslið" N Neu Sg Nom Indef @dep #7->7
+	"fótbóltur#landslið" N Neu Sg Nom Indef @parataxis #7->2
 "<Fraklands>"
-	"Frakland" N Prop Neu Sg Gen Indef @dep #8->8
+	"Frakland" N Prop Neu Sg Gen Indef @nmod:poss #8->7
 "<.>"
-	"." CLB @punct #9->9
+	"." CLB @punct #9->2
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->2
 "<2016>"
-	"2016" Num Dat @dep #2->3
+	"2016" Num Dat @nmod #2->3
 "<væntar>"
 	"vænta" V Ind Prs Sg3 @root #3->0
 "<oyggin>"
-	"oyggj" N Fem Sg Nom Def @dep #4->3
+	"oyggj" N Fem Sg Nom Def @nsubj #4->3
 "<at>"
-	"at" IM @dep #5->3
+	"at" IM @mark #5->6
 "<fáa>"
 	"fáa" V Inf @dep #6->3
 "<yvir>"
-	"yvir" Pr @case #7->7
+	"yvir" Pr @case #7->10
 "<tíggju>"
 	"tíggju" Num @nummod #8->9
 "<milliónir>"
-	"millión" N Fem Pl Acc Indef @nmod #9->9
+	"millión" N Fem Pl Acc Indef @nummod #9->10
 "<ferðafólk>"
-	"ferðafólk" N Neu Pl Acc Indef @dep #10->3
+	"ferðafólk" N Neu Pl Acc Indef @nmod #10->6
 "<á>"
 	"á" Pr @case #11->12
 "<vitjan>"
-	"vitjan" N Fem Sg Dat Indef @nmod #12->12
+	"vitjan" N Fem Sg Dat Indef @nmod #12->6
 "<.>"
-	"." CLB @punct #13->13
+	"." CLB @punct #13->3
 
 "<Kappingin>"
-	"kapping" N Fem Sg Nom Def @dep #1->1
+	"kapping" N Fem Sg Nom Def @nsubj #1->3
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #2->2
+	"vera" V Ind Prt Sg3 @aux:pass #2->3
 "<merkt>"
-	"merkja" V Sup @dep #3->3
+	"merkja" V Sup @root #3->0
 "<av>"
-	"av" Pr @case #4->4
+	"av" Pr @case #4->6
 "<vánaligum>"
 	"vánaligur" A Neu Pl Dat Indef @amod #5->6
 "<veðurlíkindum>"
-	"veðurlíkindi" N Neu Pl Dat Indef @nmod #6->6
+	"veðurlíkindi" N Neu Pl Dat Indef @nmod #6->3
 "<.>"
-	"." CLB @punct #7->7
+	"." CLB @punct #7->3
 
 "<">"
 	""" PUNCT @punct #1->1
