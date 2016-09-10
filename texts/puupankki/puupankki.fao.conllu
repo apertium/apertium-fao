@@ -1,3 +1,10 @@
+1	Hettar	hesin	PRON	Pron	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	er	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+3	ein	ein	DET	Det	Case=Nom|Gender=Masc|Number=Sing	5	det	_	_
+4	royndar	royndur	ADJ	A	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_
+5	setningur	setningur	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
+6	.	.	PUNCT	CLB	_	5	punct	_	_
+
 1	Føroyar	Føroyar	PROPN	N	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	4	nsubj:cop	_	_
 2	eru	vera	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	ikki	ikki	ADV	Adv	_	4	advmod	_	_
@@ -15,12 +22,12 @@
 3	.	.	PUNCT	CLB	_	2	punct	_	_
 
 1	Í	í	ADP	Pr	_	1	case	_	_
-2	1957	1957	NUM	Num	Case=Dat	3	dep	_	_
-3	verður	verða	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	Útvarp	útvarp	NOUN	N	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	dep	_	_
-5	Føroya	Føroyar	PROPN	N	Case=Gen|Definite=Ind|Gender=Fem|Number=Plur	3	dep	_	_
-6	stovnað	stovna	VERB	V	VerbForm=Sup	3	dep	_	_
-7	.	.	PUNCT	CLB	_	7	punct	_	_
+2	1957	1957	NUM	Num	Case=Dat	6	nmod	_	_
+3	verður	verða	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
+4	Útvarp	útvarp	NOUN	N	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	dep	_	_
+5	Føroya	Føroyar	PROPN	N	Case=Gen|Definite=Ind|Gender=Fem|Number=Plur	4	dep	_	_
+6	stovnað	stovna	VERB	V	VerbForm=Sup	0	root	_	_
+7	.	.	PUNCT	CLB	_	6	punct	_	_
 
 1	Hetta	hesin	PRON	Pron	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	dep	_	_
 2	var	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	_
@@ -37,14 +44,14 @@
 13	flokkarnar	flokkur	NOUN	N	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	13	nmod	_	_
 14	.	.	PUNCT	CLB	_	14	punct	_	_
 
-1	Frálæra	frálæra	NOUN	N	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	2	dep	_	_
+1	Frálæra	frálæra	NOUN	N	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	2	nsubj	_	_
 2	fæst	fáa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 3	í	í	ADP	Pr	_	4	case	_	_
-4	fólkaskúlanum	fólkaskúli	NOUN	N	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	_
-5	ella	ella	CCONJ	CC	_	5	cc	_	_
+4	fólkaskúlanum	fólkaskúli	NOUN	N	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	_
+5	ella	ella	CCONJ	CC	_	4	cc	_	_
 6	á	á	ADP	Pr	_	7	case	_	_
-7	frískúla	frískúli	NOUN	N	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	_
-8	.	.	PUNCT	CLB	_	8	punct	_	_
+7	frískúla	frískúli	NOUN	N	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	4	conj	_	_
+8	.	.	PUNCT	CLB	_	2	punct	_	_
 
 1	Í	í	ADP	Pr	_	2	case	_	_
 2	frískúlum	frískúli	NOUN	N	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur	2	nmod	_	_
@@ -69,23 +76,23 @@
 7	oynni	oy	NOUN	N	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	_
 8	.	.	PUNCT	CLB	_	8	punct	_	_
 
-1	Sjógvurin	sjógvur	NOUN	N	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	dep	_	_
+1	Sjógvurin	sjógvur	NOUN	N	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	frystir	frysta	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	ongantíð	ongantíð	ADV	Adv	_	2	dep	_	_
-4	.	.	PUNCT	CLB	_	4	punct	_	_
+4	.	.	PUNCT	CLB	_	2	punct	_	_
 
-1	Í	í	ADP	Pr	_	1	case	_	_
-2	2005	2005	NUM	Num	Case=Dat	2	dep	_	_
-3	vóru	vera	VERB	V	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
-4	tølini	tal	NOUN	N	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	4	dep	_	_
-5	73 %	73 %	NUM	Num	Case=Nom	5	dep	_	_
+1	Í	í	ADP	Pr	_	2	case	_	_
+2	2005	2005	NUM	Num	Case=Dat	5	nmod	_	_
+3	vóru	vera	VERB	V	Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
+4	tølini	tal	NOUN	N	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	5	nsubj	_	_
+5	73 %	73 %	NUM	Num	Case=Nom	0	root	_	_
 6	av	av	ADP	Pr	_	7	case	_	_
-7	mannfólkunum	mannfólk	NOUN	N	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	7	nmod	_	_
-8	og	og	CCONJ	CC	_	8	cc	_	_
-9	74 %	74 %	NUM	Num	Case=Nom	9	dep	_	_
+7	mannfólkunum	mannfólk	NOUN	N	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	5	nmod	_	_
+8	og	og	CCONJ	CC	_	5	cc	_	_
+9	74 %	74 %	NUM	Num	Case=Nom	5	conj	_	_
 10	av	av	ADP	Pr	_	11	case	_	_
-11	konufólkunum	konufólk	NOUN	N	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	11	nmod	_	_
-12	.	.	PUNCT	CLB	_	12	punct	_	_
+11	konufólkunum	konufólk	NOUN	N	Case=Dat|Definite=Def|Gender=Neut|Number=Plur	9	nmod	_	_
+12	.	.	PUNCT	CLB	_	5	punct	_	_
 
 1	Hon	hon	PRON	Pron	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
 2	er	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
@@ -377,10 +384,10 @@
 8	Miðevropa	mið#evropi	NOUN	N	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	_
 9	.	.	PUNCT	CLB	_	9	punct	_	_
 
-1	Funningur	Funningur	PROPN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	dep	_	_
-2	var	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	_
-3	nýggjársbygd	nýggjársbygd	NOUN	N	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	dep	_	_
-4	.	.	PUNCT	CLB	_	4	punct	_	_
+1	Funningur	Funningur	PROPN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	var	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	nýggjársbygd	nýggjársbygd	NOUN	N	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	_
+4	.	.	PUNCT	CLB	_	3	punct	_	_
 
 1	Í	í	ADP	Pr	_	2	case	_	_
 2	fyrstuni	fyrsta	NOUN	N	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	_
@@ -464,12 +471,12 @@
 9	Ruhr	Ruhr	PROPN	N	Case=Acc|Number=Sing	9	nmod	_	_
 10	.	.	PUNCT	CLB	_	10	punct	_	_
 
-1	Ungarnir	ungi	NOUN	N	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	1	dep	_	_
-2	klekjast	klekja	VERB	V	VerbForm=Inf|Voice=Pass	2	dep	_	_
-3	eftir	eftir	ADP	Pr	_	3	case	_	_
+1	Ungarnir	ungi	NOUN	N	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	klekjast	klekja	VERB	V	VerbForm=Inf|Voice=Pass	0	root	_	_
+3	eftir	eftir	ADP	Pr	_	5	case	_	_
 4	25	25	NUM	Num	Case=Dat	5	nummod	_	_
-5	døgum	dagur	NOUN	N	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur	5	nmod	_	_
-6	.	.	PUNCT	CLB	_	6	punct	_	_
+5	døgum	dagur	NOUN	N	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur	2	nmod	_	_
+6	.	.	PUNCT	CLB	_	2	punct	_	_
 
 1	Faðirin	faðir	NOUN	N	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	dep	_	_
 2	var	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	_
@@ -590,13 +597,13 @@
 3	aling	aling	NOUN	N	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	3	dep	_	_
 4	.	.	PUNCT	CLB	_	4	punct	_	_
 
-1	Umleið	umleið	ADV	Adv	_	1	dep	_	_
-2	40 %	40 %	NUM	Num	Case=Nom	2	dep	_	_
+1	Umleið	umleið	ADP	Pr	_	2	case	_	_
+2	40 %	40 %	NUM	Num	Case=Nom	6	nsubj	_	_
 3	av	av	ADP	Pr	_	4	case	_	_
-4	Noregi	Noreg	PROPN	N	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	4	nmod	_	_
-5	eru	vera	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
-6	skógvaksin	skógvaksin	ADJ	A	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	6	dep	_	_
-7	.	.	PUNCT	CLB	_	7	punct	_	_
+4	Noregi	Noreg	PROPN	N	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	2	nmod	_	_
+5	eru	vera	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+6	skógvaksin	skógvaksin	ADJ	A	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+7	.	.	PUNCT	CLB	_	6	punct	_	_
 
 1	Í	í	ADP	Pr	_	1	case	_	_
 2	2010	2010	NUM	Num	Case=Dat	2	dep	_	_
@@ -1614,7 +1621,7 @@
 5	einum	ein	DET	Det	Case=Dat|Gender=Neut|Number=Sing	5	det	_	_
 6	slíkum	slíkur	ADJ	A	Case=Dat|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
 7	menni	menni	NOUN	N	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	7	dep	_	_
-8	!	^excl	PUNCT	CLB	_	8	punct	_	_
+8	!	!	PUNCT	CLB	_	8	punct	_	_
 
 1	Eitt	ein	DET	Det	Case=Nom|Gender=Neut|Number=Sing	1	det	_	_
 2	fjølbroytt	fjølbroyttur	ADJ	A	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
@@ -4464,11 +4471,11 @@
 8	.	.	PUNCT	CLB	_	8	punct	_	_
 
 1	Innsett	innseta	VERB	V	VerbForm=Sup	1	dep	_	_
-2	!	^excl	PUNCT	CLB	_	2	punct	_	_
+2	!	!	PUNCT	CLB	_	2	punct	_	_
 
 1	Fór	fara	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 2	frá	frá	ADP	Pr	_	2	case	_	_
-3	!	^excl	PUNCT	CLB	_	3	punct	_	_
+3	!	!	PUNCT	CLB	_	3	punct	_	_
 
 1	Italia	Italia	PROPN	N	Case=Nom|Number=Sing	1	dep	_	_
 2	var	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	_
@@ -10739,11 +10746,11 @@
 5	fundarskipan	fundarskipan	NOUN	N	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing	2	dep	_	_
 6	.	.	PUNCT	CLB	_	6	punct	_	_
 
-1	Jarn	jarn	NOUN	N	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	dep	_	_
-2	er	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+1	Jarn	jarn	NOUN	N	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	er	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	eitt	ein	DET	Det	Case=Nom|Gender=Neut|Number=Sing	4	det	_	_
-4	metal	metal	NOUN	N	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	dep	_	_
-5	.	.	PUNCT	CLB	_	5	punct	_	_
+4	metal	metal	NOUN	N	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
+5	.	.	PUNCT	CLB	_	4	punct	_	_
 
 1	Filipstad	Filipstad	PROPN	N	Case=Nom|Number=Sing	1	dep	_	_
 2	:	:	PUNCT	CLB	_	2	punct	_	_
@@ -10801,12 +10808,12 @@
 2	bakkanum	bakki	NOUN	N	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	_
 3	eru	vera	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 4	9	9	NUM	Num	Case=Nom	5	nummod	_	_
-5	byrgingar	byrging	NOUN	N	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	5	dep	_	_
+5	byrgingar	byrging	NOUN	N	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur	5	nsubj	_	_
 6	.	.	PUNCT	CLB	_	6	punct	_	_
 
-1	Hann	hann	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
-2	er	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
-3	roðslusettur	roðsla#setta	NOUN	N	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	3	dep	_	_
+1	Hann	hann	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	er	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	roðslusettur	roðsla#setta	NOUN	N	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	0	root	_	_
 4	líka	líka	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|Voice=Act	4	dep	_	_
 5	úr	úr	ADP	Pr	_	6	case	_	_
 6	klingruni	klingra	NOUN	N	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	_
@@ -10864,15 +10871,6 @@
 7	kápuna	kápa	NOUN	N	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	dep	_	_
 8	.	.	PUNCT	CLB	_	8	punct	_	_
 
-1	al	ala	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
-2	:	:	PUNCT	CLB	_	2	punct	_	_
-3	.	.	PUNCT	CLB	_	3	punct	_	_
-
-1	Tey	tað	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	_
-2	eru	vera	VERB	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
-3	:	:	PUNCT	CLB	_	3	punct	_	_
-4	.	.	PUNCT	CLB	_	4	punct	_	_
-
 1	Fyri	fyri	ADP	Pr	_	1	case	_	_
 2	at	at	PART	IM	_	10	dep	_	_
 3	fáa	fáa	VERB	V	VerbForm=Inf|Voice=Act	10	dep	_	_
@@ -10889,14 +10887,6 @@
 14	fríhandilsøki	fríhandil#øki	NOUN	N	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	10	dep	_	_
 15	.	.	PUNCT	CLB	_	15	punct	_	_
 
-1	er	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
-2	:	:	PUNCT	CLB	_	2	punct	_	_
-3	.	.	PUNCT	CLB	_	3	punct	_	_
-
-1	et	eta	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
-2	:	:	PUNCT	CLB	_	2	punct	_	_
-3	.	.	PUNCT	CLB	_	3	punct	_	_
-
 1	Virðislønin	virðisløn	NOUN	N	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	dep	_	_
 2	er	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
 3	á	á	ADP	Pr	_	3	case	_	_
@@ -10907,17 +10897,17 @@
 1	Sum	sum	SCONJ	CS	_	1	dep	_	_
 2	ungur	ungur	ADJ	A	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	dep	_	_
 3	var	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
-4	Jógvan	Jógvan	PROPN	N	Case=Nom|Number=Sing	4	dep	_	_
-5	Fríðriksson	Fríðrikurssonur	PROPN	N	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	5	dep	_	_
-6	sjómaður	sjómaður	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	dep	_	_
-7	.	.	PUNCT	CLB	_	7	punct	_	_
+4	Jógvan	Jógvan	PROPN	N	Case=Nom|Number=Sing	5	flat	_	_
+5	Fríðriksson	Fríðrikurssonur	PROPN	N	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	sjómaður	sjómaður	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
+7	.	.	PUNCT	CLB	_	6	punct	_	_
 
-1	Hann	hann	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
-2	var	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	_
-3	statsleiðari	statur#leiðari	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	dep	_	_
-4	í	í	ADP	Pr	_	4	case	_	_
+1	Hann	hann	PRON	Pron	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	var	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	statsleiðari	statur#leiðari	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
+4	í	í	ADP	Pr	_	6	case	_	_
 5	30	30	NUM	Num	Case=Dat	6	nummod	_	_
-6	ár	ár	NOUN	N	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	_
+6	ár	ár	NOUN	N	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	3	nmod	_	_
 7	.	.	PUNCT	CLB	_	7	punct	_	_
 
 1	A	A	NOUN	Abbr	_	1	dep	_	_
@@ -11269,12 +11259,12 @@
 11	Handilsskúla	handilsskúli	NOUN	N	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur	11	dep	_	_
 12	.	.	PUNCT	CLB	_	12	punct	_	_
 
-1	Hon	hon	PRON	Pron	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
+1	Hon	hon	PRON	Pron	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	spældi	spæla	VERB	V	Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	leiklutin	leiklutur	NOUN	N	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	dep	_	_
+3	leiklutin	leiklutur	NOUN	N	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	_
 4	sum	sum	ADP	Pr	_	5	case	_	_
-5	Birita	Birita	PROPN	N	Case=Nom|Number=Sing	5	nmod	_	_
-6	.	.	PUNCT	CLB	_	6	punct	_	_
+5	Birita	Birita	PROPN	N	Case=Nom|Number=Sing	2	nmod	_	_
+6	.	.	PUNCT	CLB	_	2	punct	_	_
 
 1	Filmurin	filmur	NOUN	N	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	dep	_	_
 2	er	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
@@ -11326,8 +11316,8 @@
 12	.	.	PUNCT	CLB	_	12	punct	_	_
 
 1	Drívið	dríva	VERB	V	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
-2	á	á	ADP	Pr	_	2	case	_	_
-3	!	^excl	PUNCT	CLB	_	3	punct	_	_
+2	á	á	ADV	Adv	_	1	case	_	_
+3	!	!	PUNCT	CLB	_	1	punct	_	_
 
 1	Hjarnar	hjarni	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	1	dep	_	_
 2	:	:	PUNCT	CLB	_	2	punct	_	_
@@ -13138,16 +13128,13 @@
 12	HB	HB	NOUN	N	Case=Dat	12	nmod	_	_
 13	.	.	PUNCT	CLB	_	13	punct	_	_
 
-1	"	"	PUNCT	PUNCT	_	1	punct	_	_
-2	"	"	PUNCT	PUNCT	_	2	punct	_	_
-3	-	-	PUNCT	PUNCT	_	3	punct	_	_
-4	Eg	eg	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-5	taki	taka	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-6	sjálvsagt	sjálvsagt	ADV	Adv	_	5	dep	_	_
-7	átaluna	átala	NOUN	N	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	dep	_	_
-8	til	til	ADP	Pr	_	9	case	_	_
-9	eftirtektar	eftirtekt	NOUN	N	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	9	nmod	_	_
-10	.	.	PUNCT	CLB	_	10	punct	_	_
+1	Eg	eg	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	taki	taka	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	sjálvsagt	sjálvsagt	ADV	Adv	_	2	advmod	_	_
+4	átaluna	átala	NOUN	N	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	obj	_	_
+5	til	til	ADP	Pr	_	6	case	_	_
+6	eftirtektar	eftirtekt	NOUN	N	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	_
+7	.	.	PUNCT	CLB	_	2	punct	_	_
 
 1	Endaliga	endaligur	ADJ	A	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
 2	støðan	støða	NOUN	N	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	dep	_	_
@@ -13347,13 +13334,13 @@
 11	.	.	PUNCT	CLB	_	11	punct	_	_
 
 1	Í	í	ADP	Pr	_	2	case	_	_
-2	Føroyum	Føroyar	PROPN	N	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	2	nmod	_	_
-3	hevur	hava	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	hon	hon	PRON	Pron	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-5	nærum	nærum	ADV	Adv	_	3	dep	_	_
-6	forkomið	forkoma	VERB	V	VerbForm=Sup	3	dep	_	_
+2	Føroyum	Føroyar	PROPN	N	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	6	nmod	_	_
+3	hevur	hava	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
+4	hon	hon	PRON	Pron	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	nærum	nærum	ADV	Adv	_	6	advmod	_	_
+6	forkomið	forkoma	VERB	V	VerbForm=Sup	3	root	_	_
 7	einstøkum	einstakur	ADJ	A	Case=Dat|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
-8	bjargafuglum	bjargafuglur	NOUN	N	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur	3	dep	_	_
+8	bjargafuglum	bjargafuglur	NOUN	N	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur	6	obj	_	_
 9	.	.	PUNCT	CLB	_	9	punct	_	_
 
 1	Er	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
