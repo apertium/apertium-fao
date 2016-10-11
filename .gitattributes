@@ -5,9 +5,11 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
+/apertium-fao.fao.acx -text
 /apertium-fao.fao.dix -text
 /apertium-fao.fao.rlx -text
 /apertium-fao.pc.in -text
+/apertium-fao.post-fao.dix -text
 /autogen.sh -text
 /configure.ac -text
 dev/adj.wiktionary-infl.1.speling -text
