@@ -44,33 +44,33 @@
 	"." CLB @punct #7->6
 
 "<Hetta>"
-	"hesin" Pron Dem Neu Sg Acc @dep #1->1
+	"hesin" Pron Dem Neu Sg Nom @nsubj:cop #1->5
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #2->2
+	"vera" V Ind Prt Sg3 @cop #2->5
 "<ein>"
-	"ein" Det Msc Sg Nom @det #3->3
+	"ein" Det Msc Sg Nom @det #3->5
 "<lítil>"
 	"lítil" A Msc Sg Nom Indef @amod #4->5
 "<meiriluti>"
-	"meiriluti" N Msc Sg Nom Indef @dep #5->5
+	"meiriluti" N Msc Sg Nom Indef @root #5->5
 "<,>"
-	"," CLB @punct #6->6
+	"," CLB @punct #6->5
 "<sum>"
-	"sum" CS @dep #7->7
+	"sum" CS @nsubj #7->10
 "<kom>"
-	"koma" V Ind Prt Sg3 @dep #8->8
+	"koma" V Ind Prt Sg3 @aux #8->10
 "<at>"
-	"at" IM @dep #9->9
+	"at" IM @mark #9->10
 "<merkja>"
-	"merkja" V Inf @dep #10->10
+	"merkja" V Inf @acl:relcl #10->5
 "<samstarvið>"
-	"samstarv" N Neu Sg Acc Def @dep #11->11
+	"samstarv" N Neu Sg Acc Def @obj:dir #11->10
 "<ímillum>"
 	"ímillum" Pr @case #12->13
 "<flokkarnar>"
-	"flokkur" N Msc Pl Acc Def @nmod #13->13
+	"flokkur" N Msc Pl Acc Def @nmod #13->11
 "<.>"
-	"." CLB @punct #14->14
+	"." CLB @punct #14->5
 
 "<Frálæra>"
 	"frálæra" N Fem Sg Nom Indef @nsubj #1->2
@@ -21325,7 +21325,7 @@
 "<spældi>"
 	"spæla" V Ind Prt Sg @root #2->0
 "<leiklutin>"
-	"leiklutur" N Msc Sg Acc Def @obj #3->2
+	"leiklutur" N Msc Sg Acc Def @obj:dir #3->2
 "<sum>"
 	"sum" Pr @case #4->5
 "<Birita>"
@@ -25833,7 +25833,7 @@
 "<Í>"
 	"í" Pr @case #1->2
 "<dag>"
-	"dagur" N Msc Sg Acc Indef @nmod #2->2
+	"dagur" N Msc Sg Acc Indef @nmod #2->3
 "<varir>"
 	"vara" V Ind Prs Sg3 @root #3->0
 "<kappingin>"
@@ -25843,7 +25843,7 @@
 "<tríggjar>"
 	"trý" Num Fem Sg Acc @nummod #6->7
 "<vikur>"
-	"vika" N Fem Pl Acc Indef @nmod #7->7
+	"vika" N Fem Pl Acc Indef @nmod #7->4
 "<.>"
 	"." CLB @punct #8->3
 

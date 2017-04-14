@@ -29,20 +29,20 @@
 6	stovnað	stovna	VERB	V	VerbForm=Sup	0	root	_	_
 7	.	.	PUNCT	CLB	_	6	punct	_	_
 
-1	Hetta	hesin	PRON	Pron	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	dep	_	_
-2	var	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	_
-3	ein	ein	DET	Det	Case=Nom|Gender=Masc|Number=Sing	3	det	_	_
+1	Hetta	hesin	PRON	Pron	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj:cop	_	_
+2	var	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
+3	ein	ein	DET	Det	Case=Nom|Gender=Masc|Number=Sing	5	det	_	_
 4	lítil	lítil	ADJ	A	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
-5	meiriluti	meiriluti	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	dep	_	_
-6	,	,	PUNCT	CLB	_	6	punct	_	_
-7	sum	sum	SCONJ	CS	_	7	dep	_	_
-8	kom	koma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	dep	_	_
-9	at	at	PART	IM	_	9	dep	_	_
-10	merkja	merkja	VERB	V	VerbForm=Inf|Voice=Act	10	dep	_	_
-11	samstarvið	samstarv	NOUN	N	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	11	dep	_	_
+5	meiriluti	meiriluti	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	root	_	_
+6	,	,	PUNCT	CLB	_	5	punct	_	_
+7	sum	sum	SCONJ	CS	_	10	nsubj	_	_
+8	kom	koma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	aux	_	_
+9	at	at	PART	IM	_	10	mark	_	_
+10	merkja	merkja	VERB	V	VerbForm=Inf|Voice=Act	5	acl:relcl	_	_
+11	samstarvið	samstarv	NOUN	N	Case=Acc|Definite=Def|Gender=Neut|Number=Sing	10	obj:dir	_	_
 12	ímillum	ímillum	ADP	Pr	_	13	case	_	_
-13	flokkarnar	flokkur	NOUN	N	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	13	nmod	_	_
-14	.	.	PUNCT	CLB	_	14	punct	_	_
+13	flokkarnar	flokkur	NOUN	N	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	11	nmod	_	_
+14	.	.	PUNCT	CLB	_	5	punct	_	_
 
 1	Frálæra	frálæra	NOUN	N	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	2	nsubj	_	_
 2	fæst	fáa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
@@ -11261,7 +11261,7 @@
 
 1	Hon	hon	PRON	Pron	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	spældi	spæla	VERB	V	Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	leiklutin	leiklutur	NOUN	N	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	_
+3	leiklutin	leiklutur	NOUN	N	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	obj:dir	_	_
 4	sum	sum	ADP	Pr	_	5	case	_	_
 5	Birita	Birita	PROPN	N	Case=Nom|Number=Sing	2	nmod	_	_
 6	.	.	PUNCT	CLB	_	2	punct	_	_
@@ -13626,12 +13626,12 @@
 12	.	.	PUNCT	CLB	_	12	punct	_	_
 
 1	Í	í	ADP	Pr	_	2	case	_	_
-2	dag	dagur	NOUN	N	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	_
+2	dag	dagur	NOUN	N	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	_
 3	varir	vara	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	kappingin	kapping	NOUN	N	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	dep	_	_
 5	í	í	ADP	Pr	_	7	case	_	_
 6	tríggjar	trý	NUM	Num	Case=Acc|Gender=Fem|Number=Sing	7	nummod	_	_
-7	vikur	vika	NOUN	N	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	7	nmod	_	_
+7	vikur	vika	NOUN	N	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	4	nmod	_	_
 8	.	.	PUNCT	CLB	_	3	punct	_	_
 
 1	Kappingin	kapping	NOUN	N	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	_
