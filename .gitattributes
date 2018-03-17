@@ -22,3 +22,8 @@ dev/vblex.wiktionary-infl.1.speling -text
 /modes.xml -text
 texts/puupankki/puupankki.fao.conllu -text
 texts/wikipedia.vislcg.txt -text
+*.dix linguist-language=XML linguist-detectable=true
+*.lrx linguist-language=XML linguist-detectable=true
+*.lsx linguist-language=XML linguist-detectable=true
+*.tsx linguist-language=XML linguist-detectable=true
+*.t[[:digit:]]x linguist-language=XML linguist-detectable=true
