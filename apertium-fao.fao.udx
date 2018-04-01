@@ -33,8 +33,8 @@ _	_	Prt	_	_	_	Tense=Past|Mood=Ind	_
 _	_	Refl	_	_	_	Reflexive=Yes	_
 _	_	Rel	_	_	_	PronType=Rel	_
 _	_	RIGHT	_	_	_	_	_
-_	_	Sem/Fem	_	_	_	_	_
-_	_	Sem/Mal	_	_	_	_	_
+_	_	Sem/Fem	_	_	_	Gender=Fem	_
+_	_	Sem/Mal	_	_	_	Gender=Masc	_
 _	_	Sem/Org	_	_	_	_	_
 _	_	Sem/Plc	_	_	_	_	_
 _	_	Sem/Sur	_	_	_	_	_

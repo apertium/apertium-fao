@@ -2609,23 +2609,24 @@
 "<.>"
 	"." CLB @punct #5->
 
+# text[eng] = Dancing time is from the 2nd day of Christmas until Shrovetide.
 # labels = to_check
 "<Dansitíðin>"
-	"dansitíð" N Fem Sg Nom Def @dep #1->
+	"dansitíð" N Fem Sg Nom Def @nsubj #1->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->5
 "<frá>"
-	"frá" Pr @case #3->
+	"frá" Pr @case #3->5
 "<2.>"
-	"2" A Ord @dep #4->
+	"2" A Ord @amod #4->5
 "<jóladegi>"
-	"jóladagur" N Msc Sg Dat Indef @dep #5->
+	"jóladagur" N Msc Sg Dat Indef @root #5->0
 "<til>"
 	"til" Pr @case #6->7
 "<føstuinngang>"
-	"føsta#inngangur" N Msc Sg Acc Indef @nmod #7->
+	"føsta#inngangur" N Msc Sg Acc Indef @obl #7->5
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->5
 
 # labels = to_check
 "<Hvannasund>"
@@ -2637,23 +2638,24 @@
 "<.>"
 	"." CLB @punct #4->
 
+# text[eng] = As a youth he was a fisherman and worked on the boats.
 # labels = to_check
 "<Sum>"
-	"sum" CS @dep #1->
+	"sum" CS @mark #1->2
 "<ungur>"
-	"ungur" A Msc Sg Nom Indef @dep #2->
+	"ungur" A Msc Sg Nom Indef @advcl #2->5
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #3->
+	"vera" V Ind Prt Sg3 @cop #3->5
 "<hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #4->
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #4->5
 "<fiskimaður>"
-	"fiskimaður" N Msc Sg Nom Indef @dep #5->
+	"fiskimaður" N Msc Sg Nom Indef @root #5->0
 "<og>"
-	"og" CC @cc #6->
+	"og" CC @cc #6->7
 "<útróðrarmaður>"
-	"útróðrarmaður" N Msc Sg Nom Indef @dep #7->
+	"útróðrarmaður" N Msc Sg Nom Indef @conj #7->5
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->5
 
 # labels = to_check
 "<Tvøroyrar>"
@@ -2677,67 +2679,70 @@
 "<.>"
 	"." CLB @punct #10->
 
+# text[eng] = The day today is Norway's national day.
 # labels = to_check
 "<Dagurin>"
-	"dagur" N Msc Sg Nom Def @dep #1->
+	"dagur" N Msc Sg Nom Def @nsubj #1->5
 "<í>"
 	"í" Pr @case #2->3
 "<dag>"
-	"dagur" N Msc Sg Acc Indef @nmod #3->
+	"dagur" N Msc Sg Acc Indef @obl #3->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->5
 "<tjóðardagur>"
-	"tjóð#dagur" N Msc Sg Nom Indef @dep #5->
+	"tjóð#dagur" N Msc Sg Nom Indef @root #5->0
 "<Noregs>"
-	"Noreg" N Prop Neu Sg Gen Indef @dep #6->
+	"Noreg" N Prop Neu Sg Gen Indef @nmod #6->5
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->5
 
+# text[eng] = The wait is 10-15 minutes.
 # labels = to_check
 "<Steðgurin>"
-	"steðgur" N Msc Sg Nom Def @dep #1->
+	"steðgur" N Msc Sg Nom Def @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<10-15>"
 	"10-15" Num Nom @nummod #3->4
 "<minuttir>"
-	"minuttur" N Msc Pl Nom Indef @dep #4->
+	"minuttur" N Msc Pl Nom Indef @dep #4->0
 "<.>"
-	"." CLB @punct #5->
+	"." CLB @punct #5->4
 
 # labels = to_check
 "<Í>"
-	"í" Pr @case #1->
+	"í" Pr @case #1->2
 "<1928>"
-	"1928" Num Dat @dep #2->3
+	"1928" Num Dat @obl #2->3
 "<fór>"
 	"fara" V Ind Prt Sg3 @root #3->0
 "<aftur>"
-	"aftur" Adv @dep #4->3
+	"aftur" Adv @advmod #4->3
 "<at>"
-	"at" IM @dep #5->3
+	"at" IM @mark #5->6
 "<goysa>"
-	"goysa" V Inf @dep #6->3
+	"goysa" V Inf @xcomp #6->3
 "<í>"
-	"í" Pr @case #7->
+	"í" Pr @case #7->9
 "<somu>"
 	"samur" A Fem Pl Dat Def @amod #8->9
 "<oyggj>"
-	"oyggj" N Fem Sg Dat Indef @nmod #9->
+	"oyggj" N Fem Sg Dat Indef @nmod #9->6
 "<.>"
-	"." CLB @punct #10->
+	"." CLB @punct #10->3
 
+# text[eng] = Torkil was also a chessplayer.
 # labels = to_check
 "<Torkil>"
-	"Torkil" N Prop Sem/Mal Sg Nom @dep #1->
+	"Torkil" N Prop Sem/Mal Sg Nom @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<eisini>"
-	"eisini" Adv @dep #3->
+	"eisini" Adv @advmod #3->4
 "<telvari>"
-	"telvari" N Msc Sg Nom Indef @dep #4->
+	"telvari" N Msc Sg Nom Indef @root #4->0
 "<.>"
-	"." CLB @punct #5->
+	"." CLB @punct #5->4
 
 # labels = to_check
 "<Báturin>"
@@ -15855,39 +15860,41 @@
 "<.>"
 	"." CLB @punct #19->
 
+# text[eng] = In the referendum in 1946 she spoke for independence from Denmark.
 # labels = to_check
 "<Á>"
 	"á" Pr @case #1->2
 "<fólkaatkvøðuni>"
-	"fólkaatkvøða" N Fem Sg Dat Def @nmod #2->
+	"fólkaatkvøða" N Fem Sg Dat Def @obl #2->5
 "<í>"
-	"í" Pr @case #3->
+	"í" Pr @case #3->4
 "<1946>"
-	"1946" Num Dat @dep #4->5
+	"1946" Num Dat @nmod #4->2
 "<talaði>"
 	"tala" V Ind Prt Sg @root #5->0
 "<hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #6->
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #6->5
 "<fyri>"
 	"fyri" Pr @case #7->8
 "<loysing>"
-	"loysing" N Fem Sg Dat Indef @nmod #8->
+	"loysing" N Fem Sg Dat Indef @obl #8->5
 "<frá>"
 	"frá" Pr @case #9->10
 "<Danmark>"
-	"Danmark" N Prop Fem Sg Dat Indef @nmod #10->
+	"Danmark" N Prop Fem Sg Dat Indef @nmod #10->8
 "<.>"
-	"." CLB @punct #11->
+	"." CLB @punct #11->5
 
+# text[eng] = She was a teacher.
 # labels = to_check
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->3
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #2->
+	"vera" V Ind Prt Sg3 @cop #2->3
 "<lærari>"
-	"lærari" N Msc Sg Nom Indef @dep #3->
+	"lærari" N Msc Sg Nom Indef @root #3->0
 "<.>"
-	"." CLB @punct #4->
+	"." CLB @punct #4->3
 
 # labels = to_check
 "<Lýst>"
@@ -15903,21 +15910,22 @@
 "<.>"
 	"." CLB @punct #6->
 
+# text[eng] = The flowers are long, light-yellow.
 # labels = to_check
 "<Blómurnar>"
-	"blóma" N Fem Pl Nom Def @dep #1->
+	"blóma" N Fem Pl Nom Def @nsubj #1->3
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->6
 "<langir>"
-	"langur" A Msc Pl Nom Indef @dep #3->
+	"langur" A Msc Pl Nom Indef @amod #3->6
 "<,>"
-	"," CLB @punct #4->
+	"," CLB @punct #4->5
 "<ljósagulir>"
-	"ljósagulur" A Msc Pl Nom Indef @amod #5->6
+	"ljósagulur" A Msc Pl Nom Indef @conj #5->3
 "<reklar>"
-	"rekil" N Msc Pl Nom Indef @dep #6->
+	"rekil" N Msc Pl Nom Indef @root #6->0
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # labels = to_check
 "<Einans>"
@@ -15985,51 +15993,54 @@
 "<.>"
 	"." CLB @punct #9->
 
+# text[eng] = Jóhan is the third generation of boat builders in Tvøroyri.
 # labels = to_check
 "<Jóhan>"
-	"Jóhan" N Prop Sem/Mal Sg Nom @dep #1->
+	"Jóhan" N Prop Sem/Mal Sg Nom @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<triðja>"
 	"triðji" A Neu Sg Nom Def @amod #3->4
 "<ættarlið>"
-	"ættarlið" N Neu Sg Nom Indef @dep #4->
+	"ættarlið" N Neu Sg Nom Indef @root #4->0
 "<av>"
 	"av" Pr @case #5->6
 "<bátasmiðum>"
-	"bátasmiður" N Msc Pl Dat Indef @nmod #6->
+	"bátasmiður" N Msc Pl Dat Indef @nmod #6->4
 "<á>"
 	"á" Pr @case #7->8
 "<Tvøroyri>"
-	"Tvøroyri" N Prop Fem Sg Dat Indef @nmod #8->
+	"Tvøroyri" N Prop Fem Sg Dat Indef @nmod #8->4
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->4
 
+# text[eng] = The regional capital is Rennes.
 # labels = to_check
 "<Landslutahøvuðsstaður>"
-	"landslutur#høvuðsstaður" N Msc Sg Nom Indef @dep #1->
+	"landslutur#høvuðsstaður" N Msc Sg Nom Indef @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<Rennes>"
-	"Rennes" N Prop Sem/Sur Sg Nom @dep #3->
+	"Rennes" N Prop Sem/Sur Sg Nom @root #3->0
 "<.>"
-	"." CLB @punct #4->
+	"." CLB @punct #4->3
 
+# text[eng] = The largest city in Zealand is Copenhagen.
 # labels = to_check
 "<Størsti>"
 	"stórur" A Superl Msc Sg Nom Def @amod #1->2
 "<býur>"
-	"býur" N Msc Sg Nom Indef @dep #2->
+	"býur" N Msc Sg Nom Indef @nsubj #2->4
 "<í>"
 	"í" Pr @case #3->4
 "<Sælandi>"
-	"Sæland" N Prop Neu Sg Dat Indef @nmod #4->
+	"Sæland" N Prop Neu Sg Dat Indef @nmod #4->2
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #5->
+	"vera" V Ind Prs Sg3 @cop #5->6
 "<Keypmannahavn>"
-	"Keypmannahavn" N Prop Fem Sg Nom Indef @dep #6->
+	"Keypmannahavn" N Prop Fem Sg Nom Indef @root #6->0
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # labels = to_check
 "<Hon>"
@@ -16051,19 +16062,20 @@
 "<.>"
 	"." CLB @punct #9->
 
+# text[eng] = The main part of the economy is tourism.
 # labels = to_check
 "<Grundarlagið>"
-	"grundarlag" N Neu Sg Nom Def @dep #1->
+	"grundarlag" N Neu Sg Nom Def @nsubj #1->5
 "<undir>"
 	"undir" Pr @case #2->3
 "<búskapinum>"
-	"búskapur" N Msc Sg Dat Def @nmod #3->
+	"búskapur" N Msc Sg Dat Def @nmod #3->1
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->5
 "<ferðavinna>"
-	"ferðavinna" N Fem Sg Nom Indef @dep #5->
+	"ferðavinna" N Fem Sg Nom Indef @root #5->0
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->5
 
 # labels = to_check
 "<Laos>"
@@ -16105,23 +16117,24 @@
 "<.>"
 	"." CLB @punct #4->
 
+# text[eng] = It is a country with high mountains.
 # labels = to_check
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->
+	"tað" Pron Pers Sg3 Nom @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<eitt>"
 	"ein" Det Neu Sg Nom @det #3->4
 "<land>"
-	"land" N Neu Sg Nom Indef @dep #4->
+	"land" N Neu Sg Nom Indef @root #4->0
 "<við>"
-	"við" Pr @case #5->
+	"við" Pr @case #5->7
 "<høgum>"
 	"høgur" A Neu Pl Dat Indef @amod #6->7
 "<fjøllum>"
-	"fjall" N Neu Pl Dat Indef @nmod #7->
+	"fjall" N Neu Pl Dat Indef @nmod #7->4
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->4
 
 # labels = to_check
 "<Landbúnaður>"
