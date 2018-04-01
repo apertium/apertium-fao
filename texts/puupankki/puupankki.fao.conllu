@@ -224,9 +224,9 @@
 7	yvir	yvir	ADP	Pr	_	9	case	_	_
 8	tíggju	tíggju	NUM	Num	_	9	nummod	_	_
 9	milliónir	millión	NOUN	N	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	10	nummod	_	_
-10	ferðafólk	ferðafólk	NOUN	N	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	6	nmod	_	_
+10	ferðafólk	ferðafólk	NOUN	N	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	6	obj	_	_
 11	á	á	ADP	Pr	_	12	case	_	_
-12	vitjan	vitjan	NOUN	N	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+12	vitjan	vitjan	NOUN	N	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
 13	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = wikipedia.vislcg.txt:21:332

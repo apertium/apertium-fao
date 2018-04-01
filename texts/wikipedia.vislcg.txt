@@ -27352,11 +27352,11 @@
 "<milliónir>"
 	"millión" N Fem Pl Acc Indef @nummod #9->10
 "<ferðafólk>"
-	"ferðafólk" N Neu Pl Acc Indef @nmod #10->6
+	"ferðafólk" N Neu Pl Acc Indef @obj #10->6
 "<á>"
 	"á" Pr @case #11->12
 "<vitjan>"
-	"vitjan" N Fem Sg Dat Indef @nmod #12->6
+	"vitjan" N Fem Sg Dat Indef @obl #12->6
 "<.>"
 	"." CLB @punct #13->3
 
