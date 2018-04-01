@@ -15092,15 +15092,16 @@
 "<.>"
 	"." CLB @punct #7->
 
+# text[eng] = Armenia won the competition.
 # labels = to_check
 "<Armenia>"
-	"Armenia" N Prop Sg Nom @dep #1->2
+	"Armenia" N Prop Sg Nom @nsubj #1->2
 "<vann>"
 	"vinna" V Ind Prt Sg3 @root #2->0
 "<kappingina>"
-	"kapping" N Fem Sg Acc Def @dep #3->2
+	"kapping" N Fem Sg Acc Def @obj #3->2
 "<.>"
-	"." CLB @punct #4->
+	"." CLB @punct #4->2
 
 # labels = to_check
 "<Vinnararnir>"
