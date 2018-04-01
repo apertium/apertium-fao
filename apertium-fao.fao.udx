@@ -14,7 +14,7 @@ _	_	Indef	_	_	_	Definite=Ind	_
 _	_	Inf	_	_	_	VerbForm=Inf	_
 _	_	Interr	_	_	_	PronType=Int	_
 _	_	LEFT	_	_	_	_	_
-_	_	Msc	_	_	_	Gender=Msc	_
+_	_	Msc	_	_	_	Gender=Masc	_
 _	_	Neu	_	_	_	Gender=Neut	_
 _	_	Nom	_	_	_	Case=Nom	_
 _	_	Ord	_	_	_	NumType=Ord	_
@@ -27,7 +27,7 @@ _	_	Pl3	_	_	_	Number=Plur|Person=3	_
 _	_	Poss	_	_	_	_	_
 _	_	PrfPrc	_	_	_	VerbForm=Part|Tense=Past|Mood=Ind	_
 _	N	Prop	_	_	_	PROPN	_
-_	_	Prs	_	_	_	Tense=Prs|Mood=Ind	_
+_	_	Prs	_	_	_	Tense=Pres|Mood=Ind	_
 _	_	PrsPrc	_	_	_	VerbForm=Part|Tense=Prs|Mood=Ind	_
 _	_	Prt	_	_	_	Tense=Past|Mood=Ind	_
 _	_	Refl	_	_	_	Reflexive=Yes	_
@@ -41,7 +41,7 @@ _	_	Sg	_	_	_	Number=Sing	_
 _	_	Sg1	_	_	_	Number=Sing|Person=1	_
 _	_	Sg2	_	_	_	Number=Sing|Person=2	_
 _	_	Sg3	_	_	_	Number=Sing|Person=3	_
-_	_	Sup	_	_	_	VerbForm=Supn	_
+_	_	Sup	_	_	_	VerbForm=Sup	_
 _	_	Superl	_	_	_	Degree=Sup	_
 _	A	_	_	_	ADJ	_	_
 _	Abbr	_	_	_	NOUN	_	_
@@ -58,3 +58,4 @@ _	Pr	_	_	_	ADP	_	_
 _	Pron	_	_	_	PRON	_	_
 _	PUNCT	_	_	_	PUNCT	_	_
 _	V	_	_	_	VERB	_	_
+_	x	_	_	_	X	_	_
