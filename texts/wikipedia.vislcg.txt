@@ -27121,6 +27121,7 @@
 "<.>"
 	"." CLB @punct #20->
 
+# text[eng] = Distinctive smoke comes from it.
 # labels = to_check
 "<Eyðkendur>"
 	"eyðkendur" A Msc Sg Nom Indef @amod #1->2
@@ -27131,9 +27132,9 @@
 "<av>"
 	"av" Pr @case #4->5
 "<henni>"
-	"hon" Pron Pers Sg3 Fem Dat @nmod #5->
+	"hon" Pron Pers Sg3 Fem Dat @obl #5->3
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->3
 
 # labels = to_check
 "<Her>"
@@ -27157,23 +27158,24 @@
 "<.>"
 	"." CLB @punct #10->
 
+# text[eng] = The book was called Kom upp á fjallatindur.
 # labels = to_check
 "<Bókin>"
-	"bók" N Fem Sg Nom Def @dep #1->
+	"bók" N Fem Sg Nom Def @nsubj #1->3
 "<fekk>"
-	"fáa" V Ind Prt Sg3 @dep #2->
+	"fáa" V Ind Prt Sg3 @aux #2->3
 "<heitið>"
-	"heitin" A Adv @dep #3->
+	"heita" V Supn @root #3->
 "<Kom>"
-	"koma" V Ind Prt Sg3 @dep #4->
+	"koma" V Ind Prt Sg3 @xcomp #4->3
 "<upp>"
-	"upp" Adv @dep #5->
+	"upp" Adv @advmod #5->4
 "<á>"
 	"á" Pr @case #6->7
 "<fjallatind>"
-	"fjallatindur" N Msc Sg Acc Indef @nmod #7->
+	"fjallatindur" N Msc Sg Acc Indef @obl #7->4
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->2
 
 # labels = to_check
 "<Hiiumaa>"
