@@ -233,7 +233,7 @@
 # text =  Kankaanpää: Kankaanpää er ein býur og ein kommuna í Finnlandi.
 # text[eng] = Kankaanpää: Kankaanpää is a city and commune in Finland.
 # labels = to_check
-1	Kankaanpää	Kankaanpää	PROPN	N	Case=Nom|Number=Sing	0	dep	_	SpaceAfter=No
+1	Kankaanpää	Kankaanpää	PROPN	N	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	CLB	_	1	punct	_	_
 3	Kankaanpää	Kankaanpää	PROPN	N	Case=Nom|Number=Sing	6	nsubj	_	_
 4	er	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	cop	_	_

@@ -27041,7 +27041,7 @@
 # text[eng] = Kankaanpää: Kankaanpää is a city and commune in Finland.
 # labels = to_check
 "<Kankaanpää>"
-	"Kankaanpää" N Prop Sem/Plc Sg Nom @dep #1->0
+	"Kankaanpää" N Prop Sem/Plc Sg Nom @root #1->0
 "<:>"
 	":" CLB @punct #2->1
 "<Kankaanpää>"
