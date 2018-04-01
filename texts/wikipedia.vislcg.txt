@@ -27033,53 +27033,55 @@
 "<.>"
 	"." CLB @punct #11->
 
+# text[eng] = Kankaanpää: Kankaanpää is a city and commune in Finland.
 # labels = to_check
 "<Kankaanpää>"
-	"Kankaanpää" N Prop Sem/Plc Sg Nom @dep #1->
+	"Kankaanpää" N Prop Sem/Plc Sg Nom @dep #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Kankaanpää>"
-	"Kankaanpää" N Prop Sem/Plc Sg Nom @dep #3->
+	"Kankaanpää" N Prop Sem/Plc Sg Nom @nsubj #3->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->6
 "<ein>"
 	"ein" Det Msc Sg Nom @det #5->6
 "<býur>"
-	"býur" N Msc Sg Nom Indef @dep #6->
+	"býur" N Msc Sg Nom Indef @parataxis #6->1
 "<og>"
-	"og" CC @cc #7->
+	"og" CC @cc #7->9
 "<ein>"
-	"eitt" Num Fem Sg Nom @nummod #8->9
+	"eitt" Det Fem Sg Nom @det #8->9
 "<kommuna>"
-	"kommuna" N Fem Sg Nom Indef @dep #9->
+	"kommuna" N Fem Sg Nom Indef @dep #9->6
 "<í>"
 	"í" Pr @case #10->11
 "<Finnlandi>"
-	"Finnland" N Prop Neu Sg Dat Indef @nmod #11->
+	"Finnland" N Prop Neu Sg Dat Indef @obl #11->6
 "<.>"
-	"." CLB @punct #12->
+	"." CLB @punct #12->6
 
+# text[eng] = The Progressive Party: The Progressive Party is a political party in the Faroe Isles.
 # labels = to_check
 "<Framsóknarflokkurin>"
-	"framsókn#flokkur" N Msc Sg Nom Def @dep #1->
+	"framsókn#flokkur" N Msc Sg Nom Def @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Framsóknarflokkurin>"
-	"framsókn#flokkur" N Msc Sg Nom Def @dep #3->
+	"framsókn#flokkur" N Msc Sg Nom Def @nsubj #3->7
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #4->
+	"vera" V Ind Prt Sg3 @cop #4->7
 "<ein>"
-	"ein" Det Msc Sg Nom @det #5->
+	"ein" Det Msc Sg Nom @det #5->7
 "<politiskur>"
 	"politiskur" A Msc Sg Nom Indef @amod #6->7
 "<flokkur>"
-	"flokkur" N Msc Sg Nom Indef @dep #7->
+	"flokkur" N Msc Sg Nom Indef @parataxis #7->1
 "<í>"
 	"í" Pr @case #8->9
 "<Føroyum>"
-	"Føroyar" N Prop Fem Pl Dat Indef @nmod #9->
+	"Føroyar" N Prop Fem Pl Dat Indef @nmod #9->7
 "<.>"
-	"." CLB @punct #10->
+	"." CLB @punct #10->7
 
 # labels = to_check
 "<Framsøkin>"
@@ -27128,7 +27130,7 @@
 "<Eyðkendur>"
 	"eyðkendur" A Msc Sg Nom Indef @amod #1->2
 "<roykur>"
-	"roykur" N Msc Sg Nom Indef @dep #2->3
+	"roykur" N Msc Sg Nom Indef @nsubj #2->3
 "<gongur>"
 	"ganga" V Ind Prs Sg3 @root #3->0
 "<av>"
@@ -27138,27 +27140,28 @@
 "<.>"
 	"." CLB @punct #6->3
 
+# text[eng] = Here is a sperra that I have found.
 # labels = to_check
 "<Her>"
-	"her" Adv @dep #1->
+	"her" Adv @root #1->0
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->1
 "<ein>"
 	"eitt" Num Fem Sg Nom @nummod #3->4
 "<sperra>"
-	"sperra" N Fem Sg Nom Indef @dep #4->
+	"sperra" N Fem Sg Nom Indef @nsubj #4->1
 "<,>"
-	"," CLB @punct #5->
+	"," CLB @punct #5->9
 "<sum>"
-	"sum" CS @dep #6->
+	"sum" Pron Rel @obj #6->9
 "<eg>"
-	"eg" Pron Pers Sg1 Nom @nsubj #7->
+	"eg" Pron Pers Sg1 Nom @nsubj #7->9
 "<havi>"
 	"hava" V Ind Prs Sg1 @aux #8->9
 "<funnið>"
-	"finna" V Sup @dep #9->
+	"finna" V Sup @acl #9->4
 "<.>"
-	"." CLB @punct #10->
+	"." CLB @punct #10->1
 
 # text[eng] = The book was called Kom upp á fjallatindur.
 # labels = to_check

@@ -31,6 +31,7 @@ _	_	Prs	_	_	_	Tense=Pres|Mood=Ind	_
 _	_	PrsPrc	_	_	_	VerbForm=Part|Tense=Prs|Mood=Ind	_
 _	_	Prt	_	_	_	Tense=Past|Mood=Ind	_
 _	_	Refl	_	_	_	Reflexive=Yes	_
+_	_	Rel	_	_	_	PronType=Rel	_
 _	_	RIGHT	_	_	_	_	_
 _	_	Sem/Fem	_	_	_	_	_
 _	_	Sem/Mal	_	_	_	_	_
