@@ -29,7 +29,7 @@
 	"." CLB @punct #3->2
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<1957>"
 	"1957" Num Dat @nmod #2->6
 "<verður>"
@@ -168,7 +168,7 @@
 	"." CLB @punct #12->5
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<eisini>"
@@ -185,7 +185,7 @@
 	"." CLB @punct #8->8
 
 "<Forsíða>"
-	"forsíða" N Fem Sg Nom Indef @dep #1->1
+	"forsíða" N Fem Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Løgmenn>"
@@ -231,7 +231,7 @@
 	"." CLB @punct #7->7
 
 "<Føroyar>"
-	"Føroyar" N Prop Fem Pl Nom Indef @dep #1->1
+	"Føroyar" N Prop Fem Pl Nom Indef @dep #1->
 "<og>"
 	"og" CC @cc #2->2
 "<Grønland>"
@@ -252,7 +252,7 @@
 	"." CLB @punct #10->10
 
 "<Útbúgvingar>"
-	"útbúgving" N Fem Pl Nom Indef @dep #1->1
+	"útbúgving" N Fem Pl Nom Indef @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<Danmark>"
@@ -275,7 +275,7 @@
 	"." CLB @punct #11->11
 
 "<Oyggin>"
-	"oyggj" N Fem Sg Nom Def @dep #1->1
+	"oyggj" N Fem Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<vøkur>"
@@ -370,7 +370,7 @@
 	"." CLB @punct #6->6
 
 "<Hetta>"
-	"hesin" Pron Dem Neu Sg Acc @dep #1->1
+	"hesin" Pron Dem Neu Sg Acc @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<eitt>"
@@ -410,7 +410,7 @@
 	"." CLB @punct #9->9
 
 "<Ferðasamband>"
-	"ferðasamband" N Neu Sg Nom Indef @dep #1->1
+	"ferðasamband" N Neu Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<3>"
@@ -473,7 +473,7 @@
 	"." CLB @punct #11->11
 
 "<Súgvin>"
-	"súgv" N Fem Sg Nom Def @dep #1->1
+	"súgv" N Fem Sg Nom Def @dep #1->
 "<fór>"
 	"fara" V Ind Prt Sg3 @dep #2->2
 "<á>"
@@ -492,7 +492,7 @@
 	"." CLB @punct #9->9
 
 "<Og>"
-	"og" CC @cc #1->1
+	"og" CC @cc #1->
 "<har>"
 	"har" Adv @dep #2->3
 "<hevur>"
@@ -551,7 +551,7 @@
 	"." CLB @punct #9->9
 
 "<Støðan>"
-	"støða" N Fem Sg Nom Def @dep #1->1
+	"støða" N Fem Sg Nom Def @dep #1->
 "<,>"
 	"," CLB @punct #2->2
 "<vit>"
@@ -586,7 +586,7 @@
 	"." CLB @punct #17->17
 
 "<Tey>"
-	"tað" Pron Pers Pl3 Nom @nsubj #1->1
+	"tað" Pron Pers Pl3 Nom @nsubj #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<til>"
@@ -624,7 +624,7 @@
 	"." CLB @punct #6->6
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<2011>"
 	"2011" Num Dat @dep #2->3
 "<varð>"
@@ -641,7 +641,7 @@
 	"." CLB @punct #8->8
 
 "<Mánadagur>"
-	"mánadagur" N Msc Sg Nom Indef @dep #1->1
+	"mánadagur" N Msc Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Mánadagur>"
@@ -656,7 +656,7 @@
 	"." CLB @punct #7->7
 
 "<Fríggjadagur>"
-	"fríggjadagur" N Msc Sg Nom Indef @dep #1->1
+	"fríggjadagur" N Msc Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Fríggjadagur>"
@@ -671,7 +671,7 @@
 	"." CLB @punct #7->7
 
 "<Leygardagur>"
-	"leygardagur" N Msc Sg Nom Indef @dep #1->1
+	"leygardagur" N Msc Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Leygardagur>"
@@ -686,7 +686,7 @@
 	"." CLB @punct #7->7
 
 "<Sunnudagur>"
-	"sunnudagur" N Msc Sg Nom Indef @dep #1->1
+	"sunnudagur" N Msc Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Sunnudagur>"
@@ -701,7 +701,7 @@
 	"." CLB @punct #7->7
 
 "<Slovakia>"
-	"Slovakia" N Prop Sg Nom @dep #1->1
+	"Slovakia" N Prop Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Slovakia>"
@@ -760,7 +760,7 @@
 	"." CLB @punct #15->15
 
 "<Hetta>"
-	"hesin" Pron Dem Neu Sg Acc @dep #1->1
+	"hesin" Pron Dem Neu Sg Acc @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<nesið>"
@@ -781,7 +781,7 @@
 	"." CLB @punct #10->10
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<ókeypis>"
@@ -815,7 +815,7 @@
 	"." CLB @punct #6->6
 
 "<Starvið>"
-	"starv" N Neu Sg Nom Def @dep #1->1
+	"starv" N Neu Sg Nom Def @dep #1->
 "<sum>"
 	"sum" Pr @case #2->3
 "<borgarstjóri>"
@@ -845,7 +845,7 @@
 	"." CLB @punct #8->8
 
 "<Nú>"
-	"nú" Adv @dep #1->1
+	"nú" Adv @dep #1->
 "<á>"
 	"á" Pr @case #2->3
 "<døgum>"
@@ -864,7 +864,7 @@
 	"." CLB @punct #9->9
 
 "<Frá>"
-	"frá" Pr @case #1->1
+	"frá" Pr @case #1->
 "<gamlari>"
 	"gamal" A Fem Sg Dat Indef @amod #2->3
 "<tíð>"
@@ -898,7 +898,7 @@
 	"." CLB @punct #6->2
 
 "<Faðirin>"
-	"faðir" N Msc Sg Nom Def @dep #1->1
+	"faðir" N Msc Sg Nom Def @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<útróðrarmaður>"
@@ -917,7 +917,7 @@
 	"." CLB @punct #9->9
 
 "<Høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Def @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<Noregi>"
@@ -930,7 +930,7 @@
 	"." CLB @punct #6->6
 
 "<50 %>"
-	"50 %" Num Nom @dep #1->1
+	"50 %" Num Nom @dep #1->
 "<av>"
 	"av" Pr @case #2->3
 "<landinum>"
@@ -974,7 +974,7 @@
 	"." CLB @punct #6->6
 
 "<Og>"
-	"og" CC @cc #1->1
+	"og" CC @cc #1->
 "<so>"
 	"so" Adv @dep #2->3
 "<dregur>"
@@ -1005,7 +1005,7 @@
 	"." CLB @punct #15->15
 
 "<Høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<Oslo>"
@@ -1014,7 +1014,7 @@
 	"." CLB @punct #4->4
 
 "<Arendal>"
-	"Arendal" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Arendal" N Prop Sem/Plc Sg Nom @dep #1->
 "<og>"
 	"og" CC @cc #2->2
 "<Kristiansand>"
@@ -1046,7 +1046,7 @@
 	"." CLB @punct #9->9
 
 "<Norra>"
-	"Norra" N Prop Sg Nom @dep #1->1
+	"Norra" N Prop Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<heimsmeistari>"
@@ -1059,7 +1059,7 @@
 	"." CLB @punct #6->6
 
 "<Skøkjulevnaður>"
-	"skøkjulevnað#ur" N Neu Sg Nom Indef @dep #1->1
+	"skøkjulevnað#ur" N Neu Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<ólógligur>"
@@ -1072,7 +1072,7 @@
 	"." CLB @punct #6->6
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<2,9 %>"
@@ -1094,7 +1094,7 @@
 	"." CLB @punct #6->6
 
 "<Arbeiðaraflokkurin>"
-	"arbeiðaraflokkur" N Msc Sg Nom Def @dep #1->1
+	"arbeiðaraflokkur" N Msc Sg Nom Def @dep #1->
 "<,>"
 	"," CLB @punct #2->2
 "<Høgra>"
@@ -1113,7 +1113,7 @@
 	"." CLB @punct #9->9
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<aling>"
@@ -1137,7 +1137,7 @@
 	"." CLB @punct #7->6
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<2010>"
 	"2010" Num Dat @dep #2->2
 "<vóru>"
@@ -1173,7 +1173,7 @@
 	"." CLB @punct #9->9
 
 "<Leikluturin>"
-	"leiklutur" N Msc Sg Nom Def @dep #1->1
+	"leiklutur" N Msc Sg Nom Def @dep #1->
 "<hjá>"
 	"hjá" Pr @case #2->2
 "<íslendska>"
@@ -1188,7 +1188,7 @@
 	"." CLB @punct #7->7
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<í>"
@@ -1213,7 +1213,7 @@
 	"." CLB @punct #12->12
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<2014>"
 	"2014" Num Dat @dep #2->2
 "<eru>"
@@ -1232,7 +1232,7 @@
 	"." CLB @punct #9->9
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<2010>"
 	"2010" Num Dat @dep #2->2
 "<spældi>"
@@ -1262,7 +1262,7 @@
 	"." CLB @punct #6->6
 
 "<At>"
-	"at" IM @dep #1->1
+	"at" IM @dep #1->
 "<skipa>"
 	"skipa" V Inf @dep #2->2
 "<løgtingið>"
@@ -1288,7 +1288,7 @@
 	"." CLB @punct #8->8
 
 "<Hatta>"
-	"hasin" Det Neu Sg Nom @det #1->1
+	"hasin" Det Neu Sg Nom @det #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<mín>"
@@ -1316,7 +1316,7 @@
 	"." CLB @punct #8->8
 
 "<Amtmenn>"
-	"amtmaður" N Msc Pl Nom Indef @dep #1->1
+	"amtmaður" N Msc Pl Nom Indef @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<Føroyum>"
@@ -1343,7 +1343,7 @@
 	"." CLB @punct #13->13
 
 "<Amtmaðurin>"
-	"amtmaður" N Msc Sg Nom Def @dep #1->1
+	"amtmaður" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<ovasti>"
@@ -1358,7 +1358,7 @@
 	"." CLB @punct #7->7
 
 "<Felagsskapurin>"
-	"felagsskapur" N Msc Sg Nom Def @dep #1->1
+	"felagsskapur" N Msc Sg Nom Def @dep #1->
 "<sigur>"
 	"siga" V Ind Prs Sg3 @dep #2->2
 "<,>"
@@ -1392,7 +1392,7 @@
 	"." CLB @punct #6->6
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<2000>"
 	"2000" Num Dat @dep #2->2
 "<var>"
@@ -1407,7 +1407,7 @@
 	"." CLB @punct #7->7
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<lærari>"
@@ -1472,7 +1472,7 @@
 	"." CLB @punct #5->5
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<1900>"
 	"1900" Num Dat @dep #2->2
 "<var>"
@@ -1491,7 +1491,7 @@
 	"." CLB @punct #9->9
 
 "<Hetta>"
-	"hesin" Pron Dem Neu Sg Acc @dep #1->1
+	"hesin" Pron Dem Neu Sg Acc @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<ein>"
@@ -1512,7 +1512,7 @@
 	"." CLB @punct #10->10
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<1931>"
 	"1931" Num Dat @dep #2->3
 "<varð>"
@@ -1555,7 +1555,7 @@
 	"." CLB @punct #8->8
 
 "<Bráðnaði>"
-	"bráðna" V Ind Prt Sg @dep #1->1
+	"bráðna" V Ind Prt Sg @dep #1->
 "<grønlendski>"
 	"grønlendskur" A Msc Sg Nom Def @amod #2->3
 "<ísurin>"
@@ -1578,7 +1578,7 @@
 	"." CLB @punct #11->11
 
 "<Høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Def @dep #1->
 "<og>"
 	"og" CC @cc #2->2
 "<størsti>"
@@ -1593,7 +1593,7 @@
 	"." CLB @punct #7->7
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<danskur>"
@@ -1625,7 +1625,7 @@
 	"." CLB @punct #8->8
 
 "<Eisini>"
-	"eisini" Adv @dep #1->1
+	"eisini" Adv @dep #1->
 "<staðfestir>"
 	"staðfesta" V Ind Prs Sg3 @dep #2->2
 "<heimastýrislógin>"
@@ -1642,7 +1642,7 @@
 	"." CLB @punct #8->8
 
 "<Nógv>"
-	"nógvur" A Fem Sg Nom Indef @dep #1->1
+	"nógvur" A Fem Sg Nom Indef @dep #1->
 "<stríð>"
 	"stríður" A Fem Sg Nom Indef @dep #2->2
 "<er>"
@@ -1671,7 +1671,7 @@
 	"." CLB @punct #14->14
 
 "<Ætlanin>"
-	"ætlan" N Fem Sg Nom Def @dep #1->1
+	"ætlan" N Fem Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<at>"
@@ -1699,7 +1699,7 @@
 	"." CLB @punct #2->2
 
 "<Pávin>"
-	"pávi" N Msc Sg Nom Def @dep #1->1
+	"pávi" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<hægsti>"
@@ -1716,7 +1716,7 @@
 	"." CLB @punct #8->8
 
 "<Svarið>"
-	"svar" N Neu Sg Nom Def @dep #1->1
+	"svar" N Neu Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<ein>"
@@ -1727,7 +1727,7 @@
 	"." CLB @punct #5->5
 
 "<Tórshavnar>"
-	"Tórshavn" N Prop Fem Sg Gen Indef @dep #1->1
+	"Tórshavn" N Prop Fem Sg Gen Indef @dep #1->
 "<kommuna>"
 	"kommuna" N Fem Sg Nom Indef @dep #2->2
 "<:>"
@@ -1783,7 +1783,7 @@
 	"." CLB @punct #5->5
 
 "<Upprunin>"
-	"uppruni" N Msc Sg Nom Def @dep #1->1
+	"uppruni" N Msc Sg Nom Def @dep #1->
 "<av>"
 	"av" Pr @case #2->3
 "<orðinum>"
@@ -1804,7 +1804,7 @@
 	"." CLB @punct #10->10
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<sjálvlærdur>"
@@ -1856,7 +1856,7 @@
 	"." CLB @punct #7->7
 
 "<Áland>"
-	"Áland" N Neu Sg Nom Indef @dep #1->1
+	"Áland" N Neu Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<gomul>"
@@ -1867,7 +1867,7 @@
 	"." CLB @punct #5->5
 
 "<Áland>"
-	"Áland" N Neu Sg Nom Indef @dep #1->1
+	"Áland" N Neu Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<eisini>"
@@ -1912,7 +1912,7 @@
 	"." CLB @punct #5->5
 
 "<Høvuðsstaður>"
-	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<Mariehamn>"
@@ -1945,7 +1945,7 @@
 	"." CLB @punct #6->6
 
 "<Nú>"
-	"nú" Adv @dep #1->1
+	"nú" Adv @dep #1->
 "<á>"
 	"á" Pr @case #2->3
 "<døgum>"
@@ -1964,7 +1964,7 @@
 	"." CLB @punct #9->9
 
 "<Mann>"
-	"maður" N Msc Sg Acc Indef @dep #1->1
+	"maður" N Msc Sg Acc Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<eitt>"
@@ -1985,7 +1985,7 @@
 	"." CLB @punct #10->10
 
 "<Írland>"
-	"Írland" N Neu Sg Nom Indef @dep #1->1
+	"Írland" N Neu Sg Nom Indef @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<leingi>"
@@ -2000,7 +2000,7 @@
 	"." CLB @punct #7->7
 
 "<Nú>"
-	"nú" Adv @dep #1->1
+	"nú" Adv @dep #1->
 "<á>"
 	"á" Pr @case #2->3
 "<døgum>"
@@ -2033,7 +2033,7 @@
 	"." CLB @punct #16->16
 
 "<Berlin>"
-	"Berlin" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Berlin" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Berlin>"
@@ -2048,7 +2048,7 @@
 	"." CLB @punct #7->7
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<størsti>"
@@ -2067,7 +2067,7 @@
 	"." CLB @punct #9->9
 
 "<Býurin>"
-	"býur" N Msc Sg Nom Def @dep #1->1
+	"býur" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<eisini>"
@@ -2123,7 +2123,7 @@
 	"." CLB @punct #11->11
 
 "<Flogvøllurin>"
-	"flogvøllur" N Msc Sg Nom Def @dep #1->1
+	"flogvøllur" N Msc Sg Nom Def @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<Keypmannahavn>"
@@ -2138,7 +2138,7 @@
 	"." CLB @punct #7->7
 
 "<Tróndur>"
-	"Tróndur" N Prop Sem/Mal Sg Nom @dep #1->1
+	"Tróndur" N Prop Sem/Mal Sg Nom @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<reyðhærdur>"
@@ -2174,7 +2174,7 @@
 	"." CLB @punct #7->7
 
 "<Haraldur>"
-	"Haraldur" N Prop Sem/Mal Sg Nom @dep #1->1
+	"Haraldur" N Prop Sem/Mal Sg Nom @dep #1->
 "<kongur>"
 	"kongur" N Msc Sg Nom Indef @dep #2->2
 "<sigldi>"
@@ -2203,7 +2203,7 @@
 	"." CLB @punct #14->14
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<mikil>"
@@ -2222,7 +2222,7 @@
 	"." CLB @punct #9->9
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<av>"
@@ -2250,7 +2250,7 @@
 	"." CLB @punct #7->7
 
 "<Smyril>"
-	"smyril" N Msc Sg Nom Indef @dep #1->1
+	"smyril" N Msc Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<minsti>"
@@ -2320,7 +2320,7 @@
 	"." CLB @punct #10->10
 
 "<Luzern>"
-	"Luzern" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Luzern" N Prop Sem/Plc Sg Nom @dep #1->
 "<og>"
 	"og" CC @cc #2->2
 "<Lugano>"
@@ -2335,7 +2335,7 @@
 	"." CLB @punct #7->7
 
 "<->"
-	"-" PUNCT @punct #1->1
+	"-" PUNCT @punct #1->
 "<At>"
 	"at" CS @dep #2->4
 "<loyvt>"
@@ -2356,7 +2356,7 @@
 	"." CLB @punct #10->10
 
 "<->"
-	"-" PUNCT @punct #1->1
+	"-" PUNCT @punct #1->
 "<At>"
 	"at" IM @dep #2->2
 "<stovnseta>"
@@ -2408,7 +2408,7 @@
 	"." CLB @punct #5->5
 
 "<Dagurin>"
-	"dagur" N Msc Sg Nom Def @dep #1->1
+	"dagur" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<2.>"
@@ -2419,7 +2419,7 @@
 	"." CLB @punct #5->5
 
 "<Dansitíðin>"
-	"dansitíð" N Fem Sg Nom Def @dep #1->1
+	"dansitíð" N Fem Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<frá>"
@@ -2436,7 +2436,7 @@
 	"." CLB @punct #8->8
 
 "<Hvannasund>"
-	"Hvannasund" N Prop Neu Sg Nom Indef @dep #1->1
+	"Hvannasund" N Prop Neu Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<fyrndarbygd>"
@@ -2445,7 +2445,7 @@
 	"." CLB @punct #4->4
 
 "<Sum>"
-	"sum" CS @dep #1->1
+	"sum" CS @dep #1->
 "<ungur>"
 	"ungur" A Msc Sg Nom Indef @dep #2->2
 "<var>"
@@ -2462,7 +2462,7 @@
 	"." CLB @punct #8->8
 
 "<Tvøroyrar>"
-	"Tvøroyri" N Prop Fem Sg Gen Indef @dep #1->1
+	"Tvøroyri" N Prop Fem Sg Gen Indef @dep #1->
 "<kommuna>"
 	"kommuna" N Fem Sg Nom Indef @dep #2->2
 "<:>"
@@ -2483,7 +2483,7 @@
 	"." CLB @punct #10->10
 
 "<Dagurin>"
-	"dagur" N Msc Sg Nom Def @dep #1->1
+	"dagur" N Msc Sg Nom Def @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<dag>"
@@ -2498,7 +2498,7 @@
 	"." CLB @punct #7->7
 
 "<Steðgurin>"
-	"steðgur" N Msc Sg Nom Def @dep #1->1
+	"steðgur" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<10-15>"
@@ -2509,7 +2509,7 @@
 	"." CLB @punct #5->5
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<1928>"
 	"1928" Num Dat @dep #2->3
 "<fór>"
@@ -2530,7 +2530,7 @@
 	"." CLB @punct #10->10
 
 "<Torkil>"
-	"Torkil" N Prop Sem/Mal Sg Nom @dep #1->1
+	"Torkil" N Prop Sem/Mal Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<eisini>"
@@ -2541,7 +2541,7 @@
 	"." CLB @punct #5->5
 
 "<Báturin>"
-	"bátur" N Msc Sg Nom Def @dep #1->1
+	"bátur" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<hvítur>"
@@ -2558,7 +2558,7 @@
 	"." CLB @punct #8->8
 
 "<Niels>"
-	"Niels" N Prop Sem/Mal Sg Nom @dep #1->1
+	"Niels" N Prop Sem/Mal Sg Nom @dep #1->
 "<Finsens>"
 	"Finsen" N Prop Sem/Sur Sg Gen @dep #2->2
 "<gøta>"
@@ -2602,7 +2602,7 @@
 	"." CLB @punct #6->6
 
 "<Hetta>"
-	"hesin" Pron Dem Neu Sg Nom @dep #1->1
+	"hesin" Pron Dem Neu Sg Nom @dep #1->
 "<merkir>"
 	"merkja" V Ind Prs Sg3 @dep #2->2
 "<ikki>"
@@ -2664,7 +2664,7 @@
 	"." CLB @punct #8->8
 
 "<Meginparturin>"
-	"meginpartur" N Msc Sg Nom Def @dep #1->1
+	"meginpartur" N Msc Sg Nom Def @dep #1->
 "<av>"
 	"av" Pr @case #2->3
 "<fólkinum>"
@@ -2700,7 +2700,7 @@
 	"." CLB @punct #7->7
 
 "<Grundtøl>"
-	"grundtal" N Neu Pl Nom Indef @dep #1->1
+	"grundtal" N Neu Pl Nom Indef @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<talorð>"
@@ -2713,7 +2713,7 @@
 	"." CLB @punct #6->6
 
 "<Skiftitøl>"
-	"skiftitøl" N Neu Pl Nom Indef @dep #1->1
+	"skiftitøl" N Neu Pl Nom Indef @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<talorð>"
@@ -2743,7 +2743,7 @@
 	"." CLB @punct #8->8
 
 "<Høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<Athen>"
@@ -2764,7 +2764,7 @@
 	"." CLB @punct #10->10
 
 "<Grikkaland>"
-	"Grikkaland" N Prop Neu Sg Nom Indef @dep #1->1
+	"Grikkaland" N Prop Neu Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<limur>"
@@ -2788,7 +2788,7 @@
 	"." CLB @punct #5->5
 
 "<Tí>"
-	"tí" CS @dep #1->1
+	"tí" CS @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<nógv>"
@@ -2824,7 +2824,7 @@
 	"." CLB @punct #8->8
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<átta>"
@@ -2845,7 +2845,7 @@
 	"." CLB @punct #10->10
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<10>"
@@ -2892,7 +2892,7 @@
 	"." CLB @punct #8->8
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<895>"
 	"895" Num Dat @dep #2->2
 "<var>"
@@ -2905,7 +2905,7 @@
 	"." CLB @punct #6->6
 
 "<Um>"
-	"um" Pr @case #1->1
+	"um" Pr @case #1->
 "<96>"
 	"96" Num Nom @nummod #2->3
 "<fólk>"
@@ -2948,7 +2948,7 @@
 	"." CLB @punct #6->6
 
 "<Velbastaður>"
-	"Velbastaður" N Prop Msc Sg Nom Indef @dep #1->1
+	"Velbastaður" N Prop Msc Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<av>"
@@ -2965,7 +2965,7 @@
 	"." CLB @punct #8->8
 
 "<Velbastaður>"
-	"Velbastaður" N Prop Msc Sg Nom Indef @dep #1->1
+	"Velbastaður" N Prop Msc Sg Nom Indef @dep #1->
 "<hevur>"
 	"hava" V Ind Prs Sg3 @aux #2->3
 "<verið>"
@@ -3001,7 +3001,7 @@
 	"." CLB @punct #6->6
 
 "<Men>"
-	"men" CC @cc #1->1
+	"men" CC @cc #1->
 "<í>"
 	"í" Pr @case #2->3
 "<bygdini>"
@@ -3020,7 +3020,7 @@
 	"." CLB @punct #9->9
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<liggur>"
 	"liggja" V Ind Prs Sg3 @root #2->0
 "<nær>"
@@ -3041,7 +3041,7 @@
 	"." CLB @punct #10->10
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<missur>"
@@ -3058,7 +3058,7 @@
 	"!" CLB @punct #8->8
 
 "<Eitt>"
-	"ein" Det Neu Sg Nom @det #1->1
+	"ein" Det Neu Sg Nom @det #1->
 "<fjølbroytt>"
 	"fjølbroyttur" A Neu Sg Nom Indef @amod #2->3
 "<vinnulív>"
@@ -3079,7 +3079,7 @@
 	"." CLB @punct #10->10
 
 "<Vestmanna>"
-	"Vestmanna" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Vestmanna" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<eisini>"
@@ -3092,7 +3092,7 @@
 	"." CLB @punct #6->6
 
 "<Kamping>"
-	"kampingur" N Msc Sg Acc Indef @dep #1->1
+	"kampingur" N Msc Sg Acc Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<omanfyri>"
@@ -3123,7 +3123,7 @@
 	"." CLB @punct #15->15
 
 "<Miðvágur>"
-	"Miðvágur" N Prop Msc Sg Nom Indef @dep #1->1
+	"Miðvágur" N Prop Msc Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<søgulig>"
@@ -3147,7 +3147,7 @@
 	"." CLB @punct #6->6
 
 "<Meginparturin>"
-	"meginpartur" N Msc Sg Nom Def @dep #1->1
+	"meginpartur" N Msc Sg Nom Def @dep #1->
 "<av>"
 	"av" Pr @case #2->3
 "<jørðini>"
@@ -3223,7 +3223,7 @@
 	"." CLB @punct #10->10
 
 "<Eitt>"
-	"ein" Det Neu Sg Nom @det #1->1
+	"ein" Det Neu Sg Nom @det #1->
 "<vanligt>"
 	"vanligur" A Neu Sg Nom Indef @amod #2->3
 "<fiskavirki>"
@@ -3261,7 +3261,7 @@
 	"." CLB @punct #6->6
 
 "<Áhugavert>"
-	"áhugavert" Adv @dep #1->1
+	"áhugavert" Adv @dep #1->
 "<at>"
 	"at" IM @dep #2->2
 "<vitja>"
@@ -3270,7 +3270,7 @@
 	"." CLB @punct #4->4
 
 "<Kommunulækni>"
-	"kommuna#lækni" N Msc Sg Nom Indef @dep #1->1
+	"kommuna#lækni" N Msc Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<eisini>"
@@ -3283,7 +3283,7 @@
 	"." CLB @punct #6->6
 
 "<Lamba>"
-	"Lambi" N Prop Msc Sg Dat Indef @dep #1->1
+	"Lambi" N Prop Msc Sg Dat Indef @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<nýggjársbygd>"
@@ -3313,7 +3313,7 @@
 	"." CLB @punct #10->10
 
 "<Men>"
-	"men" CC @cc #1->1
+	"men" CC @cc #1->
 "<her>"
 	"her" Adv @dep #2->2
 "<er>"
@@ -3328,7 +3328,7 @@
 	"." CLB @punct #7->7
 
 "<Gásadalur>"
-	"Gásadalur" N Prop Msc Sg Nom Indef @dep #1->1
+	"Gásadalur" N Prop Msc Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<partur>"
@@ -3356,7 +3356,7 @@
 	"." CLB @punct #6->6
 
 "<Gudstænasta>"
-	"gudstænasta" N Fem Sg Nom Indef @dep #1->1
+	"gudstænasta" N Fem Sg Nom Indef @dep #1->
 "<og>"
 	"og" CC @cc #2->2
 "<lestur>"
@@ -3373,7 +3373,7 @@
 	"." CLB @punct #8->8
 
 "<At>"
-	"at" IM @dep #1->1
+	"at" IM @dep #1->
 "<stjala>"
 	"stjala" V Inf @dep #2->2
 "<eld>"
@@ -3382,7 +3382,7 @@
 	"." CLB @punct #4->4
 
 "<Aalborg>"
-	"Aalborg" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Aalborg" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<vinarbýur>"
@@ -3410,7 +3410,7 @@
 	"." CLB @punct #7->7
 
 "<Høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<Kiev>"
@@ -3425,7 +3425,7 @@
 	"." CLB @punct #7->7
 
 "<Sunnanmenninir>"
-	"sunnanmaður" N Msc Pl Nom Def @dep #1->1
+	"sunnanmaður" N Msc Pl Nom Def @dep #1->
 "<vóru>"
 	"vera" V Ind Prt Pl @cop #2->2
 "<við>"
@@ -3442,7 +3442,7 @@
 	"." CLB @punct #8->8
 
 "<Bispurin>"
-	"bispur" N Msc Sg Nom Def @dep #1->1
+	"bispur" N Msc Sg Nom Def @dep #1->
 "<flýggjaði>"
 	"flýggja" V Ind Prt Sg @dep #2->2
 "<og>"
@@ -3465,7 +3465,7 @@
 	"." CLB @punct #11->11
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<2005>"
 	"2005" Num Dat @dep #2->3
 "<varð>"
@@ -3482,7 +3482,7 @@
 	"." CLB @punct #8->8
 
 "<Men>"
-	"men" CC @cc #1->1
+	"men" CC @cc #1->
 "<soleiðis>"
 	"soleiðis" Adv @dep #2->3
 "<hevur>"
@@ -3517,7 +3517,7 @@
 	"." CLB @punct #6->6
 
 "<Høvuðsvinnan>"
-	"høvuðsvinna" N Fem Sg Nom Def @dep #1->1
+	"høvuðsvinna" N Fem Sg Nom Def @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<kommununi>"
@@ -3543,7 +3543,7 @@
 	"." CLB @punct #6->6
 
 "<Røktarheim>"
-	"røktarheim" N Neu Sg Nom Indef @dep #1->1
+	"røktarheim" N Neu Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<bygt>"
@@ -3573,7 +3573,7 @@
 	"." CLB @punct #3->3
 
 "<Har>"
-	"har" Adv @dep #1->1
+	"har" Adv @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<nógvur>"
@@ -3613,7 +3613,7 @@
 	"." CLB @punct #3->3
 
 "<Grótgarðurin>"
-	"grótgarður" N Msc Sg Nom Def @dep #1->1
+	"grótgarður" N Msc Sg Nom Def @dep #1->
 "<,>"
 	"," CLB @punct #2->2
 "<hon>"
@@ -3636,7 +3636,7 @@
 	"." CLB @punct #11->11
 
 "<Hanus>"
-	"Hanus" N Prop Sem/Mal Sg Nom @dep #1->1
+	"Hanus" N Prop Sem/Mal Sg Nom @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<av>"
@@ -3662,7 +3662,7 @@
 	"." CLB @punct #6->6
 
 "<Fólkatalið>"
-	"fólkatal" N Neu Sg Nom Def @dep #1->1
+	"fólkatal" N Neu Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<í>"
@@ -3722,7 +3722,7 @@
 	"." CLB @punct #10->10
 
 "<Hellurnar>"
-	"hella" N Fem Pl Nom Def @dep #1->1
+	"hella" N Fem Pl Nom Def @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<partur>"
@@ -3750,7 +3750,7 @@
 	"." CLB @punct #6->6
 
 "<Men>"
-	"men" CC @cc #1->1
+	"men" CC @cc #1->
 "<hetta>"
 	"hesin" Pron Dem Neu Sg Nom @dep #2->2
 "<var>"
@@ -3801,7 +3801,7 @@
 	"." CLB @punct #7->7
 
 "<Klettafjøll>"
-	"Klettafjøll" N Prop Neu Pl Nom Indef @dep #1->1
+	"Klettafjøll" N Prop Neu Pl Nom Indef @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<norðan>"
@@ -3832,7 +3832,7 @@
 	"." CLB @punct #15->15
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<,>"
@@ -3857,7 +3857,7 @@
 	"." CLB @punct #12->12
 
 "<Fyri>"
-	"fyri" Pr @case #1->1
+	"fyri" Pr @case #1->
 "<eystan>"
 	"eystan" Adv @dep #2->2
 "<er>"
@@ -3907,7 +3907,7 @@
 	"." CLB @punct #13->13
 
 "<Kyrrahavsoyggjarnar>"
-	"Kyrrahav#oyggj" N Fem Pl Nom Def @dep #1->1
+	"Kyrrahav#oyggj" N Fem Pl Nom Def @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<av>"
@@ -3939,7 +3939,7 @@
 	"." CLB @punct #7->7
 
 "<Sum>"
-	"sum" CS @dep #1->1
+	"sum" CS @dep #1->
 "<tíðin>"
 	"tíð" N Fem Sg Nom Def @dep #2->2
 "<leið>"
@@ -3962,7 +3962,7 @@
 	"." CLB @punct #11->11
 
 "<Har>"
-	"har" Adv @dep #1->1
+	"har" Adv @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<eisini>"
@@ -4019,7 +4019,7 @@
 	"." CLB @punct #8->8
 
 "<Strandferðslan>"
-	"strandferðsla" N Fem Sg Nom Def @dep #1->1
+	"strandferðsla" N Fem Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<stovnur>"
@@ -4032,7 +4032,7 @@
 	"." CLB @punct #6->6
 
 "<Um>"
-	"um" CS @dep #1->1
+	"um" CS @dep #1->
 "<heystið>"
 	"heyst" N Neu Sg Nom Def @dep #2->2
 "<vóru>"
@@ -4047,7 +4047,7 @@
 	"." CLB @punct #7->7
 
 "<”>"
-	"”" PUNCT RIGHT @punct #1->1
+	"”" PUNCT RIGHT @punct #1->
 "<Tá>"
 	"tá" Adv @dep #2->3
 "<kom>"
@@ -4062,7 +4062,7 @@
 	"." CLB @punct #7->7
 
 "<">"
-	""" PUNCT @punct #1->1
+	""" PUNCT @punct #1->
 "<Sí>"
 	"síggja" V Imp Sg @dep #2->2
 "<eisini>"
@@ -4123,7 +4123,7 @@
 	"." CLB @punct #30->30
 
 "<Tey>"
-	"tað" Pron Pers Pl3 Nom @nsubj #1->1
+	"tað" Pron Pers Pl3 Nom @nsubj #1->
 "<vóru>"
 	"vera" V Ind Prt Pl @cop #2->2
 "<9>"
@@ -4156,7 +4156,7 @@
 	"." CLB @punct #16->16
 
 "<,>"
-	"," CLB @punct #1->1
+	"," CLB @punct #1->
 "<táið>"
 	"táa" V Imp Pl @dep #2->2
 "<Victor>"
@@ -4167,7 +4167,7 @@
 	"." CLB @punct #5->5
 
 "<Stakkurin>"
-	"stakkur" N Msc Sg Nom Def @dep #1->1
+	"stakkur" N Msc Sg Nom Def @dep #1->
 "<hevur>"
 	"hava" V Ind Prs Sg3 @aux #2->3
 "<verið>"
@@ -4214,7 +4214,7 @@
 	"." CLB @punct #3->3
 
 "<">"
-	""" PUNCT @punct #1->1
+	""" PUNCT @punct #1->
 "<Sí>"
 	"síggja" V Imp Sg @root #2->0
 "<eisini>"
@@ -4289,7 +4289,7 @@
 	"." CLB @punct #6->6
 
 "<Á>"
-	"á" Pr @case #1->1
+	"á" Pr @case #1->
 "<triðja>"
 	"triðji" A Neu Sg Dat Def @amod #2->3
 "<plássi>"
@@ -4310,7 +4310,7 @@
 	"." CLB @punct #10->10
 
 "<">"
-	""" PUNCT @punct #1->1
+	""" PUNCT @punct #1->
 "<Sendistovan>"
 	"sendistova" N Fem Sg Nom Def @dep #2->2
 "<í>"
@@ -4394,7 +4394,7 @@
 	"." CLB @punct #18->18
 
 "<Heiðursgáva>"
-	"heiðursgáva" N Fem Sg Nom Indef @dep #1->1
+	"heiðursgáva" N Fem Sg Nom Indef @dep #1->
 "<landsins>"
 	"land" N Neu Sg Gen Def @dep #2->2
 "<er>"
@@ -4428,7 +4428,7 @@
 	"." CLB @punct #6->6
 
 "<Gráhvít>"
-	"gráhvítur" A Fem Sg Nom Indef @dep #1->1
+	"gráhvítur" A Fem Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<hon>"
@@ -4460,7 +4460,7 @@
 	"." CLB @punct #9->9
 
 "<Bara>"
-	"bara" Adv @dep #1->1
+	"bara" Adv @dep #1->
 "<ein>"
 	"eitt" Num Fem Sg Nom @nummod #2->3
 "<uppskrift>"
@@ -4523,7 +4523,7 @@
 	"." CLB @punct #5->5
 
 "<Umleið>"
-	"umleið" Adv @dep #1->1
+	"umleið" Adv @dep #1->
 "<29 %>"
 	"29 %" Num Nom @dep #2->2
 "<av>"
@@ -4569,7 +4569,7 @@
 	"." CLB @punct #15->15
 
 "<Tá>"
-	"tá" Adv @dep #1->1
+	"tá" Adv @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<sólarmyrking>"
@@ -4578,7 +4578,7 @@
 	"." CLB @punct #4->4
 
 "<Við>"
-	"við" Pr @case #1->1
+	"við" Pr @case #1->
 "<í>"
 	"í" Pr @case #2->3
 "<leikinum>"
@@ -4612,7 +4612,7 @@
 	"." CLB @punct #6->6
 
 "<Leggurin>"
-	"leggur" N Msc Sg Nom Def @dep #1->1
+	"leggur" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<stívur>"
@@ -4660,7 +4660,7 @@
 	"." CLB @punct #10->10
 
 "<Tí>"
-	"tí" CS @dep #1->1
+	"tí" CS @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<umráðandi>"
@@ -4730,7 +4730,7 @@
 	"." CLB @punct #3->3
 
 "<Føðingardagur>"
-	"føðingardagur" N Msc Sg Nom Indef @dep #1->1
+	"føðingardagur" N Msc Sg Nom Indef @dep #1->
 "<hansara>"
 	"hann" Pron Pers Sg3 Msc Gen @dep #2->2
 "<er>"
@@ -4741,7 +4741,7 @@
 	"." CLB @punct #5->5
 
 "<Nepal>"
-	"Nepal" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Nepal" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Nepal>"
@@ -4760,7 +4760,7 @@
 	"." CLB @punct #9->9
 
 "<Høvuðsstaður>"
-	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<Kathmandu>"
@@ -4769,7 +4769,7 @@
 	"." CLB @punct #4->4
 
 "<Kathmandu>"
-	"Kathmandu" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Kathmandu" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<høvuðsstaður>"
@@ -4801,7 +4801,7 @@
 	"." CLB @punct #6->6
 
 "<Viðurkenningar>"
-	"viðurkenning" N Fem Pl Nom Indef @dep #1->1
+	"viðurkenning" N Fem Pl Nom Indef @dep #1->
 "<frá>"
 	"frá" Pr @case #2->3
 "<Kroatia>"
@@ -4826,7 +4826,7 @@
 	"." CLB @punct #12->12
 
 "<Landbúnaður>"
-	"landbúnaður" N Msc Sg Nom Indef @dep #1->1
+	"landbúnaður" N Msc Sg Nom Indef @dep #1->
 "<og>"
 	"og" CC @cc #2->2
 "<fiskivinna>"
@@ -4864,7 +4864,7 @@
 	"." CLB @punct #9->9
 
 "<Helium>"
-	"helium" N Neu Sg Nom Indef @dep #1->1
+	"helium" N Neu Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Helium>"
@@ -4893,7 +4893,7 @@
 	"." CLB @punct #14->14
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<limur>"
@@ -4908,7 +4908,7 @@
 	"." CLB @punct #7->7
 
 "<Yvir>"
-	"yvir" Pr @case #1->1
+	"yvir" Pr @case #1->
 "<11,3>"
 	"11,3" Num Dat @dep #2->4
 "<mió>"
@@ -4923,7 +4923,7 @@
 	"." CLB @punct #7->7
 
 "<Istanbul>"
-	"Istanbul" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Istanbul" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<størsti>"
@@ -4938,7 +4938,7 @@
 	"." CLB @punct #7->7
 
 "<Høvuðsstaður>"
-	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<Ankara>"
@@ -4955,7 +4955,7 @@
 	"." CLB @punct #8->8
 
 "<Tjóðardagur>"
-	"tjóð#dagur" N Msc Sg Nom Indef @dep #1->1
+	"tjóð#dagur" N Msc Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<29.>"
@@ -4977,7 +4977,7 @@
 	"." CLB @punct #5->5
 
 "<Makrel>"
-	"makrelur" N Msc Sg Acc Indef @dep #1->1
+	"makrelur" N Msc Sg Acc Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Makrel>"
@@ -4996,7 +4996,7 @@
 	"." CLB @punct #9->9
 
 "<Fløgan>"
-	"fløga" N Fem Sg Nom Def @dep #1->1
+	"fløga" N Fem Sg Nom Def @dep #1->
 "<kom>"
 	"koma" V Ind Prt Sg3 @dep #2->2
 "<út>"
@@ -5025,7 +5025,7 @@
 	"." CLB @punct #14->14
 
 "<Har>"
-	"har" Adv @dep #1->1
+	"har" Adv @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<best>"
@@ -5046,7 +5046,7 @@
 	"." CLB @punct #10->10
 
 "<Men>"
-	"men" CC @cc #1->1
+	"men" CC @cc #1->
 "<í>"
 	"í" Pr @case #2->2
 "<1986>"
@@ -5067,7 +5067,7 @@
 	"." CLB @punct #10->10
 
 "<Ongin>"
-	"ong" N Fem Sg Nom Def @dep #1->1
+	"ong" N Fem Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<formliga>"
@@ -5086,7 +5086,7 @@
 	"." CLB @punct #9->9
 
 "<Brøðramessa>"
-	"brøðramessa" N Fem Sg Nom Indef @dep #1->1
+	"brøðramessa" N Fem Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Brøðramessa>"
@@ -5101,7 +5101,7 @@
 	"." CLB @punct #7->7
 
 "<Pálsmessa>"
-	"pálsmessa" N Fem Sg Nom Indef @dep #1->1
+	"pálsmessa" N Fem Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Pálsmessa>"
@@ -5116,7 +5116,7 @@
 	"." CLB @punct #7->7
 
 "<Kyndilsmessuknútur>"
-	"kyndilsmessuknútur" N Msc Sg Nom Indef @dep #1->1
+	"kyndilsmessuknútur" N Msc Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Kyndilsmessuknútur>"
@@ -5131,7 +5131,7 @@
 	"." CLB @punct #7->7
 
 "<Kyndilsmessa>"
-	"kyndilsmessa" N Fem Sg Nom Indef @dep #1->1
+	"kyndilsmessa" N Fem Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Kyndilsmessa>"
@@ -5146,7 +5146,7 @@
 	"." CLB @punct #7->7
 
 "<Kyndilsmessa>"
-	"kyndilsmessa" N Fem Sg Nom Indef @dep #1->1
+	"kyndilsmessa" N Fem Sg Nom Indef @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<upprunaliga>"
@@ -5205,7 +5205,7 @@
 	"." CLB @punct #29->29
 
 "<Kyndilsmessa>"
-	"kyndilsmessa" N Fem Sg Nom Indef @dep #1->1
+	"kyndilsmessa" N Fem Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<sostatt>"
@@ -5234,7 +5234,7 @@
 	"." CLB @punct #14->14
 
 "<Syftunsøka>"
-	"syftunsøka" N Fem Sg Nom Indef @dep #1->1
+	"syftunsøka" N Fem Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Syftunsøka>"
@@ -5249,7 +5249,7 @@
 	"." CLB @punct #7->7
 
 "<Kongadagur>"
-	"kongadagur" N Msc Sg Nom Indef @dep #1->1
+	"kongadagur" N Msc Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Kongadagur>"
@@ -5264,7 +5264,7 @@
 	"." CLB @punct #7->7
 
 "<Pætursmessa>"
-	"pætursmessa" N Fem Sg Nom Indef @dep #1->1
+	"pætursmessa" N Fem Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Pætursmessa>"
@@ -5279,7 +5279,7 @@
 	"." CLB @punct #7->7
 
 "<Grækarismessa>"
-	"grækarismessa" N Fem Sg Nom Indef @dep #1->1
+	"grækarismessa" N Fem Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Grækarismessa>"
@@ -5294,7 +5294,7 @@
 	"." CLB @punct #7->7
 
 "<Grækarismessudagur>"
-	"grækarismessa#dagur" N Msc Sg Nom Indef @dep #1->1
+	"grækarismessa#dagur" N Msc Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<almennur>"
@@ -5320,7 +5320,7 @@
 	"." CLB @punct #7->7
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<næstformaður>"
@@ -5333,7 +5333,7 @@
 	"." CLB @punct #6->6
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<2012>"
 	"2012" Num Dat @dep #2->2
 "<er>"
@@ -5362,7 +5362,7 @@
 	"." CLB @punct #14->14
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<gamalt>"
@@ -5390,7 +5390,7 @@
 	"." CLB @punct #6->6
 
 "<Jóladagur>"
-	"jóladagur" N Msc Sg Nom Indef @dep #1->1
+	"jóladagur" N Msc Sg Nom Indef @dep #1->
 "<hevur>"
 	"hava" V Ind Prs Sg3 @dep #2->2
 "<altíð>"
@@ -5425,7 +5425,7 @@
 	"." CLB @punct #17->17
 
 "<Vestmanna>"
-	"Vestmanna" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Vestmanna" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<egin>"
@@ -5436,7 +5436,7 @@
 	"." CLB @punct #5->5
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<2015>"
 	"2015" Num Dat @dep #2->2
 "<eru>"
@@ -5457,7 +5457,7 @@
 	"." CLB @punct #10->10
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<2013>"
 	"2013" Num Dat @dep #2->2
 "<eru>"
@@ -5474,7 +5474,7 @@
 	"." CLB @punct #8->8
 
 "<Mikudagur>"
-	"mikudagur" N Msc Sg Nom Indef @dep #1->1
+	"mikudagur" N Msc Sg Nom Indef @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<føstuinngangi>"
@@ -5503,7 +5503,7 @@
 	"." CLB @punct #14->14
 
 "<Pátriksmessa>"
-	"pátriksmessa" N Fem Sg Nom Indef @dep #1->1
+	"pátriksmessa" N Fem Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Pátriksmessa>"
@@ -5531,7 +5531,7 @@
 	"." CLB @punct #6->6
 
 "<Umframt>"
-	"umframt" Pr @case #1->1
+	"umframt" Pr @case #1->
 "<við>"
 	"við" Pr @case #2->3
 "<fygling>"
@@ -5556,7 +5556,7 @@
 	"." CLB @punct #12->12
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<sama>"
 	"samur" A Neu Sg Dat Def @amod #2->3
 "<tíðarskeiði>"
@@ -5587,7 +5587,7 @@
 	"." CLB @punct #15->15
 
 "<Har>"
-	"har" Adv @dep #1->1
+	"har" Adv @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<tryggari>"
@@ -5596,7 +5596,7 @@
 	"." CLB @punct #4->4
 
 "<Høvuðsstaður>"
-	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<Santiago>"
@@ -5605,7 +5605,7 @@
 	"." CLB @punct #4->4
 
 "<Landið>"
-	"land" N Neu Sg Nom Def @dep #1->1
+	"land" N Neu Sg Nom Def @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<fram við>"
@@ -5646,7 +5646,7 @@
 	"." CLB @punct #7->7
 
 "<Valparaíso>"
-	"Valparaíso" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Valparaíso" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<stór>"
@@ -5657,7 +5657,7 @@
 	"." CLB @punct #5->5
 
 "<Rossum>"
-	"ross" N Neu Pl Dat Indef @dep #1->1
+	"ross" N Neu Pl Dat Indef @dep #1->
 "<og>"
 	"og" CC @cc #2->2
 "<neytum>"
@@ -5692,7 +5692,7 @@
 	"." CLB @punct #17->17
 
 "<Um>"
-	"ymja" V Imp Sg @dep #1->1
+	"ymja" V Imp Sg @dep #1->
 "<90%>"
 	"90%" Num Nom @dep #2->2
 "<av>"
@@ -5713,7 +5713,7 @@
 	"." CLB @punct #10->10
 
 "<Nú>"
-	"nú" Adv @dep #1->1
+	"nú" Adv @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<">"
@@ -5736,7 +5736,7 @@
 	"." CLB @punct #11->11
 
 "<Ørindið>"
-	"ørindi" N Neu Sg Nom Def @dep #1->1
+	"ørindi" N Neu Sg Nom Def @dep #1->
 "<og>"
 	"og" CC @cc #2->2
 "<ein>"
@@ -5757,7 +5757,7 @@
 	"." CLB @punct #10->10
 
 "<Høvuðsstaður>"
-	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<Sevilla>"
@@ -5766,7 +5766,7 @@
 	"." CLB @punct #4->4
 
 "<Ein>"
-	"eitt" Num Fem Sg Nom @dep #1->1
+	"eitt" Num Fem Sg Nom @dep #1->
 "<onnur>"
 	"annar" A Fem Nom @amod #2->3
 "<framtíðarhugsjón>"
@@ -5819,7 +5819,7 @@
 	"." CLB @punct #7->7
 
 "<Ein>"
-	"ein" Det Msc Sg Nom @det #1->1
+	"ein" Det Msc Sg Nom @det #1->
 "<stórur>"
 	"stórur" A Msc Sg Nom Indef @amod #2->3
 "<partur>"
@@ -5858,7 +5858,7 @@
 	"." CLB @punct #19->19
 
 "<Upprunafólkið>"
-	"upprunafólk" N Neu Sg Nom Def @dep #1->1
+	"upprunafólk" N Neu Sg Nom Def @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<Aruba>"
@@ -5884,7 +5884,7 @@
 	"." CLB @punct #6->6
 
 "<Týskland>"
-	"Týskland" N Prop Neu Sg Nom Indef @dep #1->1
+	"Týskland" N Prop Neu Sg Nom Indef @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<fallið>"
@@ -5985,7 +5985,7 @@
 	"." CLB @punct #10->10
 
 "<50.>"
-	"50" A Ord @dep #1->1
+	"50" A Ord @dep #1->
 "<útgávan>"
 	"útgáva" N Fem Sg Nom Def @dep #2->2
 "<var>"
@@ -6027,7 +6027,7 @@
 	"." CLB @punct #11->11
 
 "<Men>"
-	"men" CC @cc #1->1
+	"men" CC @cc #1->
 "<soleiðis>"
 	"soleiðis" Adv @dep #2->2
 "<er>"
@@ -6040,7 +6040,7 @@
 	"." CLB @punct #6->6
 
 "<Kostnaðurin>"
-	"kostnaður" N Msc Sg Nom Def @dep #1->1
+	"kostnaður" N Msc Sg Nom Def @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<28 281,14>"
@@ -6051,7 +6051,7 @@
 	"." CLB @punct #5->5
 
 "<Valborgarmessa>"
-	"valborgarmessa" N Fem Sg Nom Indef @dep #1->1
+	"valborgarmessa" N Fem Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Valborgarmessa>"
@@ -6066,7 +6066,7 @@
 	"." CLB @punct #7->7
 
 "<Krossmessa>"
-	"krossmessa" N Fem Sg Nom Indef @dep #1->1
+	"krossmessa" N Fem Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Krossmessa>"
@@ -6081,7 +6081,7 @@
 	"." CLB @punct #7->7
 
 "<Halvarðsøka>"
-	"halvarðsøka" N Fem Sg Nom Indef @dep #1->1
+	"halvarðsøka" N Fem Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Halvarðsøka>"
@@ -6096,7 +6096,7 @@
 	"." CLB @punct #7->7
 
 "<Prestwick>"
-	"Prestwick" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Prestwick" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Prestwick>"
@@ -6119,7 +6119,7 @@
 	"." CLB @punct #11->11
 
 "<Sprotin>"
-	"sproti" N Msc Sg Nom Def @dep #1->1
+	"sproti" N Msc Sg Nom Def @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Sprotin>"
@@ -6153,7 +6153,7 @@
 	"." CLB @punct #5->5
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<sjálvum>"
 	"sjálvur" A Neu Pl Dat Indef @amod #2->3
 "<fjøllunum>"
@@ -6170,7 +6170,7 @@
 	"." CLB @punct #8->8
 
 "<Asker>"
-	"Asker" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Asker" N Prop Sem/Plc Sg Nom @dep #1->
 "<og>"
 	"og" CC @cc #2->2
 "<Tórshavn>"
@@ -6198,7 +6198,7 @@
 	"." CLB @punct #7->7
 
 "<Italia>"
-	"Italia" N Prop Sg Nom @dep #1->1
+	"Italia" N Prop Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<kent>"
@@ -6234,7 +6234,7 @@
 	"." CLB @punct #8->8
 
 "<Sambært>"
-	"sambært" Pr @case #1->1
+	"sambært" Pr @case #1->
 "<nýggjum>"
 	"nýggjur" A Neu Pl Dat Indef @amod #2->3
 "<hagtølum>"
@@ -6290,7 +6290,7 @@
 	"." CLB @punct #15->15
 
 "<Høvuðsvinnuvegurin>"
-	"høvuðsvinna#vegur" N Msc Sg Nom Def @dep #1->1
+	"høvuðsvinna#vegur" N Msc Sg Nom Def @dep #1->
 "<i>"
 	"i" Pr @case #2->3
 "<Fraklandi>"
@@ -6303,7 +6303,7 @@
 	"." CLB @punct #6->6
 
 "<Fiskiveiðan>"
-	"fiskiveiða" N Fem Sg Nom Def @dep #1->1
+	"fiskiveiða" N Fem Sg Nom Def @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<Fraklandi>"
@@ -6318,7 +6318,7 @@
 	"." CLB @punct #7->7
 
 "<Kann>"
-	"kunna" V Ind Prs Sg3 @dep #1->1
+	"kunna" V Ind Prs Sg3 @dep #1->
 "<man>"
 	"munna" V Ind Prs Sg3 @dep #2->2
 "<til>"
@@ -6347,7 +6347,7 @@
 	"?" CLB @punct #14->14
 
 "<Áttamannafarið>"
-	"áttamannafar" N Neu Sg Nom Def @dep #1->1
+	"áttamannafar" N Neu Sg Nom Def @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<til>"
@@ -6374,7 +6374,7 @@
 	"." CLB @punct #13->13
 
 "<Herðingin>"
-	"herðing" N Fem Sg Nom Def @dep #1->1
+	"herðing" N Fem Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<altíð>"
@@ -6402,7 +6402,7 @@
 	"." CLB @punct #6->6
 
 "<Kina>"
-	"Kina" N Prop Sem/Fem Sg Nom @dep #1->1
+	"Kina" N Prop Sem/Fem Sg Nom @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<miðdepilin>"
@@ -6411,7 +6411,7 @@
 	"." CLB @punct #4->4
 
 "<Iran>"
-	"Iran" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Iran" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Iran>"
@@ -6434,7 +6434,7 @@
 	"." CLB @punct #11->11
 
 "<Hetta>"
-	"hesin" Pron Dem Neu Sg Acc @dep #1->1
+	"hesin" Pron Dem Neu Sg Acc @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<áhugaverd>"
@@ -6460,7 +6460,7 @@
 	"." CLB @punct #7->7
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<kjarnin>"
@@ -6486,7 +6486,7 @@
 	"." CLB @punct #8->8
 
 "<Kelinøvn>"
-	"kelinavn" N Neu Pl Nom Indef @dep #1->1
+	"kelinavn" N Neu Pl Nom Indef @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<eitt>"
@@ -6503,7 +6503,7 @@
 	"." CLB @punct #8->8
 
 "<Árarnar>"
-	"ár" N Fem Pl Nom Def @dep #1->1
+	"ár" N Fem Pl Nom Def @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<festar>"
@@ -6524,7 +6524,7 @@
 	"." CLB @punct #10->10
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<2011>"
 	"2011" Num Dat @dep #2->2
 "<vóru>"
@@ -6551,7 +6551,7 @@
 	"." CLB @punct #13->13
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<2008>"
 	"2008" Num Dat @dep #2->2
 "<var>"
@@ -6566,7 +6566,7 @@
 	"." CLB @punct #7->7
 
 "<Reykjavík>"
-	"Reykjavík" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Reykjavík" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<´>"
@@ -6587,7 +6587,7 @@
 	"." CLB @punct #10->10
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<18.>"
 	"18" A Ord @dep #2->5
 "<øld>"
@@ -6618,7 +6618,7 @@
 	"." CLB @punct #15->15
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<heimskreppa>"
@@ -6647,7 +6647,7 @@
 	"." CLB @punct #14->14
 
 "<Bulgaria>"
-	"Bulgaria" N Prop Sg Nom @dep #1->1
+	"Bulgaria" N Prop Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Bulgaria>"
@@ -6666,7 +6666,7 @@
 	"." CLB @punct #9->9
 
 "<Minsk>"
-	"Minsk" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Minsk" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<miðskeiðis>"
@@ -6679,7 +6679,7 @@
 	"." CLB @punct #6->6
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<eirindaleysur>"
@@ -6690,7 +6690,7 @@
 	"." CLB @punct #5->5
 
 "<Veðið>"
-	"veð" N Neu Sg Nom Def @dep #1->1
+	"veð" N Neu Sg Nom Def @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<ongantíð>"
@@ -6701,7 +6701,7 @@
 	"." CLB @punct #5->5
 
 "<Oslo>"
-	"Oslo" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Oslo" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Oslo>"
@@ -6736,7 +6736,7 @@
 	"." CLB @punct #17->17
 
 "<Mitt>"
-	"mitt" Adv @dep #1->1
+	"mitt" Adv @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<Moskva>"
@@ -6755,7 +6755,7 @@
 	"." CLB @punct #9->9
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<nú>"
@@ -6772,7 +6772,7 @@
 	"." CLB @punct #8->8
 
 "<Nuuk>"
-	"Nuuk" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Nuuk" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<størsti>"
@@ -6793,7 +6793,7 @@
 	"." CLB @punct #10->10
 
 "<Nuuk>"
-	"Nuuk" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Nuuk" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<nútíðarbýur>"
@@ -6806,7 +6806,7 @@
 	"." CLB @punct #6->6
 
 "<Nuuk>"
-	"Nuuk" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Nuuk" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<í>"
@@ -6819,7 +6819,7 @@
 	"." CLB @punct #6->6
 
 "<Stiðin>"
-	"stiði" N Msc Sg Nom Def @dep #1->1
+	"stiði" N Msc Sg Nom Def @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Stiðin>"
@@ -6842,7 +6842,7 @@
 	"." CLB @punct #11->11
 
 "<Tó>"
-	"tó" Adv @dep #1->1
+	"tó" Adv @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<ósemja>"
@@ -6857,7 +6857,7 @@
 	"." CLB @punct #7->7
 
 "<Lavrasmessa>"
-	"lavrasmessa" N Fem Sg Nom Indef @dep #1->1
+	"lavrasmessa" N Fem Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Lavrasmessa>"
@@ -6897,7 +6897,7 @@
 	"." CLB @punct #12->12
 
 "<Litirnir>"
-	"litur" N Msc Pl Nom Def @dep #1->1
+	"litur" N Msc Pl Nom Def @dep #1->
 "<hjá>"
 	"hjá" Pr @case #2->3
 "<ÍF>"
@@ -6914,7 +6914,7 @@
 	"." CLB @punct #8->8
 
 "<Dagført>"
-	"dagføra" V Sup @dep #1->1
+	"dagføra" V Sup @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<oktober>"
@@ -6929,7 +6929,7 @@
 	"." CLB @punct #7->7
 
 "<Navnið>"
-	"navn" N Neu Sg Nom Def @dep #1->1
+	"navn" N Neu Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<bíbilskt>"
@@ -6940,7 +6940,7 @@
 	"." CLB @punct #5->5
 
 "<Bartalsmessa>"
-	"bartalsmessa" N Fem Sg Nom Indef @dep #1->1
+	"bartalsmessa" N Fem Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Bartalsmessa>"
@@ -6965,7 +6965,7 @@
 	"." CLB @punct #12->12
 
 "<Mikkjalsmessa>"
-	"mikkjalsmessa" N Fem Sg Nom Indef @dep #1->1
+	"mikkjalsmessa" N Fem Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Mikkjalsmessa>"
@@ -7042,7 +7042,7 @@
 	"." CLB @punct #8->8
 
 "<Vit>"
-	"vit" Pron Pers Pl1 Nom @nsubj #1->1
+	"vit" Pron Pers Pl1 Nom @nsubj #1->
 "<gerast>"
 	"gera" V Ind Prs Pl Pass @dep #2->2
 "<sjálvstøðugur>"
@@ -7059,7 +7059,7 @@
 	"." CLB @punct #8->8
 
 "<Borgarstjóri>"
-	"borgarstjóri" N Msc Sg Nom Indef @dep #1->1
+	"borgarstjóri" N Msc Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<Gunnar>"
@@ -7100,7 +7100,7 @@
 	"." CLB @punct #5->5
 
 "<Á>"
-	"á" Pr @case #1->1
+	"á" Pr @case #1->
 "<mongum>"
 	"mangur" A Neu Pl Dat Indef @amod #2->3
 "<oyggjum>"
@@ -7115,7 +7115,7 @@
 	"." CLB @punct #7->7
 
 "<Upprunaliga>"
-	"upprunaligur" A Fem Sg Nom Def @dep #1->1
+	"upprunaligur" A Fem Sg Nom Def @dep #1->
 "<politiska>"
 	"politiskur" A Fem Sg Nom Def @amod #2->3
 "<skipanin>"
@@ -7134,7 +7134,7 @@
 	"." CLB @punct #9->9
 
 "<Upprunafólkið>"
-	"upprunafólk" N Neu Sg Nom Def @dep #1->1
+	"upprunafólk" N Neu Sg Nom Def @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<USA>"
@@ -7147,7 +7147,7 @@
 	"." CLB @punct #6->6
 
 "<Lendið>"
-	"lendi" N Neu Sg Nom Def @dep #1->1
+	"lendi" N Neu Sg Nom Def @dep #1->
 "<vestan>"
 	"vestan" Pr @case #2->2
 "<fyri>"
@@ -7168,7 +7168,7 @@
 	"." CLB @punct #10->10
 
 "<">"
-	""" PUNCT @punct #1->1
+	""" PUNCT @punct #1->
 "<Einasti>"
 	"einastur" A Msc Sg Nom Def @dep #2->2
 "<góði>"
@@ -7247,7 +7247,7 @@
 	"." CLB @punct #23->23
 
 "<Lutirnir>"
-	"lutur" N Msc Pl Nom Def @dep #1->1
+	"lutur" N Msc Pl Nom Def @dep #1->
 "<vóru>"
 	"vera" V Ind Prt Pl @cop #2->2
 "<so>"
@@ -7266,7 +7266,7 @@
 	"." CLB @punct #9->9
 
 "<Virðisbrævamarknaðurin>"
-	"virðisbræv#marknaður" N Msc Sg Nom Def @dep #1->1
+	"virðisbræv#marknaður" N Msc Sg Nom Def @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<New>"
@@ -7343,7 +7343,7 @@
 	"." CLB @punct #8->8
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<so>"
 	"so" Adv @dep #2->2
 "<stórum>"
@@ -7412,7 +7412,7 @@
 	"." CLB @punct #7->7
 
 "<Meginparturin>"
-	"meginpartur" N Msc Sg Nom Def @dep #1->1
+	"meginpartur" N Msc Sg Nom Def @dep #1->
 "<av>"
 	"av" Pr @case #2->3
 "<fólkinum>"
@@ -7438,7 +7438,7 @@
 	"." CLB @punct #6->6
 
 "<Tørvur>"
-	"tørvur" N Msc Sg Nom Indef @dep #1->1
+	"tørvur" N Msc Sg Nom Indef @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<á>"
@@ -7451,7 +7451,7 @@
 	"." CLB @punct #6->6
 
 "<Maðurin>"
-	"maður" N Msc Sg Nom Def @dep #1->1
+	"maður" N Msc Sg Nom Def @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<kvikur>"
@@ -7472,7 +7472,7 @@
 	"." CLB @punct #10->10
 
 "<Her>"
-	"her" Adv @dep #1->1
+	"her" Adv @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<høg>"
@@ -7489,7 +7489,7 @@
 	"." CLB @punct #8->8
 
 "<Meksiko>"
-	"Meksiko" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Meksiko" N Prop Sem/Plc Sg Nom @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<ímóti>"
@@ -7500,7 +7500,7 @@
 	"." CLB @punct #5->5
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<vakur>"
@@ -7521,7 +7521,7 @@
 	"." CLB @punct #10->10
 
 "<Vegirnir>"
-	"vegur" N Msc Pl Nom Def @dep #1->1
+	"vegur" N Msc Pl Nom Def @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<breiðir>"
@@ -7534,7 +7534,7 @@
 	"." CLB @punct #6->6
 
 "<Sandefjord>"
-	"Sandefjord" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Sandefjord" N Prop Sem/Plc Sg Nom @dep #1->
 "<kommuna>"
 	"kommuna" N Fem Sg Nom Indef @dep #2->2
 "<er>"
@@ -7551,7 +7551,7 @@
 	"." CLB @punct #8->8
 
 "<Nú>"
-	"nú" Adv @dep #1->1
+	"nú" Adv @dep #1->
 "<á>"
 	"á" Pr @case #2->3
 "<døgum>"
@@ -7654,7 +7654,7 @@
 	"." CLB @punct #10->10
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<avstralskum>"
 	"avstralskur" A Msc Sg Dat Indef @amod #2->3
 "<fótbólti>"
@@ -7691,7 +7691,7 @@
 	"." CLB @punct #18->18
 
 "<Teir>"
-	"teir" Pron Pers Pl3 Msc Nom @nsubj #1->1
+	"teir" Pron Pers Pl3 Msc Nom @nsubj #1->
 "<vóru>"
 	"vera" V Ind Prt Pl @cop #2->2
 "<í>"
@@ -7715,7 +7715,7 @@
 	"." CLB @punct #6->6
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<2011>"
 	"2011" Num Dat @dep #2->2
 "<var>"
@@ -7740,7 +7740,7 @@
 	"." CLB @punct #12->12
 
 "<Inntil>"
-	"inntil" Pr @case #1->1
+	"inntil" Pr @case #1->
 "<1990->"
 	"1990-" Num @nummod #2->3
 "<árini>"
@@ -7763,7 +7763,7 @@
 	"." CLB @punct #11->11
 
 "<Keypstaður>"
-	"keypstaður" N Msc Sg Nom Indef @dep #1->1
+	"keypstaður" N Msc Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Keypstaður>"
@@ -7799,7 +7799,7 @@
 	"." CLB @punct #5->5
 
 "<Tó>"
-	"tó" Adv @dep #1->1
+	"tó" Adv @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<ofta>"
@@ -7820,7 +7820,7 @@
 	"." CLB @punct #10->10
 
 "<Grannalond>"
-	"grannaland" N Neu Pl Nom Indef @dep #1->1
+	"grannaland" N Neu Pl Nom Indef @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<Argentina>"
@@ -7868,7 +7868,7 @@
 	"." CLB @punct #15->15
 
 "<Hetta>"
-	"hesin" Pron Dem Neu Sg Acc @dep #1->1
+	"hesin" Pron Dem Neu Sg Acc @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<liberalistiskur>"
@@ -7879,7 +7879,7 @@
 	"." CLB @punct #5->5
 
 "<Klukkurnar>"
-	"klukka" N Fem Pl Nom Def @dep #1->1
+	"klukka" N Fem Pl Nom Def @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<størsti>"
@@ -7890,7 +7890,7 @@
 	"." CLB @punct #5->5
 
 "<Men>"
-	"men" CC @cc #1->1
+	"men" CC @cc #1->
 "<tað>"
 	"tað" Pron Pers Sg3 Nom @nsubj #2->2
 "<er>"
@@ -7915,7 +7915,7 @@
 	"." CLB @punct #12->12
 
 "<Heimshav>"
-	"heimshav" N Neu Sg Nom Indef @dep #1->1
+	"heimshav" N Neu Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Eitt>"
@@ -7934,7 +7934,7 @@
 	"." CLB @punct #9->9
 
 "<Áður>"
-	"áður" Adv @dep #1->1
+	"áður" Adv @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<tað>"
@@ -7962,7 +7962,7 @@
 	"." CLB @punct #6->6
 
 "<Har>"
-	"har" Adv @dep #1->1
+	"har" Adv @dep #1->
 "<áin>"
 	"á" N Fem Sg Nom Def @dep #2->2
 "<rennur>"
@@ -7998,7 +7998,7 @@
 	"." CLB @punct #6->6
 
 "<NATO-Ráðið>"
-	"NATO#ráð" N Neu Sg Nom Def @dep #1->1
+	"NATO#ráð" N Neu Sg Nom Def @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<Brússel>"
@@ -8017,7 +8017,7 @@
 	"." CLB @punct #9->9
 
 "<Tey>"
-	"tað" Pron Pers Pl3 Nom @nsubj #1->1
+	"tað" Pron Pers Pl3 Nom @nsubj #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<Kroatia>"
@@ -8068,7 +8068,7 @@
 	"." CLB @punct #11->11
 
 "<Eisini>"
-	"eisini" Adv @dep #1->1
+	"eisini" Adv @dep #1->
 "<sigst>"
 	"siga" V Ind Prs Sg3 Pass @dep #2->2
 "<,>"
@@ -8137,7 +8137,7 @@
 	"." CLB @punct #4->4
 
 "<Tróndur>"
-	"Tróndur" N Prop Sem/Mal Sg Nom @dep #1->1
+	"Tróndur" N Prop Sem/Mal Sg Nom @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<stórskorin>"
@@ -8163,7 +8163,7 @@
 	"." CLB @punct #8->8
 
 "<Eftir>"
-	"eftir" Pr @case #1->1
+	"eftir" Pr @case #1->
 "<hetta>"
 	"hesin" Pron Dem Neu Sg Acc @dep #2->2
 "<eru>"
@@ -8191,7 +8191,7 @@
 	"." CLB @punct #4->4
 
 "<Sigmundur>"
-	"Sigmundur" N Prop Sem/Mal Sg Nom @dep #1->1
+	"Sigmundur" N Prop Sem/Mal Sg Nom @dep #1->
 "<kom>"
 	"koma" V Ind Prt Sg3 @dep #2->2
 "<upp>"
@@ -8223,7 +8223,7 @@
 	"." CLB @punct #7->7
 
 "<Har>"
-	"har" Adv @dep #1->1
+	"har" Adv @dep #1->
 "<búði>"
 	"bjóða" V Ind Prt Sg3 @dep #2->2
 "<Tórhallur>"
@@ -8247,7 +8247,7 @@
 	"." CLB @punct #3->3
 
 "<Upprunafólkið>"
-	"upprunafólk" N Neu Sg Nom Def @dep #1->1
+	"upprunafólk" N Neu Sg Nom Def @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<Kalifornia>"
@@ -8260,7 +8260,7 @@
 	"." CLB @punct #6->6
 
 "<Spaniólar>"
-	"spanióli" N Msc Pl Nom Indef @dep #1->1
+	"spanióli" N Msc Pl Nom Indef @dep #1->
 "<vóru>"
 	"vera" V Ind Prt Pl @cop #2->2
 "<fyrstir>"
@@ -8283,7 +8283,7 @@
 	"." CLB @punct #11->11
 
 "<Hjá>"
-	"hjá" Pr @case #1->1
+	"hjá" Pr @case #1->
 "<nógvum>"
 	"nógvur" A Msc Sg Dat Indef @amod #2->3
 "<ungdómi>"
@@ -8384,7 +8384,7 @@
 	"." CLB @punct #6->6
 
 "<">"
-	""" PUNCT @punct #1->1
+	""" PUNCT @punct #1->
 "<Svaraði>"
 	"svara" V Ind Prt Sg @root #2->0
 "<Gorpur>"
@@ -8397,7 +8397,7 @@
 	"." CLB @punct #6->6
 
 "<">"
-	""" PUNCT @punct #1->1
+	""" PUNCT @punct #1->
 "<Revur>"
 	"revur" N Msc Sg Nom Indef @dep #2->3
 "<spreingir>"
@@ -8436,7 +8436,7 @@
 	"." CLB @punct #6->6
 
 "<Honolulu>"
-	"Honolulu" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Honolulu" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Honolulu>"
@@ -8453,7 +8453,7 @@
 	"." CLB @punct #8->8
 
 "<Innsett>"
-	"innseta" V Sup @dep #1->1
+	"innseta" V Sup @dep #1->
 "<!>"
 	"!" CLB @punct #2->2
 
@@ -8465,7 +8465,7 @@
 	"!" CLB @punct #3->3
 
 "<Italia>"
-	"Italia" N Prop Sg Nom @dep #1->1
+	"Italia" N Prop Sg Nom @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<størsti>"
@@ -8482,7 +8482,7 @@
 	"." CLB @punct #8->8
 
 "<Niðurlond>"
-	"Niðurlond" N Prop Neu Pl Nom Indef @dep #1->1
+	"Niðurlond" N Prop Neu Pl Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Niðurlond>"
@@ -8509,7 +8509,7 @@
 	"." CLB @punct #13->13
 
 "<Kristus>"
-	"Kristus" N Prop Sem/Mal Sg Nom @dep #1->1
+	"Kristus" N Prop Sem/Mal Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<eitt>"
@@ -8579,7 +8579,7 @@
 	"." CLB @punct #4->4
 
 "<Høvuðsstaður>"
-	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<Kinshasa>"
@@ -8588,7 +8588,7 @@
 	"." CLB @punct #4->4
 
 "<Tollaksmessa>"
-	"tollaksmessa" N Fem Sg Nom Indef @dep #1->1
+	"tollaksmessa" N Fem Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Tollaksmessa>"
@@ -8622,7 +8622,7 @@
 	"." CLB @punct #9->9
 
 "<Men>"
-	"men" CC @cc #1->1
+	"men" CC @cc #1->
 "<búskapar->"
 	"búskapur" N Msc Sg Gen Indef Cmpnd @dep #2->2
 "<og>"
@@ -8653,7 +8653,7 @@
 	"." CLB @punct #15->15
 
 "<Hetta>"
-	"hesin" Pron Dem Neu Sg Acc @dep #1->1
+	"hesin" Pron Dem Neu Sg Acc @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<størsti>"
@@ -8668,7 +8668,7 @@
 	"." CLB @punct #7->7
 
 "<Um>"
-	"um" Pr @case #1->1
+	"um" Pr @case #1->
 "<3000>"
 	"3000" Num Nom @nummod #2->3
 "<oljuboripallar>"
@@ -8685,7 +8685,7 @@
 	"." CLB @punct #8->8
 
 "<Utah>"
-	"Utah" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Utah" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Utah>"
@@ -8780,7 +8780,7 @@
 	"." CLB @punct #6->6
 
 "<Québec>"
-	"Québec" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Québec" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Quebec>"
@@ -8833,7 +8833,7 @@
 	"." CLB @punct #26->26
 
 "<Býurin>"
-	"býur" N Msc Sg Nom Def @dep #1->1
+	"býur" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<eisini>"
@@ -8858,7 +8858,7 @@
 	"." CLB @punct #12->12
 
 "<Kabul>"
-	"Kabul" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Kabul" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<høvuðsstaðurin>"
@@ -8901,7 +8901,7 @@
 	"." CLB @punct #10->10
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<størsta>"
@@ -8916,7 +8916,7 @@
 	"." CLB @punct #7->7
 
 "<Allir>"
-	"allur" Det Msc Pl Nom Indef @det #1->1
+	"allur" Det Msc Pl Nom Indef @det #1->
 "<á>"
 	"á" Pr @case #2->3
 "<Guam>"
@@ -8931,7 +8931,7 @@
 	"." CLB @punct #7->7
 
 "<Sum>"
-	"sum" CS @dep #1->1
+	"sum" CS @dep #1->
 "<tíðin>"
 	"tíð" N Fem Sg Nom Def @dep #2->2
 "<leið>"
@@ -8950,7 +8950,7 @@
 	"." CLB @punct #9->9
 
 "<Samferðslan>"
-	"samferðsla" N Fem Sg Nom Def @dep #1->1
+	"samferðsla" N Fem Sg Nom Def @dep #1->
 "<gjørdi>"
 	"gera" V Ind Prt Sg @dep #2->2
 "<eisini>"
@@ -8990,7 +8990,7 @@
 	"." CLB @punct #9->9
 
 "<Meginparturin>"
-	"meginpartur" N Msc Sg Nom Def @dep #1->1
+	"meginpartur" N Msc Sg Nom Def @dep #1->
 "<av>"
 	"av" Pr @case #2->3
 "<landinum>"
@@ -9022,7 +9022,7 @@
 	"." CLB @punct #8->8
 
 "<Um>"
-	"um" Pr @case #1->1
+	"um" Pr @case #1->
 "<60>"
 	"60" Num Nom @nummod #2->3
 "<prosent>"
@@ -9092,7 +9092,7 @@
 	"." CLB @punct #9->9
 
 "<Súla>"
-	"súla" N Fem Sg Nom Indef @dep #1->1
+	"súla" N Fem Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<størsti>"
@@ -9138,7 +9138,7 @@
 	"." CLB @punct #15->15
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<játtaði>"
 	"játta" V Ind Prt Sg @dep #2->2
 "<seg>"
@@ -9163,7 +9163,7 @@
 	"." CLB @punct #12->12
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<ein>"
@@ -9180,7 +9180,7 @@
 	"." CLB @punct #8->8
 
 "<Útferðarmøguleikar>"
-	"útferð#møguleiki" N Msc Pl Nom Indef @dep #1->1
+	"útferð#møguleiki" N Msc Pl Nom Indef @dep #1->
 "<á>"
 	"á" Pr @case #2->3
 "<Akureyri>"
@@ -9195,7 +9195,7 @@
 	"." CLB @punct #7->7
 
 "<Høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Def @dep #1->
 "<á>"
 	"á" Pr @case #2->3
 "<Kuba>"
@@ -9208,7 +9208,7 @@
 	"." CLB @punct #6->6
 
 "<Portugisar>"
-	"portugisi" N Msc Pl Nom Indef @dep #1->1
+	"portugisi" N Msc Pl Nom Indef @dep #1->
 "<vóru>"
 	"vera" V Ind Prt Pl @cop #2->2
 "<fyrstir>"
@@ -9245,7 +9245,7 @@
 	"." CLB @punct #18->18
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<nú>"
@@ -9256,7 +9256,7 @@
 	"." CLB @punct #5->5
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<1815>"
 	"1815" Num Dat @dep #2->3
 "<varð>"
@@ -9273,7 +9273,7 @@
 	"." CLB @punct #8->8
 
 "<Amsterdam>"
-	"Amsterdam" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Amsterdam" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Amsterdam>"
@@ -9296,7 +9296,7 @@
 	"." CLB @punct #11->11
 
 "<Amsterdam>"
-	"Amsterdam" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Amsterdam" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<høvuðsstaður>"
@@ -9313,7 +9313,7 @@
 	"." CLB @punct #8->8
 
 "<Høvuðsstaður>"
-	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<Luxembourg>"
@@ -9369,7 +9369,7 @@
 	"." CLB @punct #5->5
 
 "<Tjóðardagur>"
-	"tjóð#dagur" N Msc Sg Nom Indef @dep #1->1
+	"tjóð#dagur" N Msc Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<28.>"
@@ -9380,7 +9380,7 @@
 	"." CLB @punct #5->5
 
 "<Endamálið>"
-	"endamál" N Neu Sg Nom Def @dep #1->1
+	"endamál" N Neu Sg Nom Def @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<at>"
@@ -9403,7 +9403,7 @@
 	"." CLB @punct #11->11
 
 "<Fiskamjøl>"
-	"fiskamjøl" N Neu Sg Nom Indef @dep #1->1
+	"fiskamjøl" N Neu Sg Nom Indef @dep #1->
 "<úr>"
 	"úr" Pr @case #2->3
 "<ansjósum>"
@@ -9422,7 +9422,7 @@
 	"." CLB @punct #9->9
 
 "<Býurin>"
-	"býur" N Msc Sg Nom Def @dep #1->1
+	"býur" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<mitt>"
@@ -9444,7 +9444,7 @@
 	"." CLB @punct #3->3
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<1492>"
 	"1492" Num Dat @dep #2->2
 "<varð>"
@@ -9478,7 +9478,7 @@
 	"." CLB @punct #3->3
 
 "<Barnablaðið>"
-	"barnablað" N Neu Sg Nom Def @dep #1->1
+	"barnablað" N Neu Sg Nom Def @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Barnablaðið>"
@@ -9528,7 +9528,7 @@
 	"." CLB @punct #14->14
 
 "<Landið>"
-	"land" N Neu Sg Nom Def @dep #1->1
+	"land" N Neu Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<limur>"
@@ -9543,7 +9543,7 @@
 	"." CLB @punct #7->7
 
 "<Har>"
-	"har" Adv @dep #1->1
+	"har" Adv @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<nógv>"
@@ -9573,7 +9573,7 @@
 	"." CLB @punct #7->7
 
 "<Belmopan>"
-	"Belmopan" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Belmopan" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Belmopan>"
@@ -9590,7 +9590,7 @@
 	"." CLB @punct #8->8
 
 "<—>"
-	"—" PUNCT @punct #1->1
+	"—" PUNCT @punct #1->
 "<Í>"
 	"í" Pr @case #2->3
 "<Føroyum>"
@@ -9621,7 +9621,7 @@
 	"." CLB @punct #15->15
 
 "<Hvalur>"
-	"hvalur" N Msc Sg Nom Indef @dep #1->1
+	"hvalur" N Msc Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<størsti>"
@@ -9636,7 +9636,7 @@
 	"." CLB @punct #7->7
 
 "<Vit>"
-	"vit" Pron Pers Pl1 Nom @nsubj #1->1
+	"vit" Pron Pers Pl1 Nom @nsubj #1->
 "<skifta>"
 	"skifta" V Ind Prs Pl @root #2->0
 "<hval>"
@@ -9690,7 +9690,7 @@
 	"." CLB @punct #9->9
 
 "<Hetta>"
-	"hesin" Pron Dem Neu Sg Acc @dep #1->1
+	"hesin" Pron Dem Neu Sg Acc @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<spølin>"
@@ -9717,7 +9717,7 @@
 	"." CLB @punct #13->13
 
 "<Um>"
-	"um" CS @dep #1->1
+	"um" CS @dep #1->
 "<heystið>"
 	"heyst" N Neu Sg Nom Def @dep #2->2
 "<verður>"
@@ -9732,7 +9732,7 @@
 	"." CLB @punct #7->7
 
 "<Seyður>"
-	"seyður" N Msc Sg Nom Indef @dep #1->1
+	"seyður" N Msc Sg Nom Indef @dep #1->
 "<á>"
 	"á" Pr @case #2->3
 "<vegnum>"
@@ -9790,7 +9790,7 @@
 	"." CLB @punct #6->6
 
 "<Uttan>"
-	"uttan" Pr @case #1->1
+	"uttan" Pr @case #1->
 "<fyri>"
 	"fyri" Pr @case #2->3
 "<býin>"
@@ -9829,7 +9829,7 @@
 	"." CLB @punct #19->19
 
 "<Kanska>"
-	"kanska" Adv @dep #1->1
+	"kanska" Adv @dep #1->
 "<ein>"
 	"ein" Det Msc Sg Acc @det #2->2
 "<stuttan>"
@@ -9856,7 +9856,7 @@
 	"." CLB @punct #13->13
 
 "<Býurin>"
-	"býur" N Msc Sg Nom Def @dep #1->1
+	"býur" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<í>"
@@ -9867,7 +9867,7 @@
 	"." CLB @punct #5->5
 
 "<Norðmenn>"
-	"norðmaður" N Msc Pl Nom Indef @dep #1->1
+	"norðmaður" N Msc Pl Nom Indef @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<stoltir>"
@@ -9882,7 +9882,7 @@
 	"." CLB @punct #7->7
 
 "<Býurin>"
-	"býur" N Msc Sg Nom Def @dep #1->1
+	"býur" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<ein>"
@@ -9913,7 +9913,7 @@
 	"." CLB @punct #15->15
 
 "<Endamálið>"
-	"endamál" N Neu Sg Nom Def @dep #1->1
+	"endamál" N Neu Sg Nom Def @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<at>"
@@ -9930,7 +9930,7 @@
 	"." CLB @punct #8->8
 
 "<Springfield>"
-	"Springfield" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Springfield" N Prop Sem/Sur Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<høvuðsstaðurin>"
@@ -9951,7 +9951,7 @@
 	"." CLB @punct #10->10
 
 "<Høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<Tallahassee>"
@@ -9960,7 +9960,7 @@
 	"." CLB @punct #4->4
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<1994>"
 	"1994" Num Dat @dep #2->2
 "<játtaðu>"
@@ -10058,7 +10058,7 @@
 	"." CLB @punct #7->7
 
 "<Um>"
-	"ymja" V Imp Sg @dep #1->1
+	"ymja" V Imp Sg @dep #1->
 "<90 %>"
 	"90 %" Num Nom @dep #2->2
 "<av>"
@@ -10100,7 +10100,7 @@
 	"." CLB @punct #10->10
 
 "<Høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Def @dep #1->
 "<og>"
 	"og" CC @cc #2->2
 "<størsti>"
@@ -10115,7 +10115,7 @@
 	"." CLB @punct #7->7
 
 "<Hagstova>"
-	"hagstova" N Fem Sg Nom Indef @dep #1->1
+	"hagstova" N Fem Sg Nom Indef @dep #1->
 "<Føroya>"
 	"Føroyar" N Prop Fem Pl Gen Indef @dep #2->2
 "<:>"
@@ -10138,7 +10138,7 @@
 	"." CLB @punct #11->11
 
 "<Høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<Madison>"
@@ -10157,7 +10157,7 @@
 	"." CLB @punct #9->9
 
 "<Høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<Frankfort>"
@@ -10176,7 +10176,7 @@
 	"." CLB @punct #9->9
 
 "<Eldstaðurin>"
-	"eldstaður" N Msc Sg Nom Def @dep #1->1
+	"eldstaður" N Msc Sg Nom Def @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<á>"
@@ -10189,7 +10189,7 @@
 	"." CLB @punct #6->6
 
 "<Um>"
-	"um" Pr @case #1->1
+	"um" Pr @case #1->
 "<somu>"
 	"samur" A Fem Pl Nom Def @amod #2->3
 "<tíð>"
@@ -10206,7 +10206,7 @@
 	"." CLB @punct #8->8
 
 "<Indiánarnir>"
-	"indiáni" N Msc Pl Nom Def @dep #1->1
+	"indiáni" N Msc Pl Nom Def @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<Oklahoma>"
@@ -10227,7 +10227,7 @@
 	"." CLB @punct #10->10
 
 "<Selfoss>"
-	"Selfoss" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Selfoss" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Selfoss>"
@@ -10256,7 +10256,7 @@
 	"." CLB @punct #14->14
 
 "<Grundarlagið>"
-	"grundarlag" N Neu Sg Nom Def @dep #1->1
+	"grundarlag" N Neu Sg Nom Def @dep #1->
 "<undir>"
 	"undir" Pr @case #2->3
 "<búskapinum>"
@@ -10288,7 +10288,7 @@
 	"." CLB @punct #9->9
 
 "<Atlanta>"
-	"Atlanta" N Prop Sg Nom @dep #1->1
+	"Atlanta" N Prop Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<høvuðsstaðurin>"
@@ -10303,7 +10303,7 @@
 	"." CLB @punct #7->7
 
 "<Eftir>"
-	"eftir" Pr @case #1->1
+	"eftir" Pr @case #1->
 "<hetta>"
 	"hesin" Pron Dem Neu Sg Acc @dep #2->3
 "<búsetti>"
@@ -10320,7 +10320,7 @@
 	"." CLB @punct #8->8
 
 "<Høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<Augusta>"
@@ -10339,7 +10339,7 @@
 	"." CLB @punct #9->9
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<eisini>"
@@ -10350,7 +10350,7 @@
 	"." CLB @punct #5->5
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<filmsleikari>"
@@ -10359,7 +10359,7 @@
 	"." CLB @punct #4->4
 
 "<Endamál>"
-	"endamál" N Neu Sg Nom Indef @dep #1->1
+	"endamál" N Neu Sg Nom Indef @dep #1->
 "<felagsins>"
 	"felag" N Neu Sg Gen Def @dep #2->2
 "<er>"
@@ -10378,7 +10378,7 @@
 	"." CLB @punct #9->9
 
 "<Montpelier>"
-	"Montpelier" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Montpelier" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<høvuðsstaðurin>"
@@ -10397,7 +10397,7 @@
 	"." CLB @punct #9->9
 
 "<Høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Def @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<Vermont>"
@@ -10410,7 +10410,7 @@
 	"." CLB @punct #6->6
 
 "<Høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<Harrisburg>"
@@ -10429,7 +10429,7 @@
 	"." CLB @punct #9->9
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<1787>"
 	"1787" Num Dat @dep #2->3
 "<bleiv>"
@@ -10446,7 +10446,7 @@
 	"." CLB @punct #8->8
 
 "<Høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Def @dep #1->
 "<og>"
 	"og" CC @cc #2->2
 "<størsti>"
@@ -10461,7 +10461,7 @@
 	"." CLB @punct #7->7
 
 "<Denver>"
-	"Denver" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Denver" N Prop Sem/Sur Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<høvuðsstaðurin>"
@@ -10548,7 +10548,7 @@
 	"." CLB @punct #8->8
 
 "<Høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<Montgomery>"
@@ -10617,7 +10617,7 @@
 	"." CLB @punct #8->8
 
 "<Charleston>"
-	"Charleston" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Charleston" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<høvuðsstaðurin>"
@@ -10632,7 +10632,7 @@
 	"." CLB @punct #7->7
 
 "<Bjørnin>"
-	"bjørn" N Fem Sg Nom Def @dep #1->1
+	"bjørn" N Fem Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<størsta>"
@@ -10649,7 +10649,7 @@
 	"." CLB @punct #8->8
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<2009>"
 	"2009" Num Dat @dep #2->2
 "<vóru>"
@@ -10668,7 +10668,7 @@
 	"." CLB @punct #9->9
 
 "<Bjørnin>"
-	"bjørn" N Fem Sg Nom Def @dep #1->1
+	"bjørn" N Fem Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<ikki>"
@@ -10685,7 +10685,7 @@
 	"." CLB @punct #8->8
 
 "<Lansing>"
-	"Lansing" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Lansing" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<høvuðsstaðurin>"
@@ -10704,7 +10704,7 @@
 	"." CLB @punct #9->9
 
 "<Fá>"
-	"fáur" A Neu Pl Acc Indef @dep #1->1
+	"fáur" A Neu Pl Acc Indef @dep #1->
 "<fólk>"
 	"fólk" N Neu Pl Nom Indef @dep #2->2
 "<búgva>"
@@ -10742,7 +10742,7 @@
 	"." CLB @punct #12->12
 
 "<Cheyenne>"
-	"Cheyenne" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Cheyenne" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<høvuðsstaðurin>"
@@ -10757,7 +10757,7 @@
 	"." CLB @punct #7->7
 
 "<Føroyar>"
-	"Føroyar" N Prop Fem Pl Nom Indef @dep #1->1
+	"Føroyar" N Prop Fem Pl Nom Indef @dep #1->
 "<og>"
 	"og" CC @cc #2->2
 "<Grønland>"
@@ -10787,7 +10787,7 @@
 	"." CLB @punct #5->5
 
 "<Ein>"
-	"ein" Det Msc Sg Nom @det #1->1
+	"ein" Det Msc Sg Nom @det #1->
 "<stórur>"
 	"stórur" A Msc Sg Nom Indef @amod #2->3
 "<partur>"
@@ -10804,7 +10804,7 @@
 	"." CLB @punct #8->8
 
 "<Álopslinjan>"
-	"álop#linja" N Fem Sg Nom Def @dep #1->1
+	"álop#linja" N Fem Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<ein>"
@@ -10837,7 +10837,7 @@
 	"." CLB @punct #5->5
 
 "<Høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Def @dep #1->
 "<og>"
 	"og" CC @cc #2->2
 "<størsti>"
@@ -10852,7 +10852,7 @@
 	"." CLB @punct #7->7
 
 "<Høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Def @dep #1->
 "<og>"
 	"og" CC @cc #2->2
 "<størsti>"
@@ -10867,7 +10867,7 @@
 	"." CLB @punct #7->7
 
 "<Upprunafólkið>"
-	"upprunafólk" N Neu Sg Nom Def @dep #1->1
+	"upprunafólk" N Neu Sg Nom Def @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<Massachusetts>"
@@ -10880,7 +10880,7 @@
 	"." CLB @punct #6->6
 
 "<Frá>"
-	"frá" Pr @case #1->1
+	"frá" Pr @case #1->
 "<sama>"
 	"samur" A Msc Sg Dat Def @amod #2->3
 "<degi>"
@@ -10899,7 +10899,7 @@
 	"." CLB @punct #9->9
 
 "<Høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Def @dep #1->
 "<og>"
 	"og" CC @cc #2->2
 "<størsti>"
@@ -10940,7 +10940,7 @@
 	"." CLB @punct #7->7
 
 "<Gott>"
-	"góður" A Adv @dep #1->1
+	"góður" A Adv @dep #1->
 "<buss>"
 	"bussur" N Msc Sg Gen Indef @dep #2->2
 "<og>"
@@ -10957,7 +10957,7 @@
 	"." CLB @punct #8->8
 
 "<Jackson>"
-	"Jackson" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Jackson" N Prop Sem/Sur Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<høvuðsstaðurin>"
@@ -10972,7 +10972,7 @@
 	"." CLB @punct #7->7
 
 "<Jackson>"
-	"Jackson" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Jackson" N Prop Sem/Sur Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<størsti>"
@@ -11012,7 +11012,7 @@
 	"." CLB @punct #6->6
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<1812>"
 	"1812" Num Dat @dep #2->3
 "<bleiv>"
@@ -11029,7 +11029,7 @@
 	"." CLB @punct #8->8
 
 "<Skipasmiðjurnar>"
-	"skipasmiðja" N Fem Pl Nom Def @dep #1->1
+	"skipasmiðja" N Fem Pl Nom Def @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<nógvar>"
@@ -11038,7 +11038,7 @@
 	"." CLB @punct #4->4
 
 "<Olympia>"
-	"Olympia" N Prop Sg Nom @dep #1->1
+	"Olympia" N Prop Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<høvuðsstaðurin>"
@@ -11057,7 +11057,7 @@
 	"." CLB @punct #9->9
 
 "<Phoenix>"
-	"Phoenix" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Phoenix" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<eisini>"
@@ -11078,7 +11078,7 @@
 	"." CLB @punct #10->10
 
 "<Philadelphia>"
-	"Philadelphia" N Prop Sg Nom @dep #1->1
+	"Philadelphia" N Prop Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<eisini>"
@@ -11095,7 +11095,7 @@
 	"." CLB @punct #8->8
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<eisini>"
@@ -11112,7 +11112,7 @@
 	"." CLB @punct #8->8
 
 "<Vatntrot>"
-	"vatntrot" N Neu Sg Nom Indef @dep #1->1
+	"vatntrot" N Neu Sg Nom Indef @dep #1->
 "<og>"
 	"og" CC @cc #2->2
 "<kørg>"
@@ -11131,7 +11131,7 @@
 	"." CLB @punct #9->9
 
 "<Pál>"
-	"pálur" N Msc Sg Acc Indef @dep #1->1
+	"pálur" N Msc Sg Acc Indef @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<einasti>"
@@ -11162,7 +11162,7 @@
 	"." CLB @punct #15->15
 
 "<Meginparturin>"
-	"meginpartur" N Msc Sg Nom Def @dep #1->1
+	"meginpartur" N Msc Sg Nom Def @dep #1->
 "<av>"
 	"av" Pr @case #2->3
 "<landinum>"
@@ -11183,7 +11183,7 @@
 	"." CLB @punct #10->10
 
 "<Meginparturin>"
-	"meginpartur" N Msc Sg Nom Def @dep #1->1
+	"meginpartur" N Msc Sg Nom Def @dep #1->
 "<av>"
 	"av" Pr @case #2->3
 "<fólkinum>"
@@ -11202,7 +11202,7 @@
 	"." CLB @punct #9->9
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<størsti>"
@@ -11240,7 +11240,7 @@
 	"." CLB @punct #5->5
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<16.>"
 	"16" A Ord @dep #2->4
 "<øld>"
@@ -11271,7 +11271,7 @@
 	"." CLB @punct #15->15
 
 "<Hernaðarstýrið>"
-	"hernaður#stýri" N Neu Sg Nom Def @dep #1->1
+	"hernaður#stýri" N Neu Sg Nom Def @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<frá>"
@@ -11301,7 +11301,7 @@
 	"." CLB @punct #6->6
 
 "<Malaria>"
-	"malaria" N Fem Sg Nom Indef @dep #1->1
+	"malaria" N Fem Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Malaria>"
@@ -11351,7 +11351,7 @@
 	"." CLB @punct #4->4
 
 "<Uppgávan>"
-	"uppgáva" N Fem Sg Nom Def @dep #1->1
+	"uppgáva" N Fem Sg Nom Def @dep #1->
 "<hjá>"
 	"hjá" Pr @case #2->3
 "<kirkjuni>"
@@ -11379,7 +11379,7 @@
 	"." CLB @punct #5->5
 
 "<Ídnaðarøkið>"
-	"ídnaður#øki" N Neu Sg Nom Def @dep #1->1
+	"ídnaður#øki" N Neu Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<eystanfyri>"
@@ -11407,7 +11407,7 @@
 	"." CLB @punct #8->8
 
 "<Amarillo>"
-	"Amarillo" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Amarillo" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Amarillo>"
@@ -11432,7 +11432,7 @@
 	"." CLB @punct #12->12
 
 "<Jackson>"
-	"Jackson" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Jackson" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Jackson>"
@@ -11459,7 +11459,7 @@
 	"." CLB @punct #13->13
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<størsti>"
@@ -11489,7 +11489,7 @@
 	"." CLB @punct #7->7
 
 "<Harafturat>"
-	"harafturat" Adv @dep #1->1
+	"harafturat" Adv @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<umleið>"
@@ -11506,7 +11506,7 @@
 	"." CLB @punct #8->8
 
 "<Thimphu>"
-	"Thimphu" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Thimphu" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<høvuðsstaður>"
@@ -11519,7 +11519,7 @@
 	"." CLB @punct #6->6
 
 "<Meginparturin>"
-	"meginpartur" N Msc Sg Nom Def @dep #1->1
+	"meginpartur" N Msc Sg Nom Def @dep #1->
 "<av>"
 	"av" Pr @case #2->3
 "<fólkinum>"
@@ -11546,7 +11546,7 @@
 	"." CLB @punct #13->13
 
 "<A>"
-	"A" Abbr @dep #1->1
+	"A" Abbr @dep #1->
 "<vitaminir>"
 	"vitamin" N Fem Pl Nom Indef @dep #2->2
 "<eru>"
@@ -11574,7 +11574,7 @@
 	"." CLB @punct #6->6
 
 "<Høvuðsstaður>"
-	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<Lilongwe>"
@@ -11583,7 +11583,7 @@
 	"." CLB @punct #4->4
 
 "<Børn>"
-	"barn" N Neu Pl Nom Indef @dep #1->1
+	"barn" N Neu Pl Nom Indef @dep #1->
 "<og>"
 	"og" CC @cc #2->2
 "<kvinnur>"
@@ -11610,7 +11610,7 @@
 	"." CLB @punct #13->13
 
 "<Og>"
-	"og" CC @cc #1->1
+	"og" CC @cc #1->
 "<soleiðis>"
 	"soleiðis" Adv @dep #2->3
 "<bleiv>"
@@ -11623,7 +11623,7 @@
 	"." CLB @punct #6->6
 
 "<Kular>"
-	"kula" V Ind Prs Sg3 @dep #1->1
+	"kula" V Ind Prs Sg3 @dep #1->
 "<Røtur>"
 	"rót" N Fem Pl Nom Indef @dep #2->2
 "<:>"
@@ -11644,7 +11644,7 @@
 	"." CLB @punct #10->10
 
 "<Norðdepil>"
-	"Norðdepil" N Prop Msc Sg Nom Indef @dep #1->1
+	"Norðdepil" N Prop Msc Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<partur>"
@@ -11693,7 +11693,7 @@
 	"." CLB @punct #7->7
 
 "<Edmonton>"
-	"Edmonton" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Edmonton" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Edmonton>"
@@ -11712,7 +11712,7 @@
 	"." CLB @punct #9->9
 
 "<Winnipeg>"
-	"Winnipeg" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Winnipeg" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Winnipeg>"
@@ -11731,7 +11731,7 @@
 	"." CLB @punct #9->9
 
 "<Buffalo>"
-	"Buffalo" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Buffalo" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Buffalo>"
@@ -11756,7 +11756,7 @@
 	"." CLB @punct #12->12
 
 "<Denver>"
-	"Denver" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Denver" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Denver>"
@@ -11773,7 +11773,7 @@
 	"." CLB @punct #8->8
 
 "<Portland>"
-	"Portland" N Prop Neu Sg Nom Indef @dep #1->1
+	"Portland" N Prop Neu Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Portland>"
@@ -11798,7 +11798,7 @@
 	"." CLB @punct #12->12
 
 "<Brisbane>"
-	"Brisbane" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Brisbane" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<størsti>"
@@ -11817,7 +11817,7 @@
 	"." CLB @punct #9->9
 
 "<Brisbane>"
-	"Brisbane" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Brisbane" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<góður>"
@@ -11834,7 +11834,7 @@
 	"." CLB @punct #8->8
 
 "<Dallas>"
-	"Dallas" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Dallas" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Dallas>"
@@ -11859,7 +11859,7 @@
 	"." CLB @punct #12->12
 
 "<Wichita>"
-	"Wichita" N Prop Sg Nom @dep #1->1
+	"Wichita" N Prop Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Wichita>"
@@ -11884,7 +11884,7 @@
 	"." CLB @punct #12->12
 
 "<Jacksonville>"
-	"Jacksonville" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Jacksonville" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Jacksonville>"
@@ -11907,7 +11907,7 @@
 	"." CLB @punct #11->11
 
 "<Tallahassee>"
-	"Tallahassee" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Tallahassee" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Tallahassee>"
@@ -11924,7 +11924,7 @@
 	"." CLB @punct #8->8
 
 "<Lansing>"
-	"Lansing" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Lansing" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Lansing>"
@@ -11947,7 +11947,7 @@
 	"." CLB @punct #11->11
 
 "<Atlanta>"
-	"Atlanta" N Prop Sg Nom @dep #1->1
+	"Atlanta" N Prop Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Atlanta>"
@@ -11966,7 +11966,7 @@
 	"." CLB @punct #9->9
 
 "<Richmond>"
-	"Richmond" N Prop Sem/Mal Sg Nom @dep #1->1
+	"Richmond" N Prop Sem/Mal Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Richmond>"
@@ -11985,7 +11985,7 @@
 	"." CLB @punct #9->9
 
 "<Boston>"
-	"Boston" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Boston" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Boston>"
@@ -12008,7 +12008,7 @@
 	"." CLB @punct #11->11
 
 "<Indianapolis>"
-	"Indianapolis" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Indianapolis" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Indianapolis>"
@@ -12027,7 +12027,7 @@
 	"." CLB @punct #9->9
 
 "<Fólkatalið>"
-	"fólkatal" N Neu Sg Nom Def @dep #1->1
+	"fólkatal" N Neu Sg Nom Def @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<landinum>"
@@ -12042,7 +12042,7 @@
 	"." CLB @punct #7->7
 
 "<Málið>"
-	"mál" N Neu Sg Nom Def @dep #1->1
+	"mál" N Neu Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<nú>"
@@ -12059,7 +12059,7 @@
 	"." CLB @punct #8->8
 
 "<Námsvinna>"
-	"námsvinna" N Fem Sg Nom Indef @dep #1->1
+	"námsvinna" N Fem Sg Nom Indef @dep #1->
 "<og>"
 	"og" CC @cc #2->2
 "<smáir>"
@@ -12096,7 +12096,7 @@
 	"." CLB @punct #18->18
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<eisini>"
@@ -12109,7 +12109,7 @@
 	"." CLB @punct #6->6
 
 "<Oljuídnaðurin>"
-	"oljuídnaður" N Msc Sg Nom Def @dep #1->1
+	"oljuídnaður" N Msc Sg Nom Def @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<landinum>"
@@ -12132,7 +12132,7 @@
 	"." CLB @punct #11->11
 
 "<Men>"
-	"men" CC @cc #1->1
+	"men" CC @cc #1->
 "<enn>"
 	"enn" Adv @dep #2->2
 "<er>"
@@ -12209,7 +12209,7 @@
 	"." CLB @punct #6->6
 
 "<Men>"
-	"men" CC @cc #1->1
+	"men" CC @cc #1->
 "<tó>"
 	"tó" Adv @dep #2->2
 "<eru>"
@@ -12220,7 +12220,7 @@
 	"." CLB @punct #5->5
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<hevur>"
 	"hava" V Ind Prs Sg3 @aux #2->3
 "<verið>"
@@ -12239,7 +12239,7 @@
 	"." CLB @punct #9->9
 
 "<Montpelier>"
-	"Montpelier" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Montpelier" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<eisini>"
@@ -12256,7 +12256,7 @@
 	"." CLB @punct #8->8
 
 "<Landsstýrið>"
-	"landsstýri" N Neu Sg Nom Def @dep #1->1
+	"landsstýri" N Neu Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<hægsti>"
@@ -12273,7 +12273,7 @@
 	"." CLB @punct #8->8
 
 "<Til>"
-	"til" Pr @case #1->1
+	"til" Pr @case #1->
 "<hetta>"
 	"hesin" Pron Dem Neu Sg Acc @dep #2->2
 "<var>"
@@ -12299,7 +12299,7 @@
 	"." CLB @punct #5->5
 
 "<Námsvinna>"
-	"námsvinna" N Fem Sg Nom Indef @dep #1->1
+	"námsvinna" N Fem Sg Nom Indef @dep #1->
 "<og>"
 	"og" CC @cc #2->2
 "<smáir>"
@@ -12336,7 +12336,7 @@
 	"." CLB @punct #18->18
 
 "<Høvuðspersónurin>"
-	"høvuðspersónur" N Msc Sg Nom Def @dep #1->1
+	"høvuðspersónur" N Msc Sg Nom Def @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<teknirøðini>"
@@ -12383,7 +12383,7 @@
 	"." CLB @punct #11->11
 
 "<Konservatisma>"
-	"konservatisma" N Fem Sg Nom Indef @dep #1->1
+	"konservatisma" N Fem Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<í>"
@@ -12402,7 +12402,7 @@
 	"." CLB @punct #9->9
 
 "<Frá>"
-	"frá" Pr @case #1->1
+	"frá" Pr @case #1->
 "<1997-2002>"
 	"1997-2002" Num Dat @dep #2->2
 "<var>"
@@ -12421,7 +12421,7 @@
 	"." CLB @punct #9->9
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<1991>"
 	"1991" Num Dat @dep #2->2
 "<vóru>"
@@ -12469,7 +12469,7 @@
 	"." CLB @punct #14->14
 
 "<Men>"
-	"men" CC @cc #1->1
+	"men" CC @cc #1->
 "<Friedrich>"
 	"Friedrich" N Prop Sem/Sur Sg Nom @dep #2->2
 "<var>"
@@ -12480,7 +12480,7 @@
 	"." CLB @punct #5->5
 
 "<Loðsurin>"
-	"loðsur" N Msc Sg Nom Def @dep #1->1
+	"loðsur" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<Bismarck>"
@@ -12504,7 +12504,7 @@
 	"." CLB @punct #7->7
 
 "<Ferðafólkavinnan>"
-	"ferðafólk#vinna" N Fem Sg Nom Def @dep #1->1
+	"ferðafólk#vinna" N Fem Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<størsta>"
@@ -12523,7 +12523,7 @@
 	"." CLB @punct #9->9
 
 "<úr>"
-	"úr" Pr @case #1->1
+	"úr" Pr @case #1->
 "<1999>"
 	"1999" Num Dat @dep #2->2
 "<er>"
@@ -12540,7 +12540,7 @@
 	"." CLB @punct #8->8
 
 "<Garðarnir>"
-	"garður" N Msc Pl Nom Def @dep #1->1
+	"garður" N Msc Pl Nom Def @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<stórir>"
@@ -12590,7 +12590,7 @@
 	"." CLB @punct #12->12
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<1.>"
 	"1" A Ord @dep #2->3
 "<Krýn>"
@@ -12599,7 +12599,7 @@
 	"." CLB @punct #4->4
 
 "<„>"
-	"„" PUNCT LEFT @punct #1->1
+	"„" PUNCT LEFT @punct #1->
 "<Sátan>"
 	"sáta" N Fem Sg Nom Def @dep #2->4
 "<“>"
@@ -12633,7 +12633,7 @@
 	"." CLB @punct #8->8
 
 "<Tinganest>"
-	"tinganest" N Neu Sg Nom Indef @dep #1->1
+	"tinganest" N Neu Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Tinganest>"
@@ -12650,7 +12650,7 @@
 	"." CLB @punct #8->8
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<tónleikari>"
@@ -12669,7 +12669,7 @@
 	"." CLB @punct #9->9
 
 "<Móses>"
-	"Móses" N Prop Sem/Mal Sg Nom @dep #1->1
+	"Móses" N Prop Sem/Mal Sg Nom @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<aldur>"
@@ -12698,7 +12698,7 @@
 	"." CLB @punct #14->14
 
 "<Hetta>"
-	"hesin" Pron Dem Neu Sg Nom @dep #1->1
+	"hesin" Pron Dem Neu Sg Nom @dep #1->
 "<kann>"
 	"kunna" V Ind Prs Sg3 @dep #2->2
 "<vera>"
@@ -12731,7 +12731,7 @@
 	"." CLB @punct #16->16
 
 "<Blóðið>"
-	"blóð" N Neu Sg Nom Def @dep #1->1
+	"blóð" N Neu Sg Nom Def @dep #1->
 "<av>"
 	"av" Pr @case #2->3
 "<lambinum>"
@@ -12769,7 +12769,7 @@
 	"." CLB @punct #12->12
 
 "<Bíblian>"
-	"bíblia" N Fem Sg Nom Def @dep #1->1
+	"bíblia" N Fem Sg Nom Def @dep #1->
 "<sigur>"
 	"siga" V Ind Prs Sg3 @dep #2->2
 "<,>"
@@ -12786,7 +12786,7 @@
 	"." CLB @punct #8->8
 
 "<Harumframt>"
-	"harumframt" Adv @dep #1->1
+	"harumframt" Adv @dep #1->
 "<fekk>"
 	"fáa" V Ind Prt Sg3 @dep #2->2
 "<Móses>"
@@ -12836,7 +12836,7 @@
 	"." CLB @punct #12->12
 
 "<Betesda>"
-	"Betesda" N Prop Sem/Fem Sg Nom @dep #1->1
+	"Betesda" N Prop Sem/Fem Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Betesda>"
@@ -12853,7 +12853,7 @@
 	"." CLB @punct #8->8
 
 "<Likka>"
-	"likka" N Fem Sg Nom Indef @dep #1->1
+	"likka" N Fem Sg Nom Indef @dep #1->
 "<sæst>"
 	"síggja" V Sup Pass @dep #2->2
 "<allastaðni>"
@@ -12868,7 +12868,7 @@
 	"." CLB @punct #7->7
 
 "<Jomfrúhummarin>"
-	"jomfrúhummari" N Msc Sg Nom Def @dep #1->1
+	"jomfrúhummari" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<reydligur>"
@@ -12903,7 +12903,7 @@
 	"." CLB @punct #6->6
 
 "<Manchester>"
-	"Manchester" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Manchester" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Manchester>"
@@ -12922,7 +12922,7 @@
 	"." CLB @punct #9->9
 
 "<Har>"
-	"har" Adv @dep #1->1
+	"har" Adv @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<eisini>"
@@ -12939,7 +12939,7 @@
 	"." CLB @punct #8->8
 
 "<Belfast>"
-	"Belfast" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Belfast" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Belfast>"
@@ -12977,7 +12977,7 @@
 	"." CLB @punct #7->7
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<1995>"
 	"1995" Num Dat @dep #2->3
 "<luttók>"
@@ -13008,7 +13008,7 @@
 	"." CLB @punct #15->15
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<varð>"
 	"verða" V Ind Prt Sg3 @root #2->0
 "<62>"
@@ -13044,7 +13044,7 @@
 	"." CLB @punct #12->12
 
 "<Og>"
-	"og" CC @cc #1->1
+	"og" CC @cc #1->
 "<at>"
 	"at" IM @dep #2->2
 "<drekka>"
@@ -13114,7 +13114,7 @@
 	"." CLB @punct #19->19
 
 "<Hildesheim>"
-	"Hildesheim" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Hildesheim" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<katólskt>"
@@ -13125,7 +13125,7 @@
 	"." CLB @punct #5->5
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<fleiri>"
@@ -13140,7 +13140,7 @@
 	"." CLB @punct #7->7
 
 "<Kvinnurnar>"
-	"kvinna" N Fem Pl Nom Def @dep #1->1
+	"kvinna" N Fem Pl Nom Def @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<yvir>"
@@ -13153,7 +13153,7 @@
 	"." CLB @punct #6->6
 
 "<Róðrarbátur>"
-	"róðrarbátur" N Msc Sg Nom Indef @dep #1->1
+	"róðrarbátur" N Msc Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Róðrarbátur>"
@@ -13174,7 +13174,7 @@
 	"." CLB @punct #10->10
 
 "<Blóðið>"
-	"blóð" N Neu Sg Nom Def @dep #1->1
+	"blóð" N Neu Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<mannablóð>"
@@ -13196,7 +13196,7 @@
 	"." CLB @punct #6->6
 
 "<Hetta>"
-	"hesin" Pron Dem Neu Sg Acc @dep #1->1
+	"hesin" Pron Dem Neu Sg Acc @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<ein>"
@@ -13222,7 +13222,7 @@
 	"." CLB @punct #6->6
 
 "<Klekingartíðin>"
-	"klekingartíð" N Fem Sg Nom Def @dep #1->1
+	"klekingartíð" N Fem Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<28>"
@@ -13242,7 +13242,7 @@
 	"." CLB @punct #4->4
 
 "<Høvdið>"
-	"høvd" N Neu Sg Nom Def @dep #1->1
+	"høvd" N Neu Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<um>"
@@ -13257,7 +13257,7 @@
 	"." CLB @punct #7->7
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<smidligur>"
@@ -13268,7 +13268,7 @@
 	"." CLB @punct #5->5
 
 "<Uggafjaðrarnar>"
-	"uggafjøður" N Fem Pl Nom Def @dep #1->1
+	"uggafjøður" N Fem Pl Nom Def @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<stórar>"
@@ -13281,7 +13281,7 @@
 	"." CLB @punct #6->6
 
 "<kr.>"
-	"kr" Abbr @dep #1->1
+	"kr" Abbr @dep #1->
 "<traðkar>"
 	"traðka" V Ind Prs Sg3 @dep #2->2
 "<staturin>"
@@ -13298,7 +13298,7 @@
 	"." CLB @punct #8->8
 
 "<Nú>"
-	"nú" Adv @dep #1->1
+	"nú" Adv @dep #1->
 "<berjast>"
 	"berja" V Inf Pass @dep #2->2
 "<India>"
@@ -13319,7 +13319,7 @@
 	"." CLB @punct #10->10
 
 "<Móðir>"
-	"móðir" N Fem Sg Nom Indef @dep #1->1
+	"móðir" N Fem Sg Nom Indef @dep #1->
 "<Teresa>"
 	"Teresa" N Prop Sem/Fem Sg Nom @dep #2->2
 "<var>"
@@ -13332,7 +13332,7 @@
 	"." CLB @punct #6->6
 
 "<Herurin>"
-	"herur" N Msc Sg Nom Def @dep #1->1
+	"herur" N Msc Sg Nom Def @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<Burma>"
@@ -13359,7 +13359,7 @@
 	"." CLB @punct #13->13
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<fyrsta>"
@@ -13382,7 +13382,7 @@
 	"." CLB @punct #11->11
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<2005>"
 	"2005" Num Dat @dep #2->3
 "<bleiv>"
@@ -13395,7 +13395,7 @@
 	"." CLB @punct #6->6
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<í>"
@@ -13432,7 +13432,7 @@
 	"." CLB @punct #18->18
 
 "<Pápin>"
-	"pápi" N Msc Sg Nom Def @dep #1->1
+	"pápi" N Msc Sg Nom Def @dep #1->
 "<doyði>"
 	"doyða" V Ind Prs Sg1 @dep #2->2
 "<,>"
@@ -13460,7 +13460,7 @@
 	"." CLB @punct #3->3
 
 "<Ikki>"
-	"ikki" Adv @dep #1->1
+	"ikki" Adv @dep #1->
 "<allir>"
 	"allur" Det Msc Pl Nom Indef @det #2->3
 "<palestinar>"
@@ -13473,7 +13473,7 @@
 	"." CLB @punct #6->6
 
 "<Nakrir>"
-	"nakar" Pron Indef Msc Pl Nom @dep #1->1
+	"nakar" Pron Indef Msc Pl Nom @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<kristnir>"
@@ -13490,7 +13490,7 @@
 	"." CLB @punct #8->8
 
 "<Oljuvinnan>"
-	"oljuvinna" N Fem Sg Nom Def @dep #1->1
+	"oljuvinna" N Fem Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<høvuðsvinnan>"
@@ -13499,7 +13499,7 @@
 	"." CLB @punct #4->4
 
 "<Perlutíðin>"
-	"perla#tíð" N Fem Sg Nom Def @dep #1->1
+	"perla#tíð" N Fem Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<frá>"
@@ -13557,7 +13557,7 @@
 	"." CLB @punct #5->5
 
 "<Kári>"
-	"Kári" N Prop Sem/Mal Sg Nom @dep #1->1
+	"Kári" N Prop Sem/Mal Sg Nom @dep #1->
 "<á>"
 	"á" Pr @case #2->3
 "<Rógvi>"
@@ -13584,7 +13584,7 @@
 	"." CLB @punct #13->13
 
 "<Høvuðsstaður>"
-	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<Kiel>"
@@ -13608,7 +13608,7 @@
 	"." CLB @punct #7->7
 
 "<Bóghvítuhvalurin>"
-	"bóghvítuhvalur" N Msc Sg Nom Def @dep #1->1
+	"bóghvítuhvalur" N Msc Sg Nom Def @dep #1->
 "<kom>"
 	"koma" V Ind Prt Sg3 @dep #2->2
 "<eftir>"
@@ -13629,7 +13629,7 @@
 	"." CLB @punct #10->10
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<í>"
@@ -13652,7 +13652,7 @@
 	"." CLB @punct #11->11
 
 "<Uml.>"
-	"uml" Abbr @dep #1->1
+	"uml" Abbr @dep #1->
 "<78%>"
 	"78%" Num Nom @dep #2->2
 "<av>"
@@ -13728,7 +13728,7 @@
 	"." CLB @punct #15->15
 
 "<Ferðafólkavinnan>"
-	"ferðafólk#vinna" N Fem Sg Nom Def @dep #1->1
+	"ferðafólk#vinna" N Fem Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<størsta>"
@@ -13747,7 +13747,7 @@
 	"." CLB @punct #9->9
 
 "<Meginparturin>"
-	"meginpartur" N Msc Sg Nom Def @dep #1->1
+	"meginpartur" N Msc Sg Nom Def @dep #1->
 "<av>"
 	"av" Pr @case #2->3
 "<fólkinum>"
@@ -13760,7 +13760,7 @@
 	"." CLB @punct #6->6
 
 "<Hetta>"
-	"hesin" Pron Dem Neu Sg Nom @dep #1->1
+	"hesin" Pron Dem Neu Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<tó>"
@@ -13773,7 +13773,7 @@
 	"." CLB @punct #6->6
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<1960>"
 	"1960" Num Dat @dep #2->2
 "<var>"
@@ -13786,7 +13786,7 @@
 	"." CLB @punct #6->6
 
 "<So>"
-	"so" Adv @dep #1->1
+	"so" Adv @dep #1->
 "<statt>"
 	"standa" V Imp Sg @dep #2->2
 "<er>"
@@ -13807,7 +13807,7 @@
 	"." CLB @punct #10->10
 
 "<Head>"
-	"Head" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Head" N Prop Sem/Sur Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<júst>"
@@ -13826,7 +13826,7 @@
 	"." CLB @punct #9->9
 
 "<Har>"
-	"har" Adv @dep #1->1
+	"har" Adv @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<32>"
@@ -13856,7 +13856,7 @@
 	"." CLB @punct #6->6
 
 "<Lættisoppar>"
-	"lættisoppur" N Msc Pl Nom Indef @dep #1->1
+	"lættisoppur" N Msc Pl Nom Indef @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<vanligir>"
@@ -13873,7 +13873,7 @@
 	"." CLB @punct #8->8
 
 "<Kræklingur>"
-	"kræklingur" N Msc Sg Nom Indef @dep #1->1
+	"kræklingur" N Msc Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<myrkabláur>"
@@ -13930,7 +13930,7 @@
 	"." CLB @punct #8->8
 
 "<Libanon>"
-	"Libanon" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Libanon" N Prop Sem/Plc Sg Nom @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<einaferð>"
@@ -14000,7 +14000,7 @@
 	"." CLB @punct #5->5
 
 "<Føturnir>"
-	"fótur" N Msc Pl Nom Def @dep #1->1
+	"fótur" N Msc Pl Nom Def @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<so>"
@@ -14023,7 +14023,7 @@
 	"." CLB @punct #11->11
 
 "<Dúnungarnir>"
-	"dúnungi" N Msc Pl Nom Def @dep #1->1
+	"dúnungi" N Msc Pl Nom Def @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<svartir>"
@@ -14047,7 +14047,7 @@
 	"." CLB @punct #7->7
 
 "<Dúnungin>"
-	"dúnungi" N Msc Sg Nom Def @dep #1->1
+	"dúnungi" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<svartur>"
@@ -14056,7 +14056,7 @@
 	"." CLB @punct #4->4
 
 "<Hetta>"
-	"hesin" Pron Dem Neu Sg Acc @dep #1->1
+	"hesin" Pron Dem Neu Sg Acc @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<storkapápin>"
@@ -14065,7 +14065,7 @@
 	"." CLB @punct #4->4
 
 "<Føturnir>"
-	"fótur" N Msc Pl Nom Def @dep #1->1
+	"fótur" N Msc Pl Nom Def @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<reyðir>"
@@ -14074,7 +14074,7 @@
 	"." CLB @punct #4->4
 
 "<Føturnir>"
-	"fótur" N Msc Pl Nom Def @dep #1->1
+	"fótur" N Msc Pl Nom Def @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<gulir>"
@@ -14083,7 +14083,7 @@
 	"." CLB @punct #4->4
 
 "<Æða>"
-	"æða" N Fem Sg Nom Indef @dep #1->1
+	"æða" N Fem Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<sjaldsama>"
@@ -14135,7 +14135,7 @@
 	"." CLB @punct #7->7
 
 "<Falkur>"
-	"falkur" N Msc Sg Nom Indef @dep #1->1
+	"falkur" N Msc Sg Nom Indef @dep #1->
 "<livir>"
 	"liva" V Ind Prs Sg3 @dep #2->2
 "<í>"
@@ -14162,7 +14162,7 @@
 	"." CLB @punct #13->13
 
 "<Miðskeiðis>"
-	"miðskeiðis" Adv @dep #1->1
+	"miðskeiðis" Adv @dep #1->
 "<á>"
 	"á" Pr @case #2->3
 "<oynni>"
@@ -14196,7 +14196,7 @@
 	"." CLB @punct #3->3
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<2005>"
 	"2005" Num Dat @dep #2->2
 "<var>"
@@ -14227,7 +14227,7 @@
 	"." CLB @punct #15->15
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<limur>"
@@ -14251,7 +14251,7 @@
 	"." CLB @punct #3->3
 
 "<Mamma>"
-	"mamma" N Fem Sg Nom Indef @dep #1->1
+	"mamma" N Fem Sg Nom Indef @dep #1->
 "<hansara>"
 	"hann" Pron Pers Sg3 Msc Gen @dep #2->2
 "<er>"
@@ -14294,7 +14294,7 @@
 	"." CLB @punct #4->4
 
 "<Vinnararnir>"
-	"vinnari" N Msc Pl Nom Def @dep #1->1
+	"vinnari" N Msc Pl Nom Def @dep #1->
 "<av>"
 	"av" Pr @case #2->3
 "<kappingini>"
@@ -14313,7 +14313,7 @@
 	"." CLB @punct #9->9
 
 "<Støddin>"
-	"stødd" N Fem Sg Nom Def @dep #1->1
+	"stødd" N Fem Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<sum>"
@@ -14352,7 +14352,7 @@
 	"." CLB @punct #3->3
 
 "<Men>"
-	"men" CC @cc #1->1
+	"men" CC @cc #1->
 "<teir>"
 	"teir" Pron Pers Pl3 Msc Nom @nsubj #2->2
 "<eru>"
@@ -14382,7 +14382,7 @@
 	"." CLB @punct #7->7
 
 "<Dúnungin>"
-	"dúnungi" N Msc Sg Nom Def @dep #1->1
+	"dúnungi" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<dimmur>"
@@ -14410,7 +14410,7 @@
 	"." CLB @punct #6->6
 
 "<Um>"
-	"ymja" V Imp Sg @dep #1->1
+	"ymja" V Imp Sg @dep #1->
 "<strendur>"
 	"strendur" A Msc Sg Nom Indef @dep #2->2
 "<og>"
@@ -14435,7 +14435,7 @@
 	"." CLB @punct #12->12
 
 "<Føturnir>"
-	"fótur" N Msc Pl Nom Def @dep #1->1
+	"fótur" N Msc Pl Nom Def @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<gulir>"
@@ -14444,7 +14444,7 @@
 	"." CLB @punct #4->4
 
 "<Føturnir>"
-	"fótur" N Msc Pl Nom Def @dep #1->1
+	"fótur" N Msc Pl Nom Def @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<blóðreyðir>"
@@ -14453,7 +14453,7 @@
 	"." CLB @punct #4->4
 
 "<Málið>"
-	"mál" N Neu Sg Nom Def @dep #1->1
+	"mál" N Neu Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<eitt>"
@@ -14466,7 +14466,7 @@
 	"." CLB @punct #6->6
 
 "<Um>"
-	"um" CS @dep #1->1
+	"um" CS @dep #1->
 "<veturin>"
 	"vetur" N Msc Sg Nom Def @dep #2->2
 "<heldur>"
@@ -14510,7 +14510,7 @@
 	"." CLB @punct #7->7
 
 "<Dagin>"
-	"dagur" N Msc Sg Acc Def @dep #1->1
+	"dagur" N Msc Sg Acc Def @dep #1->
 "<eftir>"
 	"eftir" Pr @case #2->2
 "<fer>"
@@ -14545,7 +14545,7 @@
 	"." CLB @punct #17->17
 
 "<Bøgan>"
-	"bøga" N Fem Sg Nom Def @dep #1->1
+	"bøga" N Fem Sg Nom Def @dep #1->
 "<vermir>"
 	"verma" V Ind Prs Sg3 @dep #2->2
 "<;>"
@@ -14612,7 +14612,7 @@
 	"." CLB @punct #8->8
 
 "<Oftast>"
-	"oftast" Adv @dep #1->1
+	"oftast" Adv @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<5>"
@@ -14651,7 +14651,7 @@
 	"." CLB @punct #7->7
 
 "<Har>"
-	"har" Adv @dep #1->1
+	"har" Adv @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<mangir>"
@@ -14689,7 +14689,7 @@
 	"." CLB @punct #10->10
 
 "<Har>"
-	"har" Adv @dep #1->1
+	"har" Adv @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<62>"
@@ -14700,7 +14700,7 @@
 	"." CLB @punct #5->5
 
 "<Meginparturin>"
-	"meginpartur" N Msc Sg Nom Def @dep #1->1
+	"meginpartur" N Msc Sg Nom Def @dep #1->
 "<av>"
 	"av" Pr @case #2->3
 "<fólkinum>"
@@ -14713,7 +14713,7 @@
 	"." CLB @punct #6->6
 
 "<Býurin>"
-	"býur" N Msc Sg Nom Def @dep #1->1
+	"býur" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<eisini>"
@@ -14749,7 +14749,7 @@
 	"." CLB @punct #12->12
 
 "<Miðaltalið>"
-	"miðaltal" N Neu Sg Nom Def @dep #1->1
+	"miðaltal" N Neu Sg Nom Def @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<USA>"
@@ -14770,7 +14770,7 @@
 	"." CLB @punct #10->10
 
 "<Trondheim>"
-	"Trondheim" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Trondheim" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Trondheim>"
@@ -14797,7 +14797,7 @@
 	"." CLB @punct #13->13
 
 "<Aldubáran>"
-	"aldubára" N Fem Sg Nom Def @dep #1->1
+	"aldubára" N Fem Sg Nom Def @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Aldubáran>"
@@ -14841,7 +14841,7 @@
 	"." CLB @punct #13->13
 
 "<Concepción>"
-	"Concepción" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Concepción" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<eisini>"
@@ -14862,7 +14862,7 @@
 	"." CLB @punct #10->10
 
 "<Pápi>"
-	"pápi" N Msc Sg Nom Indef @dep #1->1
+	"pápi" N Msc Sg Nom Indef @dep #1->
 "<hansara>"
 	"hann" Pron Pers Sg3 Msc Gen @dep #2->2
 "<var>"
@@ -14885,7 +14885,7 @@
 	"." CLB @punct #11->11
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<limur>"
@@ -14898,7 +14898,7 @@
 	"." CLB @punct #6->6
 
 "<Guantánamo>"
-	"Guantánamo" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Guantánamo" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Guantánamo>"
@@ -14977,7 +14977,7 @@
 	"." CLB @punct #11->11
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<lærari>"
@@ -14999,7 +14999,7 @@
 	"." CLB @punct #6->6
 
 "<Blómurnar>"
-	"blóma" N Fem Pl Nom Def @dep #1->1
+	"blóma" N Fem Pl Nom Def @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<langir>"
@@ -15014,7 +15014,7 @@
 	"." CLB @punct #7->7
 
 "<Einans>"
-	"einans" Adv @dep #1->1
+	"einans" Adv @dep #1->
 "<greinarendarnir>"
 	"greinarendi" N Msc Pl Nom Def @dep #2->2
 "<eru>"
@@ -15077,7 +15077,7 @@
 	"." CLB @punct #9->9
 
 "<Jóhan>"
-	"Jóhan" N Prop Sem/Mal Sg Nom @dep #1->1
+	"Jóhan" N Prop Sem/Mal Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<triðja>"
@@ -15096,7 +15096,7 @@
 	"." CLB @punct #9->9
 
 "<Landslutahøvuðsstaður>"
-	"landslutur#høvuðsstaður" N Msc Sg Nom Indef @dep #1->1
+	"landslutur#høvuðsstaður" N Msc Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<Rennes>"
@@ -15120,7 +15120,7 @@
 	"." CLB @punct #7->7
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<sum>"
@@ -15139,7 +15139,7 @@
 	"." CLB @punct #9->9
 
 "<Grundarlagið>"
-	"grundarlag" N Neu Sg Nom Def @dep #1->1
+	"grundarlag" N Neu Sg Nom Def @dep #1->
 "<undir>"
 	"undir" Pr @case #2->3
 "<búskapinum>"
@@ -15152,7 +15152,7 @@
 	"." CLB @punct #6->6
 
 "<Laos>"
-	"Laos" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Laos" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Laos>"
@@ -15171,7 +15171,7 @@
 	"." CLB @punct #9->9
 
 "<Høvuðsstaður>"
-	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<Vientiane>"
@@ -15180,7 +15180,7 @@
 	"." CLB @punct #4->4
 
 "<Høvuðsstaður>"
-	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<Tasjkent>"
@@ -15189,7 +15189,7 @@
 	"." CLB @punct #4->4
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<eitt>"
@@ -15206,7 +15206,7 @@
 	"." CLB @punct #8->8
 
 "<Landbúnaður>"
-	"landbúnaður" N Msc Sg Nom Indef @dep #1->1
+	"landbúnaður" N Msc Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<høvuðsvinna>"
@@ -15254,7 +15254,7 @@
 	"." CLB @punct #17->17
 
 "<Umleið>"
-	"umleið" Adv @dep #1->1
+	"umleið" Adv @dep #1->
 "<ein>"
 	"ein" Det Msc Sg Nom @det #2->3
 "<triðingur>"
@@ -15291,7 +15291,7 @@
 	"." CLB @punct #18->18
 
 "<Meginparturin>"
-	"meginpartur" N Msc Sg Nom Def @dep #1->1
+	"meginpartur" N Msc Sg Nom Def @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<baptistar>"
@@ -15300,7 +15300,7 @@
 	"." CLB @punct #4->4
 
 "<Nú>"
-	"nú" Adv @dep #1->1
+	"nú" Adv @dep #1->
 "<á>"
 	"á" Pr @case #2->3
 "<døgum>"
@@ -15363,7 +15363,7 @@
 	"." CLB @punct #11->11
 
 "<At>"
-	"at" IM @dep #1->1
+	"at" IM @dep #1->
 "<prógva>"
 	"prógva" V Inf @dep #2->2
 "<hetta>"
@@ -15441,7 +15441,7 @@
 	"." CLB @punct #10->10
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<gudstænastubókin>"
@@ -15456,7 +15456,7 @@
 	"." CLB @punct #7->7
 
 "<Mannfólkini>"
-	"mannfólk" N Neu Pl Nom Def @dep #1->1
+	"mannfólk" N Neu Pl Nom Def @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<í>"
@@ -15496,7 +15496,7 @@
 	"." CLB @punct #11->11
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<ikki>"
@@ -15549,7 +15549,7 @@
 	"." CLB @punct #9->9
 
 "<Detroit>"
-	"Detroit" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Detroit" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<størsti>"
@@ -15566,7 +15566,7 @@
 	"." CLB @punct #8->8
 
 "<Akførini>"
-	"akfar" N Neu Pl Nom Def @dep #1->1
+	"akfar" N Neu Pl Nom Def @dep #1->
 "<hjá>"
 	"hjá" Pr @case #2->3
 "<sløkkiliðnum>"
@@ -15585,7 +15585,7 @@
 	"." CLB @punct #9->9
 
 "<Menn>"
-	"maður" N Msc Pl Nom Indef @dep #1->1
+	"maður" N Msc Pl Nom Indef @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<ymiskir>"
@@ -15624,7 +15624,7 @@
 	"." CLB @punct #19->19
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<fjølbroyttur>"
@@ -15635,7 +15635,7 @@
 	"." CLB @punct #5->5
 
 "<Meginparturin>"
-	"meginpartur" N Msc Sg Nom Def @dep #1->1
+	"meginpartur" N Msc Sg Nom Def @dep #1->
 "<av>"
 	"av" Pr @case #2->3
 "<fólkinum>"
@@ -15648,7 +15648,7 @@
 	"." CLB @punct #6->6
 
 "<Umleið>"
-	"umleið" Adv @dep #1->1
+	"umleið" Adv @dep #1->
 "<90 %>"
 	"90 %" Num Nom @dep #2->2
 "<av>"
@@ -15665,7 +15665,7 @@
 	"." CLB @punct #8->8
 
 "<Summir>"
-	"summur" Det Msc Pl Nom @det #1->1
+	"summur" Det Msc Pl Nom @det #1->
 "<doyggja>"
 	"doyggja" V Inf @dep #2->2
 "<av>"
@@ -15689,7 +15689,7 @@
 	"." CLB @punct #6->6
 
 "<Føroyar>"
-	"Føroyar" N Prop Fem Pl Nom Indef @dep #1->1
+	"Føroyar" N Prop Fem Pl Nom Indef @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<eisini>"
@@ -15719,7 +15719,7 @@
 	"." CLB @punct #6->6
 
 "<Ein>"
-	"ein" Det Msc Sg Nom @det #1->1
+	"ein" Det Msc Sg Nom @det #1->
 "<kaldur>"
 	"kaldur" A Msc Sg Nom Indef @amod #2->3
 "<streymur>"
@@ -15761,7 +15761,7 @@
 	"." CLB @punct #12->12
 
 "<Og>"
-	"og" CC @cc #1->1
+	"og" CC @cc #1->
 "<har>"
 	"har" Adv @dep #2->2
 "<er>"
@@ -15803,7 +15803,7 @@
 	"." CLB @punct #8->8
 
 "<Høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<nýggjur>"
@@ -15844,7 +15844,7 @@
 	"." CLB @punct #20->20
 
 "<Landbúnaður>"
-	"landbúnaður" N Msc Sg Nom Indef @dep #1->1
+	"landbúnaður" N Msc Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<høvuðsvinnan>"
@@ -15878,7 +15878,7 @@
 	"." CLB @punct #10->10
 
 "<Um>"
-	"ymja" V Imp Sg @dep #1->1
+	"ymja" V Imp Sg @dep #1->
 "<triðingurin>"
 	"triðingur" N Msc Sg Nom Def @dep #2->2
 "<av>"
@@ -15924,7 +15924,7 @@
 	"." CLB @punct #12->12
 
 "<30 %>"
-	"30 %" Num Nom @dep #1->1
+	"30 %" Num Nom @dep #1->
 "<av>"
 	"av" Pr @case #2->3
 "<útflutninginum>"
@@ -15943,7 +15943,7 @@
 	"." CLB @punct #9->9
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<eisini>"
@@ -15962,7 +15962,7 @@
 	"." CLB @punct #9->9
 
 "<Nashville>"
-	"Nashville" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Nashville" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Nashville>"
@@ -15992,7 +15992,7 @@
 	"." CLB @punct #6->6
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<16.>"
 	"16" A Ord @dep #2->4
 "<øld>"
@@ -16011,7 +16011,7 @@
 	"." CLB @punct #9->9
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<tveir>"
 	"tvey" Num Msc Sg Acc @nummod #2->3
 "<dagar>"
@@ -16034,7 +16034,7 @@
 	"." CLB @punct #11->11
 
 "<Labbarnir>"
-	"labbi" N Msc Pl Nom Def @dep #1->1
+	"labbi" N Msc Pl Nom Def @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<stórir>"
@@ -16070,7 +16070,7 @@
 	"." CLB @punct #9->9
 
 "<Um>"
-	"ymja" V Imp Sg @dep #1->1
+	"ymja" V Imp Sg @dep #1->
 "<summarið>"
 	"summar" N Neu Sg Nom Def @dep #2->2
 "<,>"
@@ -16152,7 +16152,7 @@
 	"." CLB @punct #6->6
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<so>"
 	"so" Adv @dep #2->2
 "<stórum>"
@@ -16177,7 +16177,7 @@
 	"." CLB @punct #12->12
 
 "<Á>"
-	"á" Pr @case #1->1
+	"á" Pr @case #1->
 "<mongum>"
 	"mangur" A Neu Pl Dat Indef @amod #2->3
 "<oyggjum>"
@@ -16192,7 +16192,7 @@
 	"." CLB @punct #7->7
 
 "<Har>"
-	"har" Adv @dep #1->1
+	"har" Adv @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<heilt>"
@@ -16209,7 +16209,7 @@
 	"." CLB @punct #8->8
 
 "<Tá>"
-	"tá" Adv @dep #1->1
+	"tá" Adv @dep #1->
 "<hækkaði>"
 	"hækka" V Ind Prt Sg @dep #2->2
 "<vatnflóðin>"
@@ -16228,7 +16228,7 @@
 	"." CLB @punct #9->9
 
 "<Filmurin>"
-	"filmur" N Msc Sg Nom Def @dep #1->1
+	"filmur" N Msc Sg Nom Def @dep #1->
 "<sigur>"
 	"siga" V Ind Prs Sg3 @dep #2->2
 "<eina>"
@@ -16284,7 +16284,7 @@
 	"." CLB @punct #14->14
 
 "<Fyrr>"
-	"fyrr" Adv @dep #1->1
+	"fyrr" Adv @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<nógvur>"
@@ -16299,7 +16299,7 @@
 	"." CLB @punct #7->7
 
 "<Tá>"
-	"tá" Adv @dep #1->1
+	"tá" Adv @dep #1->
 "<vóru>"
 	"vera" V Ind Prt Pl @cop #2->2
 "<teldurnar>"
@@ -16310,7 +16310,7 @@
 	"." CLB @punct #5->5
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<t.d.>"
 	"t.d" Abbr @dep #2->2
 "<Nevada>"
@@ -16344,7 +16344,7 @@
 	"." CLB @punct #6->6
 
 "<Flogvøllurin>"
-	"flogvøllur" N Msc Sg Nom Def @dep #1->1
+	"flogvøllur" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<á>"
@@ -16357,7 +16357,7 @@
 	"." CLB @punct #6->6
 
 "<Tá>"
-	"tá" Adv @dep #1->1
+	"tá" Adv @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<tey>"
@@ -16390,7 +16390,7 @@
 	"." CLB @punct #16->16
 
 "<Kastrup>"
-	"Kastrup" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Kastrup" N Prop Sem/Plc Sg Nom @dep #1->
 "<Flogvøllur>"
 	"flogvøllur" N Msc Sg Nom Indef @dep #2->2
 "<er>"
@@ -16439,7 +16439,7 @@
 	"." CLB @punct #8->8
 
 "<Fyri>"
-	"fyri" Pr @case #1->1
+	"fyri" Pr @case #1->
 "<at>"
 	"at" IM @dep #2->2
 "<orka>"
@@ -16481,7 +16481,7 @@
 	"." CLB @punct #6->6
 
 "<Nú>"
-	"nú" Adv @dep #1->1
+	"nú" Adv @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<tó>"
@@ -16506,7 +16506,7 @@
 	"." CLB @punct #12->12
 
 "<Greinarnar>"
-	"grein" N Fem Pl Nom Def @dep #1->1
+	"grein" N Fem Pl Nom Def @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<taktar>"
@@ -16525,7 +16525,7 @@
 	"." CLB @punct #9->9
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<alt>"
 	"allur" Det Adv @det #2->2
 "<telur>"
@@ -16544,7 +16544,7 @@
 	"." CLB @punct #9->9
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<nú>"
@@ -16581,7 +16581,7 @@
 	"." CLB @punct #7->7
 
 "<Sum>"
-	"sum" CS @dep #1->1
+	"sum" CS @dep #1->
 "<skilst>"
 	"skilja" V Imp Sg Pass @dep #2->2
 "<blivu>"
@@ -16602,7 +16602,7 @@
 	"." CLB @punct #10->10
 
 "<Tó>"
-	"tó" Adv @dep #1->1
+	"tó" Adv @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<ikki>"
@@ -16623,7 +16623,7 @@
 	"." CLB @punct #10->10
 
 "<Djóralæknar>"
-	"djóralækni" N Msc Pl Nom Indef @dep #1->1
+	"djóralækni" N Msc Pl Nom Indef @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<alneyðugir>"
@@ -16649,7 +16649,7 @@
 	"." CLB @punct #6->6
 
 "<Magnus>"
-	"Magnus" N Prop Sem/Mal Sg Nom @dep #1->1
+	"Magnus" N Prop Sem/Mal Sg Nom @dep #1->
 "<Jákupsson>"
 	"Jákupssonur" N Prop Sem/Mal Sg Acc Indef @dep #2->2
 "<:>"
@@ -16704,7 +16704,7 @@
 	"." CLB @punct #6->6
 
 "<Men>"
-	"men" CC @cc #1->1
+	"men" CC @cc #1->
 "<enn>"
 	"enn" Adv @dep #2->2
 "<er>"
@@ -16717,7 +16717,7 @@
 	"." CLB @punct #6->6
 
 "<Hvalspýggjur>"
-	"hvalspýggja" N Fem Pl Nom Indef @dep #1->1
+	"hvalspýggja" N Fem Pl Nom Indef @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<bleytar>"
@@ -16726,7 +16726,7 @@
 	"." CLB @punct #4->4
 
 "<So>"
-	"so" Adv @dep #1->1
+	"so" Adv @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<tó>"
@@ -16737,7 +16737,7 @@
 	"." CLB @punct #5->5
 
 "<Sýnagogur>"
-	"sýnagoga" N Fem Pl Nom Indef @dep #1->1
+	"sýnagoga" N Fem Pl Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Ein>"
@@ -16783,7 +16783,7 @@
 	"." CLB @punct #9->9
 
 "<Men>"
-	"men" CC @cc #1->1
+	"men" CC @cc #1->
 "<undantøk>"
 	"undantak" N Neu Pl Nom Indef @dep #2->2
 "<eru>"
@@ -16792,7 +16792,7 @@
 	"." CLB @punct #4->4
 
 "<Neyvan>"
-	"neyvan" Adv @dep #1->1
+	"neyvan" Adv @dep #1->
 "<nakar>"
 	"nakar" Pron Indef Msc Sg Nom @dep #2->2
 "<av>"
@@ -16807,7 +16807,7 @@
 	"." CLB @punct #7->7
 
 "<Frá>"
-	"frá" Pr @case #1->1
+	"frá" Pr @case #1->
 "<gamlari>"
 	"gamal" A Fem Sg Dat Indef @amod #2->3
 "<tíð>"
@@ -16834,7 +16834,7 @@
 	"." CLB @punct #13->13
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<1931>"
 	"1931" Num Dat @dep #2->3
 "<varð>"
@@ -16853,7 +16853,7 @@
 	"." CLB @punct #9->9
 
 "<Og>"
-	"og" CC @cc #1->1
+	"og" CC @cc #1->
 "<hon>"
 	"hon" Pron Pers Sg3 Fem Nom @nsubj #2->2
 "<kom>"
@@ -16893,7 +16893,7 @@
 	"." CLB @punct #8->8
 
 "<Adventistarnir>"
-	"adventistur" N Msc Pl Nom Def @dep #1->1
+	"adventistur" N Msc Pl Nom Def @dep #1->
 "<hava>"
 	"hava" V Ind Prs Pl @aux #2->3
 "<verið>"
@@ -16961,7 +16961,7 @@
 	"." CLB @punct #7->7
 
 "<At>"
-	"at" IM @dep #1->1
+	"at" IM @dep #1->
 "<koyra>"
 	"koyra" V Inf @dep #2->2
 "<rosinur>"
@@ -16984,7 +16984,7 @@
 	"." CLB @punct #11->11
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<olympiskur>"
@@ -16995,7 +16995,7 @@
 	"." CLB @punct #5->5
 
 "<Aðrastaðni>"
-	"aðrastaðni" Adv @dep #1->1
+	"aðrastaðni" Adv @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<Bíbliuni>"
@@ -17008,7 +17008,7 @@
 	"." CLB @punct #6->6
 
 "<Formaður>"
-	"formaður" N Msc Sg Nom Indef @dep #1->1
+	"formaður" N Msc Sg Nom Indef @dep #1->
 "<og>"
 	"og" CC @cc #2->2
 "<kassameistari>"
@@ -17051,7 +17051,7 @@
 	"." CLB @punct #2->2
 
 "<Tilkrav>"
-	"tilkrav" N Neu Sg Nom Indef @dep #1->1
+	"tilkrav" N Neu Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<at>"
@@ -17085,7 +17085,7 @@
 	"." CLB @punct #6->6
 
 "<Høvuðsvinnan>"
-	"høvuðsvinna" N Fem Sg Nom Def @dep #1->1
+	"høvuðsvinna" N Fem Sg Nom Def @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<Føroyum>"
@@ -17106,7 +17106,7 @@
 	"." CLB @punct #10->10
 
 "<Zhengzhou>"
-	"Zhengzhou" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Zhengzhou" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Zhengzhou>"
@@ -17163,7 +17163,7 @@
 	"." CLB @punct #7->7
 
 "<Ovasti>"
-	"ovasti" N Msc Sg Nom Indef @dep #1->1
+	"ovasti" N Msc Sg Nom Indef @dep #1->
 "<politiski>"
 	"politiskur" A Msc Sg Nom Def @amod #2->3
 "<myndugleikin>"
@@ -17195,7 +17195,7 @@
 	"." CLB @punct #7->7
 
 "<Tíðin>"
-	"tíð" N Fem Sg Nom Def @dep #1->1
+	"tíð" N Fem Sg Nom Def @dep #1->
 "<hjá>"
 	"hjá" Pr @case #2->3
 "<henni>"
@@ -17231,7 +17231,7 @@
 	"." CLB @punct #10->10
 
 "<Saratov>"
-	"Saratov" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Saratov" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Saratov>"
@@ -17250,7 +17250,7 @@
 	"." CLB @punct #9->9
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<tveir>"
@@ -17267,7 +17267,7 @@
 	"." CLB @punct #8->8
 
 "<Listasavn>"
-	"listasavn" N Neu Sg Nom Indef @dep #1->1
+	"listasavn" N Neu Sg Nom Indef @dep #1->
 "<Føroya>"
 	"Føroyar" N Prop Fem Pl Gen Indef @dep #2->2
 "<er>"
@@ -17284,7 +17284,7 @@
 	"." CLB @punct #8->8
 
 "<Stovnurin>"
-	"stovnur" N Msc Sg Nom Def @dep #1->1
+	"stovnur" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<eisini>"
@@ -17309,7 +17309,7 @@
 	"." CLB @punct #12->12
 
 "<Snákurin>"
-	"snákur" N Msc Sg Nom Def @dep #1->1
+	"snákur" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<vanligur>"
@@ -17366,7 +17366,7 @@
 	"." CLB @punct #10->10
 
 "<Johanna>"
-	"Johanna" N Prop Sem/Fem Sg Nom @dep #1->1
+	"Johanna" N Prop Sem/Fem Sg Nom @dep #1->
 "<sigldi>"
 	"sigla" V Ind Prt Sg @dep #2->2
 "<til>"
@@ -17407,7 +17407,7 @@
 	"." CLB @punct #20->20
 
 "<Har>"
-	"har" Adv @dep #1->1
+	"har" Adv @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<eisini>"
@@ -17418,7 +17418,7 @@
 	"." CLB @punct #5->5
 
 "<Lærararnir>"
-	"lærari" N Msc Pl Nom Def @dep #1->1
+	"lærari" N Msc Pl Nom Def @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<31.>"
@@ -17429,7 +17429,7 @@
 	"." CLB @punct #5->5
 
 "<Bussurin>"
-	"bussur" N Msc Sg Nom Def @dep #1->1
+	"bussur" N Msc Sg Nom Def @dep #1->
 "<kom>"
 	"koma" V Ind Prt Sg3 @dep #2->2
 "<,>"
@@ -17446,7 +17446,7 @@
 	"." CLB @punct #8->8
 
 "<Dávid>"
-	"Dávid" N Prop Sem/Mal Sg Nom @dep #1->1
+	"Dávid" N Prop Sem/Mal Sg Nom @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<kongur>"
@@ -17465,7 +17465,7 @@
 	"." CLB @punct #9->9
 
 "<Tubbak>"
-	"tubbak" N Neu Sg Nom Indef @dep #1->1
+	"tubbak" N Neu Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Tubbaksplantan>"
@@ -17478,7 +17478,7 @@
 	"." CLB @punct #6->6
 
 "<Bløðini>"
-	"blað" N Neu Pl Nom Def @dep #1->1
+	"blað" N Neu Pl Nom Def @dep #1->
 "<vóru>"
 	"vera" V Ind Prt Pl @cop #2->2
 "<av>"
@@ -17489,7 +17489,7 @@
 	"." CLB @punct #5->5
 
 "<Sum>"
-	"sum" CS @dep #1->1
+	"sum" CS @dep #1->
 "<frá>"
 	"frá" Pr @case #2->2
 "<líður>"
@@ -17590,7 +17590,7 @@
 	"." CLB @punct #12->12
 
 "<Oljuvinnan>"
-	"oljuvinna" N Fem Sg Nom Def @dep #1->1
+	"oljuvinna" N Fem Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<høvuðsvinnan>"
@@ -17599,7 +17599,7 @@
 	"." CLB @punct #4->4
 
 "<Hetta>"
-	"hesin" Pron Dem Neu Sg Acc @dep #1->1
+	"hesin" Pron Dem Neu Sg Acc @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<ein>"
@@ -17660,7 +17660,7 @@
 	"." CLB @punct #9->9
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<í>"
@@ -17684,7 +17684,7 @@
 	"." CLB @punct #5->5
 
 "<Indonesia>"
-	"Indonesia" N Prop Sg Nom @dep #1->1
+	"Indonesia" N Prop Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<eitt>"
@@ -17699,7 +17699,7 @@
 	"." CLB @punct #7->7
 
 "<Badminton>"
-	"badminton" N Neu Sg Nom Indef @dep #1->1
+	"badminton" N Neu Sg Nom Indef @dep #1->
 "<og>"
 	"og" CC @cc #2->2
 "<fótbóltur>"
@@ -17720,7 +17720,7 @@
 	"." CLB @punct #10->10
 
 "<Etna>"
-	"Etna" N Prop Sg Nom @dep #1->1
+	"Etna" N Prop Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Etna>"
@@ -17768,7 +17768,7 @@
 	"." CLB @punct #13->13
 
 "<Diamantar>"
-	"diamantur" N Msc Pl Nom Indef @dep #1->1
+	"diamantur" N Msc Pl Nom Indef @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<eisini>"
@@ -17777,7 +17777,7 @@
 	"." CLB @punct #4->4
 
 "<Nú>"
-	"nú" Adv @dep #1->1
+	"nú" Adv @dep #1->
 "<á>"
 	"á" Pr @case #2->3
 "<døgum>"
@@ -17800,7 +17800,7 @@
 	"." CLB @punct #11->11
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<limur>"
@@ -17819,7 +17819,7 @@
 	"." CLB @punct #9->9
 
 "<Rektarin>"
-	"rektari" N Msc Sg Nom Def @dep #1->1
+	"rektari" N Msc Sg Nom Def @dep #1->
 "<á>"
 	"á" Pr @case #2->3
 "<Fróðskaparsetrinum>"
@@ -17832,7 +17832,7 @@
 	"." CLB @punct #6->6
 
 "<Ikki>"
-	"ikki" Adv @dep #1->1
+	"ikki" Adv @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<loyvt>"
@@ -17862,7 +17862,7 @@
 	"." CLB @punct #4->4
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<ein>"
@@ -17886,7 +17886,7 @@
 	"." CLB @punct #5->5
 
 "<Men>"
-	"men" CC @cc #1->1
+	"men" CC @cc #1->
 "<friðurin>"
 	"friður" N Msc Sg Nom Def @dep #2->3
 "<kom>"
@@ -17897,7 +17897,7 @@
 	"." CLB @punct #5->5
 
 "<Avleiðingar>"
-	"avleiðing" N Fem Pl Nom Indef @dep #1->1
+	"avleiðing" N Fem Pl Nom Indef @dep #1->
 "<av>"
 	"av" Pr @case #2->3
 "<ídnaðarkollveltingini>"
@@ -17918,7 +17918,7 @@
 	"." CLB @punct #10->10
 
 "<Kommuna>"
-	"kommuna" N Fem Sg Nom Indef @dep #1->1
+	"kommuna" N Fem Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Ein>"
@@ -17951,7 +17951,7 @@
 	"." CLB @punct #16->16
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<2009>"
 	"2009" Num Dat @dep #2->2
 "<vóru>"
@@ -18032,7 +18032,7 @@
 	"." CLB @punct #9->9
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<18.>"
 	"18" A Ord @dep #2->2
 "<øld>"
@@ -18055,7 +18055,7 @@
 	"." CLB @punct #11->11
 
 "<Er>"
-	"vera" V Ind Prs Sg3 @cop #1->1
+	"vera" V Ind Prs Sg3 @cop #1->
 "<støðan>"
 	"støða" N Fem Sg Nom Def @dep #2->2
 "<í>"
@@ -18078,7 +18078,7 @@
 	"?" CLB @punct #11->11
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<trý>"
@@ -18093,7 +18093,7 @@
 	"." CLB @punct #7->7
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<45>"
@@ -18112,7 +18112,7 @@
 	"." CLB @punct #9->9
 
 "<Málið>"
-	"mál" N Neu Sg Nom Def @dep #1->1
+	"mál" N Neu Sg Nom Def @dep #1->
 "<hjá>"
 	"hjá" Pr @case #2->3
 "<kommununi>"
@@ -18147,7 +18147,7 @@
 	"." CLB @punct #17->17
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<1.>"
 	"1" A Ord @dep #2->2
 "<stætti>"
@@ -18178,7 +18178,7 @@
 	"." CLB @punct #15->15
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<einum>"
 	"ein" Det Neu Sg Dat @det #2->3
 "<høggi>"
@@ -18260,7 +18260,7 @@
 	"." CLB @punct #6->6
 
 "<Og>"
-	"og" CC @cc #1->1
+	"og" CC @cc #1->
 "<tá>"
 	"tá" Adv @dep #2->2
 "<er>"
@@ -18279,7 +18279,7 @@
 	"." CLB @punct #9->9
 
 "<Fyrr>"
-	"fyrr" Adv @dep #1->1
+	"fyrr" Adv @dep #1->
 "<vóru>"
 	"vera" V Ind Prt Pl @cop #2->2
 "<stórir>"
@@ -18294,7 +18294,7 @@
 	"." CLB @punct #7->7
 
 "<Tó>"
-	"tó" Adv @dep #1->1
+	"tó" Adv @dep #1->
 "<keypir>"
 	"keypa" V Ind Prs Sg3 @dep #2->2
 "<vanligi>"
@@ -18336,7 +18336,7 @@
 	"." CLB @punct #8->8
 
 "<Sum>"
-	"sum" CS @dep #1->1
+	"sum" CS @dep #1->
 "<tíðin>"
 	"tíð" N Fem Sg Nom Def @dep #2->2
 "<leið>"
@@ -18355,7 +18355,7 @@
 	"." CLB @punct #9->9
 
 "<Landið>"
-	"land" N Neu Sg Nom Def @dep #1->1
+	"land" N Neu Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<94 %>"
@@ -18366,7 +18366,7 @@
 	"." CLB @punct #5->5
 
 "<14,5 %>"
-	"14,5 %" Num Nom @dep #1->1
+	"14,5 %" Num Nom @dep #1->
 "<av>"
 	"av" Pr @case #2->3
 "<fólkinum>"
@@ -18379,7 +18379,7 @@
 	"." CLB @punct #6->6
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<burtur>"
@@ -18424,7 +18424,7 @@
 	"." CLB @punct #7->7
 
 "<Styrkin>"
-	"styrkur" N Msc Sg Acc Def @dep #1->1
+	"styrkur" N Msc Sg Acc Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<40 %>"
@@ -18433,7 +18433,7 @@
 	"." CLB @punct #4->4
 
 "<Rannsóknin>"
-	"rannsókn" N Fem Sg Nom Def @dep #1->1
+	"rannsókn" N Fem Sg Nom Def @dep #1->
 "<vísti>"
 	"vísa" V Ind Prt Sg @dep #2->2
 "<,>"
@@ -18450,7 +18450,7 @@
 	"." CLB @punct #8->8
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<óreinur>"
@@ -18463,7 +18463,7 @@
 	"." CLB @punct #6->6
 
 "<Oyggjarnar>"
-	"oyggj" N Fem Pl Nom Def @dep #1->1
+	"oyggj" N Fem Pl Nom Def @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<fátækar>"
@@ -18485,7 +18485,7 @@
 	"." CLB @punct #6->6
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<fekk>"
 	"fáa" V Ind Prt Sg3 @dep #2->2
 "<í>"
@@ -18514,7 +18514,7 @@
 	"." CLB @punct #14->14
 
 "<Endamálið>"
-	"endamál" N Neu Sg Nom Def @dep #1->1
+	"endamál" N Neu Sg Nom Def @dep #1->
 "<við>"
 	"við" Pr @case #2->3
 "<Fólkafundinum>"
@@ -18539,7 +18539,7 @@
 	"." CLB @punct #12->12
 
 "<Niðri>"
-	"niðri" Adv @dep #1->1
+	"niðri" Adv @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<havnini>"
@@ -18552,7 +18552,7 @@
 	"." CLB @punct #6->6
 
 "<Oljuvinnan>"
-	"oljuvinna" N Fem Sg Nom Def @dep #1->1
+	"oljuvinna" N Fem Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<høvuðsvinnan>"
@@ -18561,7 +18561,7 @@
 	"." CLB @punct #4->4
 
 "<Norðoya>"
-	"Norðoy" N Prop Fem Pl Gen Indef @dep #1->1
+	"Norðoy" N Prop Fem Pl Gen Indef @dep #1->
 "<Sparikassi>"
 	"sparikassi" N Msc Sg Nom Indef @dep #2->2
 "<:>"
@@ -18633,7 +18633,7 @@
 	"." CLB @punct #13->13
 
 "<Naksos>"
-	"Naksos" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Naksos" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<kent>"
@@ -18656,7 +18656,7 @@
 	"." CLB @punct #11->11
 
 "<,>"
-	"," CLB @punct #1->1
+	"," CLB @punct #1->
 "<tá ið>"
 	"tá ið" CS @dep #2->4
 "<býurin>"
@@ -18690,7 +18690,7 @@
 	"." CLB @punct #9->9
 
 "<Um>"
-	"ymja" V Imp Sg @dep #1->1
+	"ymja" V Imp Sg @dep #1->
 "<84 %>"
 	"84 %" Num Nom @dep #2->2
 "<av>"
@@ -18724,7 +18724,7 @@
 	"." CLB @punct #5->5
 
 "<í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<2100>"
 	"2100" Num Dat @dep #2->3
 "<fór>"
@@ -18755,7 +18755,7 @@
 	"." CLB @punct #15->15
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<eisini>"
@@ -18768,7 +18768,7 @@
 	"." CLB @punct #6->6
 
 "<Hansara>"
-	"hann" Pron Pers Sg3 Msc Gen @dep #1->1
+	"hann" Pron Pers Sg3 Msc Gen @dep #1->
 "<stóri>"
 	"stórur" A Msc Sg Nom Def @amod #2->3
 "<áhugi>"
@@ -18781,7 +18781,7 @@
 	"." CLB @punct #6->6
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<frálíkur>"
@@ -18800,7 +18800,7 @@
 	"." CLB @punct #9->9
 
 "<Allir>"
-	"allur" Det Msc Pl Nom Indef @det #1->1
+	"allur" Det Msc Pl Nom Indef @det #1->
 "<,>"
 	"," CLB @punct #2->2
 "<sum>"
@@ -18841,7 +18841,7 @@
 	"." CLB @punct #20->20
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<2007>"
 	"2007" Num Dat @dep #2->3
 "<varð>"
@@ -18866,7 +18866,7 @@
 	"." CLB @punct #12->12
 
 "<Grundarlagið>"
-	"grundarlag" N Neu Sg Nom Def @dep #1->1
+	"grundarlag" N Neu Sg Nom Def @dep #1->
 "<undir>"
 	"undir" Pr @case #2->3
 "<búskapinum>"
@@ -18879,7 +18879,7 @@
 	"." CLB @punct #6->6
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<2007>"
 	"2007" Num Dat @dep #2->3
 "<varð>"
@@ -18904,7 +18904,7 @@
 	"." CLB @punct #12->12
 
 "<Fiskimálaráðharrar>"
-	"fiskimálaráðharri" N Msc Pl Nom Indef @dep #1->1
+	"fiskimálaráðharri" N Msc Pl Nom Indef @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<Føroyum>"
@@ -18954,7 +18954,7 @@
 	"." CLB @punct #7->7
 
 "<Orkesturleiðarin>"
-	"orkesturleiðari" N Msc Sg Nom Def @dep #1->1
+	"orkesturleiðari" N Msc Sg Nom Def @dep #1->
 "<stjórnar>"
 	"stjórna" V Ind Prs Sg3 @dep #2->2
 "<orkestrinum>"
@@ -18979,7 +18979,7 @@
 	"." CLB @punct #12->12
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<fyrsta>"
@@ -19049,7 +19049,7 @@
 	"." CLB @punct #9->9
 
 "<Rogaland>"
-	"Rogaland" N Prop Neu Sg Nom Indef @dep #1->1
+	"Rogaland" N Prop Neu Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Rogaland>"
@@ -19093,7 +19093,7 @@
 	"." CLB @punct #12->12
 
 "<Um>"
-	"um" Pr @case #1->1
+	"um" Pr @case #1->
 "<416.000>"
 	"416.000" Num Nom @nummod #2->3
 "<fólk>"
@@ -19108,7 +19108,7 @@
 	"." CLB @punct #7->7
 
 "<Um>"
-	"ymja" V Imp Sg @dep #1->1
+	"ymja" V Imp Sg @dep #1->
 "<brisið>"
 	"bris" N Neu Sg Nom Def @dep #2->2
 "<ikki>"
@@ -19139,7 +19139,7 @@
 	"." CLB @punct #15->15
 
 "<Eisini>"
-	"eisini" Adv @dep #1->1
+	"eisini" Adv @dep #1->
 "<kann>"
 	"kunna" V Ind Prs Sg3 @dep #2->2
 "<bakterian>"
@@ -19204,7 +19204,7 @@
 	"." CLB @punct #7->7
 
 "<Fólkið>"
-	"fólk" N Neu Sg Nom Def @dep #1->1
+	"fólk" N Neu Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<brúkarar>"
@@ -19231,7 +19231,7 @@
 	"." CLB @punct #13->13
 
 "<Føroyar>"
-	"Føroyar" N Prop Fem Pl Nom Indef @dep #1->1
+	"Føroyar" N Prop Fem Pl Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<limur>"
@@ -19244,7 +19244,7 @@
 	"." CLB @punct #6->6
 
 "<Føroyar>"
-	"Føroyar" N Prop Fem Pl Nom Indef @dep #1->1
+	"Føroyar" N Prop Fem Pl Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<limur>"
@@ -19274,7 +19274,7 @@
 	"." CLB @punct #8->8
 
 "<Uttan>"
-	"uttan" Pr @case #1->1
+	"uttan" Pr @case #1->
 "<um>"
 	"um" Pr @case #2->3
 "<býirnar>"
@@ -19306,7 +19306,7 @@
 	"." CLB @punct #8->8
 
 "<Men>"
-	"men" CC @cc #1->1
+	"men" CC @cc #1->
 "<í>"
 	"í" Pr @case #2->3
 "<hitalondum>"
@@ -19325,7 +19325,7 @@
 	"." CLB @punct #9->9
 
 "<Men>"
-	"men" CC @cc #1->1
+	"men" CC @cc #1->
 "<aðrar>"
 	"annar" A Fem Pl Nom @amod #2->3
 "<hugsanir>"
@@ -19338,7 +19338,7 @@
 	"." CLB @punct #6->6
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<trongum>"
 	"trongur" A Fem Pl Dat Indef @amod #2->3
 "<tíðum>"
@@ -19376,7 +19376,7 @@
 	"." CLB @punct #7->7
 
 "<Skriftið>"
-	"skrift" N Neu Sg Nom Def @dep #1->1
+	"skrift" N Neu Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<sent>"
@@ -19389,7 +19389,7 @@
 	"." CLB @punct #6->6
 
 "<Tá ið>"
-	"tá ið" CS @dep #1->1
+	"tá ið" CS @dep #1->
 "<tað>"
 	"tað" Pron Pers Sg3 Nom @nsubj #2->2
 "<er>"
@@ -19418,7 +19418,7 @@
 	"." CLB @punct #14->14
 
 "<Søgurnar>"
-	"søga" N Fem Pl Nom Def @dep #1->1
+	"søga" N Fem Pl Nom Def @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<ellivu>"
@@ -19528,7 +19528,7 @@
 	"." CLB @punct #12->12
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<til>"
@@ -19553,7 +19553,7 @@
 	"." CLB @punct #12->12
 
 "<Fíggjarmálaráðharrar>"
-	"fíggjarmálaráðharri" N Msc Pl Nom Indef @dep #1->1
+	"fíggjarmálaráðharri" N Msc Pl Nom Indef @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<Føroyum>"
@@ -19600,7 +19600,7 @@
 	"." CLB @punct #23->23
 
 "<Umsóknarfreistin>"
-	"umsókn#freist" N Fem Sg Nom Def @dep #1->1
+	"umsókn#freist" N Fem Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<vanliga>"
@@ -19613,7 +19613,7 @@
 	"." CLB @punct #6->6
 
 "<Harafturat>"
-	"harafturat" Adv @dep #1->1
+	"harafturat" Adv @dep #1->
 "<vóru>"
 	"vera" V Ind Prt Pl @cop #2->2
 "<starvslønir>"
@@ -19628,7 +19628,7 @@
 	"." CLB @punct #7->7
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<hevur>"
 	"hava" V Ind Prs Sg3 @aux #2->3
 "<spælt>"
@@ -19649,7 +19649,7 @@
 	"." CLB @punct #10->10
 
 "<Jon>"
-	"Jon" N Prop Sem/Mal Sg Nom @dep #1->1
+	"Jon" N Prop Sem/Mal Sg Nom @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<besti>"
@@ -19674,7 +19674,7 @@
 	"." CLB @punct #12->12
 
 "<Halvorsen>"
-	"Halvorsen" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Halvorsen" N Prop Sem/Sur Sg Nom @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<dani>"
@@ -19683,7 +19683,7 @@
 	"." CLB @punct #4->4
 
 "<Bara>"
-	"bara" Adv @dep #1->1
+	"bara" Adv @dep #1->
 "<Dracula>"
 	"Dracula" N Prop Sem/Mal Sg Nom @dep #2->2
 "<veit>"
@@ -19717,7 +19717,7 @@
 	"." CLB @punct #5->5
 
 "<49.2 %>"
-	"49.2 %" Num Nom @dep #1->1
+	"49.2 %" Num Nom @dep #1->
 "<av>"
 	"av" Pr @case #2->3
 "<fólkinum>"
@@ -19768,7 +19768,7 @@
 	"." CLB @punct #8->8
 
 "<Uml.>"
-	"uml" Abbr @dep #1->1
+	"uml" Abbr @dep #1->
 "<23 %>"
 	"23 %" Num Nom @dep #2->2
 "<av>"
@@ -19783,7 +19783,7 @@
 	"." CLB @punct #7->7
 
 "<Felagið>"
-	"felag" N Neu Sg Nom Def @dep #1->1
+	"felag" N Neu Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<ongantíð>"
@@ -19804,7 +19804,7 @@
 	"." CLB @punct #10->10
 
 "<Býurin>"
-	"býur" N Msc Sg Nom Def @dep #1->1
+	"býur" N Msc Sg Nom Def @dep #1->
 "<liggur>"
 	"liggja" V Ind Prs Sg3 @dep #2->2
 "<í>"
@@ -19835,7 +19835,7 @@
 	"." CLB @punct #15->15
 
 "<Egina>"
-	"Egina" N Prop Sg Nom @dep #1->1
+	"Egina" N Prop Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<ein>"
@@ -19852,7 +19852,7 @@
 	"." CLB @punct #8->8
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<hevur>"
 	"hava" V Ind Prs Sg3 @root #2->0
 "<fyrr>"
@@ -19867,7 +19867,7 @@
 	"." CLB @punct #7->7
 
 "<Harav>"
-	"harav" Adv @dep #1->1
+	"harav" Adv @dep #1->
 "<vóru>"
 	"vera" V Ind Prt Pl @cop #2->2
 "<4>"
@@ -19884,7 +19884,7 @@
 	"." CLB @punct #8->8
 
 "<Teir>"
-	"teir" Pron Pers Pl3 Msc Nom @nsubj #1->1
+	"teir" Pron Pers Pl3 Msc Nom @nsubj #1->
 "<vóru>"
 	"vera" V Ind Prt Pl @cop #2->2
 "<fram>"
@@ -19905,7 +19905,7 @@
 	"." CLB @punct #10->10
 
 "<Vänersborg>"
-	"Vänersborg" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Vänersborg" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Vänersborg>"
@@ -19930,7 +19930,7 @@
 	"." CLB @punct #12->12
 
 "<Lidköping>"
-	"Lidköping" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Lidköping" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Lidköping>"
@@ -19955,7 +19955,7 @@
 	"." CLB @punct #12->12
 
 "<Mariestad>"
-	"Mariestad" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Mariestad" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Mariestad>"
@@ -19980,7 +19980,7 @@
 	"." CLB @punct #12->12
 
 "<Falun>"
-	"Falun" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Falun" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Falun>"
@@ -20018,7 +20018,7 @@
 	"." CLB @punct #6->6
 
 "<Boden>"
-	"Boden" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Boden" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Boden>"
@@ -20043,7 +20043,7 @@
 	"." CLB @punct #12->12
 
 "<Trelleborg>"
-	"Trelleborg" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Trelleborg" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Trelleborg>"
@@ -20068,7 +20068,7 @@
 	"." CLB @punct #12->12
 
 "<Ängelholm>"
-	"Ängelholm" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Ängelholm" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Ängelholm>"
@@ -20108,7 +20108,7 @@
 	"." CLB @punct #7->7
 
 "<Oskarshamn>"
-	"Oskarshamn" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Oskarshamn" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Oskarshamn>"
@@ -20133,7 +20133,7 @@
 	"." CLB @punct #12->12
 
 "<Falkenberg>"
-	"Falkenberg" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Falkenberg" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Falkenberg>"
@@ -20164,7 +20164,7 @@
 	"." CLB @punct #15->15
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<2010>"
 	"2010" Num Dat @dep #2->2
 "<var>"
@@ -20191,7 +20191,7 @@
 	"." CLB @punct #13->13
 
 "<Lindesberg>"
-	"Lindesberg" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Lindesberg" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Lindesberg>"
@@ -20235,7 +20235,7 @@
 	"." CLB @punct #9->9
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<2010>"
 	"2010" Num Dat @dep #2->2
 "<var>"
@@ -20254,7 +20254,7 @@
 	"." CLB @punct #9->9
 
 "<Meira>"
-	"meira" Adv @dep #1->1
+	"meira" Adv @dep #1->
 "<enn>"
 	"enn" Adv @dep #2->2
 "<helmingurin>"
@@ -20295,7 +20295,7 @@
 	"." CLB @punct #4->4
 
 "<Virðislønin>"
-	"virðisløn" N Fem Sg Nom Def @dep #1->1
+	"virðisløn" N Fem Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<á>"
@@ -20312,7 +20312,7 @@
 	"." CLB @punct #8->8
 
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #1->1
+	"vera" V Ind Prt Sg3 @cop #1->
 "<ein>"
 	"eitt" Num Fem Sg Nom @nummod #2->3
 "<sjónvarpsrøð>"
@@ -20358,7 +20358,7 @@
 	"." CLB @punct #5->4
 
 "<Filipstad>"
-	"Filipstad" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Filipstad" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Filipstad>"
@@ -20383,7 +20383,7 @@
 	"." CLB @punct #12->12
 
 "<Ystad>"
-	"Ystad" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Ystad" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Ystad>"
@@ -20408,7 +20408,7 @@
 	"." CLB @punct #12->12
 
 "<Leggurin>"
-	"leggur" N Msc Sg Nom Def @dep #1->1
+	"leggur" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<snøggur>"
@@ -20492,7 +20492,7 @@
 	"." CLB @punct #10->10
 
 "<Og>"
-	"og" CC @cc #1->1
+	"og" CC @cc #1->
 "<har>"
 	"har" Adv @dep #2->2
 "<er>"
@@ -20517,7 +20517,7 @@
 	"." CLB @punct #12->12
 
 "<Serlæknar>"
-	"serlækni" N Msc Pl Nom Indef @dep #1->1
+	"serlækni" N Msc Pl Nom Indef @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<serfrøðingar>"
@@ -20532,7 +20532,7 @@
 	"." CLB @punct #7->7
 
 "<Men>"
-	"men" CC @cc #1->1
+	"men" CC @cc #1->
 "<tað>"
 	"tað" Pron Pers Sg3 Nom @nsubj #2->2
 "<var>"
@@ -20586,7 +20586,7 @@
 	"." CLB @punct #8->8
 
 "<Fyri>"
-	"fyri" Pr @case #1->1
+	"fyri" Pr @case #1->
 "<at>"
 	"at" IM @dep #2->10
 "<fáa>"
@@ -20617,7 +20617,7 @@
 	"." CLB @punct #15->15
 
 "<Virðislønin>"
-	"virðisløn" N Fem Sg Nom Def @dep #1->1
+	"virðisløn" N Fem Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<á>"
@@ -20630,7 +20630,7 @@
 	"." CLB @punct #6->6
 
 "<Sum>"
-	"sum" CS @dep #1->1
+	"sum" CS @dep #1->
 "<ungur>"
 	"ungur" A Msc Sg Nom Indef @dep #2->2
 "<var>"
@@ -20660,7 +20660,7 @@
 	"." CLB @punct #7->7
 
 "<A>"
-	"A" Abbr @dep #1->1
+	"A" Abbr @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<eitt>"
@@ -20671,7 +20671,7 @@
 	"." CLB @punct #5->5
 
 "<Frá>"
-	"frá" Pr @case #1->1
+	"frá" Pr @case #1->
 "<1941-1960>"
 	"1941-1960" Num Dat @dep #2->2
 "<var>"
@@ -20690,7 +20690,7 @@
 	"." CLB @punct #9->9
 
 "<Tekjan>"
-	"tekja" N Fem Sg Nom Def @dep #1->1
+	"tekja" N Fem Sg Nom Def @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<upprunaliga>"
@@ -20705,7 +20705,7 @@
 	"." CLB @punct #7->7
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<hevur>"
 	"hava" V Ind Prs Sg3 @root #2->0
 "<eisini>"
@@ -20722,7 +20722,7 @@
 	"." CLB @punct #8->8
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<nevndarlimur>"
@@ -20752,7 +20752,7 @@
 	"." CLB @punct #7->7
 
 "<Hetta>"
-	"hesin" Pron Dem Neu Sg Acc @dep #1->1
+	"hesin" Pron Dem Neu Sg Acc @dep #1->
 "<vóru>"
 	"vera" V Ind Prt Pl @cop #2->2
 "<fiskasløg>"
@@ -20812,7 +20812,7 @@
 	"." CLB @punct #12->12
 
 "<Bitið>"
-	"bíta" V Sup @dep #1->1
+	"bíta" V Sup @dep #1->
 "<elvdi>"
 	"elva" V Ind Prt Sg @dep #2->2
 "<til>"
@@ -20842,7 +20842,7 @@
 	"." CLB @punct #6->6
 
 "<Høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<Luleå>"
@@ -20851,7 +20851,7 @@
 	"." CLB @punct #4->4
 
 "<Høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<Växjö>"
@@ -20860,7 +20860,7 @@
 	"." CLB @punct #4->4
 
 "<Høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<Härnösand>"
@@ -20869,7 +20869,7 @@
 	"." CLB @punct #4->4
 
 "<Høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<Malmö>"
@@ -20878,7 +20878,7 @@
 	"." CLB @punct #4->4
 
 "<Leeuwarden>"
-	"Leeuwarden" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Leeuwarden" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Leeuwarden>"
@@ -20897,7 +20897,7 @@
 	"." CLB @punct #9->9
 
 "<Býurin>"
-	"býur" N Msc Sg Nom Def @dep #1->1
+	"býur" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<høvuðsstaður>"
@@ -20912,7 +20912,7 @@
 	"." CLB @punct #7->7
 
 "<Haarlem>"
-	"Haarlem" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Haarlem" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Haarlem>"
@@ -20937,7 +20937,7 @@
 	"." CLB @punct #12->12
 
 "<Zwolle>"
-	"Zwolle" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Zwolle" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Zwolle>"
@@ -20962,7 +20962,7 @@
 	"." CLB @punct #12->12
 
 "<Dordrecht>"
-	"Dordrecht" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Dordrecht" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Dordrecht>"
@@ -20987,7 +20987,7 @@
 	"." CLB @punct #12->12
 
 "<Leiden>"
-	"Leiden" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Leiden" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Leiden>"
@@ -21018,7 +21018,7 @@
 	"." CLB @punct #15->15
 
 "<Assen>"
-	"Assen" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Assen" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Assen>"
@@ -21043,7 +21043,7 @@
 	"." CLB @punct #12->12
 
 "<Oss>"
-	"Os" N Prop Sem/Plc Sg Gen @dep #1->1
+	"Os" N Prop Sem/Plc Sg Gen @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Oss>"
@@ -21072,7 +21072,7 @@
 	"." CLB @punct #14->14
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<6>"
@@ -21087,7 +21087,7 @@
 	"." CLB @punct #7->7
 
 "<Zeeland>"
-	"Zeeland" N Prop Neu Sg Nom Indef @dep #1->1
+	"Zeeland" N Prop Neu Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Zeeland>"
@@ -21106,7 +21106,7 @@
 	"." CLB @punct #9->9
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<13>"
@@ -21121,7 +21121,7 @@
 	"." CLB @punct #7->7
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<65>"
@@ -21136,7 +21136,7 @@
 	"." CLB @punct #7->7
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<12>"
@@ -21151,7 +21151,7 @@
 	"." CLB @punct #7->7
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<24>"
@@ -21166,7 +21166,7 @@
 	"." CLB @punct #7->7
 
 "<Overijssel>"
-	"Overijssel" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Overijssel" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Overijssel>"
@@ -21185,7 +21185,7 @@
 	"." CLB @punct #9->9
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<29>"
@@ -21200,7 +21200,7 @@
 	"." CLB @punct #7->7
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<2007>"
 	"2007" Num Dat @dep #2->3
 "<varð>"
@@ -21219,7 +21219,7 @@
 	"." CLB @punct #9->9
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<býr>"
 	"búgva" V Ind Prs Sg3 @root #2->0
 "<í>"
@@ -21230,7 +21230,7 @@
 	"." CLB @punct #5->5
 
 "<Nauru>"
-	"Nauru" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Nauru" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Nauru>"
@@ -21247,7 +21247,7 @@
 	"." CLB @punct #8->8
 
 "<Gelderland>"
-	"Gelderland" N Prop Neu Sg Nom Indef @dep #1->1
+	"Gelderland" N Prop Neu Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Gelderland>"
@@ -21266,7 +21266,7 @@
 	"." CLB @punct #9->9
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<56>"
@@ -21281,7 +21281,7 @@
 	"." CLB @punct #7->7
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<nevndarlimur>"
@@ -21296,7 +21296,7 @@
 	"." CLB @punct #7->7
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<2006>"
 	"2006" Num Dat @dep #2->2
 "<var>"
@@ -21334,7 +21334,7 @@
 	"." CLB @punct #6->2
 
 "<Filmurin>"
-	"filmur" N Msc Sg Nom Def @dep #1->1
+	"filmur" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<17>"
@@ -21347,7 +21347,7 @@
 	"." CLB @punct #6->6
 
 "<Filmurin>"
-	"filmur" N Msc Sg Nom Def @dep #1->1
+	"filmur" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<19>"
@@ -21360,7 +21360,7 @@
 	"." CLB @punct #6->6
 
 "<Utrecht>"
-	"Utrecht" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Utrecht" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Utrecht>"
@@ -21402,7 +21402,7 @@
 	"." CLB @punct #8->8
 
 "<Tannlæknar>"
-	"tannlækni" N Msc Pl Nom Indef @dep #1->1
+	"tannlækni" N Msc Pl Nom Indef @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<Føroyum>"
@@ -21434,7 +21434,7 @@
 	"!" CLB @punct #3->1
 
 "<Hjarnar>"
-	"hjarni" N Msc Pl Nom Indef @dep #1->1
+	"hjarni" N Msc Pl Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Hjarnar>"
@@ -21455,7 +21455,7 @@
 	"." CLB @punct #10->10
 
 "<Russarar>"
-	"russari" N Msc Pl Nom Indef @dep #1->1
+	"russari" N Msc Pl Nom Indef @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<ein>"
@@ -21480,7 +21480,7 @@
 	"." CLB @punct #12->12
 
 "<Starvsmannafelagið>"
-	"starvsmannafelag" N Neu Sg Nom Def @dep #1->1
+	"starvsmannafelag" N Neu Sg Nom Def @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Starvsmannafelagið>"
@@ -21497,7 +21497,7 @@
 	"." CLB @punct #8->8
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<umboðar>"
 	"umboða" V Ind Prs Sg3 @root #2->0
 "<Framburðsflokkin>"
@@ -21506,7 +21506,7 @@
 	"." CLB @punct #4->4
 
 "<Ójavnir>"
-	"ójavnur" A Msc Pl Nom Indef @dep #1->1
+	"ójavnur" A Msc Pl Nom Indef @dep #1->
 "<,>"
 	"," CLB @punct #2->2
 "<svartir>"
@@ -21546,7 +21546,7 @@
 	"." CLB @punct #6->6
 
 "<Prísfalli>"
-	"prísur#fall" N Neu Sg Dat Indef @dep #1->1
+	"prísur#fall" N Neu Sg Dat Indef @dep #1->
 "<á>"
 	"á" Pr @case #2->3
 "<heimsmarknaðinum>"
@@ -21582,7 +21582,7 @@
 	"." CLB @punct #5->5
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<2,6>"
@@ -21622,7 +21622,7 @@
 	"." CLB @punct #11->11
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<eisini>"
@@ -21639,7 +21639,7 @@
 	"." CLB @punct #8->8
 
 "<Føroyar>"
-	"Føroyar" N Prop Fem Pl Nom Indef @dep #1->1
+	"Føroyar" N Prop Fem Pl Nom Indef @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<eitt>"
@@ -21652,7 +21652,7 @@
 	"." CLB @punct #6->6
 
 "<26>"
-	"26" Num Nom @dep #1->1
+	"26" Num Nom @dep #1->
 "<onnur>"
 	"annar" A Neu Pl Nom @amod #2->3
 "<lond>"
@@ -21692,7 +21692,7 @@
 	"." CLB @punct #8->8
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<megnaði>"
 	"megna" V Ind Prt Sg @root #2->0
 "<at>"
@@ -21711,7 +21711,7 @@
 	"." CLB @punct #9->9
 
 "<Enn>"
-	"enn" Adv @dep #1->1
+	"enn" Adv @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<at>"
@@ -21742,7 +21742,7 @@
 	"." CLB @punct #15->15
 
 "<Lagos>"
-	"Lago" N Prop Sem/Plc Sg Gen @dep #1->1
+	"Lago" N Prop Sem/Plc Sg Gen @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Lagos>"
@@ -21779,7 +21779,7 @@
 	"." CLB @punct #18->18
 
 "<Har>"
-	"har" Adv @dep #1->1
+	"har" Adv @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<32>"
@@ -21834,7 +21834,7 @@
 	"." CLB @punct #9->9
 
 "<Bergur>"
-	"Bergur" N Prop Sem/Mal Sg Nom @dep #1->1
+	"Bergur" N Prop Sem/Mal Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<nevndarlimur>"
@@ -21849,7 +21849,7 @@
 	"." CLB @punct #7->7
 
 "<Høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Def @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<Burundi>"
@@ -21862,7 +21862,7 @@
 	"." CLB @punct #6->6
 
 "<Stjórnin>"
-	"stjórn" N Fem Sg Nom Def @dep #1->1
+	"stjórn" N Fem Sg Nom Def @dep #1->
 "<hevur>"
 	"hava" V Ind Prs Sg3 @aux #2->3
 "<gjørt>"
@@ -21885,7 +21885,7 @@
 	"." CLB @punct #11->11
 
 "<Kolding>"
-	"Kolding" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Kolding" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Kolding>"
@@ -21908,7 +21908,7 @@
 	"." CLB @punct #11->11
 
 "<Vejle>"
-	"Vejle" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Vejle" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Vejle>"
@@ -21931,7 +21931,7 @@
 	"." CLB @punct #11->11
 
 "<Fredericia>"
-	"Fredericia" N Prop Sem/Fem Sg Nom @dep #1->1
+	"Fredericia" N Prop Sem/Fem Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Fredericia>"
@@ -21954,7 +21954,7 @@
 	"." CLB @punct #11->11
 
 "<Hjørring>"
-	"Hjørring" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Hjørring" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Hjørring>"
@@ -21977,7 +21977,7 @@
 	"." CLB @punct #11->11
 
 "<Sønderborg>"
-	"Sønderborg" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Sønderborg" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Sønderborg>"
@@ -22000,7 +22000,7 @@
 	"." CLB @punct #11->11
 
 "<Tønder>"
-	"Tønder" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Tønder" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Tønder>"
@@ -22023,7 +22023,7 @@
 	"." CLB @punct #11->11
 
 "<Ribe>"
-	"Ribe" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Ribe" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Ribe>"
@@ -22046,7 +22046,7 @@
 	"." CLB @punct #11->11
 
 "<Als>"
-	"Als" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Als" N Prop Sem/Plc Sg Nom @dep #1->
 "<(>"
 	"(" PUNCT LEFT @punct #2->2
 "<býur>"
@@ -22075,7 +22075,7 @@
 	"." CLB @punct #14->14
 
 "<Roskilde>"
-	"Roskilde" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Roskilde" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Roskilde>"
@@ -22109,7 +22109,7 @@
 	"." CLB @punct #5->5
 
 "<Fruktin>"
-	"frukt" N Fem Sg Nom Def @dep #1->1
+	"frukt" N Fem Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<nøt>"
@@ -22129,7 +22129,7 @@
 	"." CLB @punct #5->5
 
 "<Skørping>"
-	"Skørping" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Skørping" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Skørping>"
@@ -22177,7 +22177,7 @@
 	"." CLB @punct #12->12
 
 "<Libreville>"
-	"Libreville" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Libreville" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<bæði>"
@@ -22198,7 +22198,7 @@
 	"." CLB @punct #10->10
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<lagt>"
@@ -22211,7 +22211,7 @@
 	"." CLB @punct #6->6
 
 "<Brazzaville>"
-	"Brazzaville" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Brazzaville" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<bæði>"
@@ -22232,7 +22232,7 @@
 	"." CLB @punct #10->10
 
 "<Utrecht>"
-	"Utrecht" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Utrecht" N Prop Sem/Plc Sg Nom @dep #1->
 "<(>"
 	"(" PUNCT LEFT @punct #2->2
 "<landslutur>"
@@ -22257,7 +22257,7 @@
 	"." CLB @punct #12->12
 
 "<Limburg>"
-	"Limburg" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Limburg" N Prop Sem/Plc Sg Nom @dep #1->
 "<(>"
 	"(" PUNCT LEFT @punct #2->2
 "<Belgia>"
@@ -22282,7 +22282,7 @@
 	"." CLB @punct #12->12
 
 "<Bisjkek>"
-	"Bisjkek" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Bisjkek" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<bæði>"
@@ -22327,7 +22327,7 @@
 	"." CLB @punct #6->6
 
 "<Mamma>"
-	"mamma" N Fem Sg Nom Indef @dep #1->1
+	"mamma" N Fem Sg Nom Indef @dep #1->
 "<hennara>"
 	"hon" Pron Pers Sg3 Fem Gen @dep #2->2
 "<er>"
@@ -22348,7 +22348,7 @@
 	"." CLB @punct #10->10
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<aðalstjórnarforkvinna>"
@@ -22429,7 +22429,7 @@
 	"." CLB @punct #9->9
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<36>"
@@ -22448,7 +22448,7 @@
 	"." CLB @punct #9->9
 
 "<Kristinehamn>"
-	"Kristinehamn" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Kristinehamn" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Kristinehamn>"
@@ -22473,7 +22473,7 @@
 	"." CLB @punct #12->12
 
 "<Katrineholm>"
-	"Katrineholm" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Katrineholm" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Katrineholm>"
@@ -22498,7 +22498,7 @@
 	"." CLB @punct #12->12
 
 "<Býurin>"
-	"býur" N Msc Sg Nom Def @dep #1->1
+	"býur" N Msc Sg Nom Def @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<norskur>"
@@ -22517,7 +22517,7 @@
 	"." CLB @punct #9->9
 
 "<Sandviken>"
-	"Sandviken" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Sandviken" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Sandviken>"
@@ -22542,7 +22542,7 @@
 	"." CLB @punct #12->12
 
 "<Helsingborg>"
-	"Helsingborg" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Helsingborg" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Helsingborg>"
@@ -22567,7 +22567,7 @@
 	"." CLB @punct #12->12
 
 "<Marstrand>"
-	"Marstrand" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Marstrand" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Marstrand>"
@@ -22605,7 +22605,7 @@
 	"." CLB @punct #6->6
 
 "<Ljusdal>"
-	"Ljusdal" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Ljusdal" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Ljusdal>"
@@ -22630,7 +22630,7 @@
 	"." CLB @punct #12->12
 
 "<Leksand>"
-	"Leksand" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Leksand" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Leksand>"
@@ -22655,7 +22655,7 @@
 	"." CLB @punct #12->12
 
 "<Surahammar>"
-	"Surahammar" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Surahammar" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Surahammar>"
@@ -22680,7 +22680,7 @@
 	"." CLB @punct #12->12
 
 "<Hallstahammar>"
-	"Hallstahammar" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Hallstahammar" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Hallstahammar>"
@@ -22726,7 +22726,7 @@
 	"." CLB @punct #10->10
 
 "<Hässleholm>"
-	"Hässleholm" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Hässleholm" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Hässleholm>"
@@ -22751,7 +22751,7 @@
 	"." CLB @punct #12->12
 
 "<Laholm>"
-	"Laholm" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Laholm" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Laholm>"
@@ -22776,7 +22776,7 @@
 	"." CLB @punct #12->12
 
 "<Krokom>"
-	"Krokom" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Krokom" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Krokom>"
@@ -22801,7 +22801,7 @@
 	"." CLB @punct #12->12
 
 "<Älmhult>"
-	"Älmhult" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Älmhult" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Älmhult>"
@@ -22826,7 +22826,7 @@
 	"." CLB @punct #12->12
 
 "<Markaryd>"
-	"Markaryd" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Markaryd" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Markaryd>"
@@ -22851,7 +22851,7 @@
 	"." CLB @punct #12->12
 
 "<Tingsryd>"
-	"Tingsryd" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Tingsryd" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Tingsryd>"
@@ -22876,7 +22876,7 @@
 	"." CLB @punct #12->12
 
 "<Älvsbyn>"
-	"Älvsbyn" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Älvsbyn" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Älvsbyn>"
@@ -22901,7 +22901,7 @@
 	"." CLB @punct #12->12
 
 "<Arvidsjaur>"
-	"Arvidsjaur" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Arvidsjaur" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Arvidsjaur>"
@@ -22926,7 +22926,7 @@
 	"." CLB @punct #12->12
 
 "<Arjeplog>"
-	"Arjeplog" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Arjeplog" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Arjeplog>"
@@ -22951,7 +22951,7 @@
 	"." CLB @punct #12->12
 
 "<Hallsberg>"
-	"Hallsberg" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Hallsberg" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Hallsberg>"
@@ -22976,7 +22976,7 @@
 	"." CLB @punct #12->12
 
 "<Åtvidaberg>"
-	"Åtvidaberg" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Åtvidaberg" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Åtvidaberg>"
@@ -23001,7 +23001,7 @@
 	"." CLB @punct #12->12
 
 "<Finspång>"
-	"Finspång" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Finspång" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Finspång>"
@@ -23026,7 +23026,7 @@
 	"." CLB @punct #12->12
 
 "<Ödeshög>"
-	"Ödeshög" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Ödeshög" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Ödeshög>"
@@ -23051,7 +23051,7 @@
 	"." CLB @punct #12->12
 
 "<Valdemarsvik>"
-	"Valdemarsvik" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Valdemarsvik" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Valdemarsvik>"
@@ -23076,7 +23076,7 @@
 	"." CLB @punct #12->12
 
 "<Klippan>"
-	"Klippan" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Klippan" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Klippan>"
@@ -23101,7 +23101,7 @@
 	"." CLB @punct #12->12
 
 "<Vingåker>"
-	"Vingåker" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Vingåker" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Vingåker>"
@@ -23126,7 +23126,7 @@
 	"." CLB @punct #12->12
 
 "<Vaxholm>"
-	"Vaxholm" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Vaxholm" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Vaxholm>"
@@ -23164,7 +23164,7 @@
 	"." CLB @punct #6->6
 
 "<Årjäng>"
-	"Årjäng" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Årjäng" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Årjäng>"
@@ -23189,7 +23189,7 @@
 	"." CLB @punct #12->12
 
 "<Nordmaling>"
-	"Nordmaling" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Nordmaling" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Nordmaling>"
@@ -23214,7 +23214,7 @@
 	"." CLB @punct #12->12
 
 "<Norberg>"
-	"Norberg" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Norberg" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Norberg>"
@@ -23239,7 +23239,7 @@
 	"." CLB @punct #12->12
 
 "<Skinnskatteberg>"
-	"Skinnskatteberg" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Skinnskatteberg" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Skinnskatteberg>"
@@ -23264,7 +23264,7 @@
 	"." CLB @punct #12->12
 
 "<Gullspång>"
-	"Gullspång" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Gullspång" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Gullspång>"
@@ -23289,7 +23289,7 @@
 	"." CLB @punct #12->12
 
 "<Munkedal>"
-	"Munkedal" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Munkedal" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Munkedal>"
@@ -23314,7 +23314,7 @@
 	"." CLB @punct #12->12
 
 "<Strömstad>"
-	"Strömstad" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Strömstad" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Strömstad>"
@@ -23339,7 +23339,7 @@
 	"." CLB @punct #12->12
 
 "<Ålesund>"
-	"Ålesund" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Ålesund" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Ålesund>"
@@ -23370,7 +23370,7 @@
 	"." CLB @punct #15->15
 
 "<Älvdalen>"
-	"Älvdalen" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Älvdalen" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Älvdalen>"
@@ -23395,7 +23395,7 @@
 	"." CLB @punct #12->12
 
 "<Tindar>"
-	"tindur" N Msc Pl Nom Indef @dep #1->1
+	"tindur" N Msc Pl Nom Indef @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<á>"
@@ -23479,7 +23479,7 @@
 	"." CLB @punct #8->8
 
 "<Fólkið>"
-	"fólk" N Neu Sg Nom Def @dep #1->1
+	"fólk" N Neu Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<í>"
@@ -23492,7 +23492,7 @@
 	"." CLB @punct #6->6
 
 "<Tey>"
-	"tað" Pron Pers Pl3 Nom @nsubj #1->1
+	"tað" Pron Pers Pl3 Nom @nsubj #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<eisini>"
@@ -23509,7 +23509,7 @@
 	"." CLB @punct #8->8
 
 "<Fólkið>"
-	"fólk" N Neu Sg Nom Def @dep #1->1
+	"fólk" N Neu Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<í>"
@@ -23522,7 +23522,7 @@
 	"." CLB @punct #6->6
 
 "<Undirgrundin>"
-	"undirgrund" N Fem Sg Nom Def @dep #1->1
+	"undirgrund" N Fem Sg Nom Def @dep #1->
 "<á>"
 	"á" Pr @case #2->3
 "<oynni>"
@@ -23595,7 +23595,7 @@
 	"." CLB @punct #12->12
 
 "<Tá ið>"
-	"tá ið" CS @dep #1->1
+	"tá ið" CS @dep #1->
 "<streymur>"
 	"streymur" N Msc Sg Nom Indef @dep #2->2
 "<fer>"
@@ -23618,7 +23618,7 @@
 	"." CLB @punct #11->11
 
 "<Myndugleikarnir>"
-	"myndugleiki" N Msc Pl Nom Def @dep #1->1
+	"myndugleiki" N Msc Pl Nom Def @dep #1->
 "<kravdu>"
 	"krevja" V Ind Prt Pl @dep #2->2
 "<,>"
@@ -23647,7 +23647,7 @@
 	"." CLB @punct #14->14
 
 "<Báðir>"
-	"báðir" Pron Indef Msc Pl Nom @dep #1->1
+	"báðir" Pron Indef Msc Pl Nom @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<morreyðir>"
@@ -23671,7 +23671,7 @@
 	"." CLB @punct #7->7
 
 "<Hvølparnir>"
-	"hvølpur" N Msc Pl Nom Def @dep #1->1
+	"hvølpur" N Msc Pl Nom Def @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<fullvaksnir>"
@@ -23709,7 +23709,7 @@
 	"." CLB @punct #6->6
 
 "<Útvinningin>"
-	"útvinning" N Fem Sg Nom Def @dep #1->1
+	"útvinning" N Fem Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<í>"
@@ -23722,7 +23722,7 @@
 	"." CLB @punct #6->6
 
 "<Foreldur>"
-	"foreldur" N Neu Pl Nom Indef @dep #1->1
+	"foreldur" N Neu Pl Nom Indef @dep #1->
 "<hansara>"
 	"hann" Pron Pers Sg3 Msc Gen @dep #2->2
 "<vóru>"
@@ -23733,7 +23733,7 @@
 	"." CLB @punct #5->5
 
 "<Paulus>"
-	"Paulus" N Prop Sem/Mal Sg Nom @dep #1->1
+	"Paulus" N Prop Sem/Mal Sg Nom @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<eisini>"
@@ -23744,7 +23744,7 @@
 	"." CLB @punct #5->5
 
 "<Paulus>"
-	"Paulus" N Prop Sem/Mal Sg Nom @dep #1->1
+	"Paulus" N Prop Sem/Mal Sg Nom @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<ein>"
@@ -23774,7 +23774,7 @@
 	"." CLB @punct #8->8
 
 "<Løgtingið>"
-	"løgting" N Neu Sg Nom Def @dep #1->1
+	"løgting" N Neu Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<ovasti>"
@@ -23789,7 +23789,7 @@
 	"." CLB @punct #7->7
 
 "<Felagsnevndin>"
-	"felag#nevnd" N Fem Sg Nom Def @dep #1->1
+	"felag#nevnd" N Fem Sg Nom Def @dep #1->
 "<skal>"
 	"skula" V Ind Prs Sg3 @dep #2->2
 "<tryggja>"
@@ -23823,7 +23823,7 @@
 	"." CLB @punct #5->5
 
 "<at>"
-	"at" CS @dep #1->1
+	"at" CS @dep #1->
 "<stovnurin>"
 	"stovnur" N Msc Sg Nom Def @dep #2->2
 "<kom>"
@@ -23846,7 +23846,7 @@
 	"." CLB @punct #11->11
 
 "<Tí>"
-	"tí" CS @dep #1->1
+	"tí" CS @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<eisini>"
@@ -23865,7 +23865,7 @@
 	"." CLB @punct #9->9
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<í>"
@@ -23916,7 +23916,7 @@
 	"." CLB @punct #10->10
 
 "<Meðan>"
-	"meðan" CS @dep #1->1
+	"meðan" CS @dep #1->
 "<hon>"
 	"hon" Pron Pers Sg3 Fem Nom @nsubj #2->2
 "<gjørdi>"
@@ -23937,7 +23937,7 @@
 	"." CLB @punct #10->10
 
 "<Eitt>"
-	"ein" Det Neu Sg Nom @det #1->1
+	"ein" Det Neu Sg Nom @det #1->
 "<annað>"
 	"annar" A Neu Nom @amod #2->3
 "<prógv>"
@@ -23983,7 +23983,7 @@
 	"." CLB @punct #12->12
 
 "<Kvam>"
-	"Kvam" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Kvam" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Kvam>"
@@ -24006,7 +24006,7 @@
 	"." CLB @punct #11->11
 
 "<Jondal>"
-	"Jondal" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Jondal" N Prop Sem/Plc Sg Nom @dep #1->
 "<(>"
 	"(" PUNCT LEFT @punct #2->2
 "<kommuna>"
@@ -24035,7 +24035,7 @@
 	"." CLB @punct #14->14
 
 "<Fyrisitingin>"
-	"fyrisiting" N Fem Sg Nom Def @dep #1->1
+	"fyrisiting" N Fem Sg Nom Def @dep #1->
 "<hjá>"
 	"hjá" Pr @case #2->3
 "<Odda>"
@@ -24058,7 +24058,7 @@
 	"." CLB @punct #11->11
 
 "<Ullensvang>"
-	"Ullensvang" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Ullensvang" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Ullensvang>"
@@ -24081,7 +24081,7 @@
 	"." CLB @punct #11->11
 
 "<Eidfjord>"
-	"Eidfjord" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Eidfjord" N Prop Sem/Plc Sg Nom @dep #1->
 "<(>"
 	"(" PUNCT LEFT @punct #2->2
 "<kommuna>"
@@ -24110,7 +24110,7 @@
 	"." CLB @punct #14->14
 
 "<Ulvik>"
-	"Ulvik" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Ulvik" N Prop Sem/Plc Sg Nom @dep #1->
 "<(>"
 	"(" PUNCT LEFT @punct #2->2
 "<kommuna>"
@@ -24139,7 +24139,7 @@
 	"." CLB @punct #14->14
 
 "<Granvin>"
-	"Granvin" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Granvin" N Prop Sem/Plc Sg Nom @dep #1->
 "<(>"
 	"(" PUNCT LEFT @punct #2->2
 "<kommuna>"
@@ -24168,7 +24168,7 @@
 	"." CLB @punct #14->14
 
 "<Tokelau>"
-	"Tokelau" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Tokelau" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Tokelau>"
@@ -24199,7 +24199,7 @@
 	"." CLB @punct #15->15
 
 "<Heine>"
-	"Heine" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Heine" N Prop Sem/Sur Sg Nom @dep #1->
 "<og>"
 	"og" CC @cc #2->2
 "<Martin>"
@@ -24218,7 +24218,7 @@
 	"." CLB @punct #9->9
 
 "<Takið>"
-	"tak" N Neu Sg Nom Def @dep #1->1
+	"tak" N Neu Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<lagt>"
@@ -24238,7 +24238,7 @@
 	"." CLB @punct #3->3
 
 "<Flokkurin>"
-	"flokkur" N Msc Sg Nom Def @dep #1->1
+	"flokkur" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<Noregs>"
@@ -24253,7 +24253,7 @@
 	"." CLB @punct #7->7
 
 "<Býurin>"
-	"býur" N Msc Sg Nom Def @dep #1->1
+	"býur" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<handils->"
@@ -24280,7 +24280,7 @@
 	"." CLB @punct #13->13
 
 "<Endamálið>"
-	"endamál" N Neu Sg Nom Def @dep #1->1
+	"endamál" N Neu Sg Nom Def @dep #1->
 "<hjá>"
 	"hjá" Pr @case #2->3
 "<FUR>"
@@ -24318,7 +24318,7 @@
 	"." CLB @punct #9->9
 
 "<Í>"
-	"í" Pr @case #1->1
+	"í" Pr @case #1->
 "<12.>"
 	"12" A Ord @dep #2->2
 "<øld>"
@@ -24339,7 +24339,7 @@
 	"." CLB @punct #10->10
 
 "<Hetta>"
-	"hesin" Pron Dem Neu Sg Nom @dep #1->1
+	"hesin" Pron Dem Neu Sg Nom @dep #1->
 "<skal>"
 	"skula" V Ind Prs Sg3 @dep #2->2
 "<sipa>"
@@ -24364,7 +24364,7 @@
 	"." CLB @punct #12->12
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<fleiri>"
@@ -24379,7 +24379,7 @@
 	"." CLB @punct #7->7
 
 "<Avgerðin>"
-	"avgerð" N Fem Sg Nom Def @dep #1->1
+	"avgerð" N Fem Sg Nom Def @dep #1->
 "<um>"
 	"um" Pr @case #2->2
 "<at>"
@@ -24394,7 +24394,7 @@
 	"." CLB @punct #7->7
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<hevur>"
 	"hava" V Ind Prs Sg3 @root #2->0
 "<eisini>"
@@ -24413,7 +24413,7 @@
 	"." CLB @punct #9->9
 
 "<Vinnuháskúlin>"
-	"vinna#háskúli" N Msc Sg Nom Def @dep #1->1
+	"vinna#háskúli" N Msc Sg Nom Def @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Vinnuháskúlin>"
@@ -24447,7 +24447,7 @@
 	"." CLB @punct #7->7
 
 "<Høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #1->1
+	"høvuðsstaður" N Msc Sg Nom Def @dep #1->
 "<í>"
 	"í" Pr @case #2->3
 "<Lombardia>"
@@ -24460,7 +24460,7 @@
 	"." CLB @punct #6->6
 
 "<eru>"
-	"vera" V Ind Prs Pl @cop #1->1
+	"vera" V Ind Prs Pl @cop #1->
 "<at>"
 	"at" IM @dep #2->2
 "<finna>"
@@ -24473,7 +24473,7 @@
 	"." CLB @punct #6->6
 
 "<Abuja>"
-	"Abuja" N Prop Sg Nom @dep #1->1
+	"Abuja" N Prop Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Abuja>"
@@ -24490,7 +24490,7 @@
 	"." CLB @punct #8->8
 
 "<Býlingurin>"
-	"býlingur" N Msc Sg Nom Def @dep #1->1
+	"býlingur" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<gamal>"
@@ -24519,7 +24519,7 @@
 	"." CLB @punct #14->14
 
 "<Nú>"
-	"nú" Adv @dep #1->1
+	"nú" Adv @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<landið>"
@@ -24546,7 +24546,7 @@
 	"." CLB @punct #13->13
 
 "<Býurin>"
-	"býur" N Msc Sg Nom Def @dep #1->1
+	"býur" N Msc Sg Nom Def @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<høvuðsstaður>"
@@ -24576,7 +24576,7 @@
 	"." CLB @punct #7->7
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<flýggjaði>"
 	"flýggja" V Ind Prt Sg @dep #2->2
 "<undan>"
@@ -24603,7 +24603,7 @@
 	"." CLB @punct #13->13
 
 "<Jóannes>"
-	"Jóannes" N Prop Sem/Mal Sg Nom @dep #1->1
+	"Jóannes" N Prop Sem/Mal Sg Nom @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<elstur>"
@@ -24627,7 +24627,7 @@
 	"." CLB @punct #4->4
 
 "<Ein>"
-	"ein" Det Msc Sg Nom @det #1->1
+	"ein" Det Msc Sg Nom @det #1->
 "<slíkur>"
 	"slíkur" A Msc Sg Nom Indef @amod #2->3
 "<pollur>"
@@ -24644,7 +24644,7 @@
 	"." CLB @punct #8->8
 
 "<Changsha>"
-	"Changsha" N Prop Sg Nom @dep #1->1
+	"Changsha" N Prop Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Changsha>"
@@ -24690,7 +24690,7 @@
 	"." CLB @punct #8->8
 
 "<Orlando>"
-	"Orlando" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Orlando" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Orlando>"
@@ -24739,7 +24739,7 @@
 	"." CLB @punct #6->6
 
 "<Vøtn>"
-	"vatn" N Neu Pl Nom Indef @dep #1->1
+	"vatn" N Neu Pl Nom Indef @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<ikki>"
@@ -24789,7 +24789,7 @@
 	"." CLB @punct #16->16
 
 "<Heimsmeistari>"
-	"heimsmeistari" N Msc Sg Nom Indef @dep #1->1
+	"heimsmeistari" N Msc Sg Nom Indef @dep #1->
 "<gjørdist>"
 	"gera" V Ind Prt Sg Pass @dep #2->2
 "<Italia>"
@@ -24812,7 +24812,7 @@
 	"." CLB @punct #11->11
 
 "<Foreldur>"
-	"foreldur" N Neu Pl Nom Indef @dep #1->1
+	"foreldur" N Neu Pl Nom Indef @dep #1->
 "<hansara>"
 	"hann" Pron Pers Sg3 Msc Gen @dep #2->2
 "<eru>"
@@ -24831,7 +24831,7 @@
 	"." CLB @punct #9->9
 
 "<Børkur>"
-	"børka" N Fem Pl Nom Indef @dep #1->1
+	"børka" N Fem Pl Nom Indef @dep #1->
 "<Hanagleiv>"
 	"hanagleiv" N Neu Pl Acc Indef @dep #2->2
 "<er>"
@@ -24858,7 +24858,7 @@
 	"." CLB @punct #13->13
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<venjari>"
@@ -24913,7 +24913,7 @@
 	"." CLB @punct #6->6
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<varð>"
 	"verða" V Ind Prt Sg3 @root #2->0
 "<vald>"
@@ -24930,7 +24930,7 @@
 	"." CLB @punct #8->8
 
 "<Fløgan>"
-	"fløga" N Fem Sg Nom Def @dep #1->1
+	"fløga" N Fem Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<ognað>"
@@ -24947,7 +24947,7 @@
 	"." CLB @punct #8->8
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<vanligur>"
@@ -24987,7 +24987,7 @@
 	"." CLB @punct #11->11
 
 "<Streymgágga>"
-	"streymgágga" N Fem Sg Nom Indef @dep #1->1
+	"streymgágga" N Fem Sg Nom Indef @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<smidligari>"
@@ -25000,7 +25000,7 @@
 	"." CLB @punct #6->6
 
 "<Til>"
-	"til" Pr @case #1->1
+	"til" Pr @case #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<36>"
@@ -25011,7 +25011,7 @@
 	"." CLB @punct #5->5
 
 "<Hetta>"
-	"hesin" Pron Dem Neu Sg Nom @dep #1->1
+	"hesin" Pron Dem Neu Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<í>"
@@ -25022,7 +25022,7 @@
 	"." CLB @punct #5->5
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<størsta>"
@@ -25045,7 +25045,7 @@
 	"." CLB @punct #11->11
 
 "<Juneau>"
-	"Juneau" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Juneau" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<eisini>"
@@ -25060,7 +25060,7 @@
 	"." CLB @punct #7->7
 
 "<Anchorage>"
-	"Anchorage" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Anchorage" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Anchorage>"
@@ -25079,7 +25079,7 @@
 	"." CLB @punct #9->9
 
 "<Býurin>"
-	"býur" N Msc Sg Nom Def @dep #1->1
+	"býur" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<handils->"
@@ -25096,7 +25096,7 @@
 	"." CLB @punct #8->8
 
 "<Gáta>"
-	"gáta" N Fem Sg Nom Indef @dep #1->1
+	"gáta" N Fem Sg Nom Indef @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Ein>"
@@ -25127,7 +25127,7 @@
 	"." CLB @punct #15->15
 
 "<Og>"
-	"og" CC @cc #1->1
+	"og" CC @cc #1->
 "<lendið>"
 	"lendi" N Neu Sg Nom Def @dep #2->2
 "<var>"
@@ -25152,7 +25152,7 @@
 	"." CLB @punct #12->12
 
 "<Endamálið>"
-	"endamál" N Neu Sg Nom Def @dep #1->1
+	"endamál" N Neu Sg Nom Def @dep #1->
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #2->2
 "<at>"
@@ -25179,7 +25179,7 @@
 	"." CLB @punct #13->13
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<fer>"
 	"fara" V Ind Prs Sg3 @dep #2->2
 "<aftan>"
@@ -25206,7 +25206,7 @@
 	"." CLB @punct #13->13
 
 "<Lendið>"
-	"lendi" N Neu Sg Nom Def @dep #1->1
+	"lendi" N Neu Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<kargt>"
@@ -25219,7 +25219,7 @@
 	"." CLB @punct #6->6
 
 "<Ofta>"
-	"ofta" Adv @dep #1->1
+	"ofta" Adv @dep #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<fleiri>"
@@ -25252,7 +25252,7 @@
 	"." CLB @punct #16->16
 
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->1
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<gnagar>"
 	"gnaga" V Ind Prs Sg3 @dep #2->2
 "<allastaðni>"
@@ -25294,7 +25294,7 @@
 	"." CLB @punct #9->9
 
 "<Er>"
-	"vera" V Ind Prs Sg3 @cop #1->1
+	"vera" V Ind Prs Sg3 @cop #1->
 "<rotta>"
 	"rotta" N Fem Sg Nom Indef @dep #2->2
 "<í>"
@@ -25338,7 +25338,7 @@
 	"." CLB @punct #7->7
 
 "<Providence>"
-	"Providence" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Providence" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Providence>"
@@ -25378,7 +25378,7 @@
 	"." CLB @punct #7->7
 
 "<Jamestown>"
-	"Jamestown" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Jamestown" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<størsti>"
@@ -25393,7 +25393,7 @@
 	"." CLB @punct #7->7
 
 "<Myndprýtt>"
-	"myndprýða" V Sup @dep #1->1
+	"myndprýða" V Sup @dep #1->
 "<føroyskir>"
 	"føroyskur" A Msc Pl Nom Indef @amod #2->3
 "<peningaseðlar>"
@@ -25419,7 +25419,7 @@
 	"." CLB @punct #8->8
 
 "<Ontario>"
-	"Ontario" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Ontario" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Ontario>"
@@ -25438,7 +25438,7 @@
 	"." CLB @punct #9->9
 
 "<Manitoba>"
-	"Manitoba" N Prop Sg Nom @dep #1->1
+	"Manitoba" N Prop Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Manitoba>"
@@ -25468,7 +25468,7 @@
 	"." CLB @punct #5->5
 
 "<Long>"
-	"Long" N Prop Sem/Sur Sg Nom @dep #1->1
+	"Long" N Prop Sem/Sur Sg Nom @dep #1->
 "<Island>"
 	"Island" N Prop Neu Sg Nom Indef @dep #2->2
 "<:>"
@@ -25517,7 +25517,7 @@
 	"." CLB @punct #9->9
 
 "<Keldan>"
-	"kelda" N Fem Sg Nom Def @dep #1->1
+	"kelda" N Fem Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<sjálvstøðug>"
@@ -25542,7 +25542,7 @@
 	"." CLB @punct #12->12
 
 "<Pentagon>"
-	"Pentagon" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Pentagon" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Pentagon>"
@@ -25563,7 +25563,7 @@
 	"." CLB @punct #10->10
 
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->1
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<kendastur>"
@@ -25605,7 +25605,7 @@
 	"." CLB @punct #9->9
 
 "<men>"
-	"men" CC @cc #1->1
+	"men" CC @cc #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<í>"
@@ -25628,7 +25628,7 @@
 	"." CLB @punct #11->11
 
 "<Kankaanpää>"
-	"Kankaanpää" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Kankaanpää" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Kankaanpää>"
@@ -25653,7 +25653,7 @@
 	"." CLB @punct #12->12
 
 "<Framsóknarflokkurin>"
-	"framsókn#flokkur" N Msc Sg Nom Def @dep #1->1
+	"framsókn#flokkur" N Msc Sg Nom Def @dep #1->
 "<:>"
 	":" CLB @punct #2->2
 "<Framsóknarflokkurin>"
@@ -25674,7 +25674,7 @@
 	"." CLB @punct #10->10
 
 "<Framsøkin>"
-	"framsøkin" A Msc Sg Nom Indef @dep #1->1
+	"framsøkin" A Msc Sg Nom Indef @dep #1->
 "<Ung>"
 	"ungur" A Neu Pl Nom Indef @dep #2->2
 "<:>"
@@ -25728,7 +25728,7 @@
 	"." CLB @punct #6->6
 
 "<Her>"
-	"her" Adv @dep #1->1
+	"her" Adv @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<ein>"
@@ -25749,7 +25749,7 @@
 	"." CLB @punct #10->10
 
 "<Bókin>"
-	"bók" N Fem Sg Nom Def @dep #1->1
+	"bók" N Fem Sg Nom Def @dep #1->
 "<fekk>"
 	"fáa" V Ind Prt Sg3 @dep #2->2
 "<heitið>"
@@ -25766,7 +25766,7 @@
 	"." CLB @punct #8->8
 
 "<Hiiumaa>"
-	"Hiiumaa" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Hiiumaa" N Prop Sem/Plc Sg Nom @dep #1->
 "<(>"
 	"(" PUNCT LEFT @punct #2->2
 "<landslutur>"
@@ -25791,7 +25791,7 @@
 	"." CLB @punct #12->12
 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->1
+	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->2
 "<4>"
@@ -25806,7 +25806,7 @@
 	"." CLB @punct #7->7
 
 "<Saaremaa>"
-	"Saaremaa" N Prop Sem/Plc Sg Nom @dep #1->1
+	"Saaremaa" N Prop Sem/Plc Sg Nom @dep #1->
 "<(>"
 	"(" PUNCT LEFT @punct #2->2
 "<landslutur>"
@@ -25952,7 +25952,7 @@
 	"." CLB @punct #7->3
 
 "<">"
-	""" PUNCT @punct #1->1
+	""" PUNCT @punct #1->
 "<Súkklarar>"
 	"súkklari" N Msc Pl Nom Indef @dep #2->2
 "<við>"
@@ -25969,7 +25969,7 @@
 	"." CLB @punct #8->8
 
 "<Filmurin>"
-	"filmur" N Msc Sg Nom Def @dep #1->1
+	"filmur" N Msc Sg Nom Def @dep #1->
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->2
 "<gott>"
