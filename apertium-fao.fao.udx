@@ -1,4 +1,3 @@
-_	_	Abbr	_	_	_	_	_
 _	_	Acc	_	_	_	Case=Acc	_
 _	_	ACR	_	_	_	_	_
 _	_	Cmp	_	_	_	_	_
@@ -30,7 +29,7 @@ _	N	Prop	_	_	_	PROPN	_
 _	_	Prs	_	_	_	Tense=Pres|Mood=Ind	_
 _	_	PrsPrc	_	_	_	VerbForm=Part|Tense=Prs|Mood=Ind	_
 _	_	Prt	_	_	_	Tense=Past|Mood=Ind	_
-_	_	Refl	_	_	_	Reflexive=Yes	_
+_	_	Refl	_	_	_	Reflex=Yes	_
 _	_	Rel	_	_	_	PronType=Rel	_
 _	_	RIGHT	_	_	_	_	_
 _	_	Sem/Fem	_	_	_	Gender=Fem	_
