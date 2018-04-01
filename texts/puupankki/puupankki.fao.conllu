@@ -71,6 +71,17 @@
 14	.	.	PUNCT	CLB	_	6	punct	_	_
 
 # sent_id = wikipedia.vislcg.txt:7:106
+# text =  Flogskiparin og 7 ferðafólk doyðu.
+# text[eng] = The plane's captain and 7 tourists died.
+# labels = to_check
+1	Flogskiparin	flogskipari	NOUN	N	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	og	og	CCONJ	CC	_	4	cc	_	_
+3	7	7	NUM	Num	Case=Nom	4	nummod	_	_
+4	ferðafólk	ferðafólk	NOUN	N	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	1	conj	_	_
+5	doyðu	doyða	VERB	V	Mood=Ind|Number=Plur|Tense=Past	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	CLB	_	5	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:8:121
 # text =  Funningur var nýggjársbygd.
 # labels = checked
 1	Funningur	Funningur	PROPN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	_
@@ -78,7 +89,7 @@
 3	nýggjársbygd	nýggjársbygd	NOUN	N	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	CLB	_	3	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:8:116
+# sent_id = wikipedia.vislcg.txt:9:131
 # text =  Ungarnir klekjast eftir 25 døgum.
 # text[eng] = The young hatch after 25 days.
 # labels = checked
@@ -89,7 +100,7 @@
 5	døgum	dagur	NOUN	N	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	2	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:9:131
+# sent_id = wikipedia.vislcg.txt:10:146
 # text =  Umleið 40 % av Noregi eru skógvaksin.
 # labels = checked
 1	Umleið	umleið	ADP	Pr	_	3	case	_	_
@@ -101,7 +112,7 @@
 7	skógvaksin	skógvaksin	ADJ	A	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	7	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:10:149
+# sent_id = wikipedia.vislcg.txt:11:164
 # text =  Armenia vann kappingina.
 # text[eng] = Armenia won the competition.
 # labels = to_check
@@ -110,7 +121,7 @@
 3	kappingina	kapping	NOUN	N	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
 4	.	.	PUNCT	CLB	_	2	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:11:160
+# sent_id = wikipedia.vislcg.txt:12:175
 # text =  Jarn er eitt metal.
 # text[eng] = Iron is a metal.
 # labels = checked
@@ -120,7 +131,7 @@
 4	metal	metal	NOUN	N	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	CLB	_	4	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:12:173
+# sent_id = wikipedia.vislcg.txt:13:188
 # text =  Hon spældi leiklutin sum Birita.
 # text[eng] = She played the character of Birita.
 # labels = checked
@@ -131,7 +142,7 @@
 5	Birita	Birita	PROPN	N	Case=Nom|Number=Sing	3	nmod	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	2	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:13:188
+# sent_id = wikipedia.vislcg.txt:14:203
 # text =  Filmurin er 17 minuttir langur.
 # text[eng] = The film is 17 minutes long.
 # labels = to_check
@@ -142,14 +153,14 @@
 5	langur	langur	ADJ	A	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	5	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:14:203
+# sent_id = wikipedia.vislcg.txt:15:218
 # text =  Drívið á!
 # labels = checked
 1	Drívið	dríva	VERB	V	Number=Plur|Tense=Imp	0	root	_	_
 2	á	á	ADV	Adv	_	1	advmod	_	SpaceAfter=No
 3	!	!	PUNCT	CLB	_	1	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:15:211
+# sent_id = wikipedia.vislcg.txt:16:226
 # text =  Eg taki sjálvsagt átaluna til eftirtektar.
 # labels = checked
 1	Eg	eg	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
@@ -160,7 +171,7 @@
 6	eftirtektar	eftirtekt	NOUN	N	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	2	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:16:227
+# sent_id = wikipedia.vislcg.txt:17:242
 # text =  Eyðkendur roykur gongur av henni.
 # text[eng] = Distinctive smoke comes from it.
 # labels = to_check
@@ -171,19 +182,19 @@
 5	henni	hon	PRON	Pron	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	3	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:17:242
+# sent_id = wikipedia.vislcg.txt:18:257
 # text =  Í dag varir kappingin í tríggjar vikur.
 # labels = to_check
 1	Í	í	ADP	Pr	_	2	case	_	_
 2	dag	dagur	NOUN	N	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	_
-3	varir	vara	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	root	_	_
+3	varir	vara	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
 4	kappingin	kapping	NOUN	N	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	_
 5	í	í	ADP	Pr	_	7	case	_	_
 6	tríggjar	trý	NUM	Num	Case=Acc|Gender=Fem|Number=Sing	7	nummod	_	_
 7	vikur	vika	NOUN	N	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	7	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:18:260
+# sent_id = wikipedia.vislcg.txt:19:275
 # text =  Kappingin byrjaði í Napoli og endaði í Brescia.
 # text[eng] = The competition starts in Naples and ends in Brescia.
 # labels = checked
@@ -197,7 +208,7 @@
 8	Brescia	Brescia	PROPN	N	Case=Nom|Number=Sing	6	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	2	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:19:281
+# sent_id = wikipedia.vislcg.txt:20:296
 # text =  Sigrar eftir landi.
 # labels = checked
 1	Sigrar	sigra	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
@@ -205,7 +216,7 @@
 3	landi	land	NOUN	N	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	1	obl	_	SpaceAfter=No
 4	.	.	PUNCT	CLB	_	1	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:20:291
+# sent_id = wikipedia.vislcg.txt:21:306
 # text =  Hann er eisini ríkisborgari í Liechtenstein.
 # text[eng] = He is also a citizen of Lichtenstein.
 # labels = checked
@@ -217,7 +228,7 @@
 6	Liechtenstein	Liechtenstein	PROPN	N	Case=Acc|Number=Sing	4	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	4	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:21:308
+# sent_id = wikipedia.vislcg.txt:22:323
 # text =  Franska fótbóltslandsliðið: Franska fótbóltslandsliðið er fótbóltslandslið Fraklands.
 # text[eng] = French football team: The French football team is the football team of France.
 # labels = checked
@@ -231,7 +242,7 @@
 8	Fraklands	Frakland	PROPN	N	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	7	nmod:poss	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	7	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:22:329
+# sent_id = wikipedia.vislcg.txt:23:344
 # text =  Í 2016 væntar oyggin at fáa yvir tíggju milliónir ferðafólk á vitjan.
 # text[eng] = In 2016 the islands expect to receive over three million tourist visits.
 # labels = checked
@@ -249,7 +260,7 @@
 12	vitjan	vitjan	NOUN	N	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
 13	.	.	PUNCT	CLB	_	3	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:23:358
+# sent_id = wikipedia.vislcg.txt:24:373
 # text =  Kappingin var merkt av vánaligum veðurlíkindum.
 # text[eng] = The competition was marked by poor weather conditions.
 # labels = to_check

@@ -375,19 +375,20 @@
 "<.>"
 	"." CLB @punct #15->
 
+# text[eng] = The plane's captain and 7 tourists died.
 # labels = to_check
 "<Flogskiparin>"
-	"flogskipari" N Msc Sg Nom Def @dep #1->5
+	"flogskipari" N Msc Sg Nom Def @nsubj #1->5
 "<og>"
-	"og" CC @cc #2->
+	"og" CC @cc #2->4
 "<7>"
 	"7" Num Nom @nummod #3->4
 "<ferðafólk>"
-	"ferðafólk" N Neu Pl Nom Indef @dep #4->5
+	"ferðafólk" N Neu Pl Nom Indef @conj #4->1
 "<doyðu>"
 	"doyða" V Ind Prt Pl @root #5->0
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->5
 
 # labels = to_check
 "<Hetta>"
@@ -13924,7 +13925,7 @@
 "<Filmurin>"
 	"filmur" N Msc Sg Nom Def @dep #1->2
 "<varar>"
-	"vara" V Ind Prs Sg3 @root #2->0
+	"vara" V Ind Prs Sg3 @cop #2->5
 "<í>"
 	"í" Pr @case #3->
 "<75>"
@@ -27253,7 +27254,7 @@
 "<dag>"
 	"dagur" N Msc Sg Acc Indef @nmod #2->7
 "<varir>"
-	"vara" V Ind Prs Sg3 @root #3->7
+	"vara" V Ind Prs Sg3 @cop #3->7
 "<kappingin>"
 	"kapping" N Fem Sg Nom Def @nsubj #4->7
 "<í>"
