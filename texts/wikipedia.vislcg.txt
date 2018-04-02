@@ -14837,80 +14837,80 @@
 	"." CLB @punct #6->5
 
 # text = Um dagin gingu tey eftir skýstólpa og um náttina eftir eldstólpa.
-# text[eng] = 
-# labels = to_check
+# text[eng] = During the day they went after pillars of clouds and by night after pillars of fire.
+# labels = to_check ellipsis
 "<Um>"
 	"um" Pr @case #1->2
 "<dagin>"
-	"dagur" N Msc Sg Acc Def @nmod #2->
+	"dagur" N Msc Sg Acc Def @obl #2->3
 "<gingu>"
 	"ganga" V Ind Prt Pl @root #3->0
 "<tey>"
-	"tað" Pron Pers Pl3 Nom @nsubj #4->
+	"tað" Pron Pers Pl3 Nom @nsubj #4->3
 "<eftir>"
 	"eftir" Pr @case #5->6
 "<skýstólpa>"
-	"skýstólpi" N Msc Sg Dat Indef @nmod #6->
+	"skýstólpi" N Msc Sg Dat Indef @obl #6->3
 "<og>"
-	"og" CC @cc #7->
+	"og" CC @cc #7->9
 "<um>"
 	"um" Pr @case #8->9
 "<náttina>"
-	"nátt" N Fem Sg Acc Def @nmod #9->
+	"nátt" N Fem Sg Acc Def @conj #9->3
 "<eftir>"
 	"eftir" Pr @case #10->11
 "<eldstólpa>"
-	"eldstólpi" N Msc Sg Dat Indef @nmod #11->
+	"eldstólpi" N Msc Sg Dat Indef @orphan #11->9
 "<.>"
-	"." CLB @punct #12->
+	"." CLB @punct #12->3
 
 # text = Bíblian sigur, at allur herurin druknaði.
-# text[eng] = 
+# text[eng] = The Bible says that the whole army drowned.
 # labels = to_check
 "<Bíblian>"
-	"bíblia" N Fem Sg Nom Def @dep #1->
+	"bíblia" N Fem Sg Nom Def @nsubj #1->2
 "<sigur>"
-	"siga" V Ind Prs Sg3 @dep #2->
+	"siga" V Ind Prs Sg3 @root #2->0
 "<,>"
-	"," CLB @punct #3->
+	"," CLB @punct #3->7
 "<at>"
-	"at" CS @dep #4->
+	"at" CS @mark #4->7
 "<allur>"
 	"allur" Det Msc Sg Nom Indef @det #5->6
 "<herurin>"
-	"herur" N Msc Sg Nom Def @dep #6->
+	"herur" N Msc Sg Nom Def @nsubj #6->7
 "<druknaði>"
-	"drukna" V Ind Prt Sg @dep #7->
+	"drukna" V Ind Prt Sg @ccomp #7->2
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->2
 
 # text = Harumframt fekk Móses nógvar aðrar lógir, sum eru nevndar sáttmálabókin.
-# text[eng] = 
+# text[eng] = In addition Moses got many other laws, which were called the Book of the Covenant.
 # labels = to_check
 "<Harumframt>"
-	"harumframt" Adv @dep #1->
+	"harumframt" Adv @advmod #1->2
 "<fekk>"
-	"fáa" V Ind Prt Sg3 @dep #2->
+	"fáa" V Ind Prt Sg3 @root #2->0
 "<Móses>"
-	"Móses" N Prop Sem/Mal Sg Nom @dep #3->
+	"Móses" N Prop Sem/Mal Sg Nom @nsubj #3->2
 "<nógvar>"
-	"nógvur" A Fem Pl Nom Indef @dep #4->
+	"nógvur" A Fem Pl Acc Indef @amod #4->6
 "<aðrar>"
-	"annar" A Fem Pl Nom @amod #5->6
+	"annar" A Fem Pl Acc @amod #5->6
 "<lógir>"
-	"lóg" N Fem Pl Nom Indef @dep #6->
+	"lóg" N Fem Pl Acc Indef @obj #6->2
 "<,>"
-	"," CLB @punct #7->
+	"," CLB @punct #7->10
 "<sum>"
-	"sum" CS @dep #8->
+	"sum" Pron Rel @nsubj #8->10
 "<eru>"
-	"vera" V Ind Prs Pl @cop #9->
+	"vera" V Ind Prs Pl @aux:pass #9->10
 "<nevndar>"
-	"nevna" V PrfPrc Fem Pl Nom Indef @dep #10->
+	"nevna" V PrfPrc Fem Pl Nom Indef @acl #10->6
 "<sáttmálabókin>"
-	"sáttmálabók" N Fem Sg Nom Def @dep #11->
+	"sáttmálabók" N Fem Sg Nom Def @xcomp #11->10
 "<.>"
-	"." CLB @punct #12->
+	"." CLB @punct #12->2
 
 # text = Eisini fer fram dópur og tann heilaga kvøldmáltíð (altargangur).
 # text[eng] = 
