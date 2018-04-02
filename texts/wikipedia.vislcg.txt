@@ -17316,66 +17316,66 @@
 	"." CLB @punct #6->3
 
 # text = Guantánamo: Guantánamo er fangalegur á Kuba.
-# text[eng] = 
+# text[eng] = Guantánamo: Guantánamo is a prison in Cuba.
 # labels = to_check
 "<Guantánamo>"
-	"Guantánamo" N Prop Sem/Plc Sg Nom @dep #1->
+	"Guantánamo" N Prop Sem/Plc Sg Nom @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Guantánamo>"
-	"Guantánamo" N Prop Sem/Plc Sg Nom @dep #3->
+	"Guantánamo" N Prop Sem/Plc Sg Nom @nsubj #3->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->5
 "<fangalegur>"
-	"fangalega" N Fem Pl Nom Indef @dep #5->
+	"fangalega" N Fem Pl Nom Indef @parataxis #5->1
 "<á>"
 	"á" Pr @case #6->7
 "<Kuba>"
-	"Kuba" N Prop Sg Nom @nmod #7->
+	"Kuba" N Prop Sg Nom @obl #7->5
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->5
 
 # text = Fleiri sløg av bjargafugli eru eisini vanligir at eta í Føroyum, t.d. havhestur, lomvigi og lundi.
-# text[eng] = 
+# text[eng] = Many types of cliff-nesting birds are also important to eat in the Faroe Islands, e.g. northern fulmar, common murre and atlantic puffin.
 # labels = to_check
 "<Fleiri>"
 	"mangur" A Cmp Neu Pl Nom Indef @amod #1->2
 "<sløg>"
-	"slag" N Neu Pl Nom Indef @dep #2->
+	"slag" N Neu Pl Nom Indef @nsubj #2->7
 "<av>"
 	"av" Pr @case #3->4
 "<bjargafugli>"
-	"bjargafuglur" N Msc Sg Dat Indef @nmod #4->
+	"bjargafuglur" N Msc Sg Dat Indef @nmod #4->2
 "<eru>"
-	"vera" V Ind Prs Pl @cop #5->
+	"vera" V Ind Prs Pl @cop #5->7
 "<eisini>"
-	"eisini" Adv @dep #6->
+	"eisini" Adv @advmod #6->7
 "<vanligir>"
-	"vanligur" A Msc Pl Nom Indef @dep #7->
+	"vanligur" A Msc Pl Nom Indef @root #7->0
 "<at>"
-	"at" IM @dep #8->
+	"at" IM @mark #8->9
 "<eta>"
-	"eta" V Inf @dep #9->
+	"eta" V Inf @dep #9->7
 "<í>"
 	"í" Pr @case #10->11
 "<Føroyum>"
-	"Føroyar" N Prop Fem Pl Dat Indef @nmod #11->
+	"Føroyar" N Prop Fem Pl Dat Indef @obl #11->9
 "<,>"
-	"," CLB @punct #12->
+	"," CLB @punct #12->14
 "<t.d.>"
-	"t.d" Abbr @dep #13->
+	"t.d" Abbr @dep #13->14
 "<havhestur>"
-	"havhestur" N Msc Sg Nom Indef @dep #14->
+	"havhestur" N Msc Sg Nom Indef @dep #14->7
 "<,>"
-	"," CLB @punct #15->
+	"," CLB @punct #15->16
 "<lomvigi>"
-	"lomvigi" N Msc Sg Nom Indef @dep #16->
+	"lomvigi" N Msc Sg Nom Indef @conj #16->14
 "<og>"
-	"og" CC @cc #17->
+	"og" CC @cc #17->18
 "<lundi>"
-	"lundi" N Msc Sg Nom Indef @dep #18->
+	"lundi" N Msc Sg Nom Indef @conj #18->14
 "<.>"
-	"." CLB @punct #19->
+	"." CLB @punct #19->7
 
 # text = Á fólkaatkvøðuni í 1946 talaði hon fyri loysing frá Danmark.
 # text[eng] = In the referendum in 1946 she spoke for independence from Denmark.
