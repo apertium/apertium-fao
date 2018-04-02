@@ -12822,31 +12822,31 @@
 # text[eng] = 
 # labels = to_check
 "<Jackson>"
-	"Jackson" N Prop Sem/Sur Sg Nom @dep #1->
+	"Jackson" N Prop Sem/Sur Sg Nom @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<størsti>"
 	"stórur" A Superl Msc Sg Nom Def @amod #3->4
 "<býur>"
-	"býur" N Msc Sg Nom Indef @dep #4->
+	"býur" N Msc Sg Nom Indef @root #4->0
 "<í>"
 	"í" Pr @case #5->6
 "<Mississippi>"
-	"Mississippi" N Prop Sem/Plc Sg Dat @nmod #6->
+	"Mississippi" N Prop Sem/Plc Sg Dat @nmod #6->4
 "<,>"
-	"," CLB @punct #7->
+	"," CLB @punct #7->10
 "<og>"
-	"og" CC @cc #8->
+	"og" CC @cc #8->10
 "<fyrisitingarligur>"
 	"fyrisitingarligur" A Msc Sg Nom Indef @amod #9->10
 "<høvuðsstaður>"
-	"høvuðsstaður" N Msc Sg Nom Indef @dep #10->
+	"høvuðsstaður" N Msc Sg Nom Indef @conj #10->4
 "<fyri>"
 	"fyri" Pr @case #11->12
 "<lutstatin>"
-	"lutur#statur" N Msc Sg Acc Def @nmod #12->
+	"lutur#statur" N Msc Sg Acc Def @nmod #12->10
 "<.>"
-	"." CLB @punct #13->
+	"." CLB @punct #13->4
 
 # text = Í Mississippi eru nógvar áir.
 # text[eng] = There are many rivers in Mississippi.
@@ -13234,21 +13234,21 @@
 "<Í>"
 	"í" Pr @case #1->2
 "<trúarmálum>"
-	"trúarmál" N Neu Pl Dat Indef @nmod #2->
+	"trúarmál" N Neu Pl Dat Indef @obl #2->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #3->
+	"vera" V Ind Prs Sg3 @cop #3->6
 "<hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #4->
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #4->6
 "<hægsti>"
 	"høgur" A Superl Msc Sg Nom Def @amod #5->6
 "<myndugleiki>"
-	"myndugleiki" N Msc Sg Nom Indef @dep #6->
+	"myndugleiki" N Msc Sg Nom Indef @root #6->0
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Bisparnir hava lærumyndugleika.
 # text[eng] = 
-# labels = to_check
+# labels = to_check disam
 "<Bisparnir>"
 	"bispur" N Msc Pl Nom Def @dep #1->2
 "<hava>"
@@ -13296,15 +13296,15 @@
 # text[eng] = 
 # labels = to_check
 "<Ídnaðarøkið>"
-	"ídnaður#øki" N Neu Sg Nom Def @dep #1->
+	"ídnaður#øki" N Neu Sg Nom Def @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<eystanfyri>"
 	"eystanfyri" Pr @case #3->4
 "<miðbýin>"
-	"miðbýur" N Msc Sg Acc Def @nmod #4->
+	"miðbýur" N Msc Sg Acc Def @root #4->0
 "<.>"
-	"." CLB @punct #5->
+	"." CLB @punct #5->4
 
 # text = Fløgan fæst ókeypis hjá Gelluni í SMS.
 # text[eng] = 
@@ -13327,98 +13327,98 @@
 	"." CLB @punct #8->
 
 # text = Amarillo: Amarillo er 14. størsti býur í amerikanska lutstatinum Texas.
-# text[eng] = 
+# text[eng] = Amarillo: Amarillo is the 14th biggest city in the American state of Texas.
 # labels = to_check
 "<Amarillo>"
-	"Amarillo" N Prop Sem/Plc Sg Nom @dep #1->
+	"Amarillo" N Prop Sem/Plc Sg Nom @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Amarillo>"
-	"Amarillo" N Prop Sem/Plc Sg Nom @dep #3->
+	"Amarillo" N Prop Sem/Plc Sg Nom @nsubj #3->7
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->7
 "<14.>"
-	"14" A Ord @dep #5->
+	"14" A Ord @amod #5->7
 "<størsti>"
 	"stórur" A Superl Msc Sg Nom Def @amod #6->7
 "<býur>"
-	"býur" N Msc Sg Nom Indef @dep #7->
+	"býur" N Msc Sg Nom Indef @parataxis #7->1
 "<í>"
-	"í" Pr @case #8->
+	"í" Pr @case #8->10
 "<amerikanska>"
 	"amerikanskur" A Msc Sg Dat Def @amod #9->10
 "<lutstatinum>"
-	"lutur#statur" N Msc Sg Dat Def @nmod #10->
+	"lutur#statur" N Msc Sg Dat Def @obl #10->7
 "<Texas>"
-	"Texas" N Prop Sem/Plc Sg Acc @dep #11->
+	"Texas" N Prop Sem/Plc Sg Acc @nmod:poss #11->10
 "<.>"
-	"." CLB @punct #12->
+	"." CLB @punct #12->7
 
 # text = Jackson: Jackson er høvuðsstaðurin og størsti býurin í Mississippi í USA.
-# text[eng] = 
+# text[eng] = Jackson: Jackson is the capital and biggest city in Mississippi in the USA.
 # labels = to_check
 "<Jackson>"
-	"Jackson" N Prop Sem/Sur Sg Nom @dep #1->
+	"Jackson" N Prop Sem/Sur Sg Nom @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Jackson>"
-	"Jackson" N Prop Sem/Sur Sg Nom @dep #3->
+	"Jackson" N Prop Sem/Sur Sg Nom @nsubj #3->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->5
 "<høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #5->
+	"høvuðsstaður" N Msc Sg Nom Def @parataxis #5->1
 "<og>"
-	"og" CC @cc #6->
+	"og" CC @cc #6->8
 "<størsti>"
 	"stórur" A Superl Msc Sg Nom Def @amod #7->8
 "<býurin>"
-	"býur" N Msc Sg Nom Def @dep #8->
+	"býur" N Msc Sg Nom Def @conj #8->5
 "<í>"
 	"í" Pr @case #9->10
 "<Mississippi>"
-	"Mississippi" N Prop Sem/Plc Sg Dat @nmod #10->
+	"Mississippi" N Prop Sem/Plc Sg Dat @obl #10->5
 "<í>"
 	"í" Pr @case #11->12
 "<USA>"
-	"USA" N ACR Dat @nmod #12->
+	"USA" N ACR Dat @obl #12->5
 "<.>"
-	"." CLB @punct #13->
+	"." CLB @punct #13->5
 
 # text = Hann er størsti býur í Louisiana.
-# text[eng] = 
+# text[eng] = It is the biggest town in Louisiana.
 # labels = to_check
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<størsti>"
 	"stórur" A Superl Msc Sg Nom Def @amod #3->4
 "<býur>"
-	"býur" N Msc Sg Nom Indef @dep #4->
+	"býur" N Msc Sg Nom Indef @root #4->0
 "<í>"
 	"í" Pr @case #5->6
 "<Louisiana>"
-	"Louisiana" N Prop Sg Nom @nmod #6->
+	"Louisiana" N Prop Sg Nom @obl #6->4
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->4
 
 # text = 67,3 prosent av fólkinum eru afroamerikanarar.
-# text[eng] = 
+# text[eng] = 67.3 percent of the people are African Americans.
 # labels = to_check
 "<67,3>"
 	"67,3" Num Nom @nummod #1->2
 "<prosent>"
-	"prosent" N Neu Pl Nom Indef @dep #2->
+	"prosent" N Neu Pl Nom Indef @nsubj #2->6
 "<av>"
 	"av" Pr @case #3->4
 "<fólkinum>"
-	"fólk" N Neu Sg Dat Def @nmod #4->
+	"fólk" N Neu Sg Dat Def @nmod #4->2
 "<eru>"
-	"vera" V Ind Prs Pl @cop #5->
+	"vera" V Ind Prs Pl @cop #5->6
 "<afroamerikanarar>"
-	"afroamerikanari" N Msc Pl Nom Indef @dep #6->
+	"afroamerikanari" N Msc Pl Nom Indef @root #6->0
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Harafturat eru umleið 1000 bretskir hermenn har.
 # text[eng] = In addition there are around 1000 British soldiers here.
