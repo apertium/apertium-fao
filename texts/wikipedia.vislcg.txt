@@ -12265,239 +12265,239 @@
 	"." CLB @punct #14->
 
 # text = Niðri í dalinum kann vera skógarveðurlag.
-# text[eng] = 
+# text[eng] = Down in the valley there can be forest conditions.
 # labels = to_check
 "<Niðri>"
-	"niðri" Adv @dep #1->4
+	"niðri" Adv @advmod #1->3
 "<í>"
 	"í" Pr @case #2->3
 "<dalinum>"
-	"dalur" N Msc Sg Dat Def @nmod #3->
+	"dalur" N Msc Sg Dat Def @root #3->0
 "<kann>"
-	"kunna" V Ind Prs Sg3 @root #4->0
+	"kunna" V Ind Prs Sg3 @aux #4->3
 "<vera>"
-	"vera" V Inf @cop #5->
+	"vera" V Inf @cop #5->3
 "<skógarveðurlag>"
-	"skóg#veðurlag" N Neu Sg Nom Indef @dep #6->4
+	"skóg#veðurlag" N Neu Sg Nom Indef @nsubj #6->3
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->3
 
 # text = Soleiðis sigur amerikanska grundlógin.
-# text[eng] = 
+# text[eng] = So says the American constitution.
 # labels = to_check
 "<Soleiðis>"
-	"soleiðis" Adv @dep #1->2
+	"soleiðis" Adv @advmod #1->2
 "<sigur>"
 	"siga" V Ind Prs Sg3 @root #2->0
 "<amerikanska>"
 	"amerikanskur" A Fem Sg Nom Def @amod #3->4
 "<grundlógin>"
-	"grundlóg" N Fem Sg Nom Def @dep #4->2
+	"grundlóg" N Fem Sg Nom Def @nsubj #4->2
 "<.>"
-	"." CLB @punct #5->
+	"." CLB @punct #5->2
 
 # text = Ferðavinna hevur eisini stóran týdning í Grenada.
-# text[eng] = 
+# text[eng] = Tourism is also very important in Grenada.
 # labels = to_check
 "<Ferðavinna>"
-	"ferðavinna" N Fem Sg Nom Indef @dep #1->2
+	"ferðavinna" N Fem Sg Nom Indef @nsubj #1->2
 "<hevur>"
 	"hava" V Ind Prs Sg3 @root #2->0
 "<eisini>"
-	"eisini" Adv @dep #3->2
+	"eisini" Adv @advmod #3->2
 "<stóran>"
 	"stórur" A Msc Sg Acc Indef @amod #4->5
 "<týdning>"
-	"týdningur" N Msc Sg Acc Indef @dep #5->2
+	"týdningur" N Msc Sg Acc Indef @obj #5->2
 "<í>"
 	"í" Pr @case #6->7
 "<Grenada>"
-	"Grenada" N Prop Sg Nom @nmod #7->
+	"Grenada" N Prop Sg Nom @obl #7->2
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->2
 
 # text = Høvuðsstaðurin er Montgomery og størsti býur er Birmingham.
-# text[eng] = 
+# text[eng] = The capital is Montgomery and the biggest city is Birmingham.
 # labels = to_check
 "<Høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #1->
+	"høvuðsstaður" N Msc Sg Nom Def @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<Montgomery>"
-	"Montgomery" N Prop Sem/Sur Sg Nom @dep #3->
+	"Montgomery" N Prop Sem/Sur Sg Nom @root #3->0
 "<og>"
-	"og" CC @cc #4->
+	"og" CC @cc #4->8
 "<størsti>"
 	"stórur" A Superl Msc Sg Nom Def @amod #5->6
 "<býur>"
-	"býur" N Msc Sg Nom Indef @dep #6->
+	"býur" N Msc Sg Nom Indef @nsubj #6->8
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #7->
+	"vera" V Ind Prs Sg3 @cop #7->8
 "<Birmingham>"
-	"Birmingham" N Prop Sem/Plc Sg Nom @dep #8->
+	"Birmingham" N Prop Sem/Plc Sg Nom @conj #8->3
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->3
 
 # text = Stórir partar av Minnesota eru skógvaksnir-uml. 32 %, og har eru mong vøtn.
-# text[eng] = 
+# text[eng] = A large part of Minnesota is wooded - around 32%, and there are many lakes.
 # labels = to_check
 "<Stórir>"
 	"stórur" A Msc Pl Nom Indef @amod #1->2
 "<partar>"
-	"partur" N Msc Pl Nom Indef @dep #2->
+	"partur" N Msc Pl Nom Indef @nsubj #2->6
 "<av>"
 	"av" Pr @case #3->4
 "<Minnesota>"
-	"Minnesota" N Prop Sg Nom @nmod #4->
+	"Minnesota" N Prop Sg Nom @nmod #4->2
 "<eru>"
-	"vera" V Ind Prs Pl @cop #5->
+	"vera" V Ind Prs Pl @cop #5->6
 "<skógvaksnir>"
-	"skógvaksin" A Msc Pl Nom Indef @dep #6->
+	"skógvaksin" A Msc Pl Nom Indef @root #6->0
 "<->"
-	"-" PUNCT @punct #7->
+	"-" PUNCT @punct #7->9
 "<uml.>"
-	"uml" Abbr @dep #8->
+	"uml" Abbr @advmod #8->9
 "<32 %>"
-	"32 %" Num Nom @dep #9->
+	"32 %" Num Nom @appos #9->6
 "<,>"
-	"," CLB @punct #10->
+	"," CLB @punct #10->12
 "<og>"
-	"og" CC @cc #11->
+	"og" CC @cc #11->12
 "<har>"
-	"har" Adv @dep #12->
+	"har" Adv @conj #12->6
 "<eru>"
-	"vera" V Ind Prs Pl @cop #13->
+	"vera" V Ind Prs Pl @cop #13->12
 "<mong>"
 	"mangur" A Neu Pl Nom Indef @amod #14->15
 "<vøtn>"
-	"vatn" N Neu Pl Nom Indef @dep #15->
+	"vatn" N Neu Pl Nom Indef @nsubj #15->12
 "<.>"
-	"." CLB @punct #16->
+	"." CLB @punct #16->6
 
 # text = Nógvur fiskur er í vøtnunum í Minnesota.
-# text[eng] = 
+# text[eng] = There is a lot of fish in the lakes in Minnesota.
 # labels = to_check
 "<Nógvur>"
 	"nógvur" A Msc Sg Nom Indef @amod #1->2
 "<fiskur>"
-	"fiskur" N Msc Sg Nom Indef @dep #2->
+	"fiskur" N Msc Sg Nom Indef @nsubj #2->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #3->
+	"vera" V Ind Prs Sg3 @cop #3->5
 "<í>"
 	"í" Pr @case #4->5
 "<vøtnunum>"
-	"vatn" N Neu Pl Dat Def @nmod #5->
+	"vatn" N Neu Pl Dat Def @root #5->0
 "<í>"
 	"í" Pr @case #6->7
 "<Minnesota>"
-	"Minnesota" N Prop Sg Nom @nmod #7->
+	"Minnesota" N Prop Sg Nom @obl #7->5
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->5
 
 # text = Charleston er høvuðsstaðurin og størsti býurin.
-# text[eng] = 
+# text[eng] = Charleston is the capital and largest city.
 # labels = to_check
 "<Charleston>"
-	"Charleston" N Prop Sem/Plc Sg Nom @dep #1->
+	"Charleston" N Prop Sem/Plc Sg Nom @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #3->
+	"høvuðsstaður" N Msc Sg Nom Def @root #3->0
 "<og>"
-	"og" CC @cc #4->
+	"og" CC @cc #4->6
 "<størsti>"
 	"stórur" A Superl Msc Sg Nom Def @amod #5->6
 "<býurin>"
-	"býur" N Msc Sg Nom Def @dep #6->
+	"býur" N Msc Sg Nom Def @conj #6->3
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->3
 
 # text = Bjørnin er størsta rovdýrið í West Virginia.
-# text[eng] = 
+# text[eng] = The bear is the biggest predator in West Virginia.
 # labels = to_check
 "<Bjørnin>"
-	"bjørn" N Fem Sg Nom Def @dep #1->
+	"bjørn" N Fem Sg Nom Def @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<størsta>"
 	"stórur" A Superl Neu Sg Nom Def @amod #3->4
 "<rovdýrið>"
-	"rovdýr" N Neu Sg Nom Def @dep #4->
+	"rovdýr" N Neu Sg Nom Def @root #4->0
 "<í>"
 	"í" Pr @case #5->6
 "<West>"
-	"West" N Prop Sem/Sur Sg Acc @nmod #6->
+	"West" N Prop Sem/Sur Sg Acc @obl #6->4
 "<Virginia>"
-	"Virginia" N Prop Sg Nom @dep #7->
+	"Virginia" N Prop Sg Nom @flat #7->6
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->4
 
 # text = Í 2009 vóru 8000 bjarnir í West Virginia.
-# text[eng] = 
+# text[eng] = In 2009 there were 8000 bears in West Virginia.
 # labels = to_check
 "<Í>"
-	"í" Pr @case #1->
+	"í" Pr @case #1->2
 "<2009>"
-	"2009" Num Dat @dep #2->
+	"2009" Num Dat @obl #2->7
 "<vóru>"
-	"vera" V Ind Prt Pl @cop #3->
+	"vera" V Ind Prt Pl @cop #3->7
 "<8000>"
 	"8000" Num Nom @nummod #4->5
 "<bjarnir>"
-	"bjørn" N Fem Pl Nom Indef @dep #5->
+	"bjørn" N Fem Pl Nom Indef @nsubj #5->7
 "<í>"
 	"í" Pr @case #6->7
 "<West>"
-	"West" N Prop Sem/Sur Sg Acc @nmod #7->
+	"West" N Prop Sem/Sur Sg Acc @root #7->0
 "<Virginia>"
-	"Virginia" N Prop Sg Nom @dep #8->
+	"Virginia" N Prop Sg Nom @flat #8->7
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->7
 
 # text = Bjørnin er ikki friðað í West Virginia.
-# text[eng] = 
+# text[eng] = Bears are not protected in West Virginia.
 # labels = to_check
 "<Bjørnin>"
-	"bjørn" N Fem Sg Nom Def @dep #1->
+	"bjørn" N Fem Sg Nom Def @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @aux #2->4
 "<ikki>"
-	"ikki" Adv @dep #3->
+	"ikki" Adv @advmod #3->4
 "<friðað>"
-	"friða" V Sup @dep #4->
+	"friða" V Sup @root #4->0
 "<í>"
 	"í" Pr @case #5->6
 "<West>"
-	"West" N Prop Sem/Sur Sg Acc @nmod #6->
+	"West" N Prop Sem/Sur Sg Acc @nmod #6->4
 "<Virginia>"
-	"Virginia" N Prop Sg Nom @dep #7->
+	"Virginia" N Prop Sg Nom @flat #7->6
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->4
 
 # text = Lansing er høvuðsstaðurin og Detroit er størsti býurin.
-# text[eng] = 
+# text[eng] = Lansing is the capital and Detroit is the biggest city.
 # labels = to_check
 "<Lansing>"
-	"Lansing" N Prop Sem/Plc Sg Nom @dep #1->
+	"Lansing" N Prop Sem/Plc Sg Nom @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #3->
+	"høvuðsstaður" N Msc Sg Nom Def @root  #3->0
 "<og>"
-	"og" CC @cc #4->
+	"og" CC @cc #4->8
 "<Detroit>"
-	"Detroit" N Prop Sem/Plc Sg Nom @dep #5->
+	"Detroit" N Prop Sem/Plc Sg Nom @nsubj #5->8
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #6->
+	"vera" V Ind Prs Sg3 @cop #6->8
 "<størsti>"
 	"stórur" A Superl Msc Sg Nom Def @amod #7->8
 "<býurin>"
-	"býur" N Msc Sg Nom Def @dep #8->
+	"býur" N Msc Sg Nom Def @conj #8->3
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->3
 
 # text = Fá fólk búgva í oyðimørkunum.
-# text[eng] = 
+# text[eng] = Few people live in the desert.
 # labels = to_check
 "<Fá>"
 	"fáur" A Neu Pl Acc Indef @dep #1->
@@ -12518,19 +12518,19 @@
 "<Fleiri>"
 	"mangur" A Cmp Msc Pl Nom Indef @amod #1->2
 "<løntakarar>"
-	"løntakari" N Msc Pl Nom Indef @dep #2->
+	"løntakari" N Msc Pl Nom Indef @dep #2->6
 "<eru>"
-	"vera" V Ind Prs Pl @cop #3->
+	"vera" V Ind Prs Pl @cop #3->6
 "<í>"
-	"í" Pr @case #4->
+	"í" Pr @case #4->6
 "<privata>"
 	"privatur" A Neu Sg Dat Def @amod #5->6
 "<vinnulívinum>"
-	"vinnulív" N Neu Sg Dat Def @nmod #6->
+	"vinnulív" N Neu Sg Dat Def @nmod #6->0
 "<,>"
-	"," CLB @punct #7->
+	"," CLB @punct #7->11
 "<og>"
-	"og" CC @cc #8->
+	"og" CC @cc #8->11
 "<samlaðu>"
 	"samla" V Ind Prt Pl @dep #9->
 "<lønargjaldingarnar>"
@@ -12541,78 +12541,78 @@
 	"." CLB @punct #12->
 
 # text = Cheyenne er høvuðsstaðurin og størsti býurin.
-# text[eng] = 
+# text[eng] = Cheyenne is the capital and the biggest city.
 # labels = to_check
 "<Cheyenne>"
-	"Cheyenne" N Prop Sem/Plc Sg Nom @dep #1->
+	"Cheyenne" N Prop Sem/Plc Sg Nom @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #3->
+	"høvuðsstaður" N Msc Sg Nom Def @root #3->0
 "<og>"
-	"og" CC @cc #4->
+	"og" CC @cc #4->6
 "<størsti>"
 	"stórur" A Superl Msc Sg Nom Def @amod #5->6
 "<býurin>"
-	"býur" N Msc Sg Nom Def @dep #6->
+	"býur" N Msc Sg Nom Def @conj #6->3
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->3
 
 # text = Føroyar og Grønland eru í ríkisfelagsskapi við Danmørk.
-# text[eng] = 
+# text[eng] = The Faroes, Greenland and Denmark constitute a community of the realm.
 # labels = to_check
 "<Føroyar>"
-	"Føroyar" N Prop Fem Pl Nom Indef @dep #1->
+	"Føroyar" N Prop Fem Pl Nom Indef @nsubj #1->6
 "<og>"
-	"og" CC @cc #2->
+	"og" CC @cc #2->3
 "<Grønland>"
-	"Grønland" N Prop Neu Sg Nom Indef @dep #3->
+	"Grønland" N Prop Neu Sg Nom Indef @conj #3->1
 "<eru>"
-	"vera" V Ind Prs Pl @cop #4->
+	"vera" V Ind Prs Pl @cop #4->6
 "<í>"
 	"í" Pr @case #5->6
 "<ríkisfelagsskapi>"
-	"ríkisfelagsskapur" N Msc Sg Dat Indef @nmod #6->
+	"ríkisfelagsskapur" N Msc Sg Dat Indef @root #6->0
 "<við>"
 	"við" Pr @case #7->8
 "<Danmørk>"
-	"Danmørk" N Prop Fem Sg Dat Indef @nmod #8->
+	"Danmørk" N Prop Fem Sg Dat Indef @nmod #8->6
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->6
 
 # text = Flestu býir eru smáir.
-# text[eng] = 
+# text[eng] = Most towns are small.
 # labels = to_check
 "<Flestu>"
 	"mangur" A Superl Msc Pl Nom Def @amod #1->2
 "<býir>"
-	"býur" N Msc Pl Nom Indef @dep #2->
+	"býur" N Msc Pl Nom Indef @nsubj #2->4
 "<eru>"
-	"vera" V Ind Prs Pl @cop #3->
+	"vera" V Ind Prs Pl @cop #3->4
 "<smáir>"
-	"smáur" A Msc Pl Nom Indef @dep #4->
+	"smáur" A Msc Pl Nom Indef @root #4->0
 "<.>"
-	"." CLB @punct #5->
+	"." CLB @punct #5->4
 
 # text = Ein stórur partur av Montana er fjallaland.
-# text[eng] = 
+# text[eng] = A large part of Montana is mountain country.
 # labels = to_check
 "<Ein>"
-	"ein" Det Msc Sg Nom @det #1->
+	"ein" Det Msc Sg Nom @det #1->3
 "<stórur>"
 	"stórur" A Msc Sg Nom Indef @amod #2->3
 "<partur>"
-	"partur" N Msc Sg Nom Indef @dep #3->
+	"partur" N Msc Sg Nom Indef @nsubj #3->7
 "<av>"
 	"av" Pr @case #4->5
 "<Montana>"
-	"Montana" N Prop Sg Nom @nmod #5->
+	"Montana" N Prop Sg Nom @nmod #5->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #6->
+	"vera" V Ind Prs Sg3 @cop #6->7
 "<fjallaland>"
-	"fjallaland" N Neu Sg Nom Indef @dep #7->
+	"fjallaland" N Neu Sg Nom Indef @root #7->0
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->7
 
 # text = Álopslinjan er ein partur av økinum framman.
 # text[eng] = 
@@ -12643,18 +12643,18 @@
 	"." CLB @punct #2->
 
 # text = Les meira á USA.
-# text[eng] = 
+# text[eng] = Read more about the USA.
 # labels = to_check
 "<Les>"
 	"lesa" V Imp Sg @root #1->0
 "<meira>"
-	"meira" Adv @dep #2->1
+	"meira" Adv @advmod #2->1
 "<á>"
 	"á" Pr @case #3->4
 "<USA>"
-	"USA" N ACR Dat @nmod #4->
+	"USA" N ACR Dat @obl #4->1
 "<.>"
-	"." CLB @punct #5->
+	"." CLB @punct #5->1
 
 # text = Høvuðsstaðurin og størsti býurin er Boise.
 # text[eng] = 
