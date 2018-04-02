@@ -11052,35 +11052,36 @@
 "<.>"
 	"." CLB @punct #10->7
 
+# text[eng] = Selfoss: Selfoss is a town in the southern part of Iceland with 6512 inhabitants.
 # labels = to_check
 "<Selfoss>"
-	"Selfoss" N Prop Sem/Plc Sg Nom @dep #1->
+	"Selfoss" N Prop Sem/Plc Sg Nom @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Selfoss>"
-	"Selfoss" N Prop Sem/Plc Sg Nom @dep #3->
+	"Selfoss" N Prop Sem/Plc Sg Nom @nsubj #3->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->6
 "<ein>"
 	"ein" Det Msc Sg Nom @det #5->6
 "<býur>"
-	"býur" N Msc Sg Nom Indef @dep #6->
+	"býur" N Msc Sg Nom Indef @parataxis #6->1
 "<á>"
 	"á" Pr @case #7->8
 "<Suðurlandinum>"
-	"Suðurland" N Prop Neu Sg Dat Def @nmod #8->
+	"Suðurland" N Prop Neu Sg Dat Def @nmod #8->6
 "<í>"
 	"í" Pr @case #9->10
 "<Íslandi>"
-	"Ísland" N Neu Sg Dat Indef @nmod #10->
+	"Ísland" N Neu Sg Dat Indef @nmod #10->8
 "<við>"
-	"við" Pr @case #11->
+	"við" Pr @case #11->13
 "<6512>"
 	"6512" Num Dat @nummod #12->13
 "<íbúgvum>"
-	"íbúgvi" N Msc Pl Dat Indef @nmod #13->
+	"íbúgvi" N Msc Pl Dat Indef @obl #13->6
 "<.>"
-	"." CLB @punct #14->
+	"." CLB @punct #14->6
 
 # labels = to_check
 "<Grundarlagið>"
