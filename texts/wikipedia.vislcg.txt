@@ -7859,22 +7859,24 @@
 "<.>"
 	"." CLB @punct #22->
 
+# text[eng] = Many farmers had to leave their farms.
 # labels = to_check
 "<Mangir>"
 	"mangur" A Msc Pl Nom Indef @amod #1->2
 "<bøndur>"
-	"bóndi" N Msc Pl Nom Indef @dep #2->3
+	"bóndi" N Msc Pl Nom Indef @nsubj #2->4
 "<máttu>"
-	"mega" V Ind Prt Pl @root #3->0
+	"mega" V Ind Prt Pl @aux #3->4
 "<rýma>"
-	"rýma" V Inf @dep #4->3
+	"rýma" V Inf @root #4->0
 "<av>"
 	"av" Pr @case #5->6
 "<garði>"
-	"garður" N Msc Sg Dat Indef @nmod #6->
+	"garður" N Msc Sg Dat Indef @obl #6->4
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->4
 
+# text[eng] = The farmers got financial support to decrease production.
 # labels = to_check
 "<Bøndurnir>"
 	"bóndi" N Msc Pl Nom Def @dep #1->2
@@ -7883,15 +7885,15 @@
 "<fíggjarligan>"
 	"fíggjarligur" A Msc Sg Acc Indef @amod #3->4
 "<stuðul>"
-	"stuðul" N Msc Sg Acc Indef @dep #4->2
+	"stuðul" N Msc Sg Acc Indef @obj #4->2
 "<at>"
-	"at" IM @dep #5->2
+	"at" IM @mark #5->6
 "<minka>"
-	"minka" V Inf @dep #6->2
+	"minka" V Inf @acl #6->4
 "<framleiðsluna>"
-	"framleiðsla" N Fem Sg Acc Def @dep #7->2
+	"framleiðsla" N Fem Sg Acc Def @obj #7->6
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->2
 
 # labels = to_check
 "<Í>"
@@ -7915,83 +7917,87 @@
 "<.>"
 	"." CLB @punct #10->
 
+# text[eng] = 20,000 women are in the American army, and it is approximately 15% of the total number.
 # labels = to_check
 "<20.000>"
 	"20.000" Num Nom @nummod #1->2
 "<kvinnur>"
-	"kvinna" N Fem Pl Nom Indef @dep #2->
+	"kvinna" N Fem Pl Nom Indef @nsubj #2->6
 "<eru>"
-	"vera" V Ind Prs Pl @cop #3->
+	"vera" V Ind Prs Pl @cop #3->6
 "<í>"
-	"í" Pr @case #4->
+	"í" Pr @case #4->6
 "<amerikanska>"
 	"amerikanskur" A Msc Sg Dat Def @amod #5->6
 "<herinum>"
-	"herur" N Msc Sg Dat Def @nmod #6->
+	"herur" N Msc Sg Dat Def @root #6->0
 "<,>"
-	"," CLB @punct #7->
+	"," CLB @punct #7->12
 "<og>"
-	"og" CC @cc #8->
+	"og" CC @cc #8->12
 "<tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #9->
+	"tað" Pron Pers Sg3 Nom @nsubj #9->12
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #10->
+	"vera" V Ind Prs Sg3 @cop #10->12
 "<umleið>"
-	"umleið" Adv @dep #11->
+	"umleið" Adv @advmod #11->12
 "<15 %>"
-	"15 %" Num Nom @dep #12->
+	"15 %" Num Nom @conj #12->6
 "<av>"
-	"av" Pr @case #13->
+	"av" Pr @case #13->15
 "<samlaða>"
 	"samla" V PrfPrc A Neu Sg Dat Def @amod #14->15
 "<talinum>"
-	"tal" N Neu Sg Dat Def @nmod #15->
+	"tal" N Neu Sg Dat Def @nmod #15->12
 "<.>"
-	"." CLB @punct #16->
+	"." CLB @punct #16->6
 
+# text[eng] = Tourism is very important in Malta.
 # labels = to_check
 "<Ferðavinna>"
-	"ferðavinna" N Fem Sg Nom Indef @dep #1->2
+	"ferðavinna" N Fem Sg Nom Indef @nsubj #1->2
 "<hevur>"
 	"hava" V Ind Prs Sg3 @root #2->0
 "<stóran>"
 	"stórur" A Msc Sg Acc Indef @amod #3->4
 "<týdning>"
-	"týdningur" N Msc Sg Acc Indef @dep #4->2
+	"týdningur" N Msc Sg Acc Indef @obj #4->2
 "<í>"
 	"í" Pr @case #5->6
 "<Malta>"
-	"malti" N Msc Sg Dat Indef @nmod #6->
+	"Malta" N Prop Sem/Plc Sg Dat @nmod #6->4
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->2
 
+# text[eng] = The majority of people are Muslim.
 # labels = to_check
 "<Meginparturin>"
-	"meginpartur" N Msc Sg Nom Def @dep #1->
+	"meginpartur" N Msc Sg Nom Def @nsubj #1->5
 "<av>"
 	"av" Pr @case #2->3
 "<fólkinum>"
-	"fólk" N Neu Sg Dat Def @nmod #3->
+	"fólk" N Neu Sg Dat Def @nmod #3->1
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->5
 "<muslimar>"
-	"muslimur" N Msc Pl Nom Indef @dep #5->
+	"muslimur" N Msc Pl Nom Indef @root #5->0
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->5
 
+# text[eng] = The authorities made the people move.
 # labels = to_check
 "<Myndugleikarnir>"
-	"myndugleiki" N Msc Pl Nom Def @dep #1->2
+	"myndugleiki" N Msc Pl Nom Def @nsubj #1->2
 "<eggjaðu>"
 	"eggja" V Ind Prt Pl @root #2->0
 "<fólki>"
-	"fólk" N Neu Sg Dat Indef @dep #3->2
+	"fólk" N Neu Sg Dat Indef @obj #3->2
 "<at>"
-	"at" IM @dep #4->2
+	"at" IM @mark #4->5
 "<flyta>"
-	"flyta" V Inf @dep #5->2
+	"flyta" V Inf @xcomp #5->2
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->2
 
 # labels = to_check
 "<Tørvur>"
@@ -8063,25 +8069,25 @@
 
 # labels = to_check
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<vakur>"
 	"vakur" A Msc Sg Nom Indef @amod #3->4
 "<býur>"
-	"býur" N Msc Sg Nom Indef @dep #4->
+	"býur" N Msc Sg Nom Indef @root #4->0
 "<við>"
-	"við" Pr @case #5->
+	"við" Pr @case #5->7
 "<prýðiligum>"
 	"prýðiligur" A Msc Pl Dat Indef @amod #6->7
 "<bygningum>"
-	"bygningur" N Msc Pl Dat Indef @nmod #7->
+	"bygningur" N Msc Pl Dat Indef @nmod #7->4
 "<og>"
-	"og" CC @cc #8->
+	"og" CC @cc #8->9
 "<vakstrargørðum>"
-	"vakstrargarður" N Msc Pl Dat Indef @dep #9->
+	"vakstrargarður" N Msc Pl Dat Indef @conj #9->7
 "<.>"
-	"." CLB @punct #10->
+	"." CLB @punct #10->4
 
 # text[eng] = The road is wide and straight.
 # labels = to_check
