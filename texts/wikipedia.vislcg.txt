@@ -17612,50 +17612,50 @@
 	"." CLB @punct #6->5
 
 # text = Laos: Laos er eitt lýðveldi í Asia.
-# text[eng] = 
+# text[eng] = Laos: Laos is a republic in Asia.
 # labels = to_check
 "<Laos>"
-	"Laos" N Prop Sem/Plc Sg Nom @dep #1->
+	"Laos" N Prop Sem/Plc Sg Nom @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Laos>"
-	"Laos" N Prop Sem/Plc Sg Nom @dep #3->
+	"Laos" N Prop Sem/Plc Sg Nom @nsubj #3->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->6
 "<eitt>"
 	"ein" Det Neu Sg Nom @det #5->6
 "<lýðveldi>"
-	"lýðveldi" N Neu Sg Nom Indef @dep #6->
+	"lýðveldi" N Neu Sg Nom Indef @parataxis #6->1
 "<í>"
 	"í" Pr @case #7->8
 "<Asia>"
-	"Asia" N Prop Sg Nom @nmod #8->
+	"Asia" N Prop Sg Nom @obl #8->6
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->6
 
 # text = Høvuðsstaður er Vientiane.
-# text[eng] = 
+# text[eng] = The capital city is Vientiane.
 # labels = to_check
 "<Høvuðsstaður>"
-	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->
+	"høvuðsstaður" N Msc Sg Nom Indef @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<Vientiane>"
-	"Vientiane" N Prop Sem/Fem Sg Nom @dep #3->
+	"Vientiane" N Prop Sem/Fem Sg Nom @root #3->0
 "<.>"
-	"." CLB @punct #4->
+	"." CLB @punct #4->3
 
 # text = Høvuðsstaður er Tasjkent.
-# text[eng] = 
+# text[eng] = The capital city is Tashkent.
 # labels = to_check
 "<Høvuðsstaður>"
-	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->
+	"høvuðsstaður" N Msc Sg Nom Indef @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<Tasjkent>"
-	"Tasjkent" N Prop Sem/Sur Sg Nom @dep #3->
+	"Tasjkent" N Prop Sem/Sur Sg Nom @root #3->0
 "<.>"
-	"." CLB @punct #4->
+	"." CLB @punct #4->3
 
 # text = Tað er eitt land við høgum fjøllum.
 # text[eng] = It is a country with high mountains.
@@ -17678,20 +17678,20 @@
 	"." CLB @punct #8->4
 
 # text = Landbúnaður er høvuðsvinna í Armenia.
-# text[eng] = 
+# text[eng] = Agriculture is the main industry in Armenia.
 # labels = to_check
 "<Landbúnaður>"
-	"landbúnaður" N Msc Sg Nom Indef @dep #1->
+	"landbúnaður" N Msc Sg Nom Indef @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<høvuðsvinna>"
-	"høvuðsvinna" N Fem Sg Nom Indef @dep #3->
+	"høvuðsvinna" N Fem Sg Nom Indef @root #3->0
 "<í>"
 	"í" Pr @case #4->5
 "<Armenia>"
-	"Armenia" N Prop Sg Nom @nmod #5->
+	"Armenia" N Prop Sg Nom @obl #5->3
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->3
 
 # text = Bøndurnir fara tíðliga á morgni til arbeiðis, antin á óðalsjørðina ella á leigujørðina hjá stórbóndanum.
 # text[eng] = 
