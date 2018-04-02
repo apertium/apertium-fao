@@ -16011,52 +16011,52 @@
 	"." CLB @punct #9->
 
 # text = Meginparturin av fólkinum er katolikkar.
-# text[eng] = 
+# text[eng] = The majority of people are Catholics.
 # labels = to_check
 "<Meginparturin>"
-	"meginpartur" N Msc Sg Nom Def @dep #1->
+	"meginpartur" N Msc Sg Nom Def @nsubj #1->5
 "<av>"
 	"av" Pr @case #2->3
 "<fólkinum>"
-	"fólk" N Neu Sg Dat Def @nmod #3->
+	"fólk" N Neu Sg Dat Def @nmod #3->1
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->5
 "<katolikkar>"
-	"katolikkur" N Msc Pl Nom Indef @dep #5->
+	"katolikkur" N Msc Pl Nom Indef @root #5->0
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->5
 
 # text = Hetta er tó ikki prógvað.
-# text[eng] = 
+# text[eng] = This is still not proven.
 # labels = to_check
 "<Hetta>"
-	"hesin" Pron Dem Neu Sg Nom @dep #1->
+	"hesin" Pron Dem Neu Sg Nom @nsubj #1->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @aux #2->5
 "<tó>"
-	"tó" Adv @dep #3->
+	"tó" Adv @advmod #3->5
 "<ikki>"
-	"ikki" Adv @dep #4->
+	"ikki" Adv @advmod #4->5
 "<prógvað>"
-	"prógva" V Sup @dep #5->
+	"prógva" V Sup @root #5->0
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->5
 
 # text = Í 1960 var talið 3 %.
-# text[eng] = 
+# text[eng] = In 1960 the number was 3%.
 # labels = to_check
 "<Í>"
-	"í" Pr @case #1->
+	"í" Pr @case #1->2
 "<1960>"
-	"1960" Num Dat @dep #2->
+	"1960" Num Dat @obl #2->5
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #3->
+	"vera" V Ind Prt Sg3 @cop #3->5
 "<talið>"
-	"tal" N Neu Sg Nom Def @dep #4->
+	"tal" N Neu Sg Nom Def @nsubj #4->5
 "<3 %>"
-	"3 %" Num Nom @dep #5->
+	"3 %" Num Nom @root #5->0
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->5
 
 # text = So statt er mongdin av tilburðum í stórum vøkstri.
 # text[eng] = 
