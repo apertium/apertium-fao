@@ -16884,7 +16884,7 @@
 	"." CLB @punct #7->2
 
 # text = Dagin eftir fer hon í eitt annað reiður; upp til tjúgu egg kann hon verpa.
-# text[eng] = 
+# text[eng] = The day after she goes to another nest; she can lay up to twenty eggs.
 # labels = to_check
 "<Dagin>"
 	"dagur" N Msc Sg Acc Def @obl #1->3
@@ -17810,50 +17810,50 @@
 	"." CLB @punct #11->7
 
 # text = Partur av fjøllunum liggur eisini í Póllandi.
-# text[eng] = 
+# text[eng] = Part of the mountain also lies in Poland.
 # labels = to_check
 "<Partur>"
-	"partur" N Msc Sg Nom Indef @dep #1->4
+	"partur" N Msc Sg Nom Indef @nsubj #1->4
 "<av>"
 	"av" Pr @case #2->3
 "<fjøllunum>"
-	"fjall" N Neu Pl Dat Def @nmod #3->
+	"fjall" N Neu Pl Dat Def @nmod #3->1
 "<liggur>"
 	"liggja" V Ind Prs Sg3 @root #4->0
 "<eisini>"
-	"eisini" Adv @dep #5->4
+	"eisini" Adv @advmod #5->4
 "<í>"
 	"í" Pr @case #6->7
 "<Póllandi>"
-	"Pólland" N Prop Neu Sg Dat Indef @nmod #7->
+	"Pólland" N Prop Neu Sg Dat Indef @obl #7->4
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->4
 
 # text = Á fólkaatkvøðu í 1993 var eisini stórur meiriluti fyri loysing.
-# text[eng] = 
+# text[eng] = In a referendum in 1993 a large majority was also for independence.
 # labels = to_check
 "<Á>"
 	"á" Pr @case #1->2
 "<fólkaatkvøðu>"
-	"fólkaatkvøða" N Fem Sg Dat Indef @nmod #2->
+	"fólkaatkvøða" N Fem Sg Dat Indef @obl #2->10
 "<í>"
-	"í" Pr @case #3->
+	"í" Pr @case #3->4
 "<1993>"
-	"1993" Num Dat @dep #4->
+	"1993" Num Dat @obl #4->10
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #5->
+	"vera" V Ind Prt Sg3 @cop #5->10
 "<eisini>"
-	"eisini" Adv @dep #6->
+	"eisini" Adv @advmod #6->10
 "<stórur>"
 	"stórur" A Msc Sg Nom Indef @amod #7->8
 "<meiriluti>"
-	"meiriluti" N Msc Sg Nom Indef @dep #8->
+	"meiriluti" N Msc Sg Nom Indef @nsubj #8->10
 "<fyri>"
 	"fyri" Pr @case #9->10
 "<loysing>"
-	"loysing" N Fem Sg Dat Indef @nmod #10->
+	"loysing" N Fem Sg Dat Indef @root #10->0
 "<.>"
-	"." CLB @punct #11->
+	"." CLB @punct #11->10
 
 # text = At prógva hetta, leggja vit sannleikan fram fyri ein uttanveltaðan heim ".
 # text[eng] = 
@@ -17888,80 +17888,80 @@
 	"." CLB @punct #14->
 
 # text = Oyggin hevur við uml. 400 íbúgvar.
-# text[eng] = 
+# text[eng] = The island has around 400 inhabitants.
 # labels = to_check
 "<Oyggin>"
-	"oyggj" N Fem Sg Nom Def @dep #1->2
+	"oyggj" N Fem Sg Nom Def @nsubj #1->2
 "<hevur>"
 	"hava" V Ind Prs Sg3 @root #2->0
 "<við>"
-	"við" Pr @case #3->
+	"við" Pr @case #3->6
 "<uml.>"
-	"uml" Abbr @dep #4->2
+	"uml" Abbr @advmod #4->5
 "<400>"
 	"400" Num Dat @nummod #5->6
 "<íbúgvar>"
-	"íbúgvi" N Msc Pl Acc Indef @dep #6->2
+	"íbúgvi" N Msc Pl Acc Indef @obl #6->2
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->2
 
 # text = Leopardurin klívur ofta í trøum.
-# text[eng] = 
+# text[eng] = Leopards often climb in trees.
 # labels = to_check
 "<Leopardurin>"
-	"leopardur" N Msc Sg Nom Def @dep #1->2
+	"leopardur" N Msc Sg Nom Def @nsubj #1->2
 "<klívur>"
 	"klíva" V Ind Prs Sg3 @root #2->0
 "<ofta>"
-	"ofta" Adv @dep #3->2
+	"ofta" Adv @advmod #3->2
 "<í>"
 	"í" Pr @case #4->5
 "<trøum>"
-	"trø" N Neu Pl Dat Indef @nmod #5->
+	"trø" N Neu Pl Dat Indef @obl #5->2
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->2
 
 # text = Protestantisma: Protestantiska læran tók seg upp í Týsklandi.
 # text[eng] = 
 # labels = to_check
 "<Protestantisma>"
-	"protestantisma" N Fem Sg Nom Indef @dep #1->5
+	"protestantisma" N Fem Sg Nom Indef @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Protestantiska>"
 	"protestantiskur" A Fem Sg Nom Def @amod #3->4
 "<læran>"
-	"læra" N Fem Sg Nom Def @dep #4->5
+	"læra" N Fem Sg Nom Def @nsubj #4->5
 "<tók>"
-	"taka" V Ind Prt Sg3 @root #5->0
+	"taka" V Ind Prt Sg3 @parataxis #5->1
 "<seg>"
-	"seg" Pron Refl Acc @dep #6->5
+	"seg" Pron Refl Acc @obj #6->5
 "<upp>"
-	"upp" Adv @dep #7->5
+	"upp" Adv @advmod #7->55
 "<í>"
 	"í" Pr @case #8->9
 "<Týsklandi>"
-	"Týskland" N Prop Neu Sg Dat Indef @nmod #9->
+	"Týskland" N Prop Neu Sg Dat Indef @obl #9->5
 "<.>"
-	"." CLB @punct #10->
+	"." CLB @punct #10->5
 
 # text = Hon er gudstænastubókin í gamla sáttmálanum.
 # text[eng] = 
 # labels = to_check
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<gudstænastubókin>"
-	"gudstænasta#bók" N Fem Sg Nom Def @dep #3->
+	"gudstænasta#bók" N Fem Sg Nom Def @root #3->0
 "<í>"
-	"í" Pr @case #4->
+	"í" Pr @case #4->6
 "<gamla>"
 	"gamal" A Msc Sg Dat Def @amod #5->6
 "<sáttmálanum>"
-	"sáttmáli" N Msc Sg Dat Def @nmod #6->
+	"sáttmáli" N Msc Sg Dat Def @obl #6->3
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->3
 
 # text = Mannfólkini eru í hvítum klæðum var trælabúnin.
 # text[eng] = 
