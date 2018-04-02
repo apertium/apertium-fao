@@ -17967,15 +17967,15 @@
 # text[eng] = 
 # labels = to_check
 "<Mannfólkini>"
-	"mannfólk" N Neu Pl Nom Def @dep #1->
+	"mannfólk" N Neu Pl Nom Def @dep #1->5
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->5
 "<í>"
-	"í" Pr @case #3->
+	"í" Pr @case #3->5
 "<hvítum>"
 	"hvítur" A Neu Pl Dat Indef @amod #4->5
 "<klæðum>"
-	"klæði" N Neu Pl Dat Indef @nmod #5->
+	"klæði" N Neu Pl Dat Indef @nmod #5->0
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #6->
 "<trælabúnin>"
@@ -18029,25 +18029,25 @@
 # text[eng] = 
 # labels = to_check
 "<Barbara>"
-	"Barbara" N Prop Sem/Fem Sg Nom @dep #1->2
+	"Barbara" N Prop Sem/Fem Sg Nom @nsubj #1->2
 "<byggir>"
 	"byggja" V Ind Prs Sg3 @root #2->0
 "<á>"
 	"á" Pr @case #3->4
 "<skaldsøgu>"
-	"skaldsøga" N Fem Sg Dat Indef @nmod #4->
+	"skaldsøga" N Fem Sg Dat Indef @obl #4->2
 "<eftir>"
 	"eftir" Pr @case #5->6
 "<Jørgen>"
-	"Jørgen" N Prop Sem/Mal Sg Acc @nmod #6->
+	"Jørgen" N Prop Sem/Mal Sg Acc @nmod #6->4
 "<->"
-	"-" PUNCT @punct #7->
+	"-" PUNCT @punct #7->8
 "<Frantz>"
-	"Frantz" N Prop Sem/Mal Sg Acc @dep #8->2
+	"Frantz" N Prop Sem/Mal Sg Acc @flat #8->6
 "<Jacobsen>"
-	"Jacobsen" N Prop Sem/Sur Sg Acc @dep #9->2
+	"Jacobsen" N Prop Sem/Sur Sg Acc @flat #9->6
 "<.>"
-	"." CLB @punct #10->
+	"." CLB @punct #10->2
 
 # text = Lítil partur av fjøllunum liggur eisini í Póllandi.
 # text[eng] = 
