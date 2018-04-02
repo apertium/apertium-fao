@@ -18159,51 +18159,51 @@
 # text[eng] = 
 # labels = to_check
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<fjølbroyttur>"
 	"fjølbroyttur" A Msc Sg Nom Indef @amod #3->4
 "<yrkjari>"
-	"yrkjari" N Msc Sg Nom Indef @dep #4->
+	"yrkjari" N Msc Sg Nom Indef @root #4->0
 "<.>"
-	"." CLB @punct #5->
+	"." CLB @punct #5->4
 
 # text = Meginparturin av fólkinum eru lutherskar.
-# text[eng] = 
+# text[eng] = The majorit of the people are Lutherans.
 # labels = to_check
 "<Meginparturin>"
-	"meginpartur" N Msc Sg Nom Def @dep #1->
+	"meginpartur" N Msc Sg Nom Def @nsubj #1->5
 "<av>"
 	"av" Pr @case #2->3
 "<fólkinum>"
-	"fólk" N Neu Sg Dat Def @nmod #3->
+	"fólk" N Neu Sg Dat Def @nmod #3->1
 "<eru>"
-	"vera" V Ind Prs Pl @cop #4->
+	"vera" V Ind Prs Pl @cop #4->5
 "<lutherskar>"
-	"lutherskur" A Fem Pl Nom Indef @dep #5->
+	"lutherskur" A Fem Pl Nom Indef @root #5->0
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->5
 
 # text = Umleið 90 % av eini øl er vatn.
-# text[eng] = 
+# text[eng] = Around 90% of a beer is water.
 # labels = to_check
 "<Umleið>"
-	"umleið" Adv @dep #1->
+	"umleið" Adv @advmod #1->2
 "<90 %>"
-	"90 %" Num Nom @dep #2->
+	"90 %" Num Nom @nsubj #2->7
 "<av>"
-	"av" Pr @case #3->
+	"av" Pr @case #3->5
 "<eini>"
 	"ein" Det Fem Sg Dat @det #4->5
 "<øl>"
-	"øl" N Fem Sg Dat Indef @dep #5->
+	"øl" N Fem Sg Dat Indef @nmod #5->2
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #6->
+	"vera" V Ind Prs Sg3 @cop #6->7
 "<vatn>"
-	"vatn" N Neu Sg Nom Indef @dep #7->
+	"vatn" N Neu Sg Nom Indef @root #7->0
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->7
 
 # text = Summir doyggja av eyðkvæmi.
 # text[eng] = 
@@ -18220,76 +18220,76 @@
 	"." CLB @punct #5->
 
 # text = Sjey oyggjar eru í landinum.
-# text[eng] = 
+# text[eng] = There are seven islands in the country.
 # labels = to_check
 "<Sjey>"
 	"sjey" Num @nummod #1->2
 "<oyggjar>"
-	"oyggj" N Fem Pl Nom Indef @dep #2->
+	"oyggj" N Fem Pl Nom Indef @nsubj #2->5
 "<eru>"
-	"vera" V Ind Prs Pl @cop #3->
+	"vera" V Ind Prs Pl @cop #3->5
 "<í>"
 	"í" Pr @case #4->5
 "<landinum>"
-	"land" N Neu Sg Dat Def @nmod #5->
+	"land" N Neu Sg Dat Def @root #5->0
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->5
 
 # text = Føroyar eru eisini partur í danska kongsríkinum.
-# text[eng] = 
+# text[eng] = The Faroe Islands are also part of the Kingdom of Denmark
 # labels = to_check
 "<Føroyar>"
-	"Føroyar" N Prop Fem Pl Nom Indef @dep #1->
+	"Føroyar" N Prop Fem Pl Nom Indef @nsubj #1->4
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->4
 "<eisini>"
-	"eisini" Adv @dep #3->
+	"eisini" Adv @advmod #3->4
 "<partur>"
-	"partur" N Msc Sg Nom Indef @dep #4->
+	"partur" N Msc Sg Nom Indef @root #4->0
 "<í>"
-	"í" Pr @case #5->
+	"í" Pr @case #5->7
 "<danska>"
 	"danskur" A Neu Sg Dat Def @amod #6->7
 "<kongsríkinum>"
-	"kongsríki" N Neu Sg Dat Def @nmod #7->
+	"kongsríki" N Neu Sg Dat Def @nmod #7->4
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->4
 
 # text = 18 oyggjar eru í Føroyum.
-# text[eng] = 
+# text[eng] = There are 18 islands in the Faroes.
 # labels = to_check
 "<18>"
 	"18" Num Nom @nummod #1->2
 "<oyggjar>"
-	"oyggj" N Fem Pl Nom Indef @dep #2->
+	"oyggj" N Fem Pl Nom Indef @nsubj #2->5
 "<eru>"
-	"vera" V Ind Prs Pl @cop #3->
+	"vera" V Ind Prs Pl @cop #3->5
 "<í>"
 	"í" Pr @case #4->5
 "<Føroyum>"
-	"Føroyar" N Prop Fem Pl Dat Indef @nmod #5->
+	"Føroyar" N Prop Fem Pl Dat Indef @root #5->0
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->5
 
 # text = Ein kaldur streymur kemur suðureftir fram við Íslandi.
-# text[eng] = 
+# text[eng] = A cold stream comes sourtherly from Iceland.
 # labels = to_check
 "<Ein>"
-	"ein" Det Msc Sg Nom @det #1->
+	"ein" Det Msc Sg Nom @det #1->3
 "<kaldur>"
 	"kaldur" A Msc Sg Nom Indef @amod #2->3
 "<streymur>"
-	"streymur" N Msc Sg Nom Indef @dep #3->4
+	"streymur" N Msc Sg Nom Indef @nsubj #3->4
 "<kemur>"
 	"koma" V Ind Prs Sg3 @root #4->0
 "<suðureftir>"
-	"suðureftir" Adv @dep #5->4
+	"suðureftir" Adv @advmod #5->4
 "<fram við>"
 	"fram við" Pr @case #6->7
 "<Íslandi>"
-	"Ísland" N Neu Sg Dat Indef @nmod #7->
+	"Ísland" N Neu Sg Dat Indef @obl #7->4
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->4
 
 # text = Ymsu partarnir í ríkinum gjørdust, sum tíðin leið, sjálvstøðugir.
 # text[eng] = 
@@ -18320,32 +18320,32 @@
 	"." CLB @punct #12->
 
 # text = Og har er eisini ein stór oyðimørk, sum eitur Gobi.
-# text[eng] = 
+# text[eng] = And there is also a large desert here, which is called Gobi.
 # labels = to_check
 "<Og>"
-	"og" CC @cc #1->
+	"og" CC @cc #1->2
 "<har>"
-	"har" Adv @dep #2->
+	"har" Adv @root #2->0
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #3->
+	"vera" V Ind Prs Sg3 @cop #3->2
 "<eisini>"
-	"eisini" Adv @dep #4->
+	"eisini" Adv @advmod #4->2
 "<ein>"
-	"eitt" Num Fem Sg Nom @dep #5->
+	"eitt" Det Fem Sg Nom @det #5->7
 "<stór>"
 	"stórur" A Fem Sg Nom Indef @amod #6->7
 "<oyðimørk>"
-	"oyðimørk" N Fem Sg Nom Indef @dep #7->
+	"oyðimørk" N Fem Sg Nom Indef @nsubj #7->2
 "<,>"
-	"," CLB @punct #8->
+	"," CLB @punct #8->10
 "<sum>"
-	"sum" CS @dep #9->
+	"sum" Pron Rel @nsubj #9->10
 "<eitur>"
-	"eitur" N Neu Sg Acc Indef @dep #10->
+	"eita" V Ind Prs Sg3 @acl #10->7
 "<Gobi>"
-	"Gobi" N Prop Sem/Plc Sg Acc @dep #11->
+	"Gobi" N Prop Sem/Plc Sg Acc @xcomp #11->10
 "<.>"
-	"." CLB @punct #12->
+	"." CLB @punct #12->2
 
 # text = Mangir mongolar eru framúr kringir á rossabaki.
 # text[eng] = 
@@ -18367,7 +18367,7 @@
 "<.>"
 	"." CLB @punct #8->
 
-# text = Høvuðsstaðurin er nýggjur býur; farið varð at byggja hann í 1961. Navnið Islamabad merkir "staður Islams ".
+# text = Høvuðsstaðurin er nýggjur býur; farið varð at byggja hann í 1961. 
 # text[eng] = 
 # labels = to_check
 "<Høvuðsstaðurin>"
@@ -18392,40 +18392,46 @@
 	"hann" Pron Pers Sg3 Msc Acc @dep #10->
 "<í>"
 	"í" Pr @case #11->
-"<1961.>"
+"<1961>"
 	"1961" A Ord @dep #12->
-"<Navnið>"
-	"navn" N Neu Sg Acc Def @dep #13->
-"<Islamabad>"
-	"Islamabad" N Prop Sem/Plc Sg Acc @dep #14->
-"<merkir>"
-	"merkja" V Ind Prs Sg3 @dep #15->
-"<">"
-	""" PUNCT @punct #16->
-"<staður>"
-	"staður" N Msc Sg Nom Indef @dep #17->
-"<Islams>"
-	"islam" N Neu Sg Gen Indef @dep #18->
-"<">"
-	""" PUNCT @punct #19->
 "<.>"
-	"." CLB @punct #20->
+	"." CLB @punct #13->
+
+# text = Navnið Islamabad merkir "staður Islams".
+# text[eng] = The name Islamabad means "city of Islam".
+# labels = to_check
+"<Navnið>"
+	"navn" N Neu Sg Acc Def @nsubj #1->3
+"<Islamabad>"
+	"Islamabad" N Prop Sem/Plc Sg Acc @nmod:poss #2->1
+"<merkir>"
+	"merkja" V Ind Prs Sg3 @root #3->0
+"<">"
+	""" PUNCT @punct #4->5
+"<staður>"
+	"staður" N Msc Sg Nom Indef @xcomp #5->3
+"<Islams>"
+	"islam" N Neu Sg Gen Indef @nmod:poss #6->5
+"<">"
+	""" PUNCT @punct #7->5
+"<.>"
+	"." CLB @punct #8->3
 
 # text = Landbúnaður er høvuðsvinnan í Pakistan.
-# text[eng] = 
+# text[eng] = Agriculture is the main industry in Pakistan.
 # labels = to_check
 "<Landbúnaður>"
-	"landbúnaður" N Msc Sg Nom Indef @dep #1->
+	"landbúnaður" N Msc Sg Nom Indef @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<høvuðsvinnan>"
-	"høvuðsvinna" N Fem Sg Nom Def @dep #3->
+	"høvuðsvinna" N Fem Sg Nom Def @root #3->0
 "<í>"
 	"í" Pr @case #4->5
 "<Pakistan>"
-	"Pakistan" N Prop Sem/Plc Sg Acc @nmod #5->
+	"Pakistan" N Prop Sem/Plc Sg Acc @obl #5->3
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->3
 
 # text = Fruktagóða slættlendið í Punjab er besta landbúnaðarlendið í Pakistan.
 # text[eng] = 
@@ -18455,25 +18461,25 @@
 # text[eng] = 
 # labels = to_check
 "<Um>"
-	"ymja" V Imp Sg @dep #1->
+	"um" Pr @case #1->2
 "<triðingurin>"
-	"triðingur" N Msc Sg Nom Def @dep #2->
+	"triðingur" N Msc Sg Nom Def @nsubj #2->7
 "<av>"
 	"av" Pr @case #3->4
 "<fólkinum>"
-	"fólk" N Neu Sg Dat Def @nmod #4->
+	"fólk" N Neu Sg Dat Def @nmod #4->2
 "<í>"
 	"í" Pr @case #5->6
 "<Pakistan>"
-	"Pakistan" N Prop Sem/Plc Sg Acc @nmod #6->
+	"Pakistan" N Prop Sem/Plc Sg Acc @nmod #6->4
 "<býr>"
-	"búgva" V Ind Prs Sg3 @dep #7->
+	"búgva" V Ind Prs Sg3 @root #7->0
 "<í>"
 	"í" Pr @case #8->9
 "<býum>"
-	"býur" N Msc Pl Dat Indef @nmod #9->
+	"býur" N Msc Pl Dat Indef @obl #9->7
 "<.>"
-	"." CLB @punct #10->
+	"." CLB @punct #10->7
 
 # text = Stórir partar av lendinum uppi á oynni eru avvaksnir við terunnum.
 # text[eng] = 
@@ -18504,68 +18510,68 @@
 	"." CLB @punct #12->
 
 # text = 30 % av útflutninginum í Sri Lanka er te.
-# text[eng] = 
+# text[eng] = 30% of exports in Sri Lanka are tea.
 # labels = to_check
 "<30 %>"
-	"30 %" Num Nom @dep #1->
+	"30 %" Num Nom @nsubj #1->8
 "<av>"
 	"av" Pr @case #2->3
 "<útflutninginum>"
-	"útflutningur" N Msc Sg Dat Def @nmod #3->
+	"útflutningur" N Msc Sg Dat Def @nmod #3->1
 "<í>"
 	"í" Pr @case #4->5
 "<Sri>"
-	"Sri" N Prop Sem/Plc Sg Dat @nmod #5->
+	"Sri" N Prop Sem/Plc Sg Dat @nmod #5->3
 "<Lanka>"
-	"Lanka" N Prop Sem/Sur Sg Acc @dep #6->
+	"Lanka" N Prop Sem/Sur Sg Dat @flat #6->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #7->
+	"vera" V Ind Prs Sg3 @cop #7->8
 "<te>"
-	"te" N Neu Sg Nom Indef @dep #8->
+	"te" N Neu Sg Nom Indef @root #8->0
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->8
 
 # text = Hann var eisini verjumálaráðharri í Bush-stjórnini.
-# text[eng] = 
+# text[eng] = He was also minister of defence in the Bush administration.
 # labels = to_check
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->4
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #2->
+	"vera" V Ind Prt Sg3 @cop #2->4
 "<eisini>"
-	"eisini" Adv @dep #3->
+	"eisini" Adv @advmod #3->4
 "<verjumálaráðharri>"
-	"verjumálaráðharri" N Msc Sg Nom Indef @dep #4->
+	"verjumálaráðharri" N Msc Sg Nom Indef @root #4->0
 "<í>"
 	"í" Pr @case #5->6
 "<Bush>"
-	"Bush" N Prop Sem/Sur Sg Acc @nmod #6->
+	"Bush" N Prop Sem/Sur Sg Acc @obl #6->4
 "<->"
-	"-" PUNCT @punct #7->
+	"-" PUNCT @punct #7->8
 "<stjórnini>"
-	"stjórn" N Fem Sg Dat Def @dep #8->
+	"stjórn" N Fem Sg Dat Def @compound #8->6
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->4
 
 # text = Nashville: Nashville er høvuðsstaður í Tennessee.
-# text[eng] = 
+# text[eng] = Nashville: Nashville is the capital city of Tennessee
 # labels = to_check
 "<Nashville>"
-	"Nashville" N Prop Sem/Plc Sg Nom @dep #1->
+	"Nashville" N Prop Sem/Plc Sg Nom @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Nashville>"
-	"Nashville" N Prop Sem/Plc Sg Nom @dep #3->
+	"Nashville" N Prop Sem/Plc Sg Nom @nsubj #3->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->5
 "<høvuðsstaður>"
-	"høvuðsstaður" N Msc Sg Nom Indef @dep #5->
+	"høvuðsstaður" N Msc Sg Nom Indef @parataxis #5->1
 "<í>"
 	"í" Pr @case #6->7
 "<Tennessee>"
-	"Tennessee" N Prop Sem/Plc Sg Acc @nmod #7->
+	"Tennessee" N Prop Sem/Plc Sg Acc @obl #7->5
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->5
 
 # text = Gott ferðasamband er av Manhattan.
 # text[eng] = 
@@ -18655,23 +18661,23 @@
 # text[eng] = 
 # labels = to_check
 "<Elgurin>"
-	"elgur" N Msc Sg Nom Def @dep #1->2
+	"elgur" N Msc Sg Nom Def @nsubj #1->2
 "<heldur>"
 	"halda" V Ind Prs Sg3 @root #2->0
 "<til>"
-	"til" Pr @case #3->
+	"til" Adv @advmod #3->2
 "<í>"
-	"í" Pr @case #4->
+	"í" Pr @case #4->6
 "<stórum>"
 	"stórur" A Fem Pl Dat Indef @amod #5->6
 "<skógum>"
-	"skóg" N Fem Pl Dat Indef @nmod #6->
+	"skóg" N Fem Pl Dat Indef @obl #6->2
 "<í>"
 	"í" Pr @case #7->8
 "<Suðuralaska>"
-	"suð#ur#laski" N Msc Sg Dat Indef @nmod #8->
+	"suð#ur#laski" N Msc Sg Dat Indef @obl #8->2
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->2
 
 # text = Um summarið, tá ið ísurin tánar á vøtnum og í áum, fer elgurin úti at eta vatnplantur.
 # text[eng] = 
@@ -18743,13 +18749,13 @@
 # text[eng] = 
 # labels = to_check
 "<Flytifuglurin>"
-	"flytifuglur" N Msc Sg Nom Def @dep #1->2
+	"flytifuglur" N Msc Sg Nom Def @nsubj #1->2
 "<fer>"
 	"fara" V Ind Prs Sg3 @root #2->0
 "<suðureftir>"
-	"suðureftir" Adv @dep #3->2
+	"suðureftir" Adv @advmod #3->2
 "<.>"
-	"." CLB @punct #4->
+	"." CLB @punct #4->2
 
 # text = Øll sløgini eru í USA.
 # text[eng] = 
