@@ -18050,46 +18050,46 @@
 	"." CLB @punct #10->2
 
 # text = Lítil partur av fjøllunum liggur eisini í Póllandi.
-# text[eng] = 
+# text[eng] = A small part of the mountain also lies in Poland
 # labels = to_check
 "<Lítil>"
 	"lítil" A Msc Sg Nom Indef @amod #1->2
 "<partur>"
-	"partur" N Msc Sg Nom Indef @dep #2->5
+	"partur" N Msc Sg Nom Indef @nsubj #2->5
 "<av>"
 	"av" Pr @case #3->4
 "<fjøllunum>"
-	"fjall" N Neu Pl Dat Def @nmod #4->
+	"fjall" N Neu Pl Dat Def @nmod #4->2
 "<liggur>"
 	"liggja" V Ind Prs Sg3 @root #5->0
 "<eisini>"
-	"eisini" Adv @dep #6->5
+	"eisini" Adv @advmod #6->5
 "<í>"
 	"í" Pr @case #7->8
 "<Póllandi>"
-	"Pólland" N Prop Neu Sg Dat Indef @nmod #8->
+	"Pólland" N Prop Neu Sg Dat Indef @obl #8->5
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->5
 
 # text = Detroit er størsti býur í statinum Michigan.
-# text[eng] = 
+# text[eng] = Detroit is the biggest city in the state of Michigan.
 # labels = to_check
 "<Detroit>"
-	"Detroit" N Prop Sem/Plc Sg Nom @dep #1->
+	"Detroit" N Prop Sem/Plc Sg Nom @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<størsti>"
 	"stórur" A Superl Msc Sg Nom Def @amod #3->4
 "<býur>"
-	"býur" N Msc Sg Nom Indef @dep #4->
+	"býur" N Msc Sg Nom Indef @root #4->0
 "<í>"
 	"í" Pr @case #5->6
 "<statinum>"
-	"statur" N Msc Sg Dat Def @nmod #6->
+	"statur" N Msc Sg Dat Def @nmod #6->4
 "<Michigan>"
-	"Michigan" N Prop Sem/Plc Sg Acc @dep #7->
+	"Michigan" N Prop Sem/Plc Sg Acc @nmod:poss #7->6
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->4
 
 # text = Akførini hjá sløkkiliðnum eru somuleiðis í ringum standi.
 # text[eng] = 
