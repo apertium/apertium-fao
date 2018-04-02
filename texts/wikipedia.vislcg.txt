@@ -14944,21 +14944,21 @@
 # text[eng] = 
 # labels = to_check
 "<Betesda>"
-	"Betesda" N Prop Sem/Fem Sg Nom @dep #1->
+	"Betesda" N Prop Sem/Fem Sg Nom @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Betesda>"
-	"Betesda" N Prop Sem/Fem Sg Nom @dep #3->
+	"Betesda" N Prop Sem/Fem Sg Nom @nsubj #3->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->5
 "<brøðrasamkoma>"
-	"brøðrasamkoma" N Fem Sg Nom Indef @dep #5->
+	"brøðrasamkoma" N Fem Sg Nom Indef @parataxis #5->1
 "<í>"
 	"í" Pr @case #6->7
 "<Klaksvík>"
-	"Klaksvík" N Prop Fem Sg Dat Indef @nmod #7->
+	"Klaksvík" N Prop Fem Sg Dat Indef @obl #7->5
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->5
 
 # text = Likka sæst allastaðni við føroysku strondina.
 # text[eng] = 
