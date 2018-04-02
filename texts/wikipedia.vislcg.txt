@@ -13441,184 +13441,184 @@
 	"." CLB @punct #8->7
 
 # text = Thimphu er høvuðsstaður í Butan.
-# text[eng] = 
+# text[eng] = Thimphu is the capital of Bhutan.
 # labels = to_check
 "<Thimphu>"
-	"Thimphu" N Prop Sem/Plc Sg Nom @dep #1->
+	"Thimphu" N Prop Sem/Plc Sg Nom @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<høvuðsstaður>"
-	"høvuðsstaður" N Msc Sg Nom Indef @dep #3->
+	"høvuðsstaður" N Msc Sg Nom Indef @root #3->0
 "<í>"
 	"í" Pr @case #4->5
 "<Butan>"
-	"butan" N Neu Sg Acc Indef @nmod #5->
+	"Butan" N Prop Sem/Plc Sg Acc @obl #5->3
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->3
 
 # text = Meginparturin av fólkinum í Butan býr á bygd og livir av landbúnaði.
-# text[eng] = 
+# text[eng] = The majority of people in Bhutan live in villages and live off the land.
 # labels = to_check
 "<Meginparturin>"
-	"meginpartur" N Msc Sg Nom Def @dep #1->
+	"meginpartur" N Msc Sg Nom Def @nsubj #1->6
 "<av>"
 	"av" Pr @case #2->3
 "<fólkinum>"
-	"fólk" N Neu Sg Dat Def @nmod #3->
+	"fólk" N Neu Sg Dat Def @nmod #3->1
 "<í>"
 	"í" Pr @case #4->5
 "<Butan>"
-	"butan" N Neu Sg Acc Indef @nmod #5->
+	"Butan" N Prop Sem/Plc Sg Acc @nmod #5->3
 "<býr>"
-	"búgva" V Ind Prs Sg3 @dep #6->
+	"búgva" V Ind Prs Sg3 @root #6->0
 "<á>"
 	"á" Pr @case #7->8
 "<bygd>"
-	"bygd" N Fem Sg Dat Indef @nmod #8->
+	"bygd" N Fem Sg Dat Indef @obl #8->6
 "<og>"
-	"og" CC @cc #9->
+	"og" CC @cc #9->10
 "<livir>"
-	"liva" V Ind Prs Sg3 @dep #10->
+	"liva" V Ind Prs Sg3 @conj #10->6
 "<av>"
 	"av" Pr @case #11->12
 "<landbúnaði>"
-	"landbúnaður" N Msc Sg Dat Indef @nmod #12->
+	"landbúnaður" N Msc Sg Dat Indef @obl #12->10
 "<.>"
-	"." CLB @punct #13->
+	"." CLB @punct #13->6
 
 # text = A vitaminir eru týdningarmiklar fyri sjónina.
-# text[eng] = 
+# text[eng] = Vitamin A is important for the sight.
 # labels = to_check
 "<A>"
-	"A" Abbr @dep #1->
+	"A" Abbr @compound #1->2
 "<vitaminir>"
-	"vitamin" N Fem Pl Nom Indef @dep #2->
+	"vitamin" N Fem Pl Nom Indef @nsubj #2->4
 "<eru>"
-	"vera" V Ind Prs Pl @cop #3->
+	"vera" V Ind Prs Pl @cop #3->4
 "<týdningarmiklar>"
-	"týdningarmikil" A Fem Pl Nom Indef @dep #4->
+	"týdningarmikil" A Fem Pl Nom Indef @root #4->0
 "<fyri>"
 	"fyri" Pr @case #5->6
 "<sjónina>"
-	"sjón" N Fem Sg Acc Def @nmod #6->
+	"sjón" N Fem Sg Acc Def @obl #6->4
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->4
 
 # text = Eisini aðrir felagsskapir hjálpa menningarlondunum.
-# text[eng] = 
+# text[eng] = Other associations also help developing countries.
 # labels = to_check
 "<Eisini>"
-	"eisini" Adv @dep #1->4
+	"eisini" Adv @advmod #1->4
 "<aðrir>"
 	"annar" A Msc Pl Nom @amod #2->3
 "<felagsskapir>"
-	"felagsskapur" N Msc Pl Nom Indef @dep #3->4
+	"felagsskapur" N Msc Pl Nom Indef @nsubj #3->4
 "<hjálpa>"
 	"hjálpa" V Ind Prs Pl @root #4->0
 "<menningarlondunum>"
-	"menningarland" N Neu Pl Dat Def @dep #5->4
+	"menningarland" N Neu Pl Dat Def @obj #5->4
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->4
 
 # text = Høvuðsstaður er Lilongwe.
-# text[eng] = 
+# text[eng] = The capital city is Lilongwe.
 # labels = to_check
 "<Høvuðsstaður>"
-	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->
+	"høvuðsstaður" N Msc Sg Nom Indef @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<Lilongwe>"
-	"Lilongwe" N Prop Sem/Sur Sg Nom @dep #3->
+	"Lilongwe" N Prop Sem/Sur Sg Nom @root #3->0
 "<.>"
-	"." CLB @punct #4->
+	"." CLB @punct #4->3
 
 # text = Børn og kvinnur við barn eru í størsta vandabólkinum at fáa malaria.
-# text[eng] = 
+# text[eng] = Children and pregnant women are most at risk of getting malaria.
 # labels = to_check
 "<Børn>"
-	"barn" N Neu Pl Nom Indef @dep #1->
+	"barn" N Neu Pl Nom Indef @nsubj #1->9
 "<og>"
-	"og" CC @cc #2->
+	"og" CC @cc #2->3
 "<kvinnur>"
-	"kvinna" N Fem Pl Nom Indef @dep #3->
+	"kvinna" N Fem Pl Nom Indef @conj #3->1
 "<við>"
 	"við" Pr @case #4->5
 "<barn>"
-	"barn" N Neu Sg Acc Indef @nmod #5->
+	"barn" N Neu Sg Acc Indef @nmod #5->3
 "<eru>"
-	"vera" V Ind Prs Pl @cop #6->
+	"vera" V Ind Prs Pl @cop #6->9
 "<í>"
-	"í" Pr @case #7->
+	"í" Pr @case #7->9
 "<størsta>"
 	"stórur" A Superl Msc Sg Dat Def @amod #8->9
 "<vandabólkinum>"
-	"vandabólkur" N Msc Sg Dat Def @nmod #9->
+	"vandabólkur" N Msc Sg Dat Def @root #9->0
 "<at>"
-	"at" IM @dep #10->
+	"at" IM @mark #10->11
 "<fáa>"
-	"fáa" V Inf @dep #11->
+	"fáa" V Inf @acl #11->9
 "<malaria>"
-	"malaria" N Fem Sg Nom Indef @dep #12->
+	"malaria" N Fem Sg Nom Indef @obj #12->11
 "<.>"
-	"." CLB @punct #13->
+	"." CLB @punct #13->9
 
 # text = Og soleiðis bleiv tað eisini.
-# text[eng] = 
+# text[eng] = And thus it also became.
 # labels = to_check
 "<Og>"
-	"og" CC @cc #1->
+	"og" CC @cc #1->3
 "<soleiðis>"
-	"soleiðis" Adv @dep #2->3
+	"soleiðis" Adv @xcomp #2->3
 "<bleiv>"
 	"blíva" V Ind Prt Sg3 @root #3->0
 "<tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #4->
+	"tað" Pron Pers Sg3 Nom @nsubj #4->3
 "<eisini>"
 	"eisini" Adv @dep #5->3
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->3
 
 # text = Kular Røtur: Kular Røtur er ein føroyskur tónleikabólkur.
-# text[eng] = 
+# text[eng] = Kular Røtur: Kular Røtur is a Faroese music group.
 # labels = to_check
 "<Kular>"
-	"kula" V Ind Prs Sg3 @dep #1->
+	"Kular" N Prop Sg Nom @root #1->0
 "<Røtur>"
-	"rót" N Fem Pl Nom Indef @dep #2->
+	"Røtur" N Prop Sg Nom @flat #2->1
 "<:>"
-	":" CLB @punct #3->
+	":" CLB @punct #3->1
 "<Kular>"
-	"kula" V Ind Prs Sg3 @dep #4->
+	"Kular" N Prop Sg Nom @root #4->9
 "<Røtur>"
-	"rót" N Fem Pl Nom Indef @dep #5->
+	"Røtur" N Prop Sg Nom @flat #5->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #6->
+	"vera" V Ind Prs Sg3 @cop #6->9
 "<ein>"
-	"ein" Det Msc Sg Nom @det #7->
+	"ein" Det Msc Sg Nom @det #7->9
 "<føroyskur>"
 	"føroyskur" A Msc Sg Nom Indef @amod #8->9
 "<tónleikabólkur>"
-	"tónleikabólkur" N Msc Sg Nom Indef @dep #9->
+	"tónleikabólkur" N Msc Sg Nom Indef @root #9->0
 "<.>"
-	"." CLB @punct #10->
+	"." CLB @punct #10->9
 
 # text = Norðdepil er partur av Hvannasunds kommunu.
-# text[eng] = 
+# text[eng] = Norðdepil is part of Hvannasund commune.
 # labels = to_check
 "<Norðdepil>"
-	"Norðdepil" N Prop Msc Sg Nom Indef @dep #1->
+	"Norðdepil" N Prop Msc Sg Nom Indef @nsubj #1->3
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->
 "<partur>"
-	"partur" N Msc Sg Nom Indef @dep #3->
+	"partur" N Msc Sg Nom Indef @root #3->
 "<av>"
 	"av" Pr @case #4->5
 "<Hvannasunds>"
-	"Hvannasund" N Prop Neu Sg Gen Indef @nmod #5->
+	"Hvannasund" N Prop Neu Sg Gen Indef @nmod #5->6
 "<kommunu>"
-	"kommuna" N Fem Sg Dat Indef @dep #6->
+	"kommuna" N Fem Sg Dat Indef @nmod #6->3
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->3
 
 # text = Kr. varð ein búseting í Odessa av grikkum.
 # text[eng] = 
