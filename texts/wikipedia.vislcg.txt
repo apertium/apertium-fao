@@ -13588,7 +13588,7 @@
 "<:>"
 	":" CLB @punct #3->1
 "<Kular>"
-	"Kular" N Prop Sg Nom @root #4->9
+	"Kular" N Prop Sg Nom @nsubj #4->9
 "<Røtur>"
 	"Røtur" N Prop Sg Nom @flat #5->4
 "<er>"
@@ -13598,7 +13598,7 @@
 "<føroyskur>"
 	"føroyskur" A Msc Sg Nom Indef @amod #8->9
 "<tónleikabólkur>"
-	"tónleikabólkur" N Msc Sg Nom Indef @root #9->0
+	"tónleikabólkur" N Msc Sg Nom Indef @parataxis #9->1
 "<.>"
 	"." CLB @punct #10->9
 
@@ -13674,7 +13674,7 @@
 "<ein>"
 	"ein" Det Msc Sg Nom @det #5->6
 "<býur>"
-	"býur" N Msc Sg Nom Indef @root #6->0
+	"býur" N Msc Sg Nom Indef @parataxis #6->1
 "<í>"
 	"í" Pr @case #7->8
 "<Kanada>"
@@ -14531,56 +14531,56 @@
 	"." CLB @punct #5->4
 
 # text = Loðsurin er Bismarck.
-# text[eng] = 
+# text[eng] = The pilot is Bismarck.
 # labels = to_check
 "<Loðsurin>"
-	"loðsur" N Msc Sg Nom Def @dep #1->
+	"loðsur" N Msc Sg Nom Def @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<Bismarck>"
-	"Bismarck" N Prop Sem/Sur Sg Nom @dep #3->
+	"Bismarck" N Prop Sem/Sur Sg Nom @root  #3->0
 "<.>"
-	"." CLB @punct #4->
+	"." CLB @punct #4->3
 
 # text = Í Karibia eru 25 ymisk lond.
-# text[eng] = 
+# text[eng] = In the Carribbean there are 25 different countries.
 # labels = to_check
 "<Í>"
 	"í" Pr @case #1->2
 "<Karibia>"
-	"Karibia" N Prop Sg Nom @nmod #2->
+	"Karibia" N Prop Sg Nom @root #2->0
 "<eru>"
-	"vera" V Ind Prs Pl @cop #3->
+	"vera" V Ind Prs Pl @cop #3->2
 "<25>"
-	"25" Num Nom @dep #4->
+	"25" Num Nom @nummod #4->6
 "<ymisk>"
 	"ymiskur" A Neu Pl Nom Indef @amod #5->6
 "<lond>"
-	"land" N Neu Pl Nom Indef @dep #6->
+	"land" N Neu Pl Nom Indef @nsubj #6->2
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->2
 
 # text = Ferðafólkavinnan er størsta inntøkan á nógvum oyggjum har.
-# text[eng] = 
+# text[eng] = Tourism is the largest income in many islands here.
 # labels = to_check
 "<Ferðafólkavinnan>"
-	"ferðafólk#vinna" N Fem Sg Nom Def @dep #1->
+	"ferðafólk#vinna" N Fem Sg Nom Def @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<størsta>"
 	"stórur" A Superl Fem Sg Nom Def @amod #3->4
 "<inntøkan>"
-	"inntøka" N Fem Sg Nom Def @dep #4->
+	"inntøka" N Fem Sg Nom Def @root #4->0
 "<á>"
-	"á" Pr @case #5->
+	"á" Pr @case #5->7
 "<nógvum>"
 	"nógvur" A Fem Pl Dat Indef @amod #6->7
 "<oyggjum>"
-	"oyggj" N Fem Pl Dat Indef @nmod #7->
+	"oyggj" N Fem Pl Dat Indef @obl #7->4
 "<har>"
-	"har" Adv @dep #8->
+	"har" Adv @advmod #8->4
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->4
 
 # text = úr 1999 er onnur útgávan hjá tónleikabólkinum.
 # text[eng] = 
@@ -14603,32 +14603,32 @@
 	"." CLB @punct #8->
 
 # text = Garðarnir eru stórir og fullir av kokuspálmum, gummitrøum og grønmeti.
-# text[eng] = 
+# text[eng] = The farms are big and full of coconut palms, rubber trees and vegetables.
 # labels = to_check
 "<Garðarnir>"
-	"garður" N Msc Pl Nom Def @dep #1->
+	"garður" N Msc Pl Nom Def @nsubj #1->3
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->3
 "<stórir>"
-	"stórur" A Msc Pl Nom Indef @dep #3->
+	"stórur" A Msc Pl Nom Indef @root #3->0
 "<og>"
-	"og" CC @cc #4->
+	"og" CC @cc #4->5
 "<fullir>"
-	"fullur" A Msc Pl Nom Indef @dep #5->
+	"fullur" A Msc Pl Nom Indef @conj #5->3
 "<av>"
 	"av" Pr @case #6->7
 "<kokuspálmum>"
-	"kokuspálmi" N Msc Pl Dat Indef @nmod #7->
+	"kokuspálmi" N Msc Pl Dat Indef @nmod #7->5
 "<,>"
-	"," CLB @punct #8->
+	"," CLB @punct #8->9
 "<gummitrøum>"
-	"gummitrø" N Neu Pl Dat Indef @dep #9->
+	"gummitrø" N Neu Pl Dat Indef @conj #9->7
 "<og>"
-	"og" CC @cc #10->
+	"og" CC @cc #10->11
 "<grønmeti>"
-	"grønmeti" N Neu Sg Dat Indef @dep #11->
+	"grønmeti" N Neu Sg Dat Indef @conj #11->7
 "<.>"
-	"." CLB @punct #12->
+	"." CLB @punct #12->3
 
 # text = Verkætlanin skuldi føra til ein film og enda við eini konsert.
 # text[eng] = 
@@ -14671,8 +14671,8 @@
 	"." CLB @punct #4->
 
 # text = „ Sátan “merkir fíggindi ella mótstøðumaður.
-# text[eng] = 
-# labels = to_check
+# text[eng] = Satan "marks enemy and opponent.
+# labels = to_check disam
 "<„>"
 	"„" PUNCT LEFT @punct #1->
 "<Sátan>"
@@ -14731,26 +14731,26 @@
 	"." CLB @punct #8->
 
 # text = Hann er tónleikari og onnur helvtin í tónleikabólkinum.
-# text[eng] = 
+# text[eng] = He is a musician and the other half in the band.
 # labels = to_check
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<tónleikari>"
-	"tónleikari" N Msc Sg Nom Indef @dep #3->
+	"tónleikari" N Msc Sg Nom Indef @root #3->0
 "<og>"
-	"og" CC @cc #4->
+	"og" CC @cc #4->6
 "<onnur>"
 	"annar" A Fem Nom @amod #5->6
 "<helvtin>"
-	"helvt" N Fem Sg Nom Def @dep #6->
+	"helvt" N Fem Sg Nom Def @conj #6->3
 "<í>"
 	"í" Pr @case #7->8
 "<tónleikabólkinum>"
-	"tónleikabólkur" N Msc Sg Dat Def @nmod #8->
+	"tónleikabólkur" N Msc Sg Dat Def @nmod #8->6
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->3
 
 # text = Móses var aldur upp og lærdur sum tað sømdi seg einum egyptiskum prinsi.
 # text[eng] = 
@@ -14821,20 +14821,20 @@
 	"." CLB @punct #16->
 
 # text = Blóðið av lambinum var bjargingin.
-# text[eng] = 
+# text[eng] = The blood of the lamb was saved.
 # labels = to_check
 "<Blóðið>"
-	"blóð" N Neu Sg Nom Def @dep #1->
+	"blóð" N Neu Sg Nom Def @nsubj #1->5
 "<av>"
 	"av" Pr @case #2->3
 "<lambinum>"
-	"lamb" N Neu Sg Dat Def @nmod #3->
+	"lamb" N Neu Sg Dat Def @nmod #3->1
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #4->
+	"vera" V Ind Prt Sg3 @cop #4->5
 "<bjargingin>"
-	"bjarging" N Fem Sg Nom Def @dep #5->
+	"bjarging" N Fem Sg Nom Def @root #5->0
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->5
 
 # text = Um dagin gingu tey eftir skýstólpa og um náttina eftir eldstólpa.
 # text[eng] = 
