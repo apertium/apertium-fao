@@ -16126,7 +16126,7 @@
 
 # text = Á tunguni eru smáar tenn.
 # text[eng] = 
-# labels = to_check
+# labels = to_check disam
 "<Á>"
 	"á" Pr @case #1->2
 "<tunguni>"
@@ -16193,22 +16193,22 @@
 	"." CLB @punct #14->
 
 # text = Kræklingur gýtir um summarið.
-# text[eng] = 
+# text[eng] = Mussels spawn in the summertime.
 # labels = to_check
 "<Kræklingur>"
-	"kræklingur" N Msc Sg Nom Indef @dep #1->2
+	"kræklingur" N Msc Sg Nom Indef @nsubj #1->2
 "<gýtir>"
 	"gýta" V Ind Prs Sg3 @root #2->0
 "<um>"
 	"um" Pr @case #3->4
 "<summarið>"
-	"summar" N Neu Sg Acc Def @nmod #4->
+	"summar" N Neu Sg Acc Def @obl #4->2
 "<.>"
-	"." CLB @punct #5->
+	"." CLB @punct #5->2
 
 # text = Flestu sýrar eru muslimar og tala arábiskt.
 # text[eng] = 
-# labels = to_check
+# labels = to_check disam
 "<Flestu>"
 	"mangur" A Superl Msc Pl Nom Def @amod #1->2
 "<sýrar>"
@@ -16255,58 +16255,58 @@
 	"." CLB @punct #12->
 
 # text = Stórt vatntrot er í Miðeystri.
-# text[eng] = 
+# text[eng] = There is a big water shortage in the Middle East.
 # labels = to_check
 "<Stórt>"
 	"stórur" A Neu Sg Nom Indef @amod #1->2
 "<vatntrot>"
-	"vatntrot" N Neu Sg Nom Indef @dep #2->
+	"vatntrot" N Neu Sg Nom Indef @nsubj #2->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #3->
+	"vera" V Ind Prs Sg3 @cop #3->5
 "<í>"
 	"í" Pr @case #4->5
 "<Miðeystri>"
-	"Miðeystur" N Prop Neu Sg Dat Indef @nmod #5->
+	"Miðeystur" N Prop Neu Sg Dat Indef @root #5->0
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->5
 
 # text = Føroyar kom í hálvfinaluna, sum var móti Hetlandi.
-# text[eng] = 
+# text[eng] = The Faroe Islands came in the half final, which was against Shetland.
 # labels = to_check
 "<Føroyar>"
-	"Føroyar" N Prop Fem Pl Acc Indef @dep #1->2
+	"Føroyar" N Prop Fem Pl Acc Indef @nsubj #1->2
 "<kom>"
 	"koma" V Ind Prt Sg3 @root #2->0
 "<í>"
 	"í" Pr @case #3->4
 "<hálvfinaluna>"
-	"hálvfinala" N Fem Sg Acc Def @nmod #4->
+	"hálvfinala" N Fem Sg Acc Def @obl #4->2
 "<,>"
-	"," CLB @punct #5->
+	"," CLB @punct #5->9
 "<sum>"
-	"sum" CS @dep #6->2
+	"sum" Pron Rel @nsubj #6->9
 "<var>"
-	"varur" A Neu Pl Acc Indef @dep #7->2
+	"vera" V Ind Prt Sg3 @cop #7->9
 "<móti>"
 	"móti" Pr @case #8->9
 "<Hetlandi>"
-	"Hetland" N Prop Neu Sg Dat Indef @nmod #9->
+	"Hetland" N Prop Neu Sg Dat Indef @nmod #9->4
 "<.>"
-	"." CLB @punct #10->
+	"." CLB @punct #10->2
 
 # text = Føroyar vann allir dystirnir.
-# text[eng] = 
+# text[eng] = The Faroe Islands won all the matches.
 # labels = to_check
 "<Føroyar>"
-	"Føroyar" N Prop Fem Pl Acc Indef @dep #1->2
+	"Føroyar" N Prop Fem Pl Nom Indef @nsubj #1->2
 "<vann>"
 	"vinna" V Ind Prt Sg3 @root #2->0
 "<allir>"
-	"allur" Det Msc Pl Nom Indef @det #3->4
+	"allur" Det Msc Pl Acc Indef @det #3->4
 "<dystirnir>"
-	"dystur" N Msc Pl Nom Def @dep #4->2
+	"dystur" N Msc Pl Acc Def @obj #4->2
 "<.>"
-	"." CLB @punct #5->
+	"." CLB @punct #5->2
 
 # text = Føturnir eru so aftarlaga, at hann er ikki gonguførur.
 # text[eng] = 
@@ -16335,16 +16335,16 @@
 	"." CLB @punct #11->
 
 # text = Dúnungarnir eru svartir.
-# text[eng] = 
+# text[eng] = The goslings are black.
 # labels = to_check
 "<Dúnungarnir>"
-	"dúnungi" N Msc Pl Nom Def @dep #1->
+	"dúnungi" N Msc Pl Nom Def @nsubj #1->3
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->3
 "<svartir>"
-	"svartur" A Msc Pl Nom Indef @dep #3->
+	"svartur" A Msc Pl Nom Indef @root #3->0
 "<.>"
-	"." CLB @punct #4->
+	"." CLB @punct #4->3
 
 # text = Á veingjunum er hann meira gráligur.
 # text[eng] = 
@@ -16364,69 +16364,57 @@
 "<.>"
 	"." CLB @punct #7->
 
-# text = Dúnungin er svartur.
-# text[eng] = 
-# labels = to_check
-"<Dúnungin>"
-	"dúnungi" N Msc Sg Nom Def @dep #1->
-"<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
-"<svartur>"
-	"svartur" A Msc Sg Nom Indef @dep #3->
-"<.>"
-	"." CLB @punct #4->
-
 # text = Hetta er storkapápin.
 # text[eng] = 
 # labels = to_check
 "<Hetta>"
-	"hesin" Pron Dem Neu Sg Acc @dep #1->
+	"hesin" Pron Dem Neu Sg Nom @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<storkapápin>"
-	"storkur#pápi" N Msc Sg Nom Def @dep #3->
+	"storkur#pápi" N Msc Sg Nom Def @root #3->0
 "<.>"
-	"." CLB @punct #4->
+	"." CLB @punct #4->3
 
 # text = Føturnir eru reyðir.
 # text[eng] = 
 # labels = to_check
 "<Føturnir>"
-	"fótur" N Msc Pl Nom Def @dep #1->
+	"fótur" N Msc Pl Nom Def @nsubj #1->3
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->3
 "<reyðir>"
-	"reyður" A Msc Pl Nom Indef @dep #3->
+	"reyður" A Msc Pl Nom Indef @root #3->0
 "<.>"
-	"." CLB @punct #4->
+	"." CLB @punct #4->3
 
 # text = Føturnir eru gulir.
 # text[eng] = 
 # labels = to_check
 "<Føturnir>"
-	"fótur" N Msc Pl Nom Def @dep #1->
+	"fótur" N Msc Pl Nom Def @nsubj #1->3
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->3
 "<gulir>"
-	"gulur" A Msc Pl Nom Indef @dep #3->
+	"gulur" A Msc Pl Nom Indef @root #3->0
 "<.>"
-	"." CLB @punct #4->
+	"." CLB @punct #4->3
 
 # text = Æða er sjaldsama spakur fuglur.
 # text[eng] = 
 # labels = to_check
 "<Æða>"
-	"æða" N Fem Sg Nom Indef @dep #1->
+	"æða" N Fem Sg Nom Indef @nsubj #1->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->5
 "<sjaldsama>"
-	"sjaldsamur" A Fem Sg Nom Def @dep #3->
+	"sjaldsamur" A Fem Sg Nom Def @amod #3->5
 "<spakur>"
 	"spakur" A Msc Sg Nom Indef @amod #4->5
 "<fuglur>"
-	"fuglur" N Msc Sg Nom Indef @dep #5->
+	"fuglur" N Msc Sg Nom Indef @root #5->0
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->5
 
 # text = Bøgan líkist nógv æðu.
 # text[eng] = 
@@ -16459,22 +16447,22 @@
 	"." CLB @punct #6->
 
 # text = Floygdir ungar eru littir sum bøgan.
-# text[eng] = 
+# text[eng] = Fledged young are coloured like the female.
 # labels = to_check
 "<Floygdir>"
 	"floygdur" A Msc Pl Nom Indef @amod #1->2
 "<ungar>"
-	"ungi" N Msc Pl Nom Indef @dep #2->
+	"ungi" N Msc Pl Nom Indef @nsubj #2->4
 "<eru>"
-	"vera" V Ind Prs Pl @cop #3->
+	"vera" V Ind Prs Pl @cop #3->4
 "<littir>"
-	"littur" A Msc Pl Nom Indef @dep #4->
+	"littur" A Msc Pl Nom Indef @root #4->0
 "<sum>"
-	"sum" Pr @case #5->6
+	"sum" CS @mark #5->6
 "<bøgan>"
-	"bøga" N Fem Sg Nom Def @nmod #6->
+	"bøga" N Fem Sg Nom Def @advcl #6->4
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->4
 
 # text = Falkur livir í einbýli og tolir ikki aðrar falkar nær hjá sær.
 # text[eng] = 
