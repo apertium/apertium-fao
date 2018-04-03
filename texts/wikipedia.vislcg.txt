@@ -23365,27 +23365,25 @@
 "<.>"
 	"." CLB @punct #9->6
 
-# text = Í 2010 var fólkatalið í býnum 19.075. Keldur.
+# text = Í 2010 var fólkatalið í býnum 19.075.
 # text[eng] = 
 # labels = to_check
 "<Í>"
-	"í" Pr @case #1->
+	"í" Pr @case #1->2
 "<2010>"
-	"2010" Num Dat @dep #2->
+	"2010" Num Dat @obl #2->7
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #3->
+	"vera" V Ind Prt Sg3 @cop #3->7
 "<fólkatalið>"
-	"fólkatal" N Neu Sg Nom Def @dep #4->
+	"fólkatal" N Neu Sg Nom Def @nsubj #4->7
 "<í>"
 	"í" Pr @case #5->6
 "<býnum>"
-	"býur" N Msc Pl Dat Def @nmod #6->
+	"býur" N Msc Pl Dat Def @nmod #6->4
 "<19.075.>"
-	"19.075" A Ord @dep #7->
-"<Keldur>"
-	"kelda" N Fem Pl Acc Indef @dep #8->
+	"19.075" A Ord @root #7->0
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #8->7
 
 # text = Meira enn helmingurin av bókunum vóru skaldsøgur.
 # text[eng] = 
@@ -23411,19 +23409,19 @@
 # text[eng] = 
 # labels = to_check
 "<Enn>"
-	"enn" Adv @dep #1->2
+	"enn" Adv @advmod #1->6
 "<hevur>"
-	"hava" V Ind Prs Sg3 @root #2->0
+	"hava" V Ind Prs Sg3 @aux #2->6
 "<hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #3->
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #3->6
 "<tó>"
-	"tó" Adv @dep #4->2
+	"tó" Adv @advmod #4->6
 "<ikki>"
-	"ikki" Adv @dep #5->2
+	"ikki" Adv @advmod #5->6
 "<vunnið>"
-	"vinna" V Sup @dep #6->2
+	"vinna" V Sup @root #6->0
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Andaðist í arbeiðsvanlukku.
 # text[eng] = 
@@ -23433,29 +23431,29 @@
 "<í>"
 	"í" Pr @case #2->3
 "<arbeiðsvanlukku>"
-	"arbeið#vanlukka" N Fem Sg Dat Indef @nmod #3->
+	"arbeið#vanlukka" N Fem Sg Dat Indef @obl #3->1
 "<.>"
-	"." CLB @punct #4->
+	"." CLB @punct #4->1
 
 # text = Virðislønin er á 10 milliónir svenskar krónur.
 # text[eng] = 
 # labels = to_check
 "<Virðislønin>"
-	"virðisløn" N Fem Sg Nom Def @dep #1->
+	"virðisløn" N Fem Sg Nom Def @nsubj #1->7
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->7
 "<á>"
-	"á" Pr @case #3->
+	"á" Pr @case #3->7
 "<10>"
 	"10" Num Dat @nummod #4->5
 "<milliónir>"
-	"millión" N Fem Pl Acc Indef @nmod #5->
+	"millión" N Fem Pl Acc Indef @nummod #5->7
 "<svenskar>"
 	"svenskur" A Fem Pl Acc Indef @amod #6->7
 "<krónur>"
-	"króna" N Fem Pl Acc Indef @dep #7->
+	"króna" N Fem Pl Acc Indef @root #7->0
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->7
 
 # text = var ein sjónvarpsrøð.
 # text[eng] = 
@@ -23475,15 +23473,15 @@
 "<Í>"
 	"í" Pr @case #1->2
 "<trygdarráðnum>"
-	"trygdarráð" N Neu Pl Dat Def @nmod #2->
+	"trygdarráð" N Neu Pl Dat Def @root #2->0
 "<eru>"
-	"vera" V Ind Prs Pl @cop #3->
+	"vera" V Ind Prs Pl @cop #3->2
 "<fimtan>"
 	"fimtan" Num @nummod #4->5
 "<limir>"
-	"limur" N Msc Pl Nom Indef @dep #5->
+	"limur" N Msc Pl Nom Indef @nsubj #5->2
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->5
 
 # text = Nevndin ásetur sjálv sína fundarskipan.
 # text[eng] = 
@@ -23497,7 +23495,7 @@
 "<sína>"
 	"sín" Det Poss Fem Sg Acc @det #4->5
 "<fundarskipan>"
-	"fundarskipan" N Fem Sg Acc Indef @dep #5->2
+	"fundarskipan" N Fem Sg Acc Indef @obj #5->2
 "<.>"
 	"." CLB @punct #6->
 
@@ -23575,33 +23573,33 @@
 # text[eng] = 
 # labels = to_check
 "<Leggurin>"
-	"leggur" N Msc Sg Nom Def @dep #1->
+	"leggur" N Msc Sg Nom Def @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<snøggur>"
-	"snøggur" A Msc Sg Nom Indef @dep #3->
+	"snøggur" A Msc Sg Nom Indef @root #3->0
 "<,>"
-	"," CLB @punct #4->
+	"," CLB @punct #4->7
 "<og>"
-	"og" CC @cc #5->
+	"og" CC @cc #5->7
 "<blaðleggurin>"
-	"blað#leggur" N Msc Sg Nom Def @dep #6->
+	"blað#leggur" N Msc Sg Nom Def @nsubj #6->7
 "<hevur>"
-	"hava" V Ind Prs Sg3 @dep #7->
+	"hava" V Ind Prs Sg3 @conj #7->3
 "<onga>"
-	"eingin" Pron Indef Fem Sg Acc @dep #8->
+	"eingin" Pron Indef Fem Sg Acc @obj #8->7
 "<ella>"
-	"ella" CC @cc #9->
+	"ella" CC @cc #9->13
 "<bara>"
-	"bara" Adv @dep #10->
+	"bara" Adv @advmod #10->11
 "<eina>"
-	"ein" Det Fem Sg Acc @det #11->
+	"ein" Det Fem Sg Acc @det #11->13
 "<grunna>"
 	"grunnur" A Fem Sg Acc Indef @amod #12->13
 "<foyru>"
-	"foyra" N Fem Sg Acc Indef @dep #13->
+	"foyra" N Fem Sg Acc Indef @conj #13->8
 "<.>"
-	"." CLB @punct #14->
+	"." CLB @punct #14->3
 
 # text = Tá dámar t.d. kópunum at bólta sær á ísinum.
 # text[eng] = 
@@ -23633,19 +23631,19 @@
 "<Í>"
 	"í" Pr @case #1->2
 "<bakkanum>"
-	"bakki" N Msc Sg Dat Def @nmod #2->
+	"bakki" N Msc Sg Dat Def @root #2->0
 "<eru>"
-	"vera" V Ind Prs Pl @cop #3->
+	"vera" V Ind Prs Pl @cop #3->2
 "<9>"
 	"9" Num Nom @nummod #4->5
 "<byrgingar>"
-	"byrging" N Fem Pl Nom Indef @nsubj #5->
+	"byrging" N Fem Pl Nom Indef @nsubj #5->2
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->2
 
 # text = Hann er roðslusettur líka úr klingruni fram móti eygunum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check disam
 "<Hann>"
 	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->3
 "<er>"
@@ -23667,51 +23665,23 @@
 "<.>"
 	"." CLB @punct #10->
 
-# text = Og har er eisini ein stór oyðimørk, sum eitur Gobi.
-# text[eng] = 
-# labels = to_check
-"<Og>"
-	"og" CC @cc #1->
-"<har>"
-	"har" Adv @dep #2->
-"<er>"
-	"vera" V Ind Prs Sg3 @cop #3->
-"<eisini>"
-	"eisini" Adv @dep #4->
-"<ein>"
-	"eitt" Num Fem Sg Nom @dep #5->
-"<stór>"
-	"stórur" A Fem Sg Nom Indef @amod #6->7
-"<oyðimørk>"
-	"oyðimørk" N Fem Sg Nom Indef @dep #7->
-"<,>"
-	"," CLB @punct #8->
-"<sum>"
-	"sum" CS @dep #9->
-"<eitur>"
-	"eitur" N Neu Sg Acc Indef @dep #10->
-"<Gobi>"
-	"Gobi" N Prop Sem/Plc Sg Acc @dep #11->
-"<.>"
-	"." CLB @punct #12->
-
 # text = Serlæknar eru serfrøðingar í ávísum sjúkum.
 # text[eng] = 
 # labels = to_check
 "<Serlæknar>"
-	"serlækni" N Msc Pl Nom Indef @dep #1->
+	"serlækni" N Msc Pl Nom Indef @nsubj #1->3
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->3
 "<serfrøðingar>"
-	"serfrøðingur" N Msc Pl Nom Indef @dep #3->
+	"serfrøðingur" N Msc Pl Nom Indef @root #3->0
 "<í>"
-	"í" Pr @case #4->
+	"í" Pr @case #4->6
 "<ávísum>"
 	"ávísur" A Fem Pl Dat Indef @amod #5->6
 "<sjúkum>"
-	"sjúka" N Fem Pl Dat Indef @nmod #6->
+	"sjúka" N Fem Pl Dat Indef @obl #6->3
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->3
 
 # text = Men tað var av tilvild, at portugisarnir, sum kannaðu vestursíðuna av Afrika endaðu á Madeira.
 # text[eng] = 
