@@ -25813,27 +25813,27 @@
 "<Eftir>"
 	"eftir" Pr @case #1->2
 "<tað>"
-	"tað" Pron Pers Sg3 Acc @nmod #2->
+	"tað" Pron Pers Sg3 Acc @obl #2->3
 "<flutti>"
-	"flyta" V Ind Prt Sg @dep #3->
+	"flyta" V Ind Prt Sg @root #3->0
 "<hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #4->
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #4->3
 "<til>"
 	"til" Pr @case #5->6
 "<Bergens>"
-	"Bergen" N Prop Sem/Plc Sg Gen @nmod #6->
+	"Bergen" N Prop Sem/Plc Sg Gen @obl #6->3
 "<,>"
-	"," CLB @punct #7->
+	"," CLB @punct #7->3
 "<og>"
-	"og" CC @cc #8->
+	"og" CC @cc #8->3
 "<tók>"
-	"taka" V Ind Prt Sg3 @dep #9->
+	"taka" V Ind Prt Sg3 @conj #9->3
 "<cand.>"
-	"cand" Abbr @dep #10->
+	"cand" Abbr @obj #10->9
 "<polit>"
-	"politi" N Neu Sg Nom Indef @dep #11->
+	"politi" N Neu Sg Nom Indef @conj #11->10
 "<.>"
-	"." CLB @punct #12->
+	"." CLB @punct #12->3
 
 # text = Tók dr. polit.
 # text[eng] = 
