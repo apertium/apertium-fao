@@ -22991,29 +22991,29 @@
 # text[eng] = 
 # labels = to_check
 "<Vänersborg>"
-	"Vänersborg" N Prop Sem/Plc Sg Nom @dep #1->
+	"Vänersborg" N Prop Sem/Plc Sg Nom @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Vänersborg>"
-	"Vänersborg" N Prop Sem/Plc Sg Nom @dep #3->
+	"Vänersborg" N Prop Sem/Plc Sg Nom @nsubj #3->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->6
 "<ein>"
 	"ein" Det Msc Sg Nom @det #5->6
 "<býur>"
-	"býur" N Msc Sg Nom Indef @dep #6->
+	"býur" N Msc Sg Nom Indef @parataxis #6->1
 "<í>"
-	"í" Pr @case #7->8
+	"í" Pr @case #7->9
 "<Vänersborgs>"
-	"Vänersborg" N Prop Sem/Plc Sg Gen @nmod #8->
+	"Vänersborg" N Prop Sem/Plc Sg Gen @nmod:poss #8->9
 "<kommunu>"
-	"kommuna" N Fem Sg Dat Indef @dep #9->
+	"kommuna" N Fem Sg Dat Indef @obl #9->6
 "<í>"
 	"í" Pr @case #10->11
 "<Svøríki>"
-	"Svøríki" N Prop Neu Sg Dat Indef @nmod #11->
+	"Svøríki" N Prop Neu Sg Dat Indef @obl #11->6
 "<.>"
-	"." CLB @punct #12->
+	"." CLB @punct #12->6
 
 # text = Lidköping: Lidköping er ein býur í Lidköpings kommunu í Svøríki.
 # text[eng] = 
@@ -23103,17 +23103,17 @@
 # text[eng] = 
 # labels = to_check
 "<Føroyar>"
-	"Føroyar" N Prop Fem Pl Acc Indef @dep #1->2
+	"Føroyar" N Prop Fem Pl Acc Indef @nsubj #1->2
 "<hevði>"
 	"hava" V Ind Prt Sg @root #2->0
 "<heimavøll>"
-	"heimavøllur" N Msc Sg Acc Indef @dep #3->2
+	"heimavøllur" N Msc Sg Acc Indef @obj #3->2
 "<í>"
 	"í" Pr @case #4->5
 "<Landskrona>"
-	"Landskrona" N Prop Sg Nom @nmod #5->
+	"Landskrona" N Prop Sg Nom @obl #5->2
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->2
 
 # text = Boden: Boden er ein býur í Bodens kommunu í Svøríki.
 # text[eng] = 
@@ -23205,17 +23205,17 @@
 "<Í>"
 	"í" Pr @case #1->2
 "<býnum>"
-	"býur" N Msc Pl Dat Def @nmod #2->
+	"býur" N Msc Pl Dat Def @root #2->0
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #3->
+	"vera" V Ind Prs Sg3 @cop #3->2
 "<ein>"
-	"ein" Det Msc Sg Nom @det #4->
+	"ein" Det Msc Sg Nom @det #4->6
 "<stórur>"
 	"stórur" A Msc Sg Nom Indef @amod #5->6
 "<flogvøllur>"
-	"flogvøllur" N Msc Sg Nom Indef @dep #6->
+	"flogvøllur" N Msc Sg Nom Indef @nsubj #6->6
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->2
 
 # text = Oskarshamn: Oskarshamn er ein býur í Oskarshamns kommunu í Svøríki.
 # text[eng] = 

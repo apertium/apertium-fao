@@ -8297,7 +8297,7 @@
 
 # sent_id = wikipedia.vislcg.txt:644:12732
 # text = Býurin liggur í landslutinum São Paulo, og hevði 718.646 íbúgvar í 2008.
-# text[eng] =
+# text[eng] = The city is in the state of São Paulo and had 718,646 inhabitants in 2008.
 # labels = to_check
 1	Býurin	býur	NOUN	N	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	liggur	liggja	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
@@ -8315,6 +8315,71 @@
 14	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = wikipedia.vislcg.txt:645:12764
+# text = Egina er ein kommuna í Attika landslutinum.
+# text[eng] =
+# labels = to_check
+1	Egina	Egina	PROPN	N	Case=Nom|Number=Sing	4	nsubj	_	_
+2	er	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
+3	ein	eitt	NUM	Num	Case=Nom|Gender=Fem|Number=Sing	4	nummod	_	_
+4	kommuna	kommuna	NOUN	N	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	_
+5	í	í	ADP	Pr	_	6	case	_	_
+6	Attika	Attika	PROPN	N	Case=Nom|Number=Sing	4	nmod	_	_
+7	landslutinum	landslutur	NOUN	N	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	6	compound	_	SpaceAfter=No
+8	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:646:12784
+# text = Hon hevur fyrr svomið fyri FLOT.
+# text[eng] = She has swum before for FLOT.
+# labels = to_check
+1	Hon	hon	PRON	Pron	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	hevur	hava	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux	_	_
+3	fyrr	fyrr	ADV	Adv	_	4	advmod	_	_
+4	svomið	svimja	VERB	V	VerbForm=Sup	0	root	_	_
+5	fyri	fyri	ADP	Pr	_	6	case	_	_
+6	FLOT	FLOT	NOUN	N	Case=Dat	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:647:12802
+# text = Vänersborg: Vänersborg er ein býur í Vänersborgs kommunu í Svøríki.
+# text[eng] =
+# labels = to_check
+1	Vänersborg	Vänersborg	PROPN	N	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	CLB	_	1	punct	_	_
+3	Vänersborg	Vänersborg	PROPN	N	Case=Nom|Number=Sing	6	nsubj	_	_
+4	er	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	cop	_	_
+5	ein	ein	DET	Det	Case=Nom|Gender=Masc|Number=Sing	6	det	_	_
+6	býur	býur	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	parataxis	_	_
+7	í	í	ADP	Pr	_	9	case	_	_
+8	Vänersborgs	Vänersborg	PROPN	N	Case=Gen|Number=Sing	9	nmod:poss	_	_
+9	kommunu	kommuna	NOUN	N	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	_
+10	í	í	ADP	Pr	_	11	case	_	_
+11	Svøríki	Svøríki	PROPN	N	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
+12	.	.	PUNCT	CLB	_	6	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:648:12830
+# text = Føroyar hevði heimavøll í Landskrona.
+# text[eng] =
+# labels = to_check
+1	Føroyar	Føroyar	PROPN	N	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	2	nsubj	_	_
+2	hevði	hava	VERB	V	Mood=Ind|Number=Sing|Tense=Past	0	root	_	_
+3	heimavøll	heimavøllur	NOUN	N	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	_
+4	í	í	ADP	Pr	_	5	case	_	_
+5	Landskrona	Landskrona	PROPN	N	Case=Nom|Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:649:12846
+# text = Í býnum er ein stórur flogvøllur.
+# text[eng] =
+# labels = to_check
+1	Í	í	ADP	Pr	_	2	case	_	_
+2	býnum	býur	NOUN	N	Case=Dat|Definite=Def|Gender=Masc|Number=Plur	0	root	_	_
+3	er	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
+4	ein	ein	DET	Det	Case=Nom|Gender=Masc|Number=Sing	6	det	_	_
+5	stórur	stórur	ADJ	A	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	amod	_	_
+6	flogvøllur	flogvøllur	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:650:12864
 # text = Jarn er eitt metal.
 # text[eng] = Iron is a metal.
 # labels = checked
@@ -8324,7 +8389,7 @@
 4	metal	metal	NOUN	N	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	CLB	_	4	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:646:12778
+# sent_id = wikipedia.vislcg.txt:651:12878
 # text = Hon spældi leiklutin sum Birita.
 # text[eng] = She played the character of Birita.
 # labels = checked
@@ -8335,7 +8400,7 @@
 5	Birita	Birita	PROPN	N	Case=Nom|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	2	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:647:12794
+# sent_id = wikipedia.vislcg.txt:652:12894
 # text = Filmurin er 17 minuttir langur.
 # text[eng] = The film is 17 minutes long.
 # labels = to_check
@@ -8346,7 +8411,7 @@
 5	langur	langur	ADJ	A	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	5	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:648:12810
+# sent_id = wikipedia.vislcg.txt:653:12910
 # text = Drívið á!
 # text[eng] =
 # labels = checked
@@ -8354,7 +8419,7 @@
 2	á	á	ADV	Adv	_	1	advmod	_	SpaceAfter=No
 3	!	!	PUNCT	CLB	_	1	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:649:12820
+# sent_id = wikipedia.vislcg.txt:654:12920
 # text = Eg taki sjálvsagt átaluna til eftirtektar.
 # text[eng] =
 # labels = checked
@@ -8366,7 +8431,7 @@
 6	eftirtektar	eftirtekt	NOUN	N	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	2	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:650:12838
+# sent_id = wikipedia.vislcg.txt:655:12938
 # text = Kankaanpää: Kankaanpää er ein býur og ein kommuna í Finnlandi.
 # text[eng] = Kankaanpää: Kankaanpää is a city and commune in Finland.
 # labels = to_check
@@ -8383,7 +8448,7 @@
 11	Finnlandi	Finnland	PROPN	N	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
 12	.	.	PUNCT	CLB	_	6	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:651:12866
+# sent_id = wikipedia.vislcg.txt:656:12966
 # text = Framsóknarflokkurin: Framsóknarflokkurin var ein politiskur flokkur í Føroyum.
 # text[eng] = The Progressive Party: The Progressive Party is a political party in the Faroe Islands.
 # labels = to_check
@@ -8398,7 +8463,7 @@
 9	Føroyum	Føroyar	PROPN	N	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	CLB	_	7	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:652:12890
+# sent_id = wikipedia.vislcg.txt:657:12990
 # text = Eyðkendur roykur gongur av henni.
 # text[eng] = Distinctive smoke comes from it.
 # labels = to_check
@@ -8409,7 +8474,7 @@
 5	henni	hon	PRON	Pron	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	3	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:653:12906
+# sent_id = wikipedia.vislcg.txt:658:13006
 # text = Her er ein sperra, sum eg havi funnið.
 # text[eng] = Here is a sperra that I have found.
 # labels = to_check
@@ -8424,7 +8489,7 @@
 9	funnið	finna	VERB	V	VerbForm=Sup	4	acl	_	SpaceAfter=No
 10	.	.	PUNCT	CLB	_	1	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:654:12930
+# sent_id = wikipedia.vislcg.txt:659:13030
 # text = Í dag varir kappingin í tríggjar vikur.
 # text[eng] =
 # labels = to_check
@@ -8437,7 +8502,7 @@
 7	vikur	vika	NOUN	N	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	7	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:655:12950
+# sent_id = wikipedia.vislcg.txt:660:13050
 # text = Kappingin byrjaði í Napoli og endaði í Brescia.
 # text[eng] = The competition starts in Naples and ends in Brescia.
 # labels = checked
@@ -8451,7 +8516,7 @@
 8	Brescia	Brescia	PROPN	N	Case=Nom|Number=Sing	6	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	2	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:656:12972
+# sent_id = wikipedia.vislcg.txt:661:13072
 # text = Sigrar eftir landi.
 # text[eng] =
 # labels = checked
@@ -8460,7 +8525,7 @@
 3	landi	land	NOUN	N	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	1	obl	_	SpaceAfter=No
 4	.	.	PUNCT	CLB	_	1	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:657:12984
+# sent_id = wikipedia.vislcg.txt:662:13084
 # text = Hann er eisini ríkisborgari í Liechtenstein.
 # text[eng] = He is also a citizen of Lichtenstein.
 # labels = checked
@@ -8472,7 +8537,7 @@
 6	Liechtenstein	Liechtenstein	PROPN	N	Case=Acc|Number=Sing	4	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	4	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:658:13002
+# sent_id = wikipedia.vislcg.txt:663:13102
 # text = Franska fótbóltslandsliðið: Franska fótbóltslandsliðið er fótbóltslandslið Fraklands.
 # text[eng] = French football team: The French football team is the football team of France.
 # labels = checked
@@ -8486,7 +8551,7 @@
 8	Fraklands	Frakland	PROPN	N	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	7	nmod:poss	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	7	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:659:13024
+# sent_id = wikipedia.vislcg.txt:664:13124
 # text = Í 2016 væntar oyggin at fáa yvir tíggju milliónir ferðafólk á vitjan.
 # text[eng] = In 2016 the islands expect to receive over three million tourist visits.
 # labels = checked
@@ -8504,7 +8569,7 @@
 12	vitjan	vitjan	NOUN	N	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
 13	.	.	PUNCT	CLB	_	3	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:660:13054
+# sent_id = wikipedia.vislcg.txt:665:13154
 # text = Kappingin var merkt av vánaligum veðurlíkindum.
 # text[eng] = The competition was marked by poor weather conditions.
 # labels = to_check
