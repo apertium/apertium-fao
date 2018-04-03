@@ -25831,7 +25831,7 @@
 "<cand.>"
 	"cand" Abbr @obj #10->9
 "<polit>"
-	"politi" N Neu Sg Nom Indef @conj #11->10
+	"politi" N Neu Sg Nom Indef @compound #11->10
 "<.>"
 	"." CLB @punct #12->3
 
@@ -25841,11 +25841,11 @@
 "<Tók>"
 	"taka" V Ind Prt Sg3 @root #1->0
 "<dr.>"
-	"dr" Abbr @dep #2->1
+	"dr" Abbr @obj #2->1
 "<polit>"
-	"politi" N Neu Sg Nom Indef @dep #3->1
+	"politi" N Neu Sg Nom Indef @compound #3->2
 "<.>"
-	"." CLB @punct #4->
+	"." CLB @punct #4->1
 
 # text = Størsti býur er Ulsteinvik.
 # text[eng] = 
