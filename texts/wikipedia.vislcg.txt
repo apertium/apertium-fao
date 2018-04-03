@@ -25791,21 +25791,21 @@
 # text[eng] = 
 # labels = to_check
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<aðalstjórnarforkvinna>"
-	"aðalstjórn#forkvinna" N Fem Sg Nom Indef @dep #3->
+	"aðalstjórn#forkvinna" N Fem Sg Nom Indef @root #3->0
 "<í>"
 	"í" Pr @case #4->5
 "<starvsnevndini>"
-	"starvsnevnd" N Fem Sg Dat Def @nmod #5->
+	"starvsnevnd" N Fem Sg Dat Def @obl #5->3
 "<hjá>"
 	"hjá" Pr @case #6->7
 "<Tjóðveldi>"
-	"tjóðveldi" N Neu Sg Dat Indef @nmod #7->
+	"tjóðveldi" N Neu Sg Dat Indef @nmod #7->5
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->3
 
 # text = Eftir tað flutti hon til Bergens, og tók cand. polit.
 # text[eng] = 
