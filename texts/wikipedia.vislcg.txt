@@ -23781,31 +23781,31 @@
 # text[eng] = 
 # labels = to_check
 "<Virðislønin>"
-	"virðisløn" N Fem Sg Nom Def @dep #1->
+	"virðisløn" N Fem Sg Nom Def @nsubj #1->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->5
 "<á>"
-	"á" Pr @case #3->
+	"á" Pr @case #3->5
 "<350 000>"
 	"350 000" Num Dat @nummod #4->5
 "<krónur>"
-	"króna" N Fem Pl Acc Indef @nmod #5->
+	"króna" N Fem Pl Acc Indef @root #5->0
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->5
 
 # text = Sum ungur var Jógvan Fríðriksson sjómaður.
 # text[eng] = 
 # labels = to_check
 "<Sum>"
-	"sum" CS @dep #1->
+	"sum" CS @mark #1->2
 "<ungur>"
-	"ungur" A Msc Sg Nom Indef @dep #2->
+	"ungur" A Msc Sg Nom Indef @advcl #2->6
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #3->
+	"vera" V Ind Prt Sg3 @cop #3->6
 "<Jógvan>"
-	"Jógvan" N Prop Sem/Mal Sg Nom @flat #4->5
+	"Jógvan" N Prop Sem/Mal Sg Nom @nsubj #4->6
 "<Fríðriksson>"
-	"Fríðrikurssonur" N Prop Sem/Sur Msc Sg Acc Indef @nsubj #5->6
+	"Fríðrikurssonur" N Prop Sem/Sur Msc Sg Acc Indef @flat #5->4
 "<sjómaður>"
 	"sjómaður" N Msc Sg Nom Indef @root #6->0
 "<.>"
@@ -23825,9 +23825,9 @@
 "<30>"
 	"30" Num Dat @nummod #5->6
 "<ár>"
-	"ár" N Fem Sg Dat Indef @nmod #6->3
+	"ár" N Fem Sg Dat Indef @obl #6->3
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->3
 
 # text = A er eitt sjálvljóð.
 # text[eng] = 
@@ -23847,41 +23847,41 @@
 # text[eng] = 
 # labels = to_check
 "<Frá>"
-	"frá" Pr @case #1->
+	"frá" Pr @case #1->2
 "<1941-1960>"
-	"1941-1960" Num Dat @dep #2->
+	"1941-1960" Num Dat @obl #2->5
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #3->
+	"vera" V Ind Prt Sg3 @cop #3->5
 "<hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #4->
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #4->5
 "<formaður>"
-	"formaður" N Msc Sg Nom Indef @dep #5->
+	"formaður" N Msc Sg Nom Indef @root #5->0
 "<í>"
 	"í" Pr @case #6->7
 "<Listafelag>"
-	"listafelag" N Neu Sg Dat Indef @nmod #7->
+	"listafelag" N Neu Sg Dat Indef @obl #7->5
 "<Føroya>"
-	"Føroyar" N Prop Fem Pl Gen Indef @dep #8->
+	"Føroyar" N Prop Fem Pl Gen Indef @nmod:poss #8->7
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->5
 
 # text = Tekjan var upprunaliga nævur og flag.
 # text[eng] = 
 # labels = to_check
 "<Tekjan>"
-	"tekja" N Fem Sg Nom Def @dep #1->
+	"tekja" N Fem Sg Nom Def @nsubj #1->4
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #2->
+	"vera" V Ind Prt Sg3 @cop #2->4
 "<upprunaliga>"
 	"upprunaligur" A Fem Sg Nom Def @amod #3->4
 "<nævur>"
-	"nævur" N Fem Sg Nom Indef @dep #4->
+	"nævur" N Fem Sg Nom Indef @root #4->0
 "<og>"
-	"og" CC @cc #5->
+	"og" CC @cc #5->6
 "<flag>"
-	"flag" N Neu Sg Nom Indef @dep #6->
+	"flag" N Neu Sg Nom Indef @conj #6->4
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->4
 
 # text = Hon hevur eisini undirvíst á Fróðskaparsetri Føroya.
 # text[eng] = 
