@@ -23279,7 +23279,7 @@
 "<.>"
 	"." CLB @punct #15->
 
-# text = Í 2010 var fólkatalið í býnum 9.065. Býurin liggur við vatnið Vänern.
+# text = Í 2010 var fólkatalið í býnum 9.065. 
 # text[eng] = 
 # labels = to_check
 "<Í>"
@@ -23294,8 +23294,14 @@
 	"í" Pr @case #5->6
 "<býnum>"
 	"býur" N Msc Pl Dat Def @nmod #6->
-"<9.065.>"
+"<9.065>"
 	"9.065" A Ord @dep #7->
+"<.>"
+	"." CLB @punct #8->
+
+# text = Býurin liggur við vatnið Vänern.
+# text[eng] = 
+# labels = t_check
 "<Býurin>"
 	"býur" N Msc Sg Nom Def @dep #8->
 "<liggur>"
@@ -23343,21 +23349,21 @@
 "<Í>"
 	"í" Pr @case #1->2
 "<miðøldini>"
-	"miðøld" N Fem Sg Dat Def @nmod #2->
+	"miðøld" N Fem Sg Dat Def @obl #2->6
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #3->
+	"vera" V Ind Prt Sg3 @cop #3->6
 "<býurin>"
-	"býur" N Msc Sg Nom Def @dep #4->
+	"býur" N Msc Sg Nom Def @nsubj #4->6
 "<ein>"
 	"ein" Det Msc Sg Nom @det #5->6
 "<tingstaður>"
-	"tingstaður" N Msc Sg Nom Indef @dep #6->
+	"tingstaður" N Msc Sg Nom Indef @root #6->0
 "<og>"
-	"og" CC @cc #7->
+	"og" CC @cc #7->8
 "<marknaðarbýur>"
-	"marknaður#býur" N Msc Sg Nom Indef @dep #8->
+	"marknaður#býur" N Msc Sg Nom Indef @conj #8->6
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->6
 
 # text = Í 2010 var fólkatalið í býnum 19.075. Keldur.
 # text[eng] = 
