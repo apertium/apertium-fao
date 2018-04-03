@@ -1,5 +1,5 @@
 # text = Føroyar eru ikki limur í ES, hóast Danmark er.
-# text[eng] = The Faroe Isles are not a member of the EU, although Denmark is.
+# text[eng] = The Faroe Islands are not a member of the EU, although Denmark is.
 # labels = checked
 "<Føroyar>"
 	"Føroyar" N Prop Fem Pl Nom Indef @nsubj #1->4
@@ -25,7 +25,7 @@
 	"." CLB @punct #11->4
 
 # text = Avhaldsrørslan byrjar.
-# text[eng] = 
+# text[eng] = The abstinence movement begins.
 # labels = checked
 "<Avhaldsrørslan>"
 	"avhald#rørsla" N Fem Sg Nom Def @nsubj #1->2
@@ -35,7 +35,7 @@
 	"." CLB @punct #3->2
 
 # text = Í 1957 verður Útvarp Føroya stovnað.
-# text[eng] = 
+# text[eng] = In 1957 Útvarp Føroya is established.
 # labels = to_check
 "<Í>"
 	"í" Pr @case #1->2
@@ -85,7 +85,7 @@
 	"." CLB @punct #14->5
 
 # text = Frálæra fæst í fólkaskúlanum ella á frískúla.
-# text[eng] = 
+# text[eng] = Education is available through public schools or free schools.
 # labels = checked
 "<Frálæra>"
 	"frálæra" N Fem Sg Nom Indef @nsubj:pass #1->2
@@ -105,7 +105,7 @@
 	"." CLB @punct #8->2
 
 # text = Í frískúlum privatskúlum fæst frálæra, á sama hátt sum í fólkaskúlanum.
-# text[eng] = 
+# text[eng] = In free schools education is available, similar to in public schools.
 # labels = to_check
 "<Í>"
 	"í" Pr @case #1->2
@@ -135,27 +135,27 @@
 	"." CLB @punct #13->
 
 # text = Einans seyður og fuglur býr á oynni.
-# text[eng] = 
+# text[eng] = Only sheep and birds live on the island.
 # labels = to_check
 "<Einans>"
-	"einans" Adv @dep #1->5
+	"einans" Adv @advmod #1->2
 "<seyður>"
-	"seyður" N Msc Sg Nom Indef @dep #2->5
+	"seyður" N Msc Sg Nom Indef @nsubj #2->5
 "<og>"
-	"og" CC @cc #3->
+	"og" CC @cc #3->4
 "<fuglur>"
-	"fuglur" N Msc Sg Nom Indef @dep #4->5
+	"fuglur" N Msc Sg Nom Indef @conj #4->2
 "<býr>"
 	"búgva" V Ind Prs Sg3 @root #5->0
 "<á>"
 	"á" Pr @case #6->7
 "<oynni>"
-	"oy" N Fem Sg Dat Def @nmod #7->
+	"oy" N Fem Sg Dat Def @obl #7->5
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->5
 
 # text = Sjógvurin frystir ongantíð.
-# text[eng] = 
+# text[eng] = The sea never freezes.
 # labels = checked
 "<Sjógvurin>"
 	"sjógvur" N Msc Sg Nom Def @nsubj #1->2
@@ -167,7 +167,7 @@
 	"." CLB @punct #4->2
 
 # text = Í 2005 vóru tølini 73 % av mannfólkunum og 74 % av konufólkunum.
-# text[eng] = 
+# text[eng] = In 2005 the numbers were 73% men and 74% women.
 # labels = checked
 "<Í>"
 	"í" Pr @case #1->2
@@ -195,7 +195,7 @@
 	"." CLB @punct #12->5
 
 # text = Hon er eisini størsta fiskivinnuhavnin í landinum.
-# text[eng] = It was the very biggest fishing port in the country.
+# text[eng] = It is the also biggest fishing port in the country.
 # labels = to_check
 "<Hon>"
 	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->5
@@ -215,7 +215,7 @@
 	"." CLB @punct #8->5
 
 # text = Forsíða: Løgmenn í Føroyum: Hetta er ein listi av Løgmonnum í Føroyum.
-# text[eng] = Main page: Policemen in the Faroe Isles: This is a list of policemen in the Faroe Isles.
+# text[eng] = Main page: Prime ministers of the Faroe Islands: This is a list of prime ministers of the Faroe Islands.
 # labels = to_check
 "<Forsíða>"
 	"forsíða" N Fem Sg Nom Indef @root #1->0
@@ -267,7 +267,7 @@
 	"." CLB @punct #7->6
 
 # text = Føroyar og Grønland eru sjálvstýrandi lond í danska kongaríkinum.
-# text[eng] = The Faroe Isles and Greenland are autonomous countries in the Danish kingdom.
+# text[eng] = The Faroe Islands and Greenland are autonomous countries in the Danish kingdom.
 # labels = to_check
 "<Føroyar>"
 	"Føroyar" N Prop Fem Pl Nom Indef @nsubj #1->6
@@ -613,7 +613,7 @@
 	"." CLB @punct #12->11
 
 # text = Føroyskt mál: Føroyskt er høvuðsmálið í Føroyum.
-# text[eng] = Faroese language: Faroese is the main language of the Faroe Isles.
+# text[eng] = Faroese language: Faroese is the main language of the Faroe Islands.
 # labels = to_check
 "<Føroyskt>"
 	"føroyskur" A Neu Sg Nom Indef @amod #1->2
@@ -701,7 +701,7 @@
 	"." CLB @punct #12->
 
 # text = 18 oyggjar eru í Føroyum.
-# text[eng] = There are 18 islands in the Faroe Isles.
+# text[eng] = There are 18 islands in the Faroe Islands.
 # labels = to_check
 "<18>"
 	"18" Num Nom @nummod #1->2
@@ -1715,7 +1715,7 @@
 	"." CLB @punct #5->4
 
 # text = Í 1900 var bert ein katolikkur í Føroyum.
-# text[eng] = In 1900 there was only one Catholic in the Faroe Isles.
+# text[eng] = In 1900 there was only one Catholic in the Faroe Islands.
 # labels = to_check
 "<Í>"
 	"í" Pr @case #1->2
@@ -6763,7 +6763,7 @@
 	"." CLB @punct #9->5
 
 # text = Í Føroyum eru 14 prestagjøld og 20 prestar.
-# text[eng] = There are 14 parishes and 20 priests in the Faroe Isles.
+# text[eng] = There are 14 parishes and 20 priests in the Faroe Islands.
 # labels = to_check
 "<Í>"
 	"í" Pr @case #1->2
@@ -6919,7 +6919,7 @@
 	"." CLB @punct #6->5
 
 # text = Sí eisini bretska hersetingin í Føroyum.
-# text[eng] = See also the British occupation of the Faroe Isles.
+# text[eng] = See also the British occupation of the Faroe Islands.
 # labels = to_check
 "<Sí>"
 	"síggja" V Imp Sg @root #1->0
@@ -11097,7 +11097,7 @@
 	"." CLB @punct #10->7
 
 # text = T.d. kunnu nýføðingar í Føroyum í 2014 vænta at liva í 80,11 ár.
-# text[eng] = E.g. newborns in the Faroe Isles in 2014 could expect to live to 80.11 years old.
+# text[eng] = E.g. newborns in the Faroe Islands in 2014 could expect to live to 80.11 years old.
 # labels = to_check
 "<T.d.>"
 	"t.d" Abbr @advmod #1->8
@@ -11369,7 +11369,7 @@
 	"." CLB @punct #7->
 
 # text = Seyður á vegnum er ein stórur trupulleiki í Føroyum.
-# text[eng] = Sheep on the roads is a big problem in the Faroe Isles.
+# text[eng] = Sheep on the roads is a big problem in the Faroe Islands.
 # labels = to_check
 "<Seyður>"
 	"seyður" N Msc Sg Nom Indef @nsubj #1->7
@@ -11809,7 +11809,7 @@
 	"." CLB @punct #7->6
 
 # text = Hagstova Føroya: Hagstova Føroya er almenni hagtalsmyndugleikin í Føroyum.
-# text[eng] = Statistics Faroes: Statistics Faroes is the official statistical authority in the Faroe Isles.
+# text[eng] = Statistics Faroes: Statistics Faroes is the official statistical authority in the Faroe Islands.
 # labels = to_check
 "<Hagstova>"
 	"hagstova" N Fem Sg Nom Indef @root #1->0
@@ -29754,7 +29754,7 @@
 	"." CLB @punct #12->6
 
 # text = Framsóknarflokkurin: Framsóknarflokkurin var ein politiskur flokkur í Føroyum.
-# text[eng] = The Progressive Party: The Progressive Party is a political party in the Faroe Isles.
+# text[eng] = The Progressive Party: The Progressive Party is a political party in the Faroe Islands.
 # labels = to_check
 "<Framsóknarflokkurin>"
 	"framsókn#flokkur" N Msc Sg Nom Def @root #1->0
