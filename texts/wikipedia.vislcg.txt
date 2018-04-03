@@ -25853,13 +25853,13 @@
 "<Størsti>"
 	"stórur" A Superl Msc Sg Nom Def @amod #1->2
 "<býur>"
-	"býur" N Msc Sg Nom Indef @dep #2->
+	"býur" N Msc Sg Nom Indef @nsubj #2->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #3->
+	"vera" V Ind Prs Sg3 @cop #3->4
 "<Ulsteinvik>"
-	"Ulsteinvik" N Prop Sem/Plc Sg Nom @dep #4->
+	"Ulsteinvik" N Prop Sem/Plc Sg Nom @root #4->0
 "<.>"
-	"." CLB @punct #5->
+	"." CLB @punct #5->4
 
 # text = Bergtóra býr í Hoyvík við manni og børnum.
 # text[eng] = 
