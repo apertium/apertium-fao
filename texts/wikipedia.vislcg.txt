@@ -22874,7 +22874,7 @@
 	"." CLB @punct #10->5
 
 # text = Býurin liggur í landslutinum São Paulo, og hevði 718.646 íbúgvar í 2008.
-# text[eng] = 
+# text[eng] = The city is in the state of São Paulo and had 718,646 inhabitants in 2008.
 # labels = to_check
 "<Býurin>"
 	"býur" N Msc Sg Nom Def @nsubj #1->2
@@ -22909,39 +22909,39 @@
 # text[eng] = 
 # labels = to_check
 "<Egina>"
-	"Egina" N Prop Sg Nom @dep #1->
+	"Egina" N Prop Sg Nom @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<ein>"
 	"eitt" Num Fem Sg Nom @nummod #3->4
 "<kommuna>"
-	"kommuna" N Fem Sg Nom Indef @dep #4->
+	"kommuna" N Fem Sg Nom Indef @root #4->0
 "<í>"
 	"í" Pr @case #5->6
 "<Attika>"
-	"Attika" N Prop Sg Nom @nmod #6->
+	"Attika" N Prop Sg Nom @nmod #6->4
 "<landslutinum>"
-	"landslutur" N Msc Sg Dat Def @dep #7->
+	"landslutur" N Msc Sg Dat Def @compound #7->6
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->4
 
 # text = Hon hevur fyrr svomið fyri FLOT.
-# text[eng] = 
+# text[eng] = She has swum before for FLOT.
 # labels = to_check
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->4
 "<hevur>"
-	"hava" V Ind Prs Sg3 @root #2->0
+	"hava" V Ind Prs Sg3 @aux #2->4
 "<fyrr>"
-	"fyrr" Adv @dep #3->2
+	"fyrr" Adv @advmod #3->4
 "<svomið>"
-	"svimja" V Sup @dep #4->2
+	"svimja" V Sup @root #4->0
 "<fyri>"
 	"fyri" Pr @case #5->6
 "<FLOT>"
-	"FLOT" N ACR Dat @nmod #6->
+	"FLOT" N ACR Dat @obl #6->4
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->4
 
 # text = Harav vóru 4 liðkappingar og 3 einstaklingakappingar.
 # text[eng] = 
