@@ -27541,17 +27541,17 @@
 "<Summi>"
 	"summur" Det Fem Sg Dat @det #1->2
 "<orkuverk>"
-	"orkuverk" N Neu Sg Nom Indef @dep #2->
+	"orkuverk" N Neu Sg Nom Indef @nsubj #2->6
 "<eru>"
-	"vera" V Ind Prs Pl @cop #3->
+	"vera" V Ind Prs Pl @cop #3->6
 "<í>"
-	"í" Pr @case #4->
+	"í" Pr @case #4->6
 "<høgum>"
 	"høgur" A Neu Sg Dat Indef @amod #5->6
 "<fjallalendi>"
-	"fjallalendi" N Neu Sg Dat Indef @nmod #6->
+	"fjallalendi" N Neu Sg Dat Indef @root #6->0
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Nú á døgum verður ravmagn gjørt í stóru vatnorkuverkum.
 # text[eng] = 
