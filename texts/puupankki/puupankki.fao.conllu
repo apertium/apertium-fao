@@ -9903,6 +9903,120 @@
 11	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = wikipedia.vislcg.txt:768:15202
+# text = Býurin er handils- og samferðslumiðdepilin í lutstatinum.
+# text[eng] =
+# labels = to_check
+1	Býurin	býur	NOUN	N	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	er	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	cop	_	_
+3	handils-	handil	NOUN	N	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
+4	og	og	CCONJ	CC	_	5	cc	_	_
+5	samferðslumiðdepilin	samferðslamiðdepil	NOUN	N	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	compound	_	_
+6	í	í	ADP	Pr	_	7	case	_	_
+7	lutstatinum	luturstatur	NOUN	N	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:769:15222
+# text = Endamálið var at verja Kina ímóti álopum frá mongolskum og turkiskum ættarbólkum.
+# text[eng] =
+# labels = to_check
+1	Endamálið	endamál	NOUN	N	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	0	root	_	_
+2	var	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	1	cop	_	_
+3	at	at	PART	IM	_	4	mark	_	_
+4	verja	verja	VERB	V	VerbForm=Inf	1	csubj	_	_
+5	Kina	Kina	PROPN	N	Case=Nom|Gender=Fem|Number=Sing	4	dep	_	_
+6	ímóti	ímóti	ADP	Pr	_	7	case	_	_
+7	álopum	álop	NOUN	N	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur	4	obl	_	_
+8	frá	frá	ADP	Pr	_	12	case	_	_
+9	mongolskum	mongolskur	ADJ	A	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur	12	amod	_	_
+10	og	og	CCONJ	CC	_	11	cc	_	_
+11	turkiskum	turkiskur	ADJ	A	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur	9	conj	_	_
+12	ættarbólkum	ættarbólkur	NOUN	N	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+13	.	.	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:770:15252
+# text = Hon fer aftan á djóraætinum, ið eisini fer uppeftir um náttina.
+# text[eng] =
+# labels = to_check
+1	Hon	hon	PRON	Pron	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	fer	fara	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+3	aftan	aftan	ADP	Pr	_	2	advmod	_	_
+4	á	á	ADP	Pr	_	5	case	_	_
+5	djóraætinum	djóræti	NOUN	N	Case=Dat|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	CLB	_	9	punct	_	_
+7	ið	ið	SCONJ	CS	_	9	mark	_	_
+8	eisini	eisini	ADV	Adv	_	9	advmod	_	_
+9	fer	fara	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	advcl	_	_
+10	uppeftir	uppeftir	ADV	Adv	_	9	advmod	_	_
+11	um	um	ADP	Pr	_	12	case	_	_
+12	náttina	nátt	NOUN	N	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:771:15282
+# text = Lendið er kargt og oyði.
+# text[eng] =
+# labels = to_check
+1	Lendið	lendi	NOUN	N	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	er	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	cop	_	_
+3	kargt	kargur	ADJ	A	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
+4	og	og	CCONJ	CC	_	5	cc	_	_
+5	oyði	oyður	ADJ	A	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:772:15298
+# text = Hon gnagar allastaðni, og er hon til miklan ampa.
+# text[eng] =
+# labels = to_check
+1	Hon	hon	PRON	Pron	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	gnagar	gnaga	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+3	allastaðni	allastaðni	ADV	Adv	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	CLB	_	10	punct	_	_
+5	og	og	CCONJ	CC	_	10	cc	_	_
+6	er	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	cop	_	_
+7	hon	hon	PRON	Pron	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+8	til	til	ADP	Pr	_	10	case	_	_
+9	miklan	mikil	ADJ	A	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	10	amod	_	_
+10	ampa	ampi	NOUN	N	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+11	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:773:15324
+# text = Í Føroyum hevur hon nærum forkomið einstøkum bjargafuglum.
+# text[eng] =
+# labels = to_check
+1	Í	í	ADP	Pr	_	2	case	_	_
+2	Føroyum	Føroyar	PROPN	N	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	6	obl	_	_
+3	hevur	hava	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	aux	_	_
+4	hon	hon	PRON	Pron	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	nærum	nærum	ADV	Adv	_	6	advmod	_	_
+6	forkomið	forkoma	VERB	V	VerbForm=Sup	0	root	_	_
+7	einstøkum	einstakur	ADJ	A	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur	8	amod	_	_
+8	bjargafuglum	bjargafuglur	NOUN	N	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	CLB	_	6	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:774:15346
+# text = Størsti býur og høvuðsstaður er Yellowknife.
+# text[eng] =
+# labels = to_check
+1	Størsti	stórur	ADJ	A	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	2	amod	_	_
+2	býur	býur	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	og	og	CCONJ	CC	_	4	cc	_	_
+4	høvuðsstaður	høvuðsstaður	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	_
+5	er	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	cop	_	_
+6	Yellowknife	Yellowknife	PROPN	N	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	CLB	_	6	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:775:15364
+# text = Jamestown er størsti býur og handilsmiðdepil.
+# text[eng] =
+# labels = to_check
+1	Jamestown	Jamestown	PROPN	N	Case=Nom|Number=Sing	4	nsubj	_	_
+2	er	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
+3	størsti	stórur	ADJ	A	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	4	amod	_	_
+4	býur	býur	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
+5	og	og	CCONJ	CC	_	6	cc	_	_
+6	handilsmiðdepil	handilsmiðdepil	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:776:15382
 # text = Kankaanpää: Kankaanpää er ein býur og ein kommuna í Finnlandi.
 # text[eng] = Kankaanpää: Kankaanpää is a city and commune in Finland.
 # labels = to_check
@@ -9919,7 +10033,7 @@
 11	Finnlandi	Finnland	PROPN	N	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
 12	.	.	PUNCT	CLB	_	6	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:769:15230
+# sent_id = wikipedia.vislcg.txt:777:15410
 # text = Framsóknarflokkurin: Framsóknarflokkurin var ein politiskur flokkur í Føroyum.
 # text[eng] = The Progressive Party: The Progressive Party is a political party in the Faroe Islands.
 # labels = to_check
@@ -9934,7 +10048,7 @@
 9	Føroyum	Føroyar	PROPN	N	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	CLB	_	7	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:770:15254
+# sent_id = wikipedia.vislcg.txt:778:15434
 # text = Eyðkendur roykur gongur av henni.
 # text[eng] = Distinctive smoke comes from it.
 # labels = to_check
@@ -9945,7 +10059,7 @@
 5	henni	hon	PRON	Pron	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	3	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:771:15270
+# sent_id = wikipedia.vislcg.txt:779:15450
 # text = Her er ein sperra, sum eg havi funnið.
 # text[eng] = Here is a sperra that I have found.
 # labels = to_check
@@ -9960,7 +10074,7 @@
 9	funnið	finna	VERB	V	VerbForm=Sup	4	acl	_	SpaceAfter=No
 10	.	.	PUNCT	CLB	_	1	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:772:15294
+# sent_id = wikipedia.vislcg.txt:780:15474
 # text = Í dag varir kappingin í tríggjar vikur.
 # text[eng] =
 # labels = to_check
@@ -9973,7 +10087,7 @@
 7	vikur	vika	NOUN	N	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	7	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:773:15314
+# sent_id = wikipedia.vislcg.txt:781:15494
 # text = Kappingin byrjaði í Napoli og endaði í Brescia.
 # text[eng] = The competition starts in Naples and ends in Brescia.
 # labels = checked
@@ -9987,7 +10101,7 @@
 8	Brescia	Brescia	PROPN	N	Case=Nom|Number=Sing	6	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	2	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:774:15336
+# sent_id = wikipedia.vislcg.txt:782:15516
 # text = Sigrar eftir landi.
 # text[eng] =
 # labels = checked
@@ -9996,7 +10110,7 @@
 3	landi	land	NOUN	N	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	1	obl	_	SpaceAfter=No
 4	.	.	PUNCT	CLB	_	1	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:775:15348
+# sent_id = wikipedia.vislcg.txt:783:15528
 # text = Hann er eisini ríkisborgari í Liechtenstein.
 # text[eng] = He is also a citizen of Lichtenstein.
 # labels = checked
@@ -10008,7 +10122,7 @@
 6	Liechtenstein	Liechtenstein	PROPN	N	Case=Acc|Number=Sing	4	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	4	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:776:15366
+# sent_id = wikipedia.vislcg.txt:784:15546
 # text = Franska fótbóltslandsliðið: Franska fótbóltslandsliðið er fótbóltslandslið Fraklands.
 # text[eng] = French football team: The French football team is the football team of France.
 # labels = checked
@@ -10022,7 +10136,7 @@
 8	Fraklands	Frakland	PROPN	N	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	7	nmod:poss	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	7	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:777:15388
+# sent_id = wikipedia.vislcg.txt:785:15568
 # text = Í 2016 væntar oyggin at fáa yvir tíggju milliónir ferðafólk á vitjan.
 # text[eng] = In 2016 the islands expect to receive over three million tourist visits.
 # labels = checked
@@ -10040,7 +10154,7 @@
 12	vitjan	vitjan	NOUN	N	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
 13	.	.	PUNCT	CLB	_	3	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:778:15418
+# sent_id = wikipedia.vislcg.txt:786:15598
 # text = Kappingin var merkt av vánaligum veðurlíkindum.
 # text[eng] = The competition was marked by poor weather conditions.
 # labels = to_check

@@ -28919,21 +28919,21 @@
 # text[eng] = 
 # labels = to_check
 "<Býurin>"
-	"býur" N Msc Sg Nom Def @dep #1->
+	"býur" N Msc Sg Nom Def @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<handils->"
-	"handil" N Msc Sg Gen Indef Cmpnd @dep #3->
+	"handil" N Msc Sg Gen Indef Cmpnd @root #3->0
 "<og>"
-	"og" CC @cc #4->
+	"og" CC @cc #4->5
 "<samferðslumiðdepilin>"
-	"samferðsla#miðdepil" N Msc Sg Nom Def @dep #5->
+	"samferðsla#miðdepil" N Msc Sg Nom Def @compound #5->3
 "<í>"
 	"í" Pr @case #6->7
 "<lutstatinum>"
-	"lutur#statur" N Msc Sg Dat Def @nmod #7->
+	"lutur#statur" N Msc Sg Dat Def @obl #7->3
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->3
 
 # text = Gáta: Ein gáta er ein stutt søga, sum endar við einum spurningi.
 # text[eng] = 
@@ -29001,77 +29001,77 @@
 # text[eng] = 
 # labels = to_check
 "<Endamálið>"
-	"endamál" N Neu Sg Nom Def @dep #1->
+	"endamál" N Neu Sg Nom Def @root #1->0
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #2->
+	"vera" V Ind Prt Sg3 @cop #2->1
 "<at>"
-	"at" IM @dep #3->
+	"at" IM @mark #3->4
 "<verja>"
-	"verja" V Inf @dep #4->
+	"verja" V Inf @csubj #4->1
 "<Kina>"
-	"Kina" N Prop Sem/Fem Sg Nom @dep #5->
+	"Kina" N Prop Sem/Fem Sg Nom @dep #5->4
 "<ímóti>"
 	"ímóti" Pr @case #6->7
 "<álopum>"
-	"álop" N Neu Pl Dat Indef @nmod #7->
+	"álop" N Neu Pl Dat Indef @obl #7->4
 "<frá>"
-	"frá" Pr @case #8->
+	"frá" Pr @case #8->12
 "<mongolskum>"
-	"mongolskur" A Msc Pl Dat Indef @dep #9->
+	"mongolskur" A Msc Pl Dat Indef @amod #9->12
 "<og>"
-	"og" CC @cc #10->
+	"og" CC @cc #10->11
 "<turkiskum>"
-	"turkiskur" A Msc Pl Dat Indef @amod #11->12
+	"turkiskur" A Msc Pl Dat Indef @conj #11->9
 "<ættarbólkum>"
-	"ættarbólkur" N Msc Pl Dat Indef @dep #12->
+	"ættarbólkur" N Msc Pl Dat Indef @obl #12->4
 "<.>"
-	"." CLB @punct #13->
+	"." CLB @punct #13->1
 
 # text = Hon fer aftan á djóraætinum, ið eisini fer uppeftir um náttina.
 # text[eng] = 
 # labels = to_check
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->2
 "<fer>"
-	"fara" V Ind Prs Sg3 @dep #2->
+	"fara" V Ind Prs Sg3 @root #2->0
 "<aftan>"
-	"aftan" Pr @case #3->
+	"aftan" Pr @advmod #3->2
 "<á>"
 	"á" Pr @case #4->5
 "<djóraætinum>"
-	"djór#æti" N Neu Sg Dat Def @nmod #5->
+	"djór#æti" N Neu Sg Dat Def @obl #5->2
 "<,>"
-	"," CLB @punct #6->
+	"," CLB @punct #6->9
 "<ið>"
-	"ið" CS @dep #7->
+	"ið" CS @mark #7->9
 "<eisini>"
-	"eisini" Adv @dep #8->
+	"eisini" Adv @advmod #8->9
 "<fer>"
-	"fara" V Ind Prs Sg3 @dep #9->
+	"fara" V Ind Prs Sg3 @advcl #9->2
 "<uppeftir>"
-	"uppeftir" Adv @dep #10->
+	"uppeftir" Adv @advmod #10->9
 "<um>"
 	"um" Pr @case #11->12
 "<náttina>"
-	"nátt" N Fem Sg Acc Def @nmod #12->
+	"nátt" N Fem Sg Acc Def @obl #12->9
 "<.>"
-	"." CLB @punct #13->
+	"." CLB @punct #13->2
 
 # text = Lendið er kargt og oyði.
 # text[eng] = 
 # labels = to_check
 "<Lendið>"
-	"lendi" N Neu Sg Nom Def @dep #1->
+	"lendi" N Neu Sg Nom Def @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<kargt>"
-	"kargur" A Neu Sg Nom Indef @dep #3->
+	"kargur" A Neu Sg Nom Indef @root #3->0
 "<og>"
-	"og" CC @cc #4->
+	"og" CC @cc #4->5
 "<oyði>"
-	"oyður" A Msc Sg Nom Def @dep #5->
+	"oyður" A Msc Sg Nom Def @conj #5->3
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->3
 
 # text = Ofta eru fleiri legur í sama rottureiðrið, soleiðis eru fleiri rottur um somu holu.
 # text[eng] = 
@@ -29113,27 +29113,27 @@
 # text[eng] = 
 # labels = to_check
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->2
 "<gnagar>"
-	"gnaga" V Ind Prs Sg3 @dep #2->
+	"gnaga" V Ind Prs Sg3 @root #2->0
 "<allastaðni>"
-	"allastaðni" Adv @dep #3->
+	"allastaðni" Adv @advmod #3->2
 "<,>"
-	"," CLB @punct #4->
+	"," CLB @punct #4->10
 "<og>"
-	"og" CC @cc #5->
+	"og" CC @cc #5->10
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #6->
+	"vera" V Ind Prs Sg3 @cop #6->10
 "<hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #7->
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #7->10
 "<til>"
-	"til" Pr @case #8->
+	"til" Pr @case #8->10
 "<miklan>"
 	"mikil" A Msc Sg Acc Indef @amod #9->10
 "<ampa>"
-	"ampi" N Msc Sg Acc Indef @nmod #10->
+	"ampi" N Msc Sg Acc Indef @conj #10->2
 "<.>"
-	"." CLB @punct #11->
+	"." CLB @punct #11->2
 
 # text = Í Føroyum hevur hon nærum forkomið einstøkum bjargafuglum.
 # text[eng] = 
@@ -29141,7 +29141,7 @@
 "<Í>"
 	"í" Pr @case #1->2
 "<Føroyum>"
-	"Føroyar" N Prop Fem Pl Dat Indef @nmod #2->6
+	"Føroyar" N Prop Fem Pl Dat Indef @obl #2->6
 "<hevur>"
 	"hava" V Ind Prs Sg3 @aux #3->6
 "<hon>"
@@ -29149,13 +29149,13 @@
 "<nærum>"
 	"nærum" Adv @advmod #5->6
 "<forkomið>"
-	"forkoma" V Sup @root #6->3
+	"forkoma" V Sup @root #6->0
 "<einstøkum>"
 	"einstakur" A Msc Pl Dat Indef @amod #7->8
 "<bjargafuglum>"
 	"bjargafuglur" N Msc Pl Dat Indef @obj #8->6
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->6
 
 # text = Er rotta í oynni, eru t.d. lundi og skrápur at kalla burtur.
 # text[eng] = 
@@ -29241,35 +29241,35 @@
 "<Størsti>"
 	"stórur" A Superl Msc Sg Nom Def @amod #1->2
 "<býur>"
-	"býur" N Msc Sg Nom Indef @dep #2->
+	"býur" N Msc Sg Nom Indef @nsubj #2->6
 "<og>"
-	"og" CC @cc #3->
+	"og" CC @cc #3->4
 "<høvuðsstaður>"
-	"høvuðsstaður" N Msc Sg Nom Indef @dep #4->
+	"høvuðsstaður" N Msc Sg Nom Indef @conj #4->2
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #5->
+	"vera" V Ind Prs Sg3 @cop #5->6
 "<Yellowknife>"
-	"Yellowknife" N Prop Sem/Plc Sg Nom @dep #6->
+	"Yellowknife" N Prop Sem/Plc Sg Nom @root #6->0
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Jamestown er størsti býur og handilsmiðdepil.
 # text[eng] = 
 # labels = to_check
 "<Jamestown>"
-	"Jamestown" N Prop Sem/Plc Sg Nom @dep #1->
+	"Jamestown" N Prop Sem/Plc Sg Nom @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<størsti>"
 	"stórur" A Superl Msc Sg Nom Def @amod #3->4
 "<býur>"
-	"býur" N Msc Sg Nom Indef @dep #4->
+	"býur" N Msc Sg Nom Indef @root #4->0
 "<og>"
-	"og" CC @cc #5->
+	"og" CC @cc #5->6
 "<handilsmiðdepil>"
-	"handilsmiðdepil" N Msc Sg Nom Indef @dep #6->
+	"handilsmiðdepil" N Msc Sg Nom Indef @conj #6->4
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->4
 
 # text = Myndprýtt føroyskir peningaseðlar.
 # text[eng] = 
