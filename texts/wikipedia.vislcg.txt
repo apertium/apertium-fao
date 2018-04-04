@@ -28380,36 +28380,36 @@
 	"." CLB @punct #7->
 
 # text = Tíðin gekk so.
-# text[eng] = 
+# text[eng] = The time went like that.
 # labels = to_check
 "<Tíðin>"
-	"tíð" N Fem Sg Nom Def @dep #1->2
+	"tíð" N Fem Sg Nom Def @nsubj #1->2
 "<gekk>"
 	"ganga" V Ind Prt Sg3 @root #2->0
 "<so>"
-	"so" Adv @dep #3->2
+	"so" Adv @advmod #3->2
 "<.>"
-	"." CLB @punct #4->
+	"." CLB @punct #4->2
 
 # text = Ein slíkur pollur verður eisini nevndur laguna.
 # text[eng] = 
 # labels = to_check
 "<Ein>"
-	"ein" Det Msc Sg Nom @det #1->
+	"ein" Det Msc Sg Nom @det #1->3
 "<slíkur>"
 	"slíkur" A Msc Sg Nom Indef @amod #2->3
 "<pollur>"
-	"pollur" N Msc Sg Nom Indef @dep #3->4
+	"pollur" N Msc Sg Nom Indef @nsubj #3->6
 "<verður>"
-	"verða" V Ind Prs Sg3 @root #4->0
+	"verða" V Ind Prs Sg3 @aux:pass #4->6
 "<eisini>"
-	"eisini" Adv @dep #5->4
+	"eisini" Adv @advmod #5->6
 "<nevndur>"
-	"nevna" V PrfPrc @dep #6->4
+	"nevna" V PrfPrc @root #6->0
 "<laguna>"
-	"laga" N Fem Sg Acc Def @dep #7->4
+	"laga" N Fem Sg Acc Def @obj #7->6
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->6
 
 # text = Changsha: Changsha er ein býur í Kina og høvuðsstaður í Hunan landslutinum.
 # text[eng] = 
@@ -28447,47 +28447,47 @@
 # text[eng] = 
 # labels = to_check
 "<Pertti>"
-	"Pertti" N Prop Sem/Mal Sg Nom @dep #1->2
+	"Pertti" N Prop Sem/Mal Sg Nom @nsubj #1->2
 "<dugir>"
 	"duga" V Ind Prs Sg3 @root #2->0
 "<eisini>"
-	"eisini" Adv @dep #3->2
+	"eisini" Adv @advmod #3->2
 "<at>"
-	"at" IM @dep #4->2
+	"at" IM @mark #4->5
 "<leika>"
-	"leika" V Inf @dep #5->2
+	"leika" V Inf @xcomp #5->2
 "<á>"
 	"á" Pr @case #6->7
 "<urgu>"
-	"urga" N Fem Sg Dat Indef @nmod #7->
+	"urga" N Fem Sg Dat Indef @obl #7->5
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->2
 
 # text = Orlando: Orlando er ein býur í amerikanska statinum Florida.
 # text[eng] = 
 # labels = to_check
 "<Orlando>"
-	"Orlando" N Prop Sem/Plc Sg Nom @dep #1->
+	"Orlando" N Prop Sem/Plc Sg Nom @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Orlando>"
-	"Orlando" N Prop Sem/Plc Sg Nom @dep #3->
+	"Orlando" N Prop Sem/Plc Sg Nom @nsubj #3->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->6
 "<ein>"
 	"ein" Det Msc Sg Nom @det #5->6
 "<býur>"
-	"býur" N Msc Sg Nom Indef @dep #6->
+	"býur" N Msc Sg Nom Indef @parataxis #6->1
 "<í>"
-	"í" Pr @case #7->
+	"í" Pr @case #7->9
 "<amerikanska>"
 	"amerikanskur" A Msc Sg Dat Def @amod #8->9
 "<statinum>"
-	"statur" N Msc Sg Dat Def @nmod #9->
+	"statur" N Msc Sg Dat Def @obl #9->6
 "<Florida>"
-	"Florida" N Prop Sem/Fem Sg Nom @dep #10->
+	"Florida" N Prop Sem/Fem Sg Nom @appos #10->9
 "<.>"
-	"." CLB @punct #11->
+	"." CLB @punct #11->6
 
 # text = Soleiðis hevur ikki altíð verið.
 # text[eng] = 
@@ -28509,17 +28509,17 @@
 # text[eng] = 
 # labels = to_check
 "<Landslutirnir>"
-	"landslutur" N Msc Pl Nom Def @dep #1->2
+	"landslutur" N Msc Pl Nom Def @nsubj #1->2
 "<hava>"
 	"hava" V Ind Prs Pl @root #2->0
 "<eisini>"
-	"eisini" Adv @dep #3->2
+	"eisini" Adv @advmod #3->2
 "<mentanarligan>"
 	"mentanarligur" A Msc Sg Acc Indef @amod #4->5
 "<týdning>"
-	"týdningur" N Msc Sg Acc Indef @dep #5->2
+	"týdningur" N Msc Sg Acc Indef @obj #5->2
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->2
 
 # text = Vøtn eru ikki íroknað víddina av landslutunum.
 # text[eng] = 
@@ -28581,11 +28581,11 @@
 # text[eng] = 
 # labels = to_check
 "<Heimsmeistari>"
-	"heimsmeistari" N Msc Sg Nom Indef @dep #1->
+	"heimsmeistari" N Msc Sg Nom Indef @nsubj #1->2
 "<gjørdist>"
-	"gera" V Ind Prt Sg Pass @dep #2->
+	"gera" V Ind Prt Sg Pass @root #2->
 "<Italia>"
-	"Italia" N Prop Sg Nom @dep #3->
+	"Italia" N Prop Sg Nom @dep #3->2
 "<,>"
 	"," CLB @punct #4->
 "<ið>"
@@ -28595,35 +28595,35 @@
 "<á>"
 	"á" Pr @case #7->8
 "<Fraklandi>"
-	"Frakland" N Prop Neu Sg Dat Indef @nmod #8->
+	"Frakland" N Prop Neu Sg Dat Indef @nmod #8->6
 "<í>"
 	"í" Pr @case #9->10
 "<finaluni>"
-	"finala" N Fem Sg Dat Def @nmod #10->
+	"finala" N Fem Sg Dat Def @nmod #10->6
 "<.>"
-	"." CLB @punct #11->
+	"." CLB @punct #11->2
 
 # text = Foreldur hansara eru Jógvan og Elsuba á Høvdanum.
-# text[eng] = 
+# text[eng] = His parents were Jógvan and Elsuba á Høvdi.
 # labels = to_check
 "<Foreldur>"
-	"foreldur" N Neu Pl Nom Indef @dep #1->
+	"foreldur" N Neu Pl Nom Indef @nsubj #1->4
 "<hansara>"
-	"hann" Pron Pers Sg3 Msc Gen @dep #2->
+	"hann" Pron Pers Sg3 Msc Gen @nmod:poss #2->1
 "<eru>"
-	"vera" V Ind Prs Pl @cop #3->
+	"vera" V Ind Prs Pl @cop #3->4
 "<Jógvan>"
-	"Jógvan" N Prop Sem/Mal Sg Nom @dep #4->
+	"Jógvan" N Prop Sem/Mal Sg Nom @root #4->0
 "<og>"
-	"og" CC @cc #5->
+	"og" CC @cc #5->6
 "<Elsuba>"
-	"Elsuba" N Prop Sem/Fem Sg Nom @dep #6->
+	"Elsuba" N Prop Sem/Fem Sg Nom @conj #6->4
 "<á>"
 	"á" Pr @case #7->8
 "<Høvdanum>"
-	"høvdi" N Msc Sg Dat Def @nmod #8->
+	"høvdi" N Msc Sg Dat Def @flat #8->4
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->4
 
 # text = Børkur Hanagleiv er ein føroysk teknirøð, sum Bergur skrivar og teknar.
 # text[eng] = 
@@ -28709,19 +28709,19 @@
 "<Endaliga>"
 	"endaligur" A Fem Sg Nom Def @amod #1->2
 "<støðan>"
-	"støða" N Fem Sg Nom Def @dep #2->
+	"støða" N Fem Sg Nom Def @nsubj #2->3
 "<sæst>"
-	"síggja" V Sup Pass @dep #3->
+	"síggja" V Sup Pass @root #3->0
 "<í>"
 	"í" Pr @case #4->5
 "<klombrunum>"
-	"klombra" N Fem Pl Dat Def @nmod #5->
+	"klombra" N Fem Pl Dat Def @obl #5->3
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->3
 
 # text = Hon varð vald við 396 persónligum atkvøðum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check disam
 "<Hon>"
 	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<varð>"
@@ -28781,7 +28781,7 @@
 
 # text = Mann helt, at illir andar vildu við í veitslu.
 # text[eng] = 
-# labels = to_check
+# labels = to_check disam
 "<Mann>"
 	"maður" N Msc Sg Acc Indef @dep #1->7
 "<helt>"
@@ -28839,41 +28839,41 @@
 # text[eng] = 
 # labels = to_check
 "<Hetta>"
-	"hesin" Pron Dem Neu Sg Nom @dep #1->
+	"hesin" Pron Dem Neu Sg Nom @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<í>"
 	"í" Pr @case #3->4
 "<brundtíðini>"
-	"brundtíð" N Fem Sg Dat Def @nmod #4->
+	"brundtíð" N Fem Sg Dat Def @root #4->0
 "<.>"
-	"." CLB @punct #5->
+	"." CLB @punct #5->4
 
 # text = Hon er størsta oyggin í Kodiak-bólkinum í Alaska.
 # text[eng] = 
 # labels = to_check
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<størsta>"
 	"stórur" A Superl Fem Sg Nom Def @amod #3->4
 "<oyggin>"
-	"oyggj" N Fem Sg Nom Def @dep #4->
+	"oyggj" N Fem Sg Nom Def @root #4->0
 "<í>"
 	"í" Pr @case #5->6
 "<Kodiak>"
-	"Kodiak" N Prop Sem/Plc Sg Acc @nmod #6->
+	"Kodiak" N Prop Sem/Plc Sg Acc @obl #6->4
 "<->"
-	"-" PUNCT @punct #7->
+	"-" PUNCT @punct #7->8
 "<bólkinum>"
-	"bólkur" N Msc Sg Dat Def @dep #8->
+	"bólkur" N Msc Sg Dat Def @flat #8->6
 "<í>"
 	"í" Pr @case #9->10
 "<Alaska>"
-	"Alaska" N Prop Sg Nom @nmod #10->
+	"Alaska" N Prop Sg Nom @obl #10->4
 "<.>"
-	"." CLB @punct #11->
+	"." CLB @punct #11->4
 
 # text = Juneau er eisini ein sjálvstýrandi landslutur.
 # text[eng] = 
