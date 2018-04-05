@@ -3657,20 +3657,20 @@
 	"." CLB @punct #5->
 
 # text = Stórur partur av leirvíkingum doyði.
-# text[eng] = 
-# labels = to_check incomplete
+# text[eng] = A large part of people from Leirvík died.
+# labels = to_check 
 "<Stórur>"
 	"stórur" A Msc Sg Nom Indef @amod #1->2
 "<partur>"
-	"partur" N Msc Sg Nom Indef @dep #2->5
+	"partur" N Msc Sg Nom Indef @nsubj #2->5
 "<av>"
 	"av" Pr @case #3->4
 "<leirvíkingum>"
-	"leirvíkingur" N Msc Pl Dat Indef @nmod #4->
+	"leirvíkingur" N Msc Pl Dat Indef @nmod #4->2
 "<doyði>"
-	"doyða" V Ind Prs Sg1 @root #5->0
+	"doyggja" V Ind Prt Sg @root #5->0
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->5
 
 # text = Meginparturin av jørðini í Leirvík er kongsjørð.
 # text[eng] = 
