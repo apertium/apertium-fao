@@ -28929,37 +28929,37 @@
 
 # text = Gáta: Ein gáta er ein stutt søga, sum endar við einum spurningi.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Gáta>"
-	"gáta" N Fem Sg Nom Indef @dep #1->
+	"gáta" N Fem Sg Nom Indef @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Ein>"
-	"eitt" Num Fem Sg Nom @nummod #3->4
+	"ein" Det Fem Sg Nom @det #3->4
 "<gáta>"
-	"gáta" N Fem Sg Nom Indef @dep #4->
+	"gáta" N Fem Sg Nom Indef @nsubj #4->8
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #5->
+	"vera" V Ind Prs Sg3 @cop #5->8
 "<ein>"
-	"eitt" Num Fem Sg Nom @dep #6->
+	"ein" Det Fem Sg Nom @det #6->8
 "<stutt>"
 	"stuttur" A Fem Sg Nom Indef @amod #7->8
 "<søga>"
-	"søga" N Fem Sg Nom Indef @dep #8->
+	"søga" N Fem Sg Nom Indef @parataxis #8->1
 "<,>"
-	"," CLB @punct #9->
+	"," CLB @punct #9->11
 "<sum>"
-	"sum" CS @dep #10->
+	"sum" Pron Rel @nsubj #10->11
 "<endar>"
-	"endi" N Msc Pl Acc Indef @dep #11->
+	"enda" V Ind Prs Sg3 @acl #11->8
 "<við>"
-	"við" Pr @case #12->
+	"við" Pr @case #12->14
 "<einum>"
 	"ein" Det Msc Sg Dat @det #13->14
 "<spurningi>"
-	"spurningur" N Msc Sg Dat Indef @dep #14->
+	"spurningur" N Msc Sg Dat Indef @obl #14->11
 "<.>"
-	"." CLB @punct #15->
+	"." CLB @punct #15->8
 
 # text = Og lendið var eisini ein stór plága í nógvar aðrar mátar.
 # text[eng] = 
@@ -29067,39 +29067,39 @@
 
 # text = Ofta eru fleiri legur í sama rottureiðrið, soleiðis eru fleiri rottur um somu holu.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Ofta>"
-	"ofta" Adv @dep #1->
+	"ofta" Adv @advmod #1->7
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->7
 "<fleiri>"
 	"mangur" A Cmp Fem Pl Nom Indef @amod #3->4
 "<legur>"
-	"lega" N Fem Pl Nom Indef @dep #4->
+	"lega" N Fem Pl Nom Indef @nsubj #4->7
 "<í>"
-	"í" Pr @case #5->
+	"í" Pr @case #5->7
 "<sama>"
 	"samur" A Neu Sg Acc Def @amod #6->7
 "<rottureiðrið>"
-	"rottureiður" N Neu Sg Acc Def @nmod #7->
+	"rottureiður" N Neu Sg Acc Def @root #7->0
 "<,>"
-	"," CLB @punct #8->
+	"," CLB @punct #8->15
 "<soleiðis>"
-	"soleiðis" Adv @dep #9->
+	"soleiðis" Adv @advmod #9->15
 "<eru>"
-	"vera" V Ind Prs Pl @cop #10->
+	"vera" V Ind Prs Pl @cop #10->15
 "<fleiri>"
 	"mangur" A Cmp Msc Sg Nom Indef @amod #11->12
 "<rottur>"
-	"rottur" N Msc Sg Nom Indef @dep #12->
+	"rottur" N Msc Sg Nom Indef @nsubj #12->15
 "<um>"
-	"um" Pr @case #13->
+	"um" Pr @case #13->15
 "<somu>"
-	"samur" A Fem Pl Dat Def @dep #14->
+	"samur" A Fem Pl Dat Def @amod #14->15
 "<holu>"
-	"hola" N Fem Sg Acc Indef @dep #15->
+	"hola" N Fem Sg Acc Indef @parataxis #15->7
 "<.>"
-	"." CLB @punct #16->
+	"." CLB @punct #16->7
 
 # text = Hon gnagar allastaðni, og er hon til miklan ampa.
 # text[eng] = 
