@@ -206,7 +206,7 @@
 11	er	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	14	cop	_	_
 12	eisini	eisini	ADV	Adv	_	14	advmod	_	_
 13	nógv	nógvur	ADJ	A	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur	14	amod	_	_
-14	neytahald	neytahald	NOUN	N	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	0	conj	_	SpaceAfter=No
+14	neytahald	neytahald	NOUN	N	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No
 15	.	.	PUNCT	CLB	_	5	punct	_	_
 
 # sent_id = wikipedia.vislcg.txt:16:331
@@ -624,7 +624,7 @@
 1	Skøkjulevnaður	skøkjulevnaður	NOUN	N	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	nsubj	_	_
 2	er	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	cop	_	_
 3	ólógligur	ólógligur	ADJ	A	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
-4	í	í	ADP	Pr	_	55	case	_	_
+4	í	í	ADP	Pr	_	5	case	_	_
 5	Norra	Norra	PROPN	N	Case=Nom|Number=Sing	3	obl	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	3	punct	_	_
 
@@ -922,7 +922,7 @@
 1	Lívsneyðugur	lívsneyðugur	ADJ	A	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	amod	_	_
 2	heilivágur	heilivágur	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	_
 3	verður	verða	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
-4	ókeypis	ókeypis	ADV	Adv	_	3	root	_	SpaceAfter=No
+4	ókeypis	ókeypis	ADV	Adv	_	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = wikipedia.vislcg.txt:71:1433
@@ -1529,7 +1529,7 @@
 4	Tvøroyrar	Tvøroyri	PROPN	N	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	5	nmod:poss	_	_
 5	kommuna	kommuna	NOUN	N	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	7	nsubj	_	_
 6	er	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
-7	kommuna	kommuna	NOUN	N	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	2	root	_	_
+7	kommuna	kommuna	NOUN	N	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	2	parataxis	_	_
 8	í	í	ADP	Pr	_	9	case	_	_
 9	Føroyum	Føroyar	PROPN	N	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
 10	.	.	PUNCT	CLB	_	7	punct	_	_
