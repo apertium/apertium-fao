@@ -503,7 +503,7 @@
 	"." CLB @punct #13->
 
 # text = Nógv virksemi er í Dímun.
-# text[eng] = Some work is in Dímun.
+# text[eng] = Much work is in Dímun.
 # labels = to_check
 "<Nógv>"
 	"nógvur" A Fem Sg Nom Indef @amod #1->2
