@@ -5588,91 +5588,91 @@
 
 # text = Í Nepal eru mong fólkasløg.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Í>"
 	"í" Pr @case #1->2
 "<Nepal>"
-	"Nepal" N Prop Sem/Plc Sg Acc @nmod #2->
+	"Nepal" N Prop Sem/Plc Sg Acc @root #2->0
 "<eru>"
-	"vera" V Ind Prs Pl @cop #3->
+	"vera" V Ind Prs Pl @cop #3->2
 "<mong>"
 	"mangur" A Neu Pl Nom Indef @amod #4->5
 "<fólkasløg>"
-	"fólkaslag" N Neu Pl Nom Indef @dep #5->
+	"fólkaslag" N Neu Pl Nom Indef @nsubj #5->2
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->2
 
 # text = Viðurkenningar frá Kroatia, Bosnia og Herzegovina og Slovenia vóru skjótar.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Viðurkenningar>"
-	"viðurkenning" N Fem Pl Nom Indef @dep #1->
+	"viðurkenning" N Fem Pl Nom Indef @nsubj #1->11
 "<frá>"
 	"frá" Pr @case #2->3
 "<Kroatia>"
-	"Kroatia" N Prop Sg Nom @nmod #3->
+	"Kroatia" N Prop Sg Nom @nmod #3->1
 "<,>"
-	"," CLB @punct #4->
+	"," CLB @punct #4->5
 "<Bosnia>"
-	"Bosnia" N Prop Sg Nom @dep #5->
+	"Bosnia" N Prop Sg Nom @conj #5->3
 "<og>"
-	"og" CC @cc #6->
+	"og" CC @cc #6->7
 "<Herzegovina>"
-	"Herzegovina" N Prop Sg Nom @dep #7->
+	"Herzegovina" N Prop Sg Nom @flat #7->5
 "<og>"
-	"og" CC @cc #8->
+	"og" CC @cc #8->9
 "<Slovenia>"
-	"Slovenia" N Prop Sg Nom @dep #9->
+	"Slovenia" N Prop Sg Nom @conj #9->3
 "<vóru>"
-	"vera" V Ind Prt Pl @cop #10->
+	"vera" V Ind Prt Pl @cop #10->11
 "<skjótar>"
-	"skjótur" A Fem Pl Nom Indef @dep #11->
+	"skjótur" A Fem Pl Nom Indef @root #11->0
 "<.>"
-	"." CLB @punct #12->
+	"." CLB @punct #12->11
 
 # text = Landbúnaður og fiskivinna vóru grundarlagið undir spanska búskapinum.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Landbúnaður>"
-	"landbúnaður" N Msc Sg Nom Indef @dep #1->
+	"landbúnaður" N Msc Sg Nom Indef @nsubj #1->5
 "<og>"
-	"og" CC @cc #2->
+	"og" CC @cc #2->3
 "<fiskivinna>"
-	"fiskivinna" N Fem Sg Nom Indef @dep #3->
+	"fiskivinna" N Fem Sg Nom Indef @conj #3->1
 "<vóru>"
-	"vera" V Ind Prt Pl @cop #4->
+	"vera" V Ind Prt Pl @cop #4->5
 "<grundarlagið>"
-	"grundarlag" N Neu Sg Nom Def @dep #5->
+	"grundarlag" N Neu Sg Nom Def @root #5->0
 "<undir>"
-	"undir" Pr @case #6->
+	"undir" Pr @case #6->8
 "<spanska>"
 	"spanskur" A Msc Sg Dat Def @amod #7->8
 "<búskapinum>"
-	"búskapur" N Msc Sg Dat Def @nmod #8->
+	"búskapur" N Msc Sg Dat Def @obl #8->5
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->5
 
 # text = Føroyskur dansur: Føroyskur dansur stavar úr miðøld.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Føroyskur>"
 	"føroyskur" A Msc Sg Nom Indef @amod #1->2
 "<dansur>"
-	"dansur" N Msc Sg Nom Indef @dep #2->6
+	"dansur" N Msc Sg Nom Indef @root #2->0
 "<:>"
-	":" CLB @punct #3->
+	":" CLB @punct #3->2
 "<Føroyskur>"
 	"føroyskur" A Msc Sg Nom Indef @amod #4->5
 "<dansur>"
-	"dansur" N Msc Sg Nom Indef @dep #5->6
+	"dansur" N Msc Sg Nom Indef @nsubj #5->6
 "<stavar>"
-	"stava" V Ind Prs Sg3 @root #6->0
+	"stava" V Ind Prs Sg3 @parataxis #6->2
 "<úr>"
 	"úr" Pr @case #7->8
 "<miðøld>"
-	"miðøld" N Fem Sg Dat Indef @nmod #8->
+	"miðøld" N Fem Sg Dat Indef @obl #8->6
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->6
 
 # text = Helium: Helium er eitt frumevni, ið hoyrir til bólkin óvirkin loftevni.
 # text[eng] = 
