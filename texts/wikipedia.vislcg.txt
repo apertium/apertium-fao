@@ -13796,151 +13796,151 @@
 
 # text = Brisbane er góður havnarbýur og stórur ídnaðarbýur.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Brisbane>"
-	"Brisbane" N Prop Sem/Plc Sg Nom @dep #1->
+	"Brisbane" N Prop Sem/Plc Sg Nom @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<góður>"
 	"góður" A Msc Sg Nom Indef @amod #3->4
 "<havnarbýur>"
-	"havnarbýur" N Msc Sg Nom Indef @dep #4->
+	"havnarbýur" N Msc Sg Nom Indef @root #4->0
 "<og>"
-	"og" CC @cc #5->
+	"og" CC @cc #5->7
 "<stórur>"
 	"stórur" A Msc Sg Nom Indef @amod #6->7
 "<ídnaðarbýur>"
-	"ídnaður#býur" N Msc Sg Nom Indef @dep #7->
+	"ídnaður#býur" N Msc Sg Nom Indef @conj #7->4
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->4
 
 # text = Dallas: Dallas er ein býur í lutstatinum Texas í USA.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Dallas>"
-	"Dallas" N Prop Sem/Plc Sg Nom @dep #1->
+	"Dallas" N Prop Sem/Plc Sg Nom @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Dallas>"
-	"Dallas" N Prop Sem/Plc Sg Nom @dep #3->
+	"Dallas" N Prop Sem/Plc Sg Nom @nsubj #3->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->6
 "<ein>"
 	"ein" Det Msc Sg Nom @det #5->6
 "<býur>"
-	"býur" N Msc Sg Nom Indef @dep #6->
+	"býur" N Msc Sg Nom Indef @parataxis #6->1
 "<í>"
 	"í" Pr @case #7->8
 "<lutstatinum>"
-	"lutur#statur" N Msc Sg Dat Def @nmod #8->
+	"lutur#statur" N Msc Sg Dat Def @obl #8->6
 "<Texas>"
-	"Texas" N Prop Sem/Plc Sg Acc @dep #9->
+	"Texas" N Prop Sem/Plc Sg Acc @nmod:poss #9->8
 "<í>"
 	"í" Pr @case #10->11
 "<USA>"
-	"USA" N ACR Dat @nmod #11->
+	"USA" N ACR Dat @obl #11->6
 "<.>"
-	"." CLB @punct #12->
+	"." CLB @punct #12->6
 
 # text = Wichita: Wichita er størsti býur í Kansas í Sambandsríkinum Amerika.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Wichita>"
-	"Wichita" N Prop Sg Nom @dep #1->
+	"Wichita" N Prop Sg Nom @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Wichita>"
-	"Wichita" N Prop Sg Nom @dep #3->
+	"Wichita" N Prop Sg Nom @nsubj #3->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->6
 "<størsti>"
 	"stórur" A Superl Msc Sg Nom Def @amod #5->6
 "<býur>"
-	"býur" N Msc Sg Nom Indef @dep #6->
+	"býur" N Msc Sg Nom Indef @parataxis #6->1
 "<í>"
 	"í" Pr @case #7->8
 "<Kansas>"
-	"Kansas" N Prop Sem/Plc Sg Acc @nmod #8->
+	"Kansas" N Prop Sem/Plc Sg Acc @obl #8->6
 "<í>"
 	"í" Pr @case #9->10
 "<Sambandsríkinum>"
-	"sambandsríki" N Neu Sg Dat Def @nmod #10->
+	"sambandsríki" N Neu Sg Dat Def @obl #10->6
 "<Amerika>"
-	"Amerika" N Prop Sg Nom @dep #11->
+	"Amerika" N Prop Sg Nom @flat #11->10
 "<.>"
-	"." CLB @punct #12->
+	"." CLB @punct #12->6
 
 # text = Jacksonville: Jacksonville er stórbýur í Florida í Sambandsríkinum Amerika.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Jacksonville>"
-	"Jacksonville" N Prop Sem/Plc Sg Nom @dep #1->
+	"Jacksonville" N Prop Sem/Plc Sg Nom @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Jacksonville>"
-	"Jacksonville" N Prop Sem/Plc Sg Nom @dep #3->
+	"Jacksonville" N Prop Sem/Plc Sg Nom @nsubj #3->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->5
 "<stórbýur>"
-	"stórbýur" N Msc Sg Nom Indef @dep #5->
+	"stórbýur" N Msc Sg Nom Indef @parataxis #5->1
 "<í>"
 	"í" Pr @case #6->7
 "<Florida>"
-	"Florida" N Prop Sem/Fem Sg Nom @nmod #7->
+	"Florida" N Prop Sem/Fem Sg Nom @obl #7->5
 "<í>"
 	"í" Pr @case #8->9
 "<Sambandsríkinum>"
-	"sambandsríki" N Neu Sg Dat Def @nmod #9->
+	"sambandsríki" N Neu Sg Dat Def @obl #9->5
 "<Amerika>"
-	"Amerika" N Prop Sg Nom @dep #10->
+	"Amerika" N Prop Sg Nom @flat #10->9
 "<.>"
-	"." CLB @punct #11->
+	"." CLB @punct #11->5
 
 # text = Tallahassee: Tallahassee er høvuðsstaðurin í Florida.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Tallahassee>"
-	"Tallahassee" N Prop Sem/Plc Sg Nom @dep #1->
+	"Tallahassee" N Prop Sem/Plc Sg Nom @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Tallahassee>"
-	"Tallahassee" N Prop Sem/Plc Sg Nom @dep #3->
+	"Tallahassee" N Prop Sem/Plc Sg Nom @nsubj #3->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->5
 "<høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #5->
+	"høvuðsstaður" N Msc Sg Nom Def @parataxis #5->1
 "<í>"
 	"í" Pr @case #6->7
 "<Florida>"
-	"Florida" N Prop Sem/Fem Sg Nom @nmod #7->
+	"Florida" N Prop Sem/Fem Sg Nom @obl #7->5
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->5
 
 # text = Lansing: Lansing er høvuðsstaður í lutstatinum Michigan í USA.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Lansing>"
-	"Lansing" N Prop Sem/Plc Sg Nom @dep #1->
+	"Lansing" N Prop Sem/Plc Sg Nom @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Lansing>"
-	"Lansing" N Prop Sem/Plc Sg Nom @dep #3->
+	"Lansing" N Prop Sem/Plc Sg Nom @nsubj #3->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->5
 "<høvuðsstaður>"
-	"høvuðsstaður" N Msc Sg Nom Indef @dep #5->
+	"høvuðsstaður" N Msc Sg Nom Indef @parataxis #5->1
 "<í>"
 	"í" Pr @case #6->7
 "<lutstatinum>"
-	"lutur#statur" N Msc Sg Dat Def @nmod #7->
+	"lutur#statur" N Msc Sg Dat Def @obl #7->5
 "<Michigan>"
-	"Michigan" N Prop Sem/Plc Sg Acc @dep #8->
+	"Michigan" N Prop Sem/Plc Sg Acc @nmod:poss #8->7
 "<í>"
 	"í" Pr @case #9->10
 "<USA>"
-	"USA" N ACR Dat @nmod #10->
+	"USA" N ACR Dat @obl #10->5
 "<.>"
-	"." CLB @punct #11->
+	"." CLB @punct #11->5
 
 # text = Atlanta: Atlanta er høvuðsstaður Georgia í USA.
 # text[eng] = 
