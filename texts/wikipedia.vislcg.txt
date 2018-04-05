@@ -29591,47 +29591,47 @@
 
 # text = Framsøkin Ung: Framsøkin Ung (fyrr Framsøkin Ungdómur, stytt FU) er eitt politiskt ungmannafelag í Føroyum.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Framsøkin>"
-	"framsøkin" A Msc Sg Nom Indef @dep #1->2
+	"framsøkin" A Msc Sg Nom Indef @amod #1->2
 "<Ung>"
-	"ungur" A Neu Pl Nom Indef @dep #2->
+	"ungur" N Neu Pl Nom Indef @root #2->0
 "<:>"
-	":" CLB @punct #3->
+	":" CLB @punct #3->2
 "<Framsøkin>"
-	"framsøkin" A Msc Sg Nom Indef @dep #4->
+	"framsøkin" A Msc Sg Nom Indef @amod #4->5
 "<Ung>"
-	"ungur" A Neu Pl Nom Indef @dep #5->
+	"ungur" N Neu Pl Nom Indef @nsubj #5->17
 "<(>"
-	"(" PUNCT LEFT @punct #6->
+	"(" PUNCT LEFT @punct #6->9
 "<fyrr>"
-	"fyrr" Adv @dep #7->
+	"fyrr" Adv @advmod #7->9
 "<Framsøkin>"
 	"framsøkin" A Msc Sg Nom Indef @amod #8->9
 "<Ungdómur>"
-	"ungdómur" N Msc Sg Nom Indef @dep #9->
+	"ungdómur" N Msc Sg Nom Indef @appos #9->5
 "<,>"
-	"," CLB @punct #10->
+	"," CLB @punct #10->11
 "<stytt>"
-	"stytta" V Sup @dep #11->
+	"stytta" V Sup @acl #11->9
 "<FU>"
-	"FU" N ACR Nom @dep #12->
+	"FU" N ACR Nom @obj #12->11
 "<)>"
-	")" PUNCT RIGHT @punct #13->
+	")" PUNCT RIGHT @punct #13->9
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #14->
+	"vera" V Ind Prs Sg3 @cop #14->17
 "<eitt>"
-	"ein" Det Neu Sg Nom @det #15->
+	"ein" Det Neu Sg Nom @det #15->17
 "<politiskt>"
 	"politiskur" A Neu Sg Nom Indef @amod #16->17
 "<ungmannafelag>"
-	"ungmannafelag" N Neu Sg Nom Indef @dep #17->
+	"ungmannafelag" N Neu Sg Nom Indef @root #17->0
 "<í>"
 	"í" Pr @case #18->19
 "<Føroyum>"
-	"Føroyar" N Prop Fem Pl Dat Indef @nmod #19->
+	"Føroyar" N Prop Fem Pl Dat Indef @obl #19->17
 "<.>"
-	"." CLB @punct #20->
+	"." CLB @punct #20->17
 
 # text = Eyðkendur roykur gongur av henni.
 # text[eng] = Distinctive smoke comes from it.

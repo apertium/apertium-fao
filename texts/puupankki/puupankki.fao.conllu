@@ -12973,6 +12973,31 @@
 10	.	.	PUNCT	CLB	_	7	punct	_	_
 
 # sent_id = wikipedia.vislcg.txt:1000:19950
+# text = Framsøkin Ung: Framsøkin Ung (fyrr Framsøkin Ungdómur, stytt FU) er eitt politiskt ungmannafelag í Føroyum.
+# text[eng] =
+# labels = to_check
+1	Framsøkin	framsøkin	ADJ	A	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	2	amod	_	_
+2	Ung	ungur	NOUN	N	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	CLB	_	2	punct	_	_
+4	Framsøkin	framsøkin	ADJ	A	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	amod	_	_
+5	Ung	ungur	NOUN	N	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	17	nsubj	_	_
+6	(	(	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+7	fyrr	fyrr	ADV	Adv	_	9	advmod	_	_
+8	Framsøkin	framsøkin	ADJ	A	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	9	amod	_	_
+9	Ungdómur	ungdómur	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No
+10	,	,	PUNCT	CLB	_	11	punct	_	_
+11	stytt	stytta	VERB	V	VerbForm=Sup	9	acl	_	_
+12	FU	FU	NOUN	N	Case=Nom	11	obj	_	SpaceAfter=No
+13	)	)	PUNCT	PUNCT	_	9	punct	_	_
+14	er	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	17	cop	_	_
+15	eitt	ein	DET	Det	Case=Nom|Gender=Neut|Number=Sing	17	det	_	_
+16	politiskt	politiskur	ADJ	A	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	17	amod	_	_
+17	ungmannafelag	ungmannafelag	NOUN	N	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
+18	í	í	ADP	Pr	_	19	case	_	_
+19	Føroyum	Føroyar	PROPN	N	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	CLB	_	17	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:1001:19994
 # text = Eyðkendur roykur gongur av henni.
 # text[eng] = Distinctive smoke comes from it.
 # labels = to_check
@@ -12983,7 +13008,7 @@
 5	henni	hon	PRON	Pron	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	_	SpaceAfter=No
 6	.	.	PUNCT	CLB	_	3	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:1001:19966
+# sent_id = wikipedia.vislcg.txt:1002:20010
 # text = Her er ein sperra, sum eg havi funnið.
 # text[eng] = Here is a sperra that I have found.
 # labels = to_check
@@ -12998,7 +13023,7 @@
 9	funnið	finna	VERB	V	VerbForm=Sup	4	acl	_	SpaceAfter=No
 10	.	.	PUNCT	CLB	_	1	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:1002:19990
+# sent_id = wikipedia.vislcg.txt:1003:20034
 # text = Hiiumaa (landslutur): Hiiumaa er ein landslutur í Estlandi.
 # text[eng] =
 # labels = to_check
@@ -13015,7 +13040,7 @@
 11	Estlandi	Estland	PROPN	N	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
 12	.	.	PUNCT	CLB	_	9	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:1003:20018
+# sent_id = wikipedia.vislcg.txt:1004:20062
 # text = Tað eru 4 kommunur í landslutinum.
 # text[eng] = There are 4 communes in the province.
 # labels = to_check
@@ -13027,7 +13052,7 @@
 6	landslutinum	landslutur	NOUN	N	Case=Dat|Definite=Def|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	6	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:1004:20036
+# sent_id = wikipedia.vislcg.txt:1005:20080
 # text = Í dag varir kappingin í tríggjar vikur.
 # text[eng] =
 # labels = to_check
@@ -13040,7 +13065,7 @@
 7	vikur	vika	NOUN	N	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	CLB	_	7	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:1005:20056
+# sent_id = wikipedia.vislcg.txt:1006:20100
 # text = Kappingin byrjaði í Napoli og endaði í Brescia.
 # text[eng] = The competition starts in Naples and ends in Brescia.
 # labels = checked
@@ -13054,7 +13079,7 @@
 8	Brescia	Brescia	PROPN	N	Case=Nom|Number=Sing	6	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	2	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:1006:20078
+# sent_id = wikipedia.vislcg.txt:1007:20122
 # text = Sigrar eftir landi.
 # text[eng] =
 # labels = checked
@@ -13063,7 +13088,7 @@
 3	landi	land	NOUN	N	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing	1	obl	_	SpaceAfter=No
 4	.	.	PUNCT	CLB	_	1	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:1007:20090
+# sent_id = wikipedia.vislcg.txt:1008:20134
 # text = Hann er eisini ríkisborgari í Liechtenstein.
 # text[eng] = He is also a citizen of Lichtenstein.
 # labels = checked
@@ -13075,7 +13100,7 @@
 6	Liechtenstein	Liechtenstein	PROPN	N	Case=Acc|Number=Sing	4	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	4	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:1008:20108
+# sent_id = wikipedia.vislcg.txt:1009:20152
 # text = Franska fótbóltslandsliðið: Franska fótbóltslandsliðið er fótbóltslandslið Fraklands.
 # text[eng] = French football team: The French football team is the football team of France.
 # labels = checked
@@ -13089,7 +13114,7 @@
 8	Fraklands	Frakland	PROPN	N	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	7	nmod:poss	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	7	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:1009:20130
+# sent_id = wikipedia.vislcg.txt:1010:20174
 # text = Í 2016 væntar oyggin at fáa yvir tíggju milliónir ferðafólk á vitjan.
 # text[eng] = In 2016 the islands expect to receive over three million tourist visits.
 # labels = checked
@@ -13107,7 +13132,7 @@
 12	vitjan	vitjan	NOUN	N	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
 13	.	.	PUNCT	CLB	_	3	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:1010:20160
+# sent_id = wikipedia.vislcg.txt:1011:20204
 # text = Kappingin var merkt av vánaligum veðurlíkindum.
 # text[eng] = The competition was marked by poor weather conditions.
 # labels = to_check
