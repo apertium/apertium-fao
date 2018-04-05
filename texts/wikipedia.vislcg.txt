@@ -28869,43 +28869,43 @@
 
 # text = Juneau er eisini ein sjálvstýrandi landslutur.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Juneau>"
-	"Juneau" N Prop Sem/Plc Sg Nom @dep #1->
+	"Juneau" N Prop Sem/Plc Sg Nom @nsubj #1->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->6
 "<eisini>"
-	"eisini" Adv @dep #3->
+	"eisini" Adv @advmod #3->6
 "<ein>"
-	"ein" Det Msc Sg Nom @det #4->
+	"ein" Det Msc Sg Nom @det #4->6
 "<sjálvstýrandi>"
 	"sjálvstýrandi" A Msc Sg Nom Indef @amod #5->6
 "<landslutur>"
-	"landslutur" N Msc Sg Nom Indef @dep #6->
+	"landslutur" N Msc Sg Nom Indef @root #6->0
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Anchorage: Anchorage er størsti býur í Alaska.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Anchorage>"
-	"Anchorage" N Prop Sem/Plc Sg Nom @dep #1->
+	"Anchorage" N Prop Sem/Plc Sg Nom @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Anchorage>"
-	"Anchorage" N Prop Sem/Plc Sg Nom @dep #3->
+	"Anchorage" N Prop Sem/Plc Sg Nom @nsubj #3->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->6
 "<størsti>"
 	"stórur" A Superl Msc Sg Nom Def @amod #5->6
 "<býur>"
-	"býur" N Msc Sg Nom Indef @dep #6->
+	"býur" N Msc Sg Nom Indef @parataxis #6->1
 "<í>"
 	"í" Pr @case #7->8
 "<Alaska>"
-	"Alaska" N Prop Sg Nom @nmod #8->
+	"Alaska" N Prop Sg Nom @obl #8->6
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->6
 
 # text = Býurin er handils- og samferðslumiðdepilin í lutstatinum.
 # text[eng] = 
