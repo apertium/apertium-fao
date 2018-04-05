@@ -28712,64 +28712,64 @@
 	"." CLB @punct #6->3
 
 # text = Hon varð vald við 396 persónligum atkvøðum.
-# text[eng] = 
-# labels = to_check disam incomplete
+# text[eng] = He was elected with 396 personal votes.
+# labels = to_check disam typo
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->3
 "<varð>"
-	"verða" V Ind Prt Sg3 @root #2->0
+	"verða" V Ind Prt Sg3 @aux:pass #2->3
 "<vald>"
-	"vald" N Neu Sg Nom Indef @dep #3->2
+	"velja" V Supn @root #3->0
 "<við>"
-	"við" Pr @case #4->
+	"við" Pr @case #4->7
 "<396>"
-	"396" Num Dat @dep #5->2
+	"396" Num Dat @nummod #5->2
 "<persónligum>"
 	"persónligur" A Fem Pl Dat Indef @amod #6->7
 "<atkvøðum>"
-	"atkvøða" N Fem Pl Dat Indef @dep #7->2
+	"atkvøða" N Fem Pl Dat Indef @obl #7->3
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->3
 
 # text = Fløgan er ognað pápanum, Birgir Nónsgjógv.
-# text[eng] = 
-# labels = to_check incomplete
+# text[eng] = The disk is dedicated to his father, Birgir Nónsgjógv.
+# labels = to_check
 "<Fløgan>"
-	"fløga" N Fem Sg Nom Def @dep #1->
+	"fløga" N Fem Sg Nom Def @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @aux:pass #2->3
 "<ognað>"
-	"ogna" V Sup @dep #3->
+	"ogna" V Sup @root #3->0
 "<pápanum>"
-	"pápi" N Msc Sg Dat Def @dep #4->
+	"pápi" N Msc Sg Dat Def @iobj #4->3
 "<,>"
-	"," CLB @punct #5->
+	"," CLB @punct #5->6
 "<Birgir>"
-	"birgja" V Ind Prs Sg3 @dep #6->
+	"Birgir" N Prop Sem/Mal Sg Nom @appos #6->4
 "<Nónsgjógv>"
-	"nón#gjógv" N Fem Sg Nom Indef @dep #7->
+	"Nónsgjógv" N Prop Sg Nom @flat #7->6
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->3
 
 # text = Hann er vanligur á vátlendi í undirhaganum.
-# text[eng] = 
-# labels = to_check incomplete
+# text[eng] = It is usual in the wetlands in the low-lying fields.
+# labels = to_check
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<vanligur>"
-	"vanligur" A Msc Sg Nom Indef @dep #3->
+	"vanligur" A Msc Sg Nom Indef @root #3->0
 "<á>"
 	"á" Pr @case #4->5
 "<vátlendi>"
-	"vátlendi" N Neu Sg Dat Indef @nmod #5->
+	"vátlendi" N Neu Sg Dat Indef @obl #5->3
 "<í>"
 	"í" Pr @case #6->7
 "<undirhaganum>"
-	"undirhagi" N Msc Sg Dat Def @nmod #7->
+	"undirhagi" N Msc Sg Dat Def @nmod #7->5
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->3
 
 # text = Mann helt, at illir andar vildu við í veitslu.
 # text[eng] = 
@@ -28798,20 +28798,20 @@
 	"." CLB @punct #11->
 
 # text = Streymgágga er smidligari enn agngággan.
-# text[eng] = 
-# labels = to_check incomplete
+# text[eng] = Red whelk is nicer than normal whelk.
+# labels = to_check
 "<Streymgágga>"
-	"streymgágga" N Fem Sg Nom Indef @dep #1->
+	"streymgágga" N Fem Sg Nom Indef @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<smidligari>"
-	"smidligur" A Cmp Fem Sg Nom Indef @dep #3->
+	"smidligur" A Cmp Fem Sg Nom Indef @root #3->0
 "<enn>"
-	"enn" Adv @dep #4->
+	"enn" Adv @mark #4->5
 "<agngággan>"
-	"agngágga" N Fem Sg Nom Def @dep #5->
+	"agngágga" N Fem Sg Nom Def @advcl #5->3
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->3
 
 # text = Til eru 36 hjartarsløg.
 # text[eng] = 
