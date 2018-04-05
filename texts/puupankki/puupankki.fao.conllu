@@ -7129,7 +7129,7 @@
 3	Portland	Portland	PROPN	N	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	nsubj	_	_
 4	er	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	cop	_	_
 5	ein	ein	DET	Det	Case=Nom|Gender=Masc|Number=Sing	6	det	_	_
-6	býur	býur	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	root	_	_
+6	býur	býur	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	parataxis	_	_
 7	í	í	ADP	Pr	_	8	case	_	_
 8	Oregon	Oregon	PROPN	N	Case=Acc|Number=Sing	6	obl	_	_
 9	í	í	ADP	Pr	_	10	case	_	_
