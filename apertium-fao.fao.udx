@@ -27,7 +27,7 @@ _	_	Poss	_	_	_	_	_
 _	_	PrfPrc	_	_	_	VerbForm=Part|Tense=Past|Mood=Ind	_
 _	N	Prop	_	_	_	PROPN	_
 _	_	Prs	_	_	_	Tense=Pres|Mood=Ind	_
-_	_	PrsPrc	_	_	_	VerbForm=Part|Tense=Prs|Mood=Ind	_
+_	_	PrsPrc	_	_	_	VerbForm=Part|Tense=Pres|Mood=Ind	_
 _	_	Prt	_	_	_	Tense=Past|Mood=Ind	_
 _	_	Refl	_	_	_	Reflex=Yes	_
 _	_	Rel	_	_	_	PronType=Rel	_
