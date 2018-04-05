@@ -13946,23 +13946,23 @@
 # text[eng] = 
 # labels = to_check incomplete
 "<Atlanta>"
-	"Atlanta" N Prop Sg Nom @dep #1->
+	"Atlanta" N Prop Sg Nom @dep #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Atlanta>"
-	"Atlanta" N Prop Sg Nom @dep #3->
+	"Atlanta" N Prop Sg Nom @dep #3->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->5
 "<høvuðsstaður>"
 	"høvuðsstaður" N Msc Sg Nom Indef @dep #5->
 "<Georgia>"
-	"Georgia" N Prop Sg Nom @dep #6->
+	"Georgia" N Prop Sg Nom @dep #6->5
 "<í>"
 	"í" Pr @case #7->8
 "<USA>"
-	"USA" N ACR Dat @nmod #8->
+	"USA" N ACR Dat @nmod #8->5
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->5
 
 # text = Richmond: Richmond er høvuðsstaður amerikanska lutastatinum Virginia.
 # text[eng] = 
