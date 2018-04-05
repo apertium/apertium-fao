@@ -3156,25 +3156,25 @@
 "<í>"
 	"í" Pr @case #4->5
 "<hvørfalli>"
-	"hvørfall" N Neu Sg Dat Indef @nmod #5->3
+	"hvørfall" N Neu Sg Dat Indef @obl #5->3
 "<.>"
 	"." CLB @punct #6->3
 
 # text = Skiftitøl eru talorð í fleirtali.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Skiftitøl>"
-	"skiftitøl" N Neu Pl Nom Indef @dep #1->
+	"skiftitøl" N Neu Pl Nom Indef @nsubj #1->3
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->3
 "<talorð>"
-	"talorð" N Neu Pl Nom Indef @dep #3->
+	"talorð" N Neu Pl Nom Indef @root #3->0
 "<í>"
 	"í" Pr @case #4->5
 "<fleirtali>"
-	"fleirtal" N Neu Sg Dat Indef @nmod #5->
+	"fleirtal" N Neu Sg Dat Indef @obl #5->3
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->3
 
 # text = Landbúnaðurin hevur stóran týdning fyri litavska búskapin.
 # text[eng] = 
@@ -3198,13 +3198,13 @@
 
 # text = Høvuðsstaðurin er Athen, sum eisini er størsti býur.
 # text[eng] = The capital city is Athens which is also the biggest city.
-# labels = to_check incomplete
+# labels = to_check
 "<Høvuðsstaðurin>"
 	"høvuðsstaður" N Msc Sg Nom Def @nsubj #1->3
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->3
 "<Athen>"
-	"Athen" N Prop Sem/Plc Sg Nom @root #3->
+	"Athen" N Prop Sem/Plc Sg Nom @root #3->0
 "<,>"
 	"," CLB @punct #4->9
 "<sum>"
@@ -3373,20 +3373,20 @@
 	"." CLB @punct #8->4
 
 # text = Í 895 var ungarskt landnám.
-# text[eng] = 
-# labels = to_check incomplete
+# text[eng] = In 895 it was a Hungarian settlement.
+# labels = to_check
 "<Í>"
-	"í" Pr @case #1->
+	"í" Pr @case #1->2
 "<895>"
-	"895" Num Dat @dep #2->
+	"895" Num Dat @obl #2->5
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #3->
+	"vera" V Ind Prt Sg3 @cop #3->5
 "<ungarskt>"
 	"ungarskur" A Neu Sg Nom Indef @amod #4->5
 "<landnám>"
-	"landnám" N Neu Sg Nom Indef @dep #5->
+	"landnám" N Neu Sg Nom Indef @root #5->0
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->5
 
 # text = Um 96 fólk búgva á Hvítanesi.
 # text[eng] = Around 96 people live in Hvítanes.
@@ -3407,84 +3407,84 @@
 	"." CLB @punct #7->4
 
 # text = Tveir seyðabøndur eru eisini í bygdini.
-# text[eng] = 
-# labels = to_check incomplete
+# text[eng] = There are two sheep farmers in the village.
+# labels = to_check
 "<Tveir>"
 	"tvey" Num Msc Sg Nom @nummod #1->2
 "<seyðabøndur>"
-	"seyðabóndi" N Msc Pl Nom Indef @dep #2->
+	"seyðabóndi" N Msc Pl Nom Indef @nsubj #2->6
 "<eru>"
-	"vera" V Ind Prs Pl @cop #3->
+	"vera" V Ind Prs Pl @cop #3->6
 "<eisini>"
-	"eisini" Adv @dep #4->
+	"eisini" Adv @advmod #4->6
 "<í>"
 	"í" Pr @case #5->6
 "<bygdini>"
-	"bygd" N Fem Sg Dat Def @nmod #6->
+	"bygd" N Fem Sg Dat Def @root #6->0
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Í Syðradali eru tvey festi.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Í>"
 	"í" Pr @case #1->2
 "<Syðradali>"
-	"Syðradalur" N Prop Msc Sg Dat Indef @nmod #2->
+	"Syðradalur" N Prop Msc Sg Dat Indef @root #2->0
 "<eru>"
-	"vera" V Ind Prs Pl @cop #3->
+	"vera" V Ind Prs Pl @cop #3->2
 "<tvey>"
 	"tvey" Num Neu Sg Nom @nummod #4->5
 "<festi>"
-	"festi" N Neu Pl Nom Indef @dep #5->
+	"festi" N Neu Pl Nom Indef @nsubj #5->2
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->2
 
 # text = Velbastaður er av elstu bygdum í Føroyum.
-# text[eng] = 
-# labels = to_check incomplete
+# text[eng] = Velbastaður is one of the oldest villages on the Faroe Islands.
+# labels = to_check
 "<Velbastaður>"
-	"Velbastaður" N Prop Msc Sg Nom Indef @dep #1->
+	"Velbastaður" N Prop Msc Sg Nom Indef @nsubj #1->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->5
 "<av>"
-	"av" Pr @case #3->
+	"av" Pr @case #3->5
 "<elstu>"
 	"gamal" A Superl Fem Pl Dat Def @amod #4->5
 "<bygdum>"
-	"bygd" N Fem Pl Dat Indef @nmod #5->
+	"bygd" N Fem Pl Dat Indef @root #5->0
 "<í>"
 	"í" Pr @case #6->7
 "<Føroyum>"
-	"Føroyar" N Prop Fem Pl Dat Indef @nmod #7->
+	"Føroyar" N Prop Fem Pl Dat Indef @obl #7->5
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->5
 
 # text = Velbastaður hevur verið, og er framvegis, eyðkend landbúnaðarbygd.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Velbastaður>"
-	"Velbastaður" N Prop Msc Sg Nom Indef @dep #1->
+	"Velbastaður" N Prop Msc Sg Nom Indef @nsubj #1->10
 "<hevur>"
-	"hava" V Ind Prs Sg3 @aux #2->3
+	"hava" V Ind Prs Sg3 @aux #2->10
 "<verið>"
-	"vera" V Sup @cop #3->
+	"vera" V Sup @cop #3->10
 "<,>"
-	"," CLB @punct #4->
+	"," CLB @punct #4->6
 "<og>"
-	"og" CC @cc #5->
+	"og" CC @cc #5->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #6->
+	"vera" V Ind Prs Sg3 @cop #6->3
 "<framvegis>"
-	"framvegis" Adv @dep #7->
+	"framvegis" Adv @advmod #7->6
 "<,>"
-	"," CLB @punct #8->
+	"," CLB @punct #8->6
 "<eyðkend>"
 	"eyðkendur" A Fem Sg Nom Indef @amod #9->10
 "<landbúnaðarbygd>"
-	"landbúnaður#bygd" N Fem Sg Nom Indef @dep #10->
+	"landbúnaður#bygd" N Fem Sg Nom Indef @root #10->0
 "<.>"
-	"." CLB @punct #11->
+	"." CLB @punct #11->10
 
 # text = Í bygdini eru 26 hús.
 # text[eng] = 
