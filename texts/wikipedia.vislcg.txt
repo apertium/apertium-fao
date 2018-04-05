@@ -378,37 +378,37 @@
 
 # text = Nógv seyðahald er í oynni, og í Mikladals kommunu er eisini nógv neytahald.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check 
 "<Nógv>"
 	"nógvur" A Neu Pl Nom Indef @amod #1->2
 "<seyðahald>"
-	"seyðahald" N Neu Sg Nom Indef @dep #2->
+	"seyðahald" N Neu Sg Nom Indef @nsubj #2->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #3->
+	"vera" V Ind Prs Sg3 @cop #3->5
 "<í>"
 	"í" Pr @case #4->5
 "<oynni>"
-	"oy" N Fem Sg Dat Def @nmod #5->
+	"oy" N Fem Sg Dat Def @root #5->0
 "<,>"
-	"," CLB @punct #6->
+	"," CLB @punct #6->14
 "<og>"
-	"og" CC @cc #7->
+	"og" CC @cc #7->14
 "<í>"
 	"í" Pr @case #8->9
 "<Mikladals>"
-	"Mikladalur" N Prop Msc Sg Gen Indef @nmod #9->
+	"Mikladalur" N Prop Msc Sg Gen Indef @nmod:poss #9->10
 "<kommunu>"
-	"kommuna" N Fem Sg Dat Indef @dep #10->
+	"kommuna" N Fem Sg Dat Indef @nsubj #10->14
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #11->
+	"vera" V Ind Prs Sg3 @cop #11->14
 "<eisini>"
-	"eisini" Adv @dep #12->
+	"eisini" Adv @advmod #12->14
 "<nógv>"
 	"nógvur" A Neu Pl Acc Indef @amod #13->14
 "<neytahald>"
-	"neytahald" N Neu Sg Acc Indef @dep #14->
+	"neytahald" N Neu Sg Acc Indef @conj #14->0
 "<.>"
-	"." CLB @punct #15->
+	"." CLB @punct #15->5
 
 # text = Flogskiparin og 7 ferðafólk doyðu.
 # text[eng] = The plane's captain and 7 tourists died.
@@ -474,33 +474,33 @@
 
 # text = Ferðasamband er 3 ferðir um vikuna, mikudag, fríggjadag og sunnudag.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check disam
 "<Ferðasamband>"
-	"ferðasamband" N Neu Sg Nom Indef @dep #1->
+	"ferðasamband" N Neu Sg Nom Indef @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<3>"
 	"3" Num Nom @nummod #3->4
 "<ferðir>"
-	"ferð" N Fem Pl Nom Indef @dep #4->
+	"ferð" N Fem Pl Nom Indef @root #4->0
 "<um>"
 	"um" Pr @case #5->6
 "<vikuna>"
-	"vika" N Fem Sg Acc Def @nmod #6->
+	"vika" N Fem Sg Acc Def @obl #6->4
 "<,>"
-	"," CLB @punct #7->
+	"," CLB @punct #7->8
 "<mikudag>"
-	"mikudagur" N Msc Sg Acc Indef @dep #8->
+	"mikudagur" N Msc Sg Acc Indef @appos #8->4
 "<,>"
-	"," CLB @punct #9->
+	"," CLB @punct #9->10
 "<fríggjadag>"
-	"fríggjadagur" N Msc Sg Acc Indef @dep #10->
+	"fríggjadagur" N Msc Sg Acc Indef @conj #10->8
 "<og>"
-	"og" CC @cc #11->
+	"og" CC @cc #11->12
 "<sunnudag>"
-	"sunnudagur" N Msc Sg Acc Indef @dep #12->
+	"sunnudagur" N Msc Sg Acc Indef @conj #12->8
 "<.>"
-	"." CLB @punct #13->
+	"." CLB @punct #13->4
 
 # text = Nógv virksemi er í Dímun.
 # text[eng] = Some work is in Dímun.
@@ -545,44 +545,44 @@
 	"." CLB @punct #11->3
 
 # text = Súgvin fór á sjógvin og svam frá landi.
-# text[eng] = 
-# labels = to_check incomplete
+# text[eng] = The sow went to the sea and swam away from the land.
+# labels = to_check
 "<Súgvin>"
-	"súgv" N Fem Sg Nom Def @dep #1->
+	"súgv" N Fem Sg Nom Def @nsubj #1->2
 "<fór>"
-	"fara" V Ind Prt Sg3 @dep #2->
+	"fara" V Ind Prt Sg3 @root #2->0
 "<á>"
 	"á" Pr @case #3->4
 "<sjógvin>"
-	"sjógvur" N Msc Sg Acc Def @nmod #4->
+	"sjógvur" N Msc Sg Acc Def @obl #4->2
 "<og>"
-	"og" CC @cc #5->
+	"og" CC @cc #5->6
 "<svam>"
-	"svimja" V Ind Prt Sg3 @dep #6->
+	"svimja" V Ind Prt Sg3 @conj #6->2
 "<frá>"
 	"frá" Pr @case #7->8
 "<landi>"
-	"land" N Neu Sg Dat Indef @nmod #8->
+	"land" N Neu Sg Dat Indef @obl #8->6
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->2
 
 # text = Og har hevur hon ligið síðani.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Og>"
-	"og" CC @cc #1->
+	"og" CC @cc #1->5
 "<har>"
-	"har" Adv @dep #2->3
+	"har" Adv @advmod #2->5
 "<hevur>"
-	"hava" V Ind Prs Sg3 @root #3->0
+	"hava" V Ind Prs Sg3 @aux #3->5
 "<hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #4->
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #4->5
 "<ligið>"
-	"liggja" V Sup @dep #5->3
+	"liggja" V Sup @root #5->0
 "<síðani>"
-	"síðani" Adv @dep #6->3
+	"síðani" Adv @advmod #6->5
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->5
 
 # text = Allar plantur og øll dýr í sama øki eru eitt samfelag.
 # text[eng] = All plants and all animals in the same place are a society.
@@ -717,24 +717,24 @@
 	"." CLB @punct #6->5
 
 # text = Í 2011 varð hann útbúgvin sum lærari.
-# text[eng] = 
+# text[eng] = In 2011 he was qualified as a teacher.
 # labels = to_check incomplete
 "<Í>"
-	"í" Pr @case #1->
+	"í" Pr @case #1->2
 "<2011>"
-	"2011" Num Dat @dep #2->3
+	"2011" Num Dat @obl #2->5
 "<varð>"
-	"verða" V Ind Prt Sg3 @root #3->0
+	"verða" V Ind Prt Sg3 @cop #3->5
 "<hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #4->
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #4->5
 "<útbúgvin>"
-	"útbúgvin" A Msc Sg Nom Indef @dep #5->3
+	"útbúgvin" A Msc Sg Nom Indef @root #5->0
 "<sum>"
-	"sum" Pr @case #6->7
+	"sum" CS @mark #6->7
 "<lærari>"
-	"lærari" N Msc Sg Nom Indef @nmod #7->
+	"lærari" N Msc Sg Nom Indef @advcl #7->5
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->5
 
 # text = Mánadagur: Mánadagur er ein vikudagur.
 # text[eng] = Monday: Monday is a day of the week.
@@ -756,57 +756,57 @@
 
 # text = Fríggjadagur: Fríggjadagur er ein vikudagur.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check 
 "<Fríggjadagur>"
-	"fríggjadagur" N Msc Sg Nom Indef @dep #1->
+	"fríggjadagur" N Msc Sg Nom Indef @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Fríggjadagur>"
-	"fríggjadagur" N Msc Sg Nom Indef @dep #3->
+	"fríggjadagur" N Msc Sg Nom Indef @nsubj #3->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->6
 "<ein>"
 	"ein" Det Msc Sg Nom @det #5->6
 "<vikudagur>"
-	"vikudagur" N Msc Sg Nom Indef @dep #6->
+	"vikudagur" N Msc Sg Nom Indef @parataxis #6->1
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Leygardagur: Leygardagur er ein vikudagur.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check 
 "<Leygardagur>"
-	"leygardagur" N Msc Sg Nom Indef @dep #1->
+	"leygardagur" N Msc Sg Nom Indef @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Leygardagur>"
-	"leygardagur" N Msc Sg Nom Indef @dep #3->
+	"leygardagur" N Msc Sg Nom Indef @nsubj #3->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->6
 "<ein>"
 	"ein" Det Msc Sg Nom @det #5->6
 "<vikudagur>"
-	"vikudagur" N Msc Sg Nom Indef @dep #6->
+	"vikudagur" N Msc Sg Nom Indef @parataxis #6->1
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Sunnudagur: Sunnudagur er ein vikudagur.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check 
 "<Sunnudagur>"
-	"sunnudagur" N Msc Sg Nom Indef @dep #1->
+	"sunnudagur" N Msc Sg Nom Indef @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Sunnudagur>"
-	"sunnudagur" N Msc Sg Nom Indef @dep #3->
+	"sunnudagur" N Msc Sg Nom Indef @nsubj #3->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->6
 "<ein>"
 	"ein" Det Msc Sg Nom @det #5->6
 "<vikudagur>"
-	"vikudagur" N Msc Sg Nom Indef @dep #6->
+	"vikudagur" N Msc Sg Nom Indef @parataxis #6->1
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Slovakia: Slovakia er eitt lýðveldi í Miðevropa.
 # text[eng] = Slovakia: Slovakia is a republic in Central Europe.
