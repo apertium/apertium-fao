@@ -3074,13 +3074,13 @@
 
 # text = Sí eisini.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Sí>"
 	"síggja" V Imp Sg @root #1->0
 "<eisini>"
-	"eisini" Adv @dep #2->1
+	"eisini" Adv @advmod #2->1
 "<.>"
-	"." CLB @punct #3->
+	"." CLB @punct #3->1
 
 # text = Kr. tók Aleksandur Mikli ræði á oynni.
 # text[eng] = 
@@ -3504,25 +3504,25 @@
 
 # text = Men í bygdini er eisini ein nýggj útstykking.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Men>"
-	"men" CC @cc #1->
+	"men" CC @cc #1->3
 "<í>"
 	"í" Pr @case #2->3
 "<bygdini>"
-	"bygd" N Fem Sg Dat Def @nmod #3->
+	"bygd" N Fem Sg Dat Def @root #3->0
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->3
 "<eisini>"
-	"eisini" Adv @dep #5->
+	"eisini" Adv @advmod #5->3
 "<ein>"
-	"eitt" Num Fem Sg Nom @dep #6->
+	"eitt" Num Fem Sg Nom @nummod #6->8
 "<nýggj>"
 	"nýggjur" A Fem Sg Nom Indef @amod #7->8
 "<útstykking>"
-	"útstykking" N Fem Sg Nom Indef @dep #8->
+	"útstykking" N Fem Sg Nom Indef @nsubj #8->3
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->3
 
 # text = Hon liggur nær við vatni, í einum dali.
 # text[eng] = It is located near to water, in a valley.
