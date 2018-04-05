@@ -4454,7 +4454,7 @@
 
 # text = Klettafjøll eru norðan úr Alaska og suður í New Mexico eru ryggurin í meginlandinum.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check disam typo incomplete
 "<Klettafjøll>"
 	"Klettafjøll" N Prop Neu Pl Nom Indef @dep #1->
 "<eru>"
@@ -4572,23 +4572,23 @@
 
 # text = Kyrrahavsoyggjarnar eru av ymsum uppruna og skapi.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Kyrrahavsoyggjarnar>"
-	"Kyrrahav#oyggj" N Fem Pl Nom Def @dep #1->
+	"Kyrrahav#oyggj" N Fem Pl Nom Def @nsubj #1->5
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->5
 "<av>"
-	"av" Pr @case #3->
+	"av" Pr @case #3->5
 "<ymsum>"
 	"ymsur" A Msc Sg Dat Indef @amod #4->5
 "<uppruna>"
-	"uppruni" N Msc Sg Dat Indef @nmod #5->
+	"uppruni" N Msc Sg Dat Indef @root #5->0
 "<og>"
-	"og" CC @cc #6->
+	"og" CC @cc #6->7
 "<skapi>"
-	"skap" N Neu Sg Dat Indef @dep #7->
+	"skap" N Neu Sg Dat Indef @conj #7->5
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->5
 
 # text = Menninir búsettust eina tíð í Indonesia.
 # text[eng] = The man took up residence for a time in Indonesia.
@@ -4610,29 +4610,29 @@
 
 # text = Sum tíðin leið, løgdu ymisk long oyggjarnar undir seg.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Sum>"
-	"sum" CS @dep #1->
+	"sum" CS @mark #1->3
 "<tíðin>"
-	"tíð" N Fem Sg Nom Def @dep #2->
+	"tíð" N Fem Sg Nom Def @nsubj #2->3
 "<leið>"
-	"líða" V Ind Prt Sg3 @dep #3->
+	"líða" V Ind Prt Sg3 @advcl #3->5
 "<,>"
-	"," CLB @punct #4->
+	"," CLB @punct #4->3
 "<løgdu>"
-	"leggja" V Ind Prt Pl @dep #5->
+	"leggja" V Ind Prt Pl @root #5->0
 "<ymisk>"
-	"ymiskur" A Fem Sg Nom Indef @dep #6->
+	"ymiskur" A Fem Sg Nom Indef @amod #6->8
 "<long>"
 	"langur" A Fem Sg Nom Indef @amod #7->8
 "<oyggjarnar>"
-	"oyggj" N Fem Pl Nom Def @dep #8->
+	"oyggj" N Fem Pl Nom Def @nsubj #8->5
 "<undir>"
-	"undir" Pr @case #9->
+	"undir" Pr @case #9->10
 "<seg>"
-	"seg" Pron Refl Acc @dep #10->
+	"seg" Pron Refl Acc @obl #10->5
 "<.>"
-	"." CLB @punct #11->
+	"." CLB @punct #11->5
 
 # text = Har eru eisini stórir garðar við sukurrørum og gummitrøum.
 # text[eng] = There is also a large garden here with sugar cane and rubber plants.
@@ -4660,7 +4660,7 @@
 
 # text = Føroyskan mentan skal skjalprógvast í tilfarinum hjá Kringvarpinum.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check disam incomplete
 "<Føroyskan>"
 	"føroyskur" A Msc Sg Acc Indef @dep #1->3
 "<mentan>"
@@ -4702,19 +4702,19 @@
 
 # text = Strandferðslan er stovnur undir Vinnumálaráðnum.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Strandferðslan>"
-	"strandferðsla" N Fem Sg Nom Def @dep #1->
+	"strandferðsla" N Fem Sg Nom Def @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<stovnur>"
-	"stovnur" N Msc Sg Nom Indef @dep #3->
+	"stovnur" N Msc Sg Nom Indef @root #3->0
 "<undir>"
 	"undir" Pr @case #4->5
 "<Vinnumálaráðnum>"
-	"vinna#mál#ráð" N Neu Pl Dat Def @nmod #5->
+	"vinna#mál#ráð" N Neu Pl Dat Def @obl #5->3
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->3
 
 # text = Um heystið vóru teir á sild.
 # text[eng] = 
