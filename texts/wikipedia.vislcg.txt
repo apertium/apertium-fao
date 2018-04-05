@@ -3673,24 +3673,24 @@
 	"." CLB @punct #6->5
 
 # text = Meginparturin av jørðini í Leirvík er kongsjørð.
-# text[eng] = 
-# labels = to_check incomplete
+# text[eng] = The majority of land in Leirvík is royal land.
+# labels = to_check
 "<Meginparturin>"
-	"meginpartur" N Msc Sg Nom Def @dep #1->
+	"meginpartur" N Msc Sg Nom Def @nsubj #1->7
 "<av>"
 	"av" Pr @case #2->3
 "<jørðini>"
-	"jørð" N Fem Sg Dat Def @nmod #3->
+	"jørð" N Fem Sg Dat Def @nmod #3->1
 "<í>"
 	"í" Pr @case #4->5
 "<Leirvík>"
-	"Leirvík" N Prop Fem Sg Dat Indef @nmod #5->
+	"Leirvík" N Prop Fem Sg Dat Indef @nmod #5->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #6->
+	"vera" V Ind Prs Sg3 @cop #6->7
 "<kongsjørð>"
-	"kongsjørð" N Fem Sg Nom Indef @dep #7->
+	"kongsjørð" N Fem Sg Nom Indef @root #7->0
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->7
 
 # text = Rúnasteinurin stendur nú í Sandavágs kirkju.
 # text[eng] = The runic stone now stands in Sandavágur's church.
