@@ -54,7 +54,7 @@
 
 # text = Hetta var ein lítil meiriluti, sum kom at merkja samstarvið ímillum flokkarnar.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Hetta>"
 	"hesin" Pron Dem Neu Sg Nom @nsubj #1->5
 "<var>"
@@ -106,7 +106,7 @@
 
 # text = Í frískúlum privatskúlum fæst frálæra, á sama hátt sum í fólkaskúlanum.
 # text[eng] = In free schools education is available, similar to in public schools.
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->2
 "<frískúlum>"
@@ -320,27 +320,27 @@
 # text[eng] = 
 # labels = to_check
 "<Oyggin>"
-	"oyggj" N Fem Sg Nom Def @dep #1->
+	"oyggj" N Fem Sg Nom Def @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<vøkur>"
-	"vøka" N Fem Pl Nom Indef @dep #3->
+	"vøka" N Fem Pl Nom Indef @root #3->0
 "<og>"
-	"og" CC @cc #4->
+	"og" CC @cc #4->5
 "<har>"
-	"har" Adv @dep #5->
+	"har" Adv @conj #5->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #6->
+	"vera" V Ind Prs Sg3 @cop #6->5
 "<nógvur>"
 	"nógvur" A Msc Sg Nom Indef @amod #7->8
 "<heiðafuglur>"
-	"heiðafuglur" N Msc Sg Nom Indef @dep #8->
+	"heiðafuglur" N Msc Sg Nom Indef @nsubj #8->5
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->3
 
 # text = Í bygdini hoyrist songurin frá heiðafuglinum sjáldsama væl.
 # text[eng] = 
-# labels = to_check
+# labels = to_check disam incomplete
 "<Í>"
 	"í" Pr @case #1->2
 "<bygdini>"
@@ -378,37 +378,37 @@
 
 # text = Nógv seyðahald er í oynni, og í Mikladals kommunu er eisini nógv neytahald.
 # text[eng] = 
-# labels = to_check
+# labels = to_check 
 "<Nógv>"
 	"nógvur" A Neu Pl Nom Indef @amod #1->2
 "<seyðahald>"
-	"seyðahald" N Neu Sg Nom Indef @dep #2->
+	"seyðahald" N Neu Sg Nom Indef @nsubj #2->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #3->
+	"vera" V Ind Prs Sg3 @cop #3->5
 "<í>"
 	"í" Pr @case #4->5
 "<oynni>"
-	"oy" N Fem Sg Dat Def @nmod #5->
+	"oy" N Fem Sg Dat Def @root #5->0
 "<,>"
-	"," CLB @punct #6->
+	"," CLB @punct #6->14
 "<og>"
-	"og" CC @cc #7->
+	"og" CC @cc #7->14
 "<í>"
 	"í" Pr @case #8->9
 "<Mikladals>"
-	"Mikladalur" N Prop Msc Sg Gen Indef @nmod #9->
+	"Mikladalur" N Prop Msc Sg Gen Indef @nmod:poss #9->10
 "<kommunu>"
-	"kommuna" N Fem Sg Dat Indef @dep #10->
+	"kommuna" N Fem Sg Dat Indef @nsubj #10->14
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #11->
+	"vera" V Ind Prs Sg3 @cop #11->14
 "<eisini>"
-	"eisini" Adv @dep #12->
+	"eisini" Adv @advmod #12->14
 "<nógv>"
 	"nógvur" A Neu Pl Acc Indef @amod #13->14
 "<neytahald>"
-	"neytahald" N Neu Sg Acc Indef @dep #14->
+	"neytahald" N Neu Sg Acc Indef @conj #14->0
 "<.>"
-	"." CLB @punct #15->
+	"." CLB @punct #15->5
 
 # text = Flogskiparin og 7 ferðafólk doyðu.
 # text[eng] = The plane's captain and 7 passengers died.
@@ -428,7 +428,7 @@
 
 # text = Hetta er eitt tiltak, ið er málrættað ferðavinnuni.
 # text[eng] = This is an initiative aimed at the tourist industry.
-# labels = to_check
+# labels = to_check incomplete
 "<Hetta>"
 	"hesin" Pron Dem Neu Sg Acc @dep #1->
 "<er>"
@@ -452,7 +452,7 @@
 
 # text = Í dag er fótbóltsvøllur, har Holið var.
 # text[eng] = Today there is a football field, where The Hole was.
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->2
 "<dag>"
@@ -474,33 +474,33 @@
 
 # text = Ferðasamband er 3 ferðir um vikuna, mikudag, fríggjadag og sunnudag.
 # text[eng] = 
-# labels = to_check
+# labels = to_check disam
 "<Ferðasamband>"
-	"ferðasamband" N Neu Sg Nom Indef @dep #1->
+	"ferðasamband" N Neu Sg Nom Indef @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<3>"
 	"3" Num Nom @nummod #3->4
 "<ferðir>"
-	"ferð" N Fem Pl Nom Indef @dep #4->
+	"ferð" N Fem Pl Nom Indef @root #4->0
 "<um>"
 	"um" Pr @case #5->6
 "<vikuna>"
-	"vika" N Fem Sg Acc Def @nmod #6->
+	"vika" N Fem Sg Acc Def @obl #6->4
 "<,>"
-	"," CLB @punct #7->
+	"," CLB @punct #7->8
 "<mikudag>"
-	"mikudagur" N Msc Sg Acc Indef @dep #8->
+	"mikudagur" N Msc Sg Acc Indef @appos #8->4
 "<,>"
-	"," CLB @punct #9->
+	"," CLB @punct #9->10
 "<fríggjadag>"
-	"fríggjadagur" N Msc Sg Acc Indef @dep #10->
+	"fríggjadagur" N Msc Sg Acc Indef @conj #10->8
 "<og>"
-	"og" CC @cc #11->
+	"og" CC @cc #11->12
 "<sunnudag>"
-	"sunnudagur" N Msc Sg Acc Indef @dep #12->
+	"sunnudagur" N Msc Sg Acc Indef @conj #12->8
 "<.>"
-	"." CLB @punct #13->
+	"." CLB @punct #13->4
 
 # text = Nógv virksemi er í Dímun.
 # text[eng] = Much work is in Dímun.
@@ -545,44 +545,44 @@
 	"." CLB @punct #11->3
 
 # text = Súgvin fór á sjógvin og svam frá landi.
-# text[eng] = The sow went to the sea and swam away.
+# text[eng] = The sow went to the sea and swam away from the land.
 # labels = to_check
 "<Súgvin>"
-	"súgv" N Fem Sg Nom Def @dep #1->
+	"súgv" N Fem Sg Nom Def @nsubj #1->2
 "<fór>"
-	"fara" V Ind Prt Sg3 @dep #2->
+	"fara" V Ind Prt Sg3 @root #2->0
 "<á>"
 	"á" Pr @case #3->4
 "<sjógvin>"
-	"sjógvur" N Msc Sg Acc Def @nmod #4->
+	"sjógvur" N Msc Sg Acc Def @obl #4->2
 "<og>"
-	"og" CC @cc #5->
+	"og" CC @cc #5->6
 "<svam>"
-	"svimja" V Ind Prt Sg3 @dep #6->
+	"svimja" V Ind Prt Sg3 @conj #6->2
 "<frá>"
 	"frá" Pr @case #7->8
 "<landi>"
-	"land" N Neu Sg Dat Indef @nmod #8->
+	"land" N Neu Sg Dat Indef @obl #8->6
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->2
 
 # text = Og har hevur hon ligið síðani.
 # text[eng] = And there she has laid since.
 # labels = to_check
 "<Og>"
-	"og" CC @cc #1->
+	"og" CC @cc #1->5
 "<har>"
-	"har" Adv @dep #2->3
+	"har" Adv @advmod #2->5
 "<hevur>"
-	"hava" V Ind Prs Sg3 @root #3->0
+	"hava" V Ind Prs Sg3 @aux #3->5
 "<hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #4->
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #4->5
 "<ligið>"
-	"liggja" V Sup @dep #5->3
+	"liggja" V Sup @root #5->0
 "<síðani>"
-	"síðani" Adv @dep #6->3
+	"síðani" Adv @advmod #6->5
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->5
 
 # text = Allar plantur og øll dýr í sama øki eru eitt samfelag.
 # text[eng] = All plants and all animals in the same place are a society.
@@ -636,7 +636,7 @@
 
 # text = Støðan, vit eru í, tá ið okkurt verður sagt, ávirkar nógv sniðið í orðingini.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Støðan>"
 	"støða" N Fem Sg Nom Def @dep #1->
 "<,>"
@@ -674,7 +674,7 @@
 
 # text = Tey eru til dømis nær, hví, hvaðan, hvussu.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tey>"
 	"tað" Pron Pers Pl3 Nom @nsubj #1->
 "<eru>"
@@ -717,24 +717,24 @@
 	"." CLB @punct #6->5
 
 # text = Í 2011 varð hann útbúgvin sum lærari.
-# text[eng] = 
-# labels = to_check
+# text[eng] = In 2011 he was qualified as a teacher.
+# labels = to_check incomplete
 "<Í>"
-	"í" Pr @case #1->
+	"í" Pr @case #1->2
 "<2011>"
-	"2011" Num Dat @dep #2->3
+	"2011" Num Dat @obl #2->5
 "<varð>"
-	"verða" V Ind Prt Sg3 @root #3->0
+	"verða" V Ind Prt Sg3 @cop #3->5
 "<hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #4->
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #4->5
 "<útbúgvin>"
-	"útbúgvin" A Msc Sg Nom Indef @dep #5->3
+	"útbúgvin" A Msc Sg Nom Indef @root #5->0
 "<sum>"
-	"sum" Pr @case #6->7
+	"sum" CS @mark #6->7
 "<lærari>"
-	"lærari" N Msc Sg Nom Indef @nmod #7->
+	"lærari" N Msc Sg Nom Indef @advcl #7->5
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->5
 
 # text = Mánadagur: Mánadagur er ein vikudagur.
 # text[eng] = Monday: Monday is a day of the week.
@@ -756,57 +756,57 @@
 
 # text = Fríggjadagur: Fríggjadagur er ein vikudagur.
 # text[eng] = 
-# labels = to_check
+# labels = to_check 
 "<Fríggjadagur>"
-	"fríggjadagur" N Msc Sg Nom Indef @dep #1->
+	"fríggjadagur" N Msc Sg Nom Indef @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Fríggjadagur>"
-	"fríggjadagur" N Msc Sg Nom Indef @dep #3->
+	"fríggjadagur" N Msc Sg Nom Indef @nsubj #3->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->6
 "<ein>"
 	"ein" Det Msc Sg Nom @det #5->6
 "<vikudagur>"
-	"vikudagur" N Msc Sg Nom Indef @dep #6->
+	"vikudagur" N Msc Sg Nom Indef @parataxis #6->1
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Leygardagur: Leygardagur er ein vikudagur.
 # text[eng] = 
-# labels = to_check
+# labels = to_check 
 "<Leygardagur>"
-	"leygardagur" N Msc Sg Nom Indef @dep #1->
+	"leygardagur" N Msc Sg Nom Indef @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Leygardagur>"
-	"leygardagur" N Msc Sg Nom Indef @dep #3->
+	"leygardagur" N Msc Sg Nom Indef @nsubj #3->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->6
 "<ein>"
 	"ein" Det Msc Sg Nom @det #5->6
 "<vikudagur>"
-	"vikudagur" N Msc Sg Nom Indef @dep #6->
+	"vikudagur" N Msc Sg Nom Indef @parataxis #6->1
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Sunnudagur: Sunnudagur er ein vikudagur.
 # text[eng] = 
-# labels = to_check
+# labels = to_check 
 "<Sunnudagur>"
-	"sunnudagur" N Msc Sg Nom Indef @dep #1->
+	"sunnudagur" N Msc Sg Nom Indef @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Sunnudagur>"
-	"sunnudagur" N Msc Sg Nom Indef @dep #3->
+	"sunnudagur" N Msc Sg Nom Indef @nsubj #3->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->6
 "<ein>"
 	"ein" Det Msc Sg Nom @det #5->6
 "<vikudagur>"
-	"vikudagur" N Msc Sg Nom Indef @dep #6->
+	"vikudagur" N Msc Sg Nom Indef @parataxis #6->1
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Slovakia: Slovakia er eitt lýðveldi í Miðevropa.
 # text[eng] = Slovakia: Slovakia is a republic in Central Europe.
@@ -878,7 +878,7 @@
 
 # text = Hetta er nesið, sum býtir sjálva havnina sundur.
 # text[eng] = 
-# labels = to_check
+# labels = to_check disam incomplete
 "<Hetta>"
 	"hesin" Pron Dem Neu Sg Acc @dep #1->
 "<er>"
@@ -904,25 +904,25 @@
 # text[eng] = 
 # labels = to_check
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->
+	"tað" Pron Pers Sg3 Nom @expl #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<ókeypis>"
-	"ókeypis" Adv @dep #3->
+	"ókeypis" Adv @root #3->0
 "<at>"
-	"at" IM @dep #4->
+	"at" IM @mark #4->5
 "<brúka>"
-	"brúka" V Inf @dep #5->
+	"brúka" V Inf @csubj #5->3
 "<fótbóltsvøllirnar>"
-	"fótbóltsvøllur" N Msc Pl Acc Def @dep #6->
+	"fótbóltsvøllur" N Msc Pl Acc Def @obj #6->5
 "<hjá>"
 	"hjá" Pr @case #7->8
 "<Tórshavnar>"
-	"Tórshavn" N Prop Fem Sg Gen Indef @nmod #8->
+	"Tórshavn" N Prop Fem Sg Gen Indef @nmod:poss #8->9
 "<kommunu>"
-	"kommuna" N Fem Sg Dat Indef @dep #9->
+	"kommuna" N Fem Sg Dat Indef @nmod:poss #9->6
 "<.>"
-	"." CLB @punct #10->
+	"." CLB @punct #10->3
 
 # text = Fimm svimjihyljar eru í kommununi.
 # text[eng] = There are five swimming pools in the commune.
@@ -942,7 +942,7 @@
 
 # text = Starvið sum borgarstjóri er fulltíðarstarv.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Starvið>"
 	"starv" N Neu Sg Nom Def @dep #1->
 "<sum>"
@@ -999,28 +999,28 @@
 	"." CLB @punct #9->8
 
 # text = Frá gamlari tíð er nógv kol høgt í Ruhr.
-# text[eng] = 
+# text[eng] = From old times there has a lot of coal high in the Ruhr.
 # labels = to_check
 "<Frá>"
-	"frá" Pr @case #1->
+	"frá" Pr @case #1->3
 "<gamlari>"
 	"gamal" A Fem Sg Dat Indef @amod #2->3
 "<tíð>"
-	"tíð" N Fem Sg Dat Indef @nmod #3->
+	"tíð" N Fem Sg Dat Indef @obl #3->9
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->9
 "<nógv>"
 	"nógvur" A Neu Pl Nom Indef @amod #5->6
 "<kol>"
-	"kol" N Neu Sg Nom Indef @dep #6->
+	"kol" N Neu Sg Nom Indef @nsubj #6->7
 "<høgt>"
-	"høgur" A Neu Sg Nom Indef @dep #7->
+	"høgur" A Neu Sg Nom Indef @root #7->0
 "<í>"
 	"í" Pr @case #8->9
 "<Ruhr>"
-	"Ruhr" N Prop Sem/Sur Sg Acc @nmod #9->
+	"Ruhr" N Prop Sem/Sur Sg Acc @obl #9->7
 "<.>"
-	"." CLB @punct #10->
+	"." CLB @punct #10->7
 
 # text = Ungarnir klekjast eftir 25 døgum.
 # text[eng] = The young hatch after 25 days.
@@ -1080,35 +1080,35 @@
 # text[eng] = 50% of the land is above the forest, and 27% is water and uncultivated land.
 # labels = to_check
 "<50 %>"
-	"50 %" Num Nom @dep #1->
+	"50 %" Num Nom @nsubj #1->7
 "<av>"
 	"av" Pr @case #2->3
 "<landinum>"
-	"land" N Neu Sg Dat Def @nmod #3->
+	"land" N Neu Sg Dat Def @nmod #3->1
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->7
 "<oman>"
-	"oman" Adv @dep #5->
+	"oman" Adv @advmod #5->7
 "<fyri>"
 	"fyri" Pr @case #6->7
 "<skógarmarkið>"
-	"skógarmark" N Neu Sg Acc Def @nmod #7->
+	"skógarmark" N Neu Sg Acc Def @root #7->0
 "<,>"
 	"," CLB @punct #8->
 "<og>"
-	"og" CC @cc #9->
+	"og" CC @cc #9->12
 "<27 %>"
-	"27 %" Num Nom @dep #10->
+	"27 %" Num Nom @nsubj #10->12
 "<eru>"
-	"vera" V Ind Prs Pl @cop #11->
+	"vera" V Ind Prs Pl @cop #11->12
 "<vøtn>"
-	"vatn" N Neu Pl Nom Indef @dep #12->
+	"vatn" N Neu Pl Nom Indef @conj #12->7
 "<og>"
-	"og" CC @cc #13->
+	"og" CC @cc #13->14
 "<hagi>"
-	"hagi" N Msc Sg Nom Indef @dep #14->
+	"hagi" N Msc Sg Nom Indef @conj #14->12
 "<.>"
-	"." CLB @punct #15->
+	"." CLB @punct #15->7
 
 # text = Aðrir partar eru undir náttúruvernd.
 # text[eng] = Other parts are under nature protection.
@@ -1127,38 +1127,38 @@
 	"." CLB @punct #6->5
 
 # text = Og so dregur landslagið nógv ferðafólk til Noregs at síggja órørda og stórfingna náttúru.
-# text[eng] = 
+# text[eng] = And the nature brings many tourists to Norway to see unblemished and wonderful nature.
 # labels = to_check
 "<Og>"
-	"og" CC @cc #1->
+	"og" CC @cc #1->3
 "<so>"
-	"so" Adv @dep #2->3
+	"so" Adv @advmod #2->3
 "<dregur>"
 	"draga" V Ind Prs Sg3 @root #3->0
 "<landslagið>"
-	"landslag" N Neu Sg Nom Def @dep #4->3
+	"landslag" N Neu Sg Nom Def @nsubj #4->3
 "<nógv>"
-	"nógvur" A Neu Pl Nom Indef @amod #5->6
+	"nógvur" A Neu Pl Acc Indef @amod #5->6
 "<ferðafólk>"
-	"ferðafólk" N Neu Pl Nom Indef @dep #6->3
+	"ferðafólk" N Neu Pl Acc Indef @obj #6->3
 "<til>"
 	"til" Pr @case #7->8
 "<Noregs>"
-	"Noreg" N Prop Neu Sg Gen Indef @nmod #8->
+	"Noreg" N Prop Neu Sg Gen Indef @obl #8->3
 "<at>"
-	"at" IM @dep #9->3
+	"at" IM @mark #9->10
 "<síggja>"
-	"síggja" V Inf @dep #10->3
+	"síggja" V Inf @advcl #10->3
 "<órørda>"
-	"órørdur" A Fem Sg Acc Indef @dep #11->3
+	"órørdur" A Fem Sg Acc Indef @amod #11->14
 "<og>"
-	"og" CC @cc #12->
+	"og" CC @cc #12->13
 "<stórfingna>"
-	"stórfingin" A Fem Sg Acc Indef @amod #13->14
+	"stórfingin" A Fem Sg Acc Indef @conj #13->11
 "<náttúru>"
-	"náttúra" N Fem Sg Acc Indef @dep #14->3
+	"náttúra" N Fem Sg Acc Indef @obj #14->10
 "<.>"
-	"." CLB @punct #15->
+	"." CLB @punct #15->3
 
 # text = Høvuðsstaðurin er Oslo.
 # text[eng] = The capital is Oslo.
@@ -1214,95 +1214,95 @@
 # text[eng] = 
 # labels = to_check
 "<Norra>"
-	"Norra" N Prop Sg Nom @dep #1->
+	"Norra" N Prop Sg Nom @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<heimsmeistari>"
-	"heimsmeistari" N Msc Sg Nom Indef @dep #3->
+	"heimsmeistari" N Msc Sg Nom Indef @root #3->0
 "<í>"
 	"í" Pr @case #4->5
 "<javnstøðu>"
-	"javnstøða" N Fem Sg Dat Indef @nmod #5->
+	"javnstøða" N Fem Sg Dat Indef @obl #5->3
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->3
 
 # text = Skøkjulevnaður er ólógligur í Norra.
 # text[eng] = 
 # labels = to_check
 "<Skøkjulevnaður>"
-	"skøkjulevnað#ur" N Neu Sg Nom Indef @dep #1->
+	"skøkjulevnað#ur" N Neu Sg Nom Indef @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<ólógligur>"
-	"ólógligur" A Msc Sg Nom Indef @dep #3->
+	"ólógligur" A Msc Sg Nom Indef @root #3->0
 "<í>"
-	"í" Pr @case #4->5
+	"í" Pr @case #4->55
 "<Norra>"
-	"Norra" N Prop Sg Nom @nmod #5->
+	"Norra" N Prop Sg Nom @obl #5->3
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->3
 
 # text = Tað eru 2,9 %.
-# text[eng] = 
-# labels = to_check
+# text[eng] = It is 2.9%.
+# labels = to_check 
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->
+	"tað" Pron Pers Sg3 Nom @nsubj #1->3
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->3
 "<2,9 %>"
-	"2,9 %" Num Nom @dep #3->
+	"2,9 %" Num Nom @root #3->0
 "<.>"
-	"." CLB @punct #4->
+	"." CLB @punct #4->3
 
 # text = Meginparturin verður tískil fluttur út.
 # text[eng] = 
 # labels = to_check
 "<Meginparturin>"
-	"meginpartur" N Msc Sg Nom Def @dep #1->2
+	"meginpartur" N Msc Sg Nom Def @nsubj #1->4
 "<verður>"
-	"verða" V Ind Prs Sg3 @root #2->0
+	"verða" V Ind Prs Sg3 @aux:pass #2->4
 "<tískil>"
-	"tískil" Adv @dep #3->2
+	"tískil" Adv @advmod #3->4
 "<fluttur>"
-	"flyta" V PrfPrc @dep #4->2
+	"flyta" V PrfPrc @root #4->0
 "<út>"
-	"út" Adv @dep #5->2
+	"út" Adv @advmod #5->4
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->4
 
 # text = Arbeiðaraflokkurin, Høgra og Framburðsflokkurin eru fyri leiting.
 # text[eng] = 
 # labels = to_check
 "<Arbeiðaraflokkurin>"
-	"arbeiðaraflokkur" N Msc Sg Nom Def @dep #1->
+	"Arbeiðaraflokkur" N Prop Sem/Org Msc Sg Nom Def @nsubj #1->8
 "<,>"
-	"," CLB @punct #2->
+	"," CLB @punct #2->3
 "<Høgra>"
-	"høgur" A Neu Sg Nom Def @dep #3->
+	"Høgra" N Prop Sem/Org Sg Nom Def @conj #3->1
 "<og>"
-	"og" CC @cc #4->
+	"og" CC @cc #4->5
 "<Framburðsflokkurin>"
-	"Framburðsflokkur" N Prop Sem/Org Msc Sg Nom Def @dep #5->
+	"Framburðsflokkur" N Prop Sem/Org Msc Sg Nom Def @conj #5->1
 "<eru>"
-	"vera" V Ind Prs Pl @cop #6->
+	"vera" V Ind Prs Pl @cop #6->8
 "<fyri>"
 	"fyri" Pr @case #7->8
 "<leiting>"
-	"leiting" N Fem Sg Dat Indef @nmod #8->
+	"leiting" N Fem Sg Dat Indef @root #8->0
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->8
 
 # text = Tað er aling.
 # text[eng] = 
 # labels = to_check
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->
+	"tað" Pron Pers Sg3 Nom @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<aling>"
-	"aling" N Fem Sg Nom Indef @dep #3->
+	"aling" N Fem Sg Nom Indef @root #3->0
 "<.>"
-	"." CLB @punct #4->
+	"." CLB @punct #4->3
 
 # text = Umleið 40 % av Noregi eru skógvaksin.
 # text[eng] = 
@@ -1323,68 +1323,68 @@
 	"." CLB @punct #7->6
 
 # text = Í 2010 vóru 166 bjarnir í Norra.
-# text[eng] = 
+# text[eng] = In 2010 there were 166 bears in Norway.
 # labels = to_check
 "<Í>"
-	"í" Pr @case #1->
+	"í" Pr @case #1->2
 "<2010>"
-	"2010" Num Dat @dep #2->
+	"2010" Num Dat @obl #2->7
 "<vóru>"
-	"vera" V Ind Prt Pl @cop #3->
+	"vera" V Ind Prt Pl @cop #3->7
 "<166>"
 	"166" Num Nom @nummod #4->5
 "<bjarnir>"
-	"bjørn" N Fem Pl Nom Indef @dep #5->
+	"bjørn" N Fem Pl Nom Indef @nsubj #5->7
 "<í>"
 	"í" Pr @case #6->7
 "<Norra>"
-	"Norra" N Prop Sg Nom @nmod #7->
+	"Norra" N Prop Sg Nom @root #7->0
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->7
 
 # text = Seyður hevur altíð havt ómetaligan týdning fyri Ísland.
 # text[eng] = 
 # labels = to_check
 "<Seyður>"
-	"seyður" N Msc Sg Nom Indef @dep #1->2
+	"seyður" N Msc Sg Nom Indef @nsubj #1->4
 "<hevur>"
-	"hava" V Ind Prs Sg3 @root #2->0
+	"hava" V Ind Prs Sg3 @aux #2->4
 "<altíð>"
-	"altíð" Adv @dep #3->2
+	"altíð" Adv @advmod #3->4
 "<havt>"
-	"hava" V Sup @dep #4->2
+	"hava" V Sup @root #4->0
 "<ómetaligan>"
 	"ómetaligur" A Msc Sg Acc Indef @amod #5->6
 "<týdning>"
-	"týdningur" N Msc Sg Acc Indef @dep #6->2
+	"týdningur" N Msc Sg Acc Indef @obj #6->4
 "<fyri>"
 	"fyri" Pr @case #7->8
 "<Ísland>"
-	"Ísland" N Neu Sg Acc Indef @nmod #8->
+	"Ísland" N Neu Sg Acc Indef @obl #8->4
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->4
 
 # text = Leikluturin hjá íslendska forsetanum er symbolskur.
 # text[eng] = 
 # labels = to_check
 "<Leikluturin>"
-	"leiklutur" N Msc Sg Nom Def @dep #1->
+	"leiklutur" N Msc Sg Nom Def @nsubj #1->6
 "<hjá>"
-	"hjá" Pr @case #2->
+	"hjá" Pr @case #2->4
 "<íslendska>"
 	"íslendskur" A Msc Sg Dat Def @amod #3->4
 "<forsetanum>"
-	"forseti" N Msc Sg Dat Def @nmod #4->
+	"forseti" N Msc Sg Dat Def @nmod:poss #4->1
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #5->
+	"vera" V Ind Prs Sg3 @cop #5->6
 "<symbolskur>"
-	"symbolskur" A Msc Sg Nom Indef @dep #6->
+	"symbolskur" A Msc Sg Nom Indef @root #6->0
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Hon er í Keflavík, og er ein heimur fyri seg.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Hon>"
 	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<er>"
@@ -1411,46 +1411,46 @@
 	"." CLB @punct #12->
 
 # text = Í 2014 eru 164 130 menn og 162 920 kvinnur.
-# text[eng] = 
+# text[eng] = In 2014 there were 164,130 men and 162,920 women.
 # labels = to_check
 "<Í>"
-	"í" Pr @case #1->
+	"í" Pr @case #1->2
 "<2014>"
-	"2014" Num Dat @dep #2->
+	"2014" Num Dat @root #2->0
 "<eru>"
-	"vera" V Ind Prs Pl @cop #3->
+	"vera" V Ind Prs Pl @cop #3->2
 "<164 130>"
 	"164 130" Num Nom @nummod #4->5
 "<menn>"
-	"maður" N Msc Pl Nom Indef @dep #5->
+	"maður" N Msc Pl Nom Indef @nsubj #5->2
 "<og>"
-	"og" CC @cc #6->
+	"og" CC @cc #6->8
 "<162 920>"
 	"162 920" Num Nom @nummod #7->8
 "<kvinnur>"
-	"kvinna" N Fem Pl Nom Indef @dep #8->
+	"kvinna" N Fem Pl Nom Indef @conj #8->2
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->2
 
 # text = Í 2010 spældi Royn í 3. deild.
 # text[eng] = 
 # labels = to_check
 "<Í>"
-	"í" Pr @case #1->
+	"í" Pr @case #1->2
 "<2010>"
-	"2010" Num Dat @dep #2->
+	"2010" Num Dat @obl #2->3
 "<spældi>"
-	"spæla" V Ind Prt Sg @dep #3->
+	"spæla" V Ind Prt Sg @root #3->0
 "<Royn>"
-	"royna" V Imp Sg @dep #4->
+	"Royn" N Prop Sg Nom @nsubj #4->3
 "<í>"
-	"í" Pr @case #5->
+	"í" Pr @case #5->7
 "<3.>"
-	"3" A Ord @dep #6->
+	"3" A Ord @amod #6->7
 "<deild>"
-	"deild" N Fem Sg Dat Indef @dep #7->
+	"deild" N Fem Sg Dat Indef @obl #7->3
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->3
 
 # text = Eitt valskeið er fýra ár.
 # text[eng] = 
@@ -1458,19 +1458,19 @@
 "<Eitt>"
 	"ein" Det Neu Sg Nom @det #1->2
 "<valskeið>"
-	"valskeið" N Neu Sg Nom Indef @dep #2->
+	"valskeið" N Neu Sg Nom Indef @nsubj #2->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #3->
+	"vera" V Ind Prs Sg3 @cop #3->5
 "<fýra>"
 	"fýra" Num @nummod #4->5
 "<ár>"
-	"ár" N Neu Pl Nom Indef @dep #5->
+	"ár" N Neu Pl Nom Indef @root #5->0
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->5
 
 # text = At skipa løgtingið.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<At>"
 	"at" IM @dep #1->
 "<skipa>"
@@ -1480,93 +1480,73 @@
 "<.>"
 	"." CLB @punct #4->
 
-# text = Afrikanski fílurin er størsta súgdjór á landi.
-# text[eng] = 
-# labels = to_check
-"<Afrikanski>"
-	"afrikanskur" A Msc Sg Nom Def @amod #1->2
-"<fílurin>"
-	"fílur" N Msc Sg Nom Def @dep #2->
-"<er>"
-	"vera" V Ind Prs Sg3 @cop #3->
-"<størsta>"
-	"stórur" A Superl Neu Pl Adv @dep #4->
-"<súgdjór>"
-	"súgdjór" N Neu Pl Nom Indef @dep #5->
-"<á>"
-	"á" Pr @case #6->7
-"<landi>"
-	"land" N Neu Sg Dat Indef @nmod #7->
-"<.>"
-	"." CLB @punct #8->
-
 # text = Hatta er mín veruleiki.
 # text[eng] = 
 # labels = to_check
 "<Hatta>"
-	"hasin" Det Neu Sg Nom @det #1->
+	"hasin" Pron Neu Sg Nom @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<mín>"
-	"eg" Pron Pers Sg1 Gen @dep #3->
+	"eg" Pron Pers Sg1 Gen @nmod:poss #3->4
 "<veruleiki>"
-	"veruleiki" N Msc Sg Nom Indef @dep #4->
+	"veruleiki" N Msc Sg Nom Indef @root #4->0
 "<.>"
-	"." CLB @punct #5->
+	"." CLB @punct #5->4
 
 # text = Hettar tosar til ungdómin og aðrar áhoyrarar.
 # text[eng] = 
 # labels = to_check
 "<Hettar>"
-	"hesin" Pron Dem Neu Sg Nom @dep #1->2
+	"hesin" Pron Dem Neu Sg Nom @nsubj #1->2
 "<tosar>"
 	"tosa" V Ind Prs Sg3 @root #2->0
 "<til>"
 	"til" Pr @case #3->4
 "<ungdómin>"
-	"ungdómur" N Msc Sg Acc Def @nmod #4->
+	"ungdómur" N Msc Sg Acc Def @obl #4->2
 "<og>"
-	"og" CC @cc #5->
+	"og" CC @cc #5->7
 "<aðrar>"
 	"annar" A Msc Pl Acc @amod #6->7
 "<áhoyrarar>"
-	"áhoyrari" N Msc Pl Acc Indef @dep #7->2
+	"áhoyrari" N Msc Pl Acc Indef @conj #7->4
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->2
 
 # text = Amtmenn í Føroyum: Hetta er ein listi yvir amtmenn í Føroyum.
 # text[eng] = 
 # labels = to_check
 "<Amtmenn>"
-	"amtmaður" N Msc Pl Nom Indef @dep #1->
+	"amtmaður" N Msc Pl Nom Indef @root #1->0
 "<í>"
 	"í" Pr @case #2->3
 "<Føroyum>"
-	"Føroyar" N Prop Fem Pl Dat Indef @nmod #3->
+	"Føroyar" N Prop Fem Pl Dat Indef @nmod #3->1
 "<:>"
-	":" CLB @punct #4->
+	":" CLB @punct #4->1
 "<Hetta>"
-	"hesin" Pron Dem Neu Sg Acc @dep #5->
+	"hesin" Pron Dem Neu Sg Acc @nsubj #5->8
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #6->
+	"vera" V Ind Prs Sg3 @cop #6->8
 "<ein>"
 	"ein" Det Msc Sg Nom @det #7->8
 "<listi>"
-	"listi" N Msc Sg Nom Indef @dep #8->
+	"listi" N Msc Sg Nom Indef @parataxis #8->1
 "<yvir>"
 	"yvir" Pr @case #9->10
 "<amtmenn>"
-	"amtmaður" N Msc Pl Acc Indef @nmod #10->
+	"amtmaður" N Msc Pl Acc Indef @obl #10->8
 "<í>"
 	"í" Pr @case #11->12
 "<Føroyum>"
-	"Føroyar" N Prop Fem Pl Dat Indef @nmod #12->
+	"Føroyar" N Prop Fem Pl Dat Indef @nmod #12->10
 "<.>"
-	"." CLB @punct #13->
+	"." CLB @punct #13->8
 
 # text = Amtmaðurin er ovasti embætismaður í amti.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Amtmaðurin>"
 	"amtmaður" N Msc Sg Nom Def @dep #1->
 "<er>"
@@ -1586,25 +1566,25 @@
 # text[eng] = 
 # labels = to_check
 "<Felagsskapurin>"
-	"felagsskapur" N Msc Sg Nom Def @dep #1->
+	"felagsskapur" N Msc Sg Nom Def @nsubj #1->2
 "<sigur>"
-	"siga" V Ind Prs Sg3 @dep #2->
+	"siga" V Ind Prs Sg3 @root #2->0
 "<,>"
-	"," CLB @punct #3->
+	"," CLB @punct #3->7
 "<at>"
-	"at" CS @dep #4->
+	"at" CS @mark #4->7
 "<umstøðurnar>"
-	"umstøður" N Fem Pl Nom Def @dep #5->
+	"umstøður" N Fem Pl Nom Def @nsubj #5->7
 "<eru>"
-	"vera" V Ind Prs Pl @cop #6->
+	"vera" V Ind Prs Pl @cop #6->7
 "<vanlukkuligar>"
-	"vanlukkuligur" A Fem Pl Nom Indef @dep #7->
+	"vanlukkuligur" A Fem Pl Nom Indef @ccomp #7->2
 "<í>"
 	"í" Pr @case #8->9
 "<Norðurkorea>"
-	"Norðurkorea" N Prop Sem/Plc Sg Acc @nmod #9->
+	"Norðurkorea" N Prop Sem/Plc Sg Acc @obl #9->7
 "<.>"
-	"." CLB @punct #10->
+	"." CLB @punct #10->2
 
 # text = Deyðadagur hansara gjørdist tingdagur føroyinga.
 # text[eng] = The day he died was made a parliament day for Faroe Islanders.
@@ -1668,37 +1648,37 @@
 "<Í>"
 	"í" Pr @case #1->2
 "<lógini>"
-	"lóg" N Fem Sg Dat Def @nmod #2->
+	"lóg" N Fem Sg Dat Def @obl #2->5
 "<verður>"
-	"verða" V Ind Prs Sg3 @dep #3->
+	"verða" V Ind Prs Sg3 @aux:pass #3->5
 "<eisini>"
-	"eisini" Adv @dep #4->
+	"eisini" Adv @advmod #4->5
 "<ásett>"
-	"áseta" V Sup @dep #5->
+	"áseta" V Sup @root #5->0
 "<,>"
-	"," CLB @punct #6->
+	"," CLB @punct #6->12
 "<at>"
-	"at" CS @dep #7->
+	"at" CS @mark #7->12
 "<serligir>"
-	"serligur" A Msc Pl Nom Indef @dep #8->
+	"serligur" A Msc Pl Nom Indef @amod #8->10
 "<føroyskir>"
 	"føroyskur" A Msc Pl Nom Indef @amod #9->10
 "<seðlar>"
-	"seðil" N Msc Pl Nom Indef @dep #10->
+	"seðil" N Msc Pl Nom Indef @nsubj #10->12
 "<verða>"
-	"verða" V Ind Prs Pl @dep #11->
+	"verða" V Ind Prs Pl @aux:pass #11->12
 "<prentaðir>"
-	"prenta" V PrfPrc Msc Pl Nom Indef @dep #12->
+	"prenta" V PrfPrc Msc Pl Nom Indef @csubj #12->5
 "<til>"
 	"til" Pr @case #13->14
 "<nýtslu>"
-	"nýtsla" N Fem Sg Gen Indef @nmod #14->
+	"nýtsla" N Fem Sg Gen Indef @nmod #14->12
 "<í>"
 	"í" Pr @case #15->16
 "<Føroyum>"
-	"Føroyar" N Prop Fem Pl Dat Indef @nmod #16->
+	"Føroyar" N Prop Fem Pl Dat Indef @nmod #16->14
 "<.>"
-	"." CLB @punct #17->
+	"." CLB @punct #17->5
 
 # text = Størsta oyggin er Mainland.
 # text[eng] = The biggest island is Mainland.
@@ -1720,33 +1700,33 @@
 "<Í>"
 	"í" Pr @case #1->2
 "<1900>"
-	"1900" Num Dat @dep #2->
+	"1900" Num Dat @obl #2->8
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #3->
+	"vera" V Ind Prt Sg3 @cop #3->8
 "<bert>"
-	"berur" A Adv @dep #4->
+	"berur" A Adv @advmod #4->8
 "<ein>"
 	"ein" Det Msc Sg Nom @det #5->6
 "<katolikkur>"
-	"katolikkur" N Msc Sg Nom Indef @dep #6->
+	"katolikkur" N Msc Sg Nom Indef @nsubj #6->8
 "<í>"
 	"í" Pr @case #7->8
 "<Føroyum>"
-	"Føroyar" N Prop Fem Pl Dat Indef @nmod #8->
+	"Føroyar" N Prop Fem Pl Dat Indef @root #8->0
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->8
 
 # text = Hetta var ein kona, sum búði á Hvítanesi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Hetta>"
-	"hesin" Pron Dem Neu Sg Acc @dep #1->
+	"hesin" Pron Dem Neu Sg Acc @dep #1->4
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #2->
+	"vera" V Ind Prt Sg3 @cop #2->4
 "<ein>"
 	"eitt" Num Fem Sg Nom @nummod #3->4
 "<kona>"
-	"kona" N Fem Sg Nom Indef @dep #4->
+	"kona" N Fem Sg Nom Indef @dep #4->0
 "<,>"
 	"," CLB @punct #5->
 "<sum>"
@@ -1756,9 +1736,9 @@
 "<á>"
 	"á" Pr @case #8->9
 "<Hvítanesi>"
-	"Hvítanes" N Prop Neu Sg Dat Indef @nmod #9->
+	"Hvítanes" N Prop Neu Sg Dat Indef @nmod #9->7
 "<.>"
-	"." CLB @punct #10->
+	"." CLB @punct #10->4
 
 # text = Í 1931 varð katólska kirkjuliðið endurreist.
 # text[eng] = In 1931 the Catholic Church was reconstructed.
@@ -1784,13 +1764,13 @@
 "<Lívsneyðugur>"
 	"lívsneyðugur" A Msc Sg Nom Indef @amod #1->2
 "<heilivágur>"
-	"heilivágur" N Msc Sg Nom Indef @dep #2->3
+	"heilivágur" N Msc Sg Nom Indef @nsubj #2->4
 "<verður>"
-	"verða" V Ind Prs Sg3 @root #3->0
+	"verða" V Ind Prs Sg3 @cop #3->4
 "<ókeypis>"
-	"ókeypis" Adv @dep #4->3
+	"ókeypis" Adv @root #4->3
 "<.>"
-	"." CLB @punct #5->
+	"." CLB @punct #5->4
 
 # text = Við tíðini settust nógvir norðbúgvar í Grønlandi.
 # text[eng] = 
@@ -1798,19 +1778,19 @@
 "<Við>"
 	"við" Pr @case #1->2
 "<tíðini>"
-	"tíð" N Fem Sg Dat Def @nmod #2->
+	"tíð" N Fem Sg Dat Def @obl #2->3
 "<settust>"
 	"seta" V Ind Prt Pl Pass @root #3->0
 "<nógvir>"
 	"nógvur" A Msc Pl Nom Indef @amod #4->5
 "<norðbúgvar>"
-	"norðbúgvi" N Msc Pl Nom Indef @dep #5->3
+	"norðbúgvi" N Msc Pl Nom Indef @nsubj #5->3
 "<í>"
 	"í" Pr @case #6->7
 "<Grønlandi>"
-	"Grønland" N Prop Neu Sg Dat Indef @nmod #7->
+	"Grønland" N Prop Neu Sg Dat Indef @obl #7->3
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->3
 
 # text = Bráðnaði grønlendski ísurin, hevði Grønland helst verið eitt oyggjaland.
 # text[eng] = Had the Greenlandic ice melted, Greenland would have been an island.
@@ -1876,7 +1856,7 @@
 
 # text = Bóndagarðurin gjørdist ein mentanarligur miðdepil í bygdini.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Bóndagarðurin>"
 	"bóndagarður" N Msc Sg Nom Def @nsubj #1->2
 "<gjørdist>"
@@ -1896,7 +1876,7 @@
 
 # text = Eisini staðfestir heimastýrislógin hvat ein føroyingur er.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Eisini>"
 	"eisini" Adv @dep #1->
 "<staðfestir>"
@@ -1916,23 +1896,23 @@
 
 # text = Nógv stríð er staðist av orðingunum í Heimastýrislógini, og orðingunum í henni.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Nógv>"
-	"nógvur" A Fem Sg Nom Indef @dep #1->
+	"nógvur" A Fem Sg Nom Indef @dep #1->2
 "<stríð>"
-	"stríður" A Fem Sg Nom Indef @dep #2->
+	"stríður" A Fem Sg Nom Indef @dep #2->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #3->
+	"vera" V Ind Prs Sg3 @cop #3->4
 "<staðist>"
-	"standa" V Sup Pass @dep #4->
+	"standa" V Sup Pass @dep #4->0
 "<av>"
 	"av" Pr @case #5->6
 "<orðingunum>"
-	"orðing" N Fem Pl Dat Def @nmod #6->
+	"orðing" N Fem Pl Dat Def @nmod #6->4
 "<í>"
 	"í" Pr @case #7->8
 "<Heimastýrislógini>"
-	"heimastýrislóg" N Fem Sg Dat Def @nmod #8->
+	"heimastýrislóg" N Fem Sg Dat Def @nmod #8->4
 "<,>"
 	"," CLB @punct #9->
 "<og>"
@@ -1950,27 +1930,27 @@
 # text[eng] = 
 # labels = to_check
 "<Ætlanin>"
-	"ætlan" N Fem Sg Nom Def @dep #1->
+	"ætlan" N Fem Sg Nom Def @root #1->0
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->1
 "<at>"
-	"at" IM @dep #3->
+	"at" IM @mark #3->4
 "<venda>"
-	"venda" V Inf @dep #4->
+	"venda" V Inf @csubj #4->1
 "<lítlu>"
 	"lítil" A Fem Sg Dat Def @amod #5->6
 "<støddini>"
-	"stødd" N Fem Sg Dat Def @dep #6->
+	"stødd" N Fem Sg Dat Def @obj #6->4
 "<á>"
 	"á" Pr @case #7->8
 "<Føroyalandi>"
-	"Føroyaland" N Prop Neu Sg Dat Indef @nmod #8->
+	"Føroyaland" N Prop Neu Sg Dat Indef @nmod #8->6
 "<til>"
 	"til" Pr @case #9->10
 "<fyrimun>"
-	"fyrimunur" N Msc Sg Acc Indef @nmod #10->
+	"fyrimunur" N Msc Sg Acc Indef @obl #10->4
 "<.>"
-	"." CLB @punct #11->
+	"." CLB @punct #11->4
 
 # text = end.
 # text[eng] = 
@@ -2042,7 +2022,7 @@
 
 # text = Dagurin ber heitið Kyndilsmessuknútur.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Dagurin>"
 	"dagur" N Msc Sg Nom Def @dep #1->2
 "<ber>"
@@ -2056,7 +2036,7 @@
 
 # text = Dagurin hevur heitið Brøðramessa.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Dagurin>"
 	"dagur" N Msc Sg Nom Def @dep #1->2
 "<hevur>"
@@ -2070,7 +2050,7 @@
 
 # text = Dagurin ber heitið Pálsmessa.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Dagurin>"
 	"dagur" N Msc Sg Nom Def @dep #1->2
 "<ber>"
@@ -2265,20 +2245,20 @@
 	"." CLB @punct #5->4
 
 # text = Stór fjallalendi eru í Svøríki.
-# text[eng] = 
+# text[eng] = There are big mountains in Sweden.
 # labels = to_check
 "<Stór>"
 	"stórur" A Neu Pl Nom Indef @amod #1->2
 "<fjallalendi>"
-	"fjallalendi" N Neu Pl Nom Indef @dep #2->
+	"fjallalendi" N Neu Pl Nom Indef @nsubj #2->5
 "<eru>"
-	"vera" V Ind Prs Pl @cop #3->
+	"vera" V Ind Prs Pl @cop #3->5
 "<í>"
 	"í" Pr @case #4->5
 "<Svøríki>"
-	"Svøríki" N Prop Neu Sg Dat Indef @nmod #5->
+	"Svøríki" N Prop Neu Sg Dat Indef @root #5->0
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->5
 
 # text = Nú á døgum er 6,1 % av fólkinum arbeiðsleys.
 # text[eng] = Nowadays 6.1% of the people are unemployed.
@@ -2303,28 +2283,28 @@
 	"." CLB @punct #9->8
 
 # text = Mann er eitt sjálvstøðugt ríki í kongsfelagsskapi við Ongland.
-# text[eng] = 
+# text[eng] = The Isle of Mann is an independent kingdom in union with England.
 # labels = to_check
 "<Mann>"
-	"maður" N Msc Sg Acc Indef @dep #1->
+	"Mann" N Prop Sem/Plc Msc Sg Nom @nsubj #1->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->5
 "<eitt>"
-	"ein" Det Neu Sg Nom @det #3->
+	"ein" Det Neu Sg Nom @det #3->5
 "<sjálvstøðugt>"
 	"sjálvstøðugur" A Neu Sg Nom Indef @amod #4->5
 "<ríki>"
-	"ríki" N Neu Sg Nom Indef @dep #5->
+	"ríki" N Neu Sg Nom Indef @root #5->0
 "<í>"
 	"í" Pr @case #6->7
 "<kongsfelagsskapi>"
-	"kongur#felagsskapur" N Msc Sg Dat Indef @nmod #7->
+	"kongur#felagsskapur" N Msc Sg Dat Indef @obl #7->5
 "<við>"
 	"við" Pr @case #8->9
 "<Ongland>"
-	"Ongland" N Prop Neu Sg Acc Indef @nmod #9->
+	"Ongland" N Prop Neu Sg Acc Indef @nmod #9->7
 "<.>"
-	"." CLB @punct #10->
+	"." CLB @punct #10->5
 
 # text = Írland var leingi undir bretskum yvirvaldi.
 # text[eng] = 
@@ -2348,55 +2328,55 @@
 # text[eng] = 
 # labels = to_check
 "<Nú>"
-	"nú" Adv @dep #1->
+	"nú" Adv @advmod #1->15
 "<á>"
 	"á" Pr @case #2->3
 "<døgum>"
-	"dagur" N Msc Pl Dat Indef @nmod #3->
+	"dagur" N Msc Pl Dat Indef @nmod #3->1
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->15
 "<tungídnaðurin>"
-	"tungídnaður" N Msc Sg Nom Def @dep #5->
+	"tungídnaður" N Msc Sg Nom Def @nsubj #5->15
 "<,>"
-	"," CLB @punct #6->
+	"," CLB @punct #6->10
 "<sum>"
-	"sum" CS @dep #7->
+	"sum" Pron Rel @nsubj #7->10
 "<áður>"
-	"áður" Adv @dep #8->
+	"áður" Adv @advmod #8->10
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #9->
+	"vera" V Ind Prt Sg3 @cop #9->10
 "<álitið>"
-	"álit" N Neu Sg Nom Def @dep #10->
+	"álit" N Neu Sg Nom Def @acl #10->5
 "<,>"
-	"," CLB @punct #11->
+	"," CLB @punct #11->15
 "<ikki>"
-	"ikki" Adv @dep #12->
+	"ikki" Adv @advmod #12->15
 "<so>"
-	"so" Adv @dep #13->
+	"so" Adv @advmod #13->15
 "<týdningarmikil>"
 	"týdningarmikil" A Fem Sg Nom Indef @amod #14->15
 "<longur>"
-	"longa" N Fem Pl Nom Indef @dep #15->
+	"longa" N Fem Pl Nom Indef @root #15->0
 "<.>"
-	"." CLB @punct #16->
+	"." CLB @punct #16->15
 
 # text = Berlin: Berlin er høvuðsstaður Týsklands.
-# text[eng] = 
+# text[eng] = Berlin: Berlin is the capital of Germany.
 # labels = to_check
 "<Berlin>"
-	"Berlin" N Prop Sem/Plc Sg Nom @dep #1->
+	"Berlin" N Prop Sem/Plc Sg Nom @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Berlin>"
-	"Berlin" N Prop Sem/Plc Sg Nom @dep #3->
+	"Berlin" N Prop Sem/Plc Sg Nom @nsubj #3->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->5
 "<høvuðsstaður>"
-	"høvuðsstaður" N Msc Sg Nom Indef @dep #5->
+	"høvuðsstaður" N Msc Sg Nom Indef @parataxis #5->1
 "<Týsklands>"
-	"Týskland" N Prop Neu Sg Gen Indef @dep #6->
+	"Týskland" N Prop Neu Sg Gen Indef @nmod:poss #6->5
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->5
 
 # text = Hann er størsti býur og handilsmiðdepil í Danmark.
 # text[eng] = It is the biggest town and commercial centre in Denmark.
@@ -2421,40 +2401,40 @@
 	"." CLB @punct #9->4
 
 # text = Býurin er eisini høvuðsstaður, har býr drotningin, og har eru Fólkatingið og stjórnin.
-# text[eng] = 
+# text[eng] = The city is also the capital, the queen lives here, and the parliament and government are here.
 # labels = to_check
 "<Býurin>"
-	"býur" N Msc Sg Nom Def @dep #1->
+	"býur" N Msc Sg Nom Def @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<eisini>"
-	"eisini" Adv @dep #3->
+	"eisini" Adv @advmod #3->4
 "<høvuðsstaður>"
-	"høvuðsstaður" N Msc Sg Nom Indef @dep #4->
+	"høvuðsstaður" N Msc Sg Nom Indef @root #4->0
 "<,>"
-	"," CLB @punct #5->
+	"," CLB @punct #5->7
 "<har>"
-	"har" Adv @dep #6->
+	"har" Adv @advmod #6->7
 "<býr>"
-	"búgva" V Ind Prs Sg3 @dep #7->
+	"búgva" V Ind Prs Sg3 @conj #7->4
 "<drotningin>"
-	"drotning" N Fem Sg Nom Def @dep #8->
+	"drotning" N Fem Sg Nom Def @nsubj #8->7
 "<,>"
-	"," CLB @punct #9->
+	"," CLB @punct #9->11
 "<og>"
-	"og" CC @cc #10->
+	"og" CC @cc #10->11
 "<har>"
-	"har" Adv @dep #11->
+	"har" Adv @conj #11->4
 "<eru>"
-	"vera" V Ind Prs Pl @cop #12->
+	"vera" V Ind Prs Pl @cop #12->11
 "<Fólkatingið>"
-	"fólkating" N Neu Sg Nom Def @dep #13->
+	"fólkating" N Neu Sg Nom Def @nsubj #13->11
 "<og>"
-	"og" CC @cc #14->
+	"og" CC @cc #14->15
 "<stjórnin>"
-	"stjórn" N Fem Sg Nom Def @dep #15->
+	"stjórn" N Fem Sg Nom Def @conj #15->13
 "<.>"
-	"." CLB @punct #16->
+	"." CLB @punct #16->4
 
 # text = Í stórbýum sum Keypmannahavn er nógv fartan aftur og fram.
 # text[eng] = In large cities like Copenhagen there is a lot of travelling to and fro.
@@ -2504,25 +2484,25 @@
 # text[eng] = 
 # labels = to_check
 "<Tróndur>"
-	"Tróndur" N Prop Sem/Mal Sg Nom @dep #1->
+	"Tróndur" N Prop Sem/Mal Sg Nom @nsubj #1->3
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #2->
+	"vera" V Ind Prt Sg3 @cop #2->3
 "<reyðhærdur>"
-	"reyðhærdur" A Msc Sg Nom Indef @dep #3->
+	"reyðhærdur" A Msc Sg Nom Indef @root #3->0
 "<,>"
-	"," CLB @punct #4->
+	"," CLB @punct #4->5
 "<frøknutur>"
-	"frøknutur" A Msc Sg Nom Indef @dep #5->
+	"frøknutur" A Msc Sg Nom Indef @conj #5->3
 "<og>"
-	"og" CC @cc #6->
+	"og" CC @cc #6->7
 "<grefligur>"
-	"grefligur" A Msc Sg Nom Indef @dep #7->
+	"grefligur" A Msc Sg Nom Indef @conj #7->5
 "<í>"
 	"í" Pr @case #8->9
 "<ásjón>"
-	"ásjón" N Fem Sg Dat Indef @nmod #9->
+	"ásjón" N Fem Sg Dat Indef @nmod #9->7
 "<.>"
-	"." CLB @punct #10->
+	"." CLB @punct #10->3
 
 # text = Aðra helvtina skulu mínir menn hava.
 # text[eng] = 
@@ -2530,21 +2510,21 @@
 "<Aðra>"
 	"annar" A Fem Acc @amod #1->2
 "<helvtina>"
-	"helvt" N Fem Sg Acc Def @dep #2->3
+	"helvt" N Fem Sg Acc Def @obj #2->6
 "<skulu>"
-	"skula" V Ind Prs Pl @root #3->0
+	"skula" V Ind Prs Pl @aux #3->6
 "<mínir>"
 	"mín" Det Poss Msc Pl Nom @det #4->5
 "<menn>"
-	"maður" N Msc Pl Nom Indef @dep #5->3
+	"maður" N Msc Pl Nom Indef @nsubj #5->6
 "<hava>"
-	"hava" V Inf @dep #6->3
+	"hava" V Inf @root #6->0
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Haraldur kongur sigldi tá burtur og øll mannfjøldin, ið har hevði verið.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Haraldur>"
 	"Haraldur" N Prop Sem/Mal Sg Nom @dep #1->
 "<kongur>"
@@ -2600,21 +2580,21 @@
 # text[eng] = 
 # labels = to_check
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->5
 "<av>"
-	"av" Pr @case #3->
+	"av" Pr @case #3->5
 "<minstu>"
 	"lítil" A Superl Msc Pl Dat Def @amod #4->5
 "<falkum>"
-	"falkur" N Msc Pl Dat Indef @nmod #5->
+	"falkur" N Msc Pl Dat Indef @root #5->0
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->5
 
 # text = Ungfuglurin líkist bøguni, men dimmari.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Ungfuglurin>"
 	"ungfuglur" N Msc Sg Nom Def @dep #1->2
 "<líkist>"
@@ -2634,19 +2614,19 @@
 # text[eng] = 
 # labels = to_check
 "<Smyril>"
-	"smyril" N Msc Sg Nom Indef @dep #1->
+	"smyril" N Msc Sg Nom Indef @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<minsti>"
 	"lítil" A Superl Msc Sg Nom Def @amod #3->4
 "<falkur>"
-	"falkur" N Msc Sg Nom Indef @dep #4->
+	"falkur" N Msc Sg Nom Indef @root #4->0
 "<í>"
 	"í" Pr @case #5->6
 "<Evropa>"
-	"evropi" N Msc Sg Dat Indef @nmod #6->
+	"Evropa" N Prop Sem/Plc Sg Dat @obl #6->4
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->4
 
 # text = Stórur munur er á steggja og bøgu.
 # text[eng] = 
@@ -2654,19 +2634,19 @@
 "<Stórur>"
 	"stórur" A Msc Sg Nom Indef @amod #1->2
 "<munur>"
-	"munur" N Msc Sg Nom Indef @dep #2->
+	"munur" N Msc Sg Nom Indef @nsubj #2->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #3->
+	"vera" V Ind Prs Sg3 @cop #3->5
 "<á>"
 	"á" Pr @case #4->5
 "<steggja>"
-	"steggi" N Msc Sg Dat Indef @nmod #5->
+	"steggi" N Msc Sg Dat Indef @root #5->0
 "<og>"
-	"og" CC @cc #6->
+	"og" CC @cc #6->7
 "<bøgu>"
-	"bøga" N Fem Sg Dat Indef @dep #7->
+	"bøga" N Fem Sg Dat Indef @conj #7->5
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->5
 
 # text = Í dølunum er veðurgott og góður bøur.
 # text[eng] = 
@@ -2674,19 +2654,19 @@
 "<Í>"
 	"í" Pr @case #1->2
 "<dølunum>"
-	"dalur" N Msc Pl Dat Def @nmod #2->
+	"dalur" N Msc Pl Dat Def @root #2->0
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #3->
+	"vera" V Ind Prs Sg3 @cop #3->2
 "<veðurgott>"
-	"veðurgóður" A Neu Sg Nom Indef @dep #4->
+	"veðurgóður" A Neu Sg Nom Indef @amod #4->7
 "<og>"
-	"og" CC @cc #5->
+	"og" CC @cc #5->6
 "<góður>"
-	"góður" A Msc Sg Nom Indef @amod #6->7
+	"góður" A Msc Sg Nom Indef @conj #6->4
 "<bøur>"
-	"bøur" N Msc Sg Nom Indef @dep #7->
+	"bøur" N Msc Sg Nom Indef @nsubj #7->2
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->2
 
 # text = Um veturin legst ofta nógvur kavi niður í fjøllunum.
 # text[eng] = In winter there is often a lot of snow down in the mountains.
@@ -2716,23 +2696,23 @@
 # text[eng] = 
 # labels = to_check
 "<Luzern>"
-	"Luzern" N Prop Sem/Plc Sg Nom @dep #1->
+	"Luzern" N Prop Sem/Plc Sg Nom @nsubj #1->6
 "<og>"
-	"og" CC @cc #2->
+	"og" CC @cc #2->3
 "<Lugano>"
-	"Lugano" N Prop Sem/Plc Sg Nom @dep #3->
+	"Lugano" N Prop Sem/Plc Sg Nom @conj #3->1
 "<eru>"
-	"vera" V Ind Prs Pl @cop #4->
+	"vera" V Ind Prs Pl @cop #4->6
 "<viðgitnir>"
 	"viðgitin" A Msc Pl Nom Indef @amod #5->6
 "<ferðamannabýir>"
-	"ferðamaður#býur" N Msc Pl Nom Indef @dep #6->
+	"ferðamaður#býur" N Msc Pl Nom Indef @root #6->0
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = -At loyvt skuldi verða at prædika á før.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<->"
 	"-" PUNCT @punct #1->
 "<At>"
@@ -2758,17 +2738,17 @@
 # text[eng] = 
 # labels = to_check
 "<->"
-	"-" PUNCT @punct #1->
+	"-" PUNCT @punct #1->3
 "<At>"
-	"at" IM @dep #2->
+	"at" IM @mark #2->3
 "<stovnseta>"
-	"stovnseta" V Inf @dep #3->
+	"stovnseta" V Inf @root #3->0
 "<føroyskan>"
 	"føroyskur" A Msc Sg Acc Indef @amod #4->5
 "<háskúla>"
-	"háskúli" N Msc Sg Acc Indef @dep #5->
+	"háskúli" N Msc Sg Acc Indef @obj #5->3
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->3
 
 # text = Størstu stórstaðarøkini eru í Ruhr í Týsklandi.
 # text[eng] = 
@@ -2791,46 +2771,46 @@
 	"." CLB @punct #8->5
 
 # text = Dagurin nevnist eisini kyndilsmessa.
-# text[eng] = 
+# text[eng] = The day is also called Candlemass.
 # labels = to_check
 "<Dagurin>"
-	"dagur" N Msc Sg Nom Def @dep #1->2
+	"dagur" N Msc Sg Nom Def @nsubj #1->2
 "<nevnist>"
 	"nevna" V Ind Prs Sg3 Pass @root #2->0
 "<eisini>"
-	"eisini" Adv @dep #3->2
+	"eisini" Adv @advmod #3->2
 "<kyndilsmessa>"
-	"kyndilsmessa" N Fem Sg Nom Indef @dep #4->2
+	"kyndilsmessa" N Fem Sg Nom Indef @xcomp #4->2
 "<.>"
-	"." CLB @punct #5->
+	"." CLB @punct #5->2
 
 # text = Dagurin nevnist eisini kongadagur.
 # text[eng] = 
 # labels = to_check
 "<Dagurin>"
-	"dagur" N Msc Sg Nom Def @dep #1->2
+	"dagur" N Msc Sg Nom Def @nsubj #1->2
 "<nevnist>"
 	"nevna" V Ind Prs Sg3 Pass @root #2->0
 "<eisini>"
-	"eisini" Adv @dep #3->2
+	"eisini" Adv @advmod #3->2
 "<kongadagur>"
-	"kongadagur" N Msc Sg Nom Indef @dep #4->2
+	"kongadagur" N Msc Sg Nom Indef @xcomp #4->2
 "<.>"
-	"." CLB @punct #5->
+	"." CLB @punct #5->2
 
 # text = Dagurin er 2. jóladagur.
 # text[eng] = 
 # labels = to_check
 "<Dagurin>"
-	"dagur" N Msc Sg Nom Def @dep #1->
+	"dagur" N Msc Sg Nom Def @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<2.>"
-	"2" A Ord @dep #3->
+	"2" A Ord @amod #3->4
 "<jóladagur>"
-	"jóladagur" N Msc Sg Nom Indef @dep #4->
+	"jóladagur" N Msc Sg Nom Indef @root #4->0
 "<.>"
-	"." CLB @punct #5->
+	"." CLB @punct #5->4
 
 # text = Dansitíðin er frá 2. jóladegi til føstuinngang.
 # text[eng] = Dancing time is from the 2nd day of Christmas until Shrovetide.
@@ -2856,13 +2836,13 @@
 # text[eng] = 
 # labels = to_check
 "<Hvannasund>"
-	"Hvannasund" N Prop Neu Sg Nom Indef @dep #1->
+	"Hvannasund" N Prop Neu Sg Nom Indef @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<fyrndarbygd>"
-	"fyrnd#bygd" N Fem Sg Nom Indef @dep #3->
+	"fyrnd#bygd" N Fem Sg Nom Indef @root #3->0
 "<.>"
-	"." CLB @punct #4->
+	"." CLB @punct #4->3
 
 # text = Sum ungur var hann fiskimaður og útróðrarmaður.
 # text[eng] = As a youth he was a fisherman and worked on the boats.
@@ -2888,25 +2868,25 @@
 # text[eng] = 
 # labels = to_check
 "<Tvøroyrar>"
-	"Tvøroyri" N Prop Fem Sg Gen Indef @dep #1->
+	"Tvøroyri" N Prop Fem Sg Gen Indef @nmod:poss #1->2
 "<kommuna>"
-	"kommuna" N Fem Sg Nom Indef @dep #2->
+	"kommuna" N Fem Sg Nom Indef @root #2->0
 "<:>"
-	":" CLB @punct #3->
+	":" CLB @punct #3->1
 "<Tvøroyrar>"
-	"Tvøroyri" N Prop Fem Sg Gen Indef @dep #4->
+	"Tvøroyri" N Prop Fem Sg Gen Indef @nmod:poss #4->5
 "<kommuna>"
-	"kommuna" N Fem Sg Nom Indef @dep #5->
+	"kommuna" N Fem Sg Nom Indef @nsubj #5->7
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #6->
+	"vera" V Ind Prs Sg3 @cop #6->7
 "<kommuna>"
-	"kommuna" N Fem Sg Nom Indef @dep #7->
+	"kommuna" N Fem Sg Nom Indef @root #7->2
 "<í>"
 	"í" Pr @case #8->9
 "<Føroyum>"
-	"Føroyar" N Prop Fem Pl Dat Indef @nmod #9->
+	"Føroyar" N Prop Fem Pl Dat Indef @obl #9->7
 "<.>"
-	"." CLB @punct #10->
+	"." CLB @punct #10->7
 
 # text = Dagurin í dag er tjóðardagur Noregs.
 # text[eng] = The day today is Norway's national day.
@@ -2954,7 +2934,7 @@
 "<at>"
 	"at" IM @mark #5->6
 "<goysa>"
-	"goysa" V Inf @xcomp #6->3
+	"goysa" V Inf @advcl #6->3
 "<í>"
 	"í" Pr @case #7->9
 "<somu>"
@@ -2982,25 +2962,25 @@
 # text[eng] = 
 # labels = to_check
 "<Báturin>"
-	"bátur" N Msc Sg Nom Def @dep #1->
+	"bátur" N Msc Sg Nom Def @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<hvítur>"
-	"hvítur" A Msc Sg Nom Indef @dep #3->
+	"hvítur" A Msc Sg Nom Indef @root #3->0
 "<og>"
-	"og" CC @cc #4->
+	"og" CC @cc #4->5
 "<hevur>"
-	"hava" V Ind Prs Sg3 @dep #5->
+	"hava" V Ind Prs Sg3 @conj #5->3
 "<bláar>"
 	"bláur" A Msc Pl Acc Indef @amod #6->7
 "<listar>"
-	"listi" N Msc Pl Acc Indef @dep #7->
+	"listi" N Msc Pl Acc Indef @obj #7->5
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->3
 
 # text = Niels Finsens gøta: Niels Finsens gøta í Tórshavn er einasta gongugøta í Føroyum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Niels>"
 	"Niels" N Prop Sem/Mal Sg Nom @dep #1->
 "<Finsens>"
@@ -3038,39 +3018,39 @@
 "<Í>"
 	"í" Pr @case #1->2
 "<Tinganesi>"
-	"Tinganes" N Prop Sem/Plc Neu Sg Dat Indef @nmod #2->
+	"Tinganes" N Prop Sem/Plc Neu Sg Dat Indef @root #2->0
 "<eru>"
-	"vera" V Ind Prs Pl @cop #3->
+	"vera" V Ind Prs Pl @cop #3->2
 "<gamlir>"
 	"gamal" A Msc Pl Nom Indef @amod #4->5
 "<bygningar>"
-	"bygningur" N Msc Pl Nom Indef @dep #5->
+	"bygningur" N Msc Pl Nom Indef @nsubj #5->2
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->2
 
 # text = Hetta merkir ikki, at yrkingarnar ikki eru góðar.
 # text[eng] = 
 # labels = to_check
 "<Hetta>"
-	"hesin" Pron Dem Neu Sg Nom @dep #1->
+	"hesin" Pron Dem Neu Sg Nom @nsubj #1->2
 "<merkir>"
-	"merkja" V Ind Prs Sg3 @dep #2->
+	"merkja" V Ind Prs Sg3 @root #2->0
 "<ikki>"
-	"ikki" Adv @dep #3->
+	"ikki" Adv @advmod #3->2
 "<,>"
-	"," CLB @punct #4->
+	"," CLB @punct #4->9
 "<at>"
-	"at" CS @dep #5->
+	"at" CS @mark #5->9
 "<yrkingarnar>"
-	"yrking" N Fem Pl Nom Def @dep #6->
+	"yrking" N Fem Pl Nom Def @nsubj #6->9
 "<ikki>"
-	"ikki" Adv @dep #7->
+	"ikki" Adv @advmod #7->9
 "<eru>"
-	"vera" V Ind Prs Pl @cop #8->
+	"vera" V Ind Prs Pl @cop #8->9
 "<góðar>"
-	"góður" A Fem Pl Nom Indef @dep #9->
+	"góður" A Fem Pl Nom Indef @ccomp #9->2
 "<.>"
-	"." CLB @punct #10->
+	"." CLB @punct #10->2
 
 # text = Móti endanum verður tó vent í holuni.
 # text[eng] = 
@@ -3078,23 +3058,23 @@
 "<Móti>"
 	"móti" Pr @case #1->2
 "<endanum>"
-	"endi" N Msc Sg Dat Def @nmod #2->
+	"endi" N Msc Sg Dat Def @obl #2->5
 "<verður>"
-	"verða" V Ind Prs Sg3 @root #3->0
+	"verða" V Ind Prs Sg3 @aux:pass #3->5
 "<tó>"
-	"tó" Adv @dep #4->3
+	"tó" Adv @advmod #4->5
 "<vent>"
-	"venda" V Sup @dep #5->3
+	"venda" V Sup @root #5->0
 "<í>"
 	"í" Pr @case #6->7
 "<holuni>"
-	"hola" N Fem Sg Dat Def @nmod #7->
+	"hola" N Fem Sg Dat Def @obl #7->5
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->5
 
 # text = Sí eisini.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Sí>"
 	"síggja" V Imp Sg @root #1->0
 "<eisini>"
@@ -3104,7 +3084,7 @@
 
 # text = Kr. tók Aleksandur Mikli ræði á oynni.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Kr.>"
 	"kr" Abbr @dep #1->2
 "<tók>"
@@ -3124,7 +3104,7 @@
 
 # text = Meginparturin av fólkinum eru grikkar, bara fimtingurin turkar.
 # text[eng] = 
-# labels = to_check
+# labels = to_check disam incomplete
 "<Meginparturin>"
 	"meginpartur" N Msc Sg Nom Def @dep #1->
 "<av>"
@@ -3152,49 +3132,49 @@
 "<Sí>"
 	"síggja" V Imp Sg @root #1->0
 "<dømini>"
-	"dømi" N Neu Pl Nom Def @dep #2->1
+	"dømi" N Neu Pl Acc Def @obj #2->1
 "<fyri>"
-	"fyri" Pr @case #3->
+	"fyri" Pr @case #3->5
 "<at>"
-	"at" IM @dep #4->1
+	"at" IM @mark #4->5
 "<síggja>"
-	"síggja" V Inf @dep #5->1
+	"síggja" V Inf @advcl #5->1
 "<gongdina>"
-	"gongd" N Fem Sg Acc Def @dep #6->1
+	"gongd" N Fem Sg Acc Def @obj #6->5
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->1
 
 # text = Grundtøl eru talorð í hvørfalli.
 # text[eng] = 
 # labels = to_check
 "<Grundtøl>"
-	"grundtal" N Neu Pl Nom Indef @dep #1->
+	"grundtal" N Neu Pl Nom Indef @nsubj #1->3
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->3
 "<talorð>"
-	"talorð" N Neu Pl Nom Indef @dep #3->
+	"talorð" N Neu Pl Nom Indef @root #3->0
 "<í>"
 	"í" Pr @case #4->5
 "<hvørfalli>"
-	"hvørfall" N Neu Sg Dat Indef @nmod #5->
+	"hvørfall" N Neu Sg Dat Indef @obl #5->3
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->3
 
 # text = Skiftitøl eru talorð í fleirtali.
 # text[eng] = 
 # labels = to_check
 "<Skiftitøl>"
-	"skiftitøl" N Neu Pl Nom Indef @dep #1->
+	"skiftitøl" N Neu Pl Nom Indef @nsubj #1->3
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->3
 "<talorð>"
-	"talorð" N Neu Pl Nom Indef @dep #3->
+	"talorð" N Neu Pl Nom Indef @root #3->0
 "<í>"
 	"í" Pr @case #4->5
 "<fleirtali>"
-	"fleirtal" N Neu Sg Dat Indef @nmod #5->
+	"fleirtal" N Neu Sg Dat Indef @obl #5->3
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->3
 
 # text = Landbúnaðurin hevur stóran týdning fyri litavska búskapin.
 # text[eng] = 
@@ -3224,7 +3204,7 @@
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->3
 "<Athen>"
-	"Athen" N Prop Sem/Plc Sg Nom @root #3->
+	"Athen" N Prop Sem/Plc Sg Nom @root #3->0
 "<,>"
 	"," CLB @punct #4->9
 "<sum>"
@@ -3272,7 +3252,7 @@
 
 # text = Tí er nógv arbeiði av at velta jørðina.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tí>"
 	"tí" CS @dep #1->
 "<er>"
@@ -3316,61 +3296,61 @@
 # text[eng] = 
 # labels = to_check
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->
+	"tað" Pron Pers Sg3 Nom @expl #1->9
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->9
 "<átta>"
 	"átta" Num @nummod #3->4
 "<býir>"
-	"býur" N Msc Pl Nom Indef @dep #4->
+	"býur" N Msc Pl Nom Indef @nsubj #4->9
 "<og>"
-	"og" CC @cc #5->
+	"og" CC @cc #5->6
 "<bygdir>"
-	"bygd" N Fem Pl Nom Indef @dep #6->
+	"bygd" N Fem Pl Nom Indef @conj #6->4
 "<í>"
 	"í" Pr @case #7->8
 "<Hultsfreds>"
-	"Hultsfred" N Prop Sem/Sur Sg Gen @nmod #8->
+	"Hultsfred" N Prop Sem/Sur Sg Gen @nmod:poss #8->9
 "<kommunu>"
-	"kommuna" N Fem Sg Dat Indef @dep #9->
+	"kommuna" N Fem Sg Dat Indef @root #9->0
 "<.>"
-	"." CLB @punct #10->
+	"." CLB @punct #10->9
 
 # text = Tað eru 10 býir í Oskarshamns kommunu.
 # text[eng] = 
 # labels = to_check
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->
+	"tað" Pron Pers Sg3 Nom @nsubj #1->7
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->7
 "<10>"
 	"10" Num Nom @nummod #3->4
 "<býir>"
-	"býur" N Msc Pl Nom Indef @dep #4->
+	"býur" N Msc Pl Nom Indef @nsubj #4->7
 "<í>"
 	"í" Pr @case #5->6
 "<Oskarshamns>"
-	"Oskarshamn" N Prop Sem/Plc Sg Gen @nmod #6->
+	"Oskarshamn" N Prop Sem/Plc Sg Gen @nmod:poss #6->7
 "<kommunu>"
-	"kommuna" N Fem Sg Dat Indef @dep #7->
+	"kommuna" N Fem Sg Dat Indef @root #7->0
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->7
 
 # text = Stórt universitet er í býnum.
-# text[eng] = 
+# text[eng] = The big university is in the town.
 # labels = to_check
 "<Stórt>"
 	"stórur" A Neu Sg Nom Indef @amod #1->2
 "<universitet>"
-	"universitet" N Neu Sg Nom Indef @dep #2->
+	"universitet" N Neu Sg Nom Indef @nsubj #2->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #3->
+	"vera" V Ind Prs Sg3 @cop #3->5
 "<í>"
 	"í" Pr @case #4->5
 "<býnum>"
-	"býur" N Msc Pl Dat Def @nmod #5->
+	"býur" N Msc Pl Dat Def @root #5->0
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->5
 
 # text = Umsitingin hjá kommununi liggur í býnum Umeå.
 # text[eng] = 
@@ -3393,20 +3373,20 @@
 	"." CLB @punct #8->4
 
 # text = Í 895 var ungarskt landnám.
-# text[eng] = 
+# text[eng] = In 895 it was a Hungarian settlement.
 # labels = to_check
 "<Í>"
-	"í" Pr @case #1->
+	"í" Pr @case #1->2
 "<895>"
-	"895" Num Dat @dep #2->
+	"895" Num Dat @obl #2->5
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #3->
+	"vera" V Ind Prt Sg3 @cop #3->5
 "<ungarskt>"
 	"ungarskur" A Neu Sg Nom Indef @amod #4->5
 "<landnám>"
-	"landnám" N Neu Sg Nom Indef @dep #5->
+	"landnám" N Neu Sg Nom Indef @root #5->0
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->5
 
 # text = Um 96 fólk búgva á Hvítanesi.
 # text[eng] = Around 96 people live in Hvítanes.
@@ -3427,22 +3407,22 @@
 	"." CLB @punct #7->4
 
 # text = Tveir seyðabøndur eru eisini í bygdini.
-# text[eng] = 
+# text[eng] = There are two sheep farmers in the village.
 # labels = to_check
 "<Tveir>"
 	"tvey" Num Msc Sg Nom @nummod #1->2
 "<seyðabøndur>"
-	"seyðabóndi" N Msc Pl Nom Indef @dep #2->
+	"seyðabóndi" N Msc Pl Nom Indef @nsubj #2->6
 "<eru>"
-	"vera" V Ind Prs Pl @cop #3->
+	"vera" V Ind Prs Pl @cop #3->6
 "<eisini>"
-	"eisini" Adv @dep #4->
+	"eisini" Adv @advmod #4->6
 "<í>"
 	"í" Pr @case #5->6
 "<bygdini>"
-	"bygd" N Fem Sg Dat Def @nmod #6->
+	"bygd" N Fem Sg Dat Def @root #6->0
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Í Syðradali eru tvey festi.
 # text[eng] = 
@@ -3450,65 +3430,65 @@
 "<Í>"
 	"í" Pr @case #1->2
 "<Syðradali>"
-	"Syðradalur" N Prop Msc Sg Dat Indef @nmod #2->
+	"Syðradalur" N Prop Msc Sg Dat Indef @root #2->0
 "<eru>"
-	"vera" V Ind Prs Pl @cop #3->
+	"vera" V Ind Prs Pl @cop #3->2
 "<tvey>"
 	"tvey" Num Neu Sg Nom @nummod #4->5
 "<festi>"
-	"festi" N Neu Pl Nom Indef @dep #5->
+	"festi" N Neu Pl Nom Indef @nsubj #5->2
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->2
 
 # text = Velbastaður er av elstu bygdum í Føroyum.
-# text[eng] = 
+# text[eng] = Velbastaður is one of the oldest villages on the Faroe Islands.
 # labels = to_check
 "<Velbastaður>"
-	"Velbastaður" N Prop Msc Sg Nom Indef @dep #1->
+	"Velbastaður" N Prop Msc Sg Nom Indef @nsubj #1->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->5
 "<av>"
-	"av" Pr @case #3->
+	"av" Pr @case #3->5
 "<elstu>"
 	"gamal" A Superl Fem Pl Dat Def @amod #4->5
 "<bygdum>"
-	"bygd" N Fem Pl Dat Indef @nmod #5->
+	"bygd" N Fem Pl Dat Indef @root #5->0
 "<í>"
 	"í" Pr @case #6->7
 "<Føroyum>"
-	"Føroyar" N Prop Fem Pl Dat Indef @nmod #7->
+	"Føroyar" N Prop Fem Pl Dat Indef @obl #7->5
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->5
 
 # text = Velbastaður hevur verið, og er framvegis, eyðkend landbúnaðarbygd.
 # text[eng] = 
 # labels = to_check
 "<Velbastaður>"
-	"Velbastaður" N Prop Msc Sg Nom Indef @dep #1->
+	"Velbastaður" N Prop Msc Sg Nom Indef @nsubj #1->10
 "<hevur>"
-	"hava" V Ind Prs Sg3 @aux #2->3
+	"hava" V Ind Prs Sg3 @aux #2->10
 "<verið>"
-	"vera" V Sup @cop #3->
+	"vera" V Sup @cop #3->10
 "<,>"
-	"," CLB @punct #4->
+	"," CLB @punct #4->6
 "<og>"
-	"og" CC @cc #5->
+	"og" CC @cc #5->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #6->
+	"vera" V Ind Prs Sg3 @cop #6->3
 "<framvegis>"
-	"framvegis" Adv @dep #7->
+	"framvegis" Adv @advmod #7->6
 "<,>"
-	"," CLB @punct #8->
+	"," CLB @punct #8->6
 "<eyðkend>"
 	"eyðkendur" A Fem Sg Nom Indef @amod #9->10
 "<landbúnaðarbygd>"
-	"landbúnaður#bygd" N Fem Sg Nom Indef @dep #10->
+	"landbúnaður#bygd" N Fem Sg Nom Indef @root #10->0
 "<.>"
-	"." CLB @punct #11->
+	"." CLB @punct #11->10
 
 # text = Í bygdini eru 26 hús.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->2
 "<bygdini>"
@@ -3524,7 +3504,7 @@
 
 # text = Men í bygdini er eisini ein nýggj útstykking.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Men>"
 	"men" CC @cc #1->
 "<í>"
@@ -3570,7 +3550,7 @@
 
 # text = Tað var missur í einum slíkum menni!
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tað>"
 	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<var>"
@@ -3590,7 +3570,7 @@
 
 # text = Eitt fjølbroytt vinnulív er grundarlagið fyri framburði og trivnaði.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Eitt>"
 	"ein" Det Neu Sg Nom @det #1->
 "<fjølbroytt>"
@@ -3614,7 +3594,7 @@
 
 # text = Vestmanna er eisini ein kommuna.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Vestmanna>"
 	"Vestmanna" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
@@ -3630,7 +3610,7 @@
 
 # text = Kamping er omanfyri bygdina og møguleiki fyri at fiska har eru eisini til staðar.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Kamping>"
 	"kampingur" N Msc Sg Acc Indef @dep #1->
 "<er>"
@@ -3664,7 +3644,7 @@
 
 # text = Miðvágur er søgulig bygd.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Miðvágur>"
 	"Miðvágur" N Prop Msc Sg Nom Indef @dep #1->
 "<er>"
@@ -3678,7 +3658,7 @@
 
 # text = Stórur partur av leirvíkingum doyði.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Stórur>"
 	"stórur" A Msc Sg Nom Indef @amod #1->2
 "<partur>"
@@ -3694,7 +3674,7 @@
 
 # text = Meginparturin av jørðini í Leirvík er kongsjørð.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Meginparturin>"
 	"meginpartur" N Msc Sg Nom Def @dep #1->
 "<av>"
@@ -3758,7 +3738,7 @@
 
 # text = Hetta hevði týdning fyri bygdarlívið og eisini búskaparligan týdning.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Hetta>"
 	"hesin" Pron Dem Neu Sg Nom @dep #1->2
 "<hevði>"
@@ -3782,7 +3762,7 @@
 
 # text = Eitt vanligt fiskavirki er í kommununi og somuleiðis er eitt kryvjingarvirki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Eitt>"
 	"ein" Det Neu Sg Nom @det #1->
 "<vanligt>"
@@ -3810,7 +3790,7 @@
 
 # text = Í kommununi eru tveir bóndagarðar.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->2
 "<kommununi>"
@@ -3826,7 +3806,7 @@
 
 # text = Áhugavert at vitja.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Áhugavert>"
 	"áhugavert" Adv @dep #1->
 "<at>"
@@ -3838,7 +3818,7 @@
 
 # text = Kommunulækni er eisini í bygdini.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Kommunulækni>"
 	"kommuna#lækni" N Msc Sg Nom Indef @dep #1->
 "<er>"
@@ -3854,7 +3834,7 @@
 
 # text = Lamba var nýggjársbygd.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Lamba>"
 	"Lambi" N Prop Msc Sg Dat Indef @dep #1->
 "<var>"
@@ -3866,7 +3846,7 @@
 
 # text = Á sandi er sandur við einastu mølheyggjum í Føroyum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Á>"
 	"á" Pr @case #1->2
 "<sandi>"
@@ -3890,7 +3870,7 @@
 
 # text = Men her er annað enn fiskur.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Men>"
 	"men" CC @cc #1->
 "<her>"
@@ -3908,7 +3888,7 @@
 
 # text = Gásadalur er partur av Sørvágs Kommunu.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Gásadalur>"
 	"Gásadalur" N Prop Msc Sg Nom Indef @dep #1->
 "<er>"
@@ -3926,7 +3906,7 @@
 
 # text = Í Gásadali er ongin kirkja.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->2
 "<Gásadali>"
@@ -3942,7 +3922,7 @@
 
 # text = Gudstænasta og lestur eru tískil í skúlanum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Gudstænasta>"
 	"gudstænasta" N Fem Sg Nom Indef @dep #1->
 "<og>"
@@ -3962,7 +3942,7 @@
 
 # text = At stjala eld.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<At>"
 	"at" IM @dep #1->
 "<stjala>"
@@ -3974,7 +3954,7 @@
 
 # text = Aalborg er vinarbýur hjá Fuglafirði.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Aalborg>"
 	"Aalborg" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
@@ -3990,7 +3970,7 @@
 
 # text = Størsti býurin í kommununi er Frederikshavn.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Størsti>"
 	"stórur" A Superl Msc Sg Nom Def @amod #1->2
 "<býurin>"
@@ -4008,7 +3988,7 @@
 
 # text = Høvuðsstaðurin er Kiev við 2,6 milliónum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Høvuðsstaðurin>"
 	"høvuðsstaður" N Msc Sg Nom Def @dep #1->
 "<er>"
@@ -4072,7 +4052,7 @@
 
 # text = Í 2005 varð kappingin enn einaferð umskipað.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->
 "<2005>"
@@ -4092,7 +4072,7 @@
 
 # text = Men soleiðis hevur ikki altíð verið.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Men>"
 	"men" CC @cc #1->
 "<soleiðis>"
@@ -4110,7 +4090,7 @@
 
 # text = Um navnið.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Um>"
 	"ymja" V Imp Sg @root #1->0
 "<navnið>"
@@ -4120,7 +4100,7 @@
 
 # text = Í Kvívík er ein krambúð.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->2
 "<Kvívík>"
@@ -4136,7 +4116,7 @@
 
 # text = Høvuðsvinnan í kommununi er útróður.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Høvuðsvinnan>"
 	"høvuðsvinna" N Fem Sg Nom Def @dep #1->
 "<í>"
@@ -4168,7 +4148,7 @@
 
 # text = Røktarheim er bygt á Mørkini við plássi fyri 32 búfólkum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Røktarheim>"
 	"røktarheim" N Neu Sg Nom Indef @dep #1->
 "<er>"
@@ -4204,7 +4184,7 @@
 
 # text = Har er nógvur og góður slættur bøur, ið hevur verið grundarlagið undir góðum landbúnaði.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Har>"
 	"har" Adv @dep #1->
 "<er>"
@@ -4250,7 +4230,7 @@
 
 # text = Grótgarðurin, hon læt gera um kirkjugarðin, stendur enn.
 # text[eng] = The stone wall, _ around the graveyard, is still standing.
-# labels = to_check
+# labels = to_check incomplete
 "<Grótgarðurin>"
 	"grótgarður" N Msc Sg Nom Def @dep #1->9
 "<,>"
@@ -4276,7 +4256,7 @@
 
 # text = Hanus var av bestu seyðamonnum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Hanus>"
 	"Hanus" N Prop Sem/Mal Sg Nom @dep #1->
 "<var>"
@@ -4292,7 +4272,7 @@
 
 # text = Á norðursíðuni er bygdin Kollafjørður.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Á>"
 	"á" Pr @case #1->2
 "<norðursíðuni>"
@@ -4308,7 +4288,7 @@
 
 # text = Fólkatalið er í dag 102. Keldur.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Fólkatalið>"
 	"fólkatal" N Neu Sg Nom Def @dep #1->
 "<er>"
@@ -4326,7 +4306,7 @@
 
 # text = Býlingurin liggur omanfyri og sunnanfyri gomlu bygdina.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Býlingurin>"
 	"býlingur" N Msc Sg Nom Def @dep #1->2
 "<liggur>"
@@ -4356,7 +4336,7 @@
 
 # text = Danskt mál: Danskt mál er málið í Danmark.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Danskt>"
 	"danskur" A Neu Sg Nom Indef @amod #1->2
 "<mál>"
@@ -4380,7 +4360,7 @@
 
 # text = Hellurnar eru partur av Fuglafjarðar kommunu.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Hellurnar>"
 	"hella" N Fem Pl Nom Def @dep #1->
 "<eru>"
@@ -4398,7 +4378,7 @@
 
 # text = Eitt bønhús er í bygdini.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Eitt>"
 	"ein" Det Neu Sg Nom @det #1->2
 "<bønhús>"
@@ -4414,7 +4394,7 @@
 
 # text = Men hetta var honum ikki nokk.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Men>"
 	"men" CC @cc #1->
 "<hetta>"
@@ -4432,7 +4412,7 @@
 
 # text = Norskt mál: Norskt mál er málið í Noregi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Norskt>"
 	"norskur" A Neu Sg Nom Indef @amod #1->2
 "<mál>"
@@ -4456,7 +4436,7 @@
 
 # text = Eitt kelvi er eitt runt træpetti.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Eitt>"
 	"ein" Det Neu Sg Nom @det #1->2
 "<kelvi>"
@@ -4474,7 +4454,7 @@
 
 # text = Klettafjøll eru norðan úr Alaska og suður í New Mexico eru ryggurin í meginlandinum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Klettafjøll>"
 	"Klettafjøll" N Prop Neu Pl Nom Indef @dep #1->
 "<eru>"
@@ -4508,7 +4488,7 @@
 
 # text = Tað er, at londini eru skift sundur í fleiri ríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tað>"
 	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<er>"
@@ -4536,7 +4516,7 @@
 
 # text = Fyri eystan er Stóri Rivudalur: Har eru mong vøtn.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Fyri>"
 	"fyri" Pr @case #1->
 "<eystan>"
@@ -4562,7 +4542,7 @@
 
 # text = Nógvar oyggjar eru enn undir til dømis Nýsælandi, Fraklandi og Bretlandi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Nógvar>"
 	"nógvur" A Fem Pl Nom Indef @amod #1->2
 "<oyggjar>"
@@ -4592,7 +4572,7 @@
 
 # text = Kyrrahavsoyggjarnar eru av ymsum uppruna og skapi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Kyrrahavsoyggjarnar>"
 	"Kyrrahav#oyggj" N Fem Pl Nom Def @dep #1->
 "<eru>"
@@ -4630,7 +4610,7 @@
 
 # text = Sum tíðin leið, løgdu ymisk long oyggjarnar undir seg.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Sum>"
 	"sum" CS @dep #1->
 "<tíðin>"
@@ -4680,7 +4660,7 @@
 
 # text = Føroyskan mentan skal skjalprógvast í tilfarinum hjá Kringvarpinum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Føroyskan>"
 	"føroyskur" A Msc Sg Acc Indef @dep #1->3
 "<mentan>"
@@ -4722,7 +4702,7 @@
 
 # text = Strandferðslan er stovnur undir Vinnumálaráðnum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Strandferðslan>"
 	"strandferðsla" N Fem Sg Nom Def @dep #1->
 "<er>"
@@ -4738,7 +4718,7 @@
 
 # text = Um heystið vóru teir á sild.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Um>"
 	"um" CS @dep #1->
 "<heystið>"
@@ -4756,7 +4736,7 @@
 
 # text = ” Tá kom ferð á Hanus.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<”>"
 	"”" PUNCT RIGHT @punct #1->
 "<Tá>"
@@ -4774,7 +4754,7 @@
 
 # text = "Sí eisini:" Sorinskrivarar í Føroyum Barbara: Barbara er kvinnufornavn: Aðrir týdningar: Norðurlandahúsið í Føroyum: Norðurlandahúsið í Føroyum er størsti mentunarmiðdepil í Føroyum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<">"
 	""" PUNCT @punct #1->
 "<Sí>"
@@ -4874,7 +4854,7 @@
 
 # text = , táið Victor doyði.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<,>"
 	"," CLB @punct #1->
 "<táið>"
@@ -4888,7 +4868,7 @@
 
 # text = Stakkurin hevur verið veitslubúni, serstakliga brúðarkjóli, í øldir.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Stakkurin>"
 	"stakkur" N Msc Sg Nom Def @dep #1->
 "<hevur>"
@@ -4914,7 +4894,7 @@
 
 # text = Miðskeiðis í 19. øld varð sjóstúkan stásbúni.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Miðskeiðis>"
 	"miðskeiðis" Adv @dep #1->5
 "<í>"
@@ -4934,7 +4914,7 @@
 
 # text = Sí eisini.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Sí>"
 	"síggja" V Imp Sg @root #1->0
 "<eisini>"
@@ -4944,7 +4924,7 @@
 
 # text = "Sí eisini:" Tónleikur í Føroyum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<">"
 	""" PUNCT @punct #1->
 "<Sí>"
@@ -4982,7 +4962,7 @@
 
 # text = 1917 – kollveltingin eydnast.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<1917>"
 	"1917" Num Nom @dep #1->4
 "<–>"
@@ -5018,7 +4998,7 @@
 
 # text = Nógv steinsløg eru í undirgrundini.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Nógv>"
 	"nógvur" A Neu Pl Nom Indef @amod #1->2
 "<steinsløg>"
@@ -5058,7 +5038,7 @@
 
 # text = "Sendistovan í Russlandi verður eitt týdningarmikið amboð hjá Føroyum at styrkja handilsviðurskiftini við Russland og onnur eystanlond", segði Johannesen.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<">"
 	""" PUNCT @punct #1->
 "<Sendistovan>"
@@ -5108,7 +5088,7 @@
 
 # text = Sendistovan í Russlandi verður eitt týdningarmikið amboð hjá okkum at styrkja handilsviðurskiftini við Russland og onnur eystanlond.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Sendistovan>"
 	"sendistova" N Fem Sg Nom Def @dep #1->4
 "<í>"
@@ -5148,7 +5128,7 @@
 
 # text = Heiðursgáva landsins er 75.000 kr. Aðrar heiðurslønir frá Mentamálaráðnum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Heiðursgáva>"
 	"heiðursgáva" N Fem Sg Nom Indef @dep #1->
 "<landsins>"
@@ -5172,7 +5152,7 @@
 
 # text = Triðja stongin er á nakkanum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Triðja>"
 	"triðji" A Fem Sg Nom Def @amod #1->2
 "<stongin>"
@@ -5188,7 +5168,7 @@
 
 # text = Gráhvít er hon undir búkinum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Gráhvít>"
 	"gráhvítur" A Fem Sg Nom Indef @dep #1->
 "<er>"
@@ -5226,7 +5206,7 @@
 
 # text = Bara ein uppskrift (úr Nólsoy) hevur” Glymur dansur í høll”.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Bara>"
 	"bara" Adv @dep #1->
 "<ein>"
@@ -5260,7 +5240,7 @@
 
 # text = Í lofthavinum eru eisini saltsýra, svávulsýra og flusssýra.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->2
 "<lofthavinum>"
@@ -5284,7 +5264,7 @@
 
 # text = Undir skorpuni er kápan.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Undir>"
 	"undir" Pr @case #1->2
 "<skorpuni>"
@@ -5298,7 +5278,7 @@
 
 # text = Umleið 29 % av jarðarflatanum eru land.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Umleið>"
 	"umleið" Adv @dep #1->
 "<29 %>"
@@ -5350,7 +5330,7 @@
 
 # text = Tá er sólarmyrking.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tá>"
 	"tá" Adv @dep #1->
 "<er>"
@@ -5362,7 +5342,7 @@
 
 # text = Við í leikinum eru bara kongurin og annar rókurin.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Við>"
 	"við" Pr @case #1->
 "<í>"
@@ -5402,7 +5382,7 @@
 
 # text = Leggurin er stívur og óslættur-gamal tari er ikki sørt trækendur.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Leggurin>"
 	"leggur" N Msc Sg Nom Def @dep #1->
 "<er>"
@@ -5456,7 +5436,7 @@
 
 # text = Tí er umráðandi ikki at taka hann.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tí>"
 	"tí" CS @dep #1->
 "<er>"
@@ -5476,7 +5456,7 @@
 
 # text = Í Føroyum eru stak góðir møguleikar hjá vakshattum at standa seg.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->2
 "<Føroyum>"
@@ -5528,7 +5508,7 @@
 
 # text = Sí eisini.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Sí>"
 	"síggja" V Imp Sg @root #1->0
 "<eisini>"
@@ -5552,7 +5532,7 @@
 
 # text = Nepal: Nepal er eitt lýðveldi í Asia.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Nepal>"
 	"Nepal" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -5574,7 +5554,7 @@
 
 # text = Høvuðsstaður er Kathmandu.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Høvuðsstaður>"
 	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->
 "<er>"
@@ -5586,7 +5566,7 @@
 
 # text = Kathmandu er høvuðsstaður í Nepal og størsti býur.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Kathmandu>"
 	"Kathmandu" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
@@ -5608,7 +5588,7 @@
 
 # text = Í Nepal eru mong fólkasløg.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->2
 "<Nepal>"
@@ -5624,7 +5604,7 @@
 
 # text = Viðurkenningar frá Kroatia, Bosnia og Herzegovina og Slovenia vóru skjótar.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Viðurkenningar>"
 	"viðurkenning" N Fem Pl Nom Indef @dep #1->
 "<frá>"
@@ -5652,7 +5632,7 @@
 
 # text = Landbúnaður og fiskivinna vóru grundarlagið undir spanska búskapinum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Landbúnaður>"
 	"landbúnaður" N Msc Sg Nom Indef @dep #1->
 "<og>"
@@ -5674,7 +5654,7 @@
 
 # text = Føroyskur dansur: Føroyskur dansur stavar úr miðøld.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Føroyskur>"
 	"føroyskur" A Msc Sg Nom Indef @amod #1->2
 "<dansur>"
@@ -5696,7 +5676,7 @@
 
 # text = Helium: Helium er eitt frumevni, ið hoyrir til bólkin óvirkin loftevni.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Helium>"
 	"helium" N Neu Sg Nom Indef @dep #1->
 "<:>"
@@ -5728,7 +5708,7 @@
 
 # text = Hon er limur í bólkinum Harkaliðið.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Hon>"
 	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<er>"
@@ -5764,7 +5744,7 @@
 
 # text = Istanbul er størsti býur í Turkaland.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Istanbul>"
 	"Istanbul" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
@@ -5782,7 +5762,7 @@
 
 # text = Høvuðsstaður er Ankara við 3,9 mió. íbúgvum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Høvuðsstaður>"
 	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->
 "<er>"
@@ -5802,7 +5782,7 @@
 
 # text = Tjóðardagur er 29. oktober.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tjóðardagur>"
 	"tjóð#dagur" N Msc Sg Nom Indef @dep #1->
 "<er>"
@@ -5830,7 +5810,7 @@
 
 # text = Makrel: Makrel er ein føroyskur rokk tónleikabólkur.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Makrel>"
 	"makrelur" N Msc Sg Acc Indef @dep #1->
 "<:>"
@@ -5852,7 +5832,7 @@
 
 # text = Fløgan kom út í USA tveir mánaðar, áðrenn hon fekst í Føroyum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Fløgan>"
 	"fløga" N Fem Sg Nom Def @dep #1->
 "<kom>"
@@ -5884,7 +5864,7 @@
 
 # text = Har er best er at koma niðan á tindin.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Har>"
 	"har" Adv @dep #1->
 "<er>"
@@ -5908,7 +5888,7 @@
 
 # text = Men í 1986 var landið oyðilagt og á húsagangi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Men>"
 	"men" CC @cc #1->
 "<í>"
@@ -5932,7 +5912,7 @@
 
 # text = Ongin er formliga settur í starv í samkomuni.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Ongin>"
 	"ong" N Fem Sg Nom Def @dep #1->
 "<er>"
@@ -5954,7 +5934,7 @@
 
 # text = Brøðramessa: Brøðramessa er 20. januar.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Brøðramessa>"
 	"brøðramessa" N Fem Sg Nom Indef @dep #1->
 "<:>"
@@ -5972,7 +5952,7 @@
 
 # text = Pálsmessa: Pálsmessa er 25. januar.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Pálsmessa>"
 	"pálsmessa" N Fem Sg Nom Indef @dep #1->
 "<:>"
@@ -5990,7 +5970,7 @@
 
 # text = Kyndilsmessuknútur: Kyndilsmessuknútur er 19. januar.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Kyndilsmessuknútur>"
 	"kyndilsmessuknútur" N Msc Sg Nom Indef @dep #1->
 "<:>"
@@ -6008,7 +5988,7 @@
 
 # text = Kyndilsmessa: Kyndilsmessa er 2. februar.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Kyndilsmessa>"
 	"kyndilsmessa" N Fem Sg Nom Indef @dep #1->
 "<:>"
@@ -6026,7 +6006,7 @@
 
 # text = Kyndilsmessa var upprunaliga ein Mariumessa til minnis um at Maria vitjaði í halgidóminum 40 dagar aftan á føðingina, sum siður var hjá jødiskum konum tá í tíðini.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Kyndilsmessa>"
 	"kyndilsmessa" N Fem Sg Nom Indef @dep #1->
 "<var>"
@@ -6088,7 +6068,7 @@
 
 # text = Kyndilsmessa er sostatt 40. dagurin eftir jóladag (tá jóladagur er íroknaður).
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Kyndilsmessa>"
 	"kyndilsmessa" N Fem Sg Nom Indef @dep #1->
 "<er>"
@@ -6120,7 +6100,7 @@
 
 # text = Syftunsøka: Syftunsøka er 2. juli.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Syftunsøka>"
 	"syftunsøka" N Fem Sg Nom Indef @dep #1->
 "<:>"
@@ -6138,7 +6118,7 @@
 
 # text = Kongadagur: Kongadagur er 11. februar.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Kongadagur>"
 	"kongadagur" N Msc Sg Nom Indef @dep #1->
 "<:>"
@@ -6156,7 +6136,7 @@
 
 # text = Pætursmessa: Pætursmessa er 22. februar.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Pætursmessa>"
 	"pætursmessa" N Fem Sg Nom Indef @dep #1->
 "<:>"
@@ -6174,7 +6154,7 @@
 
 # text = Grækarismessa: Grækarismessa er 12. mars.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Grækarismessa>"
 	"grækarismessa" N Fem Sg Nom Indef @dep #1->
 "<:>"
@@ -6192,7 +6172,7 @@
 
 # text = Grækarismessudagur er almennur flaggdagur.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Grækarismessudagur>"
 	"grækarismessa#dagur" N Msc Sg Nom Indef @dep #1->
 "<er>"
@@ -6206,7 +6186,7 @@
 
 # text = Í miðjuni er vanliga stórt tún.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->2
 "<miðjuni>"
@@ -6224,7 +6204,7 @@
 
 # text = Hann er næstformaður í Kyndli.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Hann>"
 	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<er>"
@@ -6240,7 +6220,7 @@
 
 # text = Í 2012 er hann venjari hjá B71, sum spælir í 1. deild.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->
 "<2012>"
@@ -6274,19 +6254,19 @@
 # text[eng] = 
 # labels = to_check
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->
+	"tað" Pron Pers Sg3 Nom @expl #1->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->6
 "<gamalt>"
 	"gamal" A Neu Sg Nom Indef @amod #3->4
 "<handverk>"
-	"handverk" N Neu Sg Nom Indef @dep #4->
+	"handverk" N Neu Sg Nom Indef @nsubj #4->6
 "<í>"
 	"í" Pr @case #5->6
 "<Føroyum>"
-	"Føroyar" N Prop Fem Pl Dat Indef @nmod #6->
+	"Føroyar" N Prop Fem Pl Dat Indef @root #6->0
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Brundtíðin endar so á trettanda.
 # text[eng] = The mating season ends therefore on the thirteenth.
@@ -6306,7 +6286,7 @@
 
 # text = Jóladagur hevur altíð verið mikil høgtíðisdagur í Føroyum, og enn eru jólini størsta høgtíð føroyinga.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Jóladagur>"
 	"jóladagur" N Msc Sg Nom Indef @dep #1->
 "<hevur>"
@@ -6344,7 +6324,7 @@
 
 # text = Vestmanna er egin kommuna.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Vestmanna>"
 	"Vestmanna" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
@@ -6358,7 +6338,7 @@
 
 # text = Í 2015 eru í landsstýrinum umframt løgmann sjey landsstýrismenn.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->
 "<2015>"
@@ -6382,7 +6362,7 @@
 
 # text = Í 2013 eru trý kór: Brúðarvígsla.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->
 "<2013>"
@@ -6402,7 +6382,7 @@
 
 # text = Mikudagur í føstuinngangi nevnist øskudagur, og tá byrjar álvarsamari parturin av føstuni.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Mikudagur>"
 	"mikudagur" N Msc Sg Nom Indef @dep #1->
 "<í>"
@@ -6434,7 +6414,7 @@
 
 # text = Pátriksmessa: Pátriksmessa er 17. mars.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Pátriksmessa>"
 	"pátriksmessa" N Fem Sg Nom Indef @dep #1->
 "<:>"
@@ -6452,7 +6432,7 @@
 
 # text = Fyri ólavsøku eru pisurnar floygdar.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Fyri>"
 	"fyri" Pr @case #1->2
 "<ólavsøku>"
@@ -6468,7 +6448,7 @@
 
 # text = Umframt við fygling og fleygi verður nógvur lomvigi fingin við snaru.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Umframt>"
 	"umframt" Pr @case #1->
 "<við>"
@@ -6496,7 +6476,7 @@
 
 # text = Í sama tíðarskeiði vaks eisini ídnaðurin, og man fór at gagnnýta lendið betur.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->
 "<sama>"
@@ -6530,7 +6510,7 @@
 
 # text = Har var tryggari.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Har>"
 	"har" Adv @dep #1->
 "<var>"
@@ -6542,7 +6522,7 @@
 
 # text = Høvuðsstaður er Santiago.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Høvuðsstaður>"
 	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->
 "<er>"
@@ -6554,7 +6534,7 @@
 
 # text = Landið var fram við Kyrrahavi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Landið>"
 	"land" N Neu Sg Nom Def @dep #1->
 "<var>"
@@ -6568,7 +6548,7 @@
 
 # text = Lítið fólk býr suðuri í landinum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Lítið>"
 	"lítil" A Neu Sg Nom Indef @amod #1->2
 "<fólk>"
@@ -6586,7 +6566,7 @@
 
 # text = Einasti landbúnaður har suðuri er seyðahald.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Einasti>"
 	"einastur" A Msc Sg Nom Def @amod #1->2
 "<landbúnaður>"
@@ -6604,7 +6584,7 @@
 
 # text = Valparaíso er stór skipahavn.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Valparaíso>"
 	"Valparaíso" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
@@ -6618,7 +6598,7 @@
 
 # text = Rossum og neytum er nógv til av, og suðuri í landinum er heilt nógvur seyður.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Rossum>"
 	"ross" N Neu Pl Dat Indef @dep #1->
 "<og>"
@@ -6680,7 +6660,7 @@
 
 # text = Nú er "bretunum" broytt til "byrsunum ".
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Nú>"
 	"nú" Adv @advmod #1->6
 "<er>"
@@ -6706,7 +6686,7 @@
 
 # text = Ørindið og ein leyslig umseting eru at lesa niðanfyri.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Ørindið>"
 	"ørindi" N Neu Sg Nom Def @dep #1->8
 "<og>"
@@ -6804,7 +6784,7 @@
 
 # text = Ein stórur partur av økinum er lagt út sum náttúrupark, sum tað kostar at sleppa at vitja.
 # text[eng] = A large part of the area is laid out as a nature park which _
-# labels = to_check
+# labels = to_check incomplete
 "<Ein>"
 	"ein" Det Msc Sg Nom @det #1->
 "<stórur>"
@@ -7000,7 +6980,7 @@
 
 # text = 50. útgávan var ein fløga við Mariu Guttesen.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<50.>"
 	"50" A Ord @dep #1->2
 "<útgávan>"
@@ -7048,7 +7028,7 @@
 
 # text = Men soleiðis er ikki allastaðni.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Men>"
 	"men" CC @cc #1->5
 "<soleiðis>"
@@ -7184,7 +7164,7 @@
 
 # text = Nú fer at bragda.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Nú>"
 	"nú" Adv @dep #1->2
 "<fer>"
@@ -7294,7 +7274,7 @@
 
 # text = Sambært nýggjum hagtølum eru samkynd 6,5 prosent av veljaraskaranum í Fraklandi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Sambært>"
 	"sambært" Pr @case #1->
 "<nýggjum>"
@@ -7322,7 +7302,7 @@
 
 # text = Høgar brekkur eru fram við strondini, og í dølunum eru umstøðurnar góðar til landbúnað.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Høgar>"
 	"høgur" A Fem Pl Nom Indef @amod #1->2
 "<brekkur>"
@@ -7372,7 +7352,7 @@
 
 # text = Fiskiveiðan í Fraklandi er hópin stór.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Fiskiveiðan>"
 	"fiskiveiða" N Fem Sg Nom Def @dep #1->
 "<í>"
@@ -7422,7 +7402,7 @@
 
 # text = Áttamannafarið var til útróðrar tiltikna óveðursdagin í 1913, tá skarðsbáturin fórst.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Áttamannafarið>"
 	"áttamannafar" N Neu Sg Nom Def @dep #1->
 "<var>"
@@ -7538,7 +7518,7 @@
 
 # text = Verður samanborið við fýrakant ella terning.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Verður>"
 	"verða" V Ind Prs Sg3 @root #1->0
 "<samanborið>"
@@ -7568,7 +7548,7 @@
 
 # text = Ein ørgrynna av møguleikum og samansetingum eru.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Ein>"
 	"eitt" Num Fem Sg Nom @nummod #1->2
 "<ørgrynna>"
@@ -7588,7 +7568,7 @@
 
 # text = Kelinøvn eru eitt heilt kapittul fyri seg.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Kelinøvn>"
 	"kelinavn" N Neu Pl Nom Indef @dep #1->
 "<eru>"
@@ -7608,7 +7588,7 @@
 
 # text = Árarnar eru festar í bátin, ofta við bandi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Árarnar>"
 	"ár" N Fem Pl Nom Def @dep #1->
 "<eru>"
@@ -7632,7 +7612,7 @@
 
 # text = Í 2011 vóru 14 nýggir bussar keyptir til býbusskoyringini hjá Tórshavnar kommunu.
 # text[eng] = In 2011 14 new busses were bought for the municipal bus service in Tórshavn commune.
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->2
 "<2011>"
@@ -7704,7 +7684,7 @@
 
 # text = Í 18. øld, hevði Danmark hug at gera Reykjavík til ein stóran bý.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->
 "<18.>"
@@ -7738,7 +7718,7 @@
 
 # text = Tað var heimskreppa í Reykjavík frá 1920 til 1930. Tá var stórt arbeiðsloysi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tað>"
 	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<var>"
@@ -7770,7 +7750,7 @@
 
 # text = Bulgaria: Bulgaria er eitt lýðveldi í Evropa.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Bulgaria>"
 	"Bulgaria" N Prop Sg Nom @dep #1->
 "<:>"
@@ -7792,7 +7772,7 @@
 
 # text = Minsk er miðskeiðis í landinum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Minsk>"
 	"Minsk" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
@@ -7998,7 +7978,7 @@
 
 # text = Tó er ósemja ímillum átrúnaðarligir bólkar.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tó>"
 	"tó" Adv @dep #1->
 "<er>"
@@ -8034,7 +8014,7 @@
 
 # text = Vánaligar venjingarumstøður vóru at byrja við-bert ein trongligur skúlagarður.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Vánaligar>"
 	"vánaligur" A Fem Pl Nom Indef @amod #1->2
 "<venjingarumstøður>"
@@ -8082,7 +8062,7 @@
 
 # text = Dagført í oktober 2013. Evropeisk luttøka.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Dagført>"
 	"dagføra" V Sup @dep #1->
 "<í>"
@@ -8142,7 +8122,7 @@
 
 # text = Mikkjalsmessa: Mikkjalsmessa er 29. september.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Mikkjalsmessa>"
 	"mikkjalsmessa" N Fem Sg Nom Indef @dep #1->
 "<:>"
@@ -8160,7 +8140,7 @@
 
 # text = Í Nýsælandi eru 20 ferðir so nógvir seyðir sum fólk.
 # text[eng] = In New Zealand there are 20 times as many sheep as people.
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->2
 "<Nýsælandi>"
@@ -8186,7 +8166,7 @@
 
 # text = Soleiðis gjørdist bøndurnir sjálvbjargnir við mati.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Soleiðis>"
 	"soleiðis" Adv @dep #1->2
 "<gjørdist>"
@@ -8214,7 +8194,7 @@
 
 # text = Fíggingargrunnurin gjørdist tískil størsti eigarin í Sjóvinnubankanum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Fíggingargrunnurin>"
 	"fíggingargrunnur" N Msc Sg Nom Def @dep #1->2
 "<gjørdist>"
@@ -8234,7 +8214,7 @@
 
 # text = Vit gerast sjálvstøðugur limur í Sameindu Tjóðum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Vit>"
 	"vit" Pron Pers Pl1 Nom @nsubj #1->
 "<gerast>"
@@ -8268,7 +8248,7 @@
 
 # text = Í býnum er eitt fótbóltsfelag sum eitur Stjarnan.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->2
 "<býnum>"
@@ -8290,7 +8270,7 @@
 
 # text = Minsta flogmúsin er humlufluguflogmúsin.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Minsta>"
 	"lítil" A Superl Fem Sg Nom Def @amod #1->2
 "<flogmúsin>"
@@ -8360,7 +8340,7 @@
 
 # text = Lendið vestan fyri Mississippi vestur ímóti Klettafjøllum var grasfløta.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Lendið>"
 	"lendi" N Neu Sg Nom Def @dep #1->
 "<vestan>"
@@ -8408,7 +8388,7 @@
 
 # text = Tollurin fór til Bretlands.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tollurin>"
 	"tollur" N Msc Sg Nom Def @dep #1->2
 "<fór>"
@@ -8422,7 +8402,7 @@
 
 # text = Ein triðingur av fólkinum stuðlaði bretum, ein triðingur var uttanveltaður, og ein triðingur var beinleiðis við í stríðnum fyri loysing.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Ein>"
 	"ein" Det Msc Sg Nom @det #1->2
 "<triðingur>"
@@ -8494,7 +8474,7 @@
 
 # text = Virðisbrævamarknaðurin í New York rapaði í 1929, og tað elvdi til eina búskaparkreppu, sum breiddi seg um allan heimin.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Virðisbrævamarknaðurin>"
 	"virðisbræv#marknaður" N Msc Sg Nom Def @dep #1->
 "<í>"
@@ -8580,7 +8560,7 @@
 
 # text = Í so stórum landi er stórur munur á veðurlagnum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->
 "<so>"
@@ -8690,7 +8670,7 @@
 
 # text = Tørvur var á bóndum norðanfyri.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tørvur>"
 	"tørvur" N Msc Sg Nom Indef @dep #1->
 "<var>"
@@ -8706,7 +8686,7 @@
 
 # text = Maðurin var kvikur og kreyp sær inn í holuna.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Maðurin>"
 	"maður" N Msc Sg Nom Def @dep #1->
 "<var>"
@@ -8824,7 +8804,7 @@
 
 # text = Nú á døgum eru teir bara elalítil partur av fólkinum í Kanada.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Nú>"
 	"nú" Adv @dep #1->
 "<á>"
@@ -9012,7 +8992,7 @@
 
 # text = Í 2011 var fólkatalið í kommununi 57. Kommunan liggur á Norðurlandinum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->
 "<2011>"
@@ -9066,7 +9046,7 @@
 
 # text = Keypstaður: Keypstaður er eitt annað orð fyri bygd ella bý.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Keypstaður>"
 	"keypstaður" N Msc Sg Nom Indef @dep #1->
 "<:>"
@@ -9298,7 +9278,7 @@
 
 # text = Har áin rennur í havið, eru stórar fruktagóðar oyrar.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Har>"
 	"har" Adv @dep #1->
 "<áin>"
@@ -9396,7 +9376,7 @@
 
 # text = Fleiri staðir er eisini møguleiki at svimja í heitum keldum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Fleiri>"
 	"mangur" A Cmp Msc Pl Nom Indef @amod #1->2
 "<staðir>"
@@ -9452,7 +9432,7 @@
 
 # text = Ein spæta (heilagi fuglurin hjá Marsi) hjálpti úlvinum at geva børnunum at eta.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Ein>"
 	"eitt" Num Fem Sg Nom @nummod #1->2
 "<spæta>"
@@ -9532,7 +9512,7 @@
 
 # text = Eftir hetta eru teir minni vinir enn áður.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Eftir>"
 	"eftir" Pr @case #1->
 "<hetta>"
@@ -9554,7 +9534,7 @@
 
 # text = Nú líður summarið.
 # text[eng] = Now the summer gets closer.
-# labels = to_check
+# labels = to_check incomplete
 "<Nú>"
 	"nú" Adv @advmod #1->2
 "<líður>"
@@ -9586,7 +9566,7 @@
 
 # text = Synirnir muta tó ímóti í fyrstuni.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Synirnir>"
 	"sonur" N Msc Pl Nom Def @dep #1->2
 "<muta>"
@@ -9604,7 +9584,7 @@
 
 # text = Har búði Tórhallur Ríki og konan Streymoyar-Birna.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Har>"
 	"har" Adv @dep #1->
 "<búði>"
@@ -9650,7 +9630,7 @@
 
 # text = Spaniólar vóru fyrstir úr Evropa, sum búsettust í Kalifornia.
 # text[eng] = Spaniards were the first from Europe who settled in California.
-# labels = to_check
+# labels = to_check incomplete
 "<Spaniólar>"
 	"spanióli" N Msc Pl Nom Indef @nsubj #1->3
 "<vóru>"
@@ -9676,7 +9656,7 @@
 
 # text = Hjá nógvum ungdómi fer øll frítíðin at standa á brimfjøl.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Hjá>"
 	"hjá" Pr @case #1->
 "<nógvum>"
@@ -9748,7 +9728,7 @@
 
 # text = Sostatt tóku 52 % undir við verandi støðu.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Sostatt>"
 	"sostatt" Adv @dep #1->2
 "<tóku>"
@@ -9768,7 +9748,7 @@
 
 # text = Hegri stendur í kjallara.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Hegri>"
 	"hegri" N Msc Sg Nom Indef @dep #1->2
 "<stendur>"
@@ -9782,7 +9762,7 @@
 
 # text = Dúgva situr á miðjum bekki.
 # text[eng] = A pigeon sits in the middle of a bench.
-# labels = to_check
+# labels = to_check incomplete
 "<Dúgva>"
 	"dúgva" N Fem Sg Nom Indef @dep #1->2
 "<situr>"
@@ -9798,7 +9778,7 @@
 
 # text = "Svaraði Gorpur gamal bóndi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<">"
 	""" PUNCT @punct #1->
 "<Svaraði>"
@@ -9814,7 +9794,7 @@
 
 # text = "Revur spreingir Gásina.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<">"
 	""" PUNCT @punct #1->
 "<Revur>"
@@ -9828,7 +9808,7 @@
 
 # text = Tá kom Jói, fríði fuglur.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tá>"
 	"tá" Adv @dep #1->2
 "<kom>"
@@ -9846,7 +9826,7 @@
 
 # text = Hani og høna sita sær.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Hani>"
 	"hani" N Msc Sg Nom Indef @dep #1->4
 "<og>"
@@ -9966,7 +9946,7 @@
 
 # text = Kristni siðurin at fara til altars í kirkjuni er til minnis um heilagu kvøldmáltíðina.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Kristni>"
 	"kristin" A Msc Sg Nom Def @amod #1->2
 "<siðurin>"
@@ -10020,7 +10000,7 @@
 
 # text = Les ummæli Aldubáran.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Les>"
 	"lesa" V Imp Sg @root #1->0
 "<ummæli>"
@@ -10062,7 +10042,7 @@
 
 # text = Ovurstórur munur er á vælferð og lívskorum fólksins.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Ovurstórur>"
 	"ovurstórur" A Msc Sg Nom Indef @amod #1->2
 "<munur>"
@@ -10266,7 +10246,7 @@
 
 # text = Québec: Quebec (franskt: "Québec", enskt: "Quebec ") er ein landslutur í Kanada við 8,0 mió íbúgvum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Québec>"
 	"Québec" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -10378,7 +10358,7 @@
 
 # text = Størsta áin eitur Yukon, og høvuðsstaðurin er Juneau.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Størsta>"
 	"stórur" A Superl Fem Sg Nom Def @amod #1->2
 "<áin>"
@@ -10438,7 +10418,7 @@
 
 # text = Sum tíðin leið, vórðu tey til olju.
 # text[eng] = As time went by they became _
-# labels = to_check
+# labels = to_check incomplete
 "<Sum>"
 	"sum" CS @dep #1->
 "<tíðin>"
@@ -10460,7 +10440,7 @@
 
 # text = Samferðslan gjørdi eisini, at útsjóndin á býinum broyttist.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Samferðslan>"
 	"samferðsla" N Fem Sg Nom Def @dep #1->
 "<gjørdi>"
@@ -10600,7 +10580,7 @@
 
 # text = Ímóti kvøldi slítur í, og luftin kólnar.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Ímóti>"
 	"ímóti" Pr @case #1->2
 "<kvøldi>"
@@ -10640,7 +10620,7 @@
 
 # text = Í Føroyum er ein felagsskapur til fyri gudloysingar, sum eitur "Gudloysi ".
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->2
 "<Føroyum>"
@@ -10722,7 +10702,7 @@
 
 # text = Útferðarmøguleikar á Akureyri eru stak góðir.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Útferðarmøguleikar>"
 	"útferð#møguleiki" N Msc Pl Nom Indef @dep #1->
 "<á>"
@@ -10888,7 +10868,7 @@
 
 # text = Í Íslandi er stovnurin fleiri ferðir so stórur.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->2
 "<Íslandi>"
@@ -10910,7 +10890,7 @@
 
 # text = Veitin skal kappast við Panama-veitina.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Veitin>"
 	"veit" N Fem Sg Nom Def @dep #1->2
 "<skal>"
@@ -11074,7 +11054,7 @@
 
 # text = Barnablaðið: Barnablaðið er eitt føroyskt tíðarrit fyri børn.
 # text[eng] = Barnablaðið: Barnablaðið is a Faroese periodical for children.
-# labels = to_check
+# labels = to_check incomplete
 "<Barnablaðið>"
 	"Barnablaðið" N Prop Sem/Org Sg Nom @root #1->0
 "<:>"
@@ -11204,7 +11184,7 @@
 
 # text = — Í Føroyum sæst hon sjaldan; minst tvær ferðir er hon tó skotin.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<—>"
 	"—" PUNCT @punct #1->
 "<Í>"
@@ -11256,7 +11236,7 @@
 
 # text = Vit skifta hval í barduhval og tannhval.
 # text[eng] = We divide whales into whalebone whales and toothed whales.
-# labels = to_check
+# labels = to_check incomplete
 "<Vit>"
 	"vit" Pron Pers Pl1 Nom @nsubj #1->2
 "<skifta>"
@@ -11352,7 +11332,7 @@
 
 # text = Um heystið verður nógvur seyður flettir.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Um>"
 	"um" CS @dep #1->
 "<heystið>"
@@ -11440,7 +11420,7 @@
 
 # text = Uttan fyri býin eru fleiri oyggjar, sum verja fyri havalduni, so har er avbera góð skipahavn.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Uttan>"
 	"uttan" Pr @case #1->
 "<fyri>"
@@ -11482,7 +11462,7 @@
 
 # text = Kanska ein stuttan ófriðarligan blund, síðan er býurin aftur á fótum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Kanska>"
 	"kanska" Adv @dep #1->
 "<ein>"
@@ -11512,7 +11492,7 @@
 
 # text = Býurin er í blóðinum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Býurin>"
 	"býur" N Msc Sg Nom Def @dep #1->
 "<er>"
@@ -11544,7 +11524,7 @@
 
 # text = Býurin er ein týdningarmikil handils og ídnaðarbýur og fleiri jarnbreytir og høvuðsvegir møtast har.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Býurin>"
 	"býur" N Msc Sg Nom Def @dep #1->
 "<er>"
@@ -11634,7 +11614,7 @@
 
 # text = Í 1994 játtaðu myndugleikarnir í Florida at bjarga mýrunum, ið eftir eru, og at gera aðrar mýrar.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->
 "<1994>"
@@ -11880,7 +11860,7 @@
 
 # text = Eldstaðurin var á miðjum gólvi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Eldstaðurin>"
 	"eldstaður" N Msc Sg Nom Def @dep #1->
 "<var>"
@@ -12234,7 +12214,7 @@
 
 # text = Í Colorado eru veldiga stór fjøll, og eisini stórir, fruktagóðir slættar.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->2
 "<Colorado>"
@@ -12498,7 +12478,7 @@
 
 # text = Fá fólk búgva í oyðimørkunum.
 # text[eng] = Few people live in the desert.
-# labels = to_check
+# labels = to_check incomplete
 "<Fá>"
 	"fáur" A Neu Pl Acc Indef @dep #1->
 "<fólk>"
@@ -12514,7 +12494,7 @@
 
 # text = Fleiri løntakarar eru í privata vinnulívinum, og samlaðu lønargjaldingarnar vaksa.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Fleiri>"
 	"mangur" A Cmp Msc Pl Nom Indef @amod #1->2
 "<løntakarar>"
@@ -12616,7 +12596,7 @@
 
 # text = Álopslinjan er ein partur av økinum framman.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Álopslinjan>"
 	"álop#linja" N Fem Sg Nom Def @dep #1->
 "<er>"
@@ -12636,7 +12616,7 @@
 
 # text = Reglar.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Reglar>"
 	"regla" V Ind Prs Sg3 @root #1->0
 "<.>"
@@ -12710,7 +12690,7 @@
 
 # text = Frá sama degi varð floghavnin landsstovnur undir Vinnumálaráðnum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Frá>"
 	"frá" Pr @case #1->3
 "<sama>"
@@ -12732,7 +12712,7 @@
 
 # text = Høvuðsstaðurin og størsti býurin er Providence.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Høvuðsstaðurin>"
 	"høvuðsstaður" N Msc Sg Nom Def @dep #1->
 "<og>"
@@ -12782,7 +12762,7 @@
 
 # text = Gott buss og ferjusamband er millum oyggjarnar.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Gott>"
 	"góður" A Adv @dep #1->
 "<buss>"
@@ -12802,7 +12782,7 @@
 
 # text = Jackson er høvuðsstaðurin og størsti býurin.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Jackson>"
 	"Jackson" N Prop Sem/Sur Sg Nom @dep #1->
 "<er>"
@@ -12984,7 +12964,7 @@
 
 # text = Vatntrot og kørg jørð eru bóndunum mikil meinbogi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Vatntrot>"
 	"vatntrot" N Neu Sg Nom Indef @dep #1->
 "<og>"
@@ -13064,7 +13044,7 @@
 
 # text = Meginparturin av fólkinum eru muslimar og tala arábiskt.
 # text[eng] = The majority of the people are Muslim and _
-# labels = to_check
+# labels = to_check incomplete
 "<Meginparturin>"
 	"meginpartur" N Msc Sg Nom Def @dep #1->5
 "<av>"
@@ -13248,7 +13228,7 @@
 
 # text = Bisparnir hava lærumyndugleika.
 # text[eng] = 
-# labels = to_check disam
+# labels = to_check disam incomplete
 "<Bisparnir>"
 	"bispur" N Msc Pl Nom Def @dep #1->2
 "<hava>"
@@ -13308,7 +13288,7 @@
 
 # text = Fløgan fæst ókeypis hjá Gelluni í SMS.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Fløgan>"
 	"fløga" N Fem Sg Nom Def @dep #1->2
 "<fæst>"
@@ -13604,7 +13584,7 @@
 
 # text = Norðdepil er partur av Hvannasunds kommunu.
 # text[eng] = Norðdepil is part of Hvannasund commune.
-# labels = to_check
+# labels = to_check incomplete
 "<Norðdepil>"
 	"Norðdepil" N Prop Msc Sg Nom Indef @nsubj #1->3
 "<er>"
@@ -13622,7 +13602,7 @@
 
 # text = Kr. varð ein búseting í Odessa av grikkum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Kr.>"
 	"kr" Abbr @dep #1->2
 "<varð>"
@@ -13644,7 +13624,7 @@
 
 # text = Tama áin skilir býin frá høvuðsstaðnum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tama>"
 	"tamur" A Fem Sg Nom Def @amod #1->2
 "<áin>"
@@ -13684,7 +13664,7 @@
 
 # text = Winnipeg: Winnipeg er ein býur í Kanada.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Winnipeg>"
 	"Winnipeg" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -13706,7 +13686,7 @@
 
 # text = Buffalo: Buffalo er býur í New York í Sambandsríkinum Amerika.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Buffalo>"
 	"Buffalo" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -13734,7 +13714,7 @@
 
 # text = Denver: Denver er býur í Colorado.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Denver>"
 	"Denver" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
@@ -13754,7 +13734,7 @@
 
 # text = Portland: Portland er ein býur í Oregon í Sambandsríkinum Amerika.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Portland>"
 	"Portland" N Prop Neu Sg Nom Indef @dep #1->
 "<:>"
@@ -13782,7 +13762,7 @@
 
 # text = Brisbane er størsti býur og høvuðsstaður í Queenslandi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Brisbane>"
 	"Brisbane" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
@@ -13804,7 +13784,7 @@
 
 # text = Brisbane er góður havnarbýur og stórur ídnaðarbýur.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Brisbane>"
 	"Brisbane" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
@@ -13824,7 +13804,7 @@
 
 # text = Dallas: Dallas er ein býur í lutstatinum Texas í USA.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Dallas>"
 	"Dallas" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -13852,7 +13832,7 @@
 
 # text = Wichita: Wichita er størsti býur í Kansas í Sambandsríkinum Amerika.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Wichita>"
 	"Wichita" N Prop Sg Nom @dep #1->
 "<:>"
@@ -13880,7 +13860,7 @@
 
 # text = Jacksonville: Jacksonville er stórbýur í Florida í Sambandsríkinum Amerika.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Jacksonville>"
 	"Jacksonville" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -13906,7 +13886,7 @@
 
 # text = Tallahassee: Tallahassee er høvuðsstaðurin í Florida.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tallahassee>"
 	"Tallahassee" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -13926,7 +13906,7 @@
 
 # text = Lansing: Lansing er høvuðsstaður í lutstatinum Michigan í USA.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Lansing>"
 	"Lansing" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -13952,7 +13932,7 @@
 
 # text = Atlanta: Atlanta er høvuðsstaður Georgia í USA.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Atlanta>"
 	"Atlanta" N Prop Sg Nom @dep #1->
 "<:>"
@@ -13974,7 +13954,7 @@
 
 # text = Richmond: Richmond er høvuðsstaður amerikanska lutastatinum Virginia.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Richmond>"
 	"Richmond" N Prop Sem/Mal Sg Nom @dep #1->
 "<:>"
@@ -13996,7 +13976,7 @@
 
 # text = Boston: Boston er høvuðsstaður og størsti býur í Massachusetts.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Boston>"
 	"Boston" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -14022,7 +14002,7 @@
 
 # text = Indianapolis: Indianapolis er høvuðsstaður Indiana í USA.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Indianapolis>"
 	"Indianapolis" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -14062,7 +14042,7 @@
 
 # text = Málið er nú at nýta miðlarnar positivt.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Málið>"
 	"mál" N Neu Sg Nom Def @dep #1->
 "<er>"
@@ -14138,7 +14118,7 @@
 
 # text = Oljuídnaðurin í landinum er við til at skapa búskaparliga vøksturin.
 # text[eng] = The oil industry in the country is _ to create economic growth.
-# labels = to_check
+# labels = to_check incomplete
 "<Oljuídnaðurin>"
 	"oljuídnaður" N Msc Sg Nom Def @dep #1->
 "<í>"
@@ -14256,7 +14236,7 @@
 
 # text = Men tó eru undantøk.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Men>"
 	"men" CC @cc #1->
 "<tó>"
@@ -14270,7 +14250,7 @@
 
 # text = Hon hevur verið í gerð í 125 ár.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Hon>"
 	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<hevur>"
@@ -14292,7 +14272,7 @@
 
 # text = Montpelier er eisini minsti høvuðsstaðurin í USA.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Montpelier>"
 	"Montpelier" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
@@ -14332,7 +14312,7 @@
 
 # text = Til hetta var tónleikurin ov sýrutur.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Til>"
 	"til" Pr @case #1->
 "<hetta>"
@@ -14350,7 +14330,7 @@
 
 # text = Onki fólk býr har.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Onki>"
 	"onk" N Neu Sg Dat Indef @dep #1->2
 "<fólk>"
@@ -14384,7 +14364,7 @@
 
 # text = Tintin- filmar.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tintin->"
 	"tint" N Fem Sg Nom Def Cmpnd @dep #1->2
 "<filmar>"
@@ -14394,7 +14374,7 @@
 
 # text = Konservatisman kom at viga upp ímóti frælsishugsjónunum í fronsku kollveltingini.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Konservatisman>"
 	"konservatisma" N Fem Sg Nom Def @dep #1->2
 "<kom>"
@@ -14464,7 +14444,7 @@
 
 # text = Í 1991 vóru somu viðurskifti staðfest í Russlandi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->
 "<1991>"
@@ -14486,7 +14466,7 @@
 
 # text = Í Føroyum og í Grønlandi eru fólkaræðisligu rættindi borgaranna tryggjað í donsku grundlógini.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->2
 "<Føroyum>"
@@ -14584,7 +14564,7 @@
 
 # text = úr 1999 er onnur útgávan hjá tónleikabólkinum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<úr>"
 	"úr" Pr @case #1->
 "<1999>"
@@ -14632,7 +14612,7 @@
 
 # text = Verkætlanin skuldi føra til ein film og enda við eini konsert.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Verkætlanin>"
 	"verkætlan" N Fem Sg Nom Def @dep #1->2
 "<skuldi>"
@@ -14660,7 +14640,7 @@
 
 # text = Í 1. Krýn.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->
 "<1.>"
@@ -14672,7 +14652,7 @@
 
 # text = „ Sátan “merkir fíggindi ella mótstøðumaður.
 # text[eng] = Satan "marks enemy and opponent.
-# labels = to_check disam
+# labels = to_check disam incomplete
 "<„>"
 	"„" PUNCT LEFT @punct #1->
 "<Sátan>"
@@ -14692,7 +14672,7 @@
 
 # text = Livir í sjógvi el. vatni í hitalondum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Livir>"
 	"liva" V Ind Prs Sg3 @root #1->0
 "<í>"
@@ -14712,7 +14692,7 @@
 
 # text = Tinganest: Tinganest er ein føroyskur tónleikabólkur.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tinganest>"
 	"tinganest" N Neu Sg Nom Indef @dep #1->
 "<:>"
@@ -14754,7 +14734,7 @@
 
 # text = Móses var aldur upp og lærdur sum tað sømdi seg einum egyptiskum prinsi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Móses>"
 	"Móses" N Prop Sem/Mal Sg Nom @dep #1->
 "<var>"
@@ -14786,7 +14766,7 @@
 
 # text = Hetta kann vera orsøkin til, at hann drap egyptan, sum bardi hebraiskan mann.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Hetta>"
 	"hesin" Pron Dem Neu Sg Nom @dep #1->
 "<kann>"
@@ -14914,7 +14894,7 @@
 
 # text = Eisini fer fram dópur og tann heilaga kvøldmáltíð (altargangur).
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Eisini>"
 	"eisini" Adv @dep #1->2
 "<fer>"
@@ -15008,7 +14988,7 @@
 
 # text = Undir skelini báðumegin eru táknur.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Undir>"
 	"undir" Pr @case #1->2
 "<skelini>"
@@ -15066,7 +15046,7 @@
 
 # text = Belfast: Belfast er størsti býur og høvuðsstaður í Norðurírlandi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Belfast>"
 	"Belfast" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -15110,7 +15090,7 @@
 
 # text = Í 1995 luttók Bergtóra á Kvinnuráðstevnuni í Peking og í 2000 í New York.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->
 "<1995>"
@@ -15220,7 +15200,7 @@
 
 # text = Skaldsøga, sum strembar eftir at hugtaka lesaran við at fáa hann at nøtra av óhugna og spenningi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Skaldsøga>"
 	"skaldsøga" N Fem Sg Nom Indef @dep #1->4
 "<,>"
@@ -15276,7 +15256,7 @@
 
 # text = Tað eru fleiri sløg av kappróðrarbátum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tað>"
 	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<eru>"
@@ -15310,7 +15290,7 @@
 
 # text = Róðrarbátur: Róðrarbátur er far til at rógva við.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Róðrarbátur>"
 	"róðrarbátur" N Msc Sg Nom Indef @dep #1->
 "<:>"
@@ -15408,7 +15388,7 @@
 
 # text = Dúnungin líkist likkuunga.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Dúnungin>"
 	"dúnungi" N Msc Sg Nom Def @dep #1->2
 "<líkist>"
@@ -15468,7 +15448,7 @@
 
 # text = kr. traðkar staturin til og tryggjar restina.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<kr.>"
 	"kr" Abbr @dep #1->
 "<traðkar>"
@@ -15648,7 +15628,7 @@
 
 # text = Pápin doyði, og mamman flutti aftur til Onglands.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Pápin>"
 	"pápi" N Msc Sg Nom Def @dep #1->
 "<doyði>"
@@ -15672,7 +15652,7 @@
 
 # text = Sameindu Tjóðir.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Sameindu>"
 	"sameina" V Ind Prt Pl @root #1->0
 "<Tjóðir>"
@@ -15748,7 +15728,7 @@
 
 # text = Sí Norðurlendsk met í svimjing.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Sí>"
 	"síggja" V Imp Sg @root #1->0
 "<Norðurlendsk>"
@@ -15764,7 +15744,7 @@
 
 # text = Pól spældi sum verjuleikari á A-landsliðnum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Pól>"
 	"pólur" N Msc Sg Acc Indef @dep #1->2
 "<spældi>"
@@ -15800,7 +15780,7 @@
 
 # text = Kári á Rógvi hevur verið skrivari í Grundlógarnevndini og næstformaður í Stýrisskipanarnevndini.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Kári>"
 	"Kári" N Prop Sem/Mal Sg Nom @dep #1->
 "<á>"
@@ -15883,8 +15863,8 @@
 	"." CLB @punct #10->
 
 # text = Tað er í Nýggja Testamenti, vit lesa um Jesus.
-# text[eng] = 
-# labels = to_check
+# text[eng] = It is in the New Testament that we read about Jesus.
+# labels = to_check cleft incomplete
 "<Tað>"
 	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<er>"
@@ -15927,8 +15907,8 @@
 	"." CLB @punct #7->
 
 # text = Nógvir sniglar eru tvíkynjaðir, tvs.
-# text[eng] = 
-# labels = to_check
+# text[eng] = Some slugs are hermaphrodites, i.e..
+# labels = to_check incomplete
 "<Nógvir>"
 	"nógvur" A Msc Pl Nom Indef @amod #1->2
 "<sniglar>"
@@ -15964,7 +15944,7 @@
 
 # text = Svarti snigil er vanligur á graslendi í bø og haga, har skuggi er.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Svarti>"
 	"svartur" A Msc Sg Nom Def @amod #1->2
 "<snigil>"
@@ -16046,7 +16026,7 @@
 
 # text = So statt er mongdin av tilburðum í stórum vøkstri.
 # text[eng] = 
-# labels = to_check disam
+# labels = to_check disam incomplete
 "<So>"
 	"so" Adv @dep #1->
 "<statt>"
@@ -16092,7 +16072,7 @@
 
 # text = Har eru 32 lið við í NFL.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Har>"
 	"har" Adv @dep #1->
 "<eru>"
@@ -16112,7 +16092,7 @@
 
 # text = Á tunguni eru smáar tenn.
 # text[eng] = 
-# labels = to_check
+# labels = to_check disam incomplete
 "<Á>"
 	"á" Pr @case #1->2
 "<tunguni>"
@@ -16148,7 +16128,7 @@
 
 # text = Kræklingur er myrkabláur, mjáur framman og verður tjúkkari, sum aftur kemur.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Kræklingur>"
 	"kræklingur" N Msc Sg Nom Indef @dep #1->
 "<er>"
@@ -16194,7 +16174,7 @@
 
 # text = Flestu sýrar eru muslimar og tala arábiskt.
 # text[eng] = 
-# labels = to_check
+# labels = to_check disam incomplete
 "<Flestu>"
 	"mangur" A Superl Msc Pl Nom Def @amod #1->2
 "<sýrar>"
@@ -16214,7 +16194,7 @@
 
 # text = Libanon var einaferð mentanar-, fíggjar-og handilsmiðdepilin í Miðeystri.
 # text[eng] = 
-# labels = to_check disam
+# labels = to_check disam incomplete
 "<Libanon>"
 	"Libanon" N Prop Sem/Plc Sg Nom @dep #1->
 "<var>"
@@ -16416,7 +16396,7 @@
 
 # text = Bøgan líkist nógv æðu.
 # text[eng] = 
-# labels = to_check disam
+# labels = to_check disam incomplete
 "<Bøgan>"
 	"bøga" N Fem Sg Nom Def @dep #1->2
 "<líkist>"
@@ -16430,7 +16410,7 @@
 
 # text = Um summarið líkist steggin bøguni.
 # text[eng] = 
-# labels = to_check disam
+# labels = to_check disam incomplete
 "<Um>"
 	"um" CS @dep #1->3
 "<summarið>"
@@ -16494,7 +16474,7 @@
 
 # text = Miðskeiðis á oynni er flogvøllur.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Miðskeiðis>"
 	"miðskeiðis" Adv @dep #1->
 "<á>"
@@ -16539,8 +16519,8 @@
 	"." CLB @punct #3->
 
 # text = Í 2005 var Torkil so ungur, at hann súkklaði í kappingunum fyri unglingar.
-# text[eng] = 
-# labels = to_check
+# text[eng] = In 2005 Torkil was so young, that he cycled in the competitions for the young.
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->
 "<2005>"
@@ -16594,7 +16574,7 @@
 
 # text = Vann gullnál.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Vann>"
 	"vinna" V Ind Prt Sg3 @root #1->0
 "<gullnál>"
@@ -16626,7 +16606,7 @@
 
 # text = Helgi byrjaði at telva sum smádrongur.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Helgi>"
 	"Helgi" N Prop Sem/Mal Sg Nom @dep #1->2
 "<byrjaði>"
@@ -16656,7 +16636,7 @@
 
 # text = Vinnararnir av kappingini vóru hesir: Ársins Telvari.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Vinnararnir>"
 	"vinnari" N Msc Pl Nom Def @dep #1->
 "<av>"
@@ -16678,7 +16658,7 @@
 
 # text = Støddin er sum á dúgvu.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Støddin>"
 	"stødd" N Fem Sg Nom Def @dep #1->
 "<er>"
@@ -16694,7 +16674,7 @@
 
 # text = Luttók í UEFA 2011 undankappingini fyri U17 lið.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Luttók>"
 	"luttaka" V Ind Prt Sg3 @root #1->0
 "<í>"
@@ -16796,7 +16776,7 @@
 
 # text = Um strendur og firðir okkara er hann allan veturin at síggja.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Um>"
 	"um" Pr @dep #1->
 "<strendur>"
@@ -16952,7 +16932,7 @@
 
 # text = Bøgan vermir; fer hon av, so vermir steggin, til hon er aftur.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Bøgan>"
 	"bøga" N Fem Sg Nom Def @dep #1->
 "<vermir>"
@@ -17462,7 +17442,7 @@
 
 # text = Lýst sløg: Sí eisini.
 # text[eng] = 
-# labels = to_check disam
+# labels = to_check disam incomplete
 "<Lýst>"
 	"lýsa" V Sup @dep #1->4
 "<sløg>"
@@ -17512,7 +17492,7 @@
 
 # text = Í Føroyum, Skotlandi og Írlandi er hann sjáldsamur nú, orsakað av seyðabiti.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->2
 "<Føroyum>"
@@ -17620,7 +17600,7 @@
 
 # text = Hon er sum nógvar aðrar Kyrrahavsoyggjar undir USA.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Hon>"
 	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->6
 "<er>"
@@ -17902,7 +17882,7 @@
 
 # text = At prógva hetta, leggja vit sannleikan fram fyri ein uttanveltaðan heim ".
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<At>"
 	"at" IM @mark #1->2
 "<prógva>"
@@ -18010,7 +17990,7 @@
 
 # text = Mannfólkini eru í hvítum klæðum var trælabúnin.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Mannfólkini>"
 	"mannfólk" N Neu Pl Nom Def @dep #1->
 "<eru>"
@@ -18030,7 +18010,7 @@
 
 # text = Tí heittu teir á føroyingar um at skriva tey niður.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tí>"
 	"tí" CS @dep #1->2
 "<heittu>"
@@ -18252,7 +18232,7 @@
 
 # text = Summir doyggja av eyðkvæmi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Summir>"
 	"summur" Det Msc Pl Nom @det #1->
 "<doyggja>"
@@ -18338,7 +18318,7 @@
 
 # text = Ymsu partarnir í ríkinum gjørdust, sum tíðin leið, sjálvstøðugir.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Ymsu>"
 	"ymsur" A Msc Pl Nom Def @amod #1->2
 "<partarnir>"
@@ -18394,7 +18374,7 @@
 
 # text = Mangir mongolar eru framúr kringir á rossabaki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Mangir>"
 	"mangur" A Msc Pl Nom Indef @amod #1->2
 "<mongolar>"
@@ -18726,7 +18706,7 @@
 
 # text = Um summarið, tá ið ísurin tánar á vøtnum og í áum, fer elgurin úti at eta vatnplantur.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Um>"
 	"ymja" V Imp Sg @dep #1->
 "<summarið>"
@@ -18768,7 +18748,7 @@
 
 # text = Elgur reikar helst einsamallur, tó ikki í brundtíðini.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Elgur>"
 	"elgur" N Msc Sg Nom Indef @dep #1->2
 "<reikar>"
@@ -18866,7 +18846,7 @@
 
 # text = Har eru heilt djúpir áarósar sum firðir.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Har>"
 	"har" Adv @dep #1->
 "<eru>"
@@ -18908,7 +18888,7 @@
 
 # text = Filmurin sigur eina ræðusøgu úr einum gerandisdegi, sum kortini tykist veruligur.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Filmurin>"
 	"filmur" N Msc Sg Nom Def @dep #1->
 "<sigur>"
@@ -18988,7 +18968,7 @@
 
 # text = Tá vóru teldurnar ovurstórar.
 # text[eng] = 
-# labels = to_check disam
+# labels = to_check disam incomplete
 "<Tá>"
 	"tá" Adv @dep #1->
 "<vóru>"
@@ -19058,7 +19038,7 @@
 
 # text = Tá eru tey ikki til so stóran ampa fyri fólkið, sum býr í Keypmannahavn.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tá>"
 	"tá" Adv @dep #1->
 "<eru>"
@@ -19152,7 +19132,7 @@
 
 # text = Fyri at orka tað, er ætlanin at byggja fleiri farstøðir í Kastrup.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Fyri>"
 	"fyri" Pr @mark #1->3
 "<at>"
@@ -19200,7 +19180,7 @@
 
 # text = Nú eru tó nógv øki friðað sum dýraverndargarðar at verja dýralívið.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Nú>"
 	"nú" Adv @dep #1->
 "<eru>"
@@ -19318,7 +19298,7 @@
 
 # text = Sum skilst blivu tveir WOZA-leiðarar hóttir av einum løgregluovasta.
 # text[eng] = 
-# labels = to_check disam
+# labels = to_check disam incomplete
 "<Sum>"
 	"sum" CS @dep #1->
 "<skilst>"
@@ -19342,7 +19322,7 @@
 
 # text = Tó er ikki allur kappróður við í Føroyameistara kappingini.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tó>"
 	"tó" Adv @dep #1->
 "<er>"
@@ -19462,7 +19442,7 @@
 
 # text = Men enn er ikki friður.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Men>"
 	"men" CC @cc #1->
 "<enn>"
@@ -19490,7 +19470,7 @@
 
 # text = So er tó ikki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<So>"
 	"so" Adv @dep #1->
 "<er>"
@@ -19556,7 +19536,7 @@
 
 # text = Men undantøk eru.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Men>"
 	"men" CC @cc #1->
 "<undantøk>"
@@ -19586,7 +19566,7 @@
 
 # text = Frá gamlari tíð hava verið 39 kirkjur í Føroyum og 7 prestar.
 # text[eng] = 
-# labels = to_check disam
+# labels = to_check disam incomplete
 "<Frá>"
 	"frá" Pr @case #1->
 "<gamlari>"
@@ -19746,7 +19726,7 @@
 
 # text = Turkað varð úti og í hjalli.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Turkað>"
 	"turka" V Sup @dep #1->2
 "<varð>"
@@ -19764,7 +19744,7 @@
 
 # text = At koyra rosinur og sukur í blóðpylsu er nýggjari fyribrigdi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<At>"
 	"at" IM @dep #1->
 "<koyra>"
@@ -19804,7 +19784,7 @@
 
 # text = Aðrastaðni í Bíbliuni eru profetaorðini.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Aðrastaðni>"
 	"aðrastaðni" Adv @dep #1->
 "<í>"
@@ -19820,7 +19800,7 @@
 
 # text = Formaður og kassameistari felagsins er Mikala í Trøðini.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Formaður>"
 	"formaður" N Msc Sg Nom Indef @dep #1->6
 "<og>"
@@ -19842,7 +19822,7 @@
 
 # text = Ovasti dómstólur í rættarskipanini nevnist "Hægstirættur".
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Ovasti>"
 	"ovasti" N Msc Sg Nom Indef @dep #1->5
 "<dómstólur>"
@@ -19872,7 +19852,7 @@
 
 # text = Tilkrav er at hava hug til ella at tørva.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tilkrav>"
 	"tilkrav" N Neu Sg Nom Indef @dep #1->
 "<er>"
@@ -19912,7 +19892,7 @@
 
 # text = Høvuðsvinnan í Føroyum, fiskivinnan, er í miðdeplinum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Høvuðsvinnan>"
 	"høvuðsvinna" N Fem Sg Nom Def @dep #1->
 "<í>"
@@ -19936,7 +19916,7 @@
 
 # text = Zhengzhou: Zhengzhou er ein býur í Kina og høvuðsstaður í Henan landslutinum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Zhengzhou>"
 	"Zhengzhou" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -20002,7 +19982,7 @@
 
 # text = Ovasti politiski myndugleikin hjá Mentamálaráðnum er Mentamálaráðharrin.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Ovasti>"
 	"ovasti" N Msc Sg Nom Indef @dep #1->
 "<politiski>"
@@ -20022,7 +20002,7 @@
 
 # text = Stjórin í mentamálaráðnum verður nevndur aðalstjóri.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Stjórin>"
 	"stjóri" N Msc Sg Nom Def @dep #1->4
 "<í>"
@@ -20106,41 +20086,41 @@
 # text[eng] = 
 # labels = to_check
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->
+	"tað" Pron Pers Sg3 Nom @expl #1->7
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->7
 "<tveir>"
-	"tvey" Num Msc Sg Nom @dep #3->
+	"tvey" Num Msc Sg Nom @nummod #3->5
 "<lærdir>"
 	"lærdur" A Msc Pl Nom Indef @amod #4->5
 "<háskúlar>"
-	"háskúli" N Msc Pl Nom Indef @dep #5->
+	"háskúli" N Msc Pl Nom Indef @nsubj #5->7
 "<í>"
 	"í" Pr @case #6->7
 "<Thessaloniki>"
-	"Thessaloniki" N Prop Sem/Plc Sg Dat @nmod #7->
+	"Thessaloniki" N Prop Sem/Plc Sg Dat @root #7->0
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->7
 
 # text = Listasavn Føroya er eisini partur av tilgongdini.
 # text[eng] = 
 # labels = to_check
 "<Listasavn>"
-	"listasavn" N Neu Sg Nom Indef @dep #1->
+	"listasavn" N Neu Sg Nom Indef @nsubj #1->5
 "<Føroya>"
-	"Føroyar" N Prop Fem Pl Gen Indef @dep #2->
+	"Føroyar" N Prop Fem Pl Gen Indef @nmod:poss #2->1
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #3->
+	"vera" V Ind Prs Sg3 @cop #3->5
 "<eisini>"
-	"eisini" Adv @dep #4->
+	"eisini" Adv @advmod #4->5
 "<partur>"
-	"partur" N Msc Sg Nom Indef @dep #5->
+	"partur" N Msc Sg Nom Indef @root #5->0
 "<av>"
 	"av" Pr @case #6->7
 "<tilgongdini>"
-	"tilgongd" N Fem Sg Dat Def @nmod #7->
+	"tilgongd" N Fem Sg Dat Def @nmod #7->5
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->5
 
 # text = Stovnurin er eisini fakligur myndugleiki í sambandi við fornlutir í havinum.
 # text[eng] = 
@@ -20238,7 +20218,7 @@
 
 # text = Johanna sigldi til Íslands, har hon fekk ísaðan fisk í lastina, sum hon so førdi til Skotlands.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Johanna>"
 	"Johanna" N Prop Sem/Fem Sg Nom @nsubj #1->2
 "<sigldi>"
@@ -20382,7 +20362,7 @@
 
 # text = Sum frá líður, venur heilin seg við nikotinið.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Sum>"
 	"sum" CS @dep #1->
 "<frá>"
@@ -20634,7 +20614,7 @@
 
 # text = Badminton og fótbóltur er best dámdi ítróttur í Indonesia.
 # text[eng] = 
-# labels = to_check disam
+# labels = to_check disam incomplete
 "<Badminton>"
 	"badminton" N Neu Sg Nom Indef @dep #1->
 "<og>"
@@ -20724,7 +20704,7 @@
 
 # text = Nú á døgum er eisini 51,2 % av fólkinum er arbeiðsleys.
 # text[eng] = 
-# labels = to_check typo
+# labels = to_check typo incomplete
 "<Nú>"
 	"nú" Adv @dep #1->
 "<á>"
@@ -20868,7 +20848,7 @@
 
 # text = Avleiðingar av ídnaðarkollveltingini eru at síggja allastaðni í dag.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Avleiðingar>"
 	"avleiðing" N Fem Pl Nom Indef @dep #1->
 "<av>"
@@ -20928,7 +20908,7 @@
 
 # text = Í 2009 vóru 30 kommunur í Føroyum til samans.
 # text[eng] = In 2009 together there were 30 communes in the Faroe Islands.
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->
 "<2009>"
@@ -21050,7 +21030,7 @@
 
 # text = Er støðan í dag enn, sum hon var tá?
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Er>"
 	"vera" V Ind Prs Sg3 @cop #1->
 "<støðan>"
@@ -21076,7 +21056,7 @@
 
 # text = Tað eru trý sløg av veljarum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tað>"
 	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<eru>"
@@ -21094,7 +21074,7 @@
 
 # text = Tað eru 45 fastir nevndarsessir sum skulu mannast.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tað>"
 	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<eru>"
@@ -21116,7 +21096,7 @@
 
 # text = Málið hjá kommununi er at gera umstøðurnar hjá fólki at búgva i so góðar sum møguligt.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Málið>"
 	"mál" N Neu Sg Nom Def @dep #1->
 "<hjá>"
@@ -21154,7 +21134,7 @@
 
 # text = Í 1. stætti er kongurin, og í 2. stætti er aðalin og prestarnir.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->
 "<1.>"
@@ -21188,7 +21168,7 @@
 
 # text = Í einum høggi varð høvdið av, og har gjørdist deyðatøgn.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->
 "<einum>"
@@ -21258,7 +21238,7 @@
 
 # text = Og tá er tað, at kríggið byrjar.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Og>"
 	"og" CC @cc #1->
 "<tá>"
@@ -21298,7 +21278,7 @@
 
 # text = Tó keypir vanligi afrikanarin keypir ikki har, men á marknaðum.
 # text[eng] = 
-# labels = to_check typo
+# labels = to_check typo incomplete
 "<Tó>"
 	"tó" Adv @dep #1->
 "<keypir>"
@@ -21346,7 +21326,7 @@
 
 # text = Sum tíðin leið, vórðu teir til menniskju.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Sum>"
 	"sum" CS @dep #1->
 "<tíðin>"
@@ -21416,7 +21396,7 @@
 
 # text = Tí breiðir oyðimørkin seg skjótt suðureftir.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tí>"
 	"tí" CS @dep #1->2
 "<breiðir>"
@@ -21512,7 +21492,7 @@
 
 # text = Hon fekk í boðið at gerast landsliðsleikari fyri Pólland, men takkaði nei.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Hon>"
 	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<fekk>"
@@ -21572,7 +21552,7 @@
 
 # text = Niðri í havnini eru kaffistovur.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Niðri>"
 	"niðri" Adv @dep #1->
 "<í>"
@@ -21588,7 +21568,7 @@
 
 # text = Norðoya Sparikassi: Norðoya Sparikassi er ein sparikassi við høvuðssæti í Klaksvík.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Norðoya>"
 	"Norðoy" N Prop Fem Pl Gen Indef @dep #1->
 "<Sparikassi>"
@@ -21750,7 +21730,7 @@
 
 # text = í 2100 fór at beina fyri møguleikunum at búleikast í oyggjarbólkinum í Indiska Havinum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<í>"
 	"í" Pr @case #1->
 "<2100>"
@@ -21838,7 +21818,7 @@
 
 # text = Allir, sum vóru við á ferðum Cooks, fingu stóra virðing fyri honum, og vórðu honum trúfastir.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Allir>"
 	"allur" Det Msc Pl Nom Indef @det #1->
 "<,>"
@@ -21926,7 +21906,7 @@
 
 # text = Fiskimálaráðharrar í Føroyum: Fiskimálaráðharrin í Føroyum ella landsstýrismaðurin í fiskivinnumálum er limur í Føroya Landsstýri.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Fiskimálaráðharrar>"
 	"fiskimálaráðharri" N Msc Pl Nom Indef @dep #1->
 "<í>"
@@ -22160,7 +22140,7 @@
 
 # text = Um brisið ikki framleiðir nóg nógv insulin, økist mongdin av glukosu í blóðinum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Um>"
 	"um" Pr @dep #1->
 "<brisið>"
@@ -22268,7 +22248,7 @@
 
 # text = Fólkið er brúkarar í marknaði, har nógv er at velja ímillum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Fólkið>"
 	"fólk" N Neu Sg Nom Def @dep #1->
 "<er>"
@@ -22368,7 +22348,7 @@
 
 # text = Men í hitalondum er støðuveður í nógvar mánaðir.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Men>"
 	"men" CC @cc #1->
 "<í>"
@@ -22390,7 +22370,7 @@
 
 # text = Men aðrar hugsanir eru eisini.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Men>"
 	"men" CC @cc #1->
 "<aðrar>"
@@ -22406,7 +22386,7 @@
 
 # text = Í trongum tíðum hevur hvalur verið bjargingin hjá mongum húsarhaldi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->
 "<trongum>"
@@ -22466,7 +22446,7 @@
 
 # text = Tá ið tað er at tulka Jóhannesar opinbering sum heild, eru trý aðalevni.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tá ið>"
 	"tá ið" CS @dep #1->
 "<tað>"
@@ -22514,7 +22494,7 @@
 
 # text = Eitt tíðarskeið var hon varalimur Rithøvundafelagsins í Málnevndini.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Eitt>"
 	"ein" Det Neu Sg Nom @det #1->2
 "<tíðarskeið>"
@@ -22554,7 +22534,7 @@
 
 # text = Við virðing fyri mynd- og prentlistini er tíðarritið ein fagurfrøðilig heild á høgum stigi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Við>"
 	"við" Pr @case #1->2
 "<virðing>"
@@ -22588,7 +22568,7 @@
 
 # text = Á vestursíðuni er lendið grýtut og nógv sker liggja fram við strondini.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Á>"
 	"á" Pr @case #1->2
 "<vestursíðuni>"
@@ -22616,7 +22596,7 @@
 
 # text = Hann var til royndarvenjingar í norskum fótbólti-felagið var Sogndal.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Hann>"
 	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<var>"
@@ -22644,7 +22624,7 @@
 
 # text = Fíggjarmálaráðharrar í Føroyum: Fíggjarmálaráðharrin ella "landsstýrismaðurin í fíggjarmálum" er ein týdningarmikil partur av Føroya Landsstýri og búskapinum hjá Føroyum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Fíggjarmálaráðharrar>"
 	"fíggjarmálaráðharri" N Msc Pl Nom Indef @dep #1->
 "<í>"
@@ -22694,7 +22674,7 @@
 
 # text = Umsóknarfreistin er vanliga 15. desember.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Umsóknarfreistin>"
 	"umsókn#freist" N Fem Sg Nom Def @dep #1->
 "<er>"
@@ -22710,7 +22690,7 @@
 
 # text = Harafturat vóru starvslønir latnar 38 umsøkjarum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Harafturat>"
 	"harafturat" Adv @dep #1->
 "<vóru>"
@@ -22818,7 +22798,7 @@
 
 # text = Tá verður svart hol.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tá>"
 	"tá" Adv @dep #1->2
 "<verður>"
@@ -23004,7 +22984,7 @@
 
 # text = Harav vóru 4 liðkappingar og 3 einstaklingakappingar.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Harav>"
 	"harav" Adv @dep #1->
 "<vóru>"
@@ -23024,7 +23004,7 @@
 
 # text = Teir vóru fram úr kringir reiðmenn og góðir jarnsmiðir.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Teir>"
 	"teir" Pron Pers Pl3 Msc Nom @nsubj #1->
 "<vóru>"
@@ -23076,7 +23056,7 @@
 
 # text = Lidköping: Lidköping er ein býur í Lidköpings kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Lidköping>"
 	"Lidköping" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -23104,7 +23084,7 @@
 
 # text = Mariestad: Mariestad er ein býur í Mariestads kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Mariestad>"
 	"Mariestad" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
@@ -23132,7 +23112,7 @@
 
 # text = Falun: Falun er ein býur í Falu kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Falun>"
 	"Falun" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -23176,7 +23156,7 @@
 
 # text = Boden: Boden er ein býur í Bodens kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Boden>"
 	"Boden" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -23204,7 +23184,7 @@
 
 # text = Trelleborg: Trelleborg er ein býur í Trelleborgs kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Trelleborg>"
 	"Trelleborg" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -23232,7 +23212,7 @@
 
 # text = Ängelholm: Ängelholm er ein býur í Ängelholms kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Ängelholm>"
 	"Ängelholm" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -23278,7 +23258,7 @@
 
 # text = Oskarshamn: Oskarshamn er ein býur í Oskarshamns kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Oskarshamn>"
 	"Oskarshamn" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -23306,7 +23286,7 @@
 
 # text = Falkenberg: Falkenberg er ein býur í Falkenbergs kommunu í landslutinum Halland í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Falkenberg>"
 	"Falkenberg" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
@@ -23360,7 +23340,7 @@
 
 # text = Býurin liggur við vatnið Vänern.
 # text[eng] = 
-# labels = t_check
+# labels = t_check incomplete
 "<Býurin>"
 	"býur" N Msc Sg Nom Def @dep #8->
 "<liggur>"
@@ -23376,7 +23356,7 @@
 
 # text = Lindesberg: Lindesberg er ein býur í Lindesbergs kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Lindesberg>"
 	"Lindesberg" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
@@ -23446,7 +23426,7 @@
 
 # text = Meira enn helmingurin av bókunum vóru skaldsøgur.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Meira>"
 	"meira" Adv @dep #1->
 "<enn>"
@@ -23516,7 +23496,7 @@
 
 # text = var ein sjónvarpsrøð.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #1->
 "<ein>"
@@ -23544,7 +23524,7 @@
 
 # text = Nevndin ásetur sjálv sína fundarskipan.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Nevndin>"
 	"nevnd" N Fem Sg Nom Def @dep #1->2
 "<ásetur>"
@@ -23574,7 +23554,7 @@
 
 # text = Filipstad: Filipstad er ein býur í Filipstads kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Filipstad>"
 	"Filipstad" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
@@ -23602,7 +23582,7 @@
 
 # text = Ystad: Ystad er ein býur í Ystads kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Ystad>"
 	"Ystad" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
@@ -23662,7 +23642,7 @@
 
 # text = Tá dámar t.d. kópunum at bólta sær á ísinum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tá>"
 	"tá" Adv @dep #1->2
 "<dámar>"
@@ -23702,7 +23682,7 @@
 
 # text = Hann er roðslusettur líka úr klingruni fram móti eygunum.
 # text[eng] = 
-# labels = to_check disam
+# labels = to_check disam incomplete
 "<Hann>"
 	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->3
 "<er>"
@@ -23744,7 +23724,7 @@
 
 # text = Men tað var av tilvild, at portugisarnir, sum kannaðu vestursíðuna av Afrika endaðu á Madeira.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Men>"
 	"men" CC @cc #1->
 "<tað>"
@@ -23784,7 +23764,7 @@
 
 # text = Skorpan liggur sum eitt skal uttanum kápuna.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Skorpan>"
 	"skorpa" N Fem Sg Nom Def @dep #1->2
 "<liggur>"
@@ -23804,7 +23784,7 @@
 
 # text = Fyri at fáa útlendskar fyritøkur at koma til býurin virkar býurin sum eitt fríhandilsøki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Fyri>"
 	"fyri" Pr @case #1->
 "<at>"
@@ -23890,7 +23870,7 @@
 
 # text = A er eitt sjálvljóð.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<A>"
 	"A" Abbr @dep #1->
 "<er>"
@@ -23944,7 +23924,7 @@
 
 # text = Hon hevur eisini undirvíst á Fróðskaparsetri Føroya.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Hon>"
 	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<hevur>"
@@ -23982,7 +23962,7 @@
 
 # text = Ymsir hættir eru at vísa hæddarmun.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Ymsir>"
 	"ymsur" A Msc Pl Nom Indef @amod #1->2
 "<hættir>"
@@ -24000,7 +23980,7 @@
 
 # text = Hetta vóru fiskasløg, sum fiskimenninir, ið búðu fram við vatninum, fiskaðu við smáum útróðrarbátum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Hetta>"
 	"hesin" Pron Dem Neu Sg Acc @dep #1->
 "<vóru>"
@@ -24038,7 +24018,7 @@
 
 # text = Víð øki eru nú í staðin beitilendi hjá seyði og geit.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Víð>"
 	"víður" A Neu Pl Nom Indef @amod #1->2
 "<øki>"
@@ -24066,7 +24046,7 @@
 
 # text = Bitið elvdi til, at vøksturin broyttist.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Bitið>"
 	"bíta" V Sup @dep #1->
 "<elvdi>"
@@ -24246,7 +24226,7 @@
 
 # text = Dordrecht: Dordrecht er ein býur og ein kommuna í Niðurlondum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Dordrecht>"
 	"Dordrecht" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -24274,7 +24254,7 @@
 
 # text = Leiden: Leiden er ein býur og kommuna í landslutinum Suður Hollandi í Niðurlondum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Leiden>"
 	"Leiden" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -24308,7 +24288,7 @@
 
 # text = Assen: Assen er ein býur og ein kommuna í Niðurlondum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Assen>"
 	"Assen" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
@@ -24336,7 +24316,7 @@
 
 # text = Oss: Oss er ein býur og kommuna í landslutinum Noord-Brabant í Niðurlondum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Oss>"
 	"Os" N Prop Sem/Plc Sg Gen @dep #1->
 "<:>"
@@ -24370,23 +24350,23 @@
 # text[eng] = 
 # labels = to_check
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->
+	"tað" Pron Pers Sg3 Nom @expl #1->6
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->6
 "<6>"
 	"6" Num Nom @nummod #3->4
 "<kommunur>"
-	"kommuna" N Fem Pl Nom Indef @dep #4->
+	"kommuna" N Fem Pl Nom Indef @nsubj #4->6
 "<í>"
 	"í" Pr @case #5->6
 "<landslutinum>"
-	"landslutur" N Msc Sg Dat Def @nmod #6->
+	"landslutur" N Msc Sg Dat Def @root #6->0
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Zeeland: Zeeland er ein landslutur í Niðurlondum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Zeeland>"
 	"Zeeland" N Prop Neu Sg Nom Indef @dep #1->
 "<:>"
@@ -24408,7 +24388,7 @@
 
 # text = Tað eru 13 kommunur í landslutinum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tað>"
 	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<eru>"
@@ -24426,7 +24406,7 @@
 
 # text = Tað eru 65 kommunur í landslutinum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tað>"
 	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<eru>"
@@ -24444,7 +24424,7 @@
 
 # text = Tað eru 12 kommunur í landslutinum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tað>"
 	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<eru>"
@@ -24462,7 +24442,7 @@
 
 # text = Tað eru 24 kommunur í landslutinum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tað>"
 	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<eru>"
@@ -24480,7 +24460,7 @@
 
 # text = Overijssel: Overijssel er ein landslutur í Niðurlondum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Overijssel>"
 	"Overijssel" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -24504,23 +24484,23 @@
 # text[eng] = 
 # labels = to_check
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->
+	"tað" Pron Pers Sg3 Nom @expl #1->6
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->6
 "<29>"
 	"29" Num Nom @nummod #3->4
 "<kommunur>"
-	"kommuna" N Fem Pl Nom Indef @dep #4->
+	"kommuna" N Fem Pl Nom Indef @nsubj #4->6
 "<í>"
 	"í" Pr @case #5->6
 "<landslutinum>"
-	"landslutur" N Msc Sg Dat Def @nmod #6->
+	"landslutur" N Msc Sg Dat Def @root #6->0
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Í 2007 varð hon í útlegd í Afghanistan.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->2
 "<2007>"
@@ -24556,7 +24536,7 @@
 
 # text = Nauru: Nauru er oyggjaland í Kyrrahavi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Nauru>"
 	"Nauru" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -24576,7 +24556,7 @@
 
 # text = Gelderland: Gelderland er ein landslutur í Niðurlondum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Gelderland>"
 	"Gelderland" N Prop Neu Sg Nom Indef @dep #1->
 "<:>"
@@ -24600,23 +24580,23 @@
 # text[eng] = 
 # labels = to_check
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->
+	"tað" Pron Pers Sg3 Nom @expl #1->6
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->6
 "<56>"
 	"56" Num Nom @nummod #3->4
 "<kommunur>"
-	"kommuna" N Fem Pl Nom Indef @dep #4->
+	"kommuna" N Fem Pl Nom Indef @nsubj #4->6
 "<í>"
 	"í" Pr @case #5->6
 "<landslutinum>"
-	"landslutur" N Msc Sg Dat Def @nmod #6->
+	"landslutur" N Msc Sg Dat Def @root #6->0
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Hann er nevndarlimur í Føroysk Filmsfólk.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Hann>"
 	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<er>"
@@ -24634,7 +24614,7 @@
 
 # text = Í 2006 var hon eisini forkvinna í nevndini fyri Føroya Handilsskúla.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->
 "<2006>"
@@ -24694,7 +24674,7 @@
 
 # text = Filmurin er 19 minuttir langur.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Filmurin>"
 	"filmur" N Msc Sg Nom Def @dep #1->
 "<er>"
@@ -24710,7 +24690,7 @@
 
 # text = Utrecht: Utrecht er ein býur og ein kommuna í Niðurlondum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Utrecht>"
 	"Utrecht" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -24738,7 +24718,7 @@
 
 # text = Móti eystri er eitt vatn ið nevnist.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Móti>"
 	"móti" Pr @case #1->2
 "<eystri>"
@@ -24758,7 +24738,7 @@
 
 # text = Tannlæknar í Føroyum: Í Føroyum eru skúlatannlæknar og privatir tannlæknar.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tannlæknar>"
 	"tannlækni" N Msc Pl Nom Indef @dep #1->
 "<í>"
@@ -24796,7 +24776,7 @@
 
 # text = Hjarnar: Hjarnar var ein føroyskur tónleikabólkur úr Klaksvík.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Hjarnar>"
 	"hjarni" N Msc Pl Nom Indef @dep #1->
 "<:>"
@@ -24820,7 +24800,7 @@
 
 # text = Russarar eru ein meiriluti av umleið tveimum milliónum íbúgvum í Krim.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Russarar>"
 	"russari" N Msc Pl Nom Indef @dep #1->
 "<eru>"
@@ -24848,7 +24828,7 @@
 
 # text = Starvsmannafelagið: Starvsmannafelagið er eitt føroyskt fakfelag.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Starvsmannafelagið>"
 	"starvsmannafelag" N Neu Sg Nom Def @dep #1->
 "<:>"
@@ -24880,7 +24860,7 @@
 
 # text = Ójavnir, svartir blettir eru um síðurnar, á kápuni og kjálkunum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Ójavnir>"
 	"ójavnur" A Msc Pl Nom Indef @dep #1->
 "<,>"
@@ -24926,7 +24906,7 @@
 
 # text = Prísfalli á heimsmarknaðinum seinnu helvt í 2011 sæst aftur í hagtølunum.
 # text[eng] = 
-# labels = to_check disam
+# labels = to_check disam incomplete
 "<Prísfalli>"
 	"prísur#fall" N Neu Sg Dat Indef @dep #1->
 "<á>"
@@ -24968,7 +24948,7 @@
 
 # text = Tað er 2,6 milliónir km í vídd.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tað>"
 	"tað" Pron Pers Sg3 Nom @nsubj #1->
 "<er>"
@@ -24988,7 +24968,7 @@
 
 # text = Í kanningini sæst eisini, at 90 prosent eru norðmenn.
 # text[eng] = 
-# labels = to_check disam
+# labels = to_check disam incomplete
 "<Í>"
 	"í" Pr @case #1->2
 "<kanningini>"
@@ -25118,7 +25098,7 @@
 
 # text = Enn er at nevna orðasavnið upp á 7.450 orð, ið liggur eftir hann.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Enn>"
 	"enn" Adv @dep #1->
 "<er>"
@@ -25192,7 +25172,7 @@
 
 # text = Har eru 32 lið við í NFL.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Har>"
 	"har" Adv @dep #1->
 "<eru>"
@@ -25212,7 +25192,7 @@
 
 # text = Eigarin býr á aðru hædd við familju síni.
 # text[eng] = 
-# labels = to_check disam
+# labels = to_check disam incomplete
 "<Eigarin>"
 	"eigari" N Msc Sg Nom Def @nsubj #1->2
 "<býr>"
@@ -25342,7 +25322,7 @@
 
 # text = Vejle: Vejle er ein býur í Suðurjútlandi í Danmark.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Vejle>"
 	"Vejle" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -25368,7 +25348,7 @@
 
 # text = Fredericia: Fredericia er ein býur í Suðurjútlandi í Danmark.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Fredericia>"
 	"Fredericia" N Prop Sem/Fem Sg Nom @dep #1->
 "<:>"
@@ -25394,7 +25374,7 @@
 
 # text = Hjørring: Hjørring er ein býur í Norðurjútlandi í Danmark.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Hjørring>"
 	"Hjørring" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
@@ -25420,7 +25400,7 @@
 
 # text = Sønderborg: Sønderborg er ein býur í Suðurjútlandi í Danmark.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Sønderborg>"
 	"Sønderborg" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -25446,7 +25426,7 @@
 
 # text = Tønder: Tønder er ein býur í Suðurjútlandi í Danmark.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tønder>"
 	"Tønder" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
@@ -25472,7 +25452,7 @@
 
 # text = Ribe: Ribe er ein býur í Suðurjútlandi í Danmark.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Ribe>"
 	"Ribe" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -25498,7 +25478,7 @@
 
 # text = Als (býur): Als er ein býur í Norðurjútlandi í Danmark.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Als>"
 	"Als" N Prop Sem/Plc Sg Nom @dep #1->
 "<(>"
@@ -25530,7 +25510,7 @@
 
 # text = Roskilde: Roskilde er ein býur á Sjællandi í Danmark.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Roskilde>"
 	"Roskilde" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -25582,7 +25562,7 @@
 
 # text = Jarðleggurin breiðir seg nógv.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Jarðleggurin>"
 	"jarðleggur" N Msc Sg Nom Def @dep #1->2
 "<breiðir>"
@@ -25596,7 +25576,7 @@
 
 # text = Skørping: Skørping er ein býur í Norðurjútlandi í Danmark.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Skørping>"
 	"Skørping" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
@@ -25742,7 +25722,7 @@
 
 # text = Limburg (Belgia): Limburg er ein landslutur í Belgia.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Limburg>"
 	"Limburg" N Prop Sem/Plc Sg Nom @dep #1->
 "<(>"
@@ -25966,7 +25946,7 @@
 
 # text = Kristinehamn: Kristinehamn er ein býur í Kristinehamns kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Kristinehamn>"
 	"Kristinehamn" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -25994,7 +25974,7 @@
 
 # text = Katrineholm: Katrineholm er ein býur í Katrineholms kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Katrineholm>"
 	"Katrineholm" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -26044,7 +26024,7 @@
 
 # text = Sandviken: Sandviken er ein býur í Sandvikens kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Sandviken>"
 	"Sandviken" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -26072,7 +26052,7 @@
 
 # text = Helsingborg: Helsingborg er ein býur í Helsingborgs kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Helsingborg>"
 	"Helsingborg" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -26100,7 +26080,7 @@
 
 # text = Marstrand: Marstrand er ein býur í Kungälvs kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Marstrand>"
 	"Marstrand" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -26144,7 +26124,7 @@
 
 # text = Ljusdal: Ljusdal er ein býur í Ljusdals kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Ljusdal>"
 	"Ljusdal" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -26172,7 +26152,7 @@
 
 # text = Leksand: Leksand er ein býur í Leksands kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Leksand>"
 	"Leksand" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -26200,7 +26180,7 @@
 
 # text = Surahammar: Surahammar er ein býur í Surahammars kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Surahammar>"
 	"Surahammar" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -26228,7 +26208,7 @@
 
 # text = Hallstahammar: Hallstahammar er ein býur í Hallstahammars kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Hallstahammar>"
 	"Hallstahammar" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -26280,7 +26260,7 @@
 
 # text = Hässleholm: Hässleholm er ein býur í Hässleholms kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Hässleholm>"
 	"Hässleholm" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -26308,7 +26288,7 @@
 
 # text = Laholm: Laholm er ein býur í Laholms kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Laholm>"
 	"Laholm" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -26336,7 +26316,7 @@
 
 # text = Krokom: Krokom er ein býur í Krokoms kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Krokom>"
 	"Krokom" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
@@ -26364,7 +26344,7 @@
 
 # text = Älmhult: Älmhult er ein býur í Älmhults kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Älmhult>"
 	"Älmhult" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
@@ -26392,7 +26372,7 @@
 
 # text = Markaryd: Markaryd er ein býur í Markaryds kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Markaryd>"
 	"Markaryd" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
@@ -26420,7 +26400,7 @@
 
 # text = Tingsryd: Tingsryd er ein býur í Tingsryds kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tingsryd>"
 	"Tingsryd" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -26448,7 +26428,7 @@
 
 # text = Älvsbyn: Älvsbyn er ein býur í Älvsbyns kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Älvsbyn>"
 	"Älvsbyn" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -26476,7 +26456,7 @@
 
 # text = Arvidsjaur: Arvidsjaur er ein býur í Arvidsjaurs kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Arvidsjaur>"
 	"Arvidsjaur" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -26504,7 +26484,7 @@
 
 # text = Arjeplog: Arjeplog er ein býur í Arjeplogs kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Arjeplog>"
 	"Arjeplog" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -26532,7 +26512,7 @@
 
 # text = Hallsberg: Hallsberg er ein býur í Hallsbergs kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Hallsberg>"
 	"Hallsberg" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
@@ -26560,7 +26540,7 @@
 
 # text = Åtvidaberg: Åtvidaberg er ein býur í Åtvidabergs kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Åtvidaberg>"
 	"Åtvidaberg" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
@@ -26588,7 +26568,7 @@
 
 # text = Finspång: Finspång er ein býur í Finspångs kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Finspång>"
 	"Finspång" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -26616,7 +26596,7 @@
 
 # text = Ödeshög: Ödeshög er ein býur í Ödeshögs kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Ödeshög>"
 	"Ödeshög" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
@@ -26644,7 +26624,7 @@
 
 # text = Valdemarsvik: Valdemarsvik er ein býur í Valdemarsviks kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Valdemarsvik>"
 	"Valdemarsvik" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -26672,7 +26652,7 @@
 
 # text = Klippan: Klippan er ein býur í Klippans kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Klippan>"
 	"Klippan" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -26700,7 +26680,7 @@
 
 # text = Vingåker: Vingåker er ein býur í Vingåkers kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Vingåker>"
 	"Vingåker" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -26728,7 +26708,7 @@
 
 # text = Vaxholm: Vaxholm er ein býur í Vaxholms kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Vaxholm>"
 	"Vaxholm" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -26772,7 +26752,7 @@
 
 # text = Årjäng: Årjäng er ein býur í Årjängs kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Årjäng>"
 	"Årjäng" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -26800,7 +26780,7 @@
 
 # text = Nordmaling: Nordmaling er ein býur í Nordmalings kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Nordmaling>"
 	"Nordmaling" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -26828,7 +26808,7 @@
 
 # text = Norberg: Norberg er ein býur í Norbergs kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Norberg>"
 	"Norberg" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
@@ -26856,7 +26836,7 @@
 
 # text = Skinnskatteberg: Skinnskatteberg er ein býur í Skinnskattebergs kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Skinnskatteberg>"
 	"Skinnskatteberg" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
@@ -26884,7 +26864,7 @@
 
 # text = Gullspång: Gullspång er ein býur í Gullspångs kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Gullspång>"
 	"Gullspång" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -26912,7 +26892,7 @@
 
 # text = Munkedal: Munkedal er ein býur í Munkedals kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Munkedal>"
 	"Munkedal" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -26940,7 +26920,7 @@
 
 # text = Strömstad: Strömstad er ein býur í Strömstads kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Strömstad>"
 	"Strömstad" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
@@ -26968,7 +26948,7 @@
 
 # text = Ålesund: Ålesund er ein býur og kommuna í Møre og Romsdal í Noregi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Ålesund>"
 	"Ålesund" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -27002,7 +26982,7 @@
 
 # text = Älvdalen: Älvdalen er ein býur í Älvdalens kommunu í Svøríki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Älvdalen>"
 	"Älvdalen" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -27260,7 +27240,7 @@
 
 # text = Tá ið streymur fer gjøgnum snælduna, noyðist hon at mala.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tá ið>"
 	"tá ið" CS @dep #1->
 "<streymur>"
@@ -27348,7 +27328,7 @@
 
 # text = Hvølparnir eru fullvaksnir, tá ið teir eru uml. 10 vikur gamlir.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Hvølparnir>"
 	"hvølpur" N Msc Pl Nom Def @dep #1->
 "<eru>"
@@ -27472,7 +27452,7 @@
 
 # text = Løgtingið er ovasti myndugleiki í Føroyum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Løgtingið>"
 	"løgting" N Neu Sg Nom Def @dep #1->
 "<er>"
@@ -27530,7 +27510,7 @@
 
 # text = at stovnurin kom til at brúka meira enn játtanin loyvdi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<at>"
 	"at" CS @dep #1->
 "<stovnurin>"
@@ -27556,7 +27536,7 @@
 
 # text = Tí er eisini trupulleiki við burturkastinum frá kjarnorkuverkum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tí>"
 	"tí" CS @dep #1->
 "<er>"
@@ -27686,7 +27666,7 @@
 
 # text = Úr aldaskiftinum vaks fram ein sjálvstýrisrørsla og ein mótstøða móti henni.
 # text[eng] = 
-# labels = to_check disam
+# labels = to_check disam incomplete
 "<Úr>"
 	"úr" Pr @case #1->2
 "<aldaskiftinum>"
@@ -27714,7 +27694,7 @@
 
 # text = Kvam: Kvam er ein kommuna í Hordalandi í Noregi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Kvam>"
 	"Kvam" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
@@ -27740,7 +27720,7 @@
 
 # text = Jondal (kommuna): Jondal er ein kommuna í Hordalandi í Noregi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Jondal>"
 	"Jondal" N Prop Sem/Plc Sg Nom @dep #1->
 "<(>"
@@ -27772,7 +27752,7 @@
 
 # text = Fyrisitingin hjá Odda kommunu er í býnum við sama navni.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Fyrisitingin>"
 	"fyrisiting" N Fem Sg Nom Def @dep #1->
 "<hjá>"
@@ -27798,7 +27778,7 @@
 
 # text = Ullensvang: Ullensvang er ein kommuna í Hordalandi í Noregi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Ullensvang>"
 	"Ullensvang" N Prop Sem/Sur Sg Nom @dep #1->
 "<:>"
@@ -27824,7 +27804,7 @@
 
 # text = Eidfjord (kommuna): Eidfjord er ein kommuna í Hordalandi í Noregi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Eidfjord>"
 	"Eidfjord" N Prop Sem/Plc Sg Nom @dep #1->
 "<(>"
@@ -27856,7 +27836,7 @@
 
 # text = Ulvik (kommuna): Ulvik er ein kommuna í Hordalandi í Noregi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Ulvik>"
 	"Ulvik" N Prop Sem/Plc Sg Nom @dep #1->
 "<(>"
@@ -27888,7 +27868,7 @@
 
 # text = Granvin (kommuna): Granvin er ein kommuna í Hordalandi í Noregi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Granvin>"
 	"Granvin" N Prop Sem/Plc Sg Nom @dep #1->
 "<(>"
@@ -27920,7 +27900,7 @@
 
 # text = Tokelau: Tokelau er ein lítil oyggj í Kyrrahavi, sum hoyrir til Nýsæland.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tokelau>"
 	"Tokelau" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -28072,7 +28052,7 @@
 
 # text = Umboðsstjórnin hevur í minsta lagi 2 fundir árliga.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Umboðsstjórnin>"
 	"umboðsstjórn" N Fem Sg Nom Def @nsubj #1->2
 "<hevur>"
@@ -28164,7 +28144,7 @@
 
 # text = Avgerðin um at gevast í filmsídnaðinum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Avgerðin>"
 	"avgerð" N Fem Sg Nom Def @dep #1->
 "<um>"
@@ -28258,7 +28238,7 @@
 
 # text = eru at finna í býnum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<eru>"
 	"vera" V Ind Prs Pl @cop #1->
 "<at>"
@@ -28274,7 +28254,7 @@
 
 # text = Abuja: Abuja er høvuðsstaður í Nigeria.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Abuja>"
 	"Abuja" N Prop Sg Nom @dep #1->
 "<:>"
@@ -28294,7 +28274,7 @@
 
 # text = Býlingurin er gamal, men fyrr í tíðini vóru bert fá hús har.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Býlingurin>"
 	"býlingur" N Msc Sg Nom Def @dep #1->
 "<er>"
@@ -28422,7 +28402,7 @@
 
 # text = Jóannes var elstur at 9 brøðrum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Jóannes>"
 	"Jóannes" N Prop Sem/Mal Sg Nom @dep #1->
 "<var>"
@@ -28472,7 +28452,7 @@
 
 # text = Changsha: Changsha er ein býur í Kina og høvuðsstaður í Hunan landslutinum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Changsha>"
 	"Changsha" N Prop Sg Nom @dep #1->
 "<:>"
@@ -28550,7 +28530,7 @@
 
 # text = Soleiðis hevur ikki altíð verið.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Soleiðis>"
 	"soleiðis" Adv @dep #1->2
 "<hevur>"
@@ -28582,7 +28562,7 @@
 
 # text = Vøtn eru ikki íroknað víddina av landslutunum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Vøtn>"
 	"vatn" N Neu Pl Nom Indef @dep #1->
 "<eru>"
@@ -28602,7 +28582,7 @@
 
 # text = Ein meiriluti av flokkunum í Fólkatinginum peikaðu aftur á Lars Løkke Rasmussen sum kongaligur kanningarleiðari.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Ein>"
 	"ein" Det Msc Sg Nom @det #1->2
 "<meiriluti>"
@@ -28638,7 +28618,7 @@
 
 # text = Heimsmeistari gjørdist Italia, ið vann á Fraklandi í finaluni.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Heimsmeistari>"
 	"heimsmeistari" N Msc Sg Nom Indef @nsubj #1->2
 "<gjørdist>"
@@ -28686,7 +28666,7 @@
 
 # text = Børkur Hanagleiv er ein føroysk teknirøð, sum Bergur skrivar og teknar.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Børkur>"
 	"børka" N Fem Pl Nom Indef @dep #1->
 "<Hanagleiv>"
@@ -28716,7 +28696,7 @@
 
 # text = Hann er venjari hjá føroyska U21 fótbóltslandsliðnum hjá monnum og hjá HB.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Hann>"
 	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<er>"
@@ -28780,7 +28760,7 @@
 
 # text = Hon varð vald við 396 persónligum atkvøðum.
 # text[eng] = 
-# labels = to_check disam
+# labels = to_check disam incomplete
 "<Hon>"
 	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
 "<varð>"
@@ -28800,7 +28780,7 @@
 
 # text = Fløgan er ognað pápanum, Birgir Nónsgjógv.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Fløgan>"
 	"fløga" N Fem Sg Nom Def @dep #1->
 "<er>"
@@ -28820,7 +28800,7 @@
 
 # text = Hann er vanligur á vátlendi í undirhaganum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Hann>"
 	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
 "<er>"
@@ -28840,7 +28820,7 @@
 
 # text = Mann helt, at illir andar vildu við í veitslu.
 # text[eng] = 
-# labels = to_check disam
+# labels = to_check disam incomplete
 "<Mann>"
 	"maður" N Msc Sg Acc Indef @dep #1->7
 "<helt>"
@@ -28866,7 +28846,7 @@
 
 # text = Streymgágga er smidligari enn agngággan.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Streymgágga>"
 	"streymgágga" N Fem Sg Nom Indef @dep #1->
 "<er>"
@@ -28882,7 +28862,7 @@
 
 # text = Til eru 36 hjartarsløg.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Til>"
 	"til" Pr @case #1->
 "<eru>"
@@ -28936,7 +28916,7 @@
 
 # text = Juneau er eisini ein sjálvstýrandi landslutur.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Juneau>"
 	"Juneau" N Prop Sem/Plc Sg Nom @dep #1->
 "<er>"
@@ -28954,7 +28934,7 @@
 
 # text = Anchorage: Anchorage er størsti býur í Alaska.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Anchorage>"
 	"Anchorage" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -28996,7 +28976,7 @@
 
 # text = Gáta: Ein gáta er ein stutt søga, sum endar við einum spurningi.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Gáta>"
 	"gáta" N Fem Sg Nom Indef @dep #1->
 "<:>"
@@ -29030,7 +29010,7 @@
 
 # text = Og lendið var eisini ein stór plága í nógvar aðrar mátar.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Og>"
 	"og" CC @cc #1->
 "<lendið>"
@@ -29134,7 +29114,7 @@
 
 # text = Ofta eru fleiri legur í sama rottureiðrið, soleiðis eru fleiri rottur um somu holu.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Ofta>"
 	"ofta" Adv @dep #1->
 "<eru>"
@@ -29218,7 +29198,7 @@
 
 # text = Er rotta í oynni, eru t.d. lundi og skrápur at kalla burtur.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Er>"
 	"vera" V Ind Prs Sg3 @cop #1->
 "<rotta>"
@@ -29252,23 +29232,23 @@
 # text[eng] = 
 # labels = to_check
 "<Brugdan>"
-	"brugda" N Fem Sg Nom Def @dep #1->2
+	"brugda" N Fem Sg Nom Def @nsubj #1->2
 "<livir>"
 	"liva" V Ind Prs Sg3 @root #2->0
 "<av>"
-	"av" Pr @case #3->
+	"av" Pr @case #3->5
 "<at>"
-	"at" IM @dep #4->2
+	"at" IM @mark #4->5
 "<síla>"
-	"síla" V Inf @dep #5->2
+	"síla" V Inf @advcl #5->2
 "<æti>"
-	"æti" N Neu Sg Acc Indef @dep #6->2
+	"æti" N Neu Sg Acc Indef @obj #6->5
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->2
 
 # text = Providence: Providence er høvuðsstaður og størsti býur í Rhode Island.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Providence>"
 	"Providence" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -29295,7 +29275,7 @@
 	"." CLB @punct #12->
 
 # text = Størsti býur og høvuðsstaður er Yellowknife.
-# text[eng] = 
+# text[eng] = The biggest city and capital is Yellowknife.
 # labels = to_check
 "<Størsti>"
 	"stórur" A Superl Msc Sg Nom Def @amod #1->2
@@ -29332,7 +29312,7 @@
 
 # text = Myndprýtt føroyskir peningaseðlar.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Myndprýtt>"
 	"myndprýða" V Sup @dep #1->
 "<føroyskir>"
@@ -29346,25 +29326,25 @@
 # text[eng] = 
 # labels = to_check
 "<64,9 %>"
-	"64,9 %" Num Nom @dep #1->4
+	"64,9 %" Num Nom @nsubj #1->4
 "<av>"
 	"av" Pr @case #2->3
 "<turkunum>"
-	"turkur" N Msc Pl Dat Def @nmod #3->
+	"turkur" N Msc Pl Dat Def @nmod #3->1
 "<atkvøddu>"
 	"atkvøða" V Ind Prt Pl @root #4->0
 "<ja>"
-	"ja" Interj @dep #5->4
+	"ja" Interj @discourse #5->4
 "<fyri>"
 	"fyri" Pr @case #6->7
 "<samanlegging>"
-	"samanlegging" N Fem Sg Dat Indef @nmod #7->
+	"samanlegging" N Fem Sg Dat Indef @obl #7->4
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->4
 
 # text = Ontario: Ontario er ein landslutur í Kanada.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Ontario>"
 	"Ontario" N Prop Sem/Plc Sg Nom @dep #1->
 "<:>"
@@ -29386,7 +29366,7 @@
 
 # text = Manitoba: Manitoba er ein landslutur í Kanada.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Manitoba>"
 	"Manitoba" N Prop Sg Nom @dep #1->
 "<:>"
@@ -29410,19 +29390,19 @@
 # text[eng] = 
 # labels = to_check
 "<Oyggin>"
-	"oyggj" N Fem Sg Nom Def @dep #1->2
+	"oyggj" N Fem Sg Nom Def @nsubj #1->2
 "<hoyrir>"
 	"hoyra" V Ind Prs Sg3 @root #2->0
 "<til>"
 	"til" Pr @case #3->4
 "<Norra>"
-	"Norra" N Prop Sg Nom @nmod #4->
+	"Norra" N Prop Sg Nom @obl #4->2
 "<.>"
-	"." CLB @punct #5->
+	"." CLB @punct #5->2
 
 # text = Long Island: Long Island er størsta oyggj í New York.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Long>"
 	"Long" N Prop Sem/Sur Sg Nom @dep #1->
 "<Island>"
@@ -29454,11 +29434,11 @@
 "<skapaðu>"
 	"skapa" V Ind Prt Pl @root #1->0
 "<.>"
-	"." CLB @punct #2->
+	"." CLB @punct #2->1
 
 # text = Umframt frískúlan er frítíðarstova og forskúli í Kelduni.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Umframt>"
 	"umframt" Pr @case #1->2
 "<frískúlan>"
@@ -29480,7 +29460,7 @@
 
 # text = Keldan er sjálvstøðug og ikki formliga partur av einum ávísum trúarbólki.
 # text[eng] = 
-# labels = to_check
+# labels = to_check disam incomplete
 "<Keldan>"
 	"kelda" N Fem Sg Nom Def @dep #1->
 "<er>"
@@ -29510,55 +29490,55 @@
 # text[eng] = 
 # labels = to_check
 "<Pentagon>"
-	"Pentagon" N Prop Sem/Plc Sg Nom @dep #1->
+	"Pentagon" N Prop Sem/Plc Sg Nom @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Pentagon>"
-	"Pentagon" N Prop Sem/Plc Sg Nom @dep #3->
+	"Pentagon" N Prop Sem/Plc Sg Nom @nsubj #3->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->5
 "<miðdepil>"
-	"miðdepil" N Msc Sg Nom Indef @dep #5->
+	"miðdepil" N Msc Sg Nom Indef @parataxis #5->1
 "<fyri>"
 	"fyri" Pr @case #6->7
 "<Verjumálaráðið>"
-	"verjumálaráð" N Neu Sg Acc Def @nmod #7->
+	"verjumálaráð" N Neu Sg Acc Def @obl #7->5
 "<í>"
 	"í" Pr @case #8->9
 "<USA>"
-	"USA" N ACR Dat @nmod #9->
+	"USA" N ACR Dat @obl #9->5
 "<.>"
-	"." CLB @punct #10->
+	"." CLB @punct #10->5
 
 # text = Hann er kendastur sum forsætisráðharri í Stórabretlandi undir 2. heimsbardaga.
 # text[eng] = 
 # labels = to_check
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<kendastur>"
-	"kenna" V PrfPrc A Superl Msc Sg Nom Indef @dep #3->
+	"kenna" V PrfPrc A Superl Msc Sg Nom Indef @root #3->0
 "<sum>"
 	"sum" Pr @case #4->5
 "<forsætisráðharri>"
-	"forsætisráðharri" N Msc Sg Nom Indef @nmod #5->
+	"forsætisráðharri" N Msc Sg Nom Indef @nmod #5->3
 "<í>"
 	"í" Pr @case #6->7
 "<Stórabretlandi>"
-	"Stórabretland" N Prop Neu Sg Dat Indef @nmod #7->
+	"Stórabretland" N Prop Neu Sg Dat Indef @nmod #7->3
 "<undir>"
-	"undir" Pr @case #8->
+	"undir" Pr @case #8->10
 "<2.>"
-	"2" A Ord @dep #9->
+	"2" A Ord @dep #9->10
 "<heimsbardaga>"
-	"heimsbardagi" N Msc Sg Dat Indef @dep #10->
+	"heimsbardagi" N Msc Sg Dat Indef @dep #10->3
 "<.>"
-	"." CLB @punct #11->
+	"." CLB @punct #11->5
 
 # text = Tvær ferðir varð hann útnevndur Ársins evropeiski fótbóltsleikari.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Tvær>"
 	"tvey" Num Fem Sg Acc @nummod #1->2
 "<ferðir>"
@@ -29580,7 +29560,7 @@
 
 # text = men er í farloyvi, meðan hon er í Løgtinginum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<men>"
 	"men" CC @cc #1->
 "<er>"
@@ -29658,9 +29638,9 @@
 
 # text = Framsøkin Ung: Framsøkin Ung (fyrr Framsøkin Ungdómur, stytt FU) er eitt politiskt ungmannafelag í Føroyum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Framsøkin>"
-	"framsøkin" A Msc Sg Nom Indef @dep #1->
+	"framsøkin" A Msc Sg Nom Indef @dep #1->2
 "<Ung>"
 	"ungur" A Neu Pl Nom Indef @dep #2->
 "<:>"
@@ -29742,7 +29722,7 @@
 
 # text = Bókin fekk heitið Kom upp á fjallatind.
 # text[eng] = The book was called Kom upp á fjallatindur.
-# labels = to_check
+# labels = to_check incomplete
 "<Bókin>"
 	"bók" N Fem Sg Nom Def @nsubj #1->3
 "<fekk>"
@@ -29764,51 +29744,51 @@
 # text[eng] = 
 # labels = to_check
 "<Hiiumaa>"
-	"Hiiumaa" N Prop Sem/Plc Sg Nom @dep #1->
+	"Hiiumaa" N Prop Sem/Plc Sg Nom @root #1->0
 "<(>"
-	"(" PUNCT LEFT @punct #2->
+	"(" PUNCT LEFT @punct #2->3
 "<landslutur>"
-	"landslutur" N Msc Sg Nom Indef @dep #3->
+	"landslutur" N Msc Sg Nom Indef @appos #3->1
 "<)>"
-	")" PUNCT RIGHT @punct #4->
+	")" PUNCT RIGHT @punct #4->3
 "<:>"
-	":" CLB @punct #5->
+	":" CLB @punct #5->1
 "<Hiiumaa>"
-	"Hiiumaa" N Prop Sem/Plc Sg Nom @dep #6->
+	"Hiiumaa" N Prop Sem/Plc Sg Nom @nsubj #6->9
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #7->
+	"vera" V Ind Prs Sg3 @cop #7->9
 "<ein>"
 	"ein" Det Msc Sg Nom @det #8->9
 "<landslutur>"
-	"landslutur" N Msc Sg Nom Indef @dep #9->
+	"landslutur" N Msc Sg Nom Indef @parataxis #9->1
 "<í>"
 	"í" Pr @case #10->11
 "<Estlandi>"
-	"Estland" N Prop Neu Sg Dat Indef @nmod #11->
+	"Estland" N Prop Neu Sg Dat Indef @obl #11->9
 "<.>"
-	"." CLB @punct #12->
+	"." CLB @punct #12->9
 
 # text = Tað eru 4 kommunur í landslutinum.
-# text[eng] = 
+# text[eng] = There are 4 communes in the province.
 # labels = to_check
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->
+	"tað" Pron Pers Sg3 Nom @expl #1->6
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->6
 "<4>"
 	"4" Num Nom @nummod #3->4
 "<kommunur>"
-	"kommuna" N Fem Pl Nom Indef @dep #4->
+	"kommuna" N Fem Pl Nom Indef @nsubj #4->6
 "<í>"
 	"í" Pr @case #5->6
 "<landslutinum>"
-	"landslutur" N Msc Sg Dat Def @nmod #6->
+	"landslutur" N Msc Sg Dat Def @root #6->0
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Saaremaa (landslutur): Saaremaa er ein landslutur í Estlandi.
 # text[eng] = Saaremaa (region): Saaremaa is a region in Estonia.
-# labels = checked
+# labels = checked incomplete
 "<Saaremaa>"
 	"Saaremaa" N Prop Sem/Plc Sg Nom @root #1->0
 "<(>"
@@ -29978,7 +29958,7 @@
 
 # text = "Súkklarar við skráskrift eru virknir súkklarar.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<">"
 	""" PUNCT @punct #1->
 "<Súkklarar>"
@@ -29998,7 +29978,7 @@
 
 # text = Filmurin er gott 2 tímar langur og harav eru 10 minuttir tikið upp í Føroyum.
 # text[eng] = 
-# labels = to_check
+# labels = to_check incomplete
 "<Filmurin>"
 	"filmur" N Msc Sg Nom Def @dep #1->
 "<er>"
