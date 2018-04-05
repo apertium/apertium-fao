@@ -28514,24 +28514,24 @@
 	"." CLB @punct #6->2
 
 # text = Vøtn eru ikki íroknað víddina av landslutunum.
-# text[eng] = 
-# labels = to_check incomplete
+# text[eng] = Lakes are not included areas in the provinces.
+# labels = to_check disam incomplete
 "<Vøtn>"
-	"vatn" N Neu Pl Nom Indef @dep #1->
+	"vatn" N Neu Pl Nom Indef @nsubj #1->5
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->5
 "<ikki>"
-	"ikki" Adv @dep #3->
+	"ikki" Adv @advmod #3->5
 "<íroknað>"
-	"íroknaður" A Neu Sg Acc Indef @amod #4->5
+	"íroknaður" A Fem Sg Nom Indef @amod #4->5
 "<víddina>"
-	"vídd" N Fem Sg Acc Def @dep #5->
+	"vídd" N Fem Sg Nom Def @root #5->0
 "<av>"
 	"av" Pr @case #6->7
 "<landslutunum>"
-	"landslutur" N Msc Pl Dat Def @nmod #7->
+	"landslutur" N Msc Pl Dat Def @obl #7->5
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->5
 
 # text = Ein meiriluti av flokkunum í Fólkatinginum peikaðu aftur á Lars Løkke Rasmussen sum kongaligur kanningarleiðari.
 # text[eng] = A majority of parties in the Parliament appointed Lars Løkke Rasmussen as royal expedition leader.
