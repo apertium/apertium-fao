@@ -5678,17 +5678,17 @@
 # text[eng] = 
 # labels = to_check incomplete
 "<Helium>"
-	"helium" N Neu Sg Nom Indef @dep #1->
+	"helium" N Neu Sg Nom Indef @dep #1->0
 "<:>"
 	":" CLB @punct #2->
 "<Helium>"
-	"helium" N Neu Sg Nom Indef @dep #3->
+	"helium" N Neu Sg Nom Indef @dep #3->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->6
 "<eitt>"
 	"ein" Det Neu Sg Nom @det #5->6
 "<frumevni>"
-	"frumevni" N Neu Sg Nom Indef @dep #6->
+	"frumevni" N Neu Sg Nom Indef @dep #6->0
 "<,>"
 	"," CLB @punct #7->
 "<ið>"
@@ -5702,27 +5702,27 @@
 "<óvirkin>"
 	"óvirkin" A Neu Pl Acc Indef @amod #12->13
 "<loftevni>"
-	"loftevni" N Neu Pl Acc Indef @dep #13->
+	"loftevni" N Neu Pl Acc Indef @dep #13->11
 "<.>"
 	"." CLB @punct #14->
 
 # text = Hon er limur í bólkinum Harkaliðið.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<limur>"
-	"limur" N Msc Sg Nom Indef @dep #3->
+	"limur" N Msc Sg Nom Indef @root #3->0
 "<í>"
 	"í" Pr @case #4->5
 "<bólkinum>"
-	"bólkur" N Msc Sg Dat Def @nmod #5->
+	"bólkur" N Msc Sg Dat Def @nmod #5->3
 "<Harkaliðið>"
-	"harkalið" N Neu Sg Acc Def @dep #6->
+	"harkalið" N Neu Sg Acc Def @nmod:poss #6->5
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->3
 
 # text = Yvir 11,3 mió býr í Istanbul.
 # text[eng] = 
@@ -5744,55 +5744,55 @@
 
 # text = Istanbul er størsti býur í Turkaland.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Istanbul>"
-	"Istanbul" N Prop Sem/Plc Sg Nom @dep #1->
+	"Istanbul" N Prop Sem/Plc Sg Nom @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<størsti>"
 	"stórur" A Superl Msc Sg Nom Def @amod #3->4
 "<býur>"
-	"býur" N Msc Sg Nom Indef @dep #4->
+	"býur" N Msc Sg Nom Indef @root #4->0
 "<í>"
 	"í" Pr @case #5->6
 "<Turkaland>"
-	"Turkaland" N Prop Neu Sg Acc Indef @nmod #6->
+	"Turkaland" N Prop Neu Sg Acc Indef @obl #6->4
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->4
 
 # text = Høvuðsstaður er Ankara við 3,9 mió. íbúgvum.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Høvuðsstaður>"
-	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->
+	"høvuðsstaður" N Msc Sg Nom Indef @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<Ankara>"
-	"Ankara" N Prop Sg Nom @dep #3->
+	"Ankara" N Prop Sg Nom @root #3->0
 "<við>"
-	"við" Pr @case #4->
+	"við" Pr @case #4->7
 "<3,9>"
-	"3,9" Num Dat @dep #5->
+	"3,9" Num Dat @nummod #5->6
 "<mió.>"
-	"mió" Abbr @dep #6->
+	"mió" Abbr @nummod #6->7
 "<íbúgvum>"
-	"íbúgvi" N Msc Pl Dat Indef @dep #7->
+	"íbúgvi" N Msc Pl Dat Indef @obl #7->3
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->3
 
 # text = Tjóðardagur er 29. oktober.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Tjóðardagur>"
-	"tjóð#dagur" N Msc Sg Nom Indef @dep #1->
+	"tjóð#dagur" N Msc Sg Nom Indef @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<29.>"
-	"29" A Ord @dep #3->
+	"29" A Ord @amod #3->4
 "<oktober>"
-	"oktober" N Msc Sg Nom Indef @dep #4->
+	"oktober" N Msc Sg Nom Indef @root #4->0
 "<.>"
-	"." CLB @punct #5->
+	"." CLB @punct #5->4
 
 # text = Restin liggur í Asia.
 # text[eng] = The rest lies in Asia.
@@ -5812,9 +5812,9 @@
 # text[eng] = 
 # labels = to_check incomplete
 "<Makrel>"
-	"makrelur" N Msc Sg Acc Indef @dep #1->
+	"makrelur" N Msc Sg Acc Indef @dep #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Makrel>"
 	"makrelur" N Msc Sg Acc Indef @dep #3->
 "<er>"
@@ -5890,17 +5890,17 @@
 # text[eng] = 
 # labels = to_check incomplete
 "<Men>"
-	"men" CC @cc #1->
+	"men" CC @cc #1->6
 "<í>"
-	"í" Pr @case #2->
+	"í" Pr @case #2->3
 "<1986>"
-	"1986" Num Dat @dep #3->
+	"1986" Num Dat @dep #3->6
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #4->
+	"vera" V Ind Prt Sg3 @aux:pass #4->6
 "<landið>"
-	"land" N Neu Sg Nom Def @dep #5->
+	"land" N Neu Sg Nom Def @dep #5->6
 "<oyðilagt>"
-	"oyðileggja" V Sup @dep #6->
+	"oyðileggja" V Sup @dep #6->0
 "<og>"
 	"og" CC @cc #7->
 "<á>"
@@ -5912,137 +5912,137 @@
 
 # text = Ongin er formliga settur í starv í samkomuni.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Ongin>"
-	"ong" N Fem Sg Nom Def @dep #1->
+	"ong" N Fem Sg Nom Def @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<formliga>"
 	"formligur" A Neu Sg Nom Def @amod #3->4
 "<settur>"
-	"setta" N Neu Pl Nom Indef @dep #4->
+	"setta" N Neu Pl Nom Indef @root #4->0
 "<í>"
 	"í" Pr @case #5->6
 "<starv>"
-	"starv" N Neu Sg Acc Indef @nmod #6->
+	"starv" N Neu Sg Acc Indef @nmod #6->4
 "<í>"
 	"í" Pr @case #7->8
 "<samkomuni>"
-	"samkoma" N Fem Sg Dat Def @nmod #8->
+	"samkoma" N Fem Sg Dat Def @nmod #8->6
 "<.>"
 	"." CLB @punct #9->
 
 # text = Brøðramessa: Brøðramessa er 20. januar.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Brøðramessa>"
-	"brøðramessa" N Fem Sg Nom Indef @dep #1->
+	"brøðramessa" N Fem Sg Nom Indef @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Brøðramessa>"
-	"brøðramessa" N Fem Sg Nom Indef @dep #3->
+	"brøðramessa" N Fem Sg Nom Indef @nsubj #3->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->6
 "<20.>"
-	"20" A Ord @dep #5->
+	"20" A Ord @amod #5->6
 "<januar>"
-	"januar" N Msc Sg Nom Indef @dep #6->
+	"januar" N Msc Sg Nom Indef @parataxis #6->1
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Pálsmessa: Pálsmessa er 25. januar.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Pálsmessa>"
-	"pálsmessa" N Fem Sg Nom Indef @dep #1->
+	"pálsmessa" N Fem Sg Nom Indef @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Pálsmessa>"
-	"pálsmessa" N Fem Sg Nom Indef @dep #3->
+	"pálsmessa" N Fem Sg Nom Indef @nsubj #3->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->6
 "<25.>"
-	"25" A Ord @dep #5->
+	"25" A Ord @amod #5->6
 "<januar>"
-	"januar" N Msc Sg Nom Indef @dep #6->
+	"januar" N Msc Sg Nom Indef @parataxis #6->1
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Kyndilsmessuknútur: Kyndilsmessuknútur er 19. januar.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Kyndilsmessuknútur>"
-	"kyndilsmessuknútur" N Msc Sg Nom Indef @dep #1->
+	"kyndilsmessuknútur" N Msc Sg Nom Indef @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Kyndilsmessuknútur>"
-	"kyndilsmessuknútur" N Msc Sg Nom Indef @dep #3->
+	"kyndilsmessuknútur" N Msc Sg Nom Indef @nsubj #3->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->6
 "<19.>"
-	"19" A Ord @dep #5->
+	"19" A Ord @amod #5->6
 "<januar>"
-	"januar" N Msc Sg Nom Indef @dep #6->
+	"januar" N Msc Sg Nom Indef @parataxis #6->1
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Kyndilsmessa: Kyndilsmessa er 2. februar.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Kyndilsmessa>"
-	"kyndilsmessa" N Fem Sg Nom Indef @dep #1->
+	"kyndilsmessa" N Fem Sg Nom Indef @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Kyndilsmessa>"
-	"kyndilsmessa" N Fem Sg Nom Indef @dep #3->
+	"kyndilsmessa" N Fem Sg Nom Indef @nsubj #3->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->6
 "<2.>"
-	"2" A Ord @dep #5->
+	"2" A Ord @amod #5->6
 "<februar>"
-	"februar" N Msc Sg Nom Indef @dep #6->
+	"februar" N Msc Sg Nom Indef @parataxis #6->1
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Kyndilsmessa var upprunaliga ein Mariumessa til minnis um at Maria vitjaði í halgidóminum 40 dagar aftan á føðingina, sum siður var hjá jødiskum konum tá í tíðini.
 # text[eng] = 
 # labels = to_check incomplete
 "<Kyndilsmessa>"
-	"kyndilsmessa" N Fem Sg Nom Indef @dep #1->
+	"kyndilsmessa" N Fem Sg Nom Indef @dep #1->5
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #2->
+	"vera" V Ind Prt Sg3 @cop #2->5
 "<upprunaliga>"
-	"upprunaligur" A Fem Pl Adv @dep #3->
+	"upprunaligur" A Fem Pl Adv @dep #3->5
 "<ein>"
 	"eitt" Num Fem Sg Nom @nummod #4->5
 "<Mariumessa>"
-	"mariumessa" N Fem Sg Nom Indef @dep #5->
+	"mariumessa" N Fem Sg Nom Indef @dep #5->0
 "<til>"
 	"til" Pr @case #6->7
 "<minnis>"
-	"minni" N Neu Sg Gen Indef @nmod #7->
+	"minni" N Neu Sg Gen Indef @nmod #7->5
 "<um>"
-	"um" Pr @case #8->
+	"um" Pr @case #8->11
 "<at>"
-	"at" CS @dep #9->
+	"at" CS @dep #9->11
 "<Maria>"
-	"Maria" N Prop Sem/Fem Sg Nom @dep #10->
+	"Maria" N Prop Sem/Fem Sg Nom @dep #10->11
 "<vitjaði>"
-	"vitja" V Ind Prt Sg @dep #11->
+	"vitja" V Ind Prt Sg @dep #11->7
 "<í>"
 	"í" Pr @case #12->13
 "<halgidóminum>"
-	"halgidómur" N Msc Sg Dat Def @nmod #13->
+	"halgidómur" N Msc Sg Dat Def @nmod #13->11
 "<40>"
 	"40" Num Acc @nummod #14->15
 "<dagar>"
-	"dagur" N Msc Pl Acc Indef @dep #15->
+	"dagur" N Msc Pl Acc Indef @dep #15->11
 "<aftan>"
-	"aftan" Pr @case #16->
+	"aftan" Pr @case #16->18
 "<á>"
 	"á" Pr @case #17->18
 "<føðingina>"
-	"føðing" N Fem Sg Acc Def @nmod #18->
+	"føðing" N Fem Sg Acc Def @nmod #18->11
 "<,>"
 	"," CLB @punct #19->
 "<sum>"
@@ -6100,155 +6100,155 @@
 
 # text = Syftunsøka: Syftunsøka er 2. juli.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Syftunsøka>"
-	"syftunsøka" N Fem Sg Nom Indef @dep #1->
+	"syftunsøka" N Fem Sg Nom Indef @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Syftunsøka>"
-	"syftunsøka" N Fem Sg Nom Indef @dep #3->
+	"syftunsøka" N Fem Sg Nom Indef @nsubj #3->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->6
 "<2.>"
-	"2" A Ord @dep #5->
+	"2" A Ord @amod #5->6
 "<juli>"
-	"juli" N Msc Sg Nom Indef @dep #6->
+	"juli" N Msc Sg Nom Indef @parataxis #6->1
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Kongadagur: Kongadagur er 11. februar.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Kongadagur>"
-	"kongadagur" N Msc Sg Nom Indef @dep #1->
+	"kongadagur" N Msc Sg Nom Indef @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Kongadagur>"
-	"kongadagur" N Msc Sg Nom Indef @dep #3->
+	"kongadagur" N Msc Sg Nom Indef @nsubj #3->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->6
 "<11.>"
-	"11" A Ord @dep #5->
+	"11" A Ord @amod #5->6
 "<februar>"
-	"februar" N Msc Sg Nom Indef @dep #6->
+	"februar" N Msc Sg Nom Indef @parataxis #6->1
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Pætursmessa: Pætursmessa er 22. februar.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Pætursmessa>"
-	"pætursmessa" N Fem Sg Nom Indef @dep #1->
+	"pætursmessa" N Fem Sg Nom Indef @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Pætursmessa>"
-	"pætursmessa" N Fem Sg Nom Indef @dep #3->
+	"pætursmessa" N Fem Sg Nom Indef @nsubj #3->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->6
 "<22.>"
-	"22" A Ord @dep #5->
+	"22" A Ord @amod #5->6
 "<februar>"
-	"februar" N Msc Sg Nom Indef @dep #6->
+	"februar" N Msc Sg Nom Indef @parataxis #6->1
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Grækarismessa: Grækarismessa er 12. mars.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Grækarismessa>"
-	"grækarismessa" N Fem Sg Nom Indef @dep #1->
+	"grækarismessa" N Fem Sg Nom Indef @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Grækarismessa>"
-	"grækarismessa" N Fem Sg Nom Indef @dep #3->
+	"grækarismessa" N Fem Sg Nom Indef @nsubj #3->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->6
 "<12.>"
-	"12" A Ord @dep #5->
+	"12" A Ord @amod #5->6
 "<mars>"
-	"mars" N Msc Sg Nom Indef @dep #6->
+	"mars" N Msc Sg Nom Indef @parataxis #6->1
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Grækarismessudagur er almennur flaggdagur.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Grækarismessudagur>"
-	"grækarismessa#dagur" N Msc Sg Nom Indef @dep #1->
+	"grækarismessa#dagur" N Msc Sg Nom Indef @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<almennur>"
 	"almennur" A Msc Sg Nom Indef @amod #3->4
 "<flaggdagur>"
-	"flaggdagur" N Msc Sg Nom Indef @dep #4->
+	"flaggdagur" N Msc Sg Nom Indef @root #4->0
 "<.>"
-	"." CLB @punct #5->
+	"." CLB @punct #5->4
 
 # text = Í miðjuni er vanliga stórt tún.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Í>"
 	"í" Pr @case #1->2
 "<miðjuni>"
-	"miðja" N Fem Sg Dat Def @nmod #2->
+	"miðja" N Fem Sg Dat Def @root #2->0
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #3->
+	"vera" V Ind Prs Sg3 @cop #3->2
 "<vanliga>"
-	"vanligur" A Neu Pl Adv @dep #4->
+	"vanligur" A Neu Pl Adv @advmod #4->5
 "<stórt>"
 	"stórur" A Neu Sg Nom Indef @amod #5->6
 "<tún>"
-	"tún" N Neu Sg Nom Indef @dep #6->
+	"tún" N Neu Sg Nom Indef @nsubj #6->2
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->2
 
 # text = Hann er næstformaður í Kyndli.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<næstformaður>"
-	"næstformaður" N Msc Sg Nom Indef @dep #3->
+	"næstformaður" N Msc Sg Nom Indef @root #3->0
 "<í>"
 	"í" Pr @case #4->5
 "<Kyndli>"
-	"kyndil" N Msc Sg Dat Indef @nmod #5->
+	"kyndil" N Msc Sg Dat Indef @obl #5->3
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->3
 
 # text = Í 2012 er hann venjari hjá B71, sum spælir í 1. deild.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Í>"
-	"í" Pr @case #1->
+	"í" Pr @case #1->2
 "<2012>"
-	"2012" Num Dat @dep #2->
+	"2012" Num Dat @obl #2->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #3->
+	"vera" V Ind Prs Sg3 @cop #3->5
 "<hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #4->
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #4->5
 "<venjari>"
-	"venjari" N Msc Sg Nom Indef @dep #5->
+	"venjari" N Msc Sg Nom Indef @root #5->0
 "<hjá>"
-	"hjá" Pr @case #6->
+	"hjá" Pr @case #6->7
 "<B71>"
-	"B71" Num Dat @dep #7->
+	"B71" Num Dat @nmod:poss #7->5
 "<,>"
-	"," CLB @punct #8->
+	"," CLB @punct #8->10
 "<sum>"
-	"sum" CS @dep #9->
+	"sum" Pron Rel @nsubj #9->10
 "<spælir>"
-	"spæla" V Ind Prs Sg3 @dep #10->
+	"spæla" V Ind Prs Sg3 @acl #10->7
 "<í>"
-	"í" Pr @case #11->
+	"í" Pr @case #11->13
 "<1.>"
-	"1" A Ord @dep #12->
+	"1" A Ord @amod #12->13
 "<deild>"
-	"deild" N Fem Sg Dat Indef @dep #13->
+	"deild" N Fem Sg Dat Indef @obl #13->10
 "<.>"
-	"." CLB @punct #14->
+	"." CLB @punct #14->5
 
 # text = Tað er gamalt handverk í Føroyum.
 # text[eng] = 
@@ -6286,61 +6286,61 @@
 
 # text = Jóladagur hevur altíð verið mikil høgtíðisdagur í Føroyum, og enn eru jólini størsta høgtíð føroyinga.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Jóladagur>"
-	"jóladagur" N Msc Sg Nom Indef @dep #1->
+	"jóladagur" N Msc Sg Nom Indef @nsubj #1->6
 "<hevur>"
-	"hava" V Ind Prs Sg3 @dep #2->
+	"hava" V Ind Prs Sg3 @aux #2->6
 "<altíð>"
-	"altíð" Adv @dep #3->
+	"altíð" Adv @advmod #3->6
 "<verið>"
-	"vera" V Sup @cop #4->
+	"vera" V Sup @cop #4->6
 "<mikil>"
 	"mikil" A Msc Sg Nom Indef @amod #5->6
 "<høgtíðisdagur>"
-	"høgtíðisdagur" N Msc Sg Nom Indef @dep #6->
+	"høgtíðisdagur" N Msc Sg Nom Indef @root #6->0
 "<í>"
 	"í" Pr @case #7->8
 "<Føroyum>"
-	"Føroyar" N Prop Fem Pl Dat Indef @nmod #8->
+	"Føroyar" N Prop Fem Pl Dat Indef @obl #8->6
 "<,>"
 	"," CLB @punct #9->
 "<og>"
-	"og" CC @cc #10->
+	"og" CC @cc #10->15
 "<enn>"
-	"enn" Adv @dep #11->
+	"enn" Adv @advmod #11->15
 "<eru>"
-	"vera" V Ind Prs Pl @cop #12->
+	"vera" V Ind Prs Pl @cop #12->15
 "<jólini>"
-	"jól" N Neu Pl Nom Def @dep #13->
+	"jól" N Neu Pl Nom Def @nsubj #13->15
 "<størsta>"
 	"stórur" A Superl Fem Sg Nom Def @amod #14->15
 "<høgtíð>"
-	"høgtíð" N Fem Sg Nom Indef @dep #15->
+	"høgtíð" N Fem Sg Nom Indef @conj #15->6
 "<føroyinga>"
-	"føroyingur" N Msc Pl Gen Indef @dep #16->
+	"føroyingur" N Msc Pl Gen Indef @nmod:poss #16->15
 "<.>"
-	"." CLB @punct #17->
+	"." CLB @punct #17->6
 
 # text = Vestmanna er egin kommuna.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Vestmanna>"
-	"Vestmanna" N Prop Sem/Plc Sg Nom @dep #1->
+	"Vestmanna" N Prop Sem/Plc Sg Nom @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<egin>"
 	"egin" A Fem Sg Nom Indef @amod #3->4
 "<kommuna>"
-	"kommuna" N Fem Sg Nom Indef @dep #4->
+	"kommuna" N Fem Sg Nom Indef @root #4->0
 "<.>"
-	"." CLB @punct #5->
+	"." CLB @punct #5->4
 
 # text = Í 2015 eru í landsstýrinum umframt løgmann sjey landsstýrismenn.
 # text[eng] = 
 # labels = to_check incomplete
 "<Í>"
-	"í" Pr @case #1->
+	"í" Pr @case #1->2
 "<2015>"
 	"2015" Num Dat @dep #2->
 "<eru>"
@@ -6382,57 +6382,57 @@
 
 # text = Mikudagur í føstuinngangi nevnist øskudagur, og tá byrjar álvarsamari parturin av føstuni.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check disam
 "<Mikudagur>"
-	"mikudagur" N Msc Sg Nom Indef @dep #1->
+	"mikudagur" N Msc Sg Nom Indef @nsubj #1->4
 "<í>"
 	"í" Pr @case #2->3
 "<føstuinngangi>"
-	"føsta#inngangur" N Msc Sg Dat Indef @nmod #3->
+	"føsta#inngangur" N Msc Sg Dat Indef @nmod #3->1
 "<nevnist>"
-	"nevna" V Ind Prs Sg3 Pass @dep #4->
+	"nevna" V Ind Prs Sg3 Pass @root #4->0
 "<øskudagur>"
-	"øskudagur" N Msc Sg Nom Indef @dep #5->
+	"øskudagur" N Msc Sg Nom Indef @xcomp #5->4
 "<,>"
-	"," CLB @punct #6->
+	"," CLB @punct #6->9
 "<og>"
-	"og" CC @cc #7->
+	"og" CC @cc #7->9
 "<tá>"
-	"tá" Adv @dep #8->
+	"tá" Adv @advmod #8->9
 "<byrjar>"
-	"byrja" V Ind Prs Sg3 @dep #9->
+	"byrja" V Ind Prs Sg3 @conj #9->4
 "<álvarsamari>"
-	"álvarsamur" A Fem Sg Dat Indef @dep #10->
+	"álvarsamur" A Fem Sg Dat Indef @amod #10->9
 "<parturin>"
-	"partur" N Msc Sg Nom Def @dep #11->
+	"partur" N Msc Sg Nom Def @nsubj #11->9
 "<av>"
 	"av" Pr @case #12->13
 "<føstuni>"
-	"føsta" N Fem Sg Dat Def @nmod #13->
+	"føsta" N Fem Sg Dat Def @nmod #13->11
 "<.>"
-	"." CLB @punct #14->
+	"." CLB @punct #14->4
 
 # text = Pátriksmessa: Pátriksmessa er 17. mars.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Pátriksmessa>"
-	"pátriksmessa" N Fem Sg Nom Indef @dep #1->
+	"pátriksmessa" N Fem Sg Nom Indef @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Pátriksmessa>"
-	"pátriksmessa" N Fem Sg Nom Indef @dep #3->
+	"pátriksmessa" N Fem Sg Nom Indef @nsubj #3->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->6
 "<17.>"
-	"17" A Ord @dep #5->
+	"17" A Ord @amod #5->6
 "<mars>"
-	"mars" N Msc Sg Nom Indef @dep #6->
+	"mars" N Msc Sg Nom Indef @parataxis #6->1
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Fyri ólavsøku eru pisurnar floygdar.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check disam incomplete
 "<Fyri>"
 	"fyri" Pr @case #1->2
 "<ólavsøku>"
@@ -6476,7 +6476,7 @@
 
 # text = Í sama tíðarskeiði vaks eisini ídnaðurin, og man fór at gagnnýta lendið betur.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check disam incomplete
 "<Í>"
 	"í" Pr @case #1->
 "<sama>"
@@ -6510,7 +6510,7 @@
 
 # text = Har var tryggari.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check disam incomplete
 "<Har>"
 	"har" Adv @dep #1->
 "<var>"
@@ -6522,33 +6522,33 @@
 
 # text = Høvuðsstaður er Santiago.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Høvuðsstaður>"
-	"høvuðsstaður" N Msc Sg Nom Indef @dep #1->
+	"høvuðsstaður" N Msc Sg Nom Indef @nsubj #1->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->3
 "<Santiago>"
-	"Santiago" N Prop Sem/Plc Sg Nom @dep #3->
+	"Santiago" N Prop Sem/Plc Sg Nom @root #3->0
 "<.>"
-	"." CLB @punct #4->
+	"." CLB @punct #4->3
 
 # text = Landið var fram við Kyrrahavi.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Landið>"
-	"land" N Neu Sg Nom Def @dep #1->
+	"land" N Neu Sg Nom Def @nsubj #1->4
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #2->
+	"vera" V Ind Prt Sg3 @cop #2->4
 "<fram við>"
 	"fram við" Pr @case #3->4
 "<Kyrrahavi>"
-	"Kyrrahav" N Prop Neu Sg Dat Indef @nmod #4->
+	"Kyrrahav" N Prop Neu Sg Dat Indef @root #4->0
 "<.>"
-	"." CLB @punct #5->
+	"." CLB @punct #5->4
 
 # text = Lítið fólk býr suðuri í landinum.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check disam incomplete
 "<Lítið>"
 	"lítil" A Neu Sg Nom Indef @amod #1->2
 "<fólk>"
@@ -6560,13 +6560,13 @@
 "<í>"
 	"í" Pr @case #5->6
 "<landinum>"
-	"land" N Neu Sg Dat Def @nmod #6->
+	"land" N Neu Sg Dat Def @nmod #6->4
 "<.>"
 	"." CLB @punct #7->
 
 # text = Einasti landbúnaður har suðuri er seyðahald.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check disam incomplete
 "<Einasti>"
 	"einastur" A Msc Sg Nom Def @amod #1->2
 "<landbúnaður>"
@@ -6584,21 +6584,21 @@
 
 # text = Valparaíso er stór skipahavn.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Valparaíso>"
-	"Valparaíso" N Prop Sem/Plc Sg Nom @dep #1->
+	"Valparaíso" N Prop Sem/Plc Sg Nom @nsubj #1->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->4
 "<stór>"
 	"stórur" A Fem Sg Nom Indef @amod #3->4
 "<skipahavn>"
-	"skipahavn" N Fem Sg Nom Indef @dep #4->
+	"skipahavn" N Fem Sg Nom Indef @root #4->0
 "<.>"
-	"." CLB @punct #5->
+	"." CLB @punct #5->4
 
 # text = Rossum og neytum er nógv til av, og suðuri í landinum er heilt nógvur seyður.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check disam incomplete
 "<Rossum>"
 	"ross" N Neu Pl Dat Indef @dep #1->
 "<og>"
@@ -6660,7 +6660,7 @@
 
 # text = Nú er "bretunum" broytt til "byrsunum ".
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check disam incomplete
 "<Nú>"
 	"nú" Adv @advmod #1->6
 "<er>"
@@ -6980,25 +6980,25 @@
 
 # text = 50. útgávan var ein fløga við Mariu Guttesen.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check disam
 "<50.>"
-	"50" A Ord @dep #1->2
+	"50" A Ord @amod #1->2
 "<útgávan>"
-	"útgáva" N Fem Sg Nom Def @dep #2->5
+	"útgáva" N Fem Sg Nom Def @nsubj #2->5
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #3->5
 "<ein>"
 	"eitt" Num Fem Sg Nom @nummod #4->5
 "<fløga>"
-	"fløga" N Fem Sg Nom Indef @dep #5->0
+	"fløga" N Fem Sg Nom Indef @root #5->0
 "<við>"
 	"við" Pr @case #6->7
 "<Mariu>"
-	"Maria" N Prop Sem/Fem Sg Dat @nmod #7->
+	"Maria" N Prop Sem/Fem Sg Dat @obl #7->5
 "<Guttesen>"
-	"Guttesen" N Prop Sem/Sur Sg Acc @dep #8->
+	"Guttesen" N Prop Sem/Sur Sg Acc @flat #8->7
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->5
 
 # text = Salmonella kann vera uttan á skalinum og inni í egginum.
 # text[eng] = Salmonella can be from outside on the shell and inside in the egg.
@@ -7164,15 +7164,15 @@
 
 # text = Nú fer at bragda.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Nú>"
-	"nú" Adv @dep #1->2
+	"nú" Adv @advmod #1->2
 "<fer>"
-	"fara" V Ind Prs Sg3 @root #2->
+	"fara" V Ind Prs Sg3 @root #2->0
 "<at>"
 	"at" IM @mark #3->4
 "<bragda>"
-	"bragda" V Inf @dep #4->2
+	"bragda" V Inf @advcl #4->2
 "<.>"
 	"." CLB @punct #5->2
 
@@ -7276,19 +7276,19 @@
 # text[eng] = 
 # labels = to_check incomplete
 "<Sambært>"
-	"sambært" Pr @case #1->
+	"sambært" Pr @case #1->3
 "<nýggjum>"
 	"nýggjur" A Neu Pl Dat Indef @amod #2->3
 "<hagtølum>"
-	"hagtal" N Neu Pl Dat Indef @nmod #3->
+	"hagtal" N Neu Pl Dat Indef @nmod #3->7
 "<eru>"
-	"vera" V Ind Prs Pl @cop #4->
+	"vera" V Ind Prs Pl @cop #4->7
 "<samkynd>"
-	"samkyndur" A Neu Pl Nom Indef @dep #5->
+	"samkyndur" A Neu Pl Nom Indef @dep #5->7
 "<6,5>"
 	"6,5" Num Nom @nummod #6->7
 "<prosent>"
-	"prosent" N Neu Pl Nom Indef @dep #7->
+	"prosent" N Neu Pl Nom Indef @dep #7->0
 "<av>"
 	"av" Pr @case #8->9
 "<veljaraskaranum>"
@@ -7296,13 +7296,13 @@
 "<í>"
 	"í" Pr @case #10->11
 "<Fraklandi>"
-	"Frakland" N Prop Neu Sg Dat Indef @nmod #11->
+	"Frakland" N Prop Neu Sg Dat Indef @nmod #11->9
 "<.>"
 	"." CLB @punct #12->
 
 # text = Høgar brekkur eru fram við strondini, og í dølunum eru umstøðurnar góðar til landbúnað.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check disam incomplete
 "<Høgar>"
 	"høgur" A Fem Pl Nom Indef @amod #1->2
 "<brekkur>"
@@ -7352,7 +7352,7 @@
 
 # text = Fiskiveiðan í Fraklandi er hópin stór.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check disam incomplete
 "<Fiskiveiðan>"
 	"fiskiveiða" N Fem Sg Nom Def @dep #1->
 "<í>"
@@ -7402,33 +7402,33 @@
 
 # text = Áttamannafarið var til útróðrar tiltikna óveðursdagin í 1913, tá skarðsbáturin fórst.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Áttamannafarið>"
-	"áttamannafar" N Neu Sg Nom Def @dep #1->
+	"áttamannafar" N Neu Sg Nom Def @nsubj #1->4
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #2->
+	"vera" V Ind Prt Sg3 @cop #2->4
 "<til>"
 	"til" Pr @case #3->4
 "<útróðrar>"
-	"útróður" N Msc Sg Gen Indef @nmod #4->
+	"útróður" N Msc Sg Gen Indef @root #4->0
 "<tiltikna>"
 	"tiltikin" A Msc Sg Acc Def @amod #5->6
 "<óveðursdagin>"
-	"óveðursdagur" N Msc Sg Acc Def @dep #6->
+	"óveðursdagur" N Msc Sg Acc Def @nmod:poss #6->4
 "<í>"
-	"í" Pr @case #7->
+	"í" Pr @case #7->8
 "<1913>"
-	"1913" Num Dat @dep #8->
+	"1913" Num Dat @obl #8->4
 "<,>"
-	"," CLB @punct #9->
+	"," CLB @punct #9->12
 "<tá>"
-	"tá" Adv @dep #10->
+	"tá" Adv @advmod #10->12
 "<skarðsbáturin>"
-	"skarð#bátur" N Msc Sg Nom Def @dep #11->
+	"skarð#bátur" N Msc Sg Nom Def @nsubj #11->12
 "<fórst>"
-	"fara" V Ind Prt Sg3 Pass @dep #12->
+	"fara" V Ind Prt Sg3 Pass @parataxis #12->4
 "<.>"
-	"." CLB @punct #13->
+	"." CLB @punct #13->4
 
 # text = Herðingin er altíð á næstaftasta stavilsi.
 # text[eng] = The stress was always on the penultimate syllable.
@@ -7518,21 +7518,21 @@
 
 # text = Verður samanborið við fýrakant ella terning.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Verður>"
-	"verða" V Ind Prs Sg3 @root #1->0
+	"verða" V Ind Prs Sg3 @aux:pass #1->2
 "<samanborið>"
-	"samanbera" V Sup @dep #2->1
+	"samanbera" V Sup @root #2->0
 "<við>"
 	"við" Pr @case #3->4
 "<fýrakant>"
-	"fýrur#kantur" N Msc Sg Acc Indef @nmod #4->
+	"fýrur#kantur" N Msc Sg Acc Indef @obl #4->2
 "<ella>"
-	"ella" CC @cc #5->
+	"ella" CC @cc #5->6
 "<terning>"
-	"terningur" N Msc Sg Acc Indef @dep #6->1
+	"terningur" N Msc Sg Acc Indef @dep #6->4
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->2
 
 # text = Tað er kjarnin.
 # text[eng] = 
@@ -7568,47 +7568,47 @@
 
 # text = Kelinøvn eru eitt heilt kapittul fyri seg.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Kelinøvn>"
-	"kelinavn" N Neu Pl Nom Indef @dep #1->
+	"kelinavn" N Neu Pl Nom Indef @nsubj #1->5
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->5
 "<eitt>"
-	"ein" Det Neu Sg Nom @det #3->
+	"ein" Det Neu Sg Nom @det #3->5
 "<heilt>"
 	"heilur" A Neu Sg Nom Indef @amod #4->5
 "<kapittul>"
-	"kapittul" N Neu Sg Nom Indef @dep #5->
+	"kapittul" N Neu Sg Nom Indef @root #5->0
 "<fyri>"
-	"fyri" Pr @case #6->
+	"fyri" Pr @case #6->7
 "<seg>"
-	"seg" Pron Refl Acc @dep #7->
+	"seg" Pron Refl Acc @obl #7->5
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->5
 
 # text = Árarnar eru festar í bátin, ofta við bandi.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Árarnar>"
-	"ár" N Fem Pl Nom Def @dep #1->
+	"ár" N Fem Pl Nom Def @nsubj #1->3
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->3
 "<festar>"
-	"fest" N Fem Sg Gen Indef @dep #3->
+	"fest" N Fem Sg Gen Indef @root #3->0
 "<í>"
 	"í" Pr @case #4->5
 "<bátin>"
-	"bátur" N Msc Sg Acc Def @nmod #5->
+	"bátur" N Msc Sg Acc Def @obl #5->3
 "<,>"
-	"," CLB @punct #6->
+	"," CLB @punct #6->9
 "<ofta>"
-	"ofta" Adv @dep #7->
+	"ofta" Adv @advmod #7->9
 "<við>"
 	"við" Pr @case #8->9
 "<bandi>"
-	"band" N Neu Sg Dat Indef @nmod #9->
+	"band" N Neu Sg Dat Indef @obl #9->3
 "<.>"
-	"." CLB @punct #10->
+	"." CLB @punct #10->3
 
 # text = Í 2011 vóru 14 nýggir bussar keyptir til býbusskoyringini hjá Tórshavnar kommunu.
 # text[eng] = In 2011 14 new busses were bought for the municipal bus service in Tórshavn commune.
