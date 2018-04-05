@@ -361,7 +361,7 @@
 	"." CLB @punct #9->
 
 # text = Øll vestursíðan er høgur bakki.
-# text[eng] = 
+# text[eng] = The entire west side is a steep slope.
 # labels = to_check
 "<Øll>"
 	"allur" Det Fem Sg Nom Indef @det #1->2
