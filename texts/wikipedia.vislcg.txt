@@ -361,7 +361,7 @@
 	"." CLB @punct #9->
 
 # text = Øll vestursíðan er høgur bakki.
-# text[eng] = 
+# text[eng] = The entire west side is a steep slope.
 # labels = to_check
 "<Øll>"
 	"allur" Det Fem Sg Nom Indef @det #1->2
@@ -411,7 +411,7 @@
 	"." CLB @punct #15->
 
 # text = Flogskiparin og 7 ferðafólk doyðu.
-# text[eng] = The plane's captain and 7 tourists died.
+# text[eng] = The plane's captain and 7 passengers died.
 # labels = to_check
 "<Flogskiparin>"
 	"flogskipari" N Msc Sg Nom Def @nsubj #1->5
@@ -427,7 +427,7 @@
 	"." CLB @punct #6->5
 
 # text = Hetta er eitt tiltak, ið er málrættað ferðavinnuni.
-# text[eng] = 
+# text[eng] = This is an initiative aimed at the tourist industry.
 # labels = to_check
 "<Hetta>"
 	"hesin" Pron Dem Neu Sg Acc @dep #1->
@@ -451,7 +451,7 @@
 	"." CLB @punct #10->
 
 # text = Í dag er fótbóltsvøllur, har Holið var.
-# text[eng] = 
+# text[eng] = Today there is a football field, where The Hole was.
 # labels = to_check
 "<Í>"
 	"í" Pr @case #1->2
@@ -503,7 +503,7 @@
 	"." CLB @punct #13->
 
 # text = Nógv virksemi er í Dímun.
-# text[eng] = Some work is in Dímun.
+# text[eng] = Much work is in Dímun.
 # labels = to_check
 "<Nógv>"
 	"nógvur" A Fem Sg Nom Indef @amod #1->2
@@ -519,7 +519,7 @@
 	"." CLB @punct #6->5
 
 # text = Ein lastbilur førir farm og ferðagóðs ímillum lendingina og bygdina.
-# text[eng] = A lorry carries cargo and luggage between the docks and the city.
+# text[eng] = A lorry carries cargo and luggage between the docks and the village.
 # labels = to_check
 "<Ein>"
 	"ein" Det Msc Sg Nom @det #1->2
@@ -545,7 +545,7 @@
 	"." CLB @punct #11->3
 
 # text = Súgvin fór á sjógvin og svam frá landi.
-# text[eng] = 
+# text[eng] = The sow went to the sea and swam away.
 # labels = to_check
 "<Súgvin>"
 	"súgv" N Fem Sg Nom Def @dep #1->
@@ -567,7 +567,7 @@
 	"." CLB @punct #9->
 
 # text = Og har hevur hon ligið síðani.
-# text[eng] = 
+# text[eng] = And there she has laid since.
 # labels = to_check
 "<Og>"
 	"og" CC @cc #1->
