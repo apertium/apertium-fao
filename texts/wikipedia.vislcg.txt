@@ -29911,23 +29911,23 @@
 
 # text = "Súkklarar við skráskrift eru virknir súkklarar.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<">"
-	""" PUNCT @punct #1->
+	""" PUNCT @punct #1->7
 "<Súkklarar>"
-	"súkklari" N Msc Pl Nom Indef @dep #2->
+	"súkklari" N Msc Pl Nom Indef @nsubj #2->7
 "<við>"
 	"við" Pr @case #3->4
 "<skráskrift>"
-	"skráskrift" N Fem Sg Dat Indef @nmod #4->
+	"skráskrift" N Fem Sg Dat Indef @nmod #4->2
 "<eru>"
-	"vera" V Ind Prs Pl @cop #5->
+	"vera" V Ind Prs Pl @cop #5->7
 "<virknir>"
 	"virkin" A Msc Pl Nom Indef @amod #6->7
 "<súkklarar>"
-	"súkklari" N Msc Pl Nom Indef @dep #7->
+	"súkklari" N Msc Pl Nom Indef @root #7->0
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->7
 
 # text = Filmurin er gott 2 tímar langur og harav eru 10 minuttir tikið upp í Føroyum.
 # text[eng] = The film is a good 2 hours long and in it there are 10 minutes recorded on the Faroe Islands.
