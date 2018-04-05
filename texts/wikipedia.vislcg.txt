@@ -29957,7 +29957,7 @@
 "<tikið>"
 	"taka" V Sup @conj #12->6
 "<upp>"
-	"upp" Adv @advmoc #13->12
+	"upp" Adv @advmod #13->12
 "<í>"
 	"í" Pr @case #14->15
 "<Føroyum>"
