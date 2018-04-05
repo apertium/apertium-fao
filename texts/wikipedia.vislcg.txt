@@ -3570,43 +3570,43 @@
 
 # text = Eitt fjølbroytt vinnulív er grundarlagið fyri framburði og trivnaði.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Eitt>"
-	"ein" Det Neu Sg Nom @det #1->
+	"ein" Det Neu Sg Nom @det #1->3
 "<fjølbroytt>"
 	"fjølbroyttur" A Neu Sg Nom Indef @amod #2->3
 "<vinnulív>"
-	"vinnulív" N Neu Sg Nom Indef @dep #3->
+	"vinnulív" N Neu Sg Nom Indef @nsubj #3->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->5
 "<grundarlagið>"
-	"grundarlag" N Neu Sg Nom Def @dep #5->
+	"grundarlag" N Neu Sg Nom Def @root #5->0
 "<fyri>"
 	"fyri" Pr @case #6->7
 "<framburði>"
-	"framburður" N Msc Sg Dat Indef @nmod #7->
+	"framburður" N Msc Sg Dat Indef @obl #7->5
 "<og>"
-	"og" CC @cc #8->
+	"og" CC @cc #8->9
 "<trivnaði>"
-	"trivnaður" A Msc Sg Nom Def @dep #9->
+	"trivnaður" A Msc Sg Nom Def @conj #9->7
 "<.>"
-	"." CLB @punct #10->
+	"." CLB @punct #10->5
 
 # text = Vestmanna er eisini ein kommuna.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Vestmanna>"
-	"Vestmanna" N Prop Sem/Plc Sg Nom @dep #1->
+	"Vestmanna" N Prop Sem/Plc Sg Nom @nsubj #1->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->5
 "<eisini>"
-	"eisini" Adv @dep #3->
+	"eisini" Adv @advmod #3->5
 "<ein>"
 	"eitt" Num Fem Sg Nom @nummod #4->5
 "<kommuna>"
-	"kommuna" N Fem Sg Nom Indef @dep #5->
+	"kommuna" N Fem Sg Nom Indef @root #5->0
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->5
 
 # text = Kamping er omanfyri bygdina og møguleiki fyri at fiska har eru eisini til staðar.
 # text[eng] = 
