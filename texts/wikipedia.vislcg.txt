@@ -3487,20 +3487,20 @@
 	"." CLB @punct #11->10
 
 # text = Í bygdini eru 26 hús.
-# text[eng] = 
-# labels = to_check incomplete
+# text[eng] = There are 26 houses in the village.
+# labels = to_check
 "<Í>"
 	"í" Pr @case #1->2
 "<bygdini>"
-	"bygd" N Fem Sg Dat Def @nmod #2->
+	"bygd" N Fem Sg Dat Def @root #2->0
 "<eru>"
-	"vera" V Ind Prs Pl @cop #3->
+	"vera" V Ind Prs Pl @cop #3->2
 "<26>"
 	"26" Num Nom @nummod #4->5
 "<hús>"
-	"hús" N Neu Pl Nom Indef @dep #5->
+	"hús" N Neu Pl Nom Indef @nsubj #5->2
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->2
 
 # text = Men í bygdini er eisini ein nýggj útstykking.
 # text[eng] = 
