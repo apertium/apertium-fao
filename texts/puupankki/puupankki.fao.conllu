@@ -12992,7 +12992,7 @@
 14	er	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	17	cop	_	_
 15	eitt	ein	DET	Det	Case=Nom|Gender=Neut|Number=Sing	17	det	_	_
 16	politiskt	politiskur	ADJ	A	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	17	amod	_	_
-17	ungmannafelag	ungmannafelag	NOUN	N	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
+17	ungmannafelag	ungmannafelag	NOUN	N	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	parataxis	_	_
 18	í	í	ADP	Pr	_	19	case	_	_
 19	Føroyum	Føroyar	PROPN	N	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
 20	.	.	PUNCT	CLB	_	17	punct	_	_
@@ -13143,4 +13143,25 @@
 5	vánaligum	vánaligur	ADJ	A	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur	6	amod	_	_
 6	veðurlíkindum	veðurlíkindi	NOUN	N	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur	3	obl	_	SpaceAfter=No
 7	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:1012:20222
+# text = Filmurin er gott 2 tímar langur og harav eru 10 minuttir tikið upp í Føroyum.
+# text[eng] = The film is a good 2 hours long and in it there are 10 minutes recorded on the Faroe Islands.
+# labels = to_check incomplete
+1	Filmurin	filmur	NOUN	N	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	er	vera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	cop	_	_
+3	gott	góður	ADV	A	_	5	advmod	_	_
+4	2	2	NUM	Num	Case=Nom	5	nummod	_	_
+5	tímar	tími	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	6	obl	_	_
+6	langur	langur	ADJ	A	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	0	root	_	_
+7	og	og	CCONJ	CC	_	12	cc	_	_
+8	harav	harav	ADV	Adv	_	12	advmod	_	_
+9	eru	vera	VERB	V	Mood=Ind|Number=Plur|Tense=Pres	12	aux:pass	_	_
+10	10	10	NUM	Num	Case=Nom	11	nummod	_	_
+11	minuttir	minuttur	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	12	nsubj	_	_
+12	tikið	taka	VERB	V	VerbForm=Sup	6	conj	_	_
+13	upp	upp	ADV	Adv	_	12	advmoc	_	_
+14	í	í	ADP	Pr	_	15	case	_	_
+15	Føroyum	Føroyar	PROPN	N	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	CLB	_	12	punct	_	_
 

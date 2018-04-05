@@ -29625,7 +29625,7 @@
 "<politiskt>"
 	"politiskur" A Neu Sg Nom Indef @amod #16->17
 "<ungmannafelag>"
-	"ungmannafelag" N Neu Sg Nom Indef @root #17->0
+	"ungmannafelag" N Neu Sg Nom Indef @parataxis #17->2
 "<í>"
 	"í" Pr @case #18->19
 "<Føroyum>"
@@ -29930,38 +29930,38 @@
 	"." CLB @punct #8->
 
 # text = Filmurin er gott 2 tímar langur og harav eru 10 minuttir tikið upp í Føroyum.
-# text[eng] = 
+# text[eng] = The film is a good 2 hours long and in it there are 10 minutes recorded on the Faroe Islands.
 # labels = to_check incomplete
 "<Filmurin>"
-	"filmur" N Msc Sg Nom Def @dep #1->
+	"filmur" N Msc Sg Nom Def @nsubj #1->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->6
 "<gott>"
-	"góður" A Adv @dep #3->
+	"góður" A Adv @advmod #3->5
 "<2>"
 	"2" Num Nom @nummod #4->5
 "<tímar>"
-	"tími" N Msc Pl Nom Indef @dep #5->
+	"tími" N Msc Pl Nom Indef @obl #5->6
 "<langur>"
-	"langur" A Msc Sg Nom Indef @dep #6->
+	"langur" A Msc Sg Nom Indef @root #6->0
 "<og>"
-	"og" CC @cc #7->
+	"og" CC @cc #7->12
 "<harav>"
-	"harav" Adv @dep #8->
+	"harav" Adv @advmod #8->12
 "<eru>"
-	"vera" V Ind Prs Pl @cop #9->
+	"vera" V Ind Prs Pl @aux:pass #9->12
 "<10>"
 	"10" Num Nom @nummod #10->11
 "<minuttir>"
-	"minuttur" N Msc Pl Nom Indef @dep #11->
+	"minuttur" N Msc Pl Nom Indef @nsubj #11->12
 "<tikið>"
-	"taka" V Sup @dep #12->
+	"taka" V Sup @conj #12->6
 "<upp>"
-	"upp" Adv @dep #13->
+	"upp" Adv @advmoc #13->12
 "<í>"
 	"í" Pr @case #14->15
 "<Føroyum>"
-	"Føroyar" N Prop Fem Pl Dat Indef @nmod #15->
+	"Føroyar" N Prop Fem Pl Dat Indef @obl #15->12
 "<.>"
-	"." CLB @punct #16->
+	"." CLB @punct #16->12
 
