@@ -920,7 +920,7 @@
 "<Tórshavnar>"
 	"Tórshavn" N Prop Fem Sg Gen Indef @nmod:poss #8->9
 "<kommunu>"
-	"kommuna" N Fem Sg Dat Indef @nmod:poss #9->7
+	"kommuna" N Fem Sg Dat Indef @nmod:poss #9->6
 "<.>"
 	"." CLB @punct #10->3
 
@@ -20047,41 +20047,41 @@
 # text[eng] = 
 # labels = to_check
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->
+	"tað" Pron Pers Sg3 Nom @expl #1->7
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->7
 "<tveir>"
-	"tvey" Num Msc Sg Nom @dep #3->
+	"tvey" Num Msc Sg Nom @nummod #3->5
 "<lærdir>"
 	"lærdur" A Msc Pl Nom Indef @amod #4->5
 "<háskúlar>"
-	"háskúli" N Msc Pl Nom Indef @dep #5->
+	"háskúli" N Msc Pl Nom Indef @nsubj #5->7
 "<í>"
 	"í" Pr @case #6->7
 "<Thessaloniki>"
-	"Thessaloniki" N Prop Sem/Plc Sg Dat @nmod #7->
+	"Thessaloniki" N Prop Sem/Plc Sg Dat @root #7->0
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->7
 
 # text = Listasavn Føroya er eisini partur av tilgongdini.
 # text[eng] = 
 # labels = to_check
 "<Listasavn>"
-	"listasavn" N Neu Sg Nom Indef @dep #1->
+	"listasavn" N Neu Sg Nom Indef @nsubj #1->5
 "<Føroya>"
-	"Føroyar" N Prop Fem Pl Gen Indef @dep #2->
+	"Føroyar" N Prop Fem Pl Gen Indef @nmod:poss #2->1
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #3->
+	"vera" V Ind Prs Sg3 @cop #3->5
 "<eisini>"
-	"eisini" Adv @dep #4->
+	"eisini" Adv @advmod #4->5
 "<partur>"
-	"partur" N Msc Sg Nom Indef @dep #5->
+	"partur" N Msc Sg Nom Indef @root #5->0
 "<av>"
 	"av" Pr @case #6->7
 "<tilgongdini>"
-	"tilgongd" N Fem Sg Dat Def @nmod #7->
+	"tilgongd" N Fem Sg Dat Def @nmod #7->5
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->5
 
 # text = Stovnurin er eisini fakligur myndugleiki í sambandi við fornlutir í havinum.
 # text[eng] = 
@@ -24311,19 +24311,19 @@
 # text[eng] = 
 # labels = to_check
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->
+	"tað" Pron Pers Sg3 Nom @expl #1->6
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->6
 "<6>"
 	"6" Num Nom @nummod #3->4
 "<kommunur>"
-	"kommuna" N Fem Pl Nom Indef @dep #4->
+	"kommuna" N Fem Pl Nom Indef @nsubj #4->6
 "<í>"
 	"í" Pr @case #5->6
 "<landslutinum>"
-	"landslutur" N Msc Sg Dat Def @nmod #6->
+	"landslutur" N Msc Sg Dat Def @root #6->0
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Zeeland: Zeeland er ein landslutur í Niðurlondum.
 # text[eng] = 
