@@ -13160,7 +13160,7 @@
 10	10	10	NUM	Num	Case=Nom	11	nummod	_	_
 11	minuttir	minuttur	NOUN	N	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	12	nsubj	_	_
 12	tikið	taka	VERB	V	VerbForm=Sup	6	conj	_	_
-13	upp	upp	ADV	Adv	_	12	advmoc	_	_
+13	upp	upp	ADV	Adv	_	12	advmod	_	_
 14	í	í	ADP	Pr	_	15	case	_	_
 15	Føroyum	Føroyar	PROPN	N	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
 16	.	.	PUNCT	CLB	_	12	punct	_	_
