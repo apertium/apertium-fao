@@ -9593,30 +9593,30 @@
 	"." CLB @punct #11->3
 
 # text = Hjá nógvum ungdómi fer øll frítíðin at standa á brimfjøl.
-# text[eng] = 
-# labels = to_check incomplete
+# text[eng] = For many young people all the free time goes to standing on a surfboard.
+# labels = to_check
 "<Hjá>"
-	"hjá" Pr @case #1->
+	"hjá" Pr @case #1->3
 "<nógvum>"
 	"nógvur" A Msc Sg Dat Indef @amod #2->3
 "<ungdómi>"
-	"ungdómur" N Msc Sg Dat Indef @nmod #3->
+	"ungdómur" N Msc Sg Dat Indef @obl #3->4
 "<fer>"
 	"fara" V Ind Prs Sg3 @root #4->0
 "<øll>"
 	"allur" Det Fem Sg Nom Indef @det #5->6
 "<frítíðin>"
-	"frítíð" N Fem Sg Nom Def @dep #6->4
+	"frítíð" N Fem Sg Nom Def @nsubj #6->4
 "<at>"
-	"at" IM @dep #7->4
+	"at" IM @mark #7->4
 "<standa>"
-	"standa" V Inf @dep #8->4
+	"standa" V Inf @advcl #8->4
 "<á>"
 	"á" Pr @case #9->10
 "<brimfjøl>"
-	"brimfjøl" N Fem Sg Dat Indef @nmod #10->
+	"brimfjøl" N Fem Sg Dat Indef @obl #10->8
 "<.>"
-	"." CLB @punct #11->
+	"." CLB @punct #11->4
 
 # text = Í Kalifornia er landbúnaður stór vinnugrein.
 # text[eng] = 
@@ -9702,15 +9702,15 @@
 # text[eng] = A pigeon sits in the middle of a bench.
 # labels = to_check incomplete
 "<Dúgva>"
-	"dúgva" N Fem Sg Nom Indef @dep #1->2
+	"dúgva" N Fem Sg Nom Indef @nsubj #1->2
 "<situr>"
-	"sita" V Ind Prs Sg3 @root #2->
+	"sita" V Ind Prs Sg3 @root #2->0
 "<á>"
 	"á" Pr @case #3->4
 "<miðjum>"
 	"miðja" N Fem Pl Dat Indef @nmod #4->2
 "<bekki>"
-	"bekkur" N Msc Sg Dat Indef @dep #5->4
+	"bekkur" N Msc Sg Dat Indef @nmod #5->4
 "<.>"
 	"." CLB @punct #6->2
 
@@ -9748,19 +9748,19 @@
 # text[eng] = 
 # labels = to_check incomplete
 "<Tá>"
-	"tá" Adv @dep #1->2
+	"tá" Adv @advmod #1->2
 "<kom>"
 	"koma" V Ind Prt Sg3 @root #2->0
 "<Jói>"
-	"jói" N Msc Sg Nom Indef @dep #3->2
+	"jói" N Msc Sg Nom Indef @nsubj #3->2
 "<,>"
-	"," CLB @punct #4->
+	"," CLB @punct #4->6
 "<fríði>"
 	"fríður" A Msc Sg Nom Def @amod #5->6
 "<fuglur>"
-	"fuglur" N Msc Sg Nom Indef @dep #6->2
+	"fuglur" N Msc Sg Nom Indef @appos #6->3
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->2
 
 # text = Hani og høna sita sær.
 # text[eng] = 
