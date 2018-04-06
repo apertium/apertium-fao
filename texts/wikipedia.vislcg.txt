@@ -14060,29 +14060,29 @@
 
 # text = Oljuídnaðurin í landinum er við til at skapa búskaparliga vøksturin.
 # text[eng] = The oil industry in the country is _ to create economic growth.
-# labels = to_check incomplete
+# labels = to_check
 "<Oljuídnaðurin>"
-	"oljuídnaður" N Msc Sg Nom Def @dep #1->
+	"oljuídnaður" N Msc Sg Nom Def @nsubj #1->5
 "<í>"
 	"í" Pr @case #2->3
 "<landinum>"
 	"land" N Neu Sg Dat Def @nmod #3->1
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->5
 "<við>"
-	"við" Pr @case #5->
+	"við" Pr @root #5->0
 "<til>"
-	"til" Pr @case #6->
+	"til" Pr @case #6->8
 "<at>"
-	"at" IM @dep #7->
+	"at" IM @mark #7->8
 "<skapa>"
-	"skapa" V Inf @dep #8->
+	"skapa" V Inf @advcl #8->5
 "<búskaparliga>"
 	"búskaparligur" A Msc Sg Acc Def @amod #9->10
 "<vøksturin>"
 	"vøkstur" N Msc Sg Acc Def @obj #10->8
 "<.>"
-	"." CLB @punct #11->
+	"." CLB @punct #11->5
 
 # text = Men enn er Lagos størsti býur.
 # text[eng] = But Lagos is still the largest city.
