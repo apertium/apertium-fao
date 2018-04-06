@@ -473,7 +473,7 @@
 	"." CLB @punct #9->4
 
 # text = Ferðasamband er 3 ferðir um vikuna, mikudag, fríggjadag og sunnudag.
-# text[eng] = Travel connection is 3 times a week, wednesday, friday and sunday.
+# text[eng] = Travel connection is 3 times a week, Wednesday, Friday and Sunday.
 # labels = to_check disam
 "<Ferðasamband>"
 	"ferðasamband" N Neu Sg Nom Indef @nsubj #1->4
