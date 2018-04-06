@@ -53,5 +53,20 @@ Heimsmeistari gjørdist Italia, ið vann á Fraklandi í finaluni.
 ## Passives with two nominative arguments
 
 Deyðadagur hansara gjørdist tingdagur føroyinga.
+```
+nsubj(gjørdist, Deyðadagur)
+xcomp(gjørdist, tingdagur)
+```
+
+## Possessives
+
+### with "hjá"
+
+
+### with accusative
+
+### with preposed genitive
+
+### with postposed genitive 
 
 
