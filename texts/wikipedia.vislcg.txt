@@ -7200,7 +7200,7 @@
 
 # text = Sambært nýggjum hagtølum eru samkynd 6,5 prosent av veljaraskaranum í Fraklandi.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Sambært>"
 	"sambært" Pr @case #1->3
 "<nýggjum>"
@@ -7228,37 +7228,37 @@
 
 # text = Høgar brekkur eru fram við strondini, og í dølunum eru umstøðurnar góðar til landbúnað.
 # text[eng] = 
-# labels = to_check disam incomplete
+# labels = to_check disam
 "<Høgar>"
 	"høgur" A Fem Pl Nom Indef @amod #1->2
 "<brekkur>"
-	"brekka" N Fem Pl Nom Indef @dep #2->
+	"brekka" N Fem Pl Nom Indef @nsubj #2->5
 "<eru>"
-	"vera" V Ind Prs Pl @cop #3->
+	"vera" V Ind Prs Pl @cop #3->5
 "<fram við>"
 	"fram við" Pr @case #4->5
 "<strondini>"
-	"strond" N Fem Sg Dat Def @nmod #5->
+	"strond" N Fem Sg Dat Def @root #5->0
 "<,>"
-	"," CLB @punct #6->
+	"," CLB @punct #6->12
 "<og>"
-	"og" CC @cc #7->
+	"og" CC @cc #7->12
 "<í>"
 	"í" Pr @case #8->9
 "<dølunum>"
-	"dalur" N Msc Pl Dat Def @nmod #9->
+	"dalur" N Msc Pl Dat Def @obl #9->12
 "<eru>"
-	"vera" V Ind Prs Pl @cop #10->
+	"vera" V Ind Prs Pl @cop #10->12
 "<umstøðurnar>"
-	"umstøður" N Fem Pl Nom Def @dep #11->
+	"umstøður" N Fem Pl Nom Def @nsubj #11->12
 "<góðar>"
-	"góður" A Msc Pl Acc Indef @dep #12->
+	"góður" A Msc Pl Nom Indef @conj #12->5
 "<til>"
 	"til" Pr @case #13->14
 "<landbúnað>"
-	"landbúnaður" N Msc Sg Acc Indef @nmod #14->
+	"landbúnaður" N Msc Sg Acc Indef @obl #14->12
 "<.>"
-	"." CLB @punct #15->
+	"." CLB @punct #15->5
 
 # text = Høvuðsvinnuvegurin i Fraklandi er landbúnaður.
 # text[eng] = 
@@ -7278,21 +7278,21 @@
 
 # text = Fiskiveiðan í Fraklandi er hópin stór.
 # text[eng] = 
-# labels = to_check disam incomplete
+# labels = to_check disam
 "<Fiskiveiðan>"
-	"fiskiveiða" N Fem Sg Nom Def @dep #1->
+	"fiskiveiða" N Fem Sg Nom Def @nsubj #1->6
 "<í>"
 	"í" Pr @case #2->3
 "<Fraklandi>"
-	"Frakland" N Prop Neu Sg Dat Indef @nmod #3->
+	"Frakland" N Prop Neu Sg Dat Indef @nmod #3->1
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->6
 "<hópin>"
-	"hópur" N Msc Sg Acc Def @dep #5->
+	"hópin" Adv @advmod #5->6
 "<stór>"
-	"stórur" A Neu Pl Acc Indef @dep #6->
+	"stórur" A Neu Pl Acc Indef @root #6->0
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Kann man til dømis tosa um ymisk málføri í Sørvági og í Sandavági?
 # text[eng] = Can one for example talk about different dialects in Sørvágur and in Sandavágur?
@@ -7474,23 +7474,23 @@
 
 # text = Ein ørgrynna av møguleikum og samansetingum eru.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Ein>"
-	"eitt" Num Fem Sg Nom @nummod #1->2
+	"ein" Det Fem Sg Nom @nummod #1->2
 "<ørgrynna>"
-	"ørgrynna" N Fem Sg Nom Indef @dep #2->
+	"ørgrynna" N Fem Sg Nom Indef @nsubj #2->7
 "<av>"
 	"av" Pr @case #3->4
 "<møguleikum>"
-	"møguleiki" N Msc Pl Dat Indef @nmod #4->
+	"møguleiki" N Msc Pl Dat Indef @nmod #4->2
 "<og>"
-	"og" CC @cc #5->
+	"og" CC @cc #5->6
 "<samansetingum>"
-	"samanseting" N Fem Pl Dat Indef @dep #6->
+	"samanseting" N Fem Pl Dat Indef @conj #6->4
 "<eru>"
-	"vera" V Ind Prs Pl @cop #7->
+	"vera" V Ind Prs Pl @root #7->0
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->7
 
 # text = Kelinøvn eru eitt heilt kapittul fyri seg.
 # text[eng] = 
