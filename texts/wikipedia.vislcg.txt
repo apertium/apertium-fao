@@ -28482,20 +28482,20 @@
 	"." CLB @punct #11->6
 
 # text = Soleiðis hevur ikki altíð verið.
-# text[eng] = 
+# text[eng] = It has not always been like this.
 # labels = to_check incomplete
 "<Soleiðis>"
-	"soleiðis" Adv @dep #1->2
+	"soleiðis" Adv @root #1->0
 "<hevur>"
-	"hava" V Ind Prs Sg3 @root #2->0
+	"hava" V Ind Prs Sg3 @root #2->1
 "<ikki>"
-	"ikki" Adv @dep #3->2
+	"ikki" Adv @advmod #3->1
 "<altíð>"
-	"altíð" Adv @dep #4->2
+	"altíð" Adv @advmod #4->1
 "<verið>"
-	"vera" V Sup @cop #5->
+	"vera" V Sup @cop #5->1
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->1
 
 # text = Landslutirnir hava eisini mentanarligan týdning.
 # text[eng] = 
