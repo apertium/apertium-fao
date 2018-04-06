@@ -22446,26 +22446,26 @@
 	"." CLB @punct #6->3
 
 # text = Eitt tíðarskeið var hon varalimur Rithøvundafelagsins í Málnevndini.
-# text[eng] = 
-# labels = to_check incomplete
+# text[eng] = For a period she was a deputy of the Writers' Union in Málnevndini.
+# labels = to_check
 "<Eitt>"
 	"ein" Det Neu Sg Nom @det #1->2
 "<tíðarskeið>"
-	"tíðarskeið" N Neu Sg Nom Indef @dep #2->
+	"tíðarskeið" N Neu Sg Nom Indef @obl #2->5
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #3->
+	"vera" V Ind Prt Sg3 @cop #3->5
 "<hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #4->
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #4->5
 "<varalimur>"
-	"vørur#limur" N Msc Sg Nom Indef @dep #5->
+	"vørur#limur" N Msc Sg Nom Indef @root #5->0
 "<Rithøvundafelagsins>"
-	"rithøvundafelag" N Neu Sg Gen Def @dep #6->
+	"rithøvundafelag" N Neu Sg Gen Def @nmod:poss #6->5
 "<í>"
 	"í" Pr @case #7->8
 "<Málnevndini>"
-	"málnevnd" N Fem Sg Dat Def @nmod #8->
+	"Málnevndini" N Prop Sem/Plc Sg Dat @nmod #8->6
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->5
 
 # text = Í fótbólti spælir hon sum málmaður.
 # text[eng] = In football she plays as goalkeeper.
