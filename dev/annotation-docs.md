@@ -24,6 +24,7 @@ obl(langur, tímar)
 Men hetta var honum ikki nokk.
 ```
 obl(nokk, honum)
+
 ```
 ## Relative clauses with "har"
 
@@ -43,4 +44,14 @@ acl:cleft(Testamenti, lesa)
 ```
 
 ## Relative clause with "sum"
+
+
+## Relative clauses with "ið"
+
+Heimsmeistari gjørdist Italia, ið vann á Fraklandi í finaluni.
+
+## Passives with two nominative arguments
+
+Deyðadagur hansara gjørdist tingdagur føroyinga.
+
 

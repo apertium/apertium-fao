@@ -28189,73 +28189,57 @@
 "<.>"
 	"." CLB @punct #6->5
 
-# text = eru at finna í býnum.
-# text[eng] = 
-# labels = to_check incomplete
-"<eru>"
-	"vera" V Ind Prs Pl @cop #1->
-"<at>"
-	"at" IM @dep #2->
-"<finna>"
-	"finna" V Inf @dep #3->
-"<í>"
-	"í" Pr @case #4->5
-"<býnum>"
-	"býur" N Msc Pl Dat Def @nmod #5->
-"<.>"
-	"." CLB @punct #6->
-
 # text = Abuja: Abuja er høvuðsstaður í Nigeria.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Abuja>"
-	"Abuja" N Prop Sg Nom @dep #1->
+	"Abuja" N Prop Sg Nom @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Abuja>"
-	"Abuja" N Prop Sg Nom @dep #3->
+	"Abuja" N Prop Sg Nom @nsubj #3->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->5
 "<høvuðsstaður>"
-	"høvuðsstaður" N Msc Sg Nom Indef @dep #5->
+	"høvuðsstaður" N Msc Sg Nom Indef @parataxis #5->1
 "<í>"
 	"í" Pr @case #6->7
 "<Nigeria>"
-	"Nigeria" N Prop Sg Nom @nmod #7->
+	"Nigeria" N Prop Sg Nom @obl #7->5
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->5
 
 # text = Býlingurin er gamal, men fyrr í tíðini vóru bert fá hús har.
-# text[eng] = 
-# labels = to_check incomplete
+# text[eng] = The neighbourhood is old, but before in time there were only few houses here.
+# labels = to_check
 "<Býlingurin>"
-	"býlingur" N Msc Sg Nom Def @dep #1->3
+	"býlingur" N Msc Sg Nom Def @nsubj #1->3
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->3
 "<gamal>"
-	"gamal" A Msc Sg Nom Indef @dep #3->0
+	"gamal" A Msc Sg Nom Indef @root #3->0
 "<,>"
-	"," CLB @punct #4->
+	"," CLB @punct #4->13
 "<men>"
-	"men" CC @cc #5->
+	"men" CC @cc #5->13
 "<fyrr>"
-	"fyrr" Adv @dep #6->
+	"fyrr" Adv @advmod #6->13
 "<í>"
 	"í" Pr @case #7->8
 "<tíðini>"
-	"tíð" N Fem Sg Dat Def @nmod #8->
+	"tíð" N Fem Sg Dat Def @nmod #8->6
 "<vóru>"
-	"vera" V Ind Prt Pl @cop #9->
+	"vera" V Ind Prt Pl @cop #9->13
 "<bert>"
-	"berur" A Neu Sg Nom Indef @dep #10->
+	"berur" A Neu Sg Nom Indef @advmod #10->11
 "<fá>"
-	"fáur" A Neu Pl Acc Indef @dep #11->
+	"fáur" A Neu Pl Acc Indef @amod #11->12
 "<hús>"
-	"hús" N Neu Pl Nom Indef @dep #12->
+	"hús" N Neu Pl Nom Indef @nsubj #12->13
 "<har>"
-	"har" Adv @dep #13->
+	"har" Adv @conj #13->3
 "<.>"
-	"." CLB @punct #14->
+	"." CLB @punct #14->3
 
 # text = Nú er landið betur kent fyri at vera miðstøð fyri evropeiskar rúmdarverkætlanir.
 # text[eng] = 
@@ -28354,22 +28338,22 @@
 	"." CLB @punct #13->2
 
 # text = Jóannes var elstur at 9 brøðrum.
-# text[eng] = 
-# labels = to_check disam typo incomplete
+# text[eng] = Jóannes was the oldest of three brothers.
+# labels = to_check typo
 "<Jóannes>"
-	"Jóannes" N Prop Sem/Mal Sg Nom @dep #1->
+	"Jóannes" N Prop Sem/Mal Sg Nom @nsubj #1->3
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #2->
+	"vera" V Ind Prt Sg3 @cop #2->3
 "<elstur>"
-	"gamal" A Superl Msc Sg Nom Indef @amod #3->4
+	"gamal" A Superl Msc Sg Nom Indef @root #3->0
 "<at>"
-	"at" N Neu Sg Nom Indef @dep #4->
+	"av" Pr Err/Orth @case #4->6
 "<9>"
 	"9" Num Dat @nummod #5->6
 "<brøðrum>"
-	"bróðir" N Msc Pl Dat Indef @dep #6->
+	"bróðir" N Msc Pl Dat Indef @obl #6->3
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->3
 
 # text = Tíðin gekk so.
 # text[eng] = The time went like that.
@@ -28515,7 +28499,7 @@
 
 # text = Vøtn eru ikki íroknað víddina av landslutunum.
 # text[eng] = Lakes are not included areas in the provinces.
-# labels = to_check disam incomplete
+# labels = to_check disam
 "<Vøtn>"
 	"vatn" N Neu Pl Nom Indef @nsubj #1->5
 "<eru>"
@@ -28535,7 +28519,7 @@
 
 # text = Ein meiriluti av flokkunum í Fólkatinginum peikaðu aftur á Lars Løkke Rasmussen sum kongaligur kanningarleiðari.
 # text[eng] = A majority of parties in the Parliament appointed Lars Løkke Rasmussen as royal expedition leader.
-# labels = to_check incomplete
+# labels = to_check
 "<Ein>"
 	"ein" Det Msc Sg Nom @det #1->2
 "<meiriluti>"
@@ -28570,28 +28554,28 @@
 	"." CLB @punct #16->7
 
 # text = Heimsmeistari gjørdist Italia, ið vann á Fraklandi í finaluni.
-# text[eng] = 
-# labels = to_check incomplete
+# text[eng] = Italy was made the champion, who won over France in the final.
+# labels = to_check
 "<Heimsmeistari>"
-	"heimsmeistari" N Msc Sg Nom Indef @nsubj #1->2
+	"heimsmeistari" N Msc Sg Nom Indef @xcomp #1->2
 "<gjørdist>"
-	"gera" V Ind Prt Sg Pass @root #2->
+	"gera" V Ind Prt Sg Pass @root #2->0
 "<Italia>"
-	"Italia" N Prop Sg Nom @dep #3->2
+	"Italia" N Prop Sg Nom @nsubj #3->2
 "<,>"
 	"," CLB @punct #4->6
 "<ið>"
-	"ið" CS @dep #5->6
+	"ið" Pron Rel @nsubj #5->6
 "<vann>"
-	"vinna" V Ind Prt Sg3 @dep #6->
+	"vinna" V Ind Prt Sg3 @acl:relcl #6->3
 "<á>"
 	"á" Pr @case #7->8
 "<Fraklandi>"
-	"Frakland" N Prop Neu Sg Dat Indef @nmod #8->6
+	"Frakland" N Prop Neu Sg Dat Indef @obl #8->6
 "<í>"
 	"í" Pr @case #9->10
 "<finaluni>"
-	"finala" N Fem Sg Dat Def @nmod #10->6
+	"finala" N Fem Sg Dat Def @obl #10->6
 "<.>"
 	"." CLB @punct #11->2
 
