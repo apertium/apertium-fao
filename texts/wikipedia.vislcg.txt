@@ -7206,25 +7206,25 @@
 "<nýggjum>"
 	"nýggjur" A Neu Pl Dat Indef @amod #2->3
 "<hagtølum>"
-	"hagtal" N Neu Pl Dat Indef @nmod #3->7
+	"hagtal" N Neu Pl Dat Indef @obl #3->7
 "<eru>"
 	"vera" V Ind Prs Pl @cop #4->7
 "<samkynd>"
-	"samkyndur" A Neu Pl Nom Indef @dep #5->7
+	"samkyndur" A Neu Pl Nom Indef @nsubj #5->7
 "<6,5>"
 	"6,5" Num Nom @nummod #6->7
 "<prosent>"
-	"prosent" N Neu Pl Nom Indef @dep #7->0
+	"prosent" N Neu Pl Nom Indef @root #7->0
 "<av>"
 	"av" Pr @case #8->9
 "<veljaraskaranum>"
-	"veljaraskari" N Msc Sg Dat Def @nmod #9->
+	"veljaraskari" N Msc Sg Dat Def @nmod #9->7
 "<í>"
 	"í" Pr @case #10->11
 "<Fraklandi>"
-	"Frakland" N Prop Neu Sg Dat Indef @nmod #11->9
+	"Frakland" N Prop Neu Sg Dat Indef @obl #11->9
 "<.>"
-	"." CLB @punct #12->
+	"." CLB @punct #12->7
 
 # text = Høgar brekkur eru fram við strondini, og í dølunum eru umstøðurnar góðar til landbúnað.
 # text[eng] = 
