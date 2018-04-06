@@ -12431,12 +12431,12 @@
 	"." CLB @punct #6->3
 
 # text = Fleiri løntakarar eru í privata vinnulívinum, og samlaðu lønargjaldingarnar vaksa.
-# text[eng] = 
-# labels = to_check disam incomplete
+# text[eng] = Some employees are in private industry and wages gather to grow.
+# labels = to_check disam
 "<Fleiri>"
 	"mangur" A Cmp Msc Pl Nom Indef @amod #1->2
 "<løntakarar>"
-	"løntakari" N Msc Pl Nom Indef @dep #2->6
+	"løntakari" N Msc Pl Nom Indef @nsubj #2->6
 "<eru>"
 	"vera" V Ind Prs Pl @cop #3->6
 "<í>"
@@ -12444,19 +12444,19 @@
 "<privata>"
 	"privatur" A Neu Sg Dat Def @amod #5->6
 "<vinnulívinum>"
-	"vinnulív" N Neu Sg Dat Def @nmod #6->0
+	"vinnulív" N Neu Sg Dat Def @root #6->0
 "<,>"
 	"," CLB @punct #7->11
 "<og>"
 	"og" CC @cc #8->11
 "<samlaðu>"
-	"samla" V Ind Prt Pl @dep #9->
+	"samla" V Ind Prt Pl @conj #9->6
 "<lønargjaldingarnar>"
-	"lønargjalding" N Fem Pl Nom Def @dep #10->
+	"lønargjalding" N Fem Pl Nom Def @nsubj #10->9
 "<vaksa>"
-	"vaksa" V Ind Prs Pl @dep #11->
+	"vaksa" V Inf @dep #11->9
 "<.>"
-	"." CLB @punct #12->
+	"." CLB @punct #12->6
 
 # text = Cheyenne er høvuðsstaðurin og størsti býurin.
 # text[eng] = Cheyenne is the capital and the biggest city.
@@ -12699,24 +12699,24 @@
 	"." CLB @punct #7->5
 
 # text = Gott buss og ferjusamband er millum oyggjarnar.
-# text[eng] = 
-# labels = to_check incomplete
+# text[eng] = There are good bus and ferry connections between the islands.
+# labels = to_check disam typo incomplete
 "<Gott>"
-	"góður" A Adv @dep #1->
+	"góður" A Adv @amod #1->2
 "<buss>"
-	"bussur" N Msc Sg Gen Indef @dep #2->
+	"bussur" N Msc Sg Gen Indef @nsubj #2->7
 "<og>"
-	"og" CC @cc #3->
+	"og" CC @cc #3->4
 "<ferjusamband>"
-	"ferja#samband" N Neu Sg Acc Indef @dep #4->
+	"ferja#samband" N Neu Sg Acc Indef @conj #4->2
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #5->
+	"vera" V Ind Prs Sg3 @cop #5->7
 "<millum>"
 	"millum" Pr @case #6->7
 "<oyggjarnar>"
-	"oyggj" N Fem Pl Acc Def @nmod #7->
+	"oyggj" N Fem Pl Acc Def @root #7->0
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->7
 
 # text = Jackson er høvuðsstaðurin og størsti býurin.
 # text[eng] = 
@@ -13538,27 +13538,31 @@
 "<.>"
 	"." CLB @punct #7->3
 
-# text = Kr. varð ein búseting í Odessa av grikkum.
-# text[eng] = 
-# labels = to_check incomplete
-"<Kr.>"
-	"kr" Abbr @dep #1->2
+# text = Umleið 550 á.Kr. varð ein búseting í Odessa av grikkum.
+# text[eng] = Around 550 BC there was a settlement in Odessa of Greeks.
+# labels = to_check
+"<Umleið>"
+	"umleið" Pr @case #1->2
+"<550>"
+	"550" Num @root #2->0
+"<á.Kr.>"
+	"á.kr" Abbr @nmod #3->2
 "<varð>"
-	"verða" V Ind Prt Sg3 @root #2->0
+	"verða" V Ind Prt Sg3 @cop #4->2
 "<ein>"
-	"eitt" Num Fem Sg Nom @nummod #3->4
+	"ein" Det Fem Sg Nom @nummod #5->6
 "<búseting>"
-	"búseting" N Fem Sg Nom Indef @dep #4->2
+	"búseting" N Fem Sg Nom Indef @nsubj #6->2
 "<í>"
-	"í" Pr @case #5->6
+	"í" Pr @case #7->8
 "<Odessa>"
-	"Odessa" N Prop Sg Nom @nmod #6->
+	"Odessa" N Prop Sg Nom @nmod #8->6
 "<av>"
-	"av" Pr @case #7->8
+	"av" Pr @case #9->10
 "<grikkum>"
-	"grikki" N Msc Pl Dat Indef @nmod #8->
+	"grikki" N Msc Pl Dat Indef @nmod #10->6
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #11->2
 
 # text = Tama áin skilir býin frá høvuðsstaðnum.
 # text[eng] = The river Tama separates the town from the capital.
@@ -13870,95 +13874,95 @@
 
 # text = Atlanta: Atlanta er høvuðsstaður Georgia í USA.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Atlanta>"
-	"Atlanta" N Prop Sg Nom @dep #1->0
+	"Atlanta" N Prop Sg Nom @root #1->0
 "<:>"
 	":" CLB @punct #2->1
 "<Atlanta>"
-	"Atlanta" N Prop Sg Nom @dep #3->5
+	"Atlanta" N Prop Sg Nom @nsubj #3->5
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #4->5
 "<høvuðsstaður>"
-	"høvuðsstaður" N Msc Sg Nom Indef @dep #5->
+	"høvuðsstaður" N Msc Sg Nom Indef @parataxis #5->1
 "<Georgia>"
-	"Georgia" N Prop Sg Nom @dep #6->5
+	"Georgia" N Prop Sg Nom @nmod:poss #6->5
 "<í>"
 	"í" Pr @case #7->8
 "<USA>"
-	"USA" N ACR Dat @nmod #8->5
+	"USA" N ACR Dat @obl #8->5
 "<.>"
-	"." CLB @punct #9->5
+	"." CLB @punct #9->55
 
 # text = Richmond: Richmond er høvuðsstaður amerikanska lutastatinum Virginia.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Richmond>"
-	"Richmond" N Prop Sem/Mal Sg Nom @dep #1->
+	"Richmond" N Prop Sem/Mal Sg Nom @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Richmond>"
-	"Richmond" N Prop Sem/Mal Sg Nom @dep #3->
+	"Richmond" N Prop Sem/Mal Sg Nom @nsubj #3->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->5
 "<høvuðsstaður>"
-	"høvuðsstaður" N Msc Sg Nom Indef @dep #5->
+	"høvuðsstaður" N Msc Sg Nom Indef @parataxis #5->1
 "<amerikanska>"
 	"amerikanskur" A Msc Sg Dat Def @amod #6->7
 "<lutastatinum>"
-	"lutur#statur" N Msc Sg Dat Def @dep #7->
+	"lutur#statur" N Msc Sg Dat Def @nmod:poss #7->5
 "<Virginia>"
-	"Virginia" N Prop Sg Nom @dep #8->
+	"Virginia" N Prop Sg Nom @appos #8->7
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->5
 
 # text = Boston: Boston er høvuðsstaður og størsti býur í Massachusetts.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Boston>"
-	"Boston" N Prop Sem/Plc Sg Nom @dep #1->
+	"Boston" N Prop Sem/Plc Sg Nom @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Boston>"
-	"Boston" N Prop Sem/Plc Sg Nom @dep #3->
+	"Boston" N Prop Sem/Plc Sg Nom @nsubj #3->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->5
 "<høvuðsstaður>"
-	"høvuðsstaður" N Msc Sg Nom Indef @dep #5->
+	"høvuðsstaður" N Msc Sg Nom Indef @parataxis #5->1
 "<og>"
-	"og" CC @cc #6->
+	"og" CC @cc #6->8
 "<størsti>"
 	"stórur" A Superl Msc Sg Nom Def @amod #7->8
 "<býur>"
-	"býur" N Msc Sg Nom Indef @dep #8->
+	"býur" N Msc Sg Nom Indef @conj #8->5
 "<í>"
 	"í" Pr @case #9->10
 "<Massachusetts>"
-	"Massachusetts" N Prop Sem/Plc Sg Acc @nmod #10->
+	"Massachusetts" N Prop Sem/Plc Sg Acc @obl #10->5
 "<.>"
-	"." CLB @punct #11->
+	"." CLB @punct #11->5
 
 # text = Indianapolis: Indianapolis er høvuðsstaður Indiana í USA.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Indianapolis>"
-	"Indianapolis" N Prop Sem/Plc Sg Nom @dep #1->
+	"Indianapolis" N Prop Sem/Plc Sg Nom @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Indianapolis>"
-	"Indianapolis" N Prop Sem/Plc Sg Nom @dep #3->
+	"Indianapolis" N Prop Sem/Plc Sg Nom @nsubj #3->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->5
 "<høvuðsstaður>"
-	"høvuðsstaður" N Msc Sg Nom Indef @dep #5->
+	"høvuðsstaður" N Msc Sg Nom Indef @parataxis #5->1
 "<Indiana>"
-	"Indiana" N Prop Sg Nom @dep #6->
+	"Indiana" N Prop Sg Nom @nmod:poss #6->5
 "<í>"
 	"í" Pr @case #7->8
 "<USA>"
-	"USA" N ACR Dat @nmod #8->
+	"USA" N ACR Dat @obl #8->5
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->5
 
 # text = Fólkatalið í landinum er 11,7 milliónir.
 # text[eng] = The population of the country is 11.7 million.
