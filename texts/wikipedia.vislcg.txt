@@ -468,7 +468,7 @@
 "<Holið>"
 	"hol" N Neu Sg Nom Def @nsubj #7->8
 "<var>"
-	"vera" V Ind Prt Sg3 @acl #8->4
+	"vera" V Ind Prt Sg3 @acl:relcl #8->4
 "<.>"
 	"." CLB @punct #9->4
 
@@ -636,9 +636,9 @@
 
 # text = Støðan, vit eru í, tá ið okkurt verður sagt, ávirkar nógv sniðið í orðingini.
 # text[eng] = The situation we are in, when something is said, greatly affects the wording.
-# labels = to_check incomplete
+# labels = to_check disam incomplete
 "<Støðan>"
-	"støða" N Fem Sg Nom Def @dep #1->
+	"støða" N Fem Sg Nom Def @dep #1->12
 "<,>"
 	"," CLB @punct #2->
 "<vit>"
@@ -648,29 +648,29 @@
 "<í>"
 	"í" Pr @case #5->
 "<,>"
-	"," CLB @punct #6->
+	"," CLB @punct #6->10
 "<tá ið>"
-	"tá ið" CS @dep #7->
+	"tá ið" CS @dep #7->10
 "<okkurt>"
-	"onkur" Pron Indef Neu Sg Nom @dep #8->
+	"onkur" Pron Indef Neu Sg Nom @dep #8->10
 "<verður>"
-	"verða" V Ind Prs Sg3 @dep #9->
+	"verða" V Ind Prs Sg3 @aux:pass #9->10
 "<sagt>"
 	"siga" V Sup @dep #10->
 "<,>"
-	"," CLB @punct #11->
+	"," CLB @punct #11->10
 "<ávirkar>"
-	"ávirka" V Ind Prs Sg3 @dep #12->
+	"ávirka" V Ind Prs Sg3 @root #12->0
 "<nógv>"
-	"nógvur" A Neu Pl Acc Indef @dep #13->
+	"nógvur" A Neu Pl Acc Indef @dep #13->12
 "<sniðið>"
-	"snið" N Neu Sg Nom Def @dep #14->
+	"snið" N Neu Sg Acc Def @dep #14->12
 "<í>"
 	"í" Pr @case #15->16
 "<orðingini>"
-	"orðing" N Fem Sg Dat Def @nmod #16->
+	"orðing" N Fem Sg Dat Def @nmod #16->12
 "<.>"
-	"." CLB @punct #17->
+	"." CLB @punct #17->12
 
 # text = Tey eru til dømis nær, hví, hvaðan, hvussu.
 # text[eng] = They are, for example, when, why, from where, how.
@@ -15876,29 +15876,29 @@
 
 # text = Tað er í Nýggja Testamenti, vit lesa um Jesus.
 # text[eng] = It is in the New Testament that we read about Jesus.
-# labels = to_check cleft incomplete
+# labels = to_check cleft
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->
+	"tað" Pron Pers Sg3 Nom @expl #1->2
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @root #2->0
 "<í>"
-	"í" Pr @case #3->
+	"í" Pr @case #3->5
 "<Nýggja>"
 	"nýggjur" A Neu Sg Dat Def @amod #4->5
 "<Testamenti>"
-	"testamenti" N Neu Sg Dat Indef @nmod #5->
+	"testamenti" N Neu Sg Dat Indef @dislocated #5->2
 "<,>"
-	"," CLB @punct #6->
+	"," CLB @punct #6->8
 "<vit>"
-	"vit" Pron Pers Pl1 Nom @nsubj #7->
+	"vit" Pron Pers Pl1 Nom @nsubj #7->8
 "<lesa>"
-	"lesa" V Ind Prs Pl @dep #8->
+	"lesa" V Ind Prs Pl @acl:relcl #8->5
 "<um>"
 	"um" Pr @case #9->10
 "<Jesus>"
-	"Jesus" N Prop Sem/Mal Sg Acc @nmod #10->
+	"Jesus" N Prop Sem/Mal Sg Acc @obl #10->8
 "<.>"
-	"." CLB @punct #11->
+	"." CLB @punct #11->2
 
 # text = Uml. 78% av lindýrum eru sniglar.
 # text[eng] = Around 78% of molluscs are slugs.
