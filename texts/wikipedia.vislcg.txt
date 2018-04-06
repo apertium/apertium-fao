@@ -7544,7 +7544,7 @@
 "<2011>"
 	"2011" Num Dat @obl #2->7
 "<vóru>"
-	"vera" V Ind Prt Pl @aux #3->7
+	"vera" V Ind Prt Pl @aux:pass #3->7
 "<14>"
 	"14" Num Nom @nummod #4->6
 "<nýggir>"
@@ -7564,7 +7564,7 @@
 "<kommunu>"
 	"kommuna" N Fem Sg Dat Indef @dep #12->7
 "<.>"
-	"." CLB @punct #13->
+	"." CLB @punct #13->7
 
 # text = Í 2008 var ASFALT tó avlýst.
 # text[eng] = In 2008 ASFALT was still called off.
