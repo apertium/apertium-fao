@@ -12418,17 +12418,17 @@
 # text[eng] = Few people live in the desert.
 # labels = to_check disam incomplete
 "<Fá>"
-	"fáur" A Neu Pl Acc Indef @dep #1->
+	"fáur" A Neu Pl Acc Indef @amod #1->2
 "<fólk>"
-	"fólk" N Neu Pl Nom Indef @dep #2->
+	"fólk" N Neu Pl Nom Indef @nsubj #2->3
 "<búgva>"
-	"búgva" V Inf @dep #3->
+	"búgva" V Ins Prs Pl @root #3->0
 "<í>"
 	"í" Pr @case #4->5
 "<oyðimørkunum>"
-	"oyðimørk" N Fem Pl Dat Def @nmod #5->
+	"oyðimørk" N Fem Pl Dat Def @obl #5->3
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->3
 
 # text = Fleiri løntakarar eru í privata vinnulívinum, og samlaðu lønargjaldingarnar vaksa.
 # text[eng] = 
