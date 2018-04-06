@@ -14178,39 +14178,39 @@
 
 # text = Men tó eru undantøk.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Men>"
-	"men" CC @cc #1->
+	"men" CC @cc #1->3
 "<tó>"
-	"tó" Adv @dep #2->
+	"tó" Adv @advmod #2->3
 "<eru>"
-	"vera" V Ind Prs Pl @cop #3->
+	"vera" V Ind Prs Pl @root #3->0
 "<undantøk>"
-	"undantak" N Neu Pl Nom Indef @dep #4->
+	"undantak" N Neu Pl Nom Indef @nsubj #4->3
 "<.>"
-	"." CLB @punct #5->
+	"." CLB @punct #5->3
 
 # text = Hon hevur verið í gerð í 125 ár.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Hon>"
-	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
+	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->5
 "<hevur>"
-	"hava" V Ind Prs Sg3 @aux #2->3
+	"hava" V Ind Prs Sg3 @aux #2->5
 "<verið>"
-	"vera" V Sup @cop #3->
+	"vera" V Sup @cop #3->5
 "<í>"
 	"í" Pr @case #4->5
 "<gerð>"
-	"gerð" N Fem Sg Dat Indef @nmod #5->
+	"gerð" N Fem Sg Dat Indef @root #5->0
 "<í>"
-	"í" Pr @case #6->
+	"í" Pr @case #6->8
 "<125>"
 	"125" Num Dat @nummod #7->8
 "<ár>"
-	"ár" N Fem Sg Dat Indef @nmod #8->
+	"ár" N Fem Sg Dat Indef @obl #8->5
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->5
 
 # text = Montpelier er eisini minsti høvuðsstaðurin í USA.
 # text[eng] = 
