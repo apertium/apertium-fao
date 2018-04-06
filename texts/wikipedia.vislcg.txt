@@ -22339,29 +22339,29 @@
 
 # text = Í trongum tíðum hevur hvalur verið bjargingin hjá mongum húsarhaldi.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Í>"
-	"í" Pr @case #1->
+	"í" Pr @case #1->3
 "<trongum>"
 	"trongur" A Fem Pl Dat Indef @amod #2->3
 "<tíðum>"
-	"tíð" N Fem Pl Dat Indef @nmod #3->
+	"tíð" N Fem Pl Dat Indef @obl #3->7
 "<hevur>"
-	"hava" V Ind Prs Sg3 @root #4->0
+	"hava" V Ind Prs Sg3 @aux #4->7
 "<hvalur>"
-	"hvalur" N Msc Sg Nom Indef @dep #5->4
+	"hvalur" N Msc Sg Nom Indef @nsubj #5->7
 "<verið>"
-	"vera" V Sup @cop #6->
+	"vera" V Sup @cop #6->7
 "<bjargingin>"
-	"bjarging" N Fem Sg Nom Def @dep #7->4
+	"bjarging" N Fem Sg Nom Def @root #7->0
 "<hjá>"
-	"hjá" Pr @case #8->
+	"hjá" Pr @case #8->10
 "<mongum>"
 	"mangur" A Neu Sg Dat Indef @amod #9->10
 "<húsarhaldi>"
-	"húsarhald" N Neu Sg Dat Indef @nmod #10->
+	"húsarhald" N Neu Sg Dat Indef @obl #10->7
 "<.>"
-	"." CLB @punct #11->
+	"." CLB @punct #11->7
 
 # text = Virðingin fyri honum tók at vaksa.
 # text[eng] = 
@@ -28487,7 +28487,7 @@
 "<Soleiðis>"
 	"soleiðis" Adv @root #1->0
 "<hevur>"
-	"hava" V Ind Prs Sg3 @root #2->1
+	"hava" V Ind Prs Sg3 @aux #2->1
 "<ikki>"
 	"ikki" Adv @advmod #3->1
 "<altíð>"
