@@ -9746,7 +9746,7 @@
 
 # text = Tá kom Jói, fríði fuglur.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Tá>"
 	"tá" Adv @advmod #1->2
 "<kom>"
@@ -9883,38 +9883,38 @@
 	"." CLB @punct #6->5
 
 # text = Kristni siðurin at fara til altars í kirkjuni er til minnis um heilagu kvøldmáltíðina.
-# text[eng] = 
+# text[eng] = The Christian custom to come to the altar in the church is to remind about the last supper.
 # labels = to_check incomplete
 "<Kristni>"
 	"kristin" A Msc Sg Nom Def @amod #1->2
 "<siðurin>"
-	"siður" N Msc Sg Nom Def @dep #2->
+	"siður" N Msc Sg Nom Def @nsubj #2->11
 "<at>"
-	"at" IM @dep #3->
+	"at" IM @mark #3->4
 "<fara>"
-	"fara" V Inf @dep #4->
+	"fara" V Inf @acl #4->2
 "<til>"
 	"til" Pr @case #5->6
 "<altars>"
-	"altar" N Neu Sg Gen Indef @nmod #6->
+	"altar" N Neu Sg Gen Indef @obl #6->4
 "<í>"
 	"í" Pr @case #7->8
 "<kirkjuni>"
-	"kirkja" N Fem Sg Dat Def @nmod #8->
+	"kirkja" N Fem Sg Dat Def @obl #8->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #9->
+	"vera" V Ind Prs Sg3 @cop #9->11
 "<til>"
 	"til" Pr @case #10->11
 "<minnis>"
-	"minni" N Neu Sg Gen Indef @nmod #11->
+	"minni" N Neu Sg Gen Indef @root #11->0
 "<um>"
-	"um" Pr @case #12->
+	"um" Pr @case #12->14
 "<heilagu>"
 	"heilagur" A Fem Sg Acc Def @amod #13->14
 "<kvøldmáltíðina>"
-	"kvøldmáltíð" N Fem Sg Acc Def @nmod #14->
+	"kvøldmáltíð" N Fem Sg Acc Def @obl #14->11
 "<.>"
-	"." CLB @punct #15->
+	"." CLB @punct #15->11
 
 # text = Ólavur fór sum smádrongur at spæla gittara.
 # text[eng] = Ólavur went as a small boy to play guitar.
