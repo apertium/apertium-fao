@@ -28004,14 +28004,14 @@
 	"." CLB @punct #9->1
 
 # text = Umboðsstjórnin hevur í minsta lagi 2 fundir árliga.
-# text[eng] = 
-# labels = to_check incomplete
+# text[eng] = The central administration has at least 2 meetings yearly.
+# labels = to_check
 "<Umboðsstjórnin>"
 	"umboðsstjórn" N Fem Sg Nom Def @nsubj #1->2
 "<hevur>"
 	"hava" V Ind Prs Sg3 @root #2->0
 "<í>"
-	"í" Pr @case #3->
+	"í" Pr @case #3->5
 "<minsta>"
 	"lítil" A Superl Neu Sg Dat Def @amod #4->5
 "<lagi>"
@@ -28019,11 +28019,11 @@
 "<2>"
 	"2" Num Acc @nummod #6->7
 "<fundir>"
-	"fundur" N Msc Pl Acc Indef @dep #7->2
+	"fundur" N Msc Pl Acc Indef @obj #7->2
 "<árliga>"
-	"árligur" A Msc Sg Acc Def @dep #8->2
+	"árligur" A Msc Sg Acc Def @advmod #8->2
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->2
 
 # text = Í 12. øld var Konstantinopel størsti býur í Europa.
 # text[eng] = In the 12th century Constantinople was the biggest city in Europe.
@@ -28097,21 +28097,21 @@
 
 # text = Avgerðin um at gevast í filmsídnaðinum.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Avgerðin>"
-	"avgerð" N Fem Sg Nom Def @dep #1->
+	"avgerð" N Fem Sg Nom Def @root #1->0
 "<um>"
-	"um" Pr @case #2->
+	"um" Pr @case #2->4
 "<at>"
-	"at" IM @dep #3->
+	"at" IM @mark #3->4
 "<gevast>"
-	"geva" V Inf Pass @dep #4->
+	"geva" V Inf Pass @acl #4->1
 "<í>"
 	"í" Pr @case #5->6
 "<filmsídnaðinum>"
-	"filmur#ídnaður" N Msc Sg Dat Def @nmod #6->
+	"filmur#ídnaður" N Msc Sg Dat Def @obl #6->4
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->1
 
 # text = Hon hevur eisini teknað nógv frímerki og jólamerki.
 # text[eng] = 
