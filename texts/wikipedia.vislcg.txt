@@ -15878,27 +15878,27 @@
 # text[eng] = It is in the New Testament that we read about Jesus.
 # labels = to_check cleft
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @expl #1->2
+	"tað" Pron Pers Sg3 Nom @expl #1->5
 "<er>"
-	"vera" V Ind Prs Sg3 @root #2->0
+	"vera" V Ind Prs Sg3 @cop #2->5
 "<í>"
 	"í" Pr @case #3->5
 "<Nýggja>"
 	"nýggjur" A Neu Sg Dat Def @amod #4->5
 "<Testamenti>"
-	"testamenti" N Neu Sg Dat Indef @dislocated #5->2
+	"testamenti" N Neu Sg Dat Indef @root #5->0
 "<,>"
 	"," CLB @punct #6->8
 "<vit>"
 	"vit" Pron Pers Pl1 Nom @nsubj #7->8
 "<lesa>"
-	"lesa" V Ind Prs Pl @acl:relcl #8->5
+	"lesa" V Ind Prs Pl @acl:cleft #8->5
 "<um>"
 	"um" Pr @case #9->10
 "<Jesus>"
 	"Jesus" N Prop Sem/Mal Sg Acc @obl #10->8
 "<.>"
-	"." CLB @punct #11->2
+	"." CLB @punct #11->5
 
 # text = Uml. 78% av lindýrum eru sniglar.
 # text[eng] = Around 78% of molluscs are slugs.
