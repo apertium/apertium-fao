@@ -3770,7 +3770,7 @@
 "<vanligt>"
 	"vanligur" A Neu Sg Nom Indef @amod #2->3
 "<fiskavirki>"
-	"fiskavirki" N Neu Sg Nom Indef @nsubj #3->3
+	"fiskavirki" N Neu Sg Nom Indef @nsubj #3->6
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #4->6
 "<í>"
@@ -4910,7 +4910,7 @@
 "<sjóstúkan>"
 	"sjóstúka" N Fem Sg Nom Def @nsubj #6->5
 "<stásbúni>"
-	"stásbúni" N Msc Sg Nom Indef @root #7->5
+	"stásbúni" N Msc Sg Nom Indef @root #7->0
 "<.>"
 	"." CLB @punct #8->7
 
