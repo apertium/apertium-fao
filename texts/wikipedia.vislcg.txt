@@ -27641,243 +27641,237 @@
 
 # text = Kvam: Kvam er ein kommuna í Hordalandi í Noregi.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Kvam>"
-	"Kvam" N Prop Sem/Sur Sg Nom @dep #1->
+	"Kvam" N Prop Sem/Sur Sg Nom @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Kvam>"
-	"Kvam" N Prop Sem/Sur Sg Nom @dep #3->
+	"Kvam" N Prop Sem/Sur Sg Nom @nsubj #3->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->6
 "<ein>"
 	"eitt" Num Fem Sg Nom @nummod #5->6
 "<kommuna>"
-	"kommuna" N Fem Sg Nom Indef @dep #6->
+	"kommuna" N Fem Sg Nom Indef @parataxis #6->1
 "<í>"
 	"í" Pr @case #7->8
 "<Hordalandi>"
-	"Hordaland" N Prop Neu Sg Dat Indef @nmod #8->
+	"Hordaland" N Prop Neu Sg Dat Indef @obl #8->6
 "<í>"
 	"í" Pr @case #9->10
 "<Noregi>"
-	"Noreg" N Prop Neu Sg Dat Indef @nmod #10->
+	"Noreg" N Prop Neu Sg Dat Indef @obl #10->6
 "<.>"
-	"." CLB @punct #11->
+	"." CLB @punct #11->6
 
-# text = Jondal (kommuna): Jondal er ein kommuna í Hordalandi í Noregi.
+# text = Jondal: Jondal er ein kommuna í Hordalandi í Noregi.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Jondal>"
-	"Jondal" N Prop Sem/Plc Sg Nom @dep #1->
-"<(>"
-	"(" PUNCT LEFT @punct #2->
-"<kommuna>"
-	"kommuna" N Fem Sg Nom Indef @dep #3->
-"<)>"
-	")" PUNCT RIGHT @punct #4->
+	"Jondal" N Prop Sem/Sur Sg Nom @root #1->0
 "<:>"
-	":" CLB @punct #5->
+	":" CLB @punct #2->1
 "<Jondal>"
-	"Jondal" N Prop Sem/Plc Sg Nom @dep #6->
+	"Jondal" N Prop Sem/Sur Sg Nom @nsubj #3->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #7->
+	"vera" V Ind Prs Sg3 @cop #4->6
 "<ein>"
-	"eitt" Num Fem Sg Nom @nummod #8->9
+	"eitt" Num Fem Sg Nom @nummod #5->6
 "<kommuna>"
-	"kommuna" N Fem Sg Nom Indef @dep #9->
+	"kommuna" N Fem Sg Nom Indef @parataxis #6->1
 "<í>"
-	"í" Pr @case #10->11
+	"í" Pr @case #7->8
 "<Hordalandi>"
-	"Hordaland" N Prop Neu Sg Dat Indef @nmod #11->
+	"Hordaland" N Prop Neu Sg Dat Indef @obl #8->6
 "<í>"
-	"í" Pr @case #12->13
+	"í" Pr @case #9->10
 "<Noregi>"
-	"Noreg" N Prop Neu Sg Dat Indef @nmod #13->
+	"Noreg" N Prop Neu Sg Dat Indef @obl #10->6
 "<.>"
-	"." CLB @punct #14->
+	"." CLB @punct #11->6
 
 # text = Fyrisitingin hjá Odda kommunu er í býnum við sama navni.
 # text[eng] = 
 # labels = to_check incomplete
 "<Fyrisitingin>"
-	"fyrisiting" N Fem Sg Nom Def @dep #1->
+	"fyrisiting" N Fem Sg Nom Def @nsubj #1->7
 "<hjá>"
 	"hjá" Pr @case #2->3
 "<Odda>"
-	"oddi" N Msc Sg Dat Indef @nmod #3->
+	"oddi" N Msc Sg Dat Indef @nmod:poss #3->1
 "<kommunu>"
-	"kommuna" N Fem Sg Dat Indef @dep #4->
+	"kommuna" N Fem Sg Dat Indef @compound #4->3
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #5->
+	"vera" V Ind Prs Sg3 @cop #5->7
 "<í>"
 	"í" Pr @case #6->7
 "<býnum>"
-	"býur" N Msc Pl Dat Def @nmod #7->
+	"býur" N Msc Pl Dat Def @root #7->0
 "<við>"
-	"við" Pr @case #8->
+	"við" Pr @case #8->10
 "<sama>"
 	"samur" A Neu Sg Dat Def @amod #9->10
 "<navni>"
-	"navn" N Neu Sg Dat Indef @nmod #10->
+	"navn" N Neu Sg Dat Indef @obl #10->7
 "<.>"
-	"." CLB @punct #11->
+	"." CLB @punct #11->7
 
 # text = Ullensvang: Ullensvang er ein kommuna í Hordalandi í Noregi.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Ullensvang>"
-	"Ullensvang" N Prop Sem/Sur Sg Nom @dep #1->
+	"Ullensvang" N Prop Sem/Sur Sg Nom @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Ullensvang>"
-	"Ullensvang" N Prop Sem/Sur Sg Nom @dep #3->
+	"Ullensvang" N Prop Sem/Sur Sg Nom @nsubj #3->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->6
 "<ein>"
 	"eitt" Num Fem Sg Nom @nummod #5->6
 "<kommuna>"
-	"kommuna" N Fem Sg Nom Indef @dep #6->
+	"kommuna" N Fem Sg Nom Indef @parataxis #6->1
 "<í>"
 	"í" Pr @case #7->8
 "<Hordalandi>"
-	"Hordaland" N Prop Neu Sg Dat Indef @nmod #8->
+	"Hordaland" N Prop Neu Sg Dat Indef @obl #8->6
 "<í>"
 	"í" Pr @case #9->10
 "<Noregi>"
-	"Noreg" N Prop Neu Sg Dat Indef @nmod #10->
+	"Noreg" N Prop Neu Sg Dat Indef @obl #10->6
 "<.>"
-	"." CLB @punct #11->
+	"." CLB @punct #11->6
 
 # text = Eidfjord (kommuna): Eidfjord er ein kommuna í Hordalandi í Noregi.
-# text[eng] = 
-# labels = to_check incomplete
+# text[eng] =
+# labels = to_check
 "<Eidfjord>"
-	"Eidfjord" N Prop Sem/Plc Sg Nom @dep #1->
+        "Eidfjord" N Prop Sem/Plc Sg Nom @root #1->0
 "<(>"
-	"(" PUNCT LEFT @punct #2->
+        "(" PUNCT LEFT @punct #2->3
 "<kommuna>"
-	"kommuna" N Fem Sg Nom Indef @dep #3->
+        "kommuna" N Fem Sg Nom Indef @appos #3->1
 "<)>"
-	")" PUNCT RIGHT @punct #4->
+        ")" PUNCT RIGHT @punct #4->3
 "<:>"
-	":" CLB @punct #5->
+        ":" CLB @punct #5->1
 "<Eidfjord>"
-	"Eidfjord" N Prop Sem/Plc Sg Nom @dep #6->
+        "Eidfjord" N Prop Sem/Plc Sg Nom @nsubj #6->9
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #7->
+        "vera" V Ind Prs Sg3 @cop #7->9
 "<ein>"
-	"eitt" Num Fem Sg Nom @nummod #8->9
+        "eitt" Num Fem Sg Nom @nummod #8->9
 "<kommuna>"
-	"kommuna" N Fem Sg Nom Indef @dep #9->
+        "kommuna" N Fem Sg Nom Indef @parataxis #9->1
 "<í>"
-	"í" Pr @case #10->11
+        "í" Pr @case #10->11
 "<Hordalandi>"
-	"Hordaland" N Prop Neu Sg Dat Indef @nmod #11->
+        "Hordaland" N Prop Neu Sg Dat Indef @obl #11->9
 "<í>"
-	"í" Pr @case #12->13
+        "í" Pr @case #12->13
 "<Noregi>"
-	"Noreg" N Prop Neu Sg Dat Indef @nmod #13->
+        "Noreg" N Prop Neu Sg Dat Indef @obl #13->9
 "<.>"
-	"." CLB @punct #14->
+        "." CLB @punct #14->9
 
 # text = Ulvik (kommuna): Ulvik er ein kommuna í Hordalandi í Noregi.
-# text[eng] = 
-# labels = to_check incomplete
+# text[eng] =
+# labels = to_check
 "<Ulvik>"
-	"Ulvik" N Prop Sem/Plc Sg Nom @dep #1->
+        "Ulvik" N Prop Sem/Plc Sg Nom @root #1->0
 "<(>"
-	"(" PUNCT LEFT @punct #2->
+        "(" PUNCT LEFT @punct #2->3
 "<kommuna>"
-	"kommuna" N Fem Sg Nom Indef @dep #3->
+        "kommuna" N Fem Sg Nom Indef @appos #3->1
 "<)>"
-	")" PUNCT RIGHT @punct #4->
+        ")" PUNCT RIGHT @punct #4->3
 "<:>"
-	":" CLB @punct #5->
+        ":" CLB @punct #5->1
 "<Ulvik>"
-	"Ulvik" N Prop Sem/Plc Sg Nom @dep #6->
+        "Ulvik" N Prop Sem/Plc Sg Nom @nsubj #6->9
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #7->
+        "vera" V Ind Prs Sg3 @cop #7->9
 "<ein>"
-	"eitt" Num Fem Sg Nom @nummod #8->9
+        "eitt" Num Fem Sg Nom @nummod #8->9
 "<kommuna>"
-	"kommuna" N Fem Sg Nom Indef @dep #9->
+        "kommuna" N Fem Sg Nom Indef @parataxis #9->1
 "<í>"
-	"í" Pr @case #10->11
+        "í" Pr @case #10->11
 "<Hordalandi>"
-	"Hordaland" N Prop Neu Sg Dat Indef @nmod #11->
+        "Hordaland" N Prop Neu Sg Dat Indef @obl #11->9
 "<í>"
-	"í" Pr @case #12->13
+        "í" Pr @case #12->13
 "<Noregi>"
-	"Noreg" N Prop Neu Sg Dat Indef @nmod #13->
+        "Noreg" N Prop Neu Sg Dat Indef @obl #13->9
 "<.>"
-	"." CLB @punct #14->
+        "." CLB @punct #14->9
 
 # text = Granvin (kommuna): Granvin er ein kommuna í Hordalandi í Noregi.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Granvin>"
-	"Granvin" N Prop Sem/Plc Sg Nom @dep #1->
+	"Granvin" N Prop Sem/Plc Sg Nom @root #1->0
 "<(>"
-	"(" PUNCT LEFT @punct #2->
+	"(" PUNCT LEFT @punct #2->3
 "<kommuna>"
-	"kommuna" N Fem Sg Nom Indef @dep #3->
+	"kommuna" N Fem Sg Nom Indef @appos #3->1
 "<)>"
-	")" PUNCT RIGHT @punct #4->
+	")" PUNCT RIGHT @punct #4->3
 "<:>"
-	":" CLB @punct #5->
+	":" CLB @punct #5->1
 "<Granvin>"
-	"Granvin" N Prop Sem/Plc Sg Nom @dep #6->
+	"Granvin" N Prop Sem/Plc Sg Nom @nsubj #6->9
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #7->
+	"vera" V Ind Prs Sg3 @cop #7->9
 "<ein>"
 	"eitt" Num Fem Sg Nom @nummod #8->9
 "<kommuna>"
-	"kommuna" N Fem Sg Nom Indef @dep #9->
+	"kommuna" N Fem Sg Nom Indef @parataxis #9->1
 "<í>"
 	"í" Pr @case #10->11
 "<Hordalandi>"
-	"Hordaland" N Prop Neu Sg Dat Indef @nmod #11->
+	"Hordaland" N Prop Neu Sg Dat Indef @obl #11->9
 "<í>"
 	"í" Pr @case #12->13
 "<Noregi>"
-	"Noreg" N Prop Neu Sg Dat Indef @nmod #13->
+	"Noreg" N Prop Neu Sg Dat Indef @obl #13->9
 "<.>"
-	"." CLB @punct #14->
+	"." CLB @punct #14->9
 
 # text = Tokelau: Tokelau er ein lítil oyggj í Kyrrahavi, sum hoyrir til Nýsæland.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Tokelau>"
-	"Tokelau" N Prop Sem/Plc Sg Nom @dep #1->
+	"Tokelau" N Prop Sem/Plc Sg Nom @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Tokelau>"
-	"Tokelau" N Prop Sem/Plc Sg Nom @dep #3->
+	"Tokelau" N Prop Sem/Plc Sg Nom @nsubj #3->7
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->7
 "<ein>"
-	"eitt" Num Fem Sg Nom @dep #5->
+	"ein" Det Fem Sg Nom @det #5->7
 "<lítil>"
 	"lítil" A Fem Sg Nom Indef @amod #6->7
 "<oyggj>"
-	"oyggj" N Fem Sg Nom Indef @dep #7->
+	"oyggj" N Fem Sg Nom Indef @parataxis #7->1
 "<í>"
 	"í" Pr @case #8->9
 "<Kyrrahavi>"
-	"Kyrrahav" N Prop Neu Sg Dat Indef @nmod #9->
+	"Kyrrahav" N Prop Neu Sg Dat Indef @obl #9->7
 "<,>"
-	"," CLB @punct #10->
+	"," CLB @punct #10->12
 "<sum>"
-	"sum" CS @dep #11->
+	"sum" Pron Rel @nsubj #11->12
 "<hoyrir>"
-	"hoyra" V Ind Prs Sg3 @dep #12->
+	"hoyra" V Ind Prs Sg3 @acl:relcl #12->7
 "<til>"
 	"til" Pr @case #13->14
 "<Nýsæland>"
-	"Nýsæland" N Prop Neu Sg Acc Indef @nmod #14->
+	"Nýsæland" N Prop Neu Sg Acc Indef @obl #14->12
 "<.>"
-	"." CLB @punct #15->
+	"." CLB @punct #15->7
 
 # text = Heine og Martin vóru systkinabørn og tiltiknir smiðir.
 # text[eng] = 
