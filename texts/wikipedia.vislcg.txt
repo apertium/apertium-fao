@@ -53,7 +53,7 @@
 	"." CLB @punct #7->6
 
 # text = Hetta var ein lítil meiriluti, sum kom at merkja samstarvið ímillum flokkarnar.
-# text[eng] = 
+# text[eng] = This was a slight majority, which marked the cooperation between the parties.
 # labels = to_check incomplete
 "<Hetta>"
 	"hesin" Pron Dem Neu Sg Nom @nsubj #1->5
@@ -195,7 +195,7 @@
 	"." CLB @punct #12->5
 
 # text = Hon er eisini størsta fiskivinnuhavnin í landinum.
-# text[eng] = It is the also biggest fishing port in the country.
+# text[eng] = It is also the biggest fishing port in the country.
 # labels = to_check
 "<Hon>"
 	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->5
@@ -317,7 +317,7 @@
 	"." CLB @punct #11->5
 
 # text = Oyggin er vøkur og har er nógvur heiðafuglur.
-# text[eng] = 
+# text[eng] = The island is beautiful and there is much of field bird.
 # labels = to_check
 "<Oyggin>"
 	"oyggj" N Fem Sg Nom Def @nsubj #1->3
@@ -339,7 +339,7 @@
 	"." CLB @punct #9->3
 
 # text = Í bygdini hoyrist songurin frá heiðafuglinum sjáldsama væl.
-# text[eng] = 
+# text[eng] = In the village you can hear the song of the field bird remarkably well.
 # labels = to_check disam incomplete
 "<Í>"
 	"í" Pr @case #1->2
@@ -377,7 +377,7 @@
 	"." CLB @punct #6->5
 
 # text = Nógv seyðahald er í oynni, og í Mikladals kommunu er eisini nógv neytahald.
-# text[eng] = 
+# text[eng] = Much sheep keeping is on the island, and in the municipality of Mikladal there is also much cattle keeping.
 # labels = to_check 
 "<Nógv>"
 	"nógvur" A Neu Pl Nom Indef @amod #1->2
@@ -427,7 +427,7 @@
 	"." CLB @punct #6->5
 
 # text = Hetta er eitt tiltak, ið er málrættað ferðavinnuni.
-# text[eng] = 
+# text[eng] = This is an initiative aimed at the tourist industry.
 # labels = to_check incomplete
 "<Hetta>"
 	"hesin" Pron Dem Neu Sg Acc @dep #1->
@@ -451,7 +451,7 @@
 	"." CLB @punct #10->
 
 # text = Í dag er fótbóltsvøllur, har Holið var.
-# text[eng] = 
+# text[eng] = Today there is a football field, where The Hole was. 
 # labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->2
@@ -473,7 +473,7 @@
 	"." CLB @punct #9->
 
 # text = Ferðasamband er 3 ferðir um vikuna, mikudag, fríggjadag og sunnudag.
-# text[eng] = 
+# text[eng] = Travel connection is 3 times a week, wednesday, friday and sunday.
 # labels = to_check disam
 "<Ferðasamband>"
 	"ferðasamband" N Neu Sg Nom Indef @nsubj #1->4
@@ -567,7 +567,7 @@
 	"." CLB @punct #9->2
 
 # text = Og har hevur hon ligið síðani.
-# text[eng] = 
+# text[eng] = And there she has laid since.
 # labels = to_check
 "<Og>"
 	"og" CC @cc #1->5
@@ -635,7 +635,7 @@
 	"." CLB @punct #9->6
 
 # text = Støðan, vit eru í, tá ið okkurt verður sagt, ávirkar nógv sniðið í orðingini.
-# text[eng] = 
+# text[eng] = The situation we are in, when something is said, greatly affects the wording.
 # labels = to_check incomplete
 "<Støðan>"
 	"støða" N Fem Sg Nom Def @dep #1->
@@ -673,7 +673,7 @@
 	"." CLB @punct #17->
 
 # text = Tey eru til dømis nær, hví, hvaðan, hvussu.
-# text[eng] = 
+# text[eng] = They are, for example, when, why, from where, how.
 # labels = to_check incomplete
 "<Tey>"
 	"tað" Pron Pers Pl3 Nom @nsubj #1->
@@ -755,7 +755,7 @@
 	"." CLB @punct #7->6
 
 # text = Fríggjadagur: Fríggjadagur er ein vikudagur.
-# text[eng] = 
+# text[eng] = Friday: Friday is a weekday.
 # labels = to_check 
 "<Fríggjadagur>"
 	"fríggjadagur" N Msc Sg Nom Indef @root #1->0
@@ -773,7 +773,7 @@
 	"." CLB @punct #7->6
 
 # text = Leygardagur: Leygardagur er ein vikudagur.
-# text[eng] = 
+# text[eng] = Saturday: Saturday is a weekday.
 # labels = to_check 
 "<Leygardagur>"
 	"leygardagur" N Msc Sg Nom Indef @root #1->0
@@ -791,7 +791,7 @@
 	"." CLB @punct #7->6
 
 # text = Sunnudagur: Sunnudagur er ein vikudagur.
-# text[eng] = 
+# text[eng] = Sunday: Sunday is a weekday.
 # labels = to_check 
 "<Sunnudagur>"
 	"sunnudagur" N Msc Sg Nom Indef @root #1->0
@@ -877,7 +877,7 @@
 	"." CLB @punct #15->6
 
 # text = Hetta er nesið, sum býtir sjálva havnina sundur.
-# text[eng] = 
+# text[eng] = This is the cape that splits the harbour.
 # labels = to_check disam incomplete
 "<Hetta>"
 	"hesin" Pron Dem Neu Sg Acc @dep #1->
@@ -901,7 +901,7 @@
 	"." CLB @punct #10->
 
 # text = Tað er ókeypis at brúka fótbóltsvøllirnar hjá Tórshavnar kommunu.
-# text[eng] = 
+# text[eng] = It is free to use the football fields in the municipality of Tórshavn.
 # labels = to_check
 "<Tað>"
 	"tað" Pron Pers Sg3 Nom @expl #1->3
@@ -941,7 +941,7 @@
 	"." CLB @punct #6->5
 
 # text = Starvið sum borgarstjóri er fulltíðarstarv.
-# text[eng] = 
+# text[eng] = The position as mayor is a full-time job.
 # labels = to_check incomplete
 "<Starvið>"
 	"starv" N Neu Sg Nom Def @dep #1->
@@ -1211,7 +1211,7 @@
 	"." CLB @punct #9->6
 
 # text = Norra er heimsmeistari í javnstøðu.
-# text[eng] = 
+# text[eng] = Norway is the world champion in equality.
 # labels = to_check
 "<Norra>"
 	"Norra" N Prop Sg Nom @nsubj #1->3
@@ -1227,7 +1227,7 @@
 	"." CLB @punct #6->3
 
 # text = Skøkjulevnaður er ólógligur í Norra.
-# text[eng] = 
+# text[eng] = Prostitution is illegal in Norway.
 # labels = to_check
 "<Skøkjulevnaður>"
 	"skøkjulevnað#ur" N Neu Sg Nom Indef @nsubj #1->3
@@ -1255,7 +1255,7 @@
 	"." CLB @punct #4->3
 
 # text = Meginparturin verður tískil fluttur út.
-# text[eng] = 
+# text[eng] = The greater part is therefore exported.
 # labels = to_check
 "<Meginparturin>"
 	"meginpartur" N Msc Sg Nom Def @nsubj #1->4
@@ -1271,7 +1271,7 @@
 	"." CLB @punct #6->4
 
 # text = Arbeiðaraflokkurin, Høgra og Framburðsflokkurin eru fyri leiting.
-# text[eng] = 
+# text[eng] = The Labour Party, The Conservative Party and The Progress Party are for exploration.
 # labels = to_check
 "<Arbeiðaraflokkurin>"
 	"Arbeiðaraflokkur" N Prop Sem/Org Msc Sg Nom Def @nsubj #1->8
@@ -1293,7 +1293,7 @@
 	"." CLB @punct #9->8
 
 # text = Tað er aling.
-# text[eng] = 
+# text[eng] = It is fish-breeding.
 # labels = to_check
 "<Tað>"
 	"tað" Pron Pers Sg3 Nom @nsubj #1->3
@@ -1305,7 +1305,7 @@
 	"." CLB @punct #4->3
 
 # text = Umleið 40 % av Noregi eru skógvaksin.
-# text[eng] = 
+# text[eng] = About 40% of Norway is wooded.
 # labels = checked
 "<Umleið>"
 	"umleið" Pr @case #1->2
@@ -1343,7 +1343,7 @@
 	"." CLB @punct #8->7
 
 # text = Seyður hevur altíð havt ómetaligan týdning fyri Ísland.
-# text[eng] = 
+# text[eng] = Sheep has always been tremendously important to Iceland. 
 # labels = to_check
 "<Seyður>"
 	"seyður" N Msc Sg Nom Indef @nsubj #1->4
@@ -1365,7 +1365,7 @@
 	"." CLB @punct #9->4
 
 # text = Leikluturin hjá íslendska forsetanum er symbolskur.
-# text[eng] = 
+# text[eng] = The role of the icelandic president is symbolic.
 # labels = to_check
 "<Leikluturin>"
 	"leiklutur" N Msc Sg Nom Def @nsubj #1->6
@@ -1383,7 +1383,7 @@
 	"." CLB @punct #7->6
 
 # text = Hon er í Keflavík, og er ein heimur fyri seg.
-# text[eng] = 
+# text[eng] = She is located in Keflavík, and is a world of its own.
 # labels = to_check incomplete
 "<Hon>"
 	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
@@ -1433,7 +1433,7 @@
 	"." CLB @punct #9->2
 
 # text = Í 2010 spældi Royn í 3. deild.
-# text[eng] = 
+# text[eng] = In 2010 Royn played in the 3. division.
 # labels = to_check
 "<Í>"
 	"í" Pr @case #1->2
@@ -1453,7 +1453,7 @@
 	"." CLB @punct #8->3
 
 # text = Eitt valskeið er fýra ár.
-# text[eng] = 
+# text[eng] = One election period is four years.
 # labels = to_check
 "<Eitt>"
 	"ein" Det Neu Sg Nom @det #1->2
@@ -1469,7 +1469,7 @@
 	"." CLB @punct #6->5
 
 # text = At skipa løgtingið.
-# text[eng] = 
+# text[eng] = Forming the parliament.
 # labels = to_check
 "<At>"
 	"at" IM @mark #1->2
@@ -1481,7 +1481,7 @@
 	"." CLB @punct #4->2
 
 # text = Hatta er mín veruleiki.
-# text[eng] = 
+# text[eng] = This is my reality.
 # labels = to_check
 "<Hatta>"
 	"hasin" Pron Neu Sg Nom @nsubj #1->4
@@ -1495,7 +1495,7 @@
 	"." CLB @punct #5->4
 
 # text = Hettar tosar til ungdómin og aðrar áhoyrarar.
-# text[eng] = 
+# text[eng] = This speaks to the youth and other listeners.
 # labels = to_check
 "<Hettar>"
 	"hesin" Pron Dem Neu Sg Nom @nsubj #1->2
