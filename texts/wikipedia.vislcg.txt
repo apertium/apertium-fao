@@ -17871,7 +17871,7 @@
 	"." CLB @punct #7->3
 
 # text = Mannfólkini eru í hvítum klæðum var trælabúnin.
-# text[eng] = 
+# text[eng] = The menfolk are in white clothes _.
 # labels = to_check incomplete
 "<Mannfólkini>"
 	"mannfólk" N Neu Pl Nom Def @dep #1->5
@@ -17892,29 +17892,29 @@
 
 # text = Tí heittu teir á føroyingar um at skriva tey niður.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Tí>"
-	"tí" CS @dep #1->2
+	"tí" CS @mark #1->2
 "<heittu>"
 	"heita" V Ind Prt Pl @root #2->0
 "<teir>"
-	"teir" Pron Pers Pl3 Msc Nom @nsubj #3->
+	"teir" Pron Pers Pl3 Msc Nom @nsubj #3->2
 "<á>"
 	"á" Pr @case #4->5
 "<føroyingar>"
-	"føroyingur" N Msc Pl Acc Indef @nmod #5->
+	"føroyingur" N Msc Pl Acc Indef @obl #5->2
 "<um>"
-	"um" Pr @case #6->
+	"um" Pr @mark #6->8
 "<at>"
-	"at" IM @dep #7->2
+	"at" IM @mark #7->8
 "<skriva>"
-	"skriva" V Inf @dep #8->2
+	"skriva" V Inf @advcl #8->2
 "<tey>"
-	"tað" Pron Pers Pl3 Acc @dep #9->2
+	"tað" Pron Pers Pl3 Acc @obj #9->8
 "<niður>"
-	"niður" Adv @dep #10->2
+	"niður" Adv @advmod #10->8
 "<.>"
-	"." CLB @punct #11->
+	"." CLB @punct #11->2
 
 # text = Tað er ikki sum fyrr.
 # text[eng] = It is not as before.
