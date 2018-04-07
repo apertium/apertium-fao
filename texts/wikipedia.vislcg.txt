@@ -16132,7 +16132,7 @@
 
 # text = Libanon var einaferð mentanar-, fíggjar- og handilsmiðdepilin í Miðeystri.
 # text[eng] = Lebanon was once the cultural, tax and economic centre in the Middle East.
-# labels = to_check disam incomplete
+# labels = to_check disam
 "<Libanon>"
 	"Libanon" N Prop Sem/Plc Sg Nom @nsubj #1->4
 "<var>"
@@ -16430,11 +16430,11 @@
 "<,>"
 	"," CLB @punct #7->10
 "<at>"
-	"at" CS @mark #8->
+	"at" CS @mark #8->10
 "<hann>"
 	"hann" Pron Pers Sg3 Msc Nom @nsubj #9->10
 "<súkklaði>"
-	"súkkla" V Ind Prt Sg @dep #10->
+	"súkkla" V Ind Prt Sg @dep #10->6
 "<í>"
 	"í" Pr @case #11->12
 "<kappingunum>"
