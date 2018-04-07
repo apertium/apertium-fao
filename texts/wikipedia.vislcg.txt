@@ -15848,7 +15848,7 @@
 "<.>"
 	"." CLB @punct #7->6
 
-# text = Nógvir sniglar eru tvíkynjaðir, tvs.
+# text = Nógvir sniglar eru tvíkynjaðir.
 # text[eng] = Some slugs are hermaphrodites.
 # labels = to_check incomplete
 "<Nógvir>"
