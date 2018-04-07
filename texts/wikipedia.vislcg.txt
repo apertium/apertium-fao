@@ -15686,7 +15686,7 @@
 
 # text = Pól spældi sum verjuleikari á A-landsliðnum.
 # text[eng] = Pól played as goalkeeper in the country's A-team.
-# labels = to_check incomplete
+# labels = to_check
 "<Pól>"
 	"Pól" N Prop Sem/Mal Sg Acc @nsubj #1->2
 "<spældi>"
@@ -15724,31 +15724,31 @@
 # text[eng] = 
 # labels = to_check incomplete
 "<Kári>"
-	"Kári" N Prop Sem/Mal Sg Nom @dep #1->
+	"Kári" N Prop Sem/Mal Sg Nom @nsubj #1->6
 "<á>"
 	"á" Pr @case #2->3
 "<Rógvi>"
-	"rógv" N Neu Sg Dat Indef @nmod #3->
+	"rógv" N Neu Sg Dat Indef @flat #3->1
 "<hevur>"
-	"hava" V Ind Prs Sg3 @aux #4->5
+	"hava" V Ind Prs Sg3 @aux #4->6
 "<verið>"
-	"vera" V Sup @cop #5->
+	"vera" V Sup @cop #5->6
 "<skrivari>"
-	"skrivari" N Msc Sg Nom Indef @dep #6->
+	"skrivari" N Msc Sg Nom Indef @root #6->0
 "<í>"
 	"í" Pr @case #7->8
 "<Grundlógarnevndini>"
-	"grundlóg#nevnd" N Fem Sg Dat Def @nmod #8->
+	"grundlóg#nevnd" N Fem Sg Dat Def @nmod #8->6
 "<og>"
-	"og" CC @cc #9->
+	"og" CC @cc #9->10
 "<næstformaður>"
-	"næstformaður" N Msc Sg Nom Indef @dep #10->
+	"næstformaður" N Msc Sg Nom Indef @conj #10->6
 "<í>"
 	"í" Pr @case #11->12
 "<Stýrisskipanarnevndini>"
-	"stýrisskipan#nevnd" N Fem Sg Dat Def @nmod #12->
+	"stýrisskipan#nevnd" N Fem Sg Dat Def @nmod #12->10
 "<.>"
-	"." CLB @punct #13->
+	"." CLB @punct #13->6
 
 # text = Høvuðsstaður er Kiel.
 # text[eng] = The capital is Kiel.
@@ -15850,7 +15850,7 @@
 
 # text = Nógvir sniglar eru tvíkynjaðir.
 # text[eng] = Some slugs are hermaphrodites.
-# labels = to_check incomplete
+# labels = to_check
 "<Nógvir>"
 	"nógvur" A Msc Pl Nom Indef @amod #1->2
 "<sniglar>"
@@ -15881,38 +15881,38 @@
 	"." CLB @punct #7->2
 
 # text = Svarti snigil er vanligur á graslendi í bø og haga, har skuggi er.
-# text[eng] = 
-# labels = to_check incomplete
+# text[eng] = Black snails are common in grasslands in fields and gardens, where shade is.
+# labels = to_check
 "<Svarti>"
 	"svartur" A Msc Sg Nom Def @amod #1->2
 "<snigil>"
-	"snigil" N Msc Sg Nom Indef @dep #2->
+	"snigil" N Msc Sg Nom Indef @nsubj #2->4
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #3->
+	"vera" V Ind Prs Sg3 @cop #3->4
 "<vanligur>"
-	"vanligur" A Msc Sg Nom Indef @dep #4->
+	"vanligur" A Msc Sg Nom Indef @root #4->0
 "<á>"
 	"á" Pr @case #5->6
 "<graslendi>"
-	"graslendi" N Neu Sg Dat Indef @nmod #6->
+	"graslendi" N Neu Sg Dat Indef @obl #6->4
 "<í>"
 	"í" Pr @case #7->8
 "<bø>"
-	"bøur" N Msc Sg Acc Indef @nmod #8->
+	"bøur" N Msc Sg Acc Indef @nmod #8->6
 "<og>"
-	"og" CC @cc #9->
+	"og" CC @cc #9->10
 "<haga>"
-	"hagi" N Msc Sg Acc Indef @dep #10->
+	"hagi" N Msc Sg Acc Indef @conj #10->8
 "<,>"
-	"," CLB @punct #11->
+	"," CLB @punct #11->14
 "<har>"
-	"har" Adv @dep #12->
+	"har" Adv @advmod #12->14
 "<skuggi>"
-	"skuggi" N Msc Sg Nom Indef @dep #13->
+	"skuggi" N Msc Sg Nom Indef @nsubj #13->14
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #14->
+	"vera" V Ind Prs Sg3 @acl:relcl #14->6
 "<.>"
-	"." CLB @punct #15->
+	"." CLB @punct #15->4
 
 # text = Meginparturin av fólkinum er katolikkar.
 # text[eng] = The majority of people are Catholics.
@@ -15978,7 +15978,7 @@
 "<tilburðum>"
 	"tilburður" N Msc Pl Dat Indef @nmod #6->
 "<í>"
-	"í" Pr @case #7->
+	"í" Pr @case #7->9
 "<stórum>"
 	"stórur" A Msc Sg Dat Indef @amod #8->9
 "<vøkstri>"
@@ -16010,39 +16010,39 @@
 
 # text = Har eru 32 lið við í NFL.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Har>"
-	"har" Adv @dep #1->
+	"har" Adv @root #1->0
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->1
 "<32>"
 	"32" Num Nom @nummod #3->4
 "<lið>"
-	"lið" N Neu Pl Nom Indef @dep #4->
+	"lið" N Neu Pl Nom Indef @nsubj #4->1
 "<við>"
-	"við" Pr @case #5->
+	"við" Pr @case #5->7
 "<í>"
 	"í" Pr @case #6->7
 "<NFL>"
-	"NFL" N ACR Dat @nmod #7->
+	"NFL" N ACR Dat @obl #7->1
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->1
 
 # text = Á tunguni eru smáar tenn.
-# text[eng] = 
-# labels = to_check disam incomplete
+# text[eng] = On the tongue are small teeth.
+# labels = to_check disam
 "<Á>"
 	"á" Pr @case #1->2
 "<tunguni>"
-	"tunga" N Fem Sg Dat Def @nmod #2->
+	"tunga" N Fem Sg Dat Def @root #2->0
 "<eru>"
-	"vera" V Ind Prs Pl @cop #3->
+	"vera" V Ind Prs Pl @cop #3->2
 "<smáar>"
-	"smáa" V Ind Prs Sg3 @dep #4->
+	"smáa" A Fem Pl Nom Indef @amod #4->5
 "<tenn>"
-	"tenna" V Imp Sg @dep #5->
+	"tonn" N Fem Pl Nom Indef @nsubj #5->2
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->2
 
 # text = Lættisoppar eru vanligir at síggja í fjøruni.
 # text[eng] = 
