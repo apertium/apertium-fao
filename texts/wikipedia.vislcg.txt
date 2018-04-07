@@ -14213,24 +14213,24 @@
 	"." CLB @punct #9->5
 
 # text = Montpelier er eisini minsti høvuðsstaðurin í USA.
-# text[eng] = 
+# text[eng] = Montpelier is only the smallest capital city in the USA.
 # labels = to_check incomplete
 "<Montpelier>"
-	"Montpelier" N Prop Sem/Plc Sg Nom @dep #1->
+	"Montpelier" N Prop Sem/Plc Sg Nom @nsubj #1->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->5
 "<eisini>"
-	"eisini" Adv @dep #3->
+	"eisini" Adv @advmod #3->5
 "<minsti>"
 	"lítil" A Superl Msc Sg Nom Def @amod #4->5
 "<høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @dep #5->
+	"høvuðsstaður" N Msc Sg Nom Def @root #5->0
 "<í>"
 	"í" Pr @case #6->7
 "<USA>"
-	"USA" N ACR Dat @nmod #7->
+	"USA" N ACR Dat @obl #7->5
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->5
 
 # text = Landsstýrið er hægsti umsitingarligi myndugleiki í Føroyum.
 # text[eng] = 
@@ -14254,31 +14254,31 @@
 
 # text = Til hetta var tónleikurin ov sýrutur.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check typo
 "<Til>"
-	"til" Pr @case #1->
+	"til" Pr @case #1->2
 "<hetta>"
-	"hesin" Pron Dem Neu Sg Acc @dep #2->
+	"hesin" Pron Dem Neu Sg Acc @root #2->0
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #3->
+	"vera" V Ind Prt Sg3 @cop #3->2
 "<tónleikurin>"
-	"tónleikur" N Msc Sg Nom Def @dep #4->
+	"tónleikur" N Msc Sg Nom Def @nsubj #4->2
 "<ov>"
-	"ov" Adv @dep #5->
+	"ov" Adv @dep #5->6
 "<sýrutur>"
-	"sýra#túrur" N Msc Sg Acc Indef @dep #6->
+	"sýra#túrur" N Msc Sg Acc Indef @nmod #6->4
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->2
 
 # text = Onki fólk býr har.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Onki>"
 	"onk" N Neu Sg Dat Indef @dep #1->2
 "<fólk>"
-	"fólk" N Neu Pl Acc Indef @dep #2->3
+	"fólk" N Neu Pl Acc Indef @nsubj #2->3
 "<býr>"
-	"búgva" V Ind Prs Sg3 @root #3->
+	"búgva" V Ind Prs Sg3 @root #3->0
 "<har>"
 	"har" Adv @advmod #4->3
 "<.>"
