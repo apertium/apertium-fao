@@ -69,4 +69,13 @@ xcomp(gjørdist, tingdagur)
 
 ### with postposed genitive 
 
+## Auxiliary verb constructions 
+
+### with "skula"
+
+### with "koma at"
+
+## Ellipsis
+
+Í 1995 luttók Bergtóra á Kvinnuráðstevnuni í Peking og í 2000 í New York.
 
