@@ -11400,9 +11400,9 @@
 "<Kanska>"
 	"kanska" Adv @dep #1->
 "<ein>"
-	"ein" Det Msc Sg Acc @det #2->
+	"ein" Det Msc Sg Acc @det #2->5
 "<stuttan>"
-	"stuttur" A Msc Sg Acc Indef @dep #3->
+	"stuttur" A Msc Sg Acc Indef @dep #3->5
 "<ófriðarligan>"
 	"ófriðarligur" A Msc Sg Acc Indef @amod #4->5
 "<blund>"
@@ -11410,19 +11410,19 @@
 "<,>"
 	"," CLB @punct #6->
 "<síðan>"
-	"síðan" Adv @dep #7->
+	"síðan" Adv @dep #7->12
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #8->
+	"vera" V Ind Prs Sg3 @cop #8->12
 "<býurin>"
-	"býur" N Msc Sg Nom Def @dep #9->
+	"býur" N Msc Sg Nom Def @dep #9->12
 "<aftur>"
-	"aftur" Adv @dep #10->
+	"aftur" Adv @dep #10->12
 "<á>"
 	"á" Pr @case #11->12
 "<fótum>"
-	"fótur" N Msc Pl Dat Indef @nmod #12->
+	"fótur" N Msc Pl Dat Indef @nmod #12->0
 "<.>"
-	"." CLB @punct #13->
+	"." CLB @punct #13->12
 
 # text = Býurin er í blóðinum.
 # text[eng] = The town is in the blood.
@@ -12412,7 +12412,7 @@
 
 # text = Fá fólk búgva í oyðimørkunum.
 # text[eng] = Few people live in the desert.
-# labels = to_check disam incomplete
+# labels = to_check disam
 "<Fá>"
 	"fáur" A Neu Pl Acc Indef @amod #1->2
 "<fólk>"
@@ -12696,7 +12696,7 @@
 
 # text = Gott buss og ferjusamband er millum oyggjarnar.
 # text[eng] = There are good bus and ferry connections between the islands.
-# labels = to_check disam typo incomplete
+# labels = to_check disam typo
 "<Gott>"
 	"góður" A Adv @amod #1->2
 "<buss>"
@@ -12977,10 +12977,10 @@
 	"." CLB @punct #10->6
 
 # text = Meginparturin av fólkinum eru muslimar og tala arábiskt.
-# text[eng] = The majority of the people are Muslim and _
-# labels = to_check incomplete
+# text[eng] = The majority of the people are Muslim and speak Arabic.
+# labels = to_check
 "<Meginparturin>"
-	"meginpartur" N Msc Sg Nom Def @dep #1->5
+	"meginpartur" N Msc Sg Nom Def @nsubj  #1->5
 "<av>"
 	"av" Pr @case #2->3
 "<fólkinum>"
@@ -12988,15 +12988,15 @@
 "<eru>"
 	"vera" V Ind Prs Pl @cop #4->5
 "<muslimar>"
-	"muslimur" N Msc Pl Nom Indef @dep #5->0
+	"muslimur" N Msc Pl Nom Indef @root #5->0
 "<og>"
-	"og" CC @cc #6->
+	"og" CC @cc #6->7
 "<tala>"
-	"tala" V Ind Prs Pl @conj #7->
+	"tala" V Ind Prs Pl @conj #7->5
 "<arábiskt>"
-	"arábiskur" A Neu Sg Nom Indef @dep #8->
+	"arábiskur" A Neu Sg Acc Indef @obj #8->7
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->5
 
 # text = Hann er størsti býur í Irak og miðdepil í fyrisiting og handli.
 # text[eng] = It is the biggest city in Iraq and the centre of administration and trade.
@@ -13980,23 +13980,23 @@
 
 # text = Málið er nú at nýta miðlarnar positivt.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Málið>"
-	"mál" N Neu Sg Nom Def @dep #1->
+	"mál" N Neu Sg Nom Def @nsubj #1->2
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @root #2->0
 "<nú>"
-	"nú" Adv @dep #3->
+	"nú" Adv @advmod #3->2
 "<at>"
-	"at" IM @dep #4->
+	"at" IM @mark #4->5
 "<nýta>"
-	"nýta" V Inf @dep #5->
+	"nýta" V Inf @ccomp #5->2
 "<miðlarnar>"
-	"miðil" N Msc Pl Acc Def @dep #6->
+	"miðil" N Msc Pl Acc Def @obj #6->5
 "<positivt>"
-	"positivur" A Neu Sg Acc Indef @dep #7->
+	"positivur" A Neu Sg Acc Indef @advmod #7->5
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->2
 
 # text = Námsvinna og smáir bóndagarðar hava altíð havt stóran týdning, og aðrar vinnur taka seg upp nú.
 # text[eng] = Mining and small farms have always had a great importance, and other industries are growing now. 
@@ -14210,7 +14210,7 @@
 
 # text = Montpelier er eisini minsti høvuðsstaðurin í USA.
 # text[eng] = Montpelier is only the smallest capital city in the USA.
-# labels = to_check incomplete
+# labels = to_check
 "<Montpelier>"
 	"Montpelier" N Prop Sem/Plc Sg Nom @nsubj #1->5
 "<er>"
@@ -14500,7 +14500,7 @@
 
 # text = Nakin? úr 1999 er onnur útgávan hjá tónleikabólkinum.
 # text[eng] = Nakin? from 1999 is another release by the group.
-# labels = to_check incomplete
+# labels = to_check
 "<Nakin?>"
 	"Nakin?" N Prop Sg Nom @nsubj #1->6
 "<úr>"
