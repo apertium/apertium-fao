@@ -14838,7 +14838,7 @@
 
 # text = Eisini fer fram dópur og tann heilaga kvøldmáltíð (altargangur).
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Eisini>"
 	"eisini" Adv @advmod #1->2
 "<fer>"
@@ -20928,43 +20928,43 @@
 
 # text = Tað eru trý sløg av veljarum.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->
+	"tað" Pron Pers Sg3 Nom @expl #1->2
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @root #2->0
 "<trý>"
 	"trý" Num Neu Sg Nom @nummod #3->4
 "<sløg>"
-	"slag" N Neu Pl Nom Indef @dep #4->
+	"slag" N Neu Pl Nom Indef @nsubj #4->2
 "<av>"
 	"av" Pr @case #5->6
 "<veljarum>"
-	"veljari" N Msc Pl Dat Indef @nmod #6->
+	"veljari" N Msc Pl Dat Indef @nmod #6->4
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->2
 
 # text = Tað eru 45 fastir nevndarsessir sum skulu mannast.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->
+	"tað" Pron Pers Sg3 Nom @expl #1->2
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @root #2->0
 "<45>"
-	"45" Num Nom @dep #3->
+	"45" Num Nom @nummod #3->5
 "<fastir>"
 	"fastur" A Msc Pl Nom Indef @amod #4->5
 "<nevndarsessir>"
-	"nevnd#sessur" N Msc Pl Nom Indef @dep #5->
+	"nevnd#sessur" N Msc Pl Nom Indef @nsubj #5->2
 "<sum>"
-	"sum" Pr @case #6->
+	"sum" Pron Rel @nsubj #6->8
 "<skulu>"
-	"skula" V Ind Prs Pl @dep #7->
+	"skula" V Ind Prs Pl @aux #7->8
 "<mannast>"
-	"manna" V Inf Pass @dep #8->
+	"manna" V Inf Pass @acl:relcl #8->5
 "<.>"
-	"." CLB @punct #9->
+	"." CLB @punct #9->2
 
 # text = Málið hjá kommununi er at gera umstøðurnar hjá fólki at búgva i so góðar sum møguligt.
 # text[eng] = 
@@ -24262,73 +24262,73 @@
 # text[eng] = 
 # labels = to_check incomplete
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->
+	"tað" Pron Pers Sg3 Nom @expl #1->6
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->6
 "<13>"
 	"13" Num Nom @nummod #3->4
 "<kommunur>"
-	"kommuna" N Fem Pl Nom Indef @dep #4->
+	"kommuna" N Fem Pl Nom Indef @nsubj #4->6
 "<í>"
 	"í" Pr @case #5->6
 "<landslutinum>"
-	"landslutur" N Msc Sg Dat Def @nmod #6->
+	"landslutur" N Msc Sg Dat Def @root #6->0
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Tað eru 65 kommunur í landslutinum.
 # text[eng] = 
 # labels = to_check incomplete
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->
+	"tað" Pron Pers Sg3 Nom @expl #1->6
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->6
 "<65>"
 	"65" Num Nom @nummod #3->4
 "<kommunur>"
-	"kommuna" N Fem Pl Nom Indef @dep #4->
+	"kommuna" N Fem Pl Nom Indef @nsubj #4->6
 "<í>"
 	"í" Pr @case #5->6
 "<landslutinum>"
-	"landslutur" N Msc Sg Dat Def @nmod #6->
+	"landslutur" N Msc Sg Dat Def @root #6->0
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Tað eru 12 kommunur í landslutinum.
 # text[eng] = 
 # labels = to_check incomplete
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->
+	"tað" Pron Pers Sg3 Nom @expl #1->6
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->6
 "<12>"
 	"12" Num Nom @nummod #3->4
 "<kommunur>"
-	"kommuna" N Fem Pl Nom Indef @dep #4->
+	"kommuna" N Fem Pl Nom Indef @nsubj #4->6
 "<í>"
 	"í" Pr @case #5->6
 "<landslutinum>"
-	"landslutur" N Msc Sg Dat Def @nmod #6->
+	"landslutur" N Msc Sg Dat Def @root #6->0
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Tað eru 24 kommunur í landslutinum.
 # text[eng] = 
 # labels = to_check incomplete
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->
+	"tað" Pron Pers Sg3 Nom @expl #1->6
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @cop #2->6
 "<24>"
 	"24" Num Nom @nummod #3->4
 "<kommunur>"
-	"kommuna" N Fem Pl Nom Indef @dep #4->
+	"kommuna" N Fem Pl Nom Indef @nsubj #4->6
 "<í>"
 	"í" Pr @case #5->6
 "<landslutinum>"
-	"landslutur" N Msc Sg Dat Def @nmod #6->
+	"landslutur" N Msc Sg Dat Def @root #6->0
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->6
 
 # text = Overijssel: Overijssel er ein landslutur í Niðurlondum.
 # text[eng] = 
@@ -24822,21 +24822,21 @@
 # text[eng] = 
 # labels = to_check incomplete
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->
+	"tað" Pron Pers Sg3 Nom @expl #1->7
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->7
 "<2,6>"
 	"2,6" Num Nom @nummod #3->4
 "<milliónir>"
-	"millión" N Fem Pl Nom Indef @dep #4->
-"<km>"
-	"km" Abbr @dep #5->
+	"millión" N Fem Pl Nom Indef @nummod #4->5
+"<km²>"
+	"km²" Abbr @nsubj #5->7
 "<í>"
 	"í" Pr @case #6->7
 "<vídd>"
-	"vídd" N Fem Sg Dat Indef @nmod #7->
+	"vídd" N Fem Sg Dat Indef @root #7->0
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->7
 
 # text = Í kanningini sæst eisini, at 90 prosent eru norðmenn.
 # text[eng] = 

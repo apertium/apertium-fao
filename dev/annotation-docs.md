@@ -85,7 +85,26 @@ xcomp(gjørdist, tingdagur)
 Í 1995 luttók Bergtóra á Kvinnuráðstevnuni í Peking og í 2000 í New York.
 
 ## Copula
-
+```
 Avleiðingar av ídnaðarkollveltingini eru at síggja allastaðni í dag.
 root(eru)
 ccomp(eru, síggja)
+```
+
+```
+Tað eru 6 kommunur í landslutinum.
+root(landslutinum)
+expl(landslutinum, Tað)
+cop(landslutinum, eru)
+nsubj(landslutinum, kommunur)
+```
+
+With elided locative we promote the copula:
+
+```
+Tað eru trý sløg av veljarum.
+root(eru)
+expl(eru, Tað)
+nsubj(eru, sløg)
+```
+
