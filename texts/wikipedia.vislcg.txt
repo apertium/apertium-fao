@@ -3624,7 +3624,7 @@
 "<omanfyri>"
 	"omanfyri" Pr @case #3->4
 "<bygdina>"
-	"bygd" N Fem Sg Acc Def @nmod #4->0
+	"bygd" N Fem Sg Acc Def @root #4->0
 "<og>"
 	"og" CC @cc #5->
 "<møguleiki>"
@@ -5154,7 +5154,7 @@
 "<)>"
 	")" PUNCT RIGHT @punct #7->6
 "<hevur>"
-	"hava" V Ind Prs Sg3 @dep #8->0
+	"hava" V Ind Prs Sg3 @root #8->0
 "<”>"
 	"”" PUNCT RIGHT @punct #9->10
 "<Glymur>"
@@ -7952,7 +7952,7 @@
 "<venjingarumstøður>"
 	"venjing#umstøður" N Fem Pl Nom Indef @nsubj #2->3
 "<vóru>"
-	"vera" V Ind Prt Pl @cop #3->0
+	"vera" V Ind Prt Pl @root #3->0
 "<at>"
 	"at" IM @mark #4->5
 "<byrja>"
@@ -7996,7 +7996,7 @@
 # text[eng] = 
 # labels = to_check
 "<Dagført>"
-	"dagføra" V Sup @dep #1->0
+	"dagføra" V Sup @root #1->0
 "<í>"
 	"í" Pr @case #2->3
 "<oktober>"
@@ -8286,7 +8286,7 @@
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #8->
 "<grasfløta>"
-	"grasfløta" N Fem Sg Nom Indef @dep #9->
+	"grasfløta" N Fem Sg Nom Indef @dep #9->0
 "<.>"
 	"." CLB @punct #10->
 
@@ -8330,53 +8330,53 @@
 
 # text = Ein triðingur av fólkinum stuðlaði bretum, ein triðingur var uttanveltaður, og ein triðingur var beinleiðis við í stríðnum fyri loysing.
 # text[eng] = 
-# labels = to_check disam incomplete
+# labels = to_check disam
 "<Ein>"
 	"ein" Det Msc Sg Nom @det #1->2
 "<triðingur>"
-	"triðingur" N Msc Sg Nom Indef @dep #2->
+	"triðingur" N Msc Sg Nom Indef @nsubj #2->5
 "<av>"
 	"av" Pr @case #3->4
 "<fólkinum>"
-	"fólk" N Neu Sg Dat Def @nmod #4->
+	"fólk" N Neu Sg Dat Def @nmod #4->2
 "<stuðlaði>"
-	"stuðla" V Ind Prt Sg @dep #5->
+	"stuðla" V Ind Prt Sg @root #5->0
 "<bretum>"
-	"breti" N Msc Pl Dat Indef @dep #6->
+	"breti" N Msc Pl Dat Indef @obl #6->5
 "<,>"
-	"," CLB @punct #7->
+	"," CLB @punct #7->11
 "<ein>"
 	"ein" Det Msc Sg Nom @det #8->9
 "<triðingur>"
-	"triðingur" N Msc Sg Nom Indef @dep #9->
+	"triðingur" N Msc Sg Nom Indef @nsubj #9->11
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #10->
+	"vera" V Ind Prt Sg3 @cop #10->11
 "<uttanveltaður>"
-	"uttanveltaður" A Msc Sg Nom Indef @dep #11->
+	"uttanveltaður" A Msc Sg Nom Indef @conj #11->5
 "<,>"
-	"," CLB @punct #12->
+	"," CLB @punct #12->17
 "<og>"
-	"og" CC @cc #13->
+	"og" CC @cc #13->17
 "<ein>"
 	"ein" Det Msc Sg Nom @det #14->15
 "<triðingur>"
-	"triðingur" N Msc Sg Nom Indef @dep #15->
+	"triðingur" N Msc Sg Nom Indef @nsubj #15->17
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #16->
+	"vera" V Ind Prt Sg3 @cop #16->17
 "<beinleiðis>"
-	"beinleiðis" Adv @dep #17->
+	"beinleiðis" Adv @conj #17->5
 "<við>"
-	"við" Pr @case #18->
+	"við" Pr @case #18->20
 "<í>"
 	"í" Pr @case #19->20
 "<stríðnum>"
-	"stríð" N Neu Pl Dat Def @nmod #20->
+	"stríð" N Neu Pl Dat Def @obl #20->17
 "<fyri>"
 	"fyri" Pr @case #21->22
 "<loysing>"
-	"loysing" N Fem Sg Dat Indef @nmod #22->
+	"loysing" N Fem Sg Dat Indef @obl #22->17
 "<.>"
-	"." CLB @punct #23->
+	"." CLB @punct #23->5
 
 # text = Lutirnir vóru so meinlíkir í útsjónd og sniði.
 # text[eng] = The colours were so striking in appearance and shape.
@@ -14677,7 +14677,7 @@
 	"." CLB @punct #9->3
 
 # text = Móses var aldur upp og lærdur sum tað sømdi seg einum egyptiskum prinsi.
-# text[eng] = Moses was grown up and learned _ himself to an Egyptian prince.
+# text[eng] = Moses was grown up and learned that befit an Egyptian prince.
 # labels = to_check incomplete
 "<Móses>"
 	"Móses" N Prop Sem/Mal Sg Nom @nsubj #1->3
@@ -14868,7 +14868,7 @@
 # text[eng] = 
 # labels = to_check
 "<Sjókýr>"
-	"sjókúgv" N Fem Pl Nom Indef #1->3
+	"sjókúgv" N Fem Pl Nom Indef @nsubj #1->3
 "<kunnu>"
 	"kunnu" V Ind Prs Pl @aux #2->3
 "<gerast>"
@@ -15217,22 +15217,22 @@
 	"." CLB @punct #5->4
 
 # text = Tað eru fleiri sløg av kappróðrarbátum.
-# text[eng] = 
-# labels = to_check incomplete
+# text[eng] = There are many types of racing boats.
+# labels = to_check
 "<Tað>"
-	"tað" Pron Pers Sg3 Nom @nsubj #1->
+	"tað" Pron Pers Sg3 Nom @expl #1->2
 "<eru>"
-	"vera" V Ind Prs Pl @cop #2->
+	"vera" V Ind Prs Pl @root #2->0
 "<fleiri>"
 	"mangur" A Cmp Neu Pl Nom Indef @amod #3->4
 "<sløg>"
-	"slag" N Neu Pl Nom Indef @dep #4->
+	"slag" N Neu Pl Nom Indef @nsubj #4->2
 "<av>"
 	"av" Pr @case #5->6
 "<kappróðrarbátum>"
-	"kappróðrarbátur" N Msc Pl Dat Indef @nmod #6->
+	"kappróðrarbátur" N Msc Pl Dat Indef @nmod #6->4
 "<.>"
-	"." CLB @punct #7->
+	"." CLB @punct #7->2
 
 # text = Kvinnurnar eru yvir 18 ár.
 # text[eng] = The women are over 18 years old.
@@ -15251,28 +15251,28 @@
 	"." CLB @punct #6->5
 
 # text = Róðrarbátur: Róðrarbátur er far til at rógva við.
-# text[eng] = 
-# labels = to_check incomplete
+# text[eng] = Rowing boat: Rowing boat is a vessel to row with.
+# labels = to_check
 "<Róðrarbátur>"
-	"róðrarbátur" N Msc Sg Nom Indef @dep #1->
+	"róðrarbátur" N Msc Sg Nom Indef @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Róðrarbátur>"
-	"róðrarbátur" N Msc Sg Nom Indef @dep #3->
+	"róðrarbátur" N Msc Sg Nom Indef @nsubj #3->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->5
 "<far>"
-	"far" N Neu Sg Nom Indef @dep #5->
+	"far" N Neu Sg Nom Indef @parataxis #5->1
 "<til>"
-	"til" Pr @case #6->
+	"til" Pr @case #6->8
 "<at>"
-	"at" IM @dep #7->
+	"at" IM @mark #7->8
 "<rógva>"
-	"rógva" V Inf @dep #8->
+	"rógva" V Inf @acl #8->5
 "<við>"
-	"við" Pr @case #9->
+	"við" Pr @case #9->8
 "<.>"
-	"." CLB @punct #10->
+	"." CLB @punct #10->5
 
 # text = Blóðið er mannablóð.
 # text[eng] = The blood is human blood.
@@ -18630,7 +18630,7 @@
 "<helst>"
 	"helst" Adv @advmod #3->4
 "<einsamallur>"
-	"einsamallur" A Msc Sg Nom Indef @advcmo #4->2
+	"einsamallur" A Msc Sg Nom Indef @advmod #4->2
 "<,>"
 	"," CLB @punct #5->9
 "<tó>"
@@ -23840,7 +23840,7 @@
 "<hættir>"
 	"háttur" N Msc Pl Nom Indef @nsubj #2->3
 "<eru>"
-	"vera" V Ind Prs Pl @cop #3->0
+	"vera" V Ind Prs Pl @root #3->0
 "<at>"
 	"at" IM @mark #4->5
 "<vísa>"
@@ -24818,9 +24818,9 @@
 "<.>"
 	"." CLB @punct #5->2
 
-# text = Tað er 2,6 milliónir km í vídd.
+# text = Tað er 2,6 milliónir km² í vídd.
 # text[eng] = 
-# labels = to_check incomplete
+# labels = to_check
 "<Tað>"
 	"tað" Pron Pers Sg3 Nom @expl #1->7
 "<er>"
@@ -28552,7 +28552,7 @@
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->3
 "<venjari>"
-	"venjari" N Msc Sg Nom Indef @dep #3->0
+	"venjari" N Msc Sg Nom Indef @root #3->0
 "<hjá>"
 	"hjá" Pr @case #4->6
 "<føroyska>"
