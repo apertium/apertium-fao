@@ -17870,11 +17870,11 @@
 "<.>"
 	"." CLB @punct #7->3
 
-# text = Mannfólkini eru í hvítum klæðum var trælabúnin.
-# text[eng] = The menfolk are in white clothes _.
+# text = Mannfólkini eru í hvítum klæðum.
+# text[eng] = The menfolk are in white clothes.
 # labels = to_check incomplete
 "<Mannfólkini>"
-	"mannfólk" N Neu Pl Nom Def @dep #1->5
+	"mannfólk" N Neu Pl Nom Def @nsubj #1->5
 "<eru>"
 	"vera" V Ind Prs Pl @cop #2->5
 "<í>"
@@ -17882,13 +17882,9 @@
 "<hvítum>"
 	"hvítur" A Neu Pl Dat Indef @amod #4->5
 "<klæðum>"
-	"klæði" N Neu Pl Dat Indef @nmod #5->0
-"<var>"
-	"vera" V Ind Prt Sg3 @cop #6->
-"<trælabúnin>"
-	"træl#búni" N Msc Sg Nom Def @dep #7->
+	"klæði" N Neu Pl Dat Indef @root #5->0
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #6->5
 
 # text = Tí heittu teir á føroyingar um at skriva tey niður.
 # text[eng] = 
