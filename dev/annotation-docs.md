@@ -84,3 +84,8 @@ xcomp(gjørdist, tingdagur)
 
 Í 1995 luttók Bergtóra á Kvinnuráðstevnuni í Peking og í 2000 í New York.
 
+## Copula
+
+Avleiðingar av ídnaðarkollveltingini eru at síggja allastaðni í dag.
+root(eru)
+ccomp(eru, síggja)
