@@ -14588,7 +14588,7 @@
 "<28,2-6>" 
 	"28,2-6" Num Dat @appos #4->3
 "<sigur>" 
-	"siga" V Ind Prs 3Sg @root #5->0
+	"siga" V Ind Prs Sg3 @root #5->0
 "<Dávid>" 
 	"Dávid" N Prop Sem/Mal Sg Acc @nsubj #6->5
 "<:>" 
@@ -14636,7 +14636,7 @@
 
 # text = Tinganest: Tinganest er ein føroyskur tónleikabólkur.
 # text[eng] = Tinganest: Tinganest is a Faroese music group.
-# labels = to_check incomplete
+# labels = to_check
 "<Tinganest>"
 	"Tinganest" N Prop Sg Nom @root #1->0
 "<:>"
@@ -14677,24 +14677,24 @@
 	"." CLB @punct #9->3
 
 # text = Móses var aldur upp og lærdur sum tað sømdi seg einum egyptiskum prinsi.
-# text[eng] = 
+# text[eng] = Moses was grown up and learned _ himself to an Egyptian prince.
 # labels = to_check incomplete
 "<Móses>"
-	"Móses" N Prop Sem/Mal Sg Nom @dep #1->
+	"Móses" N Prop Sem/Mal Sg Nom @nsubj #1->3
 "<var>"
-	"vera" V Ind Prt Sg3 @cop #2->
+	"vera" V Ind Prt Sg3 @cop #2->3
 "<aldur>"
-	"alda" N Fem Pl Nom Indef @dep #3->
+	"aldur" A Msc Sg Nom Indef @root #3->0
 "<upp>"
-	"upp" Adv @dep #4->
+	"upp" Adv @advmod #4->3
 "<og>"
-	"og" CC @cc #5->
+	"og" CC @cc #5->6
 "<lærdur>"
-	"lærdur" A Msc Sg Nom Indef @dep #6->
+	"lærdur" A Msc Sg Nom Indef @conj #6->3
 "<sum>"
 	"sum" Pr @case #7->8
 "<tað>"
-	"tað" Pron Pers Sg3 Acc @nmod #8->
+	"tað" Pron Pers Sg3 Nom @nmod #8->9
 "<sømdi>"
 	"søma" V Ind Prt Sg @dep #9->
 "<seg>"
@@ -14704,45 +14704,45 @@
 "<egyptiskum>"
 	"egyptiskur" A Msc Sg Dat Indef @amod #12->13
 "<prinsi>"
-	"prinsur" N Msc Sg Dat Indef @dep #13->
+	"prinsur" N Msc Sg Dat Indef @dep #13->9
 "<.>"
-	"." CLB @punct #14->
+	"." CLB @punct #14->3
 
 # text = Hetta kann vera orsøkin til, at hann drap egyptan, sum bardi hebraiskan mann.
-# text[eng] = 
-# labels = to_check incomplete
+# text[eng] = That can be why he killed the Egyptian, that beat the Hebrew man.
+# labels = to_check
 "<Hetta>"
-	"hesin" Pron Dem Neu Sg Nom @dep #1->
+	"hesin" Pron Dem Neu Sg Nom @nsubj #1->4
 "<kann>"
-	"kunna" V Ind Prs Sg3 @dep #2->
+	"kunna" V Ind Prs Sg3 @aux #2->4
 "<vera>"
-	"vera" V Inf @cop #3->
+	"vera" V Inf @cop #3->4
 "<orsøkin>"
-	"orsøk" N Fem Sg Nom Def @dep #4->
+	"orsøk" N Fem Sg Nom Def @root #4->0
 "<til>"
-	"til" Pr @case #5->
+	"til" Pr @case #5->9
 "<,>"
-	"," CLB @punct #6->
+	"," CLB @punct #6->9
 "<at>"
-	"at" CS @dep #7->
+	"at" CS @dep #7->9
 "<hann>"
-	"hann" Pron Pers Sg3 Msc Nom @nsubj #8->
+	"hann" Pron Pers Sg3 Msc Nom @nsubj #8->9
 "<drap>"
-	"drepa" V Ind Prt Sg3 @dep #9->
+	"drepa" V Ind Prt Sg3 @dep #9->4
 "<egyptan>"
-	"egypti" N Msc Sg Acc Def @dep #10->
+	"egypti" N Msc Sg Acc Def @obj #10->9
 "<,>"
-	"," CLB @punct #11->
+	"," CLB @punct #11->13
 "<sum>"
-	"sum" CS @dep #12->
+	"sum" Pron Rel @nsubj #12->13
 "<bardi>"
-	"berja" V Ind Prt Sg @dep #13->
+	"berja" V Ind Prt Sg @acl:relcl #13->10
 "<hebraiskan>"
 	"hebraiskur" A Msc Sg Acc Indef @amod #14->15
 "<mann>"
-	"maður" N Msc Sg Acc Indef @dep #15->
+	"maður" N Msc Sg Acc Indef @obj #15->13
 "<.>"
-	"." CLB @punct #16->
+	"." CLB @punct #16->4
 
 # text = Blóðið av lambinum var bjargingin.
 # text[eng] = The blood of the lamb was saved.
