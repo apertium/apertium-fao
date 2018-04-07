@@ -45,6 +45,9 @@ acl:cleft(Testamenti, lesa)
 
 ## Relative clause with "sum"
 
+## Other things with "sum"
+
+Pól spældi sum verjuleikari á A-landsliðnum.
 
 ## Relative clauses with "ið"
 
@@ -74,6 +77,8 @@ xcomp(gjørdist, tingdagur)
 ### with "skula"
 
 ### with "koma at"
+
+### with "byrja at"
 
 ## Ellipsis
 
