@@ -11547,7 +11547,7 @@
 	"." CLB @punct #4->3
 
 # text = Í 1994 játtaðu myndugleikarnir í Florida at bjarga mýrunum, ið eftir eru, og at gera aðrar mýrar.
-# text[eng] = 
+# text[eng] = In 1994 the authorities in Florida approved saving the swamps that are left, and create other swamps.
 # labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->
@@ -14615,7 +14615,7 @@
 	"." CLB @punct #8->4
 
 # text = Livir í sjógvi el. vatni í hitalondum.
-# text[eng] = 
+# text[eng] = Lives in the sea or water in the tropics.
 # labels = to_check incomplete
 "<Livir>"
 	"liva" V Ind Prs Sg3 @root #1->0
@@ -15349,7 +15349,7 @@
 	"." CLB @punct #5->4
 
 # text = Dúnungin líkist likkuunga.
-# text[eng] = 
+# text[eng] = The down feathers are like that of young gulls.
 # labels = to_check incomplete
 "<Dúnungin>"
 	"dúnungi" N Msc Sg Nom Def @dep #1->2
@@ -16065,7 +16065,7 @@
 	"." CLB @punct #8->3
 
 # text = Kræklingur er myrkabláur, mjáur framman og verður tjúkkari, sum aftur kemur.
-# text[eng] = 
+# text[eng] = The common mussel is dark blue, slim at the front and gets thicker towards the back.
 # labels = to_check incomplete
 "<Kræklingur>"
 	"kræklingur" N Msc Sg Nom Indef @dep #1->
@@ -16547,7 +16547,7 @@
 	":" CLB @punct #6->5
 
 # text = Støddin er sum á dúgvu.
-# text[eng] = 
+# text[eng] = The size is that of the pigeon.
 # labels = to_check incomplete
 "<Støddin>"
 	"stødd" N Fem Sg Nom Def @nsubj #1->5
@@ -16821,7 +16821,7 @@
 	"." CLB @punct #17->16
 
 # text = Bøgan vermir; fer hon av, so vermir steggin, til hon er aftur.
-# text[eng] = 
+# text[eng] = The female bird warms; if she leaves, the male bird will warm until she returns.
 # labels = to_check incomplete
 "<Bøgan>"
 	"bøga" N Fem Sg Nom Def @dep #1->2
@@ -18243,7 +18243,7 @@
 	"." CLB @punct #12->2
 
 # text = Mangir mongolar eru framúr kringir á rossabaki.
-# text[eng] = 
+# text[eng] = Many mongols are exceptionally agile on horseback.
 # labels = to_check incomplete
 "<Mangir>"
 	"mangur" A Msc Pl Nom Indef @amod #1->2
@@ -19339,7 +19339,7 @@
 	"." CLB @punct #4->3
 
 # text = So er tó ikki.
-# text[eng] = 
+# text[eng] = But this is not the case.
 # labels = to_check incomplete
 "<So>"
 	"so" Adv @dep #1->
@@ -19851,7 +19851,7 @@
 	"." CLB @punct #7->2
 
 # text = Ovasti politiski myndugleikin hjá Mentamálaráðnum er Mentamálaráðharrin.
-# text[eng] = 
+# text[eng] = The highest political authority in the Ministry of Culture is the Minister of Culture.
 # labels = to_check incomplete
 "<Ovasti>"
 	"ovasti" N Msc Sg Nom Indef @dep #1->
@@ -20897,7 +20897,7 @@
 	"." CLB @punct #11->10
 
 # text = Er støðan í dag enn, sum hon var tá?
-# text[eng] = 
+# text[eng] = Is the situation today still as it was then?
 # labels = to_check incomplete
 "<Er>"
 	"vera" V Ind Prs Sg3 @cop #1->
@@ -20963,7 +20963,7 @@
 	"." CLB @punct #9->2
 
 # text = Málið hjá kommununi er at gera umstøðurnar hjá fólki at búgva i so góðar sum møguligt.
-# text[eng] = 
+# text[eng] = The goal of the municipality is to make the conditions for the people to live in as good as possible.
 # labels = to_check incomplete
 "<Málið>"
 	"mál" N Neu Sg Nom Def @dep #1->
@@ -21001,7 +21001,7 @@
 	"." CLB @punct #17->
 
 # text = Í 1. stætti er kongurin, og í 2. stætti er aðalin og prestarnir.
-# text[eng] = 
+# text[eng] = The 1. social class is the King, and the 2. social class is the nobility and priests.
 # labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->
@@ -21035,7 +21035,7 @@
 	"." CLB @punct #15->
 
 # text = Í einum høggi varð høvdið av, og har gjørdist deyðatøgn.
-# text[eng] = 
+# text[eng] = With one cut the head was off, and there was silence.
 # labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->
@@ -21105,7 +21105,7 @@
 	"." CLB @punct #6->2
 
 # text = Og tá er tað, at kríggið byrjar.
-# text[eng] = 
+# text[eng] = And it is then that the war starts.
 # labels = to_check incomplete
 "<Og>"
 	"og" CC @cc #1->
@@ -21193,7 +21193,7 @@
 	"." CLB @punct #8->4
 
 # text = Sum tíðin leið, vórðu teir til menniskju.
-# text[eng] = 
+# text[eng] = As time passed they became human.
 # labels = to_check incomplete
 "<Sum>"
 	"sum" CS @dep #1->
@@ -21263,7 +21263,7 @@
 	"." CLB @punct #7->3
 
 # text = Tí breiðir oyðimørkin seg skjótt suðureftir.
-# text[eng] = 
+# text[eng] = That's why the desert spreads quickly southwards.
 # labels = to_check incomplete
 "<Tí>"
 	"tí" CS @dep #1->2
@@ -21419,7 +21419,7 @@
 	"." CLB @punct #12->1
 
 # text = Niðri í havnini eru kaffistovur.
-# text[eng] = 
+# text[eng] = Down at the harbour there are cafés.
 # labels = to_check incomplete
 "<Niðri>"
 	"niðri" Adv @dep #1->
@@ -21435,7 +21435,7 @@
 	"." CLB @punct #6->
 
 # text = Norðoya Sparikassi: Norðoya Sparikassi er ein sparikassi við høvuðssæti í Klaksvík.
-# text[eng] = 
+# text[eng] = Norðoya Sparikassi: Norðoya Sparikassi is a savings bank headquartered in Klaksvík.
 # labels = to_check incomplete
 "<Norðoya>"
 	"Norðoy" N Prop Fem Pl Gen Indef @dep #1->
@@ -22541,7 +22541,7 @@
 	"." CLB @punct #23->
 
 # text = Umsóknarfreistin er vanliga 15. desember.
-# text[eng] = 
+# text[eng] = The application deadline is typically 15. December.
 # labels = to_check incomplete
 "<Umsóknarfreistin>"
 	"umsókn#freist" N Fem Sg Nom Def @dep #1->
@@ -22923,7 +22923,7 @@
 	"." CLB @punct #12->6
 
 # text = Lidköping: Lidköping er ein býur í Lidköpings kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Lidköping: Lidköping is a city in the municipality of Lidköping in Sweden.
 # labels = to_check incomplete
 "<Lidköping>"
 	"Lidköping" N Prop Sem/Plc Sg Nom @dep #1->
@@ -22951,7 +22951,7 @@
 	"." CLB @punct #12->
 
 # text = Mariestad: Mariestad er ein býur í Mariestads kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Mariestad: Mariestad is a city in the municipality of Mariestad in Sweden.
 # labels = to_check incomplete
 "<Mariestad>"
 	"Mariestad" N Prop Sem/Sur Sg Nom @dep #1->
@@ -22979,7 +22979,7 @@
 	"." CLB @punct #12->
 
 # text = Falun: Falun er ein býur í Falu kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Falun: Falun is a city in the municipality of Falun in Sweden.
 # labels = to_check incomplete
 "<Falun>"
 	"Falun" N Prop Sem/Plc Sg Nom @dep #1->
@@ -23293,7 +23293,7 @@
 	"." CLB @punct #8->7
 
 # text = Meira enn helmingurin av bókunum vóru skaldsøgur.
-# text[eng] = 
+# text[eng] = More than half of the books were novels.
 # labels = to_check incomplete
 "<Meira>"
 	"meira" Adv @dep #1->
@@ -23363,7 +23363,7 @@
 	"." CLB @punct #8->7
 
 # text = var ein sjónvarpsrøð.
-# text[eng] = 
+# text[eng] = was a television series.
 # labels = to_check incomplete
 "<var>"
 	"vera" V Ind Prt Sg3 @cop #1->
@@ -23737,7 +23737,7 @@
 	"." CLB @punct #7->3
 
 # text = A er eitt sjálvljóð.
-# text[eng] = 
+# text[eng] = A is a vowel.
 # labels = to_check incomplete
 "<A>"
 	"A" Abbr @dep #1->
@@ -23791,7 +23791,7 @@
 	"." CLB @punct #7->4
 
 # text = Hon hevur eisini undirvíst á Fróðskaparsetri Føroya.
-# text[eng] = 
+# text[eng] = She has also taught at Fróðskaparsetur Føroya.
 # labels = to_check incomplete
 "<Hon>"
 	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
