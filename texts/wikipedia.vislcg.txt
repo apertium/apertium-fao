@@ -3258,7 +3258,7 @@
 
 # text = Tí er nógv arbeiði av at velta jørðina.
 # text[eng] = Therefore it requires much effort to cultivate the land.
-# labels = to_check incomplete
+# labels = to_check
 "<Tí>"
 	"tí" CS @mark #1->4
 "<er>"
@@ -4294,7 +4294,7 @@
 
 # text = Fólkatalið er í dag 102. 
 # text[eng] = The population today is 102.
-# labels = to_check incomplete
+# labels = to_check
 "<Fólkatalið>"
 	"fólkatal" N Neu Sg Nom Def @nsubj #1->5
 "<er>"
@@ -4722,7 +4722,7 @@
 
 # text = Um heystið vóru teir á sild.
 # text[eng] = In the autumn they tried to catch herring.
-# labels = to_check incomplete
+# labels = to_check
 "<Um>"
 	"um" Pr @case #1->2
 "<heystið>"
@@ -5136,7 +5136,7 @@
 "<.>"
 	"." CLB @punct #9->4
 
-# text = Bara ein uppskrift (úr Nólsoy) hevur” Glymur dansur í høll”.
+# text = Bara ein uppskrift (úr Nólsoy) hevur ”Glymur dansur í høll”.
 # text[eng] = 
 # labels = to_check disam incomplete
 "<Bara>"
@@ -5388,31 +5388,31 @@
 
 # text = Í Føroyum eru stak góðir møguleikar hjá vakshattum at standa seg.
 # text[eng] = In the Faroe Islands there is great opportunity for waxcaps to grow.
-# labels = to_check incomplete
+# labels = to_check
 "<Í>"
 	"í" Pr @case #1->2
 "<Føroyum>"
-	"Føroyar" N Prop Fem Pl Dat Indef @nmod #2->
+	"Føroyar" N Prop Fem Pl Dat Indef @obl #2->0
 "<eru>"
-	"vera" V Ind Prs Pl @cop #3->
+	"vera" V Ind Prs Pl @cop #3->6
 "<stak>"
-	"stak" N Neu Pl Nom Indef @dep #4->
+	"stak" Adv @advmod #4->6
 "<góðir>"
 	"góður" A Msc Pl Nom Indef @amod #5->6
 "<møguleikar>"
-	"møguleiki" N Msc Pl Nom Indef @dep #6->
+	"møguleiki" N Msc Pl Nom Indef @root #6->0
 "<hjá>"
 	"hjá" Pr @case #7->8
 "<vakshattum>"
 	"vakshattur" N Msc Pl Dat Indef @nmod #8->6
 "<at>"
-	"at" IM @dep #9->10
+	"at" IM @mark #9->10
 "<standa>"
-	"standa" V Inf @dep #10->
+	"standa" V Inf @csubj #10->6
 "<seg>"
-	"seg" Pron Refl Acc @dep #11->10
+	"seg" Pron Refl Acc @obj #11->10
 "<.>"
-	"." CLB @punct #12->
+	"." CLB @punct #12->6
 
 # text = Framleiðsla av alkoholum kann gerast á nógvar ymiskar mátar.
 # text[eng] = Production of alcohol can be done in many different ways.
@@ -5742,7 +5742,7 @@
 
 # text = Makrel: Makrel er ein føroyskur rokk tónleikabólkur.
 # text[eng] = Makrel: Makrel is a Faroese rock band.
-# labels = to_check incomplete
+# labels = to_check
 "<Makrel>"
 	"makrelur" N Msc Sg Nom Indef @root #1->0
 "<:>"
@@ -5818,7 +5818,7 @@
 
 # text = Men í 1986 var landið oyðilagt og á húsagangi.
 # text[eng] = But in 1986 the country was ruined and bankrupt.
-# labels = to_check incomplete
+# labels = to_check ellipsis incomplete
 "<Men>"
 	"men" CC @cc #1->6
 "<í>"
