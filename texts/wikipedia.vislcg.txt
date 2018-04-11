@@ -24542,47 +24542,47 @@
 
 # text = Filmurin er 19 minuttir langur.
 # text[eng] = The film is 19 minutes long.
-# labels = to_check incomplete
+# labels = to_check
 "<Filmurin>"
-	"filmur" N Msc Sg Nom Def @dep #1->
+	"filmur" N Msc Sg Nom Def @nsubj #1->5
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #2->
+	"vera" V Ind Prs Sg3 @cop #2->5
 "<19>"
 	"19" Num Nom @nummod #3->4
 "<minuttir>"
-	"minuttur" N Msc Pl Nom Indef @dep #4->
+	"minuttur" N Msc Pl Nom Indef @obl #4->5
 "<langur>"
-	"langur" A Msc Sg Nom Indef @dep #5->
+	"langur" A Msc Sg Nom Indef @root #5->0
 "<.>"
-	"." CLB @punct #6->
+	"." CLB @punct #6->5
 
 # text = Utrecht: Utrecht er ein býur og ein kommuna í Niðurlondum.
-# text[eng] = 
-# labels = to_check incomplete
+# text[eng] = Utrecht: Utrecht is a town and a commune in the Netherlands.
+# labels = to_check
 "<Utrecht>"
-	"Utrecht" N Prop Sem/Plc Sg Nom @dep #1->
+	"Utrecht" N Prop Sem/Plc Sg Nom @root #1->0
 "<:>"
-	":" CLB @punct #2->
+	":" CLB @punct #2->1
 "<Utrecht>"
-	"Utrecht" N Prop Sem/Plc Sg Nom @dep #3->
+	"Utrecht" N Prop Sem/Plc Sg Nom @nsubj #3->6
 "<er>"
-	"vera" V Ind Prs Sg3 @cop #4->
+	"vera" V Ind Prs Sg3 @cop #4->6
 "<ein>"
 	"ein" Det Msc Sg Nom @det #5->6
 "<býur>"
-	"býur" N Msc Sg Nom Indef @dep #6->
+	"býur" N Msc Sg Nom Indef @parataxis #6->1
 "<og>"
-	"og" CC @cc #7->
+	"og" CC @cc #7->9
 "<ein>"
 	"eitt" Num Fem Sg Nom @nummod #8->9
 "<kommuna>"
-	"kommuna" N Fem Sg Nom Indef @dep #9->
+	"kommuna" N Fem Sg Nom Indef @conj #9->6
 "<í>"
 	"í" Pr @case #10->11
 "<Niðurlondum>"
-	"Niðurlond" N Prop Neu Pl Dat Indef @nmod #11->
+	"Niðurlond" N Prop Neu Pl Dat Indef @obl #11->6
 "<.>"
-	"." CLB @punct #12->
+	"." CLB @punct #12->6
 
 # text = Móti eystri er eitt vatn ið nevnist.
 # text[eng] = To the east is a lake that is called.
