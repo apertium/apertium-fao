@@ -24093,7 +24093,7 @@
 	"." CLB @punct #12->6
 
 # text = Dordrecht: Dordrecht er ein býur og ein kommuna í Niðurlondum.
-# text[eng] = 
+# text[eng] = Dordrecht: Dordrecht is a city and a municipality in the Netherlands.
 # labels = to_check incomplete
 "<Dordrecht>"
 	"Dordrecht" N Prop Sem/Plc Sg Nom @dep #1->
@@ -24121,7 +24121,7 @@
 	"." CLB @punct #12->
 
 # text = Leiden: Leiden er ein býur og kommuna í landslutinum Suður Hollandi í Niðurlondum.
-# text[eng] = 
+# text[eng] = Leiden: Leiden is a city and a municipality in the province of South Holland in the Netherlands.
 # labels = to_check incomplete
 "<Leiden>"
 	"Leiden" N Prop Sem/Plc Sg Nom @dep #1->
@@ -24233,7 +24233,7 @@
 	"." CLB @punct #7->6
 
 # text = Zeeland: Zeeland er ein landslutur í Niðurlondum.
-# text[eng] = 
+# text[eng] = Zeeland: Zeeland is a province in the Netherlands.
 # labels = to_check incomplete
 "<Zeeland>"
 	"Zeeland" N Prop Neu Sg Nom Indef @dep #1->
@@ -24255,7 +24255,7 @@
 	"." CLB @punct #9->
 
 # text = Tað eru 13 kommunur í landslutinum.
-# text[eng] = 
+# text[eng] = There are 13 municipalities in the province.
 # labels = to_check incomplete
 "<Tað>"
 	"tað" Pron Pers Sg3 Nom @expl #1->6
@@ -24367,7 +24367,7 @@
 	"." CLB @punct #7->6
 
 # text = Í 2007 varð hon í útlegd í Afghanistan.
-# text[eng] = 
+# text[eng] = In 2007 she was exiled from Afghanistan.
 # labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->2
@@ -24403,7 +24403,7 @@
 	"." CLB @punct #5->2
 
 # text = Nauru: Nauru er oyggjaland í Kyrrahavi.
-# text[eng] = 
+# text[eng] = Nauru: Nauru is an island country in the Pacific Ocean.
 # labels = to_check incomplete
 "<Nauru>"
 	"Nauru" N Prop Sem/Plc Sg Nom @dep #1->
@@ -24463,7 +24463,7 @@
 	"." CLB @punct #7->6
 
 # text = Hann er nevndarlimur í Føroysk Filmsfólk.
-# text[eng] = 
+# text[eng] = He is a member of the committee of Føroysk Filmsfólk.
 # labels = to_check incomplete
 "<Hann>"
 	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
@@ -24481,7 +24481,7 @@
 	"." CLB @punct #7->
 
 # text = Í 2006 var hon eisini forkvinna í nevndini fyri Føroya Handilsskúla.
-# text[eng] = 
+# text[eng] = In 2006 she was also chairwoman of the committee of Føroya Handilsskúli.
 # labels = to_check incomplete
 "<Í>"
 	"í" Pr @case #1->
@@ -24541,7 +24541,7 @@
 	"." CLB @punct #6->5
 
 # text = Filmurin er 19 minuttir langur.
-# text[eng] = 
+# text[eng] = The film is 19 minutes long.
 # labels = to_check incomplete
 "<Filmurin>"
 	"filmur" N Msc Sg Nom Def @dep #1->
@@ -24585,7 +24585,7 @@
 	"." CLB @punct #12->
 
 # text = Móti eystri er eitt vatn ið nevnist.
-# text[eng] = 
+# text[eng] = To the east is a lake that is called.
 # labels = to_check incomplete
 "<Móti>"
 	"móti" Pr @case #1->2
@@ -24605,7 +24605,7 @@
 	"." CLB @punct #8->
 
 # text = Tannlæknar í Føroyum: Í Føroyum eru skúlatannlæknar og privatir tannlæknar.
-# text[eng] = 
+# text[eng] = Dentists in the Faroe Islands: In the Faroe Islands there are school dentists and private dentists.
 # labels = to_check incomplete
 "<Tannlæknar>"
 	"tannlækni" N Msc Pl Nom Indef @dep #1->
@@ -24643,7 +24643,7 @@
 	"!" CLB @punct #3->1
 
 # text = Hjarnar: Hjarnar var ein føroyskur tónleikabólkur úr Klaksvík.
-# text[eng] = 
+# text[eng] = Hjarnar: Hjarnar was a Faroese music band from Klaksvík.
 # labels = to_check incomplete
 "<Hjarnar>"
 	"hjarni" N Msc Pl Nom Indef @dep #1->
