@@ -4520,7 +4520,7 @@
 
 # text = Fyri eystan er Stóri Rivudalur: Har eru mong vøtn.
 # text[eng] = In the east is Stóri Rivudalur: There are many lakes.
-# labels = to_check incomplete
+# labels = to_check
 "<Fyri>"
 	"fyri" Pr @case #1->2
 "<eystan>"
@@ -5608,7 +5608,7 @@
 
 # text = Helium: Helium er eitt frumevni, ið hoyrir til bólkin óvirkin loftevni.
 # text[eng] = Helium: Helium is an element that pertains to the group of gases.
-# labels = to_check incomplete
+# labels = to_check
 "<Helium>"
 	"helium" N Neu Sg Nom Indef @root #1->0
 "<:>"
@@ -8170,7 +8170,7 @@
 "<Gunnar>"
 	"Gunnar" N Prop Sem/Mal Sg Nom @root #3->0
 "<Einarsson>"
-	"Einarsson" N Prop Sem/Mal Sg Nom Indef @flat  #4->3
+	"Einarsson" N Prop Sem/Mal Sg Nom Indef @flat #4->3
 "<.>"
 	"." CLB @punct #5->3
 
@@ -11542,53 +11542,53 @@
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->3
 "<Tallahassee>"
-	"Tallahassee" N Prop Sem/Plc Sg Nom @root  #3->0
+	"Tallahassee" N Prop Sem/Plc Sg Nom @root #3->0
 "<.>"
 	"." CLB @punct #4->3
 
 # text = Í 1994 játtaðu myndugleikarnir í Florida at bjarga mýrunum, ið eftir eru, og at gera aðrar mýrar.
 # text[eng] = In 1994 the authorities in Florida approved saving the swamps that are left, and create other swamps.
-# labels = to_check incomplete
+# labels = to_check
 "<Í>"
-	"í" Pr @case #1->
+	"í" Pr @case #1->2
 "<1994>"
-	"1994" Num Dat @dep #2->
+	"1994" Num Dat @obl #2->3
 "<játtaðu>"
-	"játta" V Ind Prt Pl @dep #3->
+	"játta" V Ind Prt Pl @root #3->0
 "<myndugleikarnir>"
-	"myndugleiki" N Msc Pl Nom Def @dep #4->
+	"myndugleiki" N Msc Pl Nom Def @nsubj #4->3
 "<í>"
 	"í" Pr @case #5->6
 "<Florida>"
-	"Florida" N Prop Sem/Fem Sg Nom @nmod #6->
+	"Florida" N Prop Sem/Fem Sg Nom @nmod #6->4
 "<at>"
-	"at" IM @dep #7->
+	"at" IM @mark #7->8
 "<bjarga>"
-	"bjarga" V Inf @dep #8->
+	"bjarga" V Inf @xcomp #8->3
 "<mýrunum>"
-	"mýra" N Fem Pl Dat Def @dep #9->
+	"mýra" N Fem Pl Dat Def @obj #9->8
 "<,>"
-	"," CLB @punct #10->
+	"," CLB @punct #10->12
 "<ið>"
-	"ið" CS @dep #11->
+	"ið" Pron Rel @nsubj #11->12
 "<eftir>"
-	"eftir" Pr @case #12->
+	"eftir" Adv @acl:relcl #12->9
 "<eru>"
-	"vera" V Ind Prs Pl @cop #13->
+	"vera" V Ind Prs Pl @cop #13->12
 "<,>"
-	"," CLB @punct #14->
+	"," CLB @punct #14->12
 "<og>"
-	"og" CC @cc #15->
+	"og" CC @cc #15->17
 "<at>"
-	"at" IM @dep #16->
+	"at" IM @mark #16->17
 "<gera>"
-	"gera" V Inf @dep #17->
+	"gera" V Inf @conj #17->8
 "<aðrar>"
 	"annar" A Fem Pl Acc @amod #18->19
 "<mýrar>"
-	"mýri" N Fem Pl Acc Indef @dep #19->
+	"mýri" N Fem Pl Acc Indef @obj #19->17
 "<.>"
-	"." CLB @punct #20->
+	"." CLB @punct #20->3
 
 # text = Ferðafólkavinnan hevur stóran týdning í Florida.
 # text[eng] = Tourism is very important in Florida.
@@ -12396,7 +12396,7 @@
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->3
 "<høvuðsstaðurin>"
-	"høvuðsstaður" N Msc Sg Nom Def @root  #3->0
+	"høvuðsstaður" N Msc Sg Nom Def @root #3->0
 "<og>"
 	"og" CC @cc #4->8
 "<Detroit>"
@@ -12980,7 +12980,7 @@
 # text[eng] = The majority of the people are Muslim and speak Arabic.
 # labels = to_check
 "<Meginparturin>"
-	"meginpartur" N Msc Sg Nom Def @nsubj  #1->5
+	"meginpartur" N Msc Sg Nom Def @nsubj #1->5
 "<av>"
 	"av" Pr @case #2->3
 "<fólkinum>"
@@ -14454,7 +14454,7 @@
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->3
 "<Bismarck>"
-	"Bismarck" N Prop Sem/Sur Sg Nom @root  #3->0
+	"Bismarck" N Prop Sem/Sur Sg Nom @root #3->0
 "<.>"
 	"." CLB @punct #4->3
 
@@ -15094,7 +15094,7 @@
 "<62>"
 	"62" Num Nom @nummod #3->4
 "<ár>"
-	"ár" N Neu Pl Nom Indef @root  #4->0
+	"ár" N Neu Pl Nom Indef @root #4->0
 "<.>"
 	"." CLB @punct #5->4
 
@@ -17048,7 +17048,7 @@
 # text[eng] = The average in the USA is 4.7 deaths for 100,000 inhabitants.
 # labels = to_check
 "<Miðaltalið>"
-	"miðaltal" N Neu Sg Nom Def @nsubj  #1->6
+	"miðaltal" N Neu Sg Nom Def @nsubj #1->6
 "<í>"
 	"í" Pr @case #2->3
 "<USA>"
@@ -18243,24 +18243,24 @@
 	"." CLB @punct #12->2
 
 # text = Mangir mongolar eru framúr kringir á rossabaki.
-# text[eng] = Many mongols are exceptionally agile on horseback.
-# labels = to_check incomplete
+# text[eng] = Many Mongolians are exceptionally agile on horseback.
+# labels = to_check
 "<Mangir>"
 	"mangur" A Msc Pl Nom Indef @amod #1->2
 "<mongolar>"
-	"mongoli" N Msc Pl Nom Indef @dep #2->
+	"mongoli" N Msc Pl Nom Indef @nsubj #2->5
 "<eru>"
-	"vera" V Ind Prs Pl @cop #3->
+	"vera" V Ind Prs Pl @cop #3->5
 "<framúr>"
-	"framúr" Adv @dep #4->
+	"framúr" Adv @advmod #4->5
 "<kringir>"
-	"kringur" A Msc Pl Nom Indef @dep #5->
+	"kringur" A Msc Pl Nom Indef @root #5->0
 "<á>"
 	"á" Pr @case #6->7
 "<rossabaki>"
-	"rossabak" N Neu Sg Dat Indef @nmod #7->
+	"rossabak" N Neu Sg Dat Indef @obl #7->5
 "<.>"
-	"." CLB @punct #8->
+	"." CLB @punct #8->5
 
 # text = Høvuðsstaðurin er nýggjur býur; farið varð at byggja hann í 1961. 
 # text[eng] = The capital is a new city; _
@@ -18334,7 +18334,7 @@
 "<Fruktagóða>"
 	"fruktagóður" A Neu Sg Nom Def @amod #1->2
 "<slættlendið>"
-	"slættlendi" N Neu Sg Nom Def @nsubj  #2->7
+	"slættlendi" N Neu Sg Nom Def @nsubj #2->7
 "<í>"
 	"í" Pr @case #3->4
 "<Punjab>"
@@ -25500,7 +25500,7 @@
 # text[eng] = 
 # labels = to_check
 "<Libreville>"
-	"Libreville" N Prop Sem/Plc Sg Nom @nsubj  #1->4
+	"Libreville" N Prop Sem/Plc Sg Nom @nsubj #1->4
 "<er>"
 	"vera" V Ind Prs Sg3 @cop #2->4
 "<bæði>"
