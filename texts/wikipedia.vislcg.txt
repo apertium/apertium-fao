@@ -24667,7 +24667,7 @@
 	"." CLB @punct #10->
 
 # text = Russarar eru ein meiriluti av umleið tveimum milliónum íbúgvum í Krim.
-# text[eng] = 
+# text[eng] = Russians are a majority of about two million residents in Crimea.
 # labels = to_check incomplete
 "<Russarar>"
 	"russari" N Msc Pl Nom Indef @dep #1->
@@ -24695,7 +24695,7 @@
 	"." CLB @punct #12->
 
 # text = Starvsmannafelagið: Starvsmannafelagið er eitt føroyskt fakfelag.
-# text[eng] = 
+# text[eng] = Starvsmannafelagið: Starvsmannafelagið is a Faroese union.
 # labels = to_check incomplete
 "<Starvsmannafelagið>"
 	"starvsmannafelag" N Neu Sg Nom Def @dep #1->
@@ -24727,7 +24727,7 @@
 	"." CLB @punct #4->2
 
 # text = Ójavnir, svartir blettir eru um síðurnar, á kápuni og kjálkunum.
-# text[eng] = 
+# text[eng] = Uneven, black spots are on the sides, on the gill cover and the cheeks.
 # labels = to_check incomplete
 "<Ójavnir>"
 	"ójavnur" A Msc Pl Nom Indef @dep #1->
@@ -25039,7 +25039,7 @@
 	"." CLB @punct #18->6
 
 # text = Har eru 32 lið við í NFL.
-# text[eng] = 
+# text[eng] = There are 32 teams in the NFL.
 # labels = to_check incomplete
 "<Har>"
 	"har" Adv @dep #1->
@@ -25189,7 +25189,7 @@
 	"." CLB @punct #11->6
 
 # text = Vejle: Vejle er ein býur í Suðurjútlandi í Danmark.
-# text[eng] = 
+# text[eng] = Vejle: Vejle is a city in Suðurjútland in Denmark.
 # labels = to_check incomplete
 "<Vejle>"
 	"Vejle" N Prop Sem/Plc Sg Nom @dep #1->
@@ -25429,7 +25429,7 @@
 	"." CLB @punct #4->3
 
 # text = Jarðleggurin breiðir seg nógv.
-# text[eng] = 
+# text[eng] = The rootstock spreads out much.
 # labels = to_check incomplete
 "<Jarðleggurin>"
 	"jarðleggur" N Msc Sg Nom Def @dep #1->2
@@ -27107,7 +27107,7 @@
 	"." CLB @punct #12->2
 
 # text = Tá ið streymur fer gjøgnum snælduna, noyðist hon at mala.
-# text[eng] = 
+# text[eng] = When current runs through the hand spindle it is forced to turn.
 # labels = to_check incomplete
 "<Tá ið>"
 	"tá ið" CS @dep #1->
@@ -27195,7 +27195,7 @@
 	"." CLB @punct #7->2
 
 # text = Hvølparnir eru fullvaksnir, tá ið teir eru uml. 10 vikur gamlir.
-# text[eng] = 
+# text[eng] = The cups are fully-grown when they are about 10 weeks old.
 # labels = to_check incomplete
 "<Hvølparnir>"
 	"hvølpur" N Msc Pl Nom Def @dep #1->
@@ -27319,7 +27319,7 @@
 	"." CLB @punct #8->4
 
 # text = Løgtingið er ovasti myndugleiki í Føroyum.
-# text[eng] = 
+# text[eng] = The Faroese Parliament is the highest authority in the Faroe Islands.
 # labels = to_check incomplete
 "<Løgtingið>"
 	"løgting" N Neu Sg Nom Def @dep #1->
@@ -27377,7 +27377,7 @@
 	"." CLB @punct #5->2
 
 # text = at stovnurin kom til at brúka meira enn játtanin loyvdi.
-# text[eng] = 
+# text[eng] = that the institution used more than the grant allowed.
 # labels = to_check incomplete
 "<at>"
 	"at" CS @dep #1->
@@ -28511,7 +28511,7 @@
 	"." CLB @punct #9->4
 
 # text = Børkur Hanagleiv er ein føroysk teknirøð, sum Bergur skrivar og teknar.
-# text[eng] = 
+# text[eng] = Børkur Hanagleiv is a Faroese cartoon that Bergur writes and draws.
 # labels = to_check incomplete
 "<Børkur>"
 	"børka" N Fem Pl Nom Indef @dep #1->
@@ -28541,7 +28541,7 @@
 	"." CLB @punct #13->
 
 # text = Hann er venjari hjá føroyska U21 fótbóltslandsliðnum hjá monnum og hjá HB.
-# text[eng] = 
+# text[eng] = He is a coach for the Faroese U21 national football male team and for HB.
 # labels = to_check incomplete
 "<Hann>"
 	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->3
@@ -28707,7 +28707,7 @@
 	"." CLB @punct #6->3
 
 # text = Til eru 36 hjartarsløg.
-# text[eng] = 
+# text[eng] = There are 36 types of deer.
 # labels = to_check incomplete
 "<Til>"
 	"til" Pr @case #1->
@@ -29043,7 +29043,7 @@
 	"." CLB @punct #9->6
 
 # text = Er rotta í oynni, eru t.d. lundi og skrápur at kalla burtur.
-# text[eng] = 
+# text[eng] = If there is rat on the island the puffin or the shearwater as good as gone.
 # labels = to_check incomplete
 "<Er>"
 	"vera" V Ind Prs Sg3 @cop #1->
