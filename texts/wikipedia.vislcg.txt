@@ -9711,7 +9711,7 @@
 	"." CLB @punct #6->2
 
 # text = "Svaraði Gorpur gamal bóndi.
-# text[eng] = 
+# text[eng] = "Answered Gorpur old farmer.
 # labels = to_check incomplete
 "<">"
 	""" PUNCT @punct #1->
@@ -15161,7 +15161,7 @@
 	"." CLB @punct #15->7
 
 # text = Skaldsøga, sum strembar eftir at hugtaka lesaran við at fáa hann at nøtra av óhugna og spenningi.
-# text[eng] = 
+# text[eng] = A novel that endeavours to captivate the reader by getting him to tremble from horror and suspense.
 # labels = to_check incomplete
 "<Skaldsøga>"
 	"skaldsøga" N Fem Sg Nom Indef @dep #1->4
@@ -15721,7 +15721,7 @@
 	"." CLB @punct #5->2
 
 # text = Kári á Rógvi hevur verið skrivari í Grundlógarnevndini og næstformaður í Stýrisskipanarnevndini.
-# text[eng] = 
+# text[eng] = Kári á Rógvi has been secretary of Grundlógarnevndin and vice-president of Stýrisskipanarnevndin.
 # labels = to_check incomplete
 "<Kári>"
 	"Kári" N Prop Sem/Mal Sg Nom @nsubj #1->6
@@ -21359,7 +21359,7 @@
 	"." CLB @punct #4->3
 
 # text = Hon fekk í boðið at gerast landsliðsleikari fyri Pólland, men takkaði nei.
-# text[eng] = 
+# text[eng] = She was offered to be on the national Polish team, but declined.
 # labels = to_check incomplete
 "<Hon>"
 	"hon" Pron Pers Sg3 Fem Nom @nsubj #1->
@@ -21597,7 +21597,7 @@
 	"." CLB @punct #5->4
 
 # text = í 2100 fór at beina fyri møguleikunum at búleikast í oyggjarbólkinum í Indiska Havinum.
-# text[eng] = 
+# text[eng] = that in 2100 would eliminate the possibilities to live in the islands in the Indian Ocean.
 # labels = to_check incomplete
 "<í>"
 	"í" Pr @case #1->
@@ -21685,7 +21685,7 @@
 	"." CLB @punct #9->4
 
 # text = Allir, sum vóru við á ferðum Cooks, fingu stóra virðing fyri honum, og vórðu honum trúfastir.
-# text[eng] = 
+# text[eng] = All who accompanied Cook on his travels gained great respect for him and became loyal to him.
 # labels = to_check incomplete
 "<Allir>"
 	"allur" Det Msc Pl Nom Indef @det #1->
@@ -21773,7 +21773,7 @@
 	"." CLB @punct #6->5
 
 # text = Fiskimálaráðharrar í Føroyum: Fiskimálaráðharrin í Føroyum ella landsstýrismaðurin í fiskivinnumálum er limur í Føroya Landsstýri.
-# text[eng] = 
+# text[eng] = Fisheries Ministers in the Faroe Islands: The Fisheries Minister in the Faroe Islands or Minister of Fisheries and Maritime Affairs is a member of the Faroese Government.
 # labels = to_check incomplete
 "<Fiskimálaráðharrar>"
 	"fiskimálaráðharri" N Msc Pl Nom Indef @dep #1->
@@ -22007,7 +22007,7 @@
 	"." CLB @punct #7->4
 
 # text = Um brisið ikki framleiðir nóg nógv insulin, økist mongdin av glukosu í blóðinum.
-# text[eng] = 
+# text[eng] = If the pancreas doesn't produce enough insulin the amount of glucose in the blood increases.
 # labels = to_check incomplete
 "<Um>"
 	"um" Pr @dep #1->
@@ -22115,7 +22115,7 @@
 	"." CLB @punct #7->2
 
 # text = Fólkið er brúkarar í marknaði, har nógv er at velja ímillum.
-# text[eng] = 
+# text[eng] = The people are consumers in the market and there is much to choose between.
 # labels = to_check incomplete
 "<Fólkið>"
 	"fólk" N Neu Sg Nom Def @dep #1->
@@ -22215,7 +22215,7 @@
 	"." CLB @punct #7->4
 
 # text = Men í hitalondum er støðuveður í nógvar mánaðir.
-# text[eng] = 
+# text[eng] = But in the tropics there is settled weather for many months.
 # labels = to_check incomplete
 "<Men>"
 	"men" CC @cc #1->
@@ -22237,7 +22237,7 @@
 	"." CLB @punct #9->
 
 # text = Men aðrar hugsanir eru eisini.
-# text[eng] = 
+# text[eng] = But there are other opinions as well.
 # labels = to_check incomplete
 "<Men>"
 	"men" CC @cc #1->
@@ -22313,7 +22313,7 @@
 	"." CLB @punct #6->3
 
 # text = Tá ið tað er at tulka Jóhannesar opinbering sum heild, eru trý aðalevni.
-# text[eng] = 
+# text[eng] = When it comes to interpreting the Revelation of John there are three main topics.
 # labels = to_check incomplete
 "<Tá ið>"
 	"tá ið" CS @dep #1->
