@@ -1,6 +1,7 @@
 _	_	Acc	_	_	_	Case=Acc	_
 _	_	ACR	_	_	_	_	_
 _	_	Cmp	_	_	_	_	_
+_	_	Err/Orth	_	_	_	Typo=Yes_	_
 _	_	Cmpnd	_	_	_	_	_
 _	_	Dat	_	_	_	Case=Dat	_
 _	_	Def	_	_	_	Definite=Def	_
