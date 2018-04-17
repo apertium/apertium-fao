@@ -22401,7 +22401,7 @@
 	"." CLB @punct #7->3
 
 # text = Við virðing fyri mynd- og prentlistini er tíðarritið ein fagurfrøðilig heild á høgum stigi.
-# text[eng] = 
+# text[eng] = With respect for the visual and printing arts the journal is an aesthetic whole on a high level.
 # labels = to_check incomplete
 "<Við>"
 	"við" Pr @case #1->2
@@ -22435,7 +22435,7 @@
 	"." CLB @punct #15->
 
 # text = Á vestursíðuni er lendið grýtut og nógv sker liggja fram við strondini.
-# text[eng] = 
+# text[eng] = On the west side the terrain is stony and there is a lot of skerry along the shore.
 # labels = to_check incomplete
 "<Á>"
 	"á" Pr @case #1->2
@@ -22463,7 +22463,7 @@
 	"." CLB @punct #12->
 
 # text = Hann var til royndarvenjingar í norskum fótbólti-felagið var Sogndal.
-# text[eng] = 
+# text[eng] = He participated in tryouts in Norwegian football - the club was Sogndal.
 # labels = to_check incomplete
 "<Hann>"
 	"hann" Pron Pers Sg3 Msc Nom @nsubj #1->
@@ -22557,7 +22557,7 @@
 	"." CLB @punct #6->
 
 # text = Harafturat vóru starvslønir latnar 38 umsøkjarum.
-# text[eng] = 
+# text[eng] = In addition, grants were handed to 38 applicants.
 # labels = to_check incomplete
 "<Harafturat>"
 	"harafturat" Adv @dep #1->
@@ -22665,7 +22665,7 @@
 	"." CLB @punct #11->3
 
 # text = Tá verður svart hol.
-# text[eng] = 
+# text[eng] = Then it becomes a black hole.
 # labels = to_check incomplete
 "<Tá>"
 	"tá" Adv @dep #1->2
@@ -22851,7 +22851,7 @@
 	"." CLB @punct #7->4
 
 # text = Harav vóru 4 liðkappingar og 3 einstaklingakappingar.
-# text[eng] = 
+# text[eng] = Of these were 4 team competitions and 3 solo competitions.
 # labels = to_check incomplete
 "<Harav>"
 	"harav" Adv @dep #1->
@@ -22871,7 +22871,7 @@
 	"." CLB @punct #8->
 
 # text = Teir vóru fram úr kringir reiðmenn og góðir jarnsmiðir.
-# text[eng] = 
+# text[eng] = They were exceptionally agile horsemen og good blacksmiths.
 # labels = to_check incomplete
 "<Teir>"
 	"teir" Pron Pers Pl3 Msc Nom @nsubj #1->
@@ -23391,7 +23391,7 @@
 	"." CLB @punct #6->5
 
 # text = Nevndin ásetur sjálv sína fundarskipan.
-# text[eng] = 
+# text[eng] = The committee establishes its own order of business.
 # labels = to_check incomplete
 "<Nevndin>"
 	"nevnd" N Fem Sg Nom Def @dep #1->2
@@ -23509,7 +23509,7 @@
 	"." CLB @punct #14->3
 
 # text = Tá dámar t.d. kópunum at bólta sær á ísinum.
-# text[eng] = 
+# text[eng] = Then e.g. the seals like to roll about on the ice.
 # labels = to_check incomplete
 "<Tá>"
 	"tá" Adv @dep #1->2
@@ -23591,7 +23591,7 @@
 	"." CLB @punct #7->3
 
 # text = Men tað var av tilvild, at portugisarnir, sum kannaðu vestursíðuna av Afrika endaðu á Madeira.
-# text[eng] = 
+# text[eng] = But it was accidental that the portuguese, who explored the west side of Africa, ended up in Madeira.
 # labels = to_check incomplete
 "<Men>"
 	"men" CC @cc #1->
