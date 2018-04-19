@@ -5935,7 +5935,7 @@
 	"." CLB @punct #7->6
 
 # text = Kyndilsmessa var upprunaliga ein Mariumessa til minnis um at Maria vitjaði í halgidóminum 40 dagar aftan á føðingina, sum siður var hjá jødiskum konum tá í tíðini.
-# text[eng] = 
+# text[eng] = Candlemass was originally a Lady Day to remember when Mary visited in the sanctuary 40 days after the birth, as was the custom of jewish women at that time.
 # labels = to_check incomplete
 "<Kyndilsmessa>"
 	"kyndilsmessa" N Fem Sg Nom Indef @dep #1->5
@@ -22491,7 +22491,7 @@
 	"." CLB @punct #12->
 
 # text = Fíggjarmálaráðharrar í Føroyum: Fíggjarmálaráðharrin ella "landsstýrismaðurin í fíggjarmálum" er ein týdningarmikil partur av Føroya Landsstýri og búskapinum hjá Føroyum.
-# text[eng] = 
+# text[eng] = Finance Ministers in the Faroe Islands: The Finance Minister in the Faroe Islands, or Minister of Finance, is an important part of The Faroese Government and the Faroese economy.
 # labels = to_check incomplete
 "<Fíggjarmálaráðharrar>"
 	"fíggjarmálaráðharri" N Msc Pl Nom Indef @dep #1->
@@ -23023,7 +23023,7 @@
 	"." CLB @punct #6->2
 
 # text = Boden: Boden er ein býur í Bodens kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Boden: Boden is a city in the municipality of Boden in Sweden.
 # labels = to_check incomplete
 "<Boden>"
 	"Boden" N Prop Sem/Plc Sg Nom @dep #1->
@@ -23051,7 +23051,7 @@
 	"." CLB @punct #12->
 
 # text = Trelleborg: Trelleborg er ein býur í Trelleborgs kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Trelleborg: Trelleborg is a city in the municipality of Trelleborg in Sweden.
 # labels = to_check incomplete
 "<Trelleborg>"
 	"Trelleborg" N Prop Sem/Plc Sg Nom @dep #1->
@@ -23079,7 +23079,7 @@
 	"." CLB @punct #12->
 
 # text = Ängelholm: Ängelholm er ein býur í Ängelholms kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Ängelholm: Ängelholm is a city in the municipality of Ängelholm in Sweden.
 # labels = to_check incomplete
 "<Ängelholm>"
 	"Ängelholm" N Prop Sem/Plc Sg Nom @dep #1->
@@ -23125,7 +23125,7 @@
 	"." CLB @punct #7->2
 
 # text = Oskarshamn: Oskarshamn er ein býur í Oskarshamns kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Oskarshamn: Oskarshamn is a city in the municipality of Oskarshamn in Sweden.
 # labels = to_check incomplete
 "<Oskarshamn>"
 	"Oskarshamn" N Prop Sem/Plc Sg Nom @dep #1->
@@ -23153,7 +23153,7 @@
 	"." CLB @punct #12->
 
 # text = Falkenberg: Falkenberg er ein býur í Falkenbergs kommunu í landslutinum Halland í Svøríki.
-# text[eng] = 
+# text[eng] = Falkenberg: Falkenberg is a city in the municipality of Falkenberg in the province of Halland in Sweden.
 # labels = to_check incomplete
 "<Falkenberg>"
 	"Falkenberg" N Prop Sem/Sur Sg Nom @dep #1->
@@ -23223,7 +23223,7 @@
 	"." CLB @punct #13->
 
 # text = Lindesberg: Lindesberg er ein býur í Lindesbergs kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Lindesberg: Lindesberg is a city in the municipality of Lindesberg in Sweden.
 # labels = to_check incomplete
 "<Lindesberg>"
 	"Lindesberg" N Prop Sem/Sur Sg Nom @dep #1->
@@ -23421,7 +23421,7 @@
 	"." CLB @punct #5->4
 
 # text = Filipstad: Filipstad er ein býur í Filipstads kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Filipstad: Filipstad is a city in the municipality of Filipstad in Sweden.
 # labels = to_check incomplete
 "<Filipstad>"
 	"Filipstad" N Prop Sem/Sur Sg Nom @dep #1->
@@ -23449,7 +23449,7 @@
 	"." CLB @punct #12->
 
 # text = Ystad: Ystad er ein býur í Ystads kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Ystad: Ystad is a city in the municipality of Ystad in Sweden.
 # labels = to_check incomplete
 "<Ystad>"
 	"Ystad" N Prop Sem/Sur Sg Nom @dep #1->
@@ -23631,7 +23631,7 @@
 	"." CLB @punct #18->
 
 # text = Skorpan liggur sum eitt skal uttanum kápuna.
-# text[eng] = 
+# text[eng] = The crust lies as a shell around the mantle.
 # labels = to_check incomplete
 "<Skorpan>"
 	"skorpa" N Fem Sg Nom Def @dep #1->2
@@ -24155,7 +24155,7 @@
 	"." CLB @punct #15->
 
 # text = Assen: Assen er ein býur og ein kommuna í Niðurlondum.
-# text[eng] = 
+# text[eng] = Assen: Assen is a city and a municipality in the Netherlands.
 # labels = to_check incomplete
 "<Assen>"
 	"Assen" N Prop Sem/Sur Sg Nom @dep #1->
@@ -24183,7 +24183,7 @@
 	"." CLB @punct #12->
 
 # text = Oss: Oss er ein býur og kommuna í landslutinum Noord-Brabant í Niðurlondum.
-# text[eng] = 
+# text[eng] = Oss: Oss is a city and a municipality in the province of Noord-Brabant in the Netherlands.
 # labels = to_check incomplete
 "<Oss>"
 	"Os" N Prop Sem/Plc Sg Gen @dep #1->
@@ -24273,7 +24273,7 @@
 	"." CLB @punct #7->6
 
 # text = Tað eru 65 kommunur í landslutinum.
-# text[eng] = 
+# text[eng] = There are 65 municipalities in the province.
 # labels = to_check incomplete
 "<Tað>"
 	"tað" Pron Pers Sg3 Nom @expl #1->6
@@ -24291,7 +24291,7 @@
 	"." CLB @punct #7->6
 
 # text = Tað eru 12 kommunur í landslutinum.
-# text[eng] = 
+# text[eng] = There are 12 municipalities in the province.
 # labels = to_check incomplete
 "<Tað>"
 	"tað" Pron Pers Sg3 Nom @expl #1->6
@@ -24309,7 +24309,7 @@
 	"." CLB @punct #7->6
 
 # text = Tað eru 24 kommunur í landslutinum.
-# text[eng] = 
+# text[eng] = There are 24 municipalities in the province.
 # labels = to_check incomplete
 "<Tað>"
 	"tað" Pron Pers Sg3 Nom @expl #1->6
@@ -24327,7 +24327,7 @@
 	"." CLB @punct #7->6
 
 # text = Overijssel: Overijssel er ein landslutur í Niðurlondum.
-# text[eng] = 
+# text[eng] = Overijssel: Overijssel is a province in the Netherlands.
 # labels = to_check incomplete
 "<Overijssel>"
 	"Overijssel" N Prop Sem/Plc Sg Nom @dep #1->
@@ -24423,7 +24423,7 @@
 	"." CLB @punct #8->
 
 # text = Gelderland: Gelderland er ein landslutur í Niðurlondum.
-# text[eng] = 
+# text[eng] = Gelderland: Gelderland is a province in the Netherlands.
 # labels = to_check incomplete
 "<Gelderland>"
 	"Gelderland" N Prop Neu Sg Nom Indef @dep #1->
@@ -25163,7 +25163,7 @@
 	"." CLB @punct #11->3
 
 # text = Kolding: Kolding er ein býur í Suðurjútlandi í Danmark.
-# text[eng] = 
+# text[eng] = Kolding: Kolding is a city in Suðurjútland in Denmark.
 # labels = to_check
 "<Kolding>"
 	"Kolding" N Prop Sem/Sur Sg Nom @root #1->0
@@ -25215,7 +25215,7 @@
 	"." CLB @punct #11->
 
 # text = Fredericia: Fredericia er ein býur í Suðurjútlandi í Danmark.
-# text[eng] = 
+# text[eng] = Fredericia: Fredericia is a city in Suðurjútland in Denmark.
 # labels = to_check incomplete
 "<Fredericia>"
 	"Fredericia" N Prop Sem/Fem Sg Nom @dep #1->
@@ -25241,7 +25241,7 @@
 	"." CLB @punct #11->
 
 # text = Hjørring: Hjørring er ein býur í Norðurjútlandi í Danmark.
-# text[eng] = 
+# text[eng] = Hjørring: Hjørring is a city in Norðurjútland in Denmark.
 # labels = to_check incomplete
 "<Hjørring>"
 	"Hjørring" N Prop Sem/Sur Sg Nom @dep #1->
@@ -25267,7 +25267,7 @@
 	"." CLB @punct #11->
 
 # text = Sønderborg: Sønderborg er ein býur í Suðurjútlandi í Danmark.
-# text[eng] = 
+# text[eng] = Sønderborg: Sønderborg is a city in Suðurjútland in Denmark.
 # labels = to_check incomplete
 "<Sønderborg>"
 	"Sønderborg" N Prop Sem/Plc Sg Nom @dep #1->
@@ -25293,7 +25293,7 @@
 	"." CLB @punct #11->
 
 # text = Tønder: Tønder er ein býur í Suðurjútlandi í Danmark.
-# text[eng] = 
+# text[eng] = Tønder: Tønder is a city in Suðurjútland in Denmark.
 # labels = to_check incomplete
 "<Tønder>"
 	"Tønder" N Prop Sem/Sur Sg Nom @dep #1->
@@ -25319,7 +25319,7 @@
 	"." CLB @punct #11->
 
 # text = Ribe: Ribe er ein býur í Suðurjútlandi í Danmark.
-# text[eng] = 
+# text[eng] = Ribe: Ribe is a city in Suðurjútland in Denmark.
 # labels = to_check incomplete
 "<Ribe>"
 	"Ribe" N Prop Sem/Plc Sg Nom @dep #1->
@@ -25345,7 +25345,7 @@
 	"." CLB @punct #11->
 
 # text = Als (býur): Als er ein býur í Norðurjútlandi í Danmark.
-# text[eng] = 
+# text[eng] = Als (city): Als is a city in Norðurjútland in Denmark.
 # labels = to_check incomplete
 "<Als>"
 	"Als" N Prop Sem/Plc Sg Nom @dep #1->
@@ -25377,7 +25377,7 @@
 	"." CLB @punct #14->
 
 # text = Roskilde: Roskilde er ein býur á Sjællandi í Danmark.
-# text[eng] = 
+# text[eng] = Roskilde: Roskilde is a city on Sjælland in Denmark.
 # labels = to_check incomplete
 "<Roskilde>"
 	"Roskilde" N Prop Sem/Plc Sg Nom @dep #1->
@@ -25443,7 +25443,7 @@
 	"." CLB @punct #5->
 
 # text = Skørping: Skørping er ein býur í Norðurjútlandi í Danmark.
-# text[eng] = 
+# text[eng] = Skørping: Skørping is a city in Norðurjútland in Denmark.
 # labels = to_check incomplete
 "<Skørping>"
 	"Skørping" N Prop Sem/Sur Sg Nom @dep #1->
@@ -25589,7 +25589,7 @@
 	"." CLB @punct #12->9
 
 # text = Limburg (Belgia): Limburg er ein landslutur í Belgia.
-# text[eng] = 
+# text[eng] = Limburg (Belgium): Limburg is a province in Belgium.
 # labels = to_check incomplete
 "<Limburg>"
 	"Limburg" N Prop Sem/Plc Sg Nom @dep #1->
@@ -25813,7 +25813,7 @@
 	"." CLB @punct #9->6
 
 # text = Kristinehamn: Kristinehamn er ein býur í Kristinehamns kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Kristinehamn: Kristinehamn is a city in the municipality of Kristinehamn in Sweden.
 # labels = to_check incomplete
 "<Kristinehamn>"
 	"Kristinehamn" N Prop Sem/Plc Sg Nom @dep #1->
@@ -25841,7 +25841,7 @@
 	"." CLB @punct #12->
 
 # text = Katrineholm: Katrineholm er ein býur í Katrineholms kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Katrineholm: Katrineholm is a city in the municipality of Katrineholm in Sweden.
 # labels = to_check incomplete
 "<Katrineholm>"
 	"Katrineholm" N Prop Sem/Plc Sg Nom @dep #1->
@@ -25891,7 +25891,7 @@
 	"." CLB @punct #9->3
 
 # text = Sandviken: Sandviken er ein býur í Sandvikens kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Sandviken: Sandviken is a city in the municipality of Sandviken in Sweden.
 # labels = to_check incomplete
 "<Sandviken>"
 	"Sandviken" N Prop Sem/Plc Sg Nom @dep #1->
@@ -25919,7 +25919,7 @@
 	"." CLB @punct #12->
 
 # text = Helsingborg: Helsingborg er ein býur í Helsingborgs kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Helsingborg: Helsingborg is a city in the municipality of Helsingborg in Sweden.
 # labels = to_check incomplete
 "<Helsingborg>"
 	"Helsingborg" N Prop Sem/Plc Sg Nom @dep #1->
@@ -25947,7 +25947,7 @@
 	"." CLB @punct #12->
 
 # text = Marstrand: Marstrand er ein býur í Kungälvs kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Marstrand: Marstrand is a city in the municipality of Kungälv in Sweden.
 # labels = to_check incomplete
 "<Marstrand>"
 	"Marstrand" N Prop Sem/Plc Sg Nom @dep #1->
@@ -25991,7 +25991,7 @@
 	"." CLB @punct #6->2
 
 # text = Ljusdal: Ljusdal er ein býur í Ljusdals kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Ljusdal: Ljusdal is a city in the municipality of Ljusdal in Sweden.
 # labels = to_check incomplete
 "<Ljusdal>"
 	"Ljusdal" N Prop Sem/Plc Sg Nom @dep #1->
@@ -26019,7 +26019,7 @@
 	"." CLB @punct #12->
 
 # text = Leksand: Leksand er ein býur í Leksands kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Leksand: Leksand is a city in the municipality of Leksand in Sweden.
 # labels = to_check incomplete
 "<Leksand>"
 	"Leksand" N Prop Sem/Plc Sg Nom @dep #1->
@@ -26047,7 +26047,7 @@
 	"." CLB @punct #12->
 
 # text = Surahammar: Surahammar er ein býur í Surahammars kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Surahammar: Surahammar is a city in the municipality of Surahammar in Sweden.
 # labels = to_check incomplete
 "<Surahammar>"
 	"Surahammar" N Prop Sem/Plc Sg Nom @dep #1->
@@ -26075,7 +26075,7 @@
 	"." CLB @punct #12->
 
 # text = Hallstahammar: Hallstahammar er ein býur í Hallstahammars kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Hallstahammar: Hallstahammar is a city in the municipality of Hallstahammar in Sweden.
 # labels = to_check incomplete
 "<Hallstahammar>"
 	"Hallstahammar" N Prop Sem/Plc Sg Nom @dep #1->
@@ -26127,7 +26127,7 @@
 	"." CLB @punct #10->3
 
 # text = Hässleholm: Hässleholm er ein býur í Hässleholms kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Hässleholm: Hässleholm is a city in the municipality of Hässleholm in Sweden.
 # labels = to_check incomplete
 "<Hässleholm>"
 	"Hässleholm" N Prop Sem/Plc Sg Nom @dep #1->
@@ -26155,7 +26155,7 @@
 	"." CLB @punct #12->
 
 # text = Laholm: Laholm er ein býur í Laholms kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Laholm: Laholm is a city in the municipality of Laholm in Sweden.
 # labels = to_check incomplete
 "<Laholm>"
 	"Laholm" N Prop Sem/Plc Sg Nom @dep #1->
@@ -26183,7 +26183,7 @@
 	"." CLB @punct #12->
 
 # text = Krokom: Krokom er ein býur í Krokoms kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Krokom: Krokom is a city in the municipality of Krokom in Sweden.
 # labels = to_check incomplete
 "<Krokom>"
 	"Krokom" N Prop Sem/Sur Sg Nom @dep #1->
@@ -26211,7 +26211,7 @@
 	"." CLB @punct #12->
 
 # text = Älmhult: Älmhult er ein býur í Älmhults kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Älmhult: Älmhult is a city in the municipality of Älmhult in Sweden.
 # labels = to_check incomplete
 "<Älmhult>"
 	"Älmhult" N Prop Sem/Sur Sg Nom @dep #1->
@@ -26239,7 +26239,7 @@
 	"." CLB @punct #12->
 
 # text = Markaryd: Markaryd er ein býur í Markaryds kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Markaryd: Markaryd is a city in the municipality of Markaryd in Sweden.
 # labels = to_check incomplete
 "<Markaryd>"
 	"Markaryd" N Prop Sem/Sur Sg Nom @dep #1->
@@ -26267,7 +26267,7 @@
 	"." CLB @punct #12->
 
 # text = Tingsryd: Tingsryd er ein býur í Tingsryds kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Tingsryd: Tingsryd is a city in the municipality of Tingsryd in Sweden.
 # labels = to_check incomplete
 "<Tingsryd>"
 	"Tingsryd" N Prop Sem/Plc Sg Nom @dep #1->
@@ -26295,7 +26295,7 @@
 	"." CLB @punct #12->
 
 # text = Älvsbyn: Älvsbyn er ein býur í Älvsbyns kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Älvsbyn: Älvsbyn is a city in the municipality of Älvsbyn in Sweden.
 # labels = to_check incomplete
 "<Älvsbyn>"
 	"Älvsbyn" N Prop Sem/Plc Sg Nom @dep #1->
@@ -26323,7 +26323,7 @@
 	"." CLB @punct #12->
 
 # text = Arvidsjaur: Arvidsjaur er ein býur í Arvidsjaurs kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Arvidsjaur: Arvidsjaur is a city in the municipality of Arvidsjaur in Sweden.
 # labels = to_check incomplete
 "<Arvidsjaur>"
 	"Arvidsjaur" N Prop Sem/Plc Sg Nom @dep #1->
@@ -26351,7 +26351,7 @@
 	"." CLB @punct #12->
 
 # text = Arjeplog: Arjeplog er ein býur í Arjeplogs kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Arjeplog: Arjeplog is a city in the municipality of Arjeplog in Sweden.
 # labels = to_check incomplete
 "<Arjeplog>"
 	"Arjeplog" N Prop Sem/Plc Sg Nom @dep #1->
@@ -26379,7 +26379,7 @@
 	"." CLB @punct #12->
 
 # text = Hallsberg: Hallsberg er ein býur í Hallsbergs kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Hallsberg: Hallsberg is a city in the municipality of Hallsberg in Sweden.
 # labels = to_check incomplete
 "<Hallsberg>"
 	"Hallsberg" N Prop Sem/Sur Sg Nom @dep #1->
@@ -26407,7 +26407,7 @@
 	"." CLB @punct #12->
 
 # text = Åtvidaberg: Åtvidaberg er ein býur í Åtvidabergs kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Åtvidaberg: Åtvidaberg is a city in the municipality of Åtvidaberg in Sweden.
 # labels = to_check incomplete
 "<Åtvidaberg>"
 	"Åtvidaberg" N Prop Sem/Sur Sg Nom @dep #1->
@@ -26435,7 +26435,7 @@
 	"." CLB @punct #12->
 
 # text = Finspång: Finspång er ein býur í Finspångs kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Finspång: Finspång is a city in the municipality of Finspång in Sweden.
 # labels = to_check incomplete
 "<Finspång>"
 	"Finspång" N Prop Sem/Plc Sg Nom @dep #1->
@@ -26463,7 +26463,7 @@
 	"." CLB @punct #12->
 
 # text = Ödeshög: Ödeshög er ein býur í Ödeshögs kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Ödeshög: Ödeshög is a city in the municipality of Ödeshög in Sweden.
 # labels = to_check incomplete
 "<Ödeshög>"
 	"Ödeshög" N Prop Sem/Sur Sg Nom @dep #1->
@@ -26491,7 +26491,7 @@
 	"." CLB @punct #12->
 
 # text = Valdemarsvik: Valdemarsvik er ein býur í Valdemarsviks kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Valdemarsvik: Valdemarsvik is a city in the municipality of Valdermarsvik in Sweden.
 # labels = to_check incomplete
 "<Valdemarsvik>"
 	"Valdemarsvik" N Prop Sem/Plc Sg Nom @dep #1->
@@ -26519,7 +26519,7 @@
 	"." CLB @punct #12->
 
 # text = Klippan: Klippan er ein býur í Klippans kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Klippan: Klippan is a city in the municipality of Klippan in Sweden.
 # labels = to_check incomplete
 "<Klippan>"
 	"Klippan" N Prop Sem/Plc Sg Nom @dep #1->
@@ -26547,7 +26547,7 @@
 	"." CLB @punct #12->
 
 # text = Vingåker: Vingåker er ein býur í Vingåkers kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Vingåker: Vingåker is a city in the municipality of Vingåker in Sweden.
 # labels = to_check incomplete
 "<Vingåker>"
 	"Vingåker" N Prop Sem/Plc Sg Nom @dep #1->
@@ -26575,7 +26575,7 @@
 	"." CLB @punct #12->
 
 # text = Vaxholm: Vaxholm er ein býur í Vaxholms kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Vaxholm: Vaxholm is a city in the municipality of Vaxholm in Sweden.
 # labels = to_check incomplete
 "<Vaxholm>"
 	"Vaxholm" N Prop Sem/Plc Sg Nom @dep #1->
@@ -26619,7 +26619,7 @@
 	"." CLB @punct #6->2
 
 # text = Årjäng: Årjäng er ein býur í Årjängs kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Årjäng: Årjäng is a city in the municipality of Årjäng in Sweden.
 # labels = to_check incomplete
 "<Årjäng>"
 	"Årjäng" N Prop Sem/Plc Sg Nom @dep #1->
@@ -26647,7 +26647,7 @@
 	"." CLB @punct #12->
 
 # text = Nordmaling: Nordmaling er ein býur í Nordmalings kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Nordmaling: Nordmaling is a city in the municipality of Nordmaling in Sweden.
 # labels = to_check incomplete
 "<Nordmaling>"
 	"Nordmaling" N Prop Sem/Plc Sg Nom @dep #1->
@@ -26675,7 +26675,7 @@
 	"." CLB @punct #12->
 
 # text = Norberg: Norberg er ein býur í Norbergs kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Norberg: Norberg is a city in the municipality of Norberg in Sweden.
 # labels = to_check incomplete
 "<Norberg>"
 	"Norberg" N Prop Sem/Sur Sg Nom @dep #1->
@@ -26703,7 +26703,7 @@
 	"." CLB @punct #12->
 
 # text = Skinnskatteberg: Skinnskatteberg er ein býur í Skinnskattebergs kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Skinnskatteberg: Skinnskatteberg is a city in the municipality of Skinnskatteberg in Sweden.
 # labels = to_check incomplete
 "<Skinnskatteberg>"
 	"Skinnskatteberg" N Prop Sem/Sur Sg Nom @dep #1->
@@ -26731,7 +26731,7 @@
 	"." CLB @punct #12->
 
 # text = Gullspång: Gullspång er ein býur í Gullspångs kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Gullspång: Gullspång is a city in the municipality of Gullspång in Sweden.
 # labels = to_check incomplete
 "<Gullspång>"
 	"Gullspång" N Prop Sem/Plc Sg Nom @dep #1->
@@ -26759,7 +26759,7 @@
 	"." CLB @punct #12->
 
 # text = Munkedal: Munkedal er ein býur í Munkedals kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Munkedal: Munkedal is a city in the municipality of Munkedal in Sweden.
 # labels = to_check incomplete
 "<Munkedal>"
 	"Munkedal" N Prop Sem/Plc Sg Nom @dep #1->
@@ -26787,7 +26787,7 @@
 	"." CLB @punct #12->
 
 # text = Strömstad: Strömstad er ein býur í Strömstads kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Strömstad: Strömstad is a city in the municipality of Strömstad in Sweden.
 # labels = to_check incomplete
 "<Strömstad>"
 	"Strömstad" N Prop Sem/Sur Sg Nom @dep #1->
@@ -27613,7 +27613,7 @@
 	"." CLB @punct #11->6
 
 # text = Fyrisitingin hjá Odda kommunu er í býnum við sama navni.
-# text[eng] = 
+# text[eng] = The administration of the Odda municipality is in the city of the same name.
 # labels = to_check incomplete
 "<Fyrisitingin>"
 	"fyrisiting" N Fem Sg Nom Def @nsubj #1->7
@@ -29157,7 +29157,7 @@
 	"." CLB @punct #7->4
 
 # text = Myndprýtt føroyskir peningaseðlar.
-# text[eng] = 
+# text[eng] = Illustrated Faroese bank notes.
 # labels = to_check incomplete
 "<Myndprýtt>"
 	"myndprýða" V Sup @dep #1->
