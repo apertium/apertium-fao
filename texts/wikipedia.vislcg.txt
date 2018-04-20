@@ -23651,7 +23651,7 @@
 	"." CLB @punct #8->
 
 # text = Fyri at fáa útlendskar fyritøkur at koma til býurin virkar býurin sum eitt fríhandilsøki.
-# text[eng] = 
+# text[eng] = To get foreign businesses to come to the city, the city is a free trade zone.
 # labels = to_check incomplete
 "<Fyri>"
 	"fyri" Pr @case #1->
@@ -23847,7 +23847,7 @@
 	"." CLB @punct #7->3
 
 # text = Hetta vóru fiskasløg, sum fiskimenninir, ið búðu fram við vatninum, fiskaðu við smáum útróðrarbátum.
-# text[eng] = 
+# text[eng] = These were species of fish, that fishermen that lived near the water, fished with small fishing boats.
 # labels = to_check incomplete
 "<Hetta>"
 	"hesin" Pron Dem Neu Sg Acc @dep #1->
@@ -23885,7 +23885,7 @@
 	"." CLB @punct #17->
 
 # text = Víð øki eru nú í staðin beitilendi hjá seyði og geit.
-# text[eng] = 
+# text[eng] = Wide spaces are now instead pastures for sheep and goat.
 # labels = to_check incomplete
 "<Víð>"
 	"víður" A Neu Pl Nom Indef @amod #1->2
@@ -23913,7 +23913,7 @@
 	"." CLB @punct #12->
 
 # text = Bitið elvdi til, at vøksturin broyttist.
-# text[eng] = 
+# text[eng] = The grazing caused changes in the growth.
 # labels = to_check incomplete
 "<Bitið>"
 	"bíta" V Sup @dep #1->
@@ -24965,7 +24965,7 @@
 	"." CLB @punct #9->4
 
 # text = Enn er at nevna orðasavnið upp á 7.450 orð, ið liggur eftir hann.
-# text[eng] = 
+# text[eng] = Still to mention is the 7.450 word dictionary, that came from him.
 # labels = to_check incomplete
 "<Enn>"
 	"enn" Adv @dep #1->
@@ -26815,7 +26815,7 @@
 	"." CLB @punct #12->
 
 # text = Ålesund: Ålesund er ein býur og kommuna í Møre og Romsdal í Noregi.
-# text[eng] = 
+# text[eng] = Ålesund: Ålesund is a city and municipality in Møre and Romsdal in Norway.
 # labels = to_check incomplete
 "<Ålesund>"
 	"Ålesund" N Prop Sem/Plc Sg Nom @dep #1->
@@ -26849,7 +26849,7 @@
 	"." CLB @punct #15->
 
 # text = Älvdalen: Älvdalen er ein býur í Älvdalens kommunu í Svøríki.
-# text[eng] = 
+# text[eng] = Älvdalen: Älvdalen is a city in the municipality of Älvdalen in Sweden.
 # labels = to_check incomplete
 "<Älvdalen>"
 	"Älvdalen" N Prop Sem/Plc Sg Nom @dep #1->
@@ -27403,7 +27403,7 @@
 	"." CLB @punct #11->
 
 # text = Tí er eisini trupulleiki við burturkastinum frá kjarnorkuverkum.
-# text[eng] = 
+# text[eng] = That's why there are also issues with the waste from nuclear power plants.
 # labels = to_check incomplete
 "<Tí>"
 	"tí" CS @dep #1->
