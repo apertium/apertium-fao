@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Faroese], [0.1.0], [francis.tyers@gmail.com], [apertium-fao], [http://wiki.apertium.org/wiki/Apertium-fao])
+AC_INIT([Apertium Faroese], [0.1.0], [francis.tyers@gmail.com], [apertium-fao], [https://wiki.apertium.org/wiki/Apertium-fao])
 AM_INIT_AUTOMAKE
 
 AC_PROG_LN_S
