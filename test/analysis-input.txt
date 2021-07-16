@@ -1,0 +1,6 @@
+# from https://wiki.apertium.org/wiki/Faroese_and_English/Pending_tests
+í dag fáa vit svar
+Orðini
+Hundurin
+Stóri hundurin
+Himmalin er bláur.

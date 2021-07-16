@@ -1,0 +1,10 @@
+[Bl2PchurNXoV#0] ^Hundurin/hundur<n><m><sg><acc><def>/hundur<n><m><sg><nom><def>$
+[/Bl2PchurNXoV]
+[HHAp6UmbO6KI#0] ^Himmalin/himmal<n><m><sg><acc><def>/himmal<n><m><sg><nom><def>$ ^er/er<cnjsub>/vera<vblex><pri><p3><sg>/vera<vbser><pri><p3><sg>$ ^bláur/bláur<adj><pst><m><sg><nom>$^./.<sent>$
+[/HHAp6UmbO6KI]
+[In3F6iWpeN6Y#0] ^Orðini/orð<n><nt><pl><acc><def>/orð<n><nt><pl><nom><def>$
+[/In3F6iWpeN6Y]
+[J9pNYnYR67J3#0] ^Stóri/*Stóri$ ^hundurin/hundur<n><m><sg><acc><def>/hundur<n><m><sg><nom><def>$
+[/J9pNYnYR67J3]
+[hEu6ra1zq5JS#0] ^í dag/í dag<adv>$ ^fáa/fáa<vblex><inf>/fáa<vblex><pri><p3><pl>/fáa<vblex><pri><p1><pl>/fáa<vblex><pri><p2><pl>$ ^vit/prnpers<prn><p1><mf><pl><nom>$ ^svar/svar<n><nt><sg><acc><ind>/svar<n><nt><sg><nom><ind>/svar<n><nt><pl><acc><ind>/svar<n><nt><pl><nom><ind>$
+[/hEu6ra1zq5JS]
